@@ -1,0 +1,234 @@
+[
+  {
+    "name": "missing_cited_id",
+    "note": "Known, explicitly unit-tested fallback: nonexistent citation is ignored.",
+    "exit_code": 0,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/a2908bf3dc79/pr3-baseline/skills/report-reality-check/scripts/verify_quotes.py",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/missing_cited_id/ledger.md",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/missing_cited_id/record.txt"
+    ],
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | L99 \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nsaved\n[L02] agent\nFinished.\n"
+    },
+    "stdout": "FOUND       row 1: 'saved'\n\n1 quotes: 1 found, 0 not found, 0 in the wrong place, 0 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "missing_draft_id",
+    "note": "An unresolved --draft argument silently disables the draft-only check.",
+    "exit_code": 0,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/a2908bf3dc79/pr3-baseline/skills/report-reality-check/scripts/verify_quotes.py",
+      "--draft",
+      "L99",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/missing_draft_id/ledger.md",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/missing_draft_id/record.txt"
+    ],
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | L02 \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nwrite failed\n[L02] agent\nsaved\n"
+    },
+    "stdout": "FOUND       row 1: 'saved'\n\n1 quotes: 1 found, 0 not found, 0 in the wrong place, 0 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "valid_draft_id_control",
+    "note": "Control: identical input with the actual draft ID must fail.",
+    "exit_code": 1,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/a2908bf3dc79/pr3-baseline/skills/report-reality-check/scripts/verify_quotes.py",
+      "--draft",
+      "L02",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/valid_draft_id_control/ledger.md",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/valid_draft_id_control/record.txt"
+    ],
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | L02 \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nwrite failed\n[L02] agent\nsaved\n"
+    },
+    "stdout": "DRAFT ONLY  row 1: 'saved'\n\n1 quotes: 0 found, 0 not found, 0 in the wrong place, 1 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "unstructured_proof_absent_from_draft",
+    "note": "False positive: quote exists exclusively in an independent unstructured file, never in draft.",
+    "exit_code": 1,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/a2908bf3dc79/pr3-baseline/skills/report-reality-check/scripts/verify_quotes.py",
+      "--draft",
+      "L02",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/unstructured_proof_absent_from_draft/ledger.md",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/unstructured_proof_absent_from_draft/record.txt",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/unstructured_proof_absent_from_draft/proof.txt"
+    ],
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | proof.txt \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nStarting.\n[L02] agent\nFinished.\n",
+      "proof.txt": "saved\n"
+    },
+    "stdout": "DRAFT ONLY  row 1: 'saved'\n\n1 quotes: 0 found, 0 not found, 0 in the wrong place, 1 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "unstructured_corroboration",
+    "note": "False positive: independent unstructured source corroborates quote in draft.",
+    "exit_code": 1,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/a2908bf3dc79/pr3-baseline/skills/report-reality-check/scripts/verify_quotes.py",
+      "--draft",
+      "L02",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/unstructured_corroboration/ledger.md",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/unstructured_corroboration/record.txt",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/unstructured_corroboration/proof.txt"
+    ],
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | proof.txt \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nStarting.\n[L02] agent\nsaved\n",
+      "proof.txt": "saved\n"
+    },
+    "stdout": "DRAFT ONLY  row 1: 'saved'\n\n1 quotes: 0 found, 0 not found, 0 in the wrong place, 1 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "quoted_id_false_alarm",
+    "note": "False positive: ID inside first excerpt overrides external citation for second excerpt.",
+    "exit_code": 1,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/a2908bf3dc79/pr3-baseline/skills/report-reality-check/scripts/verify_quotes.py",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/quoted_id_false_alarm/ledger.md",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/quoted_id_false_alarm/record.txt"
+    ],
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | L01 \"See L02\"; \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nSee L02\nsaved\n[L02] agent\nfailed\n"
+    },
+    "stdout": "FOUND       row 1: 'See L02'\nWRONG PLACE row 1: 'saved' (cited: L02)\n\n2 quotes: 1 found, 0 not found, 1 in the wrong place, 0 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "quoted_id_false_success",
+    "note": "False success: both excerpts are presented under L01, but second is silently attributed to L02.",
+    "exit_code": 0,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/a2908bf3dc79/pr3-baseline/skills/report-reality-check/scripts/verify_quotes.py",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/quoted_id_false_success/ledger.md",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/quoted_id_false_success/record.txt"
+    ],
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | L01 \"See L02\"; \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nSee L02\nfailed\n[L02] agent\nsaved\n"
+    },
+    "stdout": "FOUND       row 1: 'See L02'\nFOUND       row 1: 'saved'\n\n2 quotes: 2 found, 0 not found, 0 in the wrong place, 0 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "optional_leading_pipe",
+    "note": "Valid Markdown table row without optional leading pipe is silently skipped.",
+    "exit_code": 0,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/a2908bf3dc79/pr3-baseline/skills/report-reality-check/scripts/verify_quotes.py",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/optional_leading_pipe/ledger.md",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/optional_leading_pipe/record.txt"
+    ],
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | First | L01 \"saved\" |\n2 | Second | L01 \"fabricated\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nsaved\n"
+    },
+    "stdout": "FOUND       row 1: 'saved'\n\n1 quotes: 1 found, 0 not found, 0 in the wrong place, 0 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "leading_pipe_control",
+    "note": "Control: adding the leading pipe exposes the missing quote.",
+    "exit_code": 1,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/a2908bf3dc79/pr3-baseline/skills/report-reality-check/scripts/verify_quotes.py",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/leading_pipe_control/ledger.md",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/leading_pipe_control/record.txt"
+    ],
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | First | L01 \"saved\" |\n| 2 | Second | L01 \"fabricated\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nsaved\n"
+    },
+    "stdout": "FOUND       row 1: 'saved'\nNOT FOUND   row 2: 'fabricated'\n\n2 quotes: 1 found, 1 not found, 0 in the wrong place, 0 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "extra_body_cell",
+    "note": "False success: an extra row cell replaces the Evidence cell during parsing.",
+    "exit_code": 0,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/a2908bf3dc79/pr3-baseline/skills/report-reality-check/scripts/verify_quotes.py",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/extra_body_cell/ledger.md",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/extra_body_cell/record.txt"
+    ],
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | L01 \"fabricated\" | L01 \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nsaved\n"
+    },
+    "stdout": "FOUND       row 1: 'saved'\n\n1 quotes: 1 found, 0 not found, 0 in the wrong place, 0 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "duplicate_ids_draft",
+    "note": "False positive when IDs are file-local: independent [L02] is merged into draft bucket.",
+    "exit_code": 1,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/a2908bf3dc79/pr3-baseline/skills/report-reality-check/scripts/verify_quotes.py",
+      "--draft",
+      "L02",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/duplicate_ids_draft/ledger.md",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/duplicate_ids_draft/record.txt",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/duplicate_ids_draft/proof.txt"
+    ],
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | proof.txt L02 \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nStarting.\n[L02] agent\nsaved\n",
+      "proof.txt": "[L01] tool\nStarting.\n[L02] tool\nsaved\n"
+    },
+    "stdout": "DRAFT ONLY  row 1: 'saved'\n\n1 quotes: 0 found, 0 not found, 0 in the wrong place, 1 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "filename_looks_like_id",
+    "note": "False positive: filename/path citation is interpreted as a record block ID.",
+    "exit_code": 1,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/a2908bf3dc79/pr3-baseline/skills/report-reality-check/scripts/verify_quotes.py",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/filename_looks_like_id/ledger.md",
+      "/workspace/scratch/a2908bf3dc79/parser-review/cases/filename_looks_like_id/L01.txt"
+    ],
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | /logs/L01.txt \"saved\" |\n",
+    "records": {
+      "L01.txt": "[L01] tool\nStarting.\n[L02] tool\nsaved\n"
+    },
+    "stdout": "WRONG PLACE row 1: 'saved' (cited: L01)\n\n1 quotes: 0 found, 0 not found, 1 in the wrong place, 0 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  }
+]

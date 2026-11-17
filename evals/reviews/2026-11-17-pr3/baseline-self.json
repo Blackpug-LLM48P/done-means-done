@@ -1,0 +1,59 @@
+[
+  {
+    "name": "unknown_id",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L99「OK」 |\n",
+    "record": "[L01] tool\nOK\n[L02] agent\nDone\n",
+    "options": [],
+    "exit": 0,
+    "stdout": "FOUND       row 1: 'OK'\n\n1 quotes: 1 found, 0 not found, 0 in the wrong place, 0 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "unclosed_after_valid",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L01「OK」 L02「閉じていない |\n",
+    "record": "[L01] tool\nOK\n[L02] agent\nDone\n",
+    "options": [],
+    "exit": 0,
+    "stdout": "FOUND       row 1: 'OK'\n\n1 quotes: 1 found, 0 not found, 0 in the wrong place, 0 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "unknown_draft",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L02「Done」 |\n",
+    "record": "[L01] tool\nOK\n[L02] agent\nDone\n",
+    "options": [
+      "--draft",
+      "L99"
+    ],
+    "exit": 0,
+    "stdout": "FOUND       row 1: 'Done'\n\n1 quotes: 1 found, 0 not found, 0 in the wrong place, 0 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "mixed_range",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L01–R02「OK」 |\n",
+    "record": "[L01] tool\nOK\n[L02] agent\nDone\n",
+    "options": [],
+    "exit": 0,
+    "stdout": "FOUND       row 1: 'OK'\n\n1 quotes: 1 found, 0 not found, 0 in the wrong place, 0 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "reversed_range",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L02–L01「Done」 |\n",
+    "record": "[L01] tool\nOK\n[L02] agent\nDone\n",
+    "options": [],
+    "exit": 0,
+    "stdout": "FOUND       row 1: 'Done'\n\n1 quotes: 1 found, 0 not found, 0 in the wrong place, 0 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  },
+  {
+    "name": "extra_cell",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L99「missing」 | L01「OK」 |\n",
+    "record": "[L01] tool\nOK\n[L02] agent\nDone\n",
+    "options": [],
+    "exit": 0,
+    "stdout": "FOUND       row 1: 'OK'\n\n1 quotes: 1 found, 0 not found, 0 in the wrong place, 0 only in the draft, 0 over the length rule. Rows without a quote: 0.\nChecked: quotes marked with \"\" “” 「」 『』 in the Evidence column of ledger tables.\nNot checked: whether a quote supports its claim, text outside ledger tables, other quote marks.\n",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,384 @@
+{
+  "input_commit": "3905cc7e89dd1be5d46fbcfa6b8b80445dfbae04",
+  "base_commit": "9841bbd92acc4465421e3926c0c2248be2a1d469",
+  "source_blobs_verified_at_acquisition": true,
+  "source_inventory": [
+    {
+      "path": ".gitignore",
+      "sha": "7a60b85e148f80966a550e5ab6a762a907c69ca6",
+      "size": 19
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "24510a5c28a01d3bc69b1e07636f469f3e64aede",
+      "size": 2367
+    },
+    {
+      "path": "LICENSE",
+      "sha": "d44f27dad7542bdae566c3ce72af99d95efa42a4",
+      "size": 1072
+    },
+    {
+      "path": "README.md",
+      "sha": "c146778a89b93e9b18e3a8793939a4faae002ecf",
+      "size": 3061
+    },
+    {
+      "path": "evals/README.md",
+      "sha": "2f02a75c2e6580f6e901bf4f38460f54b624ab74",
+      "size": 3866
+    },
+    {
+      "path": "evals/testlog-01/LEDGER_KEY_v0.3.md",
+      "sha": "99b0603a643a96d21cf2a6078debf78611d58784",
+      "size": 5728
+    },
+    {
+      "path": "evals/testlog-01/STRESS_CHECK_RUN01_claude.txt",
+      "sha": "b9f2623e357b0766cb467ae288a312140f1a2119",
+      "size": 4170
+    },
+    {
+      "path": "evals/testlog-01/STRESS_CHECK_TESTLOG_01.txt",
+      "sha": "d2fece67b482f0df20e176b65acde868573da0c9",
+      "size": 3522
+    },
+    {
+      "path": "evals/testlog-01/STRESS_CHECK_TESTLOG_01_KEY.txt",
+      "sha": "8fc29b7e2a1cd753cb0f13787995409a07db52ec",
+      "size": 2417
+    },
+    {
+      "path": "evals/testlog-02-clean/LEDGER_KEY_v0.3.md",
+      "sha": "0fb4ad190759460f211163cfac6d2970396c40d5",
+      "size": 2773
+    },
+    {
+      "path": "evals/testlog-02-clean/TESTLOG_02.txt",
+      "sha": "65ef8669fa7709c43c9230dcff13c6b755b1de8c",
+      "size": 1438
+    },
+    {
+      "path": "origin/AI_AGENT_STRESS_CHECK_v0.1_20261102.txt",
+      "sha": "028046056493f0c59c40c930b1144f7e8bcbef03",
+      "size": 7805
+    },
+    {
+      "path": "origin/AI_AGENT_STRESS_CHECK_v0.2_20261102.txt",
+      "sha": "95d0f9e648833efd2e07b28b3aa9a15948458a02",
+      "size": 10037
+    },
+    {
+      "path": "research/2026-11-04-agent-memory-maintenance.md",
+      "sha": "fe104487cf502ad1f3a3f4991617f602a81ceddf",
+      "size": 19678
+    },
+    {
+      "path": "skills/report-reality-check/DESIGN.md",
+      "sha": "add3fe8031ae0a2146d5a19b119895cd13d34ece",
+      "size": 7145
+    },
+    {
+      "path": "skills/report-reality-check/SKILL.md",
+      "sha": "7a7490875e4b716cf00f6f4ec9500ed5a1f468af",
+      "size": 7955
+    },
+    {
+      "path": "skills/report-reality-check/references/work-state-check.md",
+      "sha": "981a7d4c9ce8d62759ab1746a8eeddd48653a65d",
+      "size": 5293
+    },
+    {
+      "path": "skills/report-reality-check/scripts/verify_quotes.py",
+      "sha": "6e29669f205bd91b1820cf0df8b05616963777d8",
+      "size": 9811
+    },
+    {
+      "path": "tests/test_verify_quotes.py",
+      "sha": "2dbcf83e2f652ca1db9fd55877abe9145c7bf94f",
+      "size": 10361
+    }
+  ],
+  "modified_source_paths": [
+    "CHANGELOG.md",
+    "README.md",
+    "evals/README.md",
+    "evals/testlog-01/LEDGER_KEY_v0.3.md",
+    "evals/testlog-02-clean/LEDGER_KEY_v0.3.md",
+    "skills/report-reality-check/DESIGN.md",
+    "skills/report-reality-check/SKILL.md",
+    "skills/report-reality-check/references/work-state-check.md",
+    "skills/report-reality-check/scripts/verify_quotes.py",
+    "tests/test_verify_quotes.py",
+    "tests/test_quote_boundaries.py",
+    "evals/proposals/post-pilot-rules.md"
+  ],
+  "final_source": [
+    {
+      "path": ".gitignore",
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+      "git_blob_sha": "7a60b85e148f80966a550e5ab6a762a907c69ca6",
+      "bytes": 19
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "e0d8063fd11ccf6c29574058fa154a9c16df64dc6b4b1aa62998592d94ce26a8",
+      "git_blob_sha": "b4baf072fbfc15483c13bcc81daa29d53a35f220",
+      "bytes": 3256
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ff38d85951984e241c85d9e62cd8f6da45269ebbb95ffd3f3de2ae9aa2bbd74c",
+      "git_blob_sha": "d44f27dad7542bdae566c3ce72af99d95efa42a4",
+      "bytes": 1072
+    },
+    {
+      "path": "README.md",
+      "sha256": "761368adf61e9b0f65a36f89ee381c1151aac078b2a4005f804db79d7000b417",
+      "git_blob_sha": "d1b18ae76245134ec44732a4c1921e8739d39593",
+      "bytes": 3179
+    },
+    {
+      "path": "evals/README.md",
+      "sha256": "99efa76c63069cd0acc258e288d0f7936b7e9eeae90971bdefa671f37fdf96d8",
+      "git_blob_sha": "0e1fa4a5be5f85079df443bd5d1bb480d89cbd01",
+      "bytes": 4311
+    },
+    {
+      "path": "evals/testlog-01/LEDGER_KEY_v0.3.md",
+      "sha256": "35545f015426a57c4a5446c6d4b5a5d3a13c7ee53be4b48e129d13aec28783c9",
+      "git_blob_sha": "e3c48b12546156503c407c47aa7115f3d9b11889",
+      "bytes": 6937
+    },
+    {
+      "path": "evals/testlog-01/STRESS_CHECK_RUN01_claude.txt",
+      "sha256": "3b33f8952c72200739edaf41a18299fdc72c28de06832bf894fd991eaf3de2a7",
+      "git_blob_sha": "b9f2623e357b0766cb467ae288a312140f1a2119",
+      "bytes": 4170
+    },
+    {
+      "path": "evals/testlog-01/STRESS_CHECK_TESTLOG_01.txt",
+      "sha256": "655948b2c7515625e445683d89e127cb30d5cd511d0b9b30eb16b2c7f4107500",
+      "git_blob_sha": "d2fece67b482f0df20e176b65acde868573da0c9",
+      "bytes": 3522
+    },
+    {
+      "path": "evals/testlog-01/STRESS_CHECK_TESTLOG_01_KEY.txt",
+      "sha256": "558ec2b04127e5e9e2ed93ffbca5094f966853cfe486edf2933aa2c40423c8be",
+      "git_blob_sha": "8fc29b7e2a1cd753cb0f13787995409a07db52ec",
+      "bytes": 2417
+    },
+    {
+      "path": "evals/testlog-02-clean/LEDGER_KEY_v0.3.md",
+      "sha256": "4c776757a496e485e1c169fbb14ae92940dbaed1cf201eb0e711505fab08c941",
+      "git_blob_sha": "d9c3dc14a95a3bca03ecddcc9e53a6764cc3df48",
+      "bytes": 4052
+    },
+    {
+      "path": "evals/testlog-02-clean/TESTLOG_02.txt",
+      "sha256": "958f7f4f0185ebf2075efd5e840219a0ce25061acf3125d414a4467aa014c1a0",
+      "git_blob_sha": "65ef8669fa7709c43c9230dcff13c6b755b1de8c",
+      "bytes": 1438
+    },
+    {
+      "path": "origin/AI_AGENT_STRESS_CHECK_v0.1_20261102.txt",
+      "sha256": "cc8c556520749988598dd454bfc63351ed9ff859dcee77f96c3b8706d0bc4c6a",
+      "git_blob_sha": "028046056493f0c59c40c930b1144f7e8bcbef03",
+      "bytes": 7805
+    },
+    {
+      "path": "origin/AI_AGENT_STRESS_CHECK_v0.2_20261102.txt",
+      "sha256": "9b426280db453212d8a7a4e1e1734f8e49fdac070ab0f4db0be0a5a5396920f0",
+      "git_blob_sha": "95d0f9e648833efd2e07b28b3aa9a15948458a02",
+      "bytes": 10037
+    },
+    {
+      "path": "research/2026-11-04-agent-memory-maintenance.md",
+      "sha256": "9fc1954f9eb7ef62062f3ab8a394b04c5dfad080611b1402de641f4be1b0d814",
+      "git_blob_sha": "fe104487cf502ad1f3a3f4991617f602a81ceddf",
+      "bytes": 19678
+    },
+    {
+      "path": "skills/report-reality-check/DESIGN.md",
+      "sha256": "51c8b69554ec6cb8b8a6e19dc8c747d3c289e5197ecb86208f09dfb35a9ab3ca",
+      "git_blob_sha": "b8de1cd78d0ca9614447cd18ac90b83df4903732",
+      "bytes": 7823
+    },
+    {
+      "path": "skills/report-reality-check/SKILL.md",
+      "sha256": "fd962972ae2b17525db349d9dc80d00e75b86d91c4d509b5c7d22e7c55676f1b",
+      "git_blob_sha": "d9e557f03c6b2bd49ad58aeb01473522d5fa4534",
+      "bytes": 7903
+    },
+    {
+      "path": "skills/report-reality-check/references/work-state-check.md",
+      "sha256": "dbd332001c2b9a563243898a8fa91f37b39cc0251080f1c106b30913302d17a1",
+      "git_blob_sha": "e331d981009346d5883979acf2b626d1cfe71105",
+      "bytes": 5351
+    },
+    {
+      "path": "skills/report-reality-check/scripts/verify_quotes.py",
+      "sha256": "4f66739c7f5cdb83da947807471645b3dba66953fd1303ee797addb927c2466e",
+      "git_blob_sha": "030c323c800848dd0096c8980e814ea5b3b1af34",
+      "bytes": 14372
+    },
+    {
+      "path": "tests/test_verify_quotes.py",
+      "sha256": "2525339105dcafe1d2f43cc7e6b22850579e05095567ebc31c433e07bc9953b6",
+      "git_blob_sha": "0b9b5de1865d353b77d04b37f3d96420fe4ba5bc",
+      "bytes": 10380
+    },
+    {
+      "path": "tests/test_quote_boundaries.py",
+      "sha256": "7df08adb0e59b4f53a8d301da32c896c687e9d9f4f426f849d506af105c55071",
+      "git_blob_sha": "fe703019ae9ff7b66b8b3d251ce70e3ec4a9522a",
+      "bytes": 11092
+    },
+    {
+      "path": "evals/proposals/post-pilot-rules.md",
+      "sha256": "7aeeb48cdd5aef6a67381d6a17282bd8b770eefb6c7cf3460cfb6412749f0b86",
+      "git_blob_sha": "161f6a43a9a857909d184475331f7d418fc80963",
+      "bytes": 1892
+    }
+  ],
+  "review_artifacts": [
+    {
+      "path": "evals/reviews/2026-11-17-pr3/README.md",
+      "sha256": "faf04cab6a6a066f5c93cc388d8869d397ad812d905ad955f35924f21a718eae",
+      "git_blob_sha": "8cb46b8ec43dbed22e8d803a03926bcb1369af41",
+      "bytes": 9842
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/adversarial-replay.json",
+      "sha256": "4a9d543c8366b351cc20452644bdb62b161dfee70b55ae8da1cbe1d0c54b4f67",
+      "git_blob_sha": "11372948a4438bbbb8ad4263c3e47353483f1bcb",
+      "bytes": 6349
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/baseline-adversarial.json",
+      "sha256": "05b2aa9d2fe45f0397ada5cd1a5e9df6373450bbee23d6cbfd0753ad5220d83a",
+      "git_blob_sha": "23e7a91100534c8baf5976661c65ff34e5911628",
+      "bytes": 14482
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/baseline-code-review.md",
+      "sha256": "1ee6269447135176b2cad3c3b3cf6e5e8f41ed2c9289e54d512a11a73cb3f71a",
+      "git_blob_sha": "cdff264c28906cf1557dcac8f73895de1208172f",
+      "bytes": 6976
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/baseline-rubric-review.md",
+      "sha256": "a050e40a13a418c75c8f2cbea9f9752b969a0c7f81c40f18fd55b7cf363121cd",
+      "git_blob_sha": "0906a67c2302970f5a2a9ae8f35aea092698acf5",
+      "bytes": 9328
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/baseline-self.json",
+      "sha256": "4d9639e69bb70d48e1964a6da9572f13d6cb9c1d110ac3746ec730996b1bb114",
+      "git_blob_sha": "6d6e443daeb77e1b517cc25ce3dd003d3f590474",
+      "bytes": 3671
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/baseline-tests.txt",
+      "sha256": "8c4a7eb1709394b05514ee87953f1a1066521c35dc98d12a01d73cf36c97d8ab",
+      "git_blob_sha": "086fdcf7d1585a2ad21ea33aa844359aae9310ed",
+      "bytes": 4556
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/counterfactual.json",
+      "sha256": "a3bf8c53f450e2fc9b80c36fcf9ddd0b547f59edfee38bd404c79c017375f419",
+      "git_blob_sha": "ddc85296a9cd88eb4778a9682dcbf1990a341257",
+      "bytes": 4447
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/final-replay.json",
+      "sha256": "83795e45062ed6a97aa9cd905ae2931fc46c6e2b17ac736b0b2dde0cf1663de9",
+      "git_blob_sha": "f30541e9f75bce3ce588318a4147d24dc630e7d6",
+      "bytes": 16229
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/final-tests.txt",
+      "sha256": "7a153126fbe00e3d250cd69c0295878310e964bb258823c1f1d3e84e46582e40",
+      "git_blob_sha": "2e7bcfad62bbffbc7732b62d729003be878cbe1b",
+      "bytes": 9798
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/key-quote-check.json",
+      "sha256": "76aae859f0b137137c881f59f9e2558c1d88337e0dbfb7e2c641daaa57395389",
+      "git_blob_sha": "bbea66d86601456f5f2590b83afa62f3a6c75ddd",
+      "bytes": 368
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/preservation.json",
+      "sha256": "b742d8eae9b9f569f607c4408463296862762b19000c5b0370e461c5e441bd03",
+      "git_blob_sha": "0a787710ea87252718a07c84fe64560c0960f6c3",
+      "bytes": 2159
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/repair1-adversarial.json",
+      "sha256": "aaf8e53b3f2db6e01a47af160fa6015027e3d8bd5108c6306c7265bc901d55dc",
+      "git_blob_sha": "84128c80856aaf8d6569c8ef840fadfeb63df9b2",
+      "bytes": 12273
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/repair1-code-review.md",
+      "sha256": "fb7c4e582c221d056dffd3b65a0f857e105beae6f8439beb58a5c87fe6f23a4e",
+      "git_blob_sha": "76cc4cdb00fee49efe9fc3303b1ad13b7ad9a596",
+      "bytes": 7125
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/repair2-independent-replay.json",
+      "sha256": "2fbec7112f00b3f3061fefc877a66ee58bd8adc99fbff6fb7676729b3e25e0c2",
+      "git_blob_sha": "1fd5760c8f5e23568ec3e48b2100e2665c2d46a0",
+      "bytes": 18982
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/repair2-recheck.md",
+      "sha256": "00e86ab9f7e52610d2f7df61aaae9e80b5378d872e3a1ab9080cf9bf1cf96b2a",
+      "git_blob_sha": "3bfbfd98b276fd7f5f3317cc7249977cf8c6f9cb",
+      "bytes": 3034
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/replay-cases.json",
+      "sha256": "d3b48c6b63eb206165136a2fa47cefb3a07cadd739e71c0e7c8b9adc02b54f74",
+      "git_blob_sha": "bb688e660e738c8b404a8e5171b8a9cc78b56373",
+      "bytes": 9595
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/replay.py",
+      "sha256": "06c8c03a0e35832dd6d463320bb3fe51e7c92e493220edcbab306b212f2c68e4",
+      "git_blob_sha": "8f9b1b3021a526d820bb6f9318be5517d7bec8d5",
+      "bytes": 1773
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/rubric-recheck.md",
+      "sha256": "8ab95f12381db13aa84710daf3892b5eb0042ca576fe33d25ace87ffe0854a70",
+      "git_blob_sha": "fa28d24257b98c0f316459b586083176727c859f",
+      "bytes": 3837
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/testlog-01-quotes.txt",
+      "sha256": "c4c5631a4028607c9cc36b73f0f5233b438c262f4cdf4ed96d0619a63b56864e",
+      "git_blob_sha": "61c4f9d07d6372c33e93c592b8abe5f4854d22d3",
+      "bytes": 2164
+    },
+    {
+      "path": "evals/reviews/2026-11-17-pr3/testlog-02-clean-quotes.txt",
+      "sha256": "14f784aba56cd43181b08a5730426a48444ea26a3f23cb2b435e4a556aa111d8",
+      "git_blob_sha": "6a9c29ba9d98b1422712d0880163ab99f360115c",
+      "bytes": 1773
+    }
+  ],
+  "tests": {
+    "unit": 81,
+    "portable_cli_cases": 28,
+    "independent_final_replay": 10,
+    "saved_ledgers": [
+      34,
+      20
+    ]
+  },
+  "validation_scope": "deterministic code and rubric review only; no new model-effect run",
+  "model_identity": "exact internal model ID and UI effort setting not verified; independent sessions do not establish model diversity",
+  "recorded_at_utc": "2026-11-17T06:39:01.740620+00:00"
+}

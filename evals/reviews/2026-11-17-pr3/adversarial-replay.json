@@ -1,0 +1,98 @@
+[
+  {
+    "name": "missing_cited_id",
+    "before": 0,
+    "expected_after": 1,
+    "after": 1,
+    "stdout": "UNKNOWN ID   row 1: 'saved' (L99)\n\n1 quotes: 0 found, 1 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 0 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+    "stderr": ""
+  },
+  {
+    "name": "missing_draft_id",
+    "before": 0,
+    "expected_after": 2,
+    "after": 2,
+    "stdout": "",
+    "stderr": "INPUT ERROR: --draft ID does not exist: L99\n"
+  },
+  {
+    "name": "valid_draft_id_control",
+    "before": 1,
+    "expected_after": 1,
+    "after": 1,
+    "stdout": "DRAFT CITED  row 1: 'saved'\n\n1 quotes: 0 found, 1 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 0 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: L02.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+    "stderr": ""
+  },
+  {
+    "name": "unstructured_proof_absent_from_draft",
+    "before": 1,
+    "expected_after": 0,
+    "after": 0,
+    "stdout": "FOUND        row 1: 'saved'\n\n1 quotes: 1 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 0 found in cited blocks; 1 found by whole-record search only.\nDraft exclusion: L02.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+    "stderr": ""
+  },
+  {
+    "name": "unstructured_corroboration",
+    "before": 1,
+    "expected_after": 0,
+    "after": 0,
+    "stdout": "FOUND        row 1: 'saved'\n\n1 quotes: 1 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 0 found in cited blocks; 1 found by whole-record search only.\nDraft exclusion: L02.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+    "stderr": ""
+  },
+  {
+    "name": "quoted_id_false_alarm",
+    "before": 1,
+    "expected_after": 0,
+    "after": 0,
+    "stdout": "FOUND        row 1: 'See L02'\nFOUND        row 1: 'saved'\n\n2 quotes: 2 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 2 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+    "stderr": ""
+  },
+  {
+    "name": "quoted_id_false_success",
+    "before": 0,
+    "expected_after": 1,
+    "after": 1,
+    "stdout": "FOUND        row 1: 'See L02'\nWRONG PLACE  row 1: 'saved'\n\n2 quotes: 1 found, 1 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+    "stderr": ""
+  },
+  {
+    "name": "optional_leading_pipe",
+    "before": 0,
+    "expected_after": 1,
+    "after": 1,
+    "stdout": "FOUND        row 1: 'saved'\nNOT FOUND    row 2: 'fabricated'\n\n2 quotes: 1 found, 1 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+    "stderr": ""
+  },
+  {
+    "name": "leading_pipe_control",
+    "before": 1,
+    "expected_after": 1,
+    "after": 1,
+    "stdout": "FOUND        row 1: 'saved'\nNOT FOUND    row 2: 'fabricated'\n\n2 quotes: 1 found, 1 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+    "stderr": ""
+  },
+  {
+    "name": "extra_body_cell",
+    "before": 0,
+    "expected_after": 1,
+    "after": 1,
+    "stdout": "PARSE ISSUE line 3: expected 3 cells, got 4; escape literal pipes\n\n0 quotes: 0 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 1.\nCoverage: 0 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\nNo quotes found in the ledger. Nothing was verified.\n",
+    "stderr": ""
+  },
+  {
+    "name": "duplicate_ids_draft",
+    "before": 1,
+    "expected_after": 2,
+    "after": 2,
+    "stdout": "",
+    "stderr": "INPUT ERROR: duplicate record IDs across files: ['L01', 'L02']; check records separately\n"
+  },
+  {
+    "name": "filename_looks_like_id",
+    "before": 1,
+    "expected_after": 0,
+    "after": 0,
+    "stdout": "FOUND        row 1: 'saved'\n\n1 quotes: 1 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 0 found in cited blocks; 1 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+    "stderr": ""
+  }
+]

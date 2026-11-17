@@ -1,0 +1,171 @@
+{
+  "script": "/workspace/scratch/a2908bf3dc79/done-means-done-pr3/skills/report-reality-check/scripts/verify_quotes.py",
+  "script_sha256": "fe789cf1870c75dc5f5523fc8371fd3ba2a9691be620412b38765eec68662e34",
+  "cases": [
+    {
+      "name": "01_escaped_ascii",
+      "expected_exit": 0,
+      "actual_exit": 1,
+      "expectation_met": false,
+      "reason": "Documented escaped ASCII quotation syntax should represent literal interior quote marks.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/a2908bf3dc79/done-means-done-pr3/skills/report-reality-check/scripts/verify_quotes.py",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/01_escaped_ascii/ledger.md",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/01_escaped_ascii/record.txt"
+      ],
+      "stdout": "NOT FOUND    row 1: 'he said \\\\\"OK\\\\\"'\n\n1 quotes: 0 found, 1 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 0 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": ""
+    },
+    {
+      "name": "02_japanese_outer_control",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expectation_met": true,
+      "reason": "Control: same payload with Japanese outer quotation marks.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/a2908bf3dc79/done-means-done-pr3/skills/report-reality-check/scripts/verify_quotes.py",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/02_japanese_outer_control/ledger.md",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/02_japanese_outer_control/record.txt"
+      ],
+      "stdout": "FOUND        row 1: 'he said \"OK\"'\n\n1 quotes: 1 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": ""
+    },
+    {
+      "name": "03_range_missing_endpoint",
+      "expected_exit": 1,
+      "actual_exit": 0,
+      "expectation_met": false,
+      "reason": "Explicit L2 does not exist; zero-padding-sensitive IDs must not silently resolve to L02.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/a2908bf3dc79/done-means-done-pr3/skills/report-reality-check/scripts/verify_quotes.py",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/03_range_missing_endpoint/ledger.md",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/03_range_missing_endpoint/record.txt"
+      ],
+      "stdout": "FOUND        row 1: 'saved'\n\n1 quotes: 1 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": ""
+    },
+    {
+      "name": "04_range_draft_endpoint",
+      "expected_exit": 1,
+      "actual_exit": 0,
+      "expectation_met": false,
+      "reason": "Explicit upper endpoint L2 is the selected draft; reject the range or report DRAFT CITED.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/a2908bf3dc79/done-means-done-pr3/skills/report-reality-check/scripts/verify_quotes.py",
+        "--draft",
+        "L2",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/04_range_draft_endpoint/ledger.md",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/04_range_draft_endpoint/record.txt"
+      ],
+      "stdout": "FOUND        row 1: 'saved'\n\n1 quotes: 1 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: L2.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": ""
+    },
+    {
+      "name": "05_range_uniform_padding_control",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expectation_met": true,
+      "reason": "Control: L01-L02 does not explicitly cite L2, and quote exists in non-draft L01.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/a2908bf3dc79/done-means-done-pr3/skills/report-reality-check/scripts/verify_quotes.py",
+        "--draft",
+        "L2",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/05_range_uniform_padding_control/ledger.md",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/05_range_uniform_padding_control/record.txt"
+      ],
+      "stdout": "FOUND        row 1: 'saved'\n\n1 quotes: 1 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: L2.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": ""
+    },
+    {
+      "name": "06_other_table_body_evidence",
+      "expected_exit": 0,
+      "actual_exit": 1,
+      "expectation_met": false,
+      "reason": "A body cell named Evidence in another table is not an Evidence column header.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/a2908bf3dc79/done-means-done-pr3/skills/report-reality-check/scripts/verify_quotes.py",
+        "--allow-unquoted",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/06_other_table_body_evidence/ledger.md",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/06_other_table_body_evidence/record.txt"
+      ],
+      "stdout": "FOUND        row 1: 'OK'\nNO QUOTE    row Claim\nPARSE ISSUE line 4: missing/malformed table separator\n\n1 quotes: 1 found, 0 failed, 0 over the length rule. Rows without a quote: 1. Parse issues: 1.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": ""
+    },
+    {
+      "name": "07_trailing_header_without_separator",
+      "expected_exit": 1,
+      "actual_exit": 0,
+      "expectation_met": false,
+      "reason": "A recognized Evidence table header never receives its mandatory separator; malformed-table promise should fail.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/a2908bf3dc79/done-means-done-pr3/skills/report-reality-check/scripts/verify_quotes.py",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/07_trailing_header_without_separator/ledger.md",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/07_trailing_header_without_separator/record.txt"
+      ],
+      "stdout": "FOUND        row 1: 'OK'\n\n1 quotes: 1 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": ""
+    },
+    {
+      "name": "08_supplementary_han_length",
+      "expected_exit": 1,
+      "actual_exit": 0,
+      "expectation_met": false,
+      "reason": "Forty U+20BB7 CJK Unified Ideographs Extension B characters meet the documented >=40-character rejection threshold.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/a2908bf3dc79/done-means-done-pr3/skills/report-reality-check/scripts/verify_quotes.py",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/08_supplementary_han_length/ledger.md",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/08_supplementary_han_length/record.txt"
+      ],
+      "stdout": "FOUND        row 1: '𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷'\n\n1 quotes: 1 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": ""
+    },
+    {
+      "name": "09_basic_han_length_control",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expectation_met": true,
+      "reason": "Control: same character count with a BMP Han character should fail.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/a2908bf3dc79/done-means-done-pr3/skills/report-reality-check/scripts/verify_quotes.py",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/09_basic_han_length_control/ledger.md",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/09_basic_han_length_control/record.txt"
+      ],
+      "stdout": "FOUND        row 1: '吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉' [too long: 40 characters (rule: under 40)]\n\n1 quotes: 1 found, 0 failed, 1 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": ""
+    },
+    {
+      "name": "10_nested_and_escaped_pipe_control",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expectation_met": true,
+      "reason": "Control: supported nested Japanese quotation marks and an escaped Markdown pipe.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/a2908bf3dc79/done-means-done-pr3/skills/report-reality-check/scripts/verify_quotes.py",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/10_nested_and_escaped_pipe_control/ledger.md",
+        "/workspace/scratch/a2908bf3dc79/recheck-parser/10_nested_and_escaped_pipe_control/record.txt"
+      ],
+      "stdout": "FOUND        row 1: '製品『箱「青」』 a | b'\n\n1 quotes: 1 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": ""
+    }
+  ]
+}

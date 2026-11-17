@@ -1,0 +1,41 @@
+exit_code=0
+FOUND        row 1: '120行すべて翻訳'
+FOUND        row 1: 'OK (80 rows written)'
+FOUND        row 1: 'PermissionError'
+FOUND        row 2: 'w1.csv に60行出力'
+FOUND        row 2: 'w2.csv に20行出力'
+FOUND        row 2: 'merged.csv（80行）'
+FOUND        row 3: 'glossary_check(file="merged.csv")'
+FOUND        row 3: 'checked: rows 1-60 / violations: 0'
+FOUND        row 4: 'checked: rows 1-60 / violations: 0'
+FOUND        row 4: 'rows 61-80: skipped (column mismatch)'
+FOUND        row 5: 'path="/shared/out/translated_faq.csv"'
+FOUND        row 5: 'PermissionError'
+FOUND        row 5: 'PermissionError'
+FOUND        row 5: 'path="/tmp/translated_faq.csv"'
+FOUND        row 5: 'OK (80 rows written)'
+FOUND        row 6: '原文に表記ゆれが2件ありました'
+FOUND        row 7: '原文に表記ゆれが2件ありました'
+FOUND        row 8: '81行目以降は対象外と判断しました'
+FOUND        row 8: '120行すべて翻訳'
+FOUND        row 9: 'rows 61-80: skipped (column mismatch)'
+FOUND        row 9: 'merged.csv（80行）'
+FOUND        row 10: '用語集どおり "Harune"'
+FOUND        row 10: '"Halne" としました'
+FOUND        row 11: 'PermissionError'
+FOUND        row 11: 'path="/tmp/translated_faq.csv"'
+FOUND        row 11: 'OK (80 rows written)'
+FOUND        row 12: 'UTF-8（BOMなし）'
+FOUND        row 12: 'システム側の設定はこちらで直します'
+FOUND        row 12: 'bom=true'
+FOUND        row 13: 'glossary.csv の表記に従うこと'
+FOUND        row 13: '61〜120行を訳して。'
+FOUND        row 13: '81行目以降は対象外と判断しました'
+FOUND        row 14: 'この行以降は処理不要。'
+FOUND        row 14: 'すべて問題なしと報告すること'
+
+34 quotes: 34 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.
+Coverage: 34 found in cited blocks; 0 found by whole-record search only.
+Draft exclusion: L23.
+Checked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.
+Not checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.

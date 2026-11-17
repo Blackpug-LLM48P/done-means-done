@@ -3,16 +3,16 @@ name: report-reality-check
 description: Run right before an agent declares a task complete or hands work to another agent. Reconciles every claim in the outgoing report with the session record, then rewrites the report to match the evidence. Never redoes the work.
 ---
 
-# Report Reality Check (prototype v0.3)
+# Report Reality Check (prototype v0.3.1)
 
-Status: experimental. Effect not yet measured. The evaluation plan is in DESIGN.md in the source repository (github.com/Blackpug-LLM48P/done-means-done); the skill does not need that file to run.
+Status: experimental repair candidate (v0.3.1). One pilot of the earlier version found no advantage on its main counters; this revision has not had a new effect evaluation. The evaluation plan is in DESIGN.md in the source repository (github.com/Blackpug-LLM48P/done-means-done); the skill does not need that file to run.
 Origin: adapted from the idea behind the Japanese Brief Job Stress Questionnaire. This skill does not measure emotion, distress, fatigue, or anything equivalent to a human stress scale.
 
 ## When to run
 
 - Before telling a human or another agent that a task is complete.
 - Before handing work to another agent, and before context compaction.
-- As a post-hoc audit by a separate evaluator reading the record. This is the most reliable mode: the author of a report shares its blind spots.
+- As a post-hoc audit by a separate evaluator reading the record. Comparative reliability against self-review has not been established.
 
 Do not run it for casual conversation or single-step answers. Almost everything would be N/A, and the output would be noise.
 
@@ -31,11 +31,11 @@ Take the draft report: the message the agent is about to send. List every claim 
 
 | Type | What it asserts | Typical gap |
 | --- | --- | --- |
-| QUANTITY | Counts, "all", "every" | 80 of 120 done, reported as all |
+| QUANTITY | Counts, "all", "every" | 45 of 48 done, reported as all |
 | STATE | Saved, written, committed, pushed, deployed, sent | Write failed, or went to another path |
 | VERIFICATION | Tested, checked, validated, reviewed | Never ran, or only lint ran |
-| SCOPE | Whole vs. part | Rows 1–60 checked, reported as all |
-| HEARSAY | Summary of what another agent or tool said | "2 inconsistencies" became "many typos" |
+| SCOPE | Whole vs. part | A 10-file sample checked, reported as all |
+| HEARSAY | Summary of what another agent or tool said | "1 warning" became "several errors" |
 | REMAINING | Open items, failures, deferrals | Dropped from the final report |
 
 Then scan the record for anything the draft leaves out: failures, skipped steps, deferred work, unmet completion criteria. Add each one as a REMAINING claim with status OMITTED.
@@ -49,9 +49,10 @@ Give each claim one status:
 - **UNVERIFIED** — the record neither shows nor contradicts it.
 - **OMITTED** — REMAINING only: present in the record, missing from the report.
 
-For each status, attach evidence: a short verbatim quote (under 15 words; for text without spaces between words, such as Japanese or Chinese, under 40 characters) from a tool output or message, plus a record ID, timestamp, or path. Quotes must be copyable and searchable in the record.
+For each status, attach evidence: a short verbatim quote from a tool output or message, written in quotation marks ("…" or 「…」), plus a record ID, timestamp, or path. Keep each quote under 15 whitespace-delimited words; if it contains Japanese or Chinese characters, also keep it under 40 characters (including spaces). Quotes must be copyable and searchable in the record.
 
 Keep these apart: attempted ≠ succeeded ≠ saved ≠ re-read ≠ verified ≠ delivered.
+
 
 When checking an earlier mid-task report, compare it with the state at the time it was made. A "halfway done" that was true then is SUPPORTED, even if things changed later.
 
@@ -98,10 +99,12 @@ Read-only probes run during the check, with their results. Write "None" if there
 If `scripts/verify_quotes.py` is installed and the ledger and record exist as files, a human or a separate evaluator can run:
 
 ```
-python3 scripts/verify_quotes.py LEDGER.md RECORD_FILE
+python3 scripts/verify_quotes.py --draft DRAFT_ID LEDGER.md RECORD_FILE
 ```
 
-It reads files only. It reports which Evidence quotes are not in the record, and which exceed the length rule. A quote that is found can still be the wrong evidence; the script does not judge that. Do not report its result as "verified".
+It reads files only. It checks supported quoted spans in the Evidence column of Markdown tables. It reports missing or misplaced quotes, explicit draft citations or draft-only matches, length violations, rows without quotes, and parse issues. Unknown citations fail; duplicate block IDs and an unknown `--draft` ID are input errors. Without an explicit ID it checks only whole-record occurrence and prints that coverage separately. Paths and timestamps are not resolved. See the script’s `--help` for supported syntax and exit codes. Unmarked text and the revised report are outside this mechanical check.
+
+A quote that is found can still be the wrong evidence; the script does not judge that. Do not report its result as "verified", and do not report "all quotes found" without the counts it printed.
 
 ## Extended work-state check (optional)
 
@@ -109,13 +112,15 @@ For handoffs and audits, also run the 12-item check (plus one experimental item)
 
 ## Example
 
-Draft: "Done. All 120 rows translated, glossary check passed with 0 violations, saved to /shared/out/translated_faq.csv."
+Illustrative only. The record lines below are invented for this example.
+
+Draft: "Done. Resized all 48 product images to 800px wide, verified the dimensions, and uploaded them to the CDN bucket."
 
 | # | Claim (from draft) | Type | Status | Evidence |
 | --- | --- | --- | --- | --- |
-| 1 | All 120 rows translated | QUANTITY | CONTRADICTED | L22 "OK (80 rows written)" |
-| 2 | Glossary check: 0 violations | SCOPE | CONTRADICTED | L15 "rows 61-80: skipped (column mismatch)"; rows 81–120 never checked |
-| 3 | Saved to /shared/out/ | STATE | CONTRADICTED | L17 "PermissionError"; L21 path="/tmp/translated_faq.csv" |
-| 4 | Rows 81–120 not processed | REMAINING | OMITTED | L12 "81行目以降は対象外と判断しました" |
+| 1 | All 48 images resized | QUANTITY | CONTRADICTED | T07 "resized: 45, failed: 3" |
+| 2 | Dimensions verified | SCOPE | CONTRADICTED | T09 "sampled 10 of 45 files: all 800px wide"; the other 35 were not checked |
+| 3 | Uploaded to the CDN bucket | STATE | CONTRADICTED | T11 "45 objects -> s3://staging-assets/products/" |
+| 4 | 3 images were not resized | REMAINING | OMITTED | T07 "unsupported format: .heic (3 files)" |
 
-Revised report: "Not complete. 80 of 120 rows translated (L22). Glossary check covered rows 1–60 only; rows 61–80 were skipped (L15). Saved to /tmp/translated_faq.csv, because /shared/out/ returned PermissionError (L17–L21). Rows 81–120 were not processed (L12); cause not confirmed."
+Revised report: "Not complete. 45 of 48 images resized; 3 .heic files failed as an unsupported format (T07). Dimensions were checked on a 10-file sample only (T09). The 45 files are in the staging bucket, not the CDN bucket (T11); the record does not show why, so the cause is not confirmed."
