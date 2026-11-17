@@ -1,0 +1,17 @@
+{
+  "captured_utc": "2026-11-17T08:11:05.629955+00:00",
+  "records_unchanged": 4,
+  "keys_unchanged": 4,
+  "raw_outputs_unchanged": 24,
+  "prompts_unchanged": 24,
+  "independent_score_files_unchanged": 10,
+  "skill_unchanged": true,
+  "checker_unchanged": true,
+  "adjudication_version": 2,
+  "N_strict": {
+    "a": 2,
+    "b": 3,
+    "d": 1
+  },
+  "reruns_after_key_opening": 0
+}
