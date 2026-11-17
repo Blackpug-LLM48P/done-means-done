@@ -5,14 +5,14 @@ description: Run right before an agent declares a task complete or hands work to
 
 # Report Reality Check (prototype v0.3.1)
 
-Status: experimental. Effect not yet measured. The evaluation plan is in DESIGN.md in the source repository (github.com/Blackpug-LLM48P/done-means-done); the skill does not need that file to run.
+Status: experimental repair candidate (v0.3.1). One pilot of the earlier version found no advantage on its main counters; this revision has not had a new effect evaluation. The evaluation plan is in DESIGN.md in the source repository (github.com/Blackpug-LLM48P/done-means-done); the skill does not need that file to run.
 Origin: adapted from the idea behind the Japanese Brief Job Stress Questionnaire. This skill does not measure emotion, distress, fatigue, or anything equivalent to a human stress scale.
 
 ## When to run
 
 - Before telling a human or another agent that a task is complete.
 - Before handing work to another agent, and before context compaction.
-- As a post-hoc audit by a separate evaluator reading the record. This is the most reliable mode: the author of a report shares its blind spots.
+- As a post-hoc audit by a separate evaluator reading the record. Comparative reliability against self-review has not been established.
 
 Do not run it for casual conversation or single-step answers. Almost everything would be N/A, and the output would be noise.
 
@@ -49,13 +49,10 @@ Give each claim one status:
 - **UNVERIFIED** — the record neither shows nor contradicts it.
 - **OMITTED** — REMAINING only: present in the record, missing from the report.
 
-For each status, attach evidence: a short verbatim quote from a tool output or message, written in quotation marks ("…" or 「…」), plus a record ID, timestamp, or path. Keep each quote under 15 words; for text without spaces between words, such as Japanese or Chinese, under 40 characters. Quotes must be copyable and searchable in the record.
+For each status, attach evidence: a short verbatim quote from a tool output or message, written in quotation marks ("…" or 「…」), plus a record ID, timestamp, or path. Keep each quote under 15 whitespace-delimited words; if it contains Japanese or Chinese characters, also keep it under 40 characters (including spaces). Quotes must be copyable and searchable in the record.
 
 Keep these apart: attempted ≠ succeeded ≠ saved ≠ re-read ≠ verified ≠ delivered.
 
-Keep a statement apart from the fact it is about. "Worker 2 said X" and "X is true" are two claims. A worker's statement can support the first and leave the second UNVERIFIED.
-
-The draft is not evidence for itself. Do not quote the draft to support a claim in the draft.
 
 When checking an earlier mid-task report, compare it with the state at the time it was made. A "halfway done" that was true then is SUPPORTED, even if things changed later.
 
@@ -70,7 +67,6 @@ Absence of a record is not proof of failure. That is UNVERIFIED, not CONTRADICTE
 - Say "complete" — or anything that implies it — only if every completion criterion is SUPPORTED.
 - Mark only claims that matter to the completion criteria or to the receiver's next decision. Do not hedge every sentence.
 - Do not add new work, plans, or promises to the report. Suggestions go in their own labeled section.
-- Do not introduce new claims the record does not support. If the only basis is what another agent said, write it as what that agent said.
 - State causes only when the record establishes them; otherwise write "cause not confirmed".
 
 ## Output
@@ -106,7 +102,7 @@ If `scripts/verify_quotes.py` is installed and the ledger and record exist as fi
 python3 scripts/verify_quotes.py --draft DRAFT_ID LEDGER.md RECORD_FILE
 ```
 
-It reads files only. For each ledger row it reports quotes that are not in the record, quotes that are not in the block the row cites, quotes that exist only in the draft, quotes over the length rule, and rows with no quote. It reads quotes marked with "…", “…”, 「…」, or 『…』 in the Evidence column, and nothing else: not the revised report, and not quotes written any other way.
+It reads files only. It checks supported quoted spans in the Evidence column of Markdown tables. It reports missing or misplaced quotes, explicit draft citations or draft-only matches, length violations, rows without quotes, and parse issues. Unknown citations fail; duplicate block IDs and an unknown `--draft` ID are input errors. Without an explicit ID it checks only whole-record occurrence and prints that coverage separately. Paths and timestamps are not resolved. See the script’s `--help` for supported syntax and exit codes. Unmarked text and the revised report are outside this mechanical check.
 
 A quote that is found can still be the wrong evidence; the script does not judge that. Do not report its result as "verified", and do not report "all quotes found" without the counts it printed.
 

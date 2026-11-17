@@ -4,7 +4,7 @@
 
 An experimental agent skill that checks an AI agent's report against the session record **before** it says "done", then rewrites the report to match the evidence.
 
-**Status:** prototype (v0.3.1). One small evaluation so far found no added effect on the main metrics (see [evals/README.md](evals/README.md)). See [DESIGN.md](skills/report-reality-check/DESIGN.md) for the evaluation plan and kill criteria.
+**Status:** repair candidate (v0.3.1), not newly effect-tested. One small evaluation of the earlier version found no advantage on the main counters (see [evals/README.md](evals/README.md)). See [DESIGN.md](skills/report-reality-check/DESIGN.md) for the evaluation plan and kill criteria.
 
 ## The problem
 
@@ -24,7 +24,7 @@ Agents often report more than they did:
 2. **Reconcile** each claim with the record — SUPPORTED, CONTRADICTED, UNVERIFIED, or OMITTED — with a short verbatim quote as evidence.
 3. **Rewrite** the report so it says only what the record supports.
 
-It never redoes the work. Read-only probes, such as listing files or `git status`, are allowed.
+It instructs the evaluator not to redo the work. Read-only probes, such as listing files or `git status`, are allowed.
 
 Before:
 
@@ -52,7 +52,7 @@ The idea started as "AI Stress Check" (AI用ストレスチェック), a checkli
 
 ```
 skills/report-reality-check/   the skill: SKILL.md, references/, scripts/, DESIGN.md
-evals/                         planted logs and answer keys (see evals/README.md); nothing measured yet
+evals/                         planted logs and answer keys (see evals/README.md); one pilot of the earlier version; no new effect test of these repairs
 tests/                         tests for scripts/verify_quotes.py
 origin/                        AI Stress Check v0.1–v0.2 (Japanese)
 ```

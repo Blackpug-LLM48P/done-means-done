@@ -2,7 +2,15 @@
 
 Versions are the prototype versions written in SKILL.md.
 
-## v0.3.1 — 2026-11-17
+## v0.3.1 — repair candidate, 2026-11-17
+
+Follow-up review of PR #3 at `3905cc7`:
+- Reject unresolved IDs/ranges, malformed quotes/tables, ambiguous duplicate record IDs, and invalid draft selection instead of silently falling back or dropping text.
+- Keep citation IDs out of quoted data; include non-draft preambles/unstructured records when diagnosing draft-only evidence; show whole-record versus block-level coverage.
+- Keys revision 3: consistent qualitative-only BOM exclusion, deduplicated proposition metrics, explicit retention versus false alarm distinction. Historical fixtures and original results remain frozen.
+- Remove unmeasured reliability claims and stale measurement wording. The three post-pilot behavior rules are deferred, not installed by this repair.
+- Script/regression checks are not a new skill-effect experiment; see the follow-up audit record under `evals/reviews/`.
+
 
 Changes after v0.3, including fixes from the GPT-6 evaluation of 2026-11-17 (branch `eval/gpt-6-blind-20261117`). That evaluation ran before the items marked (post-eval).
 
@@ -12,7 +20,7 @@ Skill:
 - SKILL.md no longer points to DESIGN.md as a local file.
 - (post-eval) Worked example and "typical gap" cells replaced. The old ones were nearly the same case as TESTLOG_01.
 - (post-eval) Quotes must be written in quotation marks.
-- (post-eval) New rules: a statement and the fact it is about are separate claims; the draft is not evidence for itself; the revised report must not introduce unsupported claims.
+- (post-eval) Three proposed behavior rules were initially added in PR #3, then removed from the repair-only skill and preserved in `evals/proposals/post-pilot-rules.md`; no effect is claimed.
 
 Script:
 - Added `scripts/verify_quotes.py`: checks that ledger quotes exist in the record (read-only), with tests.
