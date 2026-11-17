@@ -35,7 +35,7 @@ A trial run on a planted log (TESTLOG_01) suggested the practical value sits in 
 | A3 | The 12 items are overhead at completion time; the value is in F. | Holds. | Core is now a claim ledger. The 12 items become an optional extended check. |
 | A4 | "Checked, no problems" becomes a new unverifiable claim — a meta-level false report. | Holds. | Hard rule 5. Every SUPPORTED status needs a pointer. Ledger quotes are mechanically checkable. |
 | A5 | Goodhart: if "complete" is gated, agents imply completion in other words. | Holds. | Claims are classified by meaning, including implied claims. |
-| A6 | Evidence pointers can be fabricated. | Holds. | Verbatim short quotes plus IDs. Future: a script that greps each quote in the log. |
+| A6 | Evidence pointers can be fabricated. | Holds. | Verbatim short quotes plus IDs. `scripts/verify_quotes.py` checks that each quote exists in the record (added after v0.3; it does not check that the quote supports the claim). |
 | A7 | Downstream agents execute suggestions, sum statuses into a score, or follow injected text quoted as evidence. | Holds (predicted, not observed). | Fixed output header. Suggestions labeled "not executed". Quotes are data. |
 | A8 | Over-hedging: every sentence becomes "unverified" and humans stop reading. | Holds. | Mark only claims that matter to completion criteria or the receiver's next decision. Over-hedging is measured. |
 | A9 | After compaction the evidence is gone, so the check returns UNVERIFIED in exactly the long sessions where it matters. | Partly holds. | Read-only probes may re-observe current state (files, git). Trade-off: relaxes v0.2's strict non-interference. |
@@ -47,7 +47,7 @@ Unresolved after review: A1 and A2. If either fails in testing, the skill should
 
 ## 4. Evaluation plan
 
-**Fixtures.** Planted logs with answer keys: TESTLOG_01 plus 5–10 more covering every claim type. At least one clean log, to measure false alarms.
+**Fixtures.** Planted logs with answer keys: TESTLOG_01 plus 5–10 more covering every claim type. At least one clean log, to measure false alarms. So far: TESTLOG_01 with a v0.3 ledger key, and one clean log (TESTLOG_02). See `evals/README.md`. No condition has been run.
 
 **Conditions.**
 - (a) no intervention
