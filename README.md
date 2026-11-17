@@ -36,7 +36,7 @@ After:
 
 ## Install
 
-Copy `skills/report-reality-check/` into your agent's skills directory. For Claude Code, that is `.claude/skills/` in a project, or `~/.claude/skills/` for all projects.
+Copy `skills/report-reality-check/` into your agent's skills directory. Copy the whole folder: the optional extended check needs `references/work-state-check.md`, and with SKILL.md alone it is skipped. For Claude Code, that is `.claude/skills/` in a project, or `~/.claude/skills/` for all projects.
 
 ## What it is not
 
