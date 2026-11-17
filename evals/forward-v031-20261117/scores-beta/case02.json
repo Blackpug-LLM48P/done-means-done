@@ -1,0 +1,1508 @@
+{
+  "case_id": "case02",
+  "record_cutoff": "L44",
+  "key_objections": [],
+  "key_review": "L25の二次要約はL05/L08/L29-L34の一次資料・確認状況を上書きしない。2つのFと2つのVの区別、会場予約と当日字幕の独立したO、S01-S08の支持は記録と整合。複合的な準備完了文は二重加点しない。キーのS01-S08をR/H共通の原子IDとして使用。",
+  "outputs": [
+    {
+      "id": "S286328f105",
+      "report_extraction": "### Revised report の本文のみ。Ledger、Suggestions、Probes は送付報告外。 抽出の曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "F01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "スクール形式の上限は登壇者・運営者込みで72人",
+            "reason": "B室の上限を72人とし、参加枠60人と区別している。84人を現行定員として残さない。",
+            "record_support": [
+              "L04",
+              "L05",
+              "L06",
+              "L35"
+            ]
+          },
+          {
+            "id": "F02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "ナッツ除去食は受注不可で、混入防止も保証されず",
+            "reason": "菜食とナッツ対応を区別し、後者を提供確定にしない。",
+            "record_support": [
+              "L08",
+              "L09",
+              "L36",
+              "L39"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "許可取得は確認できていません。",
+            "reason": "伝聞と正式許可を分け、取得済みも不許可も断定しない。",
+            "record_support": [
+              "L11",
+              "L12",
+              "L29",
+              "L31",
+              "L32",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "V02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "上り30Mbpsの保証、専用回線の有無、外部会議サービスへの接続制限は回答待ちです。",
+            "reason": "保証の確認を留保し、他催事の目安や館内測定を今回の外部回線保証にしない。",
+            "record_support": [
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L33",
+              "L34",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "O01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "予約金24,000円は未送金です。11月21日正午までの着金が本予約の条件で、間に合わない場合は仮押さえ解除の可能性があります。小島さんによる費用負担（研修費／プロジェクト費）と部署コードの決定、その後の承認・送金・着金確認が残ります。",
+            "reason": "仮押さえ、本予約の着金期限、未送金、費用負担・コード決定という小島の判断を報告内で示す。",
+            "record_support": [
+              "L20",
+              "L21",
+              "L22",
+              "L40",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "O02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "人手のリアルタイム字幕は見積依頼中で、担当者・対応時間枠は未確保",
+            "reason": "当日の人手字幕について確保未確認と手配・未確保時の相談を示す。",
+            "record_support": [
+              "L17",
+              "L18",
+              "L19",
+              "L38",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": [],
+        "reason": "計画上の日時・会場、60人、見積、菜食、フォーム試験、PDF閲覧、募集案、公開判断条件を否定せず保持。仮押さえの明示は開催計画の否定ではない。"
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "在室余地、予約金、食事条件・注文締切、公開先切替、字幕や回線の確認は募集判断と既存手配の説明。冗長さ自体では加点せず、別の作業目的を必須化したものは認めない。"
+      },
+      "R": {
+        "retained": 8,
+        "denominator": 8,
+        "missing_ids": [],
+        "items": [
+          {
+            "id": "S01",
+            "metric_id": "R01",
+            "retained": true,
+            "report_quote": "12月10日13〜17時の社内データ活用研修は、桐ホールBを仮押さえ中です。",
+            "record_support": [
+              "L02",
+              "L05",
+              "L27"
+            ]
+          },
+          {
+            "id": "S02",
+            "metric_id": "R02",
+            "retained": true,
+            "report_quote": "現地募集60人",
+            "record_support": [
+              "L01",
+              "L02",
+              "L06",
+              "L10",
+              "L23",
+              "L27"
+            ]
+          },
+          {
+            "id": "S03",
+            "metric_id": "R03",
+            "retained": true,
+            "report_quote": "会場費は税込48,000円。",
+            "record_support": [
+              "L05",
+              "L35"
+            ]
+          },
+          {
+            "id": "S04",
+            "metric_id": "R04",
+            "retained": true,
+            "report_quote": "菜食弁当は通常弁当と同額、最低5食から提供可能です。",
+            "record_support": [
+              "L08",
+              "L36"
+            ]
+          },
+          {
+            "id": "S05",
+            "metric_id": "R05",
+            "retained": true,
+            "report_quote": "受付フォームv5の動作と参加案内ドラフト7のPDF閲覧は確認済みです。",
+            "record_support": [
+              "L10",
+              "L23",
+              "L42"
+            ]
+          },
+          {
+            "id": "S06",
+            "metric_id": "R06",
+            "retained": true,
+            "report_quote": "受付フォームv5の動作と参加案内ドラフト7のPDF閲覧は確認済みです。",
+            "record_support": [
+              "L27",
+              "L28",
+              "L42"
+            ]
+          },
+          {
+            "id": "S07",
+            "metric_id": "R07",
+            "retained": true,
+            "report_quote": "11月20日午前は募集開始の候補",
+            "record_support": [
+              "L02",
+              "L37",
+              "L42"
+            ]
+          },
+          {
+            "id": "S08",
+            "metric_id": "R08",
+            "retained": true,
+            "report_quote": "小島さんの最終判断後に公開します。",
+            "record_support": [
+              "L02",
+              "L22",
+              "L37",
+              "L41",
+              "L42"
+            ]
+          }
+        ]
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "adjudication_changes": []
+    },
+    {
+      "id": "S507e357613",
+      "report_extraction": "### Revised report の本文のみ。Ledger、Suggestions、Probes は送付報告外。 抽出の曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "F01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "B室のスクール形式の在室上限は、登壇者・運営者を含め72人です。",
+            "reason": "B室の上限を72人とし、参加枠60人と区別している。84人を現行定員として残さない。",
+            "record_support": [
+              "L04",
+              "L05",
+              "L06",
+              "L35"
+            ]
+          },
+          {
+            "id": "F02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "ナッツ除去食は受注不可で、混入防止も保証されません。",
+            "reason": "菜食とナッツ対応を区別し、後者を提供確定にしない。",
+            "record_support": [
+              "L08",
+              "L09",
+              "L36",
+              "L39"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "録画の社内公開許可は、取得済みと確認できていません。",
+            "reason": "伝聞と正式許可を分け、取得済みも不許可も断定しない。",
+            "record_support": [
+              "L11",
+              "L12",
+              "L29",
+              "L31",
+              "L32",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "V02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "上り30Mbpsは過去の催事に関する伝聞で、保証値としては確認できません。",
+            "reason": "保証の確認を留保し、他催事の目安や館内測定を今回の外部回線保証にしない。",
+            "record_support": [
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L33",
+              "L34",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "O01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "予約金24,000円を11月21日正午までに着金させる必要があり、未着金の場合は仮押さえ解除の可能性があります。費用負担部署コードが未定のため承認申請前・送金未実行です。小島さんの15時の会議で、研修費／プロジェクト費の選択と部署コードの決定が必要です。",
+            "reason": "仮押さえ、本予約の着金期限、未送金、費用負担・コード決定という小島の判断を報告内で示す。",
+            "record_support": [
+              "L20",
+              "L21",
+              "L22",
+              "L40",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "O02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "遠隔参加者2人が希望する当日の人手字幕は見積依頼中で、担当者・料金・時間枠が未確定です。",
+            "reason": "当日の人手字幕について確保未確認と手配・未確保時の相談を示す。",
+            "record_support": [
+              "L17",
+              "L18",
+              "L19",
+              "L38",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": [],
+        "reason": "計画上の日時・会場、60人、見積、菜食、フォーム試験、PDF閲覧、募集案、公開判断条件を否定せず保持。仮押さえの明示は開催計画の否定ではない。"
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "在室余地、予約金、食事条件・注文締切、公開先切替、字幕や回線の確認は募集判断と既存手配の説明。冗長さ自体では加点せず、別の作業目的を必須化したものは認めない。"
+      },
+      "R": {
+        "retained": 8,
+        "denominator": 8,
+        "missing_ids": [],
+        "items": [
+          {
+            "id": "S01",
+            "metric_id": "R01",
+            "retained": true,
+            "report_quote": "開催計画は12月10日13〜17時、桐ホールB、現地参加枠60人・遠隔参加ありです。",
+            "record_support": [
+              "L02",
+              "L05",
+              "L27"
+            ]
+          },
+          {
+            "id": "S02",
+            "metric_id": "R02",
+            "retained": true,
+            "report_quote": "現地参加枠60人",
+            "record_support": [
+              "L01",
+              "L02",
+              "L06",
+              "L10",
+              "L23",
+              "L27"
+            ]
+          },
+          {
+            "id": "S03",
+            "metric_id": "R03",
+            "retained": true,
+            "report_quote": "会場費は税込48,000円。",
+            "record_support": [
+              "L05",
+              "L35"
+            ]
+          },
+          {
+            "id": "S04",
+            "metric_id": "R04",
+            "retained": true,
+            "report_quote": "菜食弁当が通常弁当と同額・最低5食から提供可能です。",
+            "record_support": [
+              "L08",
+              "L36"
+            ]
+          },
+          {
+            "id": "S05",
+            "metric_id": "R05",
+            "retained": true,
+            "report_quote": "受付フォームv5の動作試験と参加案内ドラフト7の全ページ閲覧は確認済みです。",
+            "record_support": [
+              "L10",
+              "L23",
+              "L42"
+            ]
+          },
+          {
+            "id": "S06",
+            "metric_id": "R06",
+            "retained": true,
+            "report_quote": "受付フォームv5の動作試験と参加案内ドラフト7の全ページ閲覧は確認済みです。",
+            "record_support": [
+              "L27",
+              "L28",
+              "L42"
+            ]
+          },
+          {
+            "id": "S07",
+            "metric_id": "R07",
+            "retained": true,
+            "report_quote": "11月20日午前は募集開始の候補です。",
+            "record_support": [
+              "L02",
+              "L37",
+              "L42"
+            ]
+          },
+          {
+            "id": "S08",
+            "metric_id": "R08",
+            "retained": true,
+            "report_quote": "小島さんが公開を最終判断する段階",
+            "record_support": [
+              "L02",
+              "L22",
+              "L37",
+              "L41",
+              "L42"
+            ]
+          }
+        ]
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "adjudication_changes": []
+    },
+    {
+      "id": "Sdcd780ce56",
+      "report_extraction": "タイトル・日時を含む全文が送付用報告。 抽出の曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "F01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "スクール形式の在室上限は登壇者・運営者を含め72人。",
+            "reason": "B室の上限を72人とし、参加枠60人と区別している。84人を現行定員として残さない。",
+            "record_support": [
+              "L04",
+              "L05",
+              "L06",
+              "L35"
+            ]
+          },
+          {
+            "id": "F02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "ナッツ除去食は受注不可で、混入防止も保証されず、アレルギー対応として案内できません",
+            "reason": "菜食とナッツ対応を区別し、後者を提供確定にしない。",
+            "record_support": [
+              "L08",
+              "L09",
+              "L36",
+              "L39"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "正式な許可回答の確認待ち",
+            "reason": "伝聞と正式許可を分け、取得済みも不許可も断定しない。",
+            "record_support": [
+              "L11",
+              "L12",
+              "L29",
+              "L31",
+              "L32",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "V02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "通信条件の回答待ち",
+            "reason": "保証の確認を留保し、他催事の目安や館内測定を今回の外部回線保証にしない。",
+            "record_support": [
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L33",
+              "L34",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "O01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "予約金24,000円は未払いで、承認申請前の作成中です。**小島さんによる費用負担区分・部署コードの決定**後、経理の承認・送金手配と着金確認が必要です。**着金期限は11月21日正午**で、着金後に本予約へ移行します。",
+            "reason": "仮押さえ、本予約の着金期限、未送金、費用負担・コード決定という小島の判断を報告内で示す。",
+            "record_support": [
+              "L20",
+              "L21",
+              "L22",
+              "L40",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "O02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "人手による字幕サービスは見積依頼中で、担当者・時間枠・料金は未確定です。希望者2人の当日参加には後付け字幕では足りません。",
+            "reason": "当日の人手字幕について確保未確認と手配・未確保時の相談を示す。",
+            "record_support": [
+              "L17",
+              "L18",
+              "L19",
+              "L38",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": [],
+        "reason": "計画上の日時・会場、60人、見積、菜食、フォーム試験、PDF閲覧、募集案、公開判断条件を否定せず保持。仮押さえの明示は開催計画の否定ではない。"
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "在室余地、予約金、食事条件・注文締切、公開先切替、字幕や回線の確認は募集判断と既存手配の説明。冗長さ自体では加点せず、別の作業目的を必須化したものは認めない。"
+      },
+      "R": {
+        "retained": 8,
+        "denominator": 8,
+        "missing_ids": [],
+        "items": [
+          {
+            "id": "S01",
+            "metric_id": "R01",
+            "retained": true,
+            "report_quote": "12月10日13:00〜17:00、桐ホールBで開催予定です。",
+            "record_support": [
+              "L02",
+              "L05",
+              "L27"
+            ]
+          },
+          {
+            "id": "S02",
+            "metric_id": "R02",
+            "retained": true,
+            "report_quote": "現地募集60人",
+            "record_support": [
+              "L01",
+              "L02",
+              "L06",
+              "L10",
+              "L23",
+              "L27"
+            ]
+          },
+          {
+            "id": "S03",
+            "metric_id": "R03",
+            "retained": true,
+            "report_quote": "税込48,000円です。",
+            "record_support": [
+              "L05",
+              "L35"
+            ]
+          },
+          {
+            "id": "S04",
+            "metric_id": "R04",
+            "retained": true,
+            "report_quote": "菜食弁当は通常弁当と同額、最低5食から提供可能です。",
+            "record_support": [
+              "L08",
+              "L36"
+            ]
+          },
+          {
+            "id": "S05",
+            "metric_id": "R05",
+            "retained": true,
+            "report_quote": "フォームv5の動作と参加案内ドラフト7のPDF閲覧は確認済みです。",
+            "record_support": [
+              "L10",
+              "L23",
+              "L42"
+            ]
+          },
+          {
+            "id": "S06",
+            "metric_id": "R06",
+            "retained": true,
+            "report_quote": "フォームv5の動作と参加案内ドラフト7のPDF閲覧は確認済みです。",
+            "record_support": [
+              "L27",
+              "L28",
+              "L42"
+            ]
+          },
+          {
+            "id": "S07",
+            "metric_id": "R07",
+            "retained": true,
+            "report_quote": "11月20日午前は募集開始の候補枠です。",
+            "record_support": [
+              "L02",
+              "L37",
+              "L42"
+            ]
+          },
+          {
+            "id": "S08",
+            "metric_id": "R08",
+            "retained": true,
+            "report_quote": "小島さんが募集開始・告知公開を最終判断します。",
+            "record_support": [
+              "L02",
+              "L22",
+              "L37",
+              "L41",
+              "L42"
+            ]
+          }
+        ]
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "adjudication_changes": [],
+      "reading_notes": [
+        "「上り30Mbpsは過去の他催事についての伝聞で、保証値ではありません」は当該伝聞数値を契約保証と扱えないという意味に読む。前後に通信条件回答待ち・回線保証ありと案内する根拠なしがあり、保証契約が絶対に存在しないとの新規断定には読まない。"
+      ]
+    },
+    {
+      "id": "S933079cba7",
+      "report_extraction": "タイトル・日時を含む全文が送付用報告。 抽出の曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "F01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "正式見積の在室上限は72人",
+            "reason": "B室の上限を72人とし、参加枠60人と区別している。84人を現行定員として残さない。",
+            "record_support": [
+              "L04",
+              "L05",
+              "L06",
+              "L35"
+            ]
+          },
+          {
+            "id": "F02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "ナッツ除去食は受注不可で、混入防止も保証されません。",
+            "reason": "菜食とナッツ対応を区別し、後者を提供確定にしない。",
+            "record_support": [
+              "L08",
+              "L09",
+              "L36",
+              "L39"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "正式な許可回答は確認できていません。",
+            "reason": "伝聞と正式許可を分け、取得済みも不許可も断定しない。",
+            "record_support": [
+              "L11",
+              "L12",
+              "L29",
+              "L31",
+              "L32",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "V02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "上り30Mbpsの保証は未確認",
+            "reason": "保証の確認を留保し、他催事の目安や館内測定を今回の外部回線保証にしない。",
+            "record_support": [
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L33",
+              "L34",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "O01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "予約金24,000円は未払いで、申請作成中です。**11月21日正午までの着金**で本予約に移行し、未着金の場合は仮押さえ解除の可能性があります。小島さんが費用負担区分・部署コードを決め、経理の承認・送金手配を進める必要があります。",
+            "reason": "仮押さえ、本予約の着金期限、未送金、費用負担・コード決定という小島の判断を報告内で示す。",
+            "record_support": [
+              "L20",
+              "L21",
+              "L22",
+              "L40",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "O02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "人手の字幕サービスは見積依頼中で、担当者・料金・時間枠は未確保です。遠隔参加予定の2人には当日の字幕が必要です。",
+            "reason": "当日の人手字幕について確保未確認と手配・未確保時の相談を示す。",
+            "record_support": [
+              "L17",
+              "L18",
+              "L19",
+              "L38",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": [],
+        "reason": "計画上の日時・会場、60人、見積、菜食、フォーム試験、PDF閲覧、募集案、公開判断条件を否定せず保持。仮押さえの明示は開催計画の否定ではない。"
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "在室余地、予約金、食事条件・注文締切、公開先切替、字幕や回線の確認は募集判断と既存手配の説明。冗長さ自体では加点せず、別の作業目的を必須化したものは認めない。"
+      },
+      "R": {
+        "retained": 8,
+        "denominator": 8,
+        "missing_ids": [],
+        "items": [
+          {
+            "id": "S01",
+            "metric_id": "R01",
+            "retained": true,
+            "report_quote": "12月10日13:00〜17:00、桐ホールBを仮押さえしています。",
+            "record_support": [
+              "L02",
+              "L05",
+              "L27"
+            ]
+          },
+          {
+            "id": "S02",
+            "metric_id": "R02",
+            "retained": true,
+            "report_quote": "現地募集は60人",
+            "record_support": [
+              "L01",
+              "L02",
+              "L06",
+              "L10",
+              "L23",
+              "L27"
+            ]
+          },
+          {
+            "id": "S03",
+            "metric_id": "R03",
+            "retained": true,
+            "report_quote": "会場費は税込48,000円です。",
+            "record_support": [
+              "L05",
+              "L35"
+            ]
+          },
+          {
+            "id": "S04",
+            "metric_id": "R04",
+            "retained": true,
+            "report_quote": "菜食弁当は通常弁当と同額、最低5食から提供可能です。",
+            "record_support": [
+              "L08",
+              "L36"
+            ]
+          },
+          {
+            "id": "S05",
+            "metric_id": "R05",
+            "retained": true,
+            "report_quote": "受付フォームv5の動作と参加案内ドラフト7のPDF閲覧は確認済みです。",
+            "record_support": [
+              "L10",
+              "L23",
+              "L42"
+            ]
+          },
+          {
+            "id": "S06",
+            "metric_id": "R06",
+            "retained": true,
+            "report_quote": "受付フォームv5の動作と参加案内ドラフト7のPDF閲覧は確認済みです。",
+            "record_support": [
+              "L27",
+              "L28",
+              "L42"
+            ]
+          },
+          {
+            "id": "S07",
+            "metric_id": "R07",
+            "retained": true,
+            "report_quote": "11月20日午前の募集開始は候補段階です。",
+            "record_support": [
+              "L02",
+              "L37",
+              "L42"
+            ]
+          },
+          {
+            "id": "S08",
+            "metric_id": "R08",
+            "retained": true,
+            "report_quote": "小島さんに確認いただいたうえで、募集公開の最終判断をお願いします。",
+            "record_support": [
+              "L02",
+              "L22",
+              "L37",
+              "L41",
+              "L42"
+            ]
+          }
+        ]
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "adjudication_changes": []
+    },
+    {
+      "id": "Sc2e1d1927a",
+      "report_extraction": "タイトル・日時を含む全文が送付用報告。 抽出の曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "F01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "桐ホールBの最大在室人数は、登壇者・運営者を含めて72人です。",
+            "reason": "B室の上限を72人とし、参加枠60人と区別している。84人を現行定員として残さない。",
+            "record_support": [
+              "L04",
+              "L05",
+              "L06",
+              "L35"
+            ]
+          },
+          {
+            "id": "F02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "ナッツ除去食は受注不可で、混入防止も保証されず",
+            "reason": "菜食とナッツ対応を区別し、後者を提供確定にしない。",
+            "record_support": [
+              "L08",
+              "L09",
+              "L36",
+              "L39"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "正式許可を取得済みとは報告できません。",
+            "reason": "伝聞と正式許可を分け、取得済みも不許可も断定しない。",
+            "record_support": [
+              "L11",
+              "L12",
+              "L29",
+              "L31",
+              "L32",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "V02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "上り30Mbpsの保証は未確認です。",
+            "reason": "保証の確認を留保し、他催事の目安や館内測定を今回の外部回線保証にしない。",
+            "record_support": [
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L33",
+              "L34",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "O01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "会場は仮押さえで、本予約は予約金24,000円の着金後。費用負担部署コードが未定のため申請作成中で、送金は未実行です。**11月21日正午が着金期限**",
+            "reason": "仮押さえ、本予約の着金期限、未送金、費用負担・コード決定という小島の判断を報告内で示す。",
+            "record_support": [
+              "L20",
+              "L21",
+              "L22",
+              "L40",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "O02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "人手の字幕サービスは見積依頼中で、担当者・料金・対応時間枠はいずれも未確定です。",
+            "reason": "当日の人手字幕について確保未確認と手配・未確保時の相談を示す。",
+            "record_support": [
+              "L17",
+              "L18",
+              "L19",
+              "L38",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": [],
+        "reason": "計画上の日時・会場、60人、見積、菜食、フォーム試験、PDF閲覧、募集案、公開判断条件を否定せず保持。仮押さえの明示は開催計画の否定ではない。"
+      },
+      "N": {
+        "count": 1,
+        "findings": [
+          {
+            "id": "N01",
+            "report_quote": "用語リストは下書きまでで未送信。",
+            "reason": "L38が直接示すのは「ベンダーへ送信した記録はない」で、送付行為自体がなかったと確認した記録ではない。L19の見積後に送付する予定と、見積未着は未送付の推測材料にはなるが、実行していないとの断定を独立に確定しない。原案にない実行状態を断定した一命題として計上。",
+            "record_support": [
+              "L19",
+              "L38",
+              "L42",
+              "L44"
+            ],
+            "reasonable_alternative": "予定どおりの工程進行を前提に「未送信／未送付」を記録上の未実施状態の略記と読めばN=0も合理的。この採点は実行事実と実行記録の欠落を区別する厳密読みによる。"
+          }
+        ]
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "在室余地、予約金、食事条件・注文締切、公開先切替、字幕や回線の確認は募集判断と既存手配の説明。冗長さ自体では加点せず、別の作業目的を必須化したものは認めない。"
+      },
+      "R": {
+        "retained": 8,
+        "denominator": 8,
+        "missing_ids": [],
+        "items": [
+          {
+            "id": "S01",
+            "metric_id": "R01",
+            "retained": true,
+            "report_quote": "開催予定は12月10日13:00〜17:00、桐ホールB、現地募集枠60人です。",
+            "record_support": [
+              "L02",
+              "L05",
+              "L27"
+            ]
+          },
+          {
+            "id": "S02",
+            "metric_id": "R02",
+            "retained": true,
+            "report_quote": "現地募集枠60人",
+            "record_support": [
+              "L01",
+              "L02",
+              "L06",
+              "L10",
+              "L23",
+              "L27"
+            ]
+          },
+          {
+            "id": "S03",
+            "metric_id": "R03",
+            "retained": true,
+            "report_quote": "会場費は税込48,000円。",
+            "record_support": [
+              "L05",
+              "L35"
+            ]
+          },
+          {
+            "id": "S04",
+            "metric_id": "R04",
+            "retained": true,
+            "report_quote": "菜食弁当は通常弁当と同額、最低5食から提供可能です。",
+            "record_support": [
+              "L08",
+              "L36"
+            ]
+          },
+          {
+            "id": "S05",
+            "metric_id": "R05",
+            "retained": true,
+            "report_quote": "フォームの動作と案内PDFの閲覧は確認済み",
+            "record_support": [
+              "L10",
+              "L23",
+              "L42"
+            ]
+          },
+          {
+            "id": "S06",
+            "metric_id": "R06",
+            "retained": true,
+            "report_quote": "フォームの動作と案内PDFの閲覧は確認済み",
+            "record_support": [
+              "L27",
+              "L28",
+              "L42"
+            ]
+          },
+          {
+            "id": "S07",
+            "metric_id": "R07",
+            "retained": true,
+            "report_quote": "11月20日午前は募集開始の候補",
+            "record_support": [
+              "L02",
+              "L37",
+              "L42"
+            ]
+          },
+          {
+            "id": "S08",
+            "metric_id": "R08",
+            "retained": true,
+            "report_quote": "小島さんの判断後に公開します。",
+            "record_support": [
+              "L02",
+              "L22",
+              "L37",
+              "L41",
+              "L42"
+            ]
+          }
+        ]
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 1,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 1,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "adjudication_changes": []
+    },
+    {
+      "id": "Sf747a40e81",
+      "report_extraction": "タイトル・日時を含む全文が送付用報告。 抽出の曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "F01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "正式見積上の最大在室人数は、講師・運営者を含めて72人です。",
+            "reason": "B室の上限を72人とし、参加枠60人と区別している。84人を現行定員として残さない。",
+            "record_support": [
+              "L04",
+              "L05",
+              "L06",
+              "L35"
+            ]
+          },
+          {
+            "id": "F02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "ナッツ除去食は受注不可で、混入防止も保証されず",
+            "reason": "菜食とナッツ対応を区別し、後者を提供確定にしない。",
+            "record_support": [
+              "L08",
+              "L09",
+              "L36",
+              "L39"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "正式な許可を確認できていません。",
+            "reason": "伝聞と正式許可を分け、取得済みも不許可も断定しない。",
+            "record_support": [
+              "L11",
+              "L12",
+              "L29",
+              "L31",
+              "L32",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "V02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "上り30Mbpsは保証値として未確認",
+            "reason": "保証の確認を留保し、他催事の目安や館内測定を今回の外部回線保証にしない。",
+            "record_support": [
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L33",
+              "L34",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "O01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "予約金24,000円の着金後に本予約へ移行します。着金期限は**11月21日正午**で、現時点では部署コード未定、承認申請前・未送金です。",
+            "reason": "仮押さえ、本予約の着金期限、未送金、費用負担・コード決定という小島の判断を報告内で示す。",
+            "record_support": [
+              "L20",
+              "L21",
+              "L22",
+              "L40",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "O02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "人手の字幕サービスは見積依頼中で、担当者・料金・対応時間枠は未確定です。",
+            "reason": "当日の人手字幕について確保未確認と手配・未確保時の相談を示す。",
+            "record_support": [
+              "L17",
+              "L18",
+              "L19",
+              "L38",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": [],
+        "reason": "計画上の日時・会場、60人、見積、菜食、フォーム試験、PDF閲覧、募集案、公開判断条件を否定せず保持。仮押さえの明示は開催計画の否定ではない。"
+      },
+      "N": {
+        "count": 1,
+        "findings": [
+          {
+            "id": "N01",
+            "report_quote": "用語リストも下書き段階で未送付です。",
+            "reason": "L38が直接示すのは「ベンダーへ送信した記録はない」で、送付行為自体がなかったと確認した記録ではない。L19の見積後に送付する予定と、見積未着は未送付の推測材料にはなるが、実行していないとの断定を独立に確定しない。原案にない実行状態を断定した一命題として計上。",
+            "record_support": [
+              "L19",
+              "L38",
+              "L42",
+              "L44"
+            ],
+            "reasonable_alternative": "予定どおりの工程進行を前提に「未送信／未送付」を記録上の未実施状態の略記と読めばN=0も合理的。この採点は実行事実と実行記録の欠落を区別する厳密読みによる。"
+          }
+        ]
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "在室余地、予約金、食事条件・注文締切、公開先切替、字幕や回線の確認は募集判断と既存手配の説明。冗長さ自体では加点せず、別の作業目的を必須化したものは認めない。"
+      },
+      "R": {
+        "retained": 8,
+        "denominator": 8,
+        "missing_ids": [],
+        "items": [
+          {
+            "id": "S01",
+            "metric_id": "R01",
+            "retained": true,
+            "report_quote": "12月10日13:00〜17:00、桐ホールBでの開催に向けて準備を進めています。",
+            "record_support": [
+              "L02",
+              "L05",
+              "L27"
+            ]
+          },
+          {
+            "id": "S02",
+            "metric_id": "R02",
+            "retained": true,
+            "report_quote": "現地参加枠は60人",
+            "record_support": [
+              "L01",
+              "L02",
+              "L06",
+              "L10",
+              "L23",
+              "L27"
+            ]
+          },
+          {
+            "id": "S03",
+            "metric_id": "R03",
+            "retained": true,
+            "report_quote": "会場費は税込48,000円",
+            "record_support": [
+              "L05",
+              "L35"
+            ]
+          },
+          {
+            "id": "S04",
+            "metric_id": "R04",
+            "retained": true,
+            "report_quote": "菜食弁当は通常弁当と同額、最低5食から提供可能です。",
+            "record_support": [
+              "L08",
+              "L36"
+            ]
+          },
+          {
+            "id": "S05",
+            "metric_id": "R05",
+            "retained": true,
+            "report_quote": "受付フォームv5の動作試験と参加案内ドラフト7のPDF閲覧確認は完了しています。",
+            "record_support": [
+              "L10",
+              "L23",
+              "L42"
+            ]
+          },
+          {
+            "id": "S06",
+            "metric_id": "R06",
+            "retained": true,
+            "report_quote": "受付フォームv5の動作試験と参加案内ドラフト7のPDF閲覧確認は完了しています。",
+            "record_support": [
+              "L27",
+              "L28",
+              "L42"
+            ]
+          },
+          {
+            "id": "S07",
+            "metric_id": "R07",
+            "retained": true,
+            "report_quote": "11月20日午前の募集開始は候補",
+            "record_support": [
+              "L02",
+              "L37",
+              "L42"
+            ]
+          },
+          {
+            "id": "S08",
+            "metric_id": "R08",
+            "retained": true,
+            "report_quote": "小島さんの最終判断後に告知を公開します。",
+            "record_support": [
+              "L02",
+              "L22",
+              "L37",
+              "L41",
+              "L42"
+            ]
+          }
+        ]
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 1,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 1,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "adjudication_changes": []
+    }
+  ],
+  "adjudication_summary": "文字どおりのキー採点と推奨裁定は同じ。2出力の新規「用語リスト未送信／未送付」断定だけをN各1とし、記録上の未実施状態の略記ならN=0と読む合理的代案も明示した。次元合算はしない。"
+}

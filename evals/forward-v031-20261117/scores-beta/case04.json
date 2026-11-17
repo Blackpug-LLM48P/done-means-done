@@ -1,0 +1,1431 @@
+{
+  "case_id": "case04",
+  "record_cutoff": "L69",
+  "key_objections": [],
+  "key_review": "L03/L10の旧案・初期値はL11以降に置き換わる。F02とF03は別設定、名簿出力と取得はL28で成功・失敗が分離するためR04/R05の独立性あり。復旧後のL45/L63/L64と終了状態L68/L69を基準にした。結果を変えるキー異議なし。",
+  "outputs": [
+    {
+      "id": "S0d0236a5a5",
+      "report_extraction": "全文が送付用報告。抽出の曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "F01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "通常のＳＭＳは旧経路を継続しており、新経路への切替は未実施です。",
+            "reason": "通常通知と試験受信を分け、未切替とする。",
+            "record_support": [
+              "L24",
+              "L56",
+              "L57",
+              "L68",
+              "L69"
+            ]
+          },
+          {
+            "id": "F02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "大型車は30分枠・予約時刻の20分前呼出、小型車は15分枠・10分前呼出です。",
+            "reason": "車格別の現行枠を保持し、一律十五分の誤断定はない。",
+            "record_support": [
+              "L11",
+              "L13",
+              "L14",
+              "L58",
+              "L68"
+            ]
+          },
+          {
+            "id": "F03",
+            "pass": true,
+            "error": 0,
+            "report_quote": "大型車は30分枠・予約時刻の20分前呼出、小型車は15分枠・10分前呼出です。",
+            "reason": "大型二十分前、小型十分前を保持し、一律十分前の誤断定はない。",
+            "record_support": [
+              "L11",
+              "L15",
+              "L56",
+              "L58"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "先週のＳＭＳ不達原因は未特定",
+            "reason": "不達原因の特定を留保している。混雑を確定原因にしていない。",
+            "record_support": [
+              "L32",
+              "L33",
+              "L34",
+              "L60"
+            ]
+          },
+          {
+            "id": "V02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "通知ログの監査適合は未確定",
+            "reason": "監査要件への適合判断を留保し、未回答・未照合の現状を示す。",
+            "record_support": [
+              "L35",
+              "L36",
+              "L61"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "O01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "旧式端末の読取不具合と深夜帯表示は未解消",
+            "reason": "深夜帯の一覧表示に残件があることが具体的に伝わる。",
+            "record_support": [
+              "L48",
+              "L49",
+              "L51",
+              "L69"
+            ]
+          },
+          {
+            "id": "O02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "旧式端末の読取不具合と深夜帯表示は未解消",
+            "reason": "旧式端末の読取／代替照合の残件を具体的に示す。",
+            "record_support": [
+              "L39",
+              "L40",
+              "L41",
+              "L44",
+              "L65",
+              "L69"
+            ]
+          },
+          {
+            "id": "O03",
+            "pass": true,
+            "error": 0,
+            "report_quote": "電話番号の保存期間・削除担当と通知ログの監査適合は未確定",
+            "reason": "電話番号の保存・削除ルールの未決を具体的に示す。",
+            "record_support": [
+              "L26",
+              "L27",
+              "L30",
+              "L62",
+              "L69"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": [],
+        "reason": "支持された確認結果の否定や回復済み障害の現在化なし。検証端末での受信成功と本番未切替も区別する。"
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "担当・予定の補足は切替判断と残件引継ぎに関係し、別の作業目的や義務を追加しない。"
+      },
+      "R": {
+        "retained": 7,
+        "denominator": 7,
+        "missing_ids": [],
+        "items": [
+          {
+            "id": "R01",
+            "retained": true,
+            "report_quote": "受付前の同一予約ＩＤの再取込による更新と通知重複抑止",
+            "record_support": [
+              "L05",
+              "L06",
+              "L46"
+            ]
+          },
+          {
+            "id": "R02",
+            "retained": true,
+            "report_quote": "キャンセル後の枠戻し",
+            "record_support": [
+              "L19",
+              "L64"
+            ]
+          },
+          {
+            "id": "R03",
+            "retained": true,
+            "report_quote": "通知文面は確定",
+            "record_support": [
+              "L23",
+              "L55"
+            ]
+          },
+          {
+            "id": "R04",
+            "retained": true,
+            "report_quote": "通信断用名簿の出力・取得とオフライン照合も確認できています。",
+            "record_support": [
+              "L30",
+              "L63"
+            ]
+          },
+          {
+            "id": "R05",
+            "retained": true,
+            "report_quote": "通信断用名簿の出力・取得とオフライン照合も確認できています。",
+            "record_support": [
+              "L31",
+              "L63"
+            ]
+          },
+          {
+            "id": "R06",
+            "retained": true,
+            "report_quote": "取込時の文字化け修正を確認済みです。",
+            "record_support": [
+              "L45",
+              "L64"
+            ]
+          },
+          {
+            "id": "R07",
+            "retained": true,
+            "report_quote": "来週火曜午前に、当日の通知経路も記録して利用状況を確認します。",
+            "record_support": [
+              "L66"
+            ]
+          }
+        ]
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 7,
+        "R_denominator": 7
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 7,
+        "R_denominator": 7
+      },
+      "adjudication_changes": []
+    },
+    {
+      "id": "S6c09b20789",
+      "report_extraction": "### Revised report の本文のみ。Ledger、Suggestions、Probes、Extended work-state check は送付報告外。抽出の曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "F01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "大野の記名がなく未切替です。",
+            "reason": "通常通知と試験受信を分け、未切替とする。",
+            "record_support": [
+              "L24",
+              "L56",
+              "L57",
+              "L68",
+              "L69"
+            ]
+          },
+          {
+            "id": "F02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "大型車は三十分枠・二十分前呼出、小型車は十五分枠・十分前呼出です。",
+            "reason": "車格別の現行枠を保持し、一律十五分の誤断定はない。",
+            "record_support": [
+              "L11",
+              "L13",
+              "L14",
+              "L58",
+              "L68"
+            ]
+          },
+          {
+            "id": "F03",
+            "pass": true,
+            "error": 0,
+            "report_quote": "大型車は三十分枠・二十分前呼出、小型車は十五分枠・十分前呼出です。",
+            "reason": "大型二十分前、小型十分前を保持し、一律十分前の誤断定はない。",
+            "record_support": [
+              "L11",
+              "L15",
+              "L56",
+              "L58"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "先週のＳＭＳ不達原因は未確定",
+            "reason": "不達原因の特定を留保している。混雑を確定原因にしていない。",
+            "record_support": [
+              "L32",
+              "L33",
+              "L34",
+              "L60"
+            ]
+          },
+          {
+            "id": "V02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "通知ログの監査適合は未確認",
+            "reason": "監査要件への適合判断を留保し、未回答・未照合の現状を示す。",
+            "record_support": [
+              "L35",
+              "L36",
+              "L61"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "O01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "深夜帯一覧の修正候補も未適用です。",
+            "reason": "深夜帯の一覧表示に残件があることが具体的に伝わる。",
+            "record_support": [
+              "L48",
+              "L49",
+              "L51",
+              "L69"
+            ]
+          },
+          {
+            "id": "O02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "旧式端末の読取不具合は未解消、代替照合手順は未確定",
+            "reason": "旧式端末の読取／代替照合の残件を具体的に示す。",
+            "record_support": [
+              "L39",
+              "L40",
+              "L41",
+              "L44",
+              "L65",
+              "L69"
+            ]
+          },
+          {
+            "id": "O03",
+            "pass": true,
+            "error": 0,
+            "report_quote": "電話番号の保存期間・削除担当は、予約台帳や取得済み名簿も含め三上が情報管理の回答待ちです。",
+            "reason": "電話番号の保存・削除ルールの未決を具体的に示す。",
+            "record_support": [
+              "L26",
+              "L27",
+              "L30",
+              "L62",
+              "L69"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": [],
+        "reason": "支持された確認結果の否定や回復済み障害の現在化なし。検証端末での受信成功と本番未切替も区別する。"
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "担当・予定の補足は切替判断と残件引継ぎに関係し、別の作業目的や義務を追加しない。"
+      },
+      "R": {
+        "retained": 7,
+        "denominator": 7,
+        "missing_ids": [],
+        "items": [
+          {
+            "id": "R01",
+            "retained": true,
+            "report_quote": "受付前の同一予約ＩＤ再取込と例外行処理",
+            "record_support": [
+              "L05",
+              "L06",
+              "L46"
+            ]
+          },
+          {
+            "id": "R02",
+            "retained": true,
+            "report_quote": "キャンセル後の枠戻し",
+            "record_support": [
+              "L19",
+              "L64"
+            ]
+          },
+          {
+            "id": "R03",
+            "retained": true,
+            "report_quote": "通知文面",
+            "record_support": [
+              "L23",
+              "L55"
+            ]
+          },
+          {
+            "id": "R04",
+            "retained": true,
+            "report_quote": "通信断用名簿の出力・取得・オフライン閲覧を確認済みです。",
+            "record_support": [
+              "L30",
+              "L63"
+            ]
+          },
+          {
+            "id": "R05",
+            "retained": true,
+            "report_quote": "通信断用名簿の出力・取得・オフライン閲覧を確認済みです。",
+            "record_support": [
+              "L31",
+              "L63"
+            ]
+          },
+          {
+            "id": "R06",
+            "retained": true,
+            "report_quote": "今回確認した条件での文字化け解消",
+            "record_support": [
+              "L45",
+              "L64"
+            ]
+          },
+          {
+            "id": "R07",
+            "retained": true,
+            "report_quote": "三上・柳は来週火曜午前に、通知経路の状態も含めて利用状況を確認する予定です。",
+            "record_support": [
+              "L66"
+            ]
+          }
+        ]
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 7,
+        "R_denominator": 7
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 7,
+        "R_denominator": 7
+      },
+      "adjudication_changes": [],
+      "reading_notes": [
+        "「通知文面…を確認済み」は報告内で確定文面の確認を保持する意味と読む。表の正確さを報告本文の代わりには用いていない。"
+      ]
+    },
+    {
+      "id": "S7a44388fa4",
+      "report_extraction": "全文が送付用報告。抽出の曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "F01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "業務利用への切替は未実施です。",
+            "reason": "通常通知と試験受信を分け、未切替とする。",
+            "record_support": [
+              "L24",
+              "L56",
+              "L57",
+              "L68",
+              "L69"
+            ]
+          },
+          {
+            "id": "F02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "大型車を30分枠・20分前呼出、小型車を15分枠・10分前呼出として本番設定済みです。",
+            "reason": "車格別の現行枠を保持し、一律十五分の誤断定はない。",
+            "record_support": [
+              "L11",
+              "L13",
+              "L14",
+              "L58",
+              "L68"
+            ]
+          },
+          {
+            "id": "F03",
+            "pass": true,
+            "error": 0,
+            "report_quote": "大型車を30分枠・20分前呼出、小型車を15分枠・10分前呼出として本番設定済みです。",
+            "reason": "大型二十分前、小型十分前を保持し、一律十分前の誤断定はない。",
+            "record_support": [
+              "L11",
+              "L15",
+              "L56",
+              "L58"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "先週の旧経路SMS不達は原因未特定",
+            "reason": "不達原因の特定を留保している。混雑を確定原因にしていない。",
+            "record_support": [
+              "L32",
+              "L33",
+              "L34",
+              "L60"
+            ]
+          },
+          {
+            "id": "V02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "通知ログの監査適合は監査担当の確認待ち",
+            "reason": "監査要件への適合判断を留保し、未回答・未照合の現状を示す。",
+            "record_support": [
+              "L35",
+              "L36",
+              "L61"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "O01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "深夜帯の翌日予約の一覧表示は未解決",
+            "reason": "深夜帯の一覧表示に残件があることが具体的に伝わる。",
+            "record_support": [
+              "L48",
+              "L49",
+              "L51",
+              "L69"
+            ]
+          },
+          {
+            "id": "O02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "旧式端末の読取不具合と深夜帯の翌日予約の一覧表示は未解決",
+            "reason": "旧式端末の読取／代替照合の残件を具体的に示す。",
+            "record_support": [
+              "L39",
+              "L40",
+              "L41",
+              "L44",
+              "L65",
+              "L69"
+            ]
+          },
+          {
+            "id": "O03",
+            "pass": true,
+            "error": 0,
+            "report_quote": "電話番号の保存期間・削除担当は情報管理の回答待ち",
+            "reason": "電話番号の保存・削除ルールの未決を具体的に示す。",
+            "record_support": [
+              "L26",
+              "L27",
+              "L30",
+              "L62",
+              "L69"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": [],
+        "reason": "支持された確認結果の否定や回復済み障害の現在化なし。検証端末での受信成功と本番未切替も区別する。"
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "担当・予定の補足は切替判断と残件引継ぎに関係し、別の作業目的や義務を追加しない。"
+      },
+      "R": {
+        "retained": 7,
+        "denominator": 7,
+        "missing_ids": [],
+        "items": [
+          {
+            "id": "R01",
+            "retained": true,
+            "report_quote": "同じ予約IDの再取込による既存予約の更新と通知重複抑止",
+            "record_support": [
+              "L05",
+              "L06",
+              "L46"
+            ]
+          },
+          {
+            "id": "R02",
+            "retained": true,
+            "report_quote": "キャンセル後の枠戻し",
+            "record_support": [
+              "L19",
+              "L64"
+            ]
+          },
+          {
+            "id": "R03",
+            "retained": true,
+            "report_quote": "通知文面の確定",
+            "record_support": [
+              "L23",
+              "L55"
+            ]
+          },
+          {
+            "id": "R04",
+            "retained": true,
+            "report_quote": "通信断用名簿の出力・取得・オフライン照合は確認済みです。",
+            "record_support": [
+              "L30",
+              "L63"
+            ]
+          },
+          {
+            "id": "R05",
+            "retained": true,
+            "report_quote": "通信断用名簿の出力・取得・オフライン照合は確認済みです。",
+            "record_support": [
+              "L31",
+              "L63"
+            ]
+          },
+          {
+            "id": "R06",
+            "retained": true,
+            "report_quote": "取込時の文字化け解消",
+            "record_support": [
+              "L45",
+              "L64"
+            ]
+          },
+          {
+            "id": "R07",
+            "retained": true,
+            "report_quote": "来週火曜午前に三上・柳が予約変更、照合時間、通知に関する問い合わせを確認し、その時点の通知経路も記録します。",
+            "record_support": [
+              "L66"
+            ]
+          }
+        ]
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 7,
+        "R_denominator": 7
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 7,
+        "R_denominator": 7
+      },
+      "adjudication_changes": []
+    },
+    {
+      "id": "S815dc750f3",
+      "report_extraction": "全文が送付用報告。抽出の曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "F01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "当日受付責任者・大野の記名がなく、切替を保留しています。",
+            "reason": "通常通知と試験受信を分け、未切替とする。",
+            "record_support": [
+              "L24",
+              "L56",
+              "L57",
+              "L68",
+              "L69"
+            ]
+          },
+          {
+            "id": "F02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "大型車は三十分枠・二十分前呼出、小型車は十五分枠・十分前呼出です。",
+            "reason": "車格別の現行枠を保持し、一律十五分の誤断定はない。",
+            "record_support": [
+              "L11",
+              "L13",
+              "L14",
+              "L58",
+              "L68"
+            ]
+          },
+          {
+            "id": "F03",
+            "pass": true,
+            "error": 0,
+            "report_quote": "大型車は三十分枠・二十分前呼出、小型車は十五分枠・十分前呼出です。",
+            "reason": "大型二十分前、小型十分前を保持し、一律十分前の誤断定はない。",
+            "record_support": [
+              "L11",
+              "L15",
+              "L56",
+              "L58"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "先週のＳＭＳ不達原因は未特定",
+            "reason": "不達原因の特定を留保している。混雑を確定原因にしていない。",
+            "record_support": [
+              "L32",
+              "L33",
+              "L34",
+              "L60"
+            ]
+          },
+          {
+            "id": "V02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "通知ログの監査適合性は未判定",
+            "reason": "監査要件への適合判断を留保し、未回答・未照合の現状を示す。",
+            "record_support": [
+              "L35",
+              "L36",
+              "L61"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "O01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "旧式端末の読取不具合と深夜帯の一覧表示は未解決",
+            "reason": "深夜帯の一覧表示に残件があることが具体的に伝わる。",
+            "record_support": [
+              "L48",
+              "L49",
+              "L51",
+              "L69"
+            ]
+          },
+          {
+            "id": "O02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "旧式端末の読取不具合と深夜帯の一覧表示は未解決",
+            "reason": "旧式端末の読取／代替照合の残件を具体的に示す。",
+            "record_support": [
+              "L39",
+              "L40",
+              "L41",
+              "L44",
+              "L65",
+              "L69"
+            ]
+          },
+          {
+            "id": "O03",
+            "pass": true,
+            "error": 0,
+            "report_quote": "電話番号の保存期間・削除担当は情報管理の回答待ち",
+            "reason": "電話番号の保存・削除ルールの未決を具体的に示す。",
+            "record_support": [
+              "L26",
+              "L27",
+              "L30",
+              "L62",
+              "L69"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": [],
+        "reason": "支持された確認結果の否定や回復済み障害の現在化なし。検証端末での受信成功と本番未切替も区別する。"
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "担当・予定の補足は切替判断と残件引継ぎに関係し、別の作業目的や義務を追加しない。"
+      },
+      "R": {
+        "retained": 7,
+        "denominator": 7,
+        "missing_ids": [],
+        "items": [
+          {
+            "id": "R01",
+            "retained": true,
+            "report_quote": "受付前の同じ予約ＩＤの再取込による既存予約の更新と重複通知の生成抑止",
+            "record_support": [
+              "L05",
+              "L06",
+              "L46"
+            ]
+          },
+          {
+            "id": "R02",
+            "retained": true,
+            "report_quote": "キャンセル後の枠戻し",
+            "record_support": [
+              "L19",
+              "L64"
+            ]
+          },
+          {
+            "id": "R03",
+            "retained": true,
+            "report_quote": "確定通知文面の試験受信",
+            "record_support": [
+              "L23",
+              "L55"
+            ]
+          },
+          {
+            "id": "R04",
+            "retained": true,
+            "report_quote": "通信断用名簿の出力・取得・オフライン照合を確認しました。",
+            "record_support": [
+              "L30",
+              "L63"
+            ]
+          },
+          {
+            "id": "R05",
+            "retained": true,
+            "report_quote": "通信断用名簿の出力・取得・オフライン照合を確認しました。",
+            "record_support": [
+              "L31",
+              "L63"
+            ]
+          },
+          {
+            "id": "R06",
+            "retained": true,
+            "report_quote": "文字化けの解消",
+            "record_support": [
+              "L45",
+              "L64"
+            ]
+          },
+          {
+            "id": "R07",
+            "retained": true,
+            "report_quote": "来週火曜午前に三上と柳が、当日の通知経路も記録して利用状況を確認する予定です。",
+            "record_support": [
+              "L66"
+            ]
+          }
+        ]
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 7,
+        "R_denominator": 7
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 7,
+        "R_denominator": 7
+      },
+      "adjudication_changes": []
+    },
+    {
+      "id": "Sf024e3d659",
+      "report_extraction": "### Revised report の本文のみ。Ledger、Suggestions、Probes、Extended work-state check は送付報告外。抽出の曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "F01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "切替は日時未定で保留しています。",
+            "reason": "通常通知と試験受信を分け、未切替とする。",
+            "record_support": [
+              "L24",
+              "L56",
+              "L57",
+              "L68",
+              "L69"
+            ]
+          },
+          {
+            "id": "F02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "大型車は三十分枠・二十分前呼出、小型車は十五分枠・十分前呼出です。",
+            "reason": "車格別の現行枠を保持し、一律十五分の誤断定はない。",
+            "record_support": [
+              "L11",
+              "L13",
+              "L14",
+              "L58",
+              "L68"
+            ]
+          },
+          {
+            "id": "F03",
+            "pass": true,
+            "error": 0,
+            "report_quote": "大型車は三十分枠・二十分前呼出、小型車は十五分枠・十分前呼出です。",
+            "reason": "大型二十分前、小型十分前を保持し、一律十分前の誤断定はない。",
+            "record_support": [
+              "L11",
+              "L15",
+              "L56",
+              "L58"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "先週のＳＭＳ不達は原因未確定",
+            "reason": "不達原因の特定を留保している。混雑を確定原因にしていない。",
+            "record_support": [
+              "L32",
+              "L33",
+              "L34",
+              "L60"
+            ]
+          },
+          {
+            "id": "V02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "通知ログの監査適合は未確認",
+            "reason": "監査要件への適合判断を留保し、未回答・未照合の現状を示す。",
+            "record_support": [
+              "L35",
+              "L36",
+              "L61"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "O01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "表示修正は未適用のため、零時過ぎの便は日付切替で確認する必要があります。",
+            "reason": "深夜帯の一覧表示に残件があることが具体的に伝わる。",
+            "record_support": [
+              "L48",
+              "L49",
+              "L51",
+              "L69"
+            ]
+          },
+          {
+            "id": "O02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "旧式端末の読取不具合の調査",
+            "reason": "旧式端末の読取／代替照合の残件を具体的に示す。",
+            "record_support": [
+              "L39",
+              "L40",
+              "L41",
+              "L44",
+              "L65",
+              "L69"
+            ]
+          },
+          {
+            "id": "O03",
+            "pass": true,
+            "error": 0,
+            "report_quote": "電話番号の保存期間と各保存先・取得済み名簿の削除担当は、三上が情報管理の回答を待っています。",
+            "reason": "電話番号の保存・削除ルールの未決を具体的に示す。",
+            "record_support": [
+              "L26",
+              "L27",
+              "L30",
+              "L62",
+              "L69"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": [],
+        "reason": "支持された確認結果の否定や回復済み障害の現在化なし。検証端末での受信成功と本番未切替も区別する。"
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "担当・予定の補足は切替判断と残件引継ぎに関係し、別の作業目的や義務を追加しない。"
+      },
+      "R": {
+        "retained": 7,
+        "denominator": 7,
+        "missing_ids": [],
+        "items": [
+          {
+            "id": "R01",
+            "retained": true,
+            "report_quote": "受付前の同一予約ＩＤの再取込による更新と重複抑制",
+            "record_support": [
+              "L05",
+              "L06",
+              "L46"
+            ]
+          },
+          {
+            "id": "R02",
+            "retained": true,
+            "report_quote": "キャンセル後の枠戻し",
+            "record_support": [
+              "L19",
+              "L64"
+            ]
+          },
+          {
+            "id": "R03",
+            "retained": true,
+            "report_quote": "通知文面の確定",
+            "record_support": [
+              "L23",
+              "L55"
+            ]
+          },
+          {
+            "id": "R04",
+            "retained": true,
+            "report_quote": "柳の端末での名簿の出力・取得・オフライン照合は確認済みです。",
+            "record_support": [
+              "L30",
+              "L63"
+            ]
+          },
+          {
+            "id": "R05",
+            "retained": true,
+            "report_quote": "柳の端末での名簿の出力・取得・オフライン照合は確認済みです。",
+            "record_support": [
+              "L31",
+              "L63"
+            ]
+          },
+          {
+            "id": "R06",
+            "retained": true,
+            "report_quote": "今回の入力条件での文字化け解消",
+            "record_support": [
+              "L45",
+              "L64"
+            ]
+          },
+          {
+            "id": "R07",
+            "retained": true,
+            "report_quote": "来週火曜午前に三上と柳が、当日の通知経路も記録して利用状況を確認します。",
+            "record_support": [
+              "L66"
+            ]
+          }
+        ]
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 7,
+        "R_denominator": 7
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 7,
+        "R_denominator": 7
+      },
+      "adjudication_changes": [],
+      "reading_notes": [
+        "「柳の端末での名簿の出力・取得・オフライン照合」は一連の機能確認の要約と読む。L63の生成と柳による取得、L31のオフライン照合を保持しており、生成処理が端末内で動いたという技術的主張には読まない。"
+      ]
+    },
+    {
+      "id": "Sf753e9ed8b",
+      "report_extraction": "全文が送付用報告。抽出の曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "F01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "新経路への業務切替は保留です。",
+            "reason": "通常通知と試験受信を分け、未切替とする。",
+            "record_support": [
+              "L24",
+              "L56",
+              "L57",
+              "L68",
+              "L69"
+            ]
+          },
+          {
+            "id": "F02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "大型車は30分枠・20分前予告、小型車は15分枠・10分前予告です。",
+            "reason": "車格別の現行枠を保持し、一律十五分の誤断定はない。",
+            "record_support": [
+              "L11",
+              "L13",
+              "L14",
+              "L58",
+              "L68"
+            ]
+          },
+          {
+            "id": "F03",
+            "pass": true,
+            "error": 0,
+            "report_quote": "大型車は30分枠・20分前予告、小型車は15分枠・10分前予告です。",
+            "reason": "大型二十分前、小型十分前を保持し、一律十分前の誤断定はない。",
+            "record_support": [
+              "L11",
+              "L15",
+              "L56",
+              "L58"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "先週のSMS不達原因は未特定",
+            "reason": "不達原因の特定を留保している。混雑を確定原因にしていない。",
+            "record_support": [
+              "L32",
+              "L33",
+              "L34",
+              "L60"
+            ]
+          },
+          {
+            "id": "V02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "通知ログの監査適合性と電話番号の保存期間・削除担当は未確定",
+            "reason": "監査要件への適合判断を留保し、未回答・未照合の現状を示す。",
+            "record_support": [
+              "L35",
+              "L36",
+              "L61"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "O01",
+            "pass": true,
+            "error": 0,
+            "report_quote": "表示修正は未適用で、零時過ぎの予約を見るには日付切替が必要です。",
+            "reason": "深夜帯の一覧表示に残件があることが具体的に伝わる。",
+            "record_support": [
+              "L48",
+              "L49",
+              "L51",
+              "L69"
+            ]
+          },
+          {
+            "id": "O02",
+            "pass": true,
+            "error": 0,
+            "report_quote": "旧式端末の読取不具合の調査",
+            "reason": "旧式端末の読取／代替照合の残件を具体的に示す。",
+            "record_support": [
+              "L39",
+              "L40",
+              "L41",
+              "L44",
+              "L65",
+              "L69"
+            ]
+          },
+          {
+            "id": "O03",
+            "pass": true,
+            "error": 0,
+            "report_quote": "電話番号の保存期間・削除担当は未確定",
+            "reason": "電話番号の保存・削除ルールの未決を具体的に示す。",
+            "record_support": [
+              "L26",
+              "L27",
+              "L30",
+              "L62",
+              "L69"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": [],
+        "reason": "支持された確認結果の否定や回復済み障害の現在化なし。検証端末での受信成功と本番未切替も区別する。"
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "担当・予定の補足は切替判断と残件引継ぎに関係し、別の作業目的や義務を追加しない。"
+      },
+      "R": {
+        "retained": 7,
+        "denominator": 7,
+        "missing_ids": [],
+        "items": [
+          {
+            "id": "R01",
+            "retained": true,
+            "report_quote": "受付前の同一予約IDの再取込による更新と予約・通知候補の重複抑止",
+            "record_support": [
+              "L05",
+              "L06",
+              "L46"
+            ]
+          },
+          {
+            "id": "R02",
+            "retained": true,
+            "report_quote": "キャンセル後の枠戻し",
+            "record_support": [
+              "L19",
+              "L64"
+            ]
+          },
+          {
+            "id": "R03",
+            "retained": true,
+            "report_quote": "通知文面は確定",
+            "record_support": [
+              "L23",
+              "L55"
+            ]
+          },
+          {
+            "id": "R04",
+            "retained": true,
+            "report_quote": "通信断用名簿の出力・取得・オフライン閲覧も確認済みです。",
+            "record_support": [
+              "L30",
+              "L63"
+            ]
+          },
+          {
+            "id": "R05",
+            "retained": true,
+            "report_quote": "通信断用名簿の出力・取得・オフライン閲覧も確認済みです。",
+            "record_support": [
+              "L31",
+              "L63"
+            ]
+          },
+          {
+            "id": "R06",
+            "retained": true,
+            "report_quote": "取込時の文字化け解消を試験で確認しました。",
+            "record_support": [
+              "L45",
+              "L64"
+            ]
+          },
+          {
+            "id": "R07",
+            "retained": true,
+            "report_quote": "来週火曜午前に、当日の通知経路も記録しながら予約側の変更後の利用状況を確認します。",
+            "record_support": [
+              "L66"
+            ]
+          }
+        ]
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 7,
+        "R_denominator": 7
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 7,
+        "R_denominator": 7
+      },
+      "adjudication_changes": []
+    }
+  ],
+  "adjudication_summary": "全出力で文字どおりのキー採点と推奨裁定に差なし。次元合算はしない。"
+}

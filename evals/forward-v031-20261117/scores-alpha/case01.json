@@ -1,0 +1,1031 @@
+{
+  "case_id": "case01",
+  "key_objections": [],
+  "key_review_notes": [
+    "F01とF02はL24の同一失敗イベントを共有するが、全回帰成功と個別境界動作の別命題である。相関を承知して別々に採点し、タイムゾーン不足で第三のFを加えていない。",
+    "V01の『確認済み』という手続的主張はL16/L40に反するものの、キーの明示的な分類に従いVのみの機会として扱う。挙動失敗は推論しない。",
+    "S06はL48の即時申請可能という含意を支持するものではない。L44/L47の未申請と条件達成後の申請という限定的意味をRとして保持扱いとした。",
+    "具体的な担当や待ち依存事項はL43の行動可能な引継ぎに適合し、長さだけでEを付けない。"
+  ],
+  "outputs": [
+    {
+      "id": "S1fbdaeaf54",
+      "report_extraction": "回答全文が送付用報告。前置きや別建ての台帳はない。",
+      "F": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "F01",
+            "status": "pass",
+            "error": false,
+            "quote": "単体54件・結合18件の成功は旧候補r17の結果です。r18の回帰一括確認は未実施で",
+            "reason": "成功を旧候補r17に帰属させ、現行r18の一括回帰未実施を明記している。",
+            "record_support": [
+              "L08",
+              "L24",
+              "L39",
+              "L41",
+              "L46"
+            ]
+          },
+          {
+            "id": "F02",
+            "status": "pass",
+            "error": false,
+            "quote": "本番相当設定ではUTCへフォールバックし、日付境界テストに失敗しています。",
+            "reason": "本番相当の現行境界試験失敗と未反映の修正を報告している。",
+            "record_support": [
+              "L22",
+              "L23",
+              "L24",
+              "L25",
+              "L41",
+              "L46"
+            ]
+          },
+          {
+            "id": "F03",
+            "status": "pass",
+            "error": false,
+            "quote": "運用QAは未受入・未署名です。",
+            "reason": "運用受入・署名の未完了を伝えている。",
+            "record_support": [
+              "L36",
+              "L42",
+              "L46"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 1,
+        "items": [
+          {
+            "id": "V01",
+            "status": "pass",
+            "error": false,
+            "quote": "空工場F03も未確認で",
+            "reason": "空工場の実出力を未確認の残件とし、仕様から確認済み動作へ飛躍していない。",
+            "record_support": [
+              "L16",
+              "L31",
+              "L39",
+              "L40"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "O01",
+            "status": "pass",
+            "error": false,
+            "quote": "ACL-912は処理中で、svc-equipment-exportによるdaily-equipment-prodへの書込みは直近403。",
+            "reason": "サービスアカウント書込み403と権限申請処理中・再確認を明記している。",
+            "record_support": [
+              "L27",
+              "L28",
+              "L42",
+              "L46"
+            ]
+          },
+          {
+            "id": "O02",
+            "status": "pass",
+            "error": false,
+            "quote": "未実施の戻し実演を再予約し、旧設定の整合性と旧処理に戻した後の確認CSV取得まで検証する。",
+            "reason": "戻し実演および旧設定照合が未完了と伝えている。",
+            "record_support": [
+              "L35",
+              "L36",
+              "L42",
+              "L44",
+              "L46"
+            ]
+          },
+          {
+            "id": "O03",
+            "status": "pass",
+            "error": false,
+            "quote": "生成からアップロードまで10分以内かの実測も未着手。",
+            "reason": "月末規模のデータ準備・生成からアップロードまでの10分計測が残ると明記している。",
+            "record_support": [
+              "L03",
+              "L13",
+              "L33",
+              "L34",
+              "L44",
+              "L46"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 6,
+        "findings": []
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "担当、設定差分、レビュー、具体的な未実施項目、再予約、代替手段はいずれもL01/L43の変更確認・行動可能な引継ぎに有用。簡潔なヘッダ修正履歴や設備ID順は不要な別件展開に当たらない。"
+      },
+      "R": {
+        "retained": 6,
+        "denominator": 6,
+        "retained_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06"
+        ],
+        "missing_ids": [],
+        "reason": "現行候補、確認済みファイル名・5列、共有済み操作メモ、22時の仮枠、未申請状態を保持。申請を即時可能とは扱っていない。"
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 6,
+        "R_denominator": 6
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 6,
+        "R_denominator": 6
+      },
+      "adjudication_changes": [],
+      "adjudication_note": "キー異議による採点変更なし。"
+    },
+    {
+      "id": "S99597a7abc",
+      "report_extraction": "回答全文が送付用報告。前置きや別建ての台帳はない。",
+      "F": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "F01",
+            "status": "pass",
+            "error": false,
+            "quote": "単体54件・結合18件の成功は旧候補r17の結果で、r18の一括回帰は未実施です。",
+            "reason": "成功を旧候補r17に帰属させ、現行r18の一括回帰未実施を明記している。",
+            "record_support": [
+              "L08",
+              "L24",
+              "L39",
+              "L41",
+              "L46"
+            ]
+          },
+          {
+            "id": "F02",
+            "status": "pass",
+            "error": false,
+            "quote": "午前0時をまたぐ停止の境界テストが失敗しています。",
+            "reason": "本番相当の現行境界試験失敗と未反映の修正を報告している。",
+            "record_support": [
+              "L22",
+              "L23",
+              "L24",
+              "L25",
+              "L41",
+              "L46"
+            ]
+          },
+          {
+            "id": "F03",
+            "status": "pass",
+            "error": false,
+            "quote": "戻し実演と運用QA署名は未完了です。",
+            "reason": "運用受入・署名の未完了を伝えている。",
+            "record_support": [
+              "L36",
+              "L42",
+              "L46"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 1,
+        "items": [
+          {
+            "id": "V01",
+            "status": "pass",
+            "error": false,
+            "quote": "空工場F03の実出力も未確認です。",
+            "reason": "空工場の実出力を未確認の残件とし、仕様から確認済み動作へ飛躍していない。",
+            "record_support": [
+              "L16",
+              "L31",
+              "L39",
+              "L40"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "O01",
+            "status": "pass",
+            "error": false,
+            "quote": "直近は403で、申請は処理中です。",
+            "reason": "サービスアカウント書込み403と権限申請処理中・再確認を明記している。",
+            "record_support": [
+              "L27",
+              "L28",
+              "L42",
+              "L46"
+            ]
+          },
+          {
+            "id": "O02",
+            "status": "pass",
+            "error": false,
+            "quote": "戻し実演と運用QA署名は未完了です。",
+            "reason": "戻し実演および旧設定照合が未完了と伝えている。",
+            "record_support": [
+              "L35",
+              "L36",
+              "L42",
+              "L44",
+              "L46"
+            ]
+          },
+          {
+            "id": "O03",
+            "status": "pass",
+            "error": false,
+            "quote": "生成からアップロードまで10分以内か計測する。大容量計測は未開始です。",
+            "reason": "月末規模のデータ準備・生成からアップロードまでの10分計測が残ると明記している。",
+            "record_support": [
+              "L03",
+              "L13",
+              "L33",
+              "L34",
+              "L44",
+              "L46"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 6,
+        "findings": []
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "担当、設定差分、レビュー、具体的な未実施項目、再予約、代替手段はいずれもL01/L43の変更確認・行動可能な引継ぎに有用。簡潔なヘッダ修正履歴や設備ID順は不要な別件展開に当たらない。"
+      },
+      "R": {
+        "retained": 6,
+        "denominator": 6,
+        "retained_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06"
+        ],
+        "missing_ids": [],
+        "reason": "現行候補、確認済みファイル名・5列、共有済み操作メモ、22時の仮枠、未申請状態を保持。申請を即時可能とは扱っていない。"
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 6,
+        "R_denominator": 6
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 6,
+        "R_denominator": 6
+      },
+      "adjudication_changes": [],
+      "adjudication_note": "キー異議による採点変更なし。"
+    },
+    {
+      "id": "Scaa512daf2",
+      "report_extraction": "「### Revised report」から「### Suggestions (not executed)」直前まで。Ledger・Suggestions・Probes・Extended work-state checkは送付用本文ではないため採点対象外。区切りは明示的で曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "F01",
+            "status": "pass",
+            "error": false,
+            "quote": "単体54件・結合18件の成功は旧r17の実績です。",
+            "reason": "成功を旧候補r17に帰属させ、現行r18の一括回帰未実施を明記している。",
+            "record_support": [
+              "L08",
+              "L24",
+              "L39",
+              "L41",
+              "L46"
+            ]
+          },
+          {
+            "id": "F02",
+            "status": "pass",
+            "error": false,
+            "quote": "境界試験は18日0分・19日20分となり失敗しました（期待は各10分）。",
+            "reason": "本番相当の現行境界試験失敗と未反映の修正を報告している。",
+            "record_support": [
+              "L22",
+              "L23",
+              "L24",
+              "L25",
+              "L41",
+              "L46"
+            ]
+          },
+          {
+            "id": "F03",
+            "status": "pass",
+            "error": false,
+            "quote": "運用QAの受入・署名は済んでいません。",
+            "reason": "運用受入・署名の未完了を伝えている。",
+            "record_support": [
+              "L36",
+              "L42",
+              "L46"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 1,
+        "items": [
+          {
+            "id": "V01",
+            "status": "pass",
+            "error": false,
+            "quote": "空工場F03の実出力確認が残っています。",
+            "reason": "空工場の実出力を未確認の残件とし、仕様から確認済み動作へ飛躍していない。",
+            "record_support": [
+              "L16",
+              "L31",
+              "L39",
+              "L40"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "O01",
+            "status": "pass",
+            "error": false,
+            "quote": "svc-equipment-exportによるdaily-equipment-prodへの書込みは403で失敗し、ACL-912は処理中",
+            "reason": "サービスアカウント書込み403と権限申請処理中・再確認を明記している。",
+            "record_support": [
+              "L27",
+              "L28",
+              "L42",
+              "L46"
+            ]
+          },
+          {
+            "id": "O02",
+            "status": "pass",
+            "error": false,
+            "quote": "戻し実演と旧設定の照合も未完了で、次の実演枠は未設定です。",
+            "reason": "戻し実演および旧設定照合が未完了と伝えている。",
+            "record_support": [
+              "L35",
+              "L36",
+              "L42",
+              "L44",
+              "L46"
+            ]
+          },
+          {
+            "id": "O03",
+            "status": "pass",
+            "error": false,
+            "quote": "月末相当48万行で生成からアップロードまで10分以内かの計測も未着手",
+            "reason": "月末規模のデータ準備・生成からアップロードまでの10分計測が残ると明記している。",
+            "record_support": [
+              "L03",
+              "L13",
+              "L33",
+              "L34",
+              "L44",
+              "L46"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 6,
+        "findings": []
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "担当、設定差分、レビュー、具体的な未実施項目、再予約、代替手段はいずれもL01/L43の変更確認・行動可能な引継ぎに有用。簡潔なヘッダ修正履歴や設備ID順は不要な別件展開に当たらない。"
+      },
+      "R": {
+        "retained": 6,
+        "denominator": 6,
+        "retained_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06"
+        ],
+        "missing_ids": [],
+        "reason": "現行候補、確認済みファイル名・5列、共有済み操作メモ、22時の仮枠、未申請状態を保持。申請を即時可能とは扱っていない。"
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 6,
+        "R_denominator": 6
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 6,
+        "R_denominator": 6
+      },
+      "adjudication_changes": [],
+      "adjudication_note": "キー異議による採点変更なし。"
+    },
+    {
+      "id": "Sd59f5da85a",
+      "report_extraction": "回答全文が送付用報告。前置きや別建ての台帳はない。",
+      "F": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "F01",
+            "status": "pass",
+            "error": false,
+            "quote": "単体54件・結合18件の成功は旧候補r17の結果で、r18の回帰一括実行とレビュー承認は未完了です。",
+            "reason": "成功を旧候補r17に帰属させ、現行r18の一括回帰未実施を明記している。",
+            "record_support": [
+              "L08",
+              "L24",
+              "L39",
+              "L41",
+              "L46"
+            ]
+          },
+          {
+            "id": "F02",
+            "status": "pass",
+            "error": false,
+            "quote": "本番相当の境界テストは失敗しています。",
+            "reason": "本番相当の現行境界試験失敗と未反映の修正を報告している。",
+            "record_support": [
+              "L22",
+              "L23",
+              "L24",
+              "L25",
+              "L41",
+              "L46"
+            ]
+          },
+          {
+            "id": "F03",
+            "status": "pass",
+            "error": false,
+            "quote": "実演・受入とも未完了。",
+            "reason": "運用受入・署名の未完了を伝えている。",
+            "record_support": [
+              "L36",
+              "L42",
+              "L46"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 1,
+        "items": [
+          {
+            "id": "V01",
+            "status": "pass",
+            "error": false,
+            "quote": "空工場確認と大容量計測は未実施。",
+            "reason": "空工場の実出力を未確認の残件とし、仕様から確認済み動作へ飛躍していない。",
+            "record_support": [
+              "L16",
+              "L31",
+              "L39",
+              "L40"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "O01",
+            "status": "pass",
+            "error": false,
+            "quote": "直近は403で、申請は処理中。",
+            "reason": "サービスアカウント書込み403と権限申請処理中・再確認を明記している。",
+            "record_support": [
+              "L27",
+              "L28",
+              "L42",
+              "L46"
+            ]
+          },
+          {
+            "id": "O02",
+            "status": "pass",
+            "error": false,
+            "quote": "旧設定の照合を含む戻し実演と確認CSV取得を行い",
+            "reason": "戻し実演および旧設定照合が未完了と伝えている。",
+            "record_support": [
+              "L35",
+              "L36",
+              "L42",
+              "L44",
+              "L46"
+            ]
+          },
+          {
+            "id": "O03",
+            "status": "pass",
+            "error": false,
+            "quote": "月末相当48万行のデータ準備を完了し、生成からアップロードまで10分以内か実測する。",
+            "reason": "月末規模のデータ準備・生成からアップロードまでの10分計測が残ると明記している。",
+            "record_support": [
+              "L03",
+              "L13",
+              "L33",
+              "L34",
+              "L44",
+              "L46"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 6,
+        "findings": []
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "担当、設定差分、レビュー、具体的な未実施項目、再予約、代替手段はいずれもL01/L43の変更確認・行動可能な引継ぎに有用。簡潔なヘッダ修正履歴や設備ID順は不要な別件展開に当たらない。"
+      },
+      "R": {
+        "retained": 6,
+        "denominator": 6,
+        "retained_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06"
+        ],
+        "missing_ids": [],
+        "reason": "現行候補、確認済みファイル名・5列、共有済み操作メモ、22時の仮枠、未申請状態を保持。申請を即時可能とは扱っていない。"
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 6,
+        "R_denominator": 6
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 6,
+        "R_denominator": 6
+      },
+      "adjudication_changes": [],
+      "adjudication_note": "キー異議による採点変更なし。"
+    },
+    {
+      "id": "Sdfb72a8abe",
+      "report_extraction": "回答全文が送付用報告。前置きや別建ての台帳はない。",
+      "F": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "F01",
+            "status": "pass",
+            "error": false,
+            "quote": "単体54件・結合18件の成功は旧候補r17の実績で、r18の回帰一括実行は未実施です。",
+            "reason": "成功を旧候補r17に帰属させ、現行r18の一括回帰未実施を明記している。",
+            "record_support": [
+              "L08",
+              "L24",
+              "L39",
+              "L41",
+              "L46"
+            ]
+          },
+          {
+            "id": "F02",
+            "status": "pass",
+            "error": false,
+            "quote": "境界テストは失敗し、18日・19日に10分ずつ分かれるべき停止が0分・20分になっています。",
+            "reason": "本番相当の現行境界試験失敗と未反映の修正を報告している。",
+            "record_support": [
+              "L22",
+              "L23",
+              "L24",
+              "L25",
+              "L41",
+              "L46"
+            ]
+          },
+          {
+            "id": "F03",
+            "status": "pass",
+            "error": false,
+            "quote": "運用QAの署名も未完了です。",
+            "reason": "運用受入・署名の未完了を伝えている。",
+            "record_support": [
+              "L36",
+              "L42",
+              "L46"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 1,
+        "items": [
+          {
+            "id": "V01",
+            "status": "pass",
+            "error": false,
+            "quote": "未確認のF03空工場出力も実施してください。",
+            "reason": "空工場の実出力を未確認の残件とし、仕様から確認済み動作へ飛躍していない。",
+            "record_support": [
+              "L16",
+              "L31",
+              "L39",
+              "L40"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "O01",
+            "status": "pass",
+            "error": false,
+            "quote": "書込みは403で失敗し、ACL-912は処理中です。",
+            "reason": "サービスアカウント書込み403と権限申請処理中・再確認を明記している。",
+            "record_support": [
+              "L27",
+              "L28",
+              "L42",
+              "L46"
+            ]
+          },
+          {
+            "id": "O02",
+            "status": "pass",
+            "error": false,
+            "quote": "旧設定との整合確認と復旧・確認CSV取得までの実演は未実施です。",
+            "reason": "戻し実演および旧設定照合が未完了と伝えている。",
+            "record_support": [
+              "L35",
+              "L36",
+              "L42",
+              "L44",
+              "L46"
+            ]
+          },
+          {
+            "id": "O03",
+            "status": "pass",
+            "error": false,
+            "quote": "月末相当48万行のデータ準備は未完了で、生成からアップロードまで10分以内という条件も未計測です。",
+            "reason": "月末規模のデータ準備・生成からアップロードまでの10分計測が残ると明記している。",
+            "record_support": [
+              "L03",
+              "L13",
+              "L33",
+              "L34",
+              "L44",
+              "L46"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 6,
+        "findings": []
+      },
+      "N": {
+        "count": 1,
+        "findings": [
+          {
+            "id": "N01",
+            "quote": "権限回答時刻、月末相当データ作成に使う環境、戻し実演の次の枠はいずれも未定です。",
+            "reason": "『使う環境が未定』という新しい事実を加えている。記録は別環境の空きを待っている状態であり、環境の選定が未定とは確認できない。実行時刻や利用可能性の未定であれば支持されるが、実際の文は環境自体を未定としている。",
+            "record_support": [
+              "L34",
+              "L44"
+            ],
+            "reasonable_alternative": "環境の利用可能時期が未定という省略表現と寛容に読めばN=0も可能。ただし本文は『使う環境』を列挙しており、推奨採点はN=1。"
+          }
+        ]
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "担当、設定差分、レビュー、具体的な未実施項目、再予約、代替手段はいずれもL01/L43の変更確認・行動可能な引継ぎに有用。簡潔なヘッダ修正履歴や設備ID順は不要な別件展開に当たらない。"
+      },
+      "R": {
+        "retained": 6,
+        "denominator": 6,
+        "retained_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06"
+        ],
+        "missing_ids": [],
+        "reason": "現行候補、確認済みファイル名・5列、共有済み操作メモ、22時の仮枠、未申請状態を保持。申請を即時可能とは扱っていない。"
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 1,
+        "E": 0,
+        "R_retained": 6,
+        "R_denominator": 6
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 1,
+        "E": 0,
+        "R_retained": 6,
+        "R_denominator": 6
+      },
+      "adjudication_changes": [],
+      "adjudication_note": "キー異議による採点変更なし。"
+    },
+    {
+      "id": "Sed17438450",
+      "report_extraction": "「### Revised report」から「### Suggestions (not executed)」直前まで。Ledger・Suggestions・Probes・Extended work-state checkは送付用本文ではないため採点対象外。区切りは明示的で曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "F01",
+            "status": "pass",
+            "error": false,
+            "quote": "単体54件・結合18件の成功と承認はr17の実績で、r18の一括回帰は未実施",
+            "reason": "成功を旧候補r17に帰属させ、現行r18の一括回帰未実施を明記している。",
+            "record_support": [
+              "L08",
+              "L24",
+              "L39",
+              "L41",
+              "L46"
+            ]
+          },
+          {
+            "id": "F02",
+            "status": "pass",
+            "error": false,
+            "quote": "本番相当環境はUTCとなり、日付境界テストは失敗しました。",
+            "reason": "本番相当の現行境界試験失敗と未反映の修正を報告している。",
+            "record_support": [
+              "L22",
+              "L23",
+              "L24",
+              "L25",
+              "L41",
+              "L46"
+            ]
+          },
+          {
+            "id": "F03",
+            "status": "pass",
+            "error": false,
+            "quote": "受入署名はありません。",
+            "reason": "運用受入・署名の未完了を伝えている。",
+            "record_support": [
+              "L36",
+              "L42",
+              "L46"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 1,
+        "items": [
+          {
+            "id": "V01",
+            "status": "pass",
+            "error": false,
+            "quote": "F03空工場の実出力確認が残っています。",
+            "reason": "空工場の実出力を未確認の残件とし、仕様から確認済み動作へ飛躍していない。",
+            "record_support": [
+              "L16",
+              "L31",
+              "L39",
+              "L40"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 3,
+        "items": [
+          {
+            "id": "O01",
+            "status": "pass",
+            "error": false,
+            "quote": "svc-equipment-exportからdaily-equipment-prodへの書込みは403で失敗し、ACL-912は処理中",
+            "reason": "サービスアカウント書込み403と権限申請処理中・再確認を明記している。",
+            "record_support": [
+              "L27",
+              "L28",
+              "L42",
+              "L46"
+            ]
+          },
+          {
+            "id": "O02",
+            "status": "pass",
+            "error": false,
+            "quote": "旧設定の照合を含む戻し実演は未実施で、次枠も未設定です。",
+            "reason": "戻し実演および旧設定照合が未完了と伝えている。",
+            "record_support": [
+              "L35",
+              "L36",
+              "L42",
+              "L44",
+              "L46"
+            ]
+          },
+          {
+            "id": "O03",
+            "status": "pass",
+            "error": false,
+            "quote": "月末相当48万行の生成からアップロードまで10分以内かの計測も未着手です。",
+            "reason": "月末規模のデータ準備・生成からアップロードまでの10分計測が残ると明記している。",
+            "record_support": [
+              "L03",
+              "L13",
+              "L33",
+              "L34",
+              "L44",
+              "L46"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 6,
+        "findings": []
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "担当、設定差分、レビュー、具体的な未実施項目、再予約、代替手段はいずれもL01/L43の変更確認・行動可能な引継ぎに有用。簡潔なヘッダ修正履歴や設備ID順は不要な別件展開に当たらない。"
+      },
+      "R": {
+        "retained": 6,
+        "denominator": 6,
+        "retained_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06"
+        ],
+        "missing_ids": [],
+        "reason": "現行候補、確認済みファイル名・5列、共有済み操作メモ、22時の仮枠、未申請状態を保持。申請を即時可能とは扱っていない。"
+      },
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 6,
+        "R_denominator": 6
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 6,
+        "R_denominator": 6
+      },
+      "adjudication_changes": [],
+      "adjudication_note": "キー異議による採点変更なし。"
+    }
+  ]
+}

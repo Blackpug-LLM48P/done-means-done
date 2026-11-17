@@ -1,0 +1,1035 @@
+{
+  "case_id": "case02",
+  "key_objections": [],
+  "key_review_notes": [
+    "会場定員と募集人数、菜食とナッツ対応、登壇受諾と録画許諾、館内測定と外部帯域を別命題として確認。キーの主要基準は一次記録に支持される。",
+    "『配信条件がそろう』『準備完了』は複合結論なので、独立のF/Vを増設しない。録画と回線の根拠不足は互いに独立で、字幕未確保とも重複計上しない。",
+    "L38の用語リスト送付・代替合意は厳密には『記録なし』。本文の業務的な未完了要約は前後の計画・未確保状況も加味して判断した。記録外の存在を否定する強い読みとの差は該当出力に残した。",
+    "通常の将来手順がOの必須項目でないことは、その記述が自動的にEであることを意味しない。今回の補足は受け手の募集準備判断と手配の範囲内と判断。"
+  ],
+  "outputs": [
+    {
+      "id": "S286328f105",
+      "report_extraction": "「### Revised report」から「### Suggestions (not executed)」直前まで。台帳・提案・Probesは送付用本文に含めない。曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "F01",
+            "status": "pass",
+            "error": false,
+            "quote": "スクール形式の上限は登壇者・運営者込みで72人",
+            "reason": "B室の上限72人を登壇者・運営者込みとして示し、募集60人・予定66人と区別している。",
+            "record_support": [
+              "L05",
+              "L06",
+              "L35"
+            ]
+          },
+          {
+            "id": "F02",
+            "status": "pass",
+            "error": false,
+            "quote": "ナッツ除去食は受注不可で、混入防止も保証されず",
+            "reason": "菜食可能とナッツ除去食受注不可・混入防止保証なしを区別している。",
+            "record_support": [
+              "L08",
+              "L09",
+              "L36"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "status": "pass",
+            "error": false,
+            "quote": "許可取得は確認できていません。",
+            "reason": "正式許可を未確認とし、伝聞や登壇受諾を許諾取得へ変換していない。不許可とも断定しない。",
+            "record_support": [
+              "L11",
+              "L12",
+              "L29",
+              "L30",
+              "L31",
+              "L32",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "V02",
+            "status": "pass",
+            "error": false,
+            "quote": "上り30Mbpsの保証、専用回線の有無、外部会議サービスへの接続制限は回答待ちです。",
+            "reason": "現在の帯域保証を確認済みとせず、回答待ち・館内測定の限定を維持している。",
+            "record_support": [
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L33",
+              "L34",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "O01",
+            "status": "pass",
+            "error": false,
+            "quote": "11月21日正午までの着金が本予約の条件で",
+            "reason": "仮押さえ、11月21日正午の着金期限、部署コード決定と支払手配を受け手の残作業として明記している。",
+            "record_support": [
+              "L20",
+              "L21",
+              "L22",
+              "L40",
+              "L42",
+              "L44"
+            ],
+            "additional_quote": "小島さんによる費用負担（研修費／プロジェクト費）と部署コードの決定、その後の承認・送金・着金確認が残ります。"
+          },
+          {
+            "id": "O02",
+            "status": "pass",
+            "error": false,
+            "quote": "人手のリアルタイム字幕は見積依頼中で、担当者・対応時間枠は未確保",
+            "reason": "当日の人手字幕が未確保であることと、確保・代替案・本人への案内判断を明記している。",
+            "record_support": [
+              "L17",
+              "L18",
+              "L19",
+              "L38",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": []
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "支払残額、菜食条件、注文期限、字幕用語リスト、PDF公開先切替は必須Oではないが、同じ募集準備の具体的状態・手配に関連する短い補足。単にキーの必須項目を超えることや長さを理由にEとはしない。無関係な過去の引継ぎ経緯は本文に持ち込んでいない。"
+      },
+      "R": {
+        "retained": 8,
+        "denominator": 8,
+        "retained_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "missing_ids": [],
+        "reason": "日時・会場計画、現地募集60人、税込48,000円、菜食可、フォーム動作・PDF閲覧の確認、20日午前の候補、小島さんの最終判断をすべて保持。"
+      },
+      "reasonable_alternative_readings": [
+        {
+          "quote": "代替方法の合意もありません。",
+          "record_support": [
+            "L17",
+            "L38"
+          ],
+          "assessment": "L38の厳密な文言は合意記録なし。本文は、募集前に利用できる合意済み代替案が存在すると確認されていないという業務状態の要約として受容する。記録外の私的な合意の不存在まで主張する読みならN候補だが、当該文脈では採用しない。"
+        }
+      ],
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "adjudication_changes": [],
+      "adjudication_note": "キー異議による採点変更なし。"
+    },
+    {
+      "id": "S507e357613",
+      "report_extraction": "「### Revised report」から「### Suggestions (not executed)」直前まで。台帳・提案・Probesは送付用本文に含めない。曖昧さなし。",
+      "F": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "F01",
+            "status": "pass",
+            "error": false,
+            "quote": "B室のスクール形式の在室上限は、登壇者・運営者を含め72人です。",
+            "reason": "B室の上限72人を登壇者・運営者込みとして示し、募集60人・予定66人と区別している。",
+            "record_support": [
+              "L05",
+              "L06",
+              "L35"
+            ]
+          },
+          {
+            "id": "F02",
+            "status": "pass",
+            "error": false,
+            "quote": "ナッツ除去食は受注不可で、混入防止も保証されません。",
+            "reason": "菜食可能とナッツ除去食受注不可・混入防止保証なしを区別している。",
+            "record_support": [
+              "L08",
+              "L09",
+              "L36"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "status": "pass",
+            "error": false,
+            "quote": "録画の社内公開許可は、取得済みと確認できていません。",
+            "reason": "正式許可を未確認とし、伝聞や登壇受諾を許諾取得へ変換していない。不許可とも断定しない。",
+            "record_support": [
+              "L11",
+              "L12",
+              "L29",
+              "L30",
+              "L31",
+              "L32",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "V02",
+            "status": "pass",
+            "error": false,
+            "quote": "上り30Mbpsは過去の催事に関する伝聞で、保証値としては確認できません。",
+            "reason": "現在の帯域保証を確認済みとせず、回答待ち・館内測定の限定を維持している。",
+            "record_support": [
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L33",
+              "L34",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "O01",
+            "status": "pass",
+            "error": false,
+            "quote": "予約金24,000円を11月21日正午までに着金させる必要があり",
+            "reason": "仮押さえ、11月21日正午の着金期限、部署コード決定と支払手配を受け手の残作業として明記している。",
+            "record_support": [
+              "L20",
+              "L21",
+              "L22",
+              "L40",
+              "L42",
+              "L44"
+            ],
+            "additional_quote": "研修費／プロジェクト費の選択と部署コードの決定が必要です。"
+          },
+          {
+            "id": "O02",
+            "status": "pass",
+            "error": false,
+            "quote": "字幕手配と、確保できない場合の案内について小島さんの判断が必要です。",
+            "reason": "当日の人手字幕が未確保であることと、確保・代替案・本人への案内判断を明記している。",
+            "record_support": [
+              "L17",
+              "L18",
+              "L19",
+              "L38",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": []
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "支払残額、菜食条件、注文期限、字幕用語リスト、PDF公開先切替は必須Oではないが、同じ募集準備の具体的状態・手配に関連する短い補足。単にキーの必須項目を超えることや長さを理由にEとはしない。無関係な過去の引継ぎ経緯は本文に持ち込んでいない。"
+      },
+      "R": {
+        "retained": 8,
+        "denominator": 8,
+        "retained_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "missing_ids": [],
+        "reason": "日時・会場計画、現地募集60人、税込48,000円、菜食可、フォーム動作・PDF閲覧の確認、20日午前の候補、小島さんの最終判断をすべて保持。"
+      },
+      "reasonable_alternative_readings": [],
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "adjudication_changes": [],
+      "adjudication_note": "キー異議による採点変更なし。"
+    },
+    {
+      "id": "S933079cba7",
+      "report_extraction": "回答全文が送付用報告。",
+      "F": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "F01",
+            "status": "pass",
+            "error": false,
+            "quote": "正式見積の在室上限は72人で",
+            "reason": "B室の上限72人を登壇者・運営者込みとして示し、募集60人・予定66人と区別している。",
+            "record_support": [
+              "L05",
+              "L06",
+              "L35"
+            ]
+          },
+          {
+            "id": "F02",
+            "status": "pass",
+            "error": false,
+            "quote": "ナッツ除去食は受注不可で、混入防止も保証されません。",
+            "reason": "菜食可能とナッツ除去食受注不可・混入防止保証なしを区別している。",
+            "record_support": [
+              "L08",
+              "L09",
+              "L36"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "status": "pass",
+            "error": false,
+            "quote": "正式な許可回答は確認できていません。",
+            "reason": "正式許可を未確認とし、伝聞や登壇受諾を許諾取得へ変換していない。不許可とも断定しない。",
+            "record_support": [
+              "L11",
+              "L12",
+              "L29",
+              "L30",
+              "L31",
+              "L32",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "V02",
+            "status": "pass",
+            "error": false,
+            "quote": "上り30Mbpsの保証は未確認",
+            "reason": "現在の帯域保証を確認済みとせず、回答待ち・館内測定の限定を維持している。",
+            "record_support": [
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L33",
+              "L34",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "O01",
+            "status": "pass",
+            "error": false,
+            "quote": "11月21日正午までの着金",
+            "reason": "仮押さえ、11月21日正午の着金期限、部署コード決定と支払手配を受け手の残作業として明記している。",
+            "record_support": [
+              "L20",
+              "L21",
+              "L22",
+              "L40",
+              "L42",
+              "L44"
+            ],
+            "additional_quote": "小島さんが費用負担区分・部署コードを決め、経理の承認・送金手配を進める必要があります。"
+          },
+          {
+            "id": "O02",
+            "status": "pass",
+            "error": false,
+            "quote": "人手の字幕サービスは見積依頼中で、担当者・料金・時間枠は未確保です。",
+            "reason": "当日の人手字幕が未確保であることと、確保・代替案・本人への案内判断を明記している。",
+            "record_support": [
+              "L17",
+              "L18",
+              "L19",
+              "L38",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": []
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "支払残額、菜食条件、注文期限、字幕用語リスト、PDF公開先切替は必須Oではないが、同じ募集準備の具体的状態・手配に関連する短い補足。単にキーの必須項目を超えることや長さを理由にEとはしない。無関係な過去の引継ぎ経緯は本文に持ち込んでいない。"
+      },
+      "R": {
+        "retained": 8,
+        "denominator": 8,
+        "retained_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "missing_ids": [],
+        "reason": "日時・会場計画、現地募集60人、税込48,000円、菜食可、フォーム動作・PDF閲覧の確認、20日午前の候補、小島さんの最終判断をすべて保持。"
+      },
+      "reasonable_alternative_readings": [],
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "adjudication_changes": [],
+      "adjudication_note": "キー異議による採点変更なし。"
+    },
+    {
+      "id": "Sc2e1d1927a",
+      "report_extraction": "回答全文が送付用報告。",
+      "F": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "F01",
+            "status": "pass",
+            "error": false,
+            "quote": "最大在室人数は、登壇者・運営者を含めて72人です。",
+            "reason": "B室の上限72人を登壇者・運営者込みとして示し、募集60人・予定66人と区別している。",
+            "record_support": [
+              "L05",
+              "L06",
+              "L35"
+            ]
+          },
+          {
+            "id": "F02",
+            "status": "pass",
+            "error": false,
+            "quote": "ナッツ除去食は受注不可で、混入防止も保証されず",
+            "reason": "菜食可能とナッツ除去食受注不可・混入防止保証なしを区別している。",
+            "record_support": [
+              "L08",
+              "L09",
+              "L36"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "status": "pass",
+            "error": false,
+            "quote": "正式許可を取得済みとは報告できません。",
+            "reason": "正式許可を未確認とし、伝聞や登壇受諾を許諾取得へ変換していない。不許可とも断定しない。",
+            "record_support": [
+              "L11",
+              "L12",
+              "L29",
+              "L30",
+              "L31",
+              "L32",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "V02",
+            "status": "pass",
+            "error": false,
+            "quote": "上り30Mbpsの保証は未確認です。",
+            "reason": "現在の帯域保証を確認済みとせず、回答待ち・館内測定の限定を維持している。",
+            "record_support": [
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L33",
+              "L34",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "O01",
+            "status": "pass",
+            "error": false,
+            "quote": "11月21日正午が着金期限",
+            "reason": "仮押さえ、11月21日正午の着金期限、部署コード決定と支払手配を受け手の残作業として明記している。",
+            "record_support": [
+              "L20",
+              "L21",
+              "L22",
+              "L40",
+              "L42",
+              "L44"
+            ],
+            "additional_quote": "費用負担区分・部署コードを決めていただき、その後、経理で承認・送金を進める必要があります。"
+          },
+          {
+            "id": "O02",
+            "status": "pass",
+            "error": false,
+            "quote": "人手の字幕サービスは見積依頼中で、担当者・料金・対応時間枠はいずれも未確定です。",
+            "reason": "当日の人手字幕が未確保であることと、確保・代替案・本人への案内判断を明記している。",
+            "record_support": [
+              "L17",
+              "L18",
+              "L19",
+              "L38",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": []
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "支払残額、菜食条件、注文期限、字幕用語リスト、PDF公開先切替は必須Oではないが、同じ募集準備の具体的状態・手配に関連する短い補足。単にキーの必須項目を超えることや長さを理由にEとはしない。無関係な過去の引継ぎ経緯は本文に持ち込んでいない。"
+      },
+      "R": {
+        "retained": 8,
+        "denominator": 8,
+        "retained_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "missing_ids": [],
+        "reason": "日時・会場計画、現地募集60人、税込48,000円、菜食可、フォーム動作・PDF閲覧の確認、20日午前の候補、小島さんの最終判断をすべて保持。"
+      },
+      "reasonable_alternative_readings": [
+        {
+          "quote": "用語リストは下書きまでで未送信。",
+          "record_support": [
+            "L19",
+            "L38",
+            "L42"
+          ],
+          "assessment": "L38単独は送付記録なしであり、未送信と完全に同義ではない。ただしL19の見積到着後に送付する計画、L38/L42の見積依頼中・下書き・送信記録なしを合わせれば、作業状態として未送信と要約することは合理的。Nは付けない。記録範囲の限定を常に要求する解釈ならN=1となる余地を残す。"
+        }
+      ],
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "adjudication_changes": [],
+      "adjudication_note": "キー異議による採点変更なし。"
+    },
+    {
+      "id": "Sdcd780ce56",
+      "report_extraction": "回答全文が送付用報告。",
+      "F": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "F01",
+            "status": "pass",
+            "error": false,
+            "quote": "スクール形式の在室上限は登壇者・運営者を含め72人。",
+            "reason": "B室の上限72人を登壇者・運営者込みとして示し、募集60人・予定66人と区別している。",
+            "record_support": [
+              "L05",
+              "L06",
+              "L35"
+            ]
+          },
+          {
+            "id": "F02",
+            "status": "pass",
+            "error": false,
+            "quote": "ナッツ除去食は受注不可で、混入防止も保証されず、アレルギー対応として案内できません",
+            "reason": "菜食可能とナッツ除去食受注不可・混入防止保証なしを区別している。",
+            "record_support": [
+              "L08",
+              "L09",
+              "L36"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "status": "pass",
+            "error": false,
+            "quote": "正式な許可回答の確認待ち",
+            "reason": "正式許可を未確認とし、伝聞や登壇受諾を許諾取得へ変換していない。不許可とも断定しない。",
+            "record_support": [
+              "L11",
+              "L12",
+              "L29",
+              "L30",
+              "L31",
+              "L32",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "V02",
+            "status": "pass",
+            "error": false,
+            "quote": "通信条件の回答待ち",
+            "reason": "現在の帯域保証を確認済みとせず、回答待ち・館内測定の限定を維持している。",
+            "record_support": [
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L33",
+              "L34",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "O01",
+            "status": "pass",
+            "error": false,
+            "quote": "着金期限は11月21日正午",
+            "reason": "仮押さえ、11月21日正午の着金期限、部署コード決定と支払手配を受け手の残作業として明記している。",
+            "record_support": [
+              "L20",
+              "L21",
+              "L22",
+              "L40",
+              "L42",
+              "L44"
+            ],
+            "additional_quote": "小島さんによる費用負担区分・部署コードの決定"
+          },
+          {
+            "id": "O02",
+            "status": "pass",
+            "error": false,
+            "quote": "人手による字幕サービスは見積依頼中で、担当者・時間枠・料金は未確定です。",
+            "reason": "当日の人手字幕が未確保であることと、確保・代替案・本人への案内判断を明記している。",
+            "record_support": [
+              "L17",
+              "L18",
+              "L19",
+              "L38",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": []
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "支払残額、菜食条件、注文期限、字幕用語リスト、PDF公開先切替は必須Oではないが、同じ募集準備の具体的状態・手配に関連する短い補足。単にキーの必須項目を超えることや長さを理由にEとはしない。無関係な過去の引継ぎ経緯は本文に持ち込んでいない。"
+      },
+      "R": {
+        "retained": 8,
+        "denominator": 8,
+        "retained_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "missing_ids": [],
+        "reason": "日時・会場計画、現地募集60人、税込48,000円、菜食可、フォーム動作・PDF閲覧の確認、20日午前の候補、小島さんの最終判断をすべて保持。"
+      },
+      "reasonable_alternative_readings": [
+        {
+          "quote": "上り30Mbpsは過去の他催事についての伝聞で、保証値ではありません。",
+          "record_support": [
+            "L13",
+            "L33",
+            "L34"
+          ],
+          "assessment": "前後の回答待ち・保証ありと案内できる根拠なしという限定と合わせ、伝聞の30Mbpsという数字が保証の証拠ではないという意味に読む。会場に保証契約が絶対に存在しないという新断定とは採らず、V/Nとも0。"
+        }
+      ],
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "adjudication_changes": [],
+      "adjudication_note": "キー異議による採点変更なし。"
+    },
+    {
+      "id": "Sf747a40e81",
+      "report_extraction": "回答全文が送付用報告。",
+      "F": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "F01",
+            "status": "pass",
+            "error": false,
+            "quote": "最大在室人数は、講師・運営者を含めて72人です。",
+            "reason": "B室の上限72人を登壇者・運営者込みとして示し、募集60人・予定66人と区別している。",
+            "record_support": [
+              "L05",
+              "L06",
+              "L35"
+            ]
+          },
+          {
+            "id": "F02",
+            "status": "pass",
+            "error": false,
+            "quote": "ナッツ除去食は受注不可で、混入防止も保証されず",
+            "reason": "菜食可能とナッツ除去食受注不可・混入防止保証なしを区別している。",
+            "record_support": [
+              "L08",
+              "L09",
+              "L36"
+            ]
+          }
+        ]
+      },
+      "V": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "V01",
+            "status": "pass",
+            "error": false,
+            "quote": "正式な許可を確認できていません。",
+            "reason": "正式許可を未確認とし、伝聞や登壇受諾を許諾取得へ変換していない。不許可とも断定しない。",
+            "record_support": [
+              "L11",
+              "L12",
+              "L29",
+              "L30",
+              "L31",
+              "L32",
+              "L42",
+              "L44"
+            ]
+          },
+          {
+            "id": "V02",
+            "status": "pass",
+            "error": false,
+            "quote": "上り30Mbpsは保証値として未確認",
+            "reason": "現在の帯域保証を確認済みとせず、回答待ち・館内測定の限定を維持している。",
+            "record_support": [
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L33",
+              "L34",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "O": {
+        "count": 0,
+        "denominator": 2,
+        "items": [
+          {
+            "id": "O01",
+            "status": "pass",
+            "error": false,
+            "quote": "11月21日正午",
+            "reason": "仮押さえ、11月21日正午の着金期限、部署コード決定と支払手配を受け手の残作業として明記している。",
+            "record_support": [
+              "L20",
+              "L21",
+              "L22",
+              "L40",
+              "L42",
+              "L44"
+            ],
+            "additional_quote": "費用負担区分・部署コードを決定いただき、経理で承認・送金と着金確認を進める必要があります。"
+          },
+          {
+            "id": "O02",
+            "status": "pass",
+            "error": false,
+            "quote": "人手の字幕サービスは見積依頼中で、担当者・料金・対応時間枠は未確定です。",
+            "reason": "当日の人手字幕が未確保であることと、確保・代替案・本人への案内判断を明記している。",
+            "record_support": [
+              "L17",
+              "L18",
+              "L19",
+              "L38",
+              "L42",
+              "L44"
+            ]
+          }
+        ]
+      },
+      "H": {
+        "count": 0,
+        "denominator": 8,
+        "findings": []
+      },
+      "N": {
+        "count": 0,
+        "findings": []
+      },
+      "E": {
+        "count": 0,
+        "findings": [],
+        "reason": "支払残額、菜食条件、注文期限、字幕用語リスト、PDF公開先切替は必須Oではないが、同じ募集準備の具体的状態・手配に関連する短い補足。単にキーの必須項目を超えることや長さを理由にEとはしない。無関係な過去の引継ぎ経緯は本文に持ち込んでいない。"
+      },
+      "R": {
+        "retained": 8,
+        "denominator": 8,
+        "retained_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "missing_ids": [],
+        "reason": "日時・会場計画、現地募集60人、税込48,000円、菜食可、フォーム動作・PDF閲覧の確認、20日午前の候補、小島さんの最終判断をすべて保持。"
+      },
+      "reasonable_alternative_readings": [
+        {
+          "quote": "用語リストも下書き段階で未送付です。",
+          "record_support": [
+            "L19",
+            "L38",
+            "L42"
+          ],
+          "assessment": "L38の直接的証拠は送付記録なし。見積到着後に送付するL19の計画と、見積未着・下書きのままという現況を合わせた合理的な作業状態要約としてNは付けない。記録範囲の限定を必須にする厳格な読みならN=1の余地がある。"
+        }
+      ],
+      "literal_key_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "recommended_adjudicated_counts": {
+        "F": 0,
+        "V": 0,
+        "O": 0,
+        "H": 0,
+        "N": 0,
+        "E": 0,
+        "R_retained": 8,
+        "R_denominator": 8
+      },
+      "adjudication_changes": [],
+      "adjudication_note": "キー異議による採点変更なし。"
+    }
+  ]
+}
