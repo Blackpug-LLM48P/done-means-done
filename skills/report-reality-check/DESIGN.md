@@ -1,7 +1,7 @@
 # report-reality-check — Design notes (v0.3 prototype)
 
 Status: prototype. Nothing here has been measured yet.
-Working name only. Previous name: "AI Stress Check" (AI用ストレスチェック v0.1–v0.2, Japanese).
+Previous name: "AI Stress Check" (AI用ストレスチェック v0.1–v0.2, Japanese).
 
 ## 1. Background
 
@@ -72,5 +72,8 @@ Unresolved after review: A1 and A2. If either fails in testing, the skill should
 
 - **Exit strength.** Observe only / attach / gate. The prototype rewrites the report, which is effectively a soft gate.
 - **Read-only probes.** On by default, or opt-in?
-- **Name and home.** Inside overflow-saint, or a standalone repo?
-- **License.** MIT (planned).
+
+Decided (2026-11-02):
+
+- **Name and home.** Skill name `report-reality-check`, in the standalone repo `done-means-done`.
+- **License.** MIT.

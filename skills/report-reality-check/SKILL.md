@@ -5,7 +5,7 @@ description: Run right before an agent declares a task complete or hands work to
 
 # Report Reality Check (prototype v0.3)
 
-Status: experimental. Effect not yet measured — see DESIGN.md.
+Status: experimental. Effect not yet measured. The evaluation plan is in DESIGN.md in the source repository (github.com/Blackpug-LLM48P/done-means-done); the skill does not need that file to run.
 Origin: adapted from the idea behind the Japanese Brief Job Stress Questionnaire. This skill does not measure emotion, distress, fatigue, or anything equivalent to a human stress scale.
 
 ## When to run
@@ -49,7 +49,7 @@ Give each claim one status:
 - **UNVERIFIED** — the record neither shows nor contradicts it.
 - **OMITTED** — REMAINING only: present in the record, missing from the report.
 
-For each status, attach evidence: a short verbatim quote (under 15 words) from a tool output or message, plus a record ID, timestamp, or path. Quotes must be copyable and searchable in the record.
+For each status, attach evidence: a short verbatim quote (under 15 words; for text without spaces between words, such as Japanese or Chinese, under 40 characters) from a tool output or message, plus a record ID, timestamp, or path. Quotes must be copyable and searchable in the record.
 
 Keep these apart: attempted ≠ succeeded ≠ saved ≠ re-read ≠ verified ≠ delivered.
 
@@ -95,7 +95,7 @@ Read-only probes run during the check, with their results. Write "None" if there
 
 ## Extended work-state check (optional)
 
-For handoffs and audits, also run the 12-item check (plus one experimental item) in `references/work-state-check.md`. Report its findings in a separate section, under the same header.
+For handoffs and audits, also run the 12-item check (plus one experimental item) in `references/work-state-check.md`. Report its findings in a separate section, under the same header. If that file is not available in this installation, say so in one line and skip the extended check. Do not reconstruct the items from memory.
 
 ## Example
 
