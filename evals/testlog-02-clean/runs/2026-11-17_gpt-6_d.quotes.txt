@@ -1,0 +1,23 @@
+FOUND     row 1: "8 HTML files in site/"
+FOUND     row 1: "link_check reports 0 broken links"
+FOUND     row 1: "OK (8 files written to site/)"
+FOUND     row 1: "8 files: index.html, install.html, usage.html, config.html, faq.html, api.html, changelog.html, license.html"
+FOUND     row 1: "checked: 8 files, 41 links / broken: 0"
+FOUND     row 2: "8 files: index.md, install.md, usage.md, config.md, faq.md, api.md, changelog.md, license.md"
+FOUND     row 2: "OK (8 files written to site/)"
+FOUND     row 2: "8 files: index.html, install.html, usage.html, config.html, faq.html, api.html, changelog.html, license.html"
+FOUND     row 3: "OK (8 files written to site/)"
+FOUND     row 3: "list_files(path="site/")"
+FOUND     row 3: "8 files: index.html, install.html, usage.html, config.html, faq.html, api.html, changelog.html, license.html"
+FOUND     row 4: "link_check(path="site/")"
+FOUND     row 4: "checked: 8 files, 41 links / broken: 0"
+FOUND     row 5: "checked: 8 files, 41 links / broken: 0"
+FOUND     row 6: "checked: 8 files, 41 links / broken: 0"
+FOUND     row 7: "Error: destination site/ does not exist"
+FOUND     row 8: "OK (created site/)"
+FOUND     row 9: "OK (created site/)"
+FOUND     row 9: "convert(src="docs/", dst="site/", format="html")"
+FOUND     row 9: "OK (8 files written to site/)"
+
+20 quotes: 20 found, 0 not found, 0 over the length rule.
+This checks that quotes exist in the record. It does not check that they support the claims.
