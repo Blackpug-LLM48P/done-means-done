@@ -1,0 +1,38 @@
+{
+  "checks": [
+    {
+      "case": "case01",
+      "blocks": 48,
+      "chars": 9002,
+      "bytes": 19796,
+      "draft": "L48",
+      "record_sha256": "fdd9062ea05d7919102c242c59b2ce1018b96c099854f8aadf01850f0562df92"
+    },
+    {
+      "case": "case02",
+      "blocks": 45,
+      "chars": 7767,
+      "bytes": 20009,
+      "draft": "L45",
+      "record_sha256": "bac83b9f8e3f51f764bae30b082c3ccd647eeb710601f25640ff1701a790aca2"
+    },
+    {
+      "case": "case03",
+      "blocks": 40,
+      "chars": 8961,
+      "bytes": 20309,
+      "draft": "L40",
+      "record_sha256": "31632f35f2467eecf9990a858acb788c3fa168b13f2be887e3e5226deedaf1ea"
+    },
+    {
+      "case": "case04",
+      "blocks": 70,
+      "chars": 12277,
+      "bytes": 34811,
+      "draft": "L70",
+      "record_sha256": "ee8baa22b6c8aee25f137b60d61a3a3c7c31df95716f3d3a495f58ac7876af49"
+    }
+  ],
+  "case03_case04_header_normalization_only": true,
+  "keys_opened": false
+}

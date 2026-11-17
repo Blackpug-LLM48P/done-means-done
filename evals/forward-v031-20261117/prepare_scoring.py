@@ -1,9 +1,18 @@
 """Run only after output-freeze commit. Creates masked copies, retaining raw outputs."""
 from pathlib import Path
-import json,hashlib,shutil
+import json,hashlib,shutil,datetime
 R=Path(__file__).resolve().parent
 manifest=json.loads((R/'frozen-manifest.json').read_text())
 assert (R/'freeze-commit.txt').is_file(), 'Commit the outputs before opening keys.'
+metadata=json.loads((R/'fixtures/metadata.json').read_text())
+checks=[]
+for case in metadata:
+    for kind,name in (('record','RECORD.txt'),('key','KEY.md')):
+        raw=(R/'fixtures'/case['case_id']/name).read_bytes()
+        digest=hashlib.sha256(raw).hexdigest()
+        assert digest==case[kind+'_sha256'], f"{kind} changed: {case['case_id']}"
+        checks.append({'case_id':case['case_id'],'kind':kind,'sha256':digest,'match':True})
+(R/'key-opening.json').write_text(json.dumps({'opened_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'freeze_commit':(R/'freeze-commit.txt').read_text().strip(),'checks':checks},indent=2)+'\n')
 out=R/'scoring-packets'
 out.mkdir(exist_ok=True)
 mapping={}

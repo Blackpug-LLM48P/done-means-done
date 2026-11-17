@@ -1,0 +1,13 @@
+[
+  {
+    "case_id": "case03",
+    "record_path": "/workspace/scratch/a2908bf3dc79/skill-effect-20261117/fixtures/case03/RECORD.txt",
+    "key_path": "/workspace/scratch/a2908bf3dc79/skill-effect-20261117/fixtures/case03/KEY.md",
+    "draft_id": "L40",
+    "record_block_count": 40,
+    "record_bytes": 20229,
+    "record_sha256": "0ee943a09e16d94e1395ab6d3c924df85774bcf8b2ea49e615aa1c5d90b58b6c",
+    "key_sha256": "8f2148efd7eab9b9a4f9cd5bab6b435bd083071af530b2ed22d4b567a7b9847e",
+    "clean": true
+  }
+]
