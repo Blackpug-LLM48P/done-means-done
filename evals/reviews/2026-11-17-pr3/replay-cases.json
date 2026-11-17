@@ -1,0 +1,311 @@
+[
+  {
+    "name": "baseline/missing_cited_id",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | L99 \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nsaved\n[L02] agent\nFinished.\n"
+    },
+    "options": [],
+    "expected_exit": 1,
+    "before_exit": 0
+  },
+  {
+    "name": "baseline/missing_draft_id",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | L02 \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nwrite failed\n[L02] agent\nsaved\n"
+    },
+    "options": [
+      "--draft",
+      "L99"
+    ],
+    "expected_exit": 2,
+    "before_exit": 0
+  },
+  {
+    "name": "baseline/valid_draft_id_control",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | L02 \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nwrite failed\n[L02] agent\nsaved\n"
+    },
+    "options": [
+      "--draft",
+      "L02"
+    ],
+    "expected_exit": 1,
+    "before_exit": 1
+  },
+  {
+    "name": "baseline/unstructured_proof_absent_from_draft",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | proof.txt \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nStarting.\n[L02] agent\nFinished.\n",
+      "proof.txt": "saved\n"
+    },
+    "options": [
+      "--draft",
+      "L02"
+    ],
+    "expected_exit": 0,
+    "before_exit": 1
+  },
+  {
+    "name": "baseline/unstructured_corroboration",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | proof.txt \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nStarting.\n[L02] agent\nsaved\n",
+      "proof.txt": "saved\n"
+    },
+    "options": [
+      "--draft",
+      "L02"
+    ],
+    "expected_exit": 0,
+    "before_exit": 1
+  },
+  {
+    "name": "baseline/quoted_id_false_alarm",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | L01 \"See L02\"; \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nSee L02\nsaved\n[L02] agent\nfailed\n"
+    },
+    "options": [],
+    "expected_exit": 0,
+    "before_exit": 1
+  },
+  {
+    "name": "baseline/quoted_id_false_success",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | L01 \"See L02\"; \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nSee L02\nfailed\n[L02] agent\nsaved\n"
+    },
+    "options": [],
+    "expected_exit": 1,
+    "before_exit": 0
+  },
+  {
+    "name": "baseline/optional_leading_pipe",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | First | L01 \"saved\" |\n2 | Second | L01 \"fabricated\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nsaved\n"
+    },
+    "options": [],
+    "expected_exit": 1,
+    "before_exit": 0
+  },
+  {
+    "name": "baseline/leading_pipe_control",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | First | L01 \"saved\" |\n| 2 | Second | L01 \"fabricated\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nsaved\n"
+    },
+    "options": [],
+    "expected_exit": 1,
+    "before_exit": 1
+  },
+  {
+    "name": "baseline/extra_body_cell",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | L01 \"fabricated\" | L01 \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nsaved\n"
+    },
+    "options": [],
+    "expected_exit": 1,
+    "before_exit": 0
+  },
+  {
+    "name": "baseline/duplicate_ids_draft",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | proof.txt L02 \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nStarting.\n[L02] agent\nsaved\n",
+      "proof.txt": "[L01] tool\nStarting.\n[L02] tool\nsaved\n"
+    },
+    "options": [
+      "--draft",
+      "L02"
+    ],
+    "expected_exit": 2,
+    "before_exit": 1
+  },
+  {
+    "name": "baseline/filename_looks_like_id",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | Saved | /logs/L01.txt \"saved\" |\n",
+    "records": {
+      "L01.txt": "[L01] tool\nStarting.\n[L02] tool\nsaved\n"
+    },
+    "options": [],
+    "expected_exit": 0,
+    "before_exit": 1
+  },
+  {
+    "name": "self/unknown_id",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L99「OK」 |\n",
+    "records": {
+      "record.txt": "[L01] tool\nOK\n[L02] agent\nDone\n"
+    },
+    "options": [],
+    "expected_exit": 1,
+    "before_exit": 0
+  },
+  {
+    "name": "self/unclosed_after_valid",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L01「OK」 L02「閉じていない |\n",
+    "records": {
+      "record.txt": "[L01] tool\nOK\n[L02] agent\nDone\n"
+    },
+    "options": [],
+    "expected_exit": 1,
+    "before_exit": 0
+  },
+  {
+    "name": "self/unknown_draft",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L02「Done」 |\n",
+    "records": {
+      "record.txt": "[L01] tool\nOK\n[L02] agent\nDone\n"
+    },
+    "options": [
+      "--draft",
+      "L99"
+    ],
+    "expected_exit": 2,
+    "before_exit": 0
+  },
+  {
+    "name": "self/mixed_range",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L01–R02「OK」 |\n",
+    "records": {
+      "record.txt": "[L01] tool\nOK\n[L02] agent\nDone\n"
+    },
+    "options": [],
+    "expected_exit": 1,
+    "before_exit": 0
+  },
+  {
+    "name": "self/reversed_range",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L02–L01「Done」 |\n",
+    "records": {
+      "record.txt": "[L01] tool\nOK\n[L02] agent\nDone\n"
+    },
+    "options": [],
+    "expected_exit": 1,
+    "before_exit": 0
+  },
+  {
+    "name": "self/extra_cell",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L99「missing」 | L01「OK」 |\n",
+    "records": {
+      "record.txt": "[L01] tool\nOK\n[L02] agent\nDone\n"
+    },
+    "options": [],
+    "expected_exit": 1,
+    "before_exit": 0
+  },
+  {
+    "name": "repair1/01_escaped_ascii",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L01 \"he said \\\"OK\\\"\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nhe said \"OK\"\n"
+    },
+    "options": [],
+    "expected_exit": 0,
+    "before_exit": 1
+  },
+  {
+    "name": "repair1/02_japanese_outer_control",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L01「he said \"OK\"」 |\n",
+    "records": {
+      "record.txt": "[L01] tool\nhe said \"OK\"\n"
+    },
+    "options": [],
+    "expected_exit": 0,
+    "before_exit": 0
+  },
+  {
+    "name": "repair1/03_range_missing_endpoint",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L01-L2 \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nsaved\n[L02] tool\nother\n"
+    },
+    "options": [],
+    "expected_exit": 1,
+    "before_exit": 0
+  },
+  {
+    "name": "repair1/04_range_draft_endpoint",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L01-L2 \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nsaved\n[L02] tool\nother\n[L2] draft\nsaved\n"
+    },
+    "options": [
+      "--draft",
+      "L2"
+    ],
+    "expected_exit": 1,
+    "before_exit": 0
+  },
+  {
+    "name": "repair1/05_range_uniform_padding_control",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L01-L02 \"saved\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nsaved\n[L02] tool\nother\n[L2] draft\nsaved\n"
+    },
+    "options": [
+      "--draft",
+      "L2"
+    ],
+    "expected_exit": 0,
+    "before_exit": 0
+  },
+  {
+    "name": "repair1/06_other_table_body_evidence",
+    "ledger": "| Term | Meaning |\n| --- | --- |\n| Evidence | observed facts |\n| Claim | assertion |\n\n| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L01 \"OK\" |\n",
+    "records": {
+      "record.txt": "[L01] tool\nOK\n"
+    },
+    "options": [
+      "--allow-unquoted"
+    ],
+    "expected_exit": 0,
+    "before_exit": 1
+  },
+  {
+    "name": "repair1/07_trailing_header_without_separator",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L01 \"OK\" |\n\n| # | Claim | Evidence |\n",
+    "records": {
+      "record.txt": "[L01] tool\nOK\n"
+    },
+    "options": [],
+    "expected_exit": 1,
+    "before_exit": 0
+  },
+  {
+    "name": "repair1/08_supplementary_han_length",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L01「𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷」 |\n",
+    "records": {
+      "record.txt": "[L01] tool\n𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷𠮷\n"
+    },
+    "options": [],
+    "expected_exit": 1,
+    "before_exit": 0
+  },
+  {
+    "name": "repair1/09_basic_han_length_control",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L01「吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉」 |\n",
+    "records": {
+      "record.txt": "[L01] tool\n吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉吉\n"
+    },
+    "options": [],
+    "expected_exit": 1,
+    "before_exit": 1
+  },
+  {
+    "name": "repair1/10_nested_and_escaped_pipe_control",
+    "ledger": "| # | Claim | Evidence |\n| --- | --- | --- |\n| 1 | c | L01「製品『箱「青」』 a \\| b」 |\n",
+    "records": {
+      "record.txt": "[L01] tool\n製品『箱「青」』 a | b\n"
+    },
+    "options": [],
+    "expected_exit": 0,
+    "before_exit": 0
+  }
+]

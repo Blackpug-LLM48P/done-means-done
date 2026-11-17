@@ -1,0 +1,48 @@
+exit_code=0
+test_found_and_not_found (test_verify_quotes.CheckTest.test_found_and_not_found) ... ok
+test_match_is_case_sensitive (test_verify_quotes.CheckTest.test_match_is_case_sensitive) ... ok
+test_names_the_record_that_has_the_quote (test_verify_quotes.CheckTest.test_names_the_record_that_has_the_quote) ... ok
+test_quote_exists_but_not_in_the_cited_block (test_verify_quotes.CheckTest.test_quote_exists_but_not_in_the_cited_block) ... ok
+test_quote_in_draft_and_elsewhere_is_found (test_verify_quotes.CheckTest.test_quote_in_draft_and_elsewhere_is_found) ... ok
+test_quote_in_the_cited_block (test_verify_quotes.CheckTest.test_quote_in_the_cited_block) ... ok
+test_quote_only_in_the_draft_block (test_verify_quotes.CheckTest.test_quote_only_in_the_draft_block) ... ok
+test_range_accepts_any_block_in_it (test_verify_quotes.CheckTest.test_range_accepts_any_block_in_it) ... ok
+test_record_without_block_ids_is_not_checked_for_place (test_verify_quotes.CheckTest.test_record_without_block_ids_is_not_checked_for_place) ... ok
+test_unknown_id_is_not_checked_for_place (test_verify_quotes.CheckTest.test_unknown_id_is_not_checked_for_place) ... ok
+test_whitespace_runs_match (test_verify_quotes.CheckTest.test_whitespace_runs_match) ... ok
+test_last_id_before_the_quote_wins (test_verify_quotes.CitedIdsTest.test_last_id_before_the_quote_wins) ... ok
+test_no_id (test_verify_quotes.CitedIdsTest.test_no_id) ... ok
+test_ranges (test_verify_quotes.CitedIdsTest.test_ranges) ... ok
+test_single_id (test_verify_quotes.CitedIdsTest.test_single_id) ... ok
+test_ascii_and_curly (test_verify_quotes.FindQuotesTest.test_ascii_and_curly) ... ok
+test_empty_quote_is_skipped (test_verify_quotes.FindQuotesTest.test_empty_quote_is_skipped) ... ok
+test_inner_quote_belongs_to_outer_quote (test_verify_quotes.FindQuotesTest.test_inner_quote_belongs_to_outer_quote) ... ok
+test_japanese_brackets (test_verify_quotes.FindQuotesTest.test_japanese_brackets) ... ok
+test_nested_japanese_brackets (test_verify_quotes.FindQuotesTest.test_nested_japanese_brackets) ... ok
+test_unclosed_mark_is_not_a_quote (test_verify_quotes.FindQuotesTest.test_unclosed_mark_is_not_a_quote) ... ok
+test_escaped_pipe_stays_in_cell (test_verify_quotes.LedgerRowsTest.test_escaped_pipe_stays_in_cell) ... ok
+test_header_and_separator_rows_give_nothing (test_verify_quotes.LedgerRowsTest.test_header_and_separator_rows_give_nothing) ... ok
+test_japanese_evidence_header (test_verify_quotes.LedgerRowsTest.test_japanese_evidence_header) ... ok
+test_quotes_come_from_the_evidence_cell_only (test_verify_quotes.LedgerRowsTest.test_quotes_come_from_the_evidence_cell_only) ... ok
+test_tables_without_an_evidence_column_are_ignored (test_verify_quotes.LedgerRowsTest.test_tables_without_an_evidence_column_are_ignored) ... ok
+test_text_outside_tables_is_ignored (test_verify_quotes.LedgerRowsTest.test_text_outside_tables_is_ignored) ... ok
+test_fifteen_words_is_too_long (test_verify_quotes.LengthTest.test_fifteen_words_is_too_long) ... ok
+test_japanese_counts_characters (test_verify_quotes.LengthTest.test_japanese_counts_characters) ... ok
+test_mixed_text_must_pass_both_rules (test_verify_quotes.LengthTest.test_mixed_text_must_pass_both_rules) ... ok
+test_short_english_is_ok (test_verify_quotes.LengthTest.test_short_english_is_ok) ... ok
+test_exit_0_when_all_found (test_verify_quotes.MainTest.test_exit_0_when_all_found) ... ok
+test_exit_1_when_a_quote_is_missing (test_verify_quotes.MainTest.test_exit_1_when_a_quote_is_missing) ... ok
+test_exit_1_when_a_quote_is_too_long (test_verify_quotes.MainTest.test_exit_1_when_a_quote_is_too_long) ... ok
+test_exit_1_when_a_row_has_no_quote (test_verify_quotes.MainTest.test_exit_1_when_a_row_has_no_quote) ... ok
+test_exit_1_when_draft_only (test_verify_quotes.MainTest.test_exit_1_when_draft_only) ... ok
+test_exit_1_when_no_quotes (test_verify_quotes.MainTest.test_exit_1_when_no_quotes) ... ok
+test_exit_1_when_wrong_place (test_verify_quotes.MainTest.test_exit_1_when_wrong_place) ... ok
+test_exit_2_when_file_missing (test_verify_quotes.MainTest.test_exit_2_when_file_missing) ... ok
+test_japanese_quotes_are_counted (test_verify_quotes.MainTest.test_japanese_quotes_are_counted) ... ok
+test_example_ledger_has_quotes (test_verify_quotes.SkillExampleTest.test_example_ledger_has_quotes) ... ok
+test_no_example_quote_appears_in_any_fixture_record (test_verify_quotes.SkillExampleTest.test_no_example_quote_appears_in_any_fixture_record) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.008s
+
+OK

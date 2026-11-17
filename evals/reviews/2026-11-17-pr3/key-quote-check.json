@@ -1,0 +1,14 @@
+[
+  {
+    "fixture": "testlog-01",
+    "table_quote_count": 16,
+    "missing": [],
+    "scope": "Evidence table quote occurrence only; not rubric correctness or prose coverage"
+  },
+  {
+    "fixture": "testlog-02-clean",
+    "table_quote_count": 7,
+    "missing": [],
+    "scope": "Evidence table quote occurrence only; not rubric correctness or prose coverage"
+  }
+]
