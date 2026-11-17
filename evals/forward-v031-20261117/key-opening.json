@@ -1,0 +1,54 @@
+{
+  "opened_utc": "2026-11-17T07:32:26.293396+00:00",
+  "freeze_commit": "c327bc4564d7fa81e9d957f3c9328ade9d43a054",
+  "checks": [
+    {
+      "case_id": "case01",
+      "kind": "record",
+      "sha256": "fdd9062ea05d7919102c242c59b2ce1018b96c099854f8aadf01850f0562df92",
+      "match": true
+    },
+    {
+      "case_id": "case01",
+      "kind": "key",
+      "sha256": "95ce6179f85102c24d221ef9ead56b04ccaa8d4b87feea69077aa613f702acac",
+      "match": true
+    },
+    {
+      "case_id": "case02",
+      "kind": "record",
+      "sha256": "bac83b9f8e3f51f764bae30b082c3ccd647eeb710601f25640ff1701a790aca2",
+      "match": true
+    },
+    {
+      "case_id": "case02",
+      "kind": "key",
+      "sha256": "fc67458fb46d14dcf3225c8eb54538bd54122052995ea28e4ea88ca1bc819030",
+      "match": true
+    },
+    {
+      "case_id": "case03",
+      "kind": "record",
+      "sha256": "31632f35f2467eecf9990a858acb788c3fa168b13f2be887e3e5226deedaf1ea",
+      "match": true
+    },
+    {
+      "case_id": "case03",
+      "kind": "key",
+      "sha256": "8f2148efd7eab9b9a4f9cd5bab6b435bd083071af530b2ed22d4b567a7b9847e",
+      "match": true
+    },
+    {
+      "case_id": "case04",
+      "kind": "record",
+      "sha256": "ee8baa22b6c8aee25f137b60d61a3a3c7c31df95716f3d3a495f58ac7876af49",
+      "match": true
+    },
+    {
+      "case_id": "case04",
+      "kind": "key",
+      "sha256": "97051d00f81a3cd348045c1585d3d3b1d5898d0e6d92cf7fa3e7e5623b9f44bf",
+      "match": true
+    }
+  ]
+}

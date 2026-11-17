@@ -1,0 +1,19 @@
+{
+  "output_packet": "p16",
+  "checker_exit": 1,
+  "misread_token": "v3",
+  "intended_block": "L35",
+  "exact_quote_checks": [
+    {
+      "quote": "missing=[] / extra=[] / mismatched=[]",
+      "found_in_L35": true
+    },
+    {
+      "quote": "取得から比較終了まで変更ストリームの追加はない。",
+      "found_in_L35": true
+    }
+  ],
+  "raw_output_unchanged": true,
+  "checker_changed": false,
+  "interpretation": "The unquoted version name v3 in the Evidence cell is parsed as an additional unknown record ID. Both flagged quote spans occur in the already-cited L35 block."
+}

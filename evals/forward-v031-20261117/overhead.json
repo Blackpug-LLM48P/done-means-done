@@ -1,0 +1,45 @@
+{
+  "a": {
+    "runs": 8,
+    "full_response_characters": [
+      754,
+      812,
+      1256,
+      1425,
+      810,
+      859,
+      467,
+      446
+    ],
+    "median_full_response_characters": 811.0
+  },
+  "b": {
+    "runs": 8,
+    "full_response_characters": [
+      1076,
+      783,
+      1586,
+      1428,
+      966,
+      987,
+      461,
+      459
+    ],
+    "median_full_response_characters": 976.5
+  },
+  "d": {
+    "runs": 8,
+    "full_response_characters": [
+      4597,
+      4653,
+      5415,
+      5248,
+      5181,
+      5326,
+      3835,
+      4212
+    ],
+    "median_full_response_characters": 4917.0
+  },
+  "limits": "Characters are not tokens, latency, or monetary cost; includes ledger, header, suggestions, and probes."
+}

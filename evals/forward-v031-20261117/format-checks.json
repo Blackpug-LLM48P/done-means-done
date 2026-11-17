@@ -1,0 +1,82 @@
+[
+  {
+    "packet_id": "p03",
+    "header_exact": true,
+    "required_sections": {
+      "Ledger": true,
+      "Revised report": true,
+      "Suggestions (not executed)": true,
+      "Probes": true
+    }
+  },
+  {
+    "packet_id": "p04",
+    "header_exact": true,
+    "required_sections": {
+      "Ledger": true,
+      "Revised report": true,
+      "Suggestions (not executed)": true,
+      "Probes": true
+    }
+  },
+  {
+    "packet_id": "p09",
+    "header_exact": true,
+    "required_sections": {
+      "Ledger": true,
+      "Revised report": true,
+      "Suggestions (not executed)": true,
+      "Probes": true
+    }
+  },
+  {
+    "packet_id": "p10",
+    "header_exact": true,
+    "required_sections": {
+      "Ledger": true,
+      "Revised report": true,
+      "Suggestions (not executed)": true,
+      "Probes": true
+    }
+  },
+  {
+    "packet_id": "p15",
+    "header_exact": true,
+    "required_sections": {
+      "Ledger": true,
+      "Revised report": true,
+      "Suggestions (not executed)": true,
+      "Probes": true
+    }
+  },
+  {
+    "packet_id": "p16",
+    "header_exact": true,
+    "required_sections": {
+      "Ledger": true,
+      "Revised report": true,
+      "Suggestions (not executed)": true,
+      "Probes": true
+    }
+  },
+  {
+    "packet_id": "p21",
+    "header_exact": true,
+    "required_sections": {
+      "Ledger": true,
+      "Revised report": true,
+      "Suggestions (not executed)": true,
+      "Probes": true
+    }
+  },
+  {
+    "packet_id": "p22",
+    "header_exact": true,
+    "required_sections": {
+      "Ledger": true,
+      "Revised report": true,
+      "Suggestions (not executed)": true,
+      "Probes": true
+    }
+  }
+]
