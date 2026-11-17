@@ -4,7 +4,6 @@ From the repository root:
     python3 -m unittest discover -s tests -v
 """
 import contextlib
-import glob
 import io
 import os
 import sys
@@ -147,15 +146,15 @@ class CheckTest(unittest.TestCase):
     def test_range_accepts_any_block_in_it(self):
         self.assertEqual(statuses(HEAD + '| 1 | c | L01–L02 "OK (80 rows written)" |'), [vq.FOUND])
 
-    def test_unknown_id_is_not_checked_for_place(self):
-        self.assertEqual(statuses(HEAD + '| 1 | c | L99 "OK (80 rows written)" |'), [vq.FOUND])
+    def test_unknown_id_does_not_fall_back_to_global_match(self):
+        self.assertEqual(statuses(HEAD + '| 1 | c | L99 "OK (80 rows written)" |'), [vq.UNKNOWN_ID])
 
-    def test_record_without_block_ids_is_not_checked_for_place(self):
-        self.assertEqual(statuses(HEAD + '| 1 | c | L01 "beta" |', "alpha beta"), [vq.FOUND])
+    def test_explicit_id_cannot_resolve_in_an_unstructured_record(self):
+        self.assertEqual(statuses(HEAD + '| 1 | c | L01 "beta" |', "alpha beta"), [vq.UNKNOWN_ID])
 
     def test_quote_only_in_the_draft_block(self):
         ledger = HEAD + '| 1 | c | L03 "All 120 rows translated" |'
-        self.assertEqual(statuses(ledger, draft_id="L03"), [vq.DRAFT_ONLY])
+        self.assertEqual(statuses(ledger, draft_id="L03"), [vq.DRAFT_CITED])
         self.assertEqual(statuses(ledger), [vq.FOUND])
 
     def test_quote_in_draft_and_elsewhere_is_found(self):
@@ -187,11 +186,13 @@ class SkillExampleTest(unittest.TestCase):
         self.assertGreaterEqual(len(vq.ledger_quotes(read(os.path.join(SKILL, "SKILL.md")))), 4)
 
     def test_no_example_quote_appears_in_any_fixture_record(self):
-        records = glob.glob(os.path.join(ROOT, "evals", "*", "*.txt"))
+        # Exact-text overlap only: never combine fixture-local IDs into one log.
+        quotes = vq.ledger_quotes(read(os.path.join(SKILL, "SKILL.md")))
         for path in FIXTURE_RECORDS:
-            self.assertIn(path, records)
-        results, _ = vq.check(read(os.path.join(SKILL, "SKILL.md")), [(p, read(p)) for p in records])
-        self.assertEqual([(r["quote"], r["found_in"]) for r in results if r["found_in"]], [])
+            record = vq.normalize(read(path))
+            for _, quote in quotes:
+                self.assertNotIn(vq.normalize(quote), record, (path, quote))
+
 
 
 class MainTest(unittest.TestCase):
@@ -240,7 +241,7 @@ class MainTest(unittest.TestCase):
     def test_exit_1_when_draft_only(self):
         code, out = self.run_main(HEAD + "| 1 | c | L23「120行すべての英訳を終え」 |", "--draft", "L23")
         self.assertEqual(code, 1)
-        self.assertIn("DRAFT ONLY", out)
+        self.assertIn("DRAFT CITED", out)
 
     def test_exit_1_when_no_quotes(self):
         code, out = self.run_main(HEAD + "| 1 | c | no record |")
