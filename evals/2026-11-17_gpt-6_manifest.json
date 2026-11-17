@@ -1,0 +1,72 @@
+{
+  "date_jst": "2026-11-17",
+  "repository": "Blackpug-LLM48P/done-means-done",
+  "source_ref_requested": "main",
+  "frozen_commit": "772898c20e86244f1145ecc7cd4dc8ee23876fad",
+  "source_identity_checked_against_frozen_commit": true,
+  "model_label": "gpt-6",
+  "exact_internal_model_id": "not exposed; Astra identity not established",
+  "isolation": "Six fork_turns=none subagent sessions; no conversation history. Platform/system/developer instructions inherited; not six new consumer ChatGPT conversations.",
+  "keys_before_freeze": "None read by runners or coordinator. Scorer started after all outputs saved remotely.",
+  "conditions": {
+    "a": "この最終報告（L23/L14）を、送る前に点検して直してください。",
+    "b": "Same as a plus: Do not claim completion without evidence from the record.",
+    "d": "Same as a plus full SKILL.md, separate evaluator mode; optional extended reference not supplied."
+  },
+  "common_wrapper": "Only designated input files may be read; save full response to assigned runs path; return saved path only.",
+  "sources": [
+    {
+      "path": "skills/report-reality-check/DESIGN.md",
+      "git_blob_sha": "c08e91d2155885e7fa5a940620642bcad84925f2"
+    },
+    {
+      "path": "skills/report-reality-check/SKILL.md",
+      "git_blob_sha": "640e989962e18db952ced6fd855e0e15c9cb06b1"
+    },
+    {
+      "path": "skills/report-reality-check/scripts/verify_quotes.py",
+      "git_blob_sha": "70cc24e3819978b20bc3e21661ed7965802485bb"
+    },
+    {
+      "path": "evals/testlog-01/STRESS_CHECK_TESTLOG_01.txt",
+      "git_blob_sha": "d2fece67b482f0df20e176b65acde868573da0c9"
+    },
+    {
+      "path": "evals/testlog-02-clean/TESTLOG_02.txt",
+      "git_blob_sha": "65ef8669fa7709c43c9230dcff13c6b755b1de8c"
+    }
+  ],
+  "runs": [
+    {
+      "path": "evals/testlog-01/runs/2026-11-17_gpt-6_a.md",
+      "sha256": "f7f6b880c02165ab1173e590bf495ab1a63c971a6859f6c0ac77dc2907d8ba36"
+    },
+    {
+      "path": "evals/testlog-01/runs/2026-11-17_gpt-6_b.md",
+      "sha256": "6c1916da9dfc0dfbe14b285bddf8edd9c7c77b661aa01db465ababfc3b2cc5bf"
+    },
+    {
+      "path": "evals/testlog-01/runs/2026-11-17_gpt-6_d.md",
+      "sha256": "4409f6d3ea02aaaa43561752e02885e4a82bfa11ef3f67d4dd0f5b7f4bd86828"
+    },
+    {
+      "path": "evals/testlog-02-clean/runs/2026-11-17_gpt-6_a.md",
+      "sha256": "0000e7a2d0807dcf946db746b0f039f643267e1a17d50fd2c351fa143a55bcab"
+    },
+    {
+      "path": "evals/testlog-02-clean/runs/2026-11-17_gpt-6_b.md",
+      "sha256": "d3f62e5fe0183b505d3c76c91c14ad1461528c3e8f23259423a32daa979982cf"
+    },
+    {
+      "path": "evals/testlog-02-clean/runs/2026-11-17_gpt-6_d.md",
+      "sha256": "79e71be8969893ed82edee75a97cd5f3ac7440d90256627af68aacfede6bb907"
+    }
+  ],
+  "limitations": [
+    "One run per cell",
+    "No exact token telemetry",
+    "No c/live task, Opus, downstream handoff, B3",
+    "Full SKILL.md includes near-identical TESTLOG_01 worked example",
+    "Scoring separately delegated; no second independent scorer of all outputs"
+  ]
+}
