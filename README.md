@@ -51,8 +51,9 @@ The idea started as "AI Stress Check" (AI用ストレスチェック), a checkli
 ## Repository layout
 
 ```
-skills/report-reality-check/   the skill: SKILL.md, references/, DESIGN.md
-evals/testlog-01/              planted test log, answer key, first run (Japanese, written for v0.2)
+skills/report-reality-check/   the skill: SKILL.md, references/, scripts/, DESIGN.md
+evals/                         planted logs and answer keys (see evals/README.md); nothing measured yet
+tests/                         tests for scripts/verify_quotes.py
 origin/                        AI Stress Check v0.1–v0.2 (Japanese)
 ```
 

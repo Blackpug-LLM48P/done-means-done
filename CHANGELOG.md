@@ -9,6 +9,8 @@ Versions are the prototype versions written in SKILL.md.
 - SKILL.md: no longer points to DESIGN.md as a local file.
 - DESIGN.md: name, home, and license moved from open decisions to decided.
 - README: install note about copying the whole skill folder.
+- Added `scripts/verify_quotes.py`: checks that ledger quotes exist in the record (read-only), with tests.
+- Added eval fixtures: v0.3 ledger key for TESTLOG_01, and a clean log (TESTLOG_02) with key. No runs yet.
 
 ## v0.3 — 2026-11-02
 

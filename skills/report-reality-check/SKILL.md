@@ -93,6 +93,16 @@ Up to 3. Each one: what was observed / what is at stake / a next check within ex
 
 Read-only probes run during the check, with their results. Write "None" if there were none.
 
+## Quote check (optional)
+
+If `scripts/verify_quotes.py` is installed and the ledger and record exist as files, a human or a separate evaluator can run:
+
+```
+python3 scripts/verify_quotes.py LEDGER.md RECORD_FILE
+```
+
+It reads files only. It reports which Evidence quotes are not in the record, and which exceed the length rule. A quote that is found can still be the wrong evidence; the script does not judge that. Do not report its result as "verified".
+
 ## Extended work-state check (optional)
 
 For handoffs and audits, also run the 12-item check (plus one experimental item) in `references/work-state-check.md`. Report its findings in a separate section, under the same header. If that file is not available in this installation, say so in one line and skip the extended check. Do not reconstruct the items from memory.
