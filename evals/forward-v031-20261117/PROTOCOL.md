@@ -22,9 +22,9 @@ A shared harness asks the runner to read only its own packet and save the full r
 
 ## Fixture author and isolation
 
-An independent fresh author, without access to the skill, old fixtures, old results, or this conversation, creates four new records and sealed keys. The author receives task-family specifications: stale/version-specific evidence; compacted evidence and attributed handoffs; a genuinely clean recovered/scope-adjusted task; and a longer mixed record. Thus these are targeted diagnostic fixtures, not a random sample or an independently recruited external benchmark. The author is an instance of the same host model family.
+Three independent fresh authors, without access to the skill, old fixtures, old results, each other's files, or this conversation, create four new records and sealed keys. One writes cases 01–02; separate authors write cases 03 and 04. The authors receive task-family specifications: stale/version-specific evidence; compacted evidence and attributed handoffs; a genuinely clean recovered/scope-adjusted task; and a longer mixed record. Thus these are targeted diagnostic fixtures, not a random sample or an independently recruited external benchmark. The authors are instances of the same host model family.
 
-The author freezes record/key hashes and draft IDs in metadata before execution. The orchestrator can inspect record structure and hashes but will not read keys before all 24 responses are saved and committed. Runners see only their assigned record, condition, and skill if applicable; they never see keys, other conditions, or other outputs. This is instruction-level isolation in a shared workspace, not a security sandbox. Author files and run packets are stored separately. Failures or deviations are retained rather than silently rerun. Missing outputs may be retried only as explicitly recorded execution failures, never to improve a score.
+Each author freezes record/key hashes and draft IDs in metadata before execution. The orchestrator can inspect record structure and hashes but will not read keys before all 24 responses are saved and committed. Runners see only their assigned record, condition, and skill if applicable; they never see keys, other conditions, or other outputs. This is instruction-level isolation in a shared workspace, not a security sandbox. Author files and run packets are stored separately. Failures or deviations are retained rather than silently rerun. Missing outputs may be retried only as explicitly recorded execution failures, never to improve a score.
 
 Two repeats use counterbalanced condition order. Parallel scheduling can vary with completion time. No adaptive changes to skill, fixtures, keys or prompts during collection.
 
@@ -55,3 +55,7 @@ Report all per-case/per-repeat results even if tied. Within this small batch, ca
 The DESIGN kill criterion literally compares live self-check condition (c) with (b). Static separate-reviewer (d) does not execute that experiment. No result here establishes the live kill criterion, robust generalization, model superiority, downstream safety, or a production reliability rate. No (c), second model, real-world task execution, real context compaction, downstream handoff execution, or cost measurement is included. Simulated compaction tests reasoning about a missing-evidence record only.
 
 All inputs and raw outputs will be committed on a new evaluation branch before keys are read by the orchestrator or scorers. Scores and limitations will then be committed. No main merge or skill change is part of this experiment.
+
+## Pre-collection scheduling amendment
+
+Before any runner was launched, authorship was split from one author to three to reduce elapsed time. Case 01 was already frozen; the same author completed case 02, while new fresh authors independently wrote case 03 and case 04. No condition outputs existed at this change. Conditions, repetitions, metrics, decision rule and isolation requirements were unchanged.
