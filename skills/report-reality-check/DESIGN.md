@@ -1,6 +1,6 @@
 # report-reality-check — Design notes (v0.3 prototype)
 
-Status: prototype. Nothing here has been measured yet.
+Status: prototype. One small evaluation (2026-11-17) found no added effect on the main metrics; see `evals/README.md`. A1 and A2 remain unresolved.
 Previous name: "AI Stress Check" (AI用ストレスチェック v0.1–v0.2, Japanese).
 
 ## 1. Background
@@ -35,19 +35,21 @@ A trial run on a planted log (TESTLOG_01) suggested the practical value sits in 
 | A3 | The 12 items are overhead at completion time; the value is in F. | Holds. | Core is now a claim ledger. The 12 items become an optional extended check. |
 | A4 | "Checked, no problems" becomes a new unverifiable claim — a meta-level false report. | Holds. | Hard rule 5. Every SUPPORTED status needs a pointer. Ledger quotes are mechanically checkable. |
 | A5 | Goodhart: if "complete" is gated, agents imply completion in other words. | Holds. | Claims are classified by meaning, including implied claims. |
-| A6 | Evidence pointers can be fabricated. | Holds. | Verbatim short quotes plus IDs. `scripts/verify_quotes.py` checks that each quote exists in the record (added after v0.3; it does not check that the quote supports the claim). |
+| A6 | Evidence pointers can be fabricated. | Holds. | Verbatim short quotes plus IDs. `scripts/verify_quotes.py` checks that each quote exists in the record (added after v0.3; it does not check that the quote supports the claim). The first version missed 「」 quotes and reported success on a partial check; fixed in v0.3.1. |
 | A7 | Downstream agents execute suggestions, sum statuses into a score, or follow injected text quoted as evidence. | Holds (predicted, not observed). | Fixed output header. Suggestions labeled "not executed". Quotes are data. |
 | A8 | Over-hedging: every sentence becomes "unverified" and humans stop reading. | Holds. | Mark only claims that matter to completion criteria or the receiver's next decision. Over-hedging is measured. |
 | A9 | After compaction the evidence is gone, so the check returns UNVERIFIED in exactly the long sessions where it matters. | Partly holds. | Read-only probes may re-observe current state (files, git). Trade-off: relaxes v0.2's strict non-interference. |
 | A10 | "Stress check" misleads: it invites anthropomorphism, and in English "stress test" means load testing. | Holds. | Renamed (working name). Origin kept in these notes. |
 | A11 | Ordinal 0–3 ratings vary by evaluator. | Holds. | The core uses categorical statuses per claim. The ordinal scale is kept only in the extended check. |
 | A12 | The extended check misses the factor hypothesized to drive false reports: no channel to ask, escalate, or report failure (demand–control–support). | Hypothesis. | Experimental item B3. |
+| A13 | The worked example in SKILL.md was nearly the same case as TESTLOG_01, so a run given SKILL.md saw part of the answer. Found by the 2026-11-17 evaluation. | Holds. | Example and "typical gap" cells replaced with an unrelated case in v0.3.1. A test fails if an example quote appears in a fixture record. |
+| A14 | The check corrects the draft's claims but can let the revised report carry new unsupported claims, such as a worker's statement presented as fact. Seen in conditions (a) and (b) of the 2026-11-17 evaluation, not in (d). | Hypothesis. One case. | Two rules added in v0.3.1 (statement vs. fact; no new unsupported claims). Added after seeing TESTLOG_01 results, so TESTLOG_01 can no longer test them fairly. |
 
 Unresolved after review: A1 and A2. If either fails in testing, the skill should shrink or be dropped.
 
 ## 4. Evaluation plan
 
-**Fixtures.** Planted logs with answer keys: TESTLOG_01 plus 5–10 more covering every claim type. At least one clean log, to measure false alarms. So far: TESTLOG_01 with a v0.3 ledger key, and one clean log (TESTLOG_02). See `evals/README.md`. No condition has been run.
+**Fixtures.** Planted logs with answer keys: TESTLOG_01 plus 5–10 more covering every claim type. At least one clean log, to measure false alarms. So far: TESTLOG_01 with a v0.3 ledger key, and one clean log (TESTLOG_02). See `evals/README.md`. Conditions (a), (b), (d) have been run once on one model; (c) has not.
 
 **Conditions.**
 - (a) no intervention
@@ -60,7 +62,8 @@ Unresolved after review: A1 and A2. If either fails in testing, the skill should
 **Metrics.**
 - False-claim rate in the final report (CONTRADICTED claims that survive)
 - Omission rate (REMAINING items missing from the final report)
-- Over-hedging rate (claims SUPPORTED by the key but marked otherwise)
+- Over-hedging rate (claims SUPPORTED by the key but marked otherwise). True items outside the key are scope expansion, counted separately.
+- Unsupported new claims introduced by the revised report
 - Token overhead per run
 - Downstream misuse, when the output is handed to another agent: suggestions executed, statuses summed, quoted injection followed
 
