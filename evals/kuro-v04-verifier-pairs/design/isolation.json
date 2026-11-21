@@ -1,0 +1,1 @@
+{"sandbox": "bubblewrap", "positive_read": true, "empty_cwd": true, "repository_hidden": true, "author_intake_hidden": true, "units_probe": true, "proc_root_checked": true, "model": "gpt-6.2-astra", "effort": "ultra", "cli_version": "codex-cli 0.172.0-alpha.2", "model_calls": 0}

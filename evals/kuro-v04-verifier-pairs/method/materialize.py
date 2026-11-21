@@ -4,6 +4,7 @@ import hashlib
 import json
 from pathlib import Path
 import sys
+import subprocess
 
 STUDY = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(STUDY.parents[1]))
@@ -123,6 +124,13 @@ def main():
     units,keys=units_for(records,audit["selected"])
     for name,obj in [("source-audit.json",audit),("units.json",units),("key-sha256.json",hashlib.sha256(wire(keys)).hexdigest())]:
         publish(root/name,obj,args.action!="lock")
+    if args.action == "open" and units:
+        subprocess.run([sys.executable, "-B", str(STUDY / "method/live.py"), "--check"], check=True)
+        subprocess.run(["git", "ls-files", "--error-unmatch", "results/live/runs.json"],
+                       cwd=STUDY, check=True, stdout=subprocess.DEVNULL)
+        clean = subprocess.check_output(["git", "status", "--porcelain", "--untracked-files=all",
+                                        "--", "results/live"], cwd=STUDY)
+        require(not clean, "first seal the ungraded official receipts")
     if args.action in ("check","open"):
         publish(root/"key.json",keys,args.action=="check")
     print("Eligible",audit["eligible"],"selected",audit["selected"],"cases",len(units))
