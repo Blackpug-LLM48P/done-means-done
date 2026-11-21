@@ -1,0 +1,858 @@
+{
+  "base": "a5fabbcd167a0028a58677d2e076b4ea7154e3a6",
+  "raw_sessions": {
+    "F2V9": "B-i01-1",
+    "F8D3": "B-i04-1",
+    "T6M2Q": "B-i07-1",
+    "T8B4N": "B-i08-1"
+  },
+  "sources_sha256": {
+    "evals/kuro-v04-receiver/inputs/cases.json": "feab5bc6502b03991d088a2171990d635e81df659a975298ad20057bab16103f",
+    "evals/kuro-v04-receiver/inputs/regression/pr8-adapter.json": "801f20817bc69a6b8520b8003646ccda1d149bcc205cfead21ae71a7884d9672",
+    "evals/kuro-v04-adversarial/inputs/four-cases.json": "6d948e7916beba616f8ac7b319aca73a2d972fc8fbc6ac7c17ead73989a53b8d",
+    "evals/kuro-v04-receiver/method/controls.py": "0f700717a292e7dd4c2571247f543b157098fa12be66a26d4097342ddf9b255d",
+    "evals/kuro-v04-receiver/results/raw/B-i01-1.json": "c6a14b267c76fd24d673fe0db3f272b9b6a16fb56abe7656da612e43fb00a3bf",
+    "evals/kuro-v04-receiver/results/raw/B-i04-1.json": "8c54c83d1a9b93fe9dd2af79745cf2140bbeaa54bc771f71de39cb58f82a8f1f",
+    "evals/kuro-v04-receiver/results/raw/B-i07-1.json": "c164ab5d293a6ca2aa2092797afeb36a046d5f321618cdad3952e1c7d48e7609",
+    "evals/kuro-v04-receiver/results/raw/B-i08-1.json": "230257a71e11139aa145e1de81b58e1768e241c0fffe9cf2e74e3fac1e732d63",
+    "evals/kuro-v04-adversarial/results/four/GS1.json": "e47ee05e51d0c2302b36ccf1b365287993bd4095d536c5eb2e254e2a49233a11",
+    "evals/kuro-v04-adversarial/results/four/HN3.json": "16a742129d1dfe54562e7c0df6a47670ea3801cfbaa6afa2ffb95a93caf9e45c"
+  },
+  "scenarios": [
+    {
+      "id": "C01",
+      "case_id": "F2V9",
+      "description": "unchanged historical PR9 model answer",
+      "patch": [],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "C02",
+      "case_id": "F8D3",
+      "description": "unchanged historical PR9 model answer",
+      "patch": [],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "C03",
+      "case_id": "T6M2Q",
+      "description": "unchanged historical PR9 model answer",
+      "patch": [],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "C04",
+      "case_id": "T8B4N",
+      "description": "unchanged historical PR9 model answer",
+      "patch": [],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F01",
+      "case_id": "T6M2Q",
+      "description": "operation wrongly reports open",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "value"
+          ],
+          "value": "open"
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F02",
+      "case_id": "F8D3",
+      "description": "report wrongly reports open",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "report_state",
+            "value"
+          ],
+          "value": "open"
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F03",
+      "case_id": "T8B4N",
+      "description": "wrong complete with documented pending operation",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "value"
+          ],
+          "value": "complete"
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F04",
+      "case_id": "F8D3",
+      "description": "complete cites signature unavailable until 16:12",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "value"
+          ],
+          "value": "complete"
+        },
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "evidence_refs"
+          ],
+          "value": [
+            "b8u2",
+            "b8u5"
+          ]
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F05",
+      "case_id": "F2V9",
+      "description": "both states wrongly report open",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "report_state",
+            "value"
+          ],
+          "value": "open"
+        },
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "value"
+          ],
+          "value": "open"
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F06",
+      "case_id": "F2V9",
+      "description": "missing reference array with intact anchors",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "remove",
+          "path": [
+            "report_state",
+            "evidence_refs"
+          ]
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F07",
+      "case_id": "F2V9",
+      "description": "nonexistent reference",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "evidence_refs"
+          ],
+          "value": [
+            "unknown-entry"
+          ]
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F08",
+      "case_id": "F2V9",
+      "description": "incomplete witness list",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "evidence_refs"
+          ],
+          "value": [
+            "b2m3"
+          ]
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F09",
+      "case_id": "F2V9",
+      "description": "reference to another case (F6H1)",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "evidence_refs"
+          ],
+          "value": [
+            "b2m6",
+            "b2m5"
+          ]
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F10",
+      "case_id": "F2V9",
+      "description": "references old revision with reused check name",
+      "patch": [
+        {
+          "target": "case",
+          "op": "append",
+          "path": [
+            "records"
+          ],
+          "value": {
+            "ref": "old-version",
+            "case_id": "F2V9",
+            "revision": 4,
+            "scope": "operation",
+            "check": "庫内担当の受領署名",
+            "at": "2026-10-14T14:31:00+09:00",
+            "available_at": "2026-10-14T14:31:00+09:00",
+            "source": "direct",
+            "result": "met",
+            "text": "庫内担当が受領票に署名し、保管棚「雪-12」を記した。"
+          }
+        },
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "evidence_refs"
+          ],
+          "value": [
+            "old-version",
+            "b2m3"
+          ]
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F11",
+      "case_id": "F2V9",
+      "description": "cites another scope in same case",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "evidence_refs"
+          ],
+          "value": [
+            "b2m4",
+            "b2m3"
+          ]
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F12",
+      "case_id": "F2V9",
+      "description": "cites observation occurring after cutoff although in-scope witnesses exist",
+      "patch": [
+        {
+          "target": "case",
+          "op": "append",
+          "path": [
+            "records"
+          ],
+          "value": {
+            "ref": "future",
+            "case_id": "F2V9",
+            "revision": 5,
+            "scope": "operation",
+            "check": "庫内担当の受領署名",
+            "at": "2026-10-14T16:07:00+09:00",
+            "available_at": "2026-10-14T16:08:00+09:00",
+            "source": "direct",
+            "result": "met",
+            "text": "庫内担当が受領票に署名し、保管棚「雪-12」を記した。"
+          }
+        },
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "evidence_refs"
+          ],
+          "value": [
+            "future",
+            "b2m3"
+          ]
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F13",
+      "case_id": "F2V9",
+      "description": "cites late-arriving observation although in-scope witnesses exist",
+      "patch": [
+        {
+          "target": "case",
+          "op": "append",
+          "path": [
+            "records"
+          ],
+          "value": {
+            "ref": "late",
+            "case_id": "F2V9",
+            "revision": 5,
+            "scope": "operation",
+            "check": "庫内担当の受領署名",
+            "at": "2026-10-14T15:55:00+09:00",
+            "available_at": "2026-10-14T16:03:00+09:00",
+            "source": "direct",
+            "result": "met",
+            "text": "庫内担当が受領票に署名し、保管棚「雪-12」を記した。"
+          }
+        },
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "evidence_refs"
+          ],
+          "value": [
+            "late",
+            "b2m3"
+          ]
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F14",
+      "case_id": "F2V9",
+      "description": "no source observation of temperature attachment",
+      "patch": [
+        {
+          "target": "case",
+          "op": "remove",
+          "path": [
+            "records",
+            3
+          ]
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F15",
+      "case_id": "F2V9",
+      "description": "contradiction at exact latest direct observation time",
+      "patch": [
+        {
+          "target": "case",
+          "op": "append",
+          "path": [
+            "records"
+          ],
+          "value": {
+            "ref": "contradict",
+            "case_id": "F2V9",
+            "revision": 5,
+            "scope": "operation",
+            "check": "庫内担当の受領署名",
+            "at": "2026-10-14T14:31:00+09:00",
+            "available_at": "2026-10-14T14:31:00+09:00",
+            "source": "direct",
+            "result": "pending",
+            "text": "同時刻の担当者による直接点検で署名欄は空欄だった。"
+          }
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F16",
+      "case_id": "F2V9",
+      "description": "only available signature belongs to another case; original in-case earlier status still pending",
+      "patch": [
+        {
+          "target": "case",
+          "op": "replace",
+          "path": [
+            "records",
+            4,
+            "case_id"
+          ],
+          "value": "another-case"
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F17",
+      "case_id": "F2V9",
+      "description": "only complete signature is from an older revision",
+      "patch": [
+        {
+          "target": "case",
+          "op": "replace",
+          "path": [
+            "records",
+            4,
+            "revision"
+          ],
+          "value": 4
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F18",
+      "case_id": "F2V9",
+      "description": "only complete signature belongs to other scope",
+      "patch": [
+        {
+          "target": "case",
+          "op": "replace",
+          "path": [
+            "records",
+            4,
+            "scope"
+          ],
+          "value": "report"
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F19",
+      "case_id": "F2V9",
+      "description": "only complete signature arrives a minute after cutoff",
+      "patch": [
+        {
+          "target": "case",
+          "op": "replace",
+          "path": [
+            "records",
+            4,
+            "available_at"
+          ],
+          "value": "2026-10-14T16:01:00+09:00"
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F20",
+      "case_id": "F2V9",
+      "description": "case-key mismatch for the whole answer",
+      "patch": [
+        {
+          "target": "envelope",
+          "op": "rekey",
+          "path": [],
+          "value": "other-case"
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F21",
+      "case_id": "F2V9",
+      "description": "submitted operation revision changes from integer to text",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "revision"
+          ],
+          "value": "5"
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F22",
+      "case_id": "F2V9",
+      "description": "submitted report has wrong scope",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "report_state",
+            "scope"
+          ],
+          "value": "別報告"
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F23",
+      "case_id": "F2V9",
+      "description": "submitted operation is bound to different cutoff",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "as_of"
+          ],
+          "value": "2026-10-14T16:01:00+09:00"
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F24",
+      "case_id": "F2V9",
+      "description": "reread throws retrieval error",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "evidence_refs"
+          ],
+          "value": []
+        }
+      ],
+      "reader": "unavailable",
+      "receipts": 1
+    },
+    {
+      "id": "F25",
+      "case_id": "F2V9",
+      "description": "reread supplies another case",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "evidence_refs"
+          ],
+          "value": []
+        }
+      ],
+      "reader": "foreign_case",
+      "receipts": 1
+    },
+    {
+      "id": "F26",
+      "case_id": "F2V9",
+      "description": "two invalid fields; operation binding invalid; report can be recovered",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "report_state",
+            "value"
+          ],
+          "value": "open"
+        },
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "revision"
+          ],
+          "value": 4
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F27",
+      "case_id": "F2V9",
+      "description": "repeated filtered response; reopened durable ledger shared only within this scenario",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "value"
+          ],
+          "value": "open"
+        }
+      ],
+      "reader": "ok",
+      "receipts": 2
+    },
+    {
+      "id": "F28",
+      "case_id": "F2V9",
+      "description": "blank handoff, operation can still recover; cannot archive or close",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "handoff"
+          ],
+          "value": "  "
+        },
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "value"
+          ],
+          "value": "open"
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F29",
+      "case_id": "F2V9",
+      "description": "reread has different required checks",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "evidence_refs"
+          ],
+          "value": []
+        }
+      ],
+      "reader": "different_checks",
+      "receipts": 1
+    },
+    {
+      "id": "F30",
+      "case_id": "F2V9",
+      "description": "reread returns different cutoff",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "evidence_refs"
+          ],
+          "value": []
+        }
+      ],
+      "reader": "later_cutoff",
+      "receipts": 1
+    },
+    {
+      "id": "F31",
+      "case_id": "F2V9",
+      "description": "reread returns different revision type",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "evidence_refs"
+          ],
+          "value": []
+        }
+      ],
+      "reader": "different_revision",
+      "receipts": 1
+    },
+    {
+      "id": "F32",
+      "case_id": "F8D3",
+      "description": "separate new instruction at 16:15, after the 16:12 signature arrival, both fields bound to new time",
+      "patch": [
+        {
+          "target": "case",
+          "op": "replace",
+          "path": [
+            "as_of"
+          ],
+          "value": "2026-10-21T16:15:00+09:00"
+        },
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "report_state",
+            "as_of"
+          ],
+          "value": "2026-10-21T16:15:00+09:00"
+        },
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "as_of"
+          ],
+          "value": "2026-10-21T16:15:00+09:00"
+        },
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "value"
+          ],
+          "value": "complete"
+        },
+        {
+          "target": "inner",
+          "op": "replace",
+          "path": [
+            "operation_state",
+            "evidence_refs"
+          ],
+          "value": [
+            "b8u2",
+            "b8u5"
+          ]
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F33",
+      "case_id": "F2V9",
+      "description": "entire operation field is absent",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "remove",
+          "path": [
+            "operation_state"
+          ]
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F34",
+      "case_id": "F2V9",
+      "description": "entire report declaration value is absent",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "remove",
+          "path": [
+            "report_state",
+            "value"
+          ]
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "F35",
+      "case_id": "F2V9",
+      "description": "submitted report scope is absent",
+      "patch": [
+        {
+          "target": "inner",
+          "op": "remove",
+          "path": [
+            "report_state",
+            "scope"
+          ]
+        }
+      ],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "M3V7-GS1",
+      "case_id": "M3V7",
+      "description": "PR8 GS1 original model answer, fixed PR9 source/transport adapter",
+      "patch": [],
+      "reader": "ok",
+      "receipts": 1
+    },
+    {
+      "id": "M3V7-HN3",
+      "case_id": "M3V7",
+      "description": "PR8 HN3 original model answer, fixed PR9 source/transport adapter",
+      "patch": [],
+      "reader": "ok",
+      "receipts": 1
+    }
+  ]
+}
