@@ -33,6 +33,8 @@ The [adversarial handoff study](kuro-v04-adversarial/README.md) tests whether a 
 
 The [caller and receiver dry run](kuro-v04-receiver/README.md) compares a single completion flag with two evidence-bound states. It records the downstream decisions on eight new cases, with separate fresh-session and continuing-session results.
 
+The [same-cutoff reconciliation study](kuro-v04-reconcile/README.md) sends each fixed response through both receivers. It measures when a held operation returns to the dry-run plan, including the two M3V7 regressions, and when a repeated delivery produces zero new plans.
+
 ## Fixtures
 
 | Fixture | Record | Keys | What it tests |

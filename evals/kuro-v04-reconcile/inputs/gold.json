@@ -1,0 +1,106 @@
+{
+  "N2F8X": {
+    "actions": {
+      "advance_operation": false,
+      "archive_report": true,
+      "close_case": false
+    },
+    "facts": [
+      "ベガ",
+      "7画素"
+    ],
+    "operation": "open",
+    "report": "complete"
+  },
+  "N6QKD": {
+    "actions": {
+      "advance_operation": false,
+      "archive_report": false,
+      "close_case": false
+    },
+    "facts": [
+      "西区",
+      "落ち葉"
+    ],
+    "operation": "open",
+    "report": "open"
+  },
+  "NM5V9": {
+    "actions": {
+      "advance_operation": true,
+      "archive_report": false,
+      "close_case": false
+    },
+    "facts": [
+      "水の綾",
+      "一階A列5番"
+    ],
+    "operation": "complete",
+    "report": "open"
+  },
+  "NW7J2": {
+    "actions": {
+      "advance_operation": true,
+      "archive_report": true,
+      "close_case": true
+    },
+    "facts": [
+      "P-14",
+      "150 lx"
+    ],
+    "operation": "complete",
+    "report": "complete"
+  },
+  "W34LF": {
+    "actions": {
+      "advance_operation": true,
+      "archive_report": false,
+      "close_case": false
+    },
+    "facts": [
+      "照合した原盤番号はAR-660",
+      "配信用ファイルのサンプルレートは96 kHz"
+    ],
+    "operation": "complete",
+    "report": "open"
+  },
+  "WRAY2": {
+    "actions": {
+      "advance_operation": false,
+      "archive_report": false,
+      "close_case": false
+    },
+    "facts": [
+      "案内に記載した入口名は柳小路口",
+      "試験カードの識別番号はAC-684"
+    ],
+    "operation": "open",
+    "report": "open"
+  },
+  "WVQ6P": {
+    "actions": {
+      "advance_operation": true,
+      "archive_report": true,
+      "close_case": true
+    },
+    "facts": [
+      "今回の製紙ロットはKP-273",
+      "採用した筋押し溝幅は0.8 mm"
+    ],
+    "operation": "complete",
+    "report": "complete"
+  },
+  "WZW36": {
+    "actions": {
+      "advance_operation": false,
+      "archive_report": true,
+      "close_case": false
+    },
+    "facts": [
+      "予備調査の参加人数は12人",
+      "青果を選んだ場合の分岐先は設問Q17b"
+    ],
+    "operation": "open",
+    "report": "complete"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "H-018bad1185c4e8404f36fc73": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "12人と青果選択時のQ17bが一致。再試験の失敗と修正後の口頭連絡も区別した。"
+  },
+  "H-08914d03ef27aa0bbfecab33": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "照合曲名と見切れ確認席が一致。現行版の署名は受付経由の伝言にとどめた。"
+  },
+  "H-20d182c1e2cd4fbe982807aa": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "採用色票P-14と最終実測150 lxが一致。差し替え後の図と補彩の実見結果も記録どおり。"
+  },
+  "H-436b763bc0fdf4aef862152e": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "基準星ベガと基準線から7画素のずれが一致。再調整の結果を電話情報として扱った。"
+  },
+  "H-43d6ab755fe18ccf8c44ea3b": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "原盤番号AR-660と配信用96 kHzが一致。署名の伝言と13時までの直接確認を区別した。"
+  },
+  "H-4c9ad229563cbefc1c1b8c3c": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "今回のロットと採用溝幅が一致。計量票の判読と2枚目の見本の合格に直接記録がある。"
+  },
+  "H-66c54850228a1e188f208c53": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "色票番号と最終照度は試し塗り・展示灯の記録どおり。境界と色調の所見も正確。"
+  },
+  "H-7d44ad3d5d8068d9620bf619": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "案内の柳小路口と試験カードAC-684が一致。再入稿は印刷所の連絡として扱い、解錠は再試験待ちとした。"
+  },
+  "H-ae681f3c90b57a9dab810af5": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "注水した西区と格子に詰まった落ち葉を明記。出口写真の再照合と現地観察の結果も一致する。"
+  },
+  "H-b27dcdf6e97d8fbb43b0b217": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "曲名「水の綾」と一階A列5番を正しく明記。署名の伝聞と客席から確認できた内容も正確。"
+  },
+  "H-b637e6692f32d81a4c26ac39": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "予備調査の12人と青果の分岐先Q17bを正しく明記。選択肢追加後の不具合と通過の伝聞も記録どおり。"
+  },
+  "H-bcef372f50a277be867e044f": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "原盤ラベルとの照合番号とヘッダーのレートが一致。締切までの署名欄の直接所見と伝言が明確。"
+  },
+  "H-ca3aa94fb1849677f03ccf17": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "ベガと直近画像の7画素を明記。再調整後に許容円に入ったかの直接確認を未了としている。"
+  },
+  "H-d4142d2e15a088b0628fcccd": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "西区への流入と15時58分の落ち葉が記録に一致。写真差し替えと出口流出は締切時点で保留。"
+  },
+  "H-da70112e88c7ccd096e17c3e": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "柳小路口とAC-684を正しく対応づけた。連絡先復元の伝聞と解錠試験の直接観察も正確。"
+  },
+  "H-e8edb51dd50b3526a78c6aac": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "KP-273と0.8 mmの用途が一致。計量票の添付、罫線台の刻印、加工試験の合格も各記録に基づく。"
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "C01/1": {
+    "B0_plan": "PPP",
+    "B1_plan": "PPP",
+    "attempts": 0,
+    "detected": "00",
+    "initial_state": "CC",
+    "new_plans": "PPP",
+    "source_state": "CC",
+    "triggered": "00"
+  },
+  "C02/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 0,
+    "detected": "00",
+    "initial_state": "CO",
+    "new_plans": "PHH",
+    "source_state": "CO",
+    "triggered": "00"
+  },
+  "C03/1": {
+    "B0_plan": "HPH",
+    "B1_plan": "HPH",
+    "attempts": 0,
+    "detected": "00",
+    "initial_state": "OC",
+    "new_plans": "HPH",
+    "source_state": "OC",
+    "triggered": "00"
+  },
+  "C04/1": {
+    "B0_plan": "HHH",
+    "B1_plan": "HHH",
+    "attempts": 0,
+    "detected": "00",
+    "initial_state": "OO",
+    "new_plans": "HHH",
+    "source_state": "OO",
+    "triggered": "00"
+  },
+  "F01/1": {
+    "B0_plan": "HHH",
+    "B1_plan": "HPH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "OO",
+    "new_plans": "HPH",
+    "source_state": "OC",
+    "triggered": "01"
+  },
+  "F02/1": {
+    "B0_plan": "HHH",
+    "B1_plan": "PHH",
+    "attempts": 1,
+    "detected": "10",
+    "initial_state": "OO",
+    "new_plans": "PHH",
+    "source_state": "CO",
+    "triggered": "10"
+  },
+  "F03/1": {
+    "B0_plan": "HHH",
+    "B1_plan": "HHH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "OC",
+    "new_plans": "HHH",
+    "source_state": "OO",
+    "triggered": "01"
+  },
+  "F04/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PHH",
+    "source_state": "CO",
+    "triggered": "01"
+  },
+  "F05/1": {
+    "B0_plan": "HHH",
+    "B1_plan": "PPP",
+    "attempts": 1,
+    "detected": "11",
+    "initial_state": "OO",
+    "new_plans": "PPP",
+    "source_state": "CC",
+    "triggered": "11"
+  },
+  "F06/1": {
+    "B0_plan": "HPH",
+    "B1_plan": "PPP",
+    "attempts": 1,
+    "detected": "10",
+    "initial_state": "CC",
+    "new_plans": "PPP",
+    "source_state": "CC",
+    "triggered": "10"
+  },
+  "F07/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PPP",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PPP",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F08/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PPP",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PPP",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F09/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PPP",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PPP",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F10/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PPP",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PPP",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F11/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PPP",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PPP",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F12/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PPP",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PPP",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F13/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PPP",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PPP",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F14/1": {
+    "B0_plan": "HPH",
+    "B1_plan": "HPH",
+    "attempts": 1,
+    "detected": "10",
+    "initial_state": "CC",
+    "new_plans": "HPH",
+    "source_state": "OC",
+    "triggered": "10"
+  },
+  "F15/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PHH",
+    "source_state": "CO",
+    "triggered": "01"
+  },
+  "F16/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PHH",
+    "source_state": "CO",
+    "triggered": "01"
+  },
+  "F17/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PHH",
+    "source_state": "CO",
+    "triggered": "01"
+  },
+  "F18/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PHH",
+    "source_state": "CO",
+    "triggered": "01"
+  },
+  "F19/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PHH",
+    "source_state": "CO",
+    "triggered": "01"
+  },
+  "F20/1": {
+    "B0_plan": "HHH",
+    "B1_plan": "HHH",
+    "attempts": 0,
+    "detected": "11",
+    "initial_state": "??",
+    "new_plans": "HHH",
+    "source_state": "CC",
+    "triggered": "00"
+  },
+  "F21/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 0,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PHH",
+    "source_state": "CC",
+    "triggered": "00"
+  },
+  "F22/1": {
+    "B0_plan": "HPH",
+    "B1_plan": "HPH",
+    "attempts": 0,
+    "detected": "10",
+    "initial_state": "CC",
+    "new_plans": "HPH",
+    "source_state": "CC",
+    "triggered": "00"
+  },
+  "F23/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 0,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PHH",
+    "source_state": "CC",
+    "triggered": "00"
+  },
+  "F24/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PHH",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F25/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PHH",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F26/1": {
+    "B0_plan": "HHH",
+    "B1_plan": "PHH",
+    "attempts": 1,
+    "detected": "11",
+    "initial_state": "OC",
+    "new_plans": "PHH",
+    "source_state": "CC",
+    "triggered": "10"
+  },
+  "F27/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PPP",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CO",
+    "new_plans": "PPP",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F27/2": {
+    "B0_plan": "PHH",
+    "B1_plan": "PPP",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CO",
+    "new_plans": "HHH",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F28/1": {
+    "B0_plan": "HHH",
+    "B1_plan": "HPH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CO",
+    "new_plans": "HPH",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F29/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PHH",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F30/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PHH",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F31/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "CC",
+    "new_plans": "PHH",
+    "source_state": "CC",
+    "triggered": "01"
+  },
+  "F32/1": {
+    "B0_plan": "PPP",
+    "B1_plan": "PPP",
+    "attempts": 0,
+    "detected": "00",
+    "initial_state": "CC",
+    "new_plans": "PPP",
+    "source_state": "CC",
+    "triggered": "00"
+  },
+  "F33/1": {
+    "B0_plan": "PHH",
+    "B1_plan": "PHH",
+    "attempts": 0,
+    "detected": "01",
+    "initial_state": "C?",
+    "new_plans": "PHH",
+    "source_state": "CC",
+    "triggered": "00"
+  },
+  "F34/1": {
+    "B0_plan": "HPH",
+    "B1_plan": "HPH",
+    "attempts": 0,
+    "detected": "10",
+    "initial_state": "?C",
+    "new_plans": "HPH",
+    "source_state": "CC",
+    "triggered": "00"
+  },
+  "F35/1": {
+    "B0_plan": "HPH",
+    "B1_plan": "HPH",
+    "attempts": 0,
+    "detected": "10",
+    "initial_state": "CC",
+    "new_plans": "HPH",
+    "source_state": "CC",
+    "triggered": "00"
+  },
+  "M3V7-GS1/1": {
+    "B0_plan": "HHH",
+    "B1_plan": "HPH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "OO",
+    "new_plans": "HPH",
+    "source_state": "OC",
+    "triggered": "01"
+  },
+  "M3V7-HN3/1": {
+    "B0_plan": "HHH",
+    "B1_plan": "HPH",
+    "attempts": 1,
+    "detected": "01",
+    "initial_state": "OO",
+    "new_plans": "HPH",
+    "source_state": "OC",
+    "triggered": "01"
+  }
+}
