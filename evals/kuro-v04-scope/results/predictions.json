@@ -1,0 +1,486 @@
+{
+  "reader-one": {
+    "c6j4": {
+      "b5m": null,
+      "g4p": "m8q",
+      "r2x": "u9d",
+      "t7v": "y5s",
+      "z9c": null
+    },
+    "f7k2": {
+      "g9z": "b7u",
+      "h4w": "m3p",
+      "s5d": null,
+      "u2f": null,
+      "x6b": "w6a"
+    },
+    "h7s3": {
+      "j7y": "b9r",
+      "n1p": null,
+      "u6c": null,
+      "v2h": "t5d",
+      "x5k": "g3v"
+    },
+    "q6m4": {
+      "d3u": "f5y",
+      "k9i": null,
+      "m2z": "c2g",
+      "r6e": "j7t",
+      "y7d": null
+    },
+    "v3s8": {
+      "b5r": "i8e",
+      "e7n": "z4s",
+      "j8v": null,
+      "n3a": null,
+      "w4c": null
+    },
+    "w2f9": {
+      "c1d": "s9w",
+      "e5r": "k1m",
+      "l9a": null,
+      "p6u": null,
+      "y8n": null
+    }
+  },
+  "reader-scope": {
+    "c6j4": {
+      "b5m": null,
+      "g4p": "m8q",
+      "r2x": "u9d",
+      "t7v": "y5s",
+      "z9c": null
+    },
+    "f7k2": {
+      "g9z": "b7u",
+      "h4w": "m3p",
+      "s5d": null,
+      "u2f": null,
+      "x6b": "w6a"
+    },
+    "h7s3": {
+      "j7y": "b9r",
+      "n1p": null,
+      "u6c": null,
+      "v2h": "t5d",
+      "x5k": "g3v"
+    },
+    "q6m4": {
+      "d3u": "f5y",
+      "k9i": null,
+      "m2z": "c2g",
+      "r6e": "j7t",
+      "y7d": null
+    },
+    "v3s8": {
+      "b5r": "i8e",
+      "e7n": "z4s",
+      "j8v": null,
+      "n3a": null,
+      "w4c": null
+    },
+    "w2f9": {
+      "c1d": "s9w",
+      "e5r": "k1m",
+      "l9a": null,
+      "p6u": null,
+      "y8n": null
+    }
+  },
+  "reader-v04": {
+    "c6j4": {
+      "b5m": null,
+      "g4p": "m8q",
+      "r2x": "u9d",
+      "t7v": "y5s",
+      "z9c": null
+    },
+    "f7k2": {
+      "g9z": "b7u",
+      "h4w": "m3p",
+      "s5d": null,
+      "u2f": null,
+      "x6b": "w6a"
+    },
+    "h7s3": {
+      "j7y": "b9r",
+      "n1p": null,
+      "u6c": null,
+      "v2h": "t5d",
+      "x5k": "g3v"
+    },
+    "q6m4": {
+      "d3u": "f5y",
+      "k9i": null,
+      "m2z": "c2g",
+      "r6e": "j7t",
+      "y7d": null
+    },
+    "v3s8": {
+      "b5r": "i8e",
+      "e7n": "z4s",
+      "j8v": null,
+      "n3a": null,
+      "w4c": null
+    },
+    "w2f9": {
+      "c1d": "s9w",
+      "e5r": "k1m",
+      "l9a": null,
+      "p6u": null,
+      "y8n": null
+    }
+  },
+  "source-rescue": {
+    "c6j4": {
+      "b5m": "x6t",
+      "g4p": "m8q",
+      "r2x": "u9d",
+      "t7v": "y5s",
+      "z9c": "e1n"
+    },
+    "f7k2": {
+      "g9z": "b7u",
+      "h4w": "m3p",
+      "s5d": "w6a",
+      "u2f": "d4j",
+      "x6b": "w6a"
+    },
+    "h7s3": {
+      "j7y": "b9r",
+      "n1p": "a6f",
+      "u6c": "k8a",
+      "v2h": "t5d",
+      "x5k": "g3v"
+    },
+    "q6m4": {
+      "d3u": "f5y",
+      "k9i": "j7t",
+      "m2z": "j7t",
+      "r6e": "j7t",
+      "y7d": "j7t"
+    },
+    "v3s8": {
+      "b5r": "i8e",
+      "e7n": "z4s",
+      "j8v": "p3x",
+      "n3a": "z4s",
+      "w4c": "p3x"
+    },
+    "w2f9": {
+      "c1d": "s9w",
+      "e5r": "k1m",
+      "l9a": "h6t",
+      "p6u": "u2h",
+      "y8n": "a5q"
+    }
+  },
+  "source-veto": {
+    "c6j4": {
+      "b5m": "x6t",
+      "g4p": "m8q",
+      "r2x": "u9d",
+      "t7v": "y5s",
+      "z9c": "e1n"
+    },
+    "f7k2": {
+      "g9z": "b7u",
+      "h4w": "m3p",
+      "s5d": "w6a",
+      "u2f": "d4j",
+      "x6b": "w6a"
+    },
+    "h7s3": {
+      "j7y": "b9r",
+      "n1p": "a6f",
+      "u6c": "k8a",
+      "v2h": "t5d",
+      "x5k": "g3v"
+    },
+    "q6m4": {
+      "d3u": "f5y",
+      "k9i": "j7t",
+      "m2z": "j7t",
+      "r6e": "j7t",
+      "y7d": "j7t"
+    },
+    "v3s8": {
+      "b5r": "i8e",
+      "e7n": "z4s",
+      "j8v": "p3x",
+      "n3a": "z4s",
+      "w4c": "p3x"
+    },
+    "w2f9": {
+      "c1d": "s9w",
+      "e5r": "k1m",
+      "l9a": null,
+      "p6u": "u2h",
+      "y8n": "a5q"
+    }
+  },
+  "source_action-rescue": {
+    "c6j4": {
+      "b5m": null,
+      "g4p": null,
+      "r2x": "u9d",
+      "t7v": null,
+      "z9c": "e1n"
+    },
+    "f7k2": {
+      "g9z": null,
+      "h4w": null,
+      "s5d": null,
+      "u2f": null,
+      "x6b": null
+    },
+    "h7s3": {
+      "j7y": null,
+      "n1p": null,
+      "u6c": null,
+      "v2h": null,
+      "x5k": null
+    },
+    "q6m4": {
+      "d3u": null,
+      "k9i": null,
+      "m2z": null,
+      "r6e": null,
+      "y7d": null
+    },
+    "v3s8": {
+      "b5r": "i8e",
+      "e7n": null,
+      "j8v": null,
+      "n3a": null,
+      "w4c": null
+    },
+    "w2f9": {
+      "c1d": null,
+      "e5r": null,
+      "l9a": null,
+      "p6u": null,
+      "y8n": null
+    }
+  },
+  "source_action-veto": {
+    "c6j4": {
+      "b5m": null,
+      "g4p": null,
+      "r2x": "u9d",
+      "t7v": null,
+      "z9c": "e1n"
+    },
+    "f7k2": {
+      "g9z": null,
+      "h4w": null,
+      "s5d": null,
+      "u2f": null,
+      "x6b": null
+    },
+    "h7s3": {
+      "j7y": null,
+      "n1p": null,
+      "u6c": null,
+      "v2h": null,
+      "x5k": null
+    },
+    "q6m4": {
+      "d3u": null,
+      "k9i": null,
+      "m2z": null,
+      "r6e": null,
+      "y7d": null
+    },
+    "v3s8": {
+      "b5r": "i8e",
+      "e7n": null,
+      "j8v": null,
+      "n3a": null,
+      "w4c": null
+    },
+    "w2f9": {
+      "c1d": null,
+      "e5r": null,
+      "l9a": null,
+      "p6u": null,
+      "y8n": null
+    }
+  },
+  "source_revision-rescue": {
+    "c6j4": {
+      "b5m": "p4h",
+      "g4p": "m8q",
+      "r2x": "u9d",
+      "t7v": "y5s",
+      "z9c": "f3w"
+    },
+    "f7k2": {
+      "g9z": "b7u",
+      "h4w": "m3p",
+      "s5d": "w6a",
+      "u2f": "d4j",
+      "x6b": "w6a"
+    },
+    "h7s3": {
+      "j7y": "b9r",
+      "n1p": "w4q",
+      "u6c": "p1x",
+      "v2h": "t5d",
+      "x5k": "g3v"
+    },
+    "q6m4": {
+      "d3u": "f5y",
+      "k9i": "o3b",
+      "m2z": "c2g",
+      "r6e": "o3b",
+      "y7d": "o3b"
+    },
+    "v3s8": {
+      "b5r": "i8e",
+      "e7n": "z4s",
+      "j8v": "i8e",
+      "n3a": "a6m",
+      "w4c": "z4s"
+    },
+    "w2f9": {
+      "c1d": "s9w",
+      "e5r": "k1m",
+      "l9a": "h6t",
+      "p6u": "v4e",
+      "y8n": "n7k"
+    }
+  },
+  "source_revision-veto": {
+    "c6j4": {
+      "b5m": null,
+      "g4p": "m8q",
+      "r2x": "u9d",
+      "t7v": "y5s",
+      "z9c": null
+    },
+    "f7k2": {
+      "g9z": "b7u",
+      "h4w": "m3p",
+      "s5d": "w6a",
+      "u2f": "d4j",
+      "x6b": "w6a"
+    },
+    "h7s3": {
+      "j7y": "b9r",
+      "n1p": null,
+      "u6c": null,
+      "v2h": "t5d",
+      "x5k": "g3v"
+    },
+    "q6m4": {
+      "d3u": "f5y",
+      "k9i": null,
+      "m2z": null,
+      "r6e": null,
+      "y7d": null
+    },
+    "v3s8": {
+      "b5r": "i8e",
+      "e7n": "z4s",
+      "j8v": null,
+      "n3a": null,
+      "w4c": null
+    },
+    "w2f9": {
+      "c1d": "s9w",
+      "e5r": "k1m",
+      "l9a": null,
+      "p6u": null,
+      "y8n": null
+    }
+  },
+  "source_revision_action-rescue": {
+    "c6j4": {
+      "b5m": null,
+      "g4p": null,
+      "r2x": "u9d",
+      "t7v": null,
+      "z9c": null
+    },
+    "f7k2": {
+      "g9z": null,
+      "h4w": null,
+      "s5d": null,
+      "u2f": null,
+      "x6b": null
+    },
+    "h7s3": {
+      "j7y": null,
+      "n1p": null,
+      "u6c": null,
+      "v2h": null,
+      "x5k": null
+    },
+    "q6m4": {
+      "d3u": null,
+      "k9i": null,
+      "m2z": null,
+      "r6e": null,
+      "y7d": null
+    },
+    "v3s8": {
+      "b5r": "i8e",
+      "e7n": null,
+      "j8v": null,
+      "n3a": null,
+      "w4c": null
+    },
+    "w2f9": {
+      "c1d": null,
+      "e5r": null,
+      "l9a": null,
+      "p6u": null,
+      "y8n": null
+    }
+  },
+  "source_revision_action-veto": {
+    "c6j4": {
+      "b5m": null,
+      "g4p": null,
+      "r2x": "u9d",
+      "t7v": null,
+      "z9c": null
+    },
+    "f7k2": {
+      "g9z": null,
+      "h4w": null,
+      "s5d": null,
+      "u2f": null,
+      "x6b": null
+    },
+    "h7s3": {
+      "j7y": null,
+      "n1p": null,
+      "u6c": null,
+      "v2h": null,
+      "x5k": null
+    },
+    "q6m4": {
+      "d3u": null,
+      "k9i": null,
+      "m2z": null,
+      "r6e": null,
+      "y7d": null
+    },
+    "v3s8": {
+      "b5r": "i8e",
+      "e7n": null,
+      "j8v": null,
+      "n3a": null,
+      "w4c": null
+    },
+    "w2f9": {
+      "c1d": null,
+      "e5r": null,
+      "l9a": null,
+      "p6u": null,
+      "y8n": null
+    }
+  }
+}

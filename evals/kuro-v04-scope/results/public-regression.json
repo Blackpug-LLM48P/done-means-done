@@ -1,0 +1,247 @@
+{
+  "purpose": "Labeled public development regression. Two unique queries and three query runs.",
+  "source_labels": {
+    "input": "row_types.json",
+    "mapping": {
+      "direct": "direct",
+      "firsthand_report": "reported",
+      "hearsay": "hearsay",
+      "uncertain_report": "inference"
+    },
+    "policy": "Use supplied labels only. Every E row needs a known label."
+  },
+  "bm25": {
+    "normalization": "NFKC, lowercase, ASCII alphanumeric runs, Japanese character bigrams or singleton; unique question and claim features combined.",
+    "k1": 1.2,
+    "b": 0.75,
+    "corpus_rows": 14,
+    "unique_features": 209,
+    "nonzero_row_feature_pairs": 277,
+    "average_length": 20.857142857142858,
+    "filtering": "Fit IDF and average length on all public E rows in both runs. The removed row stays in the statistics-only pool. Rank only available A03 rows, descending full-precision BM25, original order for ties. Display rounds to five decimals."
+  },
+  "policy": {
+    "veto": "Test only the first positive candidate.",
+    "rescue": "Select the first eligible positive candidate.",
+    "null": "abstain"
+  },
+  "public_gold": {
+    "Q07": "A03-E1",
+    "Q08": null
+  },
+  "runs": [
+    {
+      "excluded_candidate": null,
+      "candidate_rows": 3,
+      "statistics_only_rows": 11,
+      "queries": {
+        "Q07": {
+          "ranking": [
+            [
+              "A03-E1",
+              22.55167
+            ],
+            [
+              "A03-E2",
+              5.69439
+            ],
+            [
+              "A03-E3",
+              3.47176
+            ]
+          ],
+          "target": {
+            "revisions": [
+              "r2"
+            ],
+            "actions": {
+              "proof": [
+                [
+                  "all_pages",
+                  "human"
+                ]
+              ]
+            }
+          },
+          "checks_in_rank_order": {
+            "source": [
+              "eligible",
+              "eligible",
+              "source_inference"
+            ],
+            "source_revision": [
+              "eligible",
+              "revision_missing_ambiguous_or_mismatched",
+              "source_inference"
+            ],
+            "source_action": [
+              "eligible",
+              "action_missing_or_unconfirmed:proof",
+              "source_inference"
+            ],
+            "source_revision_action": [
+              "eligible",
+              "revision_missing_ambiguous_or_mismatched",
+              "source_inference"
+            ]
+          },
+          "selection": {
+            "source": {
+              "veto": "A03-E1",
+              "rescue": "A03-E1"
+            },
+            "source_revision": {
+              "veto": "A03-E1",
+              "rescue": "A03-E1"
+            },
+            "source_action": {
+              "veto": "A03-E1",
+              "rescue": "A03-E1"
+            },
+            "source_revision_action": {
+              "veto": "A03-E1",
+              "rescue": "A03-E1"
+            }
+          }
+        },
+        "Q08": {
+          "ranking": [
+            [
+              "A03-E1",
+              20.52736
+            ],
+            [
+              "A03-E2",
+              7.23607
+            ],
+            [
+              "A03-E3",
+              4.70576
+            ]
+          ],
+          "target": {
+            "revisions": [
+              "r3"
+            ],
+            "actions": {
+              "proof": [
+                [
+                  "all_pages",
+                  "human"
+                ]
+              ]
+            }
+          },
+          "checks_in_rank_order": {
+            "source": [
+              "eligible",
+              "eligible",
+              "source_inference"
+            ],
+            "source_revision": [
+              "revision_missing_ambiguous_or_mismatched",
+              "eligible",
+              "source_inference"
+            ],
+            "source_action": [
+              "eligible",
+              "action_missing_or_unconfirmed:proof",
+              "source_inference"
+            ],
+            "source_revision_action": [
+              "revision_missing_ambiguous_or_mismatched",
+              "action_missing_or_unconfirmed:proof",
+              "source_inference"
+            ]
+          },
+          "selection": {
+            "source": {
+              "veto": "A03-E1",
+              "rescue": "A03-E1"
+            },
+            "source_revision": {
+              "veto": null,
+              "rescue": "A03-E2"
+            },
+            "source_action": {
+              "veto": "A03-E1",
+              "rescue": "A03-E1"
+            },
+            "source_revision_action": {
+              "veto": null,
+              "rescue": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "excluded_candidate": "A03-E1",
+      "candidate_rows": 2,
+      "statistics_only_rows": 12,
+      "queries": {
+        "Q08": {
+          "ranking": [
+            [
+              "A03-E2",
+              7.23607
+            ],
+            [
+              "A03-E3",
+              4.70576
+            ]
+          ],
+          "target": {
+            "revisions": [
+              "r3"
+            ],
+            "actions": {
+              "proof": [
+                [
+                  "all_pages",
+                  "human"
+                ]
+              ]
+            }
+          },
+          "checks_in_rank_order": {
+            "source": [
+              "eligible",
+              "source_inference"
+            ],
+            "source_revision": [
+              "eligible",
+              "source_inference"
+            ],
+            "source_action": [
+              "action_missing_or_unconfirmed:proof",
+              "source_inference"
+            ],
+            "source_revision_action": [
+              "action_missing_or_unconfirmed:proof",
+              "source_inference"
+            ]
+          },
+          "selection": {
+            "source": {
+              "veto": "A03-E2",
+              "rescue": "A03-E2"
+            },
+            "source_revision": {
+              "veto": "A03-E2",
+              "rescue": "A03-E2"
+            },
+            "source_action": {
+              "veto": null,
+              "rescue": null
+            },
+            "source_revision_action": {
+              "veto": null,
+              "rescue": null
+            }
+          }
+        }
+      }
+    }
+  ]
+}
