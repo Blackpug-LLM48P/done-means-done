@@ -1,0 +1,18 @@
+{
+  "TB6": {
+    "same_cases_as": "RT5",
+    "files": {
+      "reader.txt": "54970ba2082b8890a38ddea1cf1591c9e383c639d7792db5be76ede2c0217c91",
+      "cases.json": "ead4578629cc7934810aec734359151b53a56e0c139903f9bb8fa5265843bf42",
+      "workflow.txt": "1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6"
+    }
+  },
+  "TF2": {
+    "same_cases_as": "BY6",
+    "files": {
+      "reader.txt": "54970ba2082b8890a38ddea1cf1591c9e383c639d7792db5be76ede2c0217c91",
+      "cases.json": "2a49e0365de7d510d28df613712135d3d7c0dd87f3adefd7bc1ef887cfe7b191",
+      "workflow.txt": "1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6"
+    }
+  }
+}
