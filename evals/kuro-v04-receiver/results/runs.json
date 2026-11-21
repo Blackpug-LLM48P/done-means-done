@@ -1,0 +1,2370 @@
+[
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "F8D3",
+    "cli_finished_unix_ns": 1795231034460616888,
+    "cli_started_unix_ns": 1795231018928861404,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 15532,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-i04",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "93e18fc44a51e9d18f3a6ebfbf28cc0f7e05eafd5778ae228b1c2bccee172262",
+    "raw_file": "results/raw/A-i04-1.json",
+    "raw_sha256": "555f59e48398c57bf6339419a849d55ad9f4877d6fdc3335c4b8eff6d71ba556",
+    "receiver_elapsed_ms": 0.087358,
+    "receiver_file": "results/live-receiver/A-i04-1.json",
+    "receiver_finished_unix_ns": 1795231034462200478,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14389,
+        "output_tokens": 231,
+        "reasoning_output_tokens": 81,
+        "total_tokens": 14620
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14389,
+        "output_tokens": 231,
+        "reasoning_output_tokens": 81,
+        "total_tokens": 14620
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-709d-72e2-877d-8f4dad95fe43",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14389,
+      "output_tokens": 231,
+      "reasoning_output_tokens": 81
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14389,
+      "output_tokens": 231,
+      "reasoning_output_tokens": 81
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "F7K4",
+    "cli_finished_unix_ns": 1795231034484617528,
+    "cli_started_unix_ns": 1795231018933611408,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 15551,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-i03",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "9eca8166d0e04320790c9ebe9c92fdfdb8d4716ca2b9c86adac8604696278690",
+    "raw_file": "results/raw/A-i03-1.json",
+    "raw_sha256": "6926b57f48c23f2c9dac26f9d14bd9d53f15c2e510545ced3446b8fe8cc4b12a",
+    "receiver_elapsed_ms": 0.142384,
+    "receiver_file": "results/live-receiver/A-i03-1.json",
+    "receiver_finished_unix_ns": 1795231034487403827,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14485,
+        "output_tokens": 270,
+        "reasoning_output_tokens": 73,
+        "total_tokens": 14755
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14485,
+        "output_tokens": 270,
+        "reasoning_output_tokens": 73,
+        "total_tokens": 14755
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-7083-78c2-b171-89126f76fbb9",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14485,
+      "output_tokens": 270,
+      "reasoning_output_tokens": 73
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14485,
+      "output_tokens": 270,
+      "reasoning_output_tokens": 73
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "T2K7F",
+    "cli_finished_unix_ns": 1795231034490076437,
+    "cli_started_unix_ns": 1795231018930613987,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 15559,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-i05",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "379df0d976a9ac8f86ca908513b90df79ef7a94c8abf7dee7eff0912f7f3b291",
+    "raw_file": "results/raw/A-i05-1.json",
+    "raw_sha256": "28560f5b1b9b30d4f2f3a8568ecae5a58d08984d7fd6ec54b5692c2d68e2785f",
+    "receiver_elapsed_ms": 1.089778,
+    "receiver_file": "results/live-receiver/A-i05-1.json",
+    "receiver_finished_unix_ns": 1795231034496603493,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14535,
+        "output_tokens": 392,
+        "reasoning_output_tokens": 234,
+        "total_tokens": 14927
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14535,
+        "output_tokens": 392,
+        "reasoning_output_tokens": 234,
+        "total_tokens": 14927
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-7077-7713-89cf-8163541f44ed",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14535,
+      "output_tokens": 392,
+      "reasoning_output_tokens": 234
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14535,
+      "output_tokens": 392,
+      "reasoning_output_tokens": 234
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "F2V9",
+    "cli_finished_unix_ns": 1795231034449243195,
+    "cli_started_unix_ns": 1795231018948538700,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 15501,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-i01",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "d7108e7d119fa6ed56017a45ed61bd10e6cf6e740c0ce423c672218ea7fa77fe",
+    "raw_file": "results/raw/A-i01-1.json",
+    "raw_sha256": "56830fecf296b695f81a3d9f6fd9dcaf933bd151e1c3c77a45bc437ed99a1373",
+    "receiver_elapsed_ms": 0.125949,
+    "receiver_file": "results/live-receiver/A-i01-1.json",
+    "receiver_finished_unix_ns": 1795231034452300043,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14501,
+        "output_tokens": 169,
+        "reasoning_output_tokens": 27,
+        "total_tokens": 14670
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14501,
+        "output_tokens": 169,
+        "reasoning_output_tokens": 27,
+        "total_tokens": 14670
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-70a2-7ca0-8a17-9e9d0edb1b04",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14501,
+      "output_tokens": 169,
+      "reasoning_output_tokens": 27
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14501,
+      "output_tokens": 169,
+      "reasoning_output_tokens": 27
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "F2V9",
+    "cli_finished_unix_ns": 1795231052789612860,
+    "cli_started_unix_ns": 1795231034485619655,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 18304,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-i01",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "37a4be33c5b8c1a48252e4710755b3f78579f3a3c7db1cf0b2c655e687100ae6",
+    "raw_file": "results/raw/B-i01-1.json",
+    "raw_sha256": "c6a14b267c76fd24d673fe0db3f272b9b6a16fb56abe7656da612e43fb00a3bf",
+    "receiver_elapsed_ms": 0.199373,
+    "receiver_file": "results/live-receiver/B-i01-1.json",
+    "receiver_finished_unix_ns": 1795231052791235470,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14848,
+        "input_tokens": 14926,
+        "output_tokens": 406,
+        "reasoning_output_tokens": 119,
+        "total_tokens": 15332
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14848,
+        "input_tokens": 14926,
+        "output_tokens": 406,
+        "reasoning_output_tokens": 119,
+        "total_tokens": 15332
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-ad06-7a01-b7ef-efbf14333745",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14848,
+      "input_tokens": 14926,
+      "output_tokens": 406,
+      "reasoning_output_tokens": 119
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14848,
+      "input_tokens": 14926,
+      "output_tokens": 406,
+      "reasoning_output_tokens": 119
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "F5J6",
+    "cli_finished_unix_ns": 1795231052759944365,
+    "cli_started_unix_ns": 1795231034507214982,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 18253,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-i02",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "71fc4a9d37ab991074278e37516102b0894d7bdc2ff280920fbaf49b6674dd04",
+    "raw_file": "results/raw/B-i02-1.json",
+    "raw_sha256": "236a8776a972470f82ec62eea69e9716cddb8f2673a05281f9aba60993927545",
+    "receiver_elapsed_ms": 0.346107,
+    "receiver_file": "results/live-receiver/B-i02-1.json",
+    "receiver_finished_unix_ns": 1795231052764945018,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14938,
+        "output_tokens": 588,
+        "reasoning_output_tokens": 290,
+        "total_tokens": 15526
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14938,
+        "output_tokens": 588,
+        "reasoning_output_tokens": 290,
+        "total_tokens": 15526
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-ad33-76f1-aa42-3a41d1391184",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14938,
+      "output_tokens": 588,
+      "reasoning_output_tokens": 290
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14938,
+      "output_tokens": 588,
+      "reasoning_output_tokens": 290
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "T8B4N",
+    "cli_finished_unix_ns": 1795231052768018032,
+    "cli_started_unix_ns": 1795231034532815458,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 18235,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-i08",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "a4aec878e057b6301324f6efe981713fe826da0a886acd1efd3c373a9cc53b75",
+    "raw_file": "results/raw/B-i08-1.json",
+    "raw_sha256": "230257a71e11139aa145e1de81b58e1768e241c0fffe9cf2e74e3fac1e732d63",
+    "receiver_elapsed_ms": 0.57012,
+    "receiver_file": "results/live-receiver/B-i08-1.json",
+    "receiver_finished_unix_ns": 1795231052771494831,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14950,
+        "output_tokens": 632,
+        "reasoning_output_tokens": 333,
+        "total_tokens": 15582
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14950,
+        "output_tokens": 632,
+        "reasoning_output_tokens": 333,
+        "total_tokens": 15582
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-ad3c-7792-b351-8e8ac702e706",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14950,
+      "output_tokens": 632,
+      "reasoning_output_tokens": 333
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14950,
+      "output_tokens": 632,
+      "reasoning_output_tokens": 333
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "T3Z8H",
+    "cli_finished_unix_ns": 1795231052761310946,
+    "cli_started_unix_ns": 1795231034538014570,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 18223,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-i06",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "66b7e727520f2d0d238e783afdda7b2ce48c505cca772752911eba40496c94b1",
+    "raw_file": "results/raw/B-i06-1.json",
+    "raw_sha256": "a0f3f4ad58b20befff9e119ffa519427251b41177cb0a149f37f5d92e439f643",
+    "receiver_elapsed_ms": 0.325118,
+    "receiver_file": "results/live-receiver/B-i06-1.json",
+    "receiver_finished_unix_ns": 1795231052767149494,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14907,
+        "output_tokens": 401,
+        "reasoning_output_tokens": 138,
+        "total_tokens": 15308
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14907,
+        "output_tokens": 401,
+        "reasoning_output_tokens": 138,
+        "total_tokens": 15308
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-ad51-70e3-b000-030f06512410",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14907,
+      "output_tokens": 401,
+      "reasoning_output_tokens": 138
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14907,
+      "output_tokens": 401,
+      "reasoning_output_tokens": 138
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "T3Z8H",
+    "cli_finished_unix_ns": 1795231067039228393,
+    "cli_started_unix_ns": 1795231052815207119,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 14224,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-c-amber",
+    "mode": "continuous",
+    "order": 1,
+    "prompt_sha256": "66b7e727520f2d0d238e783afdda7b2ce48c505cca772752911eba40496c94b1",
+    "raw_file": "results/raw/B-c-amber-1.json",
+    "raw_sha256": "5682493a13853f94ec8c01978c19a2e76d1618d0b18fb743184ce067d106b226",
+    "receiver_elapsed_ms": 0.23631,
+    "receiver_file": "results/live-receiver/B-c-amber-1.json",
+    "receiver_finished_unix_ns": 1795231067041316837,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14907,
+        "output_tokens": 318,
+        "reasoning_output_tokens": 34,
+        "total_tokens": 15225
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14907,
+        "output_tokens": 318,
+        "reasoning_output_tokens": 34,
+        "total_tokens": 15225
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-f4b3-72c3-b3e2-23d9d75e743d",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14907,
+      "output_tokens": 318,
+      "reasoning_output_tokens": 34
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14907,
+      "output_tokens": 318,
+      "reasoning_output_tokens": 34
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "T6M2Q",
+    "cli_finished_unix_ns": 1795231081281224934,
+    "cli_started_unix_ns": 1795231067042879563,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 14238,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-c-amber",
+    "mode": "continuous",
+    "order": 2,
+    "prompt_sha256": "83abaab6d1f38107f0482af73b30b252f884234ad77e1772fb2cbd8753162e9f",
+    "raw_file": "results/raw/B-c-amber-2.json",
+    "raw_sha256": "113eeb7fa372d9c8e89b7f0c25256a47bde1437be13a6d033371b39520f11ece",
+    "receiver_elapsed_ms": 0.368046,
+    "receiver_file": "results/live-receiver/B-c-amber-2.json",
+    "receiver_finished_unix_ns": 1795231081283976820,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14848,
+        "input_tokens": 18649,
+        "output_tokens": 353,
+        "reasoning_output_tokens": 28,
+        "total_tokens": 19002
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 18176,
+        "input_tokens": 33556,
+        "output_tokens": 671,
+        "reasoning_output_tokens": 62,
+        "total_tokens": 34227
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 2,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-f4b3-72c3-b3e2-23d9d75e743d",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14848,
+      "input_tokens": 18649,
+      "output_tokens": 353,
+      "reasoning_output_tokens": 28
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 18176,
+      "input_tokens": 33556,
+      "output_tokens": 671,
+      "reasoning_output_tokens": 62
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "T2K7F",
+    "cli_finished_unix_ns": 1795231092150526943,
+    "cli_started_unix_ns": 1795231081286055774,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 10864,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-c-amber",
+    "mode": "continuous",
+    "order": 3,
+    "prompt_sha256": "7a7463fe54243f8ef9ae1336c3f077bb6202a62183de6134e819afe5b125e3c6",
+    "raw_file": "results/raw/B-c-amber-3.json",
+    "raw_sha256": "5a075d3310a866068845aacb074d1f5eacd6e32ea72c9bc6079eace20c2bb455",
+    "receiver_elapsed_ms": 0.656048,
+    "receiver_file": "results/live-receiver/B-c-amber-3.json",
+    "receiver_finished_unix_ns": 1795231092154805751,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 18560,
+        "input_tokens": 22438,
+        "output_tokens": 311,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 22749
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 36736,
+        "input_tokens": 55994,
+        "output_tokens": 982,
+        "reasoning_output_tokens": 62,
+        "total_tokens": 56976
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 3,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-f4b3-72c3-b3e2-23d9d75e743d",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 18560,
+      "input_tokens": 22438,
+      "output_tokens": 311,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 36736,
+      "input_tokens": 55994,
+      "output_tokens": 982,
+      "reasoning_output_tokens": 62
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "T8B4N",
+    "cli_finished_unix_ns": 1795231105375342536,
+    "cli_started_unix_ns": 1795231092157446421,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 13218,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-c-amber",
+    "mode": "continuous",
+    "order": 4,
+    "prompt_sha256": "a4aec878e057b6301324f6efe981713fe826da0a886acd1efd3c373a9cc53b75",
+    "raw_file": "results/raw/B-c-amber-4.json",
+    "raw_sha256": "204f4ff3fd0a38f8082f180c7ced47cb9045f9b77ce436934f15fe0c8bc21b6e",
+    "receiver_elapsed_ms": 0.243408,
+    "receiver_file": "results/live-receiver/B-c-amber-4.json",
+    "receiver_finished_unix_ns": 1795231105377810232,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 22400,
+        "input_tokens": 26175,
+        "output_tokens": 340,
+        "reasoning_output_tokens": 29,
+        "total_tokens": 26515
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 59136,
+        "input_tokens": 82169,
+        "output_tokens": 1322,
+        "reasoning_output_tokens": 91,
+        "total_tokens": 83491
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 4,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-f4b3-72c3-b3e2-23d9d75e743d",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 22400,
+      "input_tokens": 26175,
+      "output_tokens": 340,
+      "reasoning_output_tokens": 29
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 59136,
+      "input_tokens": 82169,
+      "output_tokens": 1322,
+      "reasoning_output_tokens": 91
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "F8D3",
+    "cli_finished_unix_ns": 1795231073830915063,
+    "cli_started_unix_ns": 1795231052819402005,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 21012,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-i04",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "36c20ad14157d0d2a1a4db4395e06a518708f4641bc1f77d27de9fc9c54e5d49",
+    "raw_file": "results/raw/B-i04-1.json",
+    "raw_sha256": "8c54c83d1a9b93fe9dd2af79745cf2140bbeaa54bc771f71de39cb58f82a8f1f",
+    "receiver_elapsed_ms": 0.219241,
+    "receiver_file": "results/live-receiver/B-i04-1.json",
+    "receiver_finished_unix_ns": 1795231073838162995,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14814,
+        "output_tokens": 645,
+        "reasoning_output_tokens": 348,
+        "total_tokens": 15459
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14814,
+        "output_tokens": 645,
+        "reasoning_output_tokens": 348,
+        "total_tokens": 15459
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-f4a3-7842-ba5a-ad999d2edf3d",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14814,
+      "output_tokens": 645,
+      "reasoning_output_tokens": 348
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14814,
+      "output_tokens": 645,
+      "reasoning_output_tokens": 348
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "T6M2Q",
+    "cli_finished_unix_ns": 1795231073783328520,
+    "cli_started_unix_ns": 1795231052818553514,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 20965,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-i07",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "d0140814d30ae9a248fd24b32af011c56fc8551324104fd84af65abba149f80d",
+    "raw_file": "results/raw/A-i07-1.json",
+    "raw_sha256": "f6919d3b4380b0e679949be0be8f11b9b8385cf7966e13373d5498a47305574a",
+    "receiver_elapsed_ms": 0.120204,
+    "receiver_file": "results/live-receiver/A-i07-1.json",
+    "receiver_finished_unix_ns": 1795231073785743798,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14523,
+        "output_tokens": 727,
+        "reasoning_output_tokens": 550,
+        "total_tokens": 15250
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14523,
+        "output_tokens": 727,
+        "reasoning_output_tokens": 550,
+        "total_tokens": 15250
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-f4b9-7192-adba-29e84731ca3c",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14523,
+      "output_tokens": 727,
+      "reasoning_output_tokens": 550
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14523,
+      "output_tokens": 727,
+      "reasoning_output_tokens": 550
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "T8B4N",
+    "cli_finished_unix_ns": 1795231067044506991,
+    "cli_started_unix_ns": 1795231052829895909,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 14215,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-i08",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "01b50cd3fb07fb0cbd3f24b0f4871969c0ee96599b78d5f0919d787869960361",
+    "raw_file": "results/raw/A-i08-1.json",
+    "raw_sha256": "cb7e3cb14eae19d8c54075dfd5cc7fbe80af8e0a09af82e98d471f2097d6f8bb",
+    "receiver_elapsed_ms": 0.084441,
+    "receiver_file": "results/live-receiver/A-i08-1.json",
+    "receiver_finished_unix_ns": 1795231067046521658,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 14525,
+        "output_tokens": 281,
+        "reasoning_output_tokens": 105,
+        "total_tokens": 14806
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 14525,
+        "output_tokens": 281,
+        "reasoning_output_tokens": 105,
+        "total_tokens": 14806
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1b-f4b2-7ce1-891a-0e1d25011b05",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 14525,
+      "output_tokens": 281,
+      "reasoning_output_tokens": 105
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 14525,
+      "output_tokens": 281,
+      "reasoning_output_tokens": 105
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 2,
+    "case_id": "T2K7F",
+    "cli_finished_unix_ns": 1795231086402929544,
+    "cli_started_unix_ns": 1795231067080855498,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 19322,
+    "events": {
+      "item.completed": 3,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 2,
+      "error": 1
+    },
+    "job_id": "B-i05",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "7a7463fe54243f8ef9ae1336c3f077bb6202a62183de6134e819afe5b125e3c6",
+    "raw_file": "results/raw/B-i05-1.json",
+    "raw_sha256": "72bcb01cdf37a2696035e8f0950bd624e5fcfcb4e58b6746c1ba99d5f1e23941",
+    "receiver_elapsed_ms": 0.316557,
+    "receiver_file": "results/live-receiver/B-i05-1.json",
+    "receiver_finished_unix_ns": 1795231086405580722,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14960,
+        "output_tokens": 591,
+        "reasoning_output_tokens": 226,
+        "total_tokens": 15551
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14960,
+        "output_tokens": 591,
+        "reasoning_output_tokens": 226,
+        "total_tokens": 15551
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-2c50-7913-8630-a66ad14abf56",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14960,
+      "output_tokens": 591,
+      "reasoning_output_tokens": 226
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14960,
+      "output_tokens": 591,
+      "reasoning_output_tokens": 226
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "F7K4",
+    "cli_finished_unix_ns": 1795231092147563007,
+    "cli_started_unix_ns": 1795231073818619399,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 18329,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-c-blue",
+    "mode": "continuous",
+    "order": 1,
+    "prompt_sha256": "f4c05a144ac8388fc9244f4112d1a142b586d7d2626c5e8c75c5a19345f6f91a",
+    "raw_file": "results/raw/B-c-blue-1.json",
+    "raw_sha256": "059f450a549bec00f0e454159a8f57fe5e4bb6a2994987543c623f2ca36460cf",
+    "receiver_elapsed_ms": 0.433713,
+    "receiver_file": "results/live-receiver/B-c-blue-1.json",
+    "receiver_finished_unix_ns": 1795231092150107109,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14910,
+        "output_tokens": 520,
+        "reasoning_output_tokens": 209,
+        "total_tokens": 15430
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14910,
+        "output_tokens": 520,
+        "reasoning_output_tokens": 209,
+        "total_tokens": 15430
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-46a4-73b0-a435-949160d7e98d",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14910,
+      "output_tokens": 520,
+      "reasoning_output_tokens": 209
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14910,
+      "output_tokens": 520,
+      "reasoning_output_tokens": 209
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "F8D3",
+    "cli_finished_unix_ns": 1795231105362933175,
+    "cli_started_unix_ns": 1795231092154311661,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 13209,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-c-blue",
+    "mode": "continuous",
+    "order": 2,
+    "prompt_sha256": "36c20ad14157d0d2a1a4db4395e06a518708f4641bc1f77d27de9fc9c54e5d49",
+    "raw_file": "results/raw/B-c-blue-2.json",
+    "raw_sha256": "114373bc6ef5afb28c21146ed19ccd110beaca7cb024046eab230bbb21a56ad4",
+    "receiver_elapsed_ms": 0.238765,
+    "receiver_file": "results/live-receiver/B-c-blue-2.json",
+    "receiver_finished_unix_ns": 1795231105365600816,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14848,
+        "input_tokens": 18720,
+        "output_tokens": 305,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 19025
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14848,
+        "input_tokens": 33630,
+        "output_tokens": 825,
+        "reasoning_output_tokens": 209,
+        "total_tokens": 34455
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 2,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-46a4-73b0-a435-949160d7e98d",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14848,
+      "input_tokens": 18720,
+      "output_tokens": 305,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14848,
+      "input_tokens": 33630,
+      "output_tokens": 825,
+      "reasoning_output_tokens": 209
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "F2V9",
+    "cli_finished_unix_ns": 1795231119220225688,
+    "cli_started_unix_ns": 1795231105368014839,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 13852,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-c-blue",
+    "mode": "continuous",
+    "order": 3,
+    "prompt_sha256": "37a4be33c5b8c1a48252e4710755b3f78579f3a3c7db1cf0b2c655e687100ae6",
+    "raw_file": "results/raw/B-c-blue-3.json",
+    "raw_sha256": "3012b6d283b400ee8783ee68f9e528d72d3b148b56a71ba56a1f9ace285d29c1",
+    "receiver_elapsed_ms": 0.438385,
+    "receiver_file": "results/live-receiver/B-c-blue-3.json",
+    "receiver_finished_unix_ns": 1795231119226132194,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 18688,
+        "input_tokens": 22427,
+        "output_tokens": 297,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 22724
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 33536,
+        "input_tokens": 56057,
+        "output_tokens": 1122,
+        "reasoning_output_tokens": 209,
+        "total_tokens": 57179
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 3,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-46a4-73b0-a435-949160d7e98d",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 18688,
+      "input_tokens": 22427,
+      "output_tokens": 297,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 33536,
+      "input_tokens": 56057,
+      "output_tokens": 1122,
+      "reasoning_output_tokens": 209
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "F5J6",
+    "cli_finished_unix_ns": 1795231130148950226,
+    "cli_started_unix_ns": 1795231119230163658,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 10919,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-c-blue",
+    "mode": "continuous",
+    "order": 4,
+    "prompt_sha256": "71fc4a9d37ab991074278e37516102b0894d7bdc2ff280920fbaf49b6674dd04",
+    "raw_file": "results/raw/B-c-blue-4.json",
+    "raw_sha256": "86f3dcfefbc7439eac6691d2e09ff1de38d184d866f99ebc231729f7d5893efc",
+    "receiver_elapsed_ms": 0.405749,
+    "receiver_file": "results/live-receiver/B-c-blue-4.json",
+    "receiver_finished_unix_ns": 1795231130154915669,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 26138,
+        "output_tokens": 339,
+        "reasoning_output_tokens": 7,
+        "total_tokens": 26477
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 33536,
+        "input_tokens": 82195,
+        "output_tokens": 1461,
+        "reasoning_output_tokens": 216,
+        "total_tokens": 83656
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 4,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-46a4-73b0-a435-949160d7e98d",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 26138,
+      "output_tokens": 339,
+      "reasoning_output_tokens": 7
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 33536,
+      "input_tokens": 82195,
+      "output_tokens": 1461,
+      "reasoning_output_tokens": 216
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "T3Z8H",
+    "cli_finished_unix_ns": 1795231086358809474,
+    "cli_started_unix_ns": 1795231073877419651,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 12481,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-i06",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "de8277d96be131e265f383a71f28bf3eefdf384e93e0c0fa04f53def1f3d52ac",
+    "raw_file": "results/raw/A-i06-1.json",
+    "raw_sha256": "f7f3aab868213eddf98c50eb88e9ba1e4220d023bcdab4321498a4d526630cc7",
+    "receiver_elapsed_ms": 0.104836,
+    "receiver_file": "results/live-receiver/A-i06-1.json",
+    "receiver_finished_unix_ns": 1795231086360947599,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14482,
+        "output_tokens": 157,
+        "reasoning_output_tokens": 35,
+        "total_tokens": 14639
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14482,
+        "output_tokens": 157,
+        "reasoning_output_tokens": 35,
+        "total_tokens": 14639
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-46db-75c3-9f39-459270efcdeb",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14482,
+      "output_tokens": 157,
+      "reasoning_output_tokens": 35
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14482,
+      "output_tokens": 157,
+      "reasoning_output_tokens": 35
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "F7K4",
+    "cli_finished_unix_ns": 1795231105457308078,
+    "cli_started_unix_ns": 1795231086390799036,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 19067,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-c-blue",
+    "mode": "continuous",
+    "order": 1,
+    "prompt_sha256": "9eca8166d0e04320790c9ebe9c92fdfdb8d4716ca2b9c86adac8604696278690",
+    "raw_file": "results/raw/A-c-blue-1.json",
+    "raw_sha256": "9daf39e4f31b09d1f9cfccf1d7564f7be3b08c6ebd25a337e7a00b8f6483db4e",
+    "receiver_elapsed_ms": 0.123186,
+    "receiver_file": "results/live-receiver/A-c-blue-1.json",
+    "receiver_finished_unix_ns": 1795231105459289827,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 14485,
+        "output_tokens": 567,
+        "reasoning_output_tokens": 372,
+        "total_tokens": 15052
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 14485,
+        "output_tokens": 567,
+        "reasoning_output_tokens": 372,
+        "total_tokens": 15052
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-77af-73b0-ae91-388089551c1c",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 14485,
+      "output_tokens": 567,
+      "reasoning_output_tokens": 372
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 14485,
+      "output_tokens": 567,
+      "reasoning_output_tokens": 372
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "F8D3",
+    "cli_finished_unix_ns": 1795231119220805916,
+    "cli_started_unix_ns": 1795231105462191312,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 13759,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-c-blue",
+    "mode": "continuous",
+    "order": 2,
+    "prompt_sha256": "93e18fc44a51e9d18f3a6ebfbf28cc0f7e05eafd5778ae228b1c2bccee172262",
+    "raw_file": "results/raw/A-c-blue-2.json",
+    "raw_sha256": "67b6385295eff0ec219f4960202a9ed68331ecc89bd0c9b26e88da7545c3f274",
+    "receiver_elapsed_ms": 0.146527,
+    "receiver_file": "results/live-receiver/A-c-blue-2.json",
+    "receiver_finished_unix_ns": 1795231119226551621,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14464,
+        "input_tokens": 17917,
+        "output_tokens": 291,
+        "reasoning_output_tokens": 134,
+        "total_tokens": 18208
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 24320,
+        "input_tokens": 32402,
+        "output_tokens": 858,
+        "reasoning_output_tokens": 506,
+        "total_tokens": 33260
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 2,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-77af-73b0-ae91-388089551c1c",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14464,
+      "input_tokens": 17917,
+      "output_tokens": 291,
+      "reasoning_output_tokens": 134
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 24320,
+      "input_tokens": 32402,
+      "output_tokens": 858,
+      "reasoning_output_tokens": 506
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "F2V9",
+    "cli_finished_unix_ns": 1795231130148456907,
+    "cli_started_unix_ns": 1795231119230738605,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 10918,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-c-blue",
+    "mode": "continuous",
+    "order": 3,
+    "prompt_sha256": "d7108e7d119fa6ed56017a45ed61bd10e6cf6e740c0ce423c672218ea7fa77fe",
+    "raw_file": "results/raw/A-c-blue-3.json",
+    "raw_sha256": "ceac9213c4db1b9926754bc14cef7ec60bda04db4be1c7424c5b3b4d66768c33",
+    "receiver_elapsed_ms": 0.14905,
+    "receiver_file": "results/live-receiver/A-c-blue-3.json",
+    "receiver_finished_unix_ns": 1795231130154352722,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 17792,
+        "input_tokens": 21185,
+        "output_tokens": 157,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 21342
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 42112,
+        "input_tokens": 53587,
+        "output_tokens": 1015,
+        "reasoning_output_tokens": 506,
+        "total_tokens": 54602
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 3,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-77af-73b0-ae91-388089551c1c",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 17792,
+      "input_tokens": 21185,
+      "output_tokens": 157,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 42112,
+      "input_tokens": 53587,
+      "output_tokens": 1015,
+      "reasoning_output_tokens": 506
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "F5J6",
+    "cli_finished_unix_ns": 1795231143055796485,
+    "cli_started_unix_ns": 1795231130158851567,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 12897,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-c-blue",
+    "mode": "continuous",
+    "order": 4,
+    "prompt_sha256": "50b76805f7a589990fc46853feb4a867b95b914f43430936104aeb8c1cabb2f7",
+    "raw_file": "results/raw/A-c-blue-4.json",
+    "raw_sha256": "a004f0833ca36f0c1a3c1040ae1df7f32b00efa198f3330dfddbda81bdb6df3f",
+    "receiver_elapsed_ms": 0.101798,
+    "receiver_file": "results/live-receiver/A-c-blue-4.json",
+    "receiver_finished_unix_ns": 1795231143058409056,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 21120,
+        "input_tokens": 24331,
+        "output_tokens": 217,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 24548
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 63232,
+        "input_tokens": 77918,
+        "output_tokens": 1232,
+        "reasoning_output_tokens": 506,
+        "total_tokens": 79150
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 4,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-77af-73b0-ae91-388089551c1c",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 21120,
+      "input_tokens": 24331,
+      "output_tokens": 217,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 63232,
+      "input_tokens": 77918,
+      "output_tokens": 1232,
+      "reasoning_output_tokens": 506
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "T3Z8H",
+    "cli_finished_unix_ns": 1795231105412586270,
+    "cli_started_unix_ns": 1795231086439815080,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 18973,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-c-amber",
+    "mode": "continuous",
+    "order": 1,
+    "prompt_sha256": "de8277d96be131e265f383a71f28bf3eefdf384e93e0c0fa04f53def1f3d52ac",
+    "raw_file": "results/raw/A-c-amber-1.json",
+    "raw_sha256": "4d0ecaa99b814eb496f6d4017034a746b9abde650774f1d261585cd506006a82",
+    "receiver_elapsed_ms": 0.093942,
+    "receiver_file": "results/live-receiver/A-c-amber-1.json",
+    "receiver_finished_unix_ns": 1795231105414544347,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14482,
+        "output_tokens": 525,
+        "reasoning_output_tokens": 384,
+        "total_tokens": 15007
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14482,
+        "output_tokens": 525,
+        "reasoning_output_tokens": 384,
+        "total_tokens": 15007
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-77df-7682-88b6-9ebe92e02cd2",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14482,
+      "output_tokens": 525,
+      "reasoning_output_tokens": 384
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14482,
+      "output_tokens": 525,
+      "reasoning_output_tokens": 384
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "T6M2Q",
+    "cli_finished_unix_ns": 1795231123233241075,
+    "cli_started_unix_ns": 1795231105417352865,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 17816,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-c-amber",
+    "mode": "continuous",
+    "order": 2,
+    "prompt_sha256": "d0140814d30ae9a248fd24b32af011c56fc8551324104fd84af65abba149f80d",
+    "raw_file": "results/raw/A-c-amber-2.json",
+    "raw_sha256": "693f92d05f5c3f9044686209f57269bf90dd06eab28d93718bfdbebd574651af",
+    "receiver_elapsed_ms": 0.14088,
+    "receiver_file": "results/live-receiver/A-c-amber-2.json",
+    "receiver_finished_unix_ns": 1795231123235822026,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14464,
+        "input_tokens": 18006,
+        "output_tokens": 292,
+        "reasoning_output_tokens": 118,
+        "total_tokens": 18298
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 17792,
+        "input_tokens": 32488,
+        "output_tokens": 817,
+        "reasoning_output_tokens": 502,
+        "total_tokens": 33305
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 2,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-77df-7682-88b6-9ebe92e02cd2",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14464,
+      "input_tokens": 18006,
+      "output_tokens": 292,
+      "reasoning_output_tokens": 118
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 17792,
+      "input_tokens": 32488,
+      "output_tokens": 817,
+      "reasoning_output_tokens": 502
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "T2K7F",
+    "cli_finished_unix_ns": 1795231134947597789,
+    "cli_started_unix_ns": 1795231123237846666,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 11710,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-c-amber",
+    "mode": "continuous",
+    "order": 3,
+    "prompt_sha256": "379df0d976a9ac8f86ca908513b90df79ef7a94c8abf7dee7eff0912f7f3b291",
+    "raw_file": "results/raw/A-c-amber-3.json",
+    "raw_sha256": "8a24c4e00734f283e1b35c3677b80c57c9a17a6d1fc2766cc3855268b0039cf8",
+    "receiver_elapsed_ms": 0.124729,
+    "receiver_file": "results/live-receiver/A-c-amber-3.json",
+    "receiver_finished_unix_ns": 1795231134949819221,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 17920,
+        "input_tokens": 21309,
+        "output_tokens": 167,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 21476
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 35712,
+        "input_tokens": 53797,
+        "output_tokens": 984,
+        "reasoning_output_tokens": 502,
+        "total_tokens": 54781
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 3,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-77df-7682-88b6-9ebe92e02cd2",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 17920,
+      "input_tokens": 21309,
+      "output_tokens": 167,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 35712,
+      "input_tokens": 53797,
+      "output_tokens": 984,
+      "reasoning_output_tokens": 502
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 1,
+    "case_id": "T8B4N",
+    "cli_finished_unix_ns": 1795231149752151373,
+    "cli_started_unix_ns": 1795231134952333453,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 14800,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "A-c-amber",
+    "mode": "continuous",
+    "order": 4,
+    "prompt_sha256": "01b50cd3fb07fb0cbd3f24b0f4871969c0ee96599b78d5f0919d787869960361",
+    "raw_file": "results/raw/A-c-amber-4.json",
+    "raw_sha256": "4cbbeea3a4bb468d38e5aef665b9f9d4ee7bdfc781adfdf2eaa412e11ac6155d",
+    "receiver_elapsed_ms": 1.388437,
+    "receiver_file": "results/live-receiver/A-c-amber-4.json",
+    "receiver_finished_unix_ns": 1795231149759489510,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 21248,
+        "input_tokens": 24477,
+        "output_tokens": 358,
+        "reasoning_output_tokens": 173,
+        "total_tokens": 24835
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 56960,
+        "input_tokens": 78274,
+        "output_tokens": 1342,
+        "reasoning_output_tokens": 675,
+        "total_tokens": 79616
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 4,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-77df-7682-88b6-9ebe92e02cd2",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 21248,
+      "input_tokens": 24477,
+      "output_tokens": 358,
+      "reasoning_output_tokens": 173
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 56960,
+      "input_tokens": 78274,
+      "output_tokens": 1342,
+      "reasoning_output_tokens": 675
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "A",
+    "assistant_messages": 2,
+    "case_id": "F5J6",
+    "cli_finished_unix_ns": 1795231130199795947,
+    "cli_started_unix_ns": 1795231105416885790,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 24783,
+    "events": {
+      "item.completed": 3,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 2,
+      "error": 1
+    },
+    "job_id": "A-i02",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "50b76805f7a589990fc46853feb4a867b95b914f43430936104aeb8c1cabb2f7",
+    "raw_file": "results/raw/A-i02-1.json",
+    "raw_sha256": "cbc7099950ebc5dc9afa2aa2a05030742e065f7f1de84c812f5286df601df052",
+    "receiver_elapsed_ms": 0.436849,
+    "receiver_file": "results/live-receiver/A-i02-1.json",
+    "receiver_finished_unix_ns": 1795231130202916431,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14513,
+        "output_tokens": 942,
+        "reasoning_output_tokens": 703,
+        "total_tokens": 15455
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14513,
+        "output_tokens": 942,
+        "reasoning_output_tokens": 703,
+        "total_tokens": 15455
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1c-c25b-7e43-aca3-88eb89935593",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14513,
+      "output_tokens": 942,
+      "reasoning_output_tokens": 703
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14513,
+      "output_tokens": 942,
+      "reasoning_output_tokens": 703
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "T6M2Q",
+    "cli_finished_unix_ns": 1795231149756842492,
+    "cli_started_unix_ns": 1795231130190589525,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 19566,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-i07",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "83abaab6d1f38107f0482af73b30b252f884234ad77e1772fb2cbd8753162e9f",
+    "raw_file": "results/raw/B-i07-1.json",
+    "raw_sha256": "c164ab5d293a6ca2aa2092797afeb36a046d5f321618cdad3952e1c7d48e7609",
+    "receiver_elapsed_ms": 2.349539,
+    "receiver_file": "results/live-receiver/B-i07-1.json",
+    "receiver_finished_unix_ns": 1795231149762104156,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14948,
+        "output_tokens": 750,
+        "reasoning_output_tokens": 435,
+        "total_tokens": 15698
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14948,
+        "output_tokens": 750,
+        "reasoning_output_tokens": 435,
+        "total_tokens": 15698
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1d-22d8-7773-bf42-22ad36457471",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14948,
+      "output_tokens": 750,
+      "reasoning_output_tokens": 435
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14948,
+      "output_tokens": 750,
+      "reasoning_output_tokens": 435
+    },
+    "wire_error": null
+  },
+  {
+    "arm": "B",
+    "assistant_messages": 1,
+    "case_id": "F7K4",
+    "cli_finished_unix_ns": 1795231149747112096,
+    "cli_started_unix_ns": 1795231130240895308,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 19506,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "job_id": "B-i03",
+    "mode": "independent",
+    "order": 1,
+    "prompt_sha256": "f4c05a144ac8388fc9244f4112d1a142b586d7d2626c5e8c75c5a19345f6f91a",
+    "raw_file": "results/raw/B-i03-1.json",
+    "raw_sha256": "9920b891ef5f261149cb5d84598c7ad1ee9c9778520e2e761735775e59bfb74b",
+    "receiver_elapsed_ms": 1.378005,
+    "receiver_file": "results/live-receiver/B-i03-1.json",
+    "receiver_finished_unix_ns": 1795231149758008573,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14910,
+        "output_tokens": 708,
+        "reasoning_output_tokens": 399,
+        "total_tokens": 15618
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14910,
+        "output_tokens": 708,
+        "reasoning_output_tokens": 399,
+        "total_tokens": 15618
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc1d-2317-7f13-b06b-28941c42bbd3",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14910,
+      "output_tokens": 708,
+      "reasoning_output_tokens": 399
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14910,
+      "output_tokens": 708,
+      "reasoning_output_tokens": 399
+    },
+    "wire_error": null
+  }
+]

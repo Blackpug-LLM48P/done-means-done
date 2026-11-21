@@ -1,0 +1,57 @@
+{
+  "actions": {
+    "advance_operation": {
+      "decision": "hold",
+      "depends_on": [
+        "state"
+      ],
+      "reasons": [
+        "state: caller returned 'open'"
+      ]
+    },
+    "archive_report": {
+      "decision": "hold",
+      "depends_on": [
+        "state",
+        "handoff"
+      ],
+      "reasons": [
+        "state: caller returned 'open'",
+        "handoff: text present"
+      ]
+    },
+    "close_case": {
+      "decision": "hold",
+      "depends_on": [
+        "state",
+        "handoff"
+      ],
+      "reasons": [
+        "state: caller returned 'open'",
+        "handoff: text present"
+      ]
+    }
+  },
+  "arm": "A",
+  "as_of": "2026-10-21T16:00:00+09:00",
+  "case_id": "F8D3",
+  "dry_run": true,
+  "fields": {
+    "handoff": {
+      "reasons": [
+        "text present"
+      ],
+      "valid": true,
+      "value": "10月21日16時時点で、『夜番』のプリントの返送明細書には、発送に使った「青葉5便」が登録され、責任者が現行版を確定しています。寄託者の受付担当は到着した外箱2箱を現物で数えました。15時44分の検収台帳では署名欄が空欄で、16時時点の記録では受領権限者の検収署名は確認できていません。"
+    },
+    "state": {
+      "reasons": [
+        "caller returned 'open'"
+      ],
+      "valid": true,
+      "value": "open"
+    }
+  },
+  "handoff": "10月21日16時時点で、『夜番』のプリントの返送明細書には、発送に使った「青葉5便」が登録され、責任者が現行版を確定しています。寄託者の受付担当は到着した外箱2箱を現物で数えました。15時44分の検収台帳では署名欄が空欄で、16時時点の記録では受領権限者の検収署名は確認できていません。",
+  "revision": 2
+}

@@ -1,0 +1,259 @@
+{
+  "source_commit": "12d6803344037edb11d6792ee6fadb2d1409ad1c",
+  "source_sha256": {
+    "inputs/four-cases.json": "6d948e7916beba616f8ac7b319aca73a2d972fc8fbc6ac7c17ead73989a53b8d",
+    "inputs/four-operation-cases.json": "dc24cc1eb999e207fe17b5443cf4ff20db815941b24006156a6a4f9d7fc16fd0",
+    "inputs/four-key.json": "b2b3f59a2bae4f64a573fe0e4f3c16c8770a8c232dc9f9655e43bb7de9927558",
+    "results/four/GS1.json": "e47ee05e51d0c2302b36ccf1b365287993bd4095d536c5eb2e254e2a49233a11",
+    "results/four/HN3.json": "16a742129d1dfe54562e7c0df6a47670ea3801cfbaa6afa2ffb95a93caf9e45c",
+    "results/four/CQ8.json": "2770e23bc258662a54394dd5b4f401178ab91342cb2faf3bf2ab99884aaa18ab",
+    "results/four/PE7.json": "88833a91dcc4e82cc962ab730e77358ac96b2c1d6d3193991474b4d927c39bec",
+    "inputs/dev-cases.json": "0b26d4a06f0f83798df3d5ca046b24221879a2dfad61f6743fa5250883ab390c",
+    "inputs/dev-key.json": "f97633d81e1312e2bf5f33de89893902fba06b5d958fd33b262c9c2cb5748c51",
+    "results/raw/AG5.json": "24dd93bbe600648e467c39d882cda9e142f9a6d9ee98a2a68583f728790216a1"
+  },
+  "transport": {
+    "revision": "pr8-replay-v1",
+    "at": "2000-01-01T10:00:00Z",
+    "available_at": "2000-01-01T10:01:00Z",
+    "as_of": "2000-01-01T12:00:00Z"
+  },
+  "cases": {
+    "Q8F2": {
+      "scopes": {
+        "report": {
+          "name": "陶芸講座の日程アンケート集計",
+          "checks": [
+            "土曜希望の実数",
+            "日曜希望の実数"
+          ]
+        },
+        "operation": {
+          "name": "土曜の工作室の利用予約",
+          "checks": [
+            "利用申請",
+            "利用可否の決定"
+          ]
+        }
+      },
+      "record_map": [
+        {
+          "ref": "Q-R1a",
+          "source_row": 1,
+          "scope": "report",
+          "check": "土曜希望の実数",
+          "source": "direct",
+          "result": "met"
+        },
+        {
+          "ref": "Q-R1b",
+          "source_row": 1,
+          "scope": "report",
+          "check": "日曜希望の実数",
+          "source": "direct",
+          "result": "met"
+        },
+        {
+          "ref": "Q-O2",
+          "source_row": 2,
+          "scope": "operation",
+          "check": "利用申請",
+          "source": "direct",
+          "result": "met"
+        },
+        {
+          "ref": "Q-O3",
+          "source_row": 3,
+          "scope": "operation",
+          "check": "利用可否の決定",
+          "source": "direct",
+          "result": "pending"
+        }
+      ],
+      "clean_refs": {
+        "report": [
+          "Q-R1a",
+          "Q-R1b"
+        ],
+        "operation": [
+          "Q-O2",
+          "Q-O3"
+        ]
+      }
+    },
+    "M3V7": {
+      "scopes": {
+        "report": {
+          "name": "南浜分室の受領記録と月報用冊数の報告",
+          "checks": [
+            "受領記録",
+            "発送控えによる一般書・児童書の内訳"
+          ]
+        },
+        "operation": {
+          "name": "南浜分室への配送の受け渡し",
+          "checks": [
+            "分室職員の受領署名",
+            "配送台帳の終了記録"
+          ]
+        }
+      },
+      "record_map": [
+        {
+          "ref": "M-R1",
+          "source_row": 1,
+          "scope": "report",
+          "check": "受領記録",
+          "source": "direct",
+          "result": "met"
+        },
+        {
+          "ref": "M-R3",
+          "source_row": 3,
+          "scope": "report",
+          "check": "発送控えによる一般書・児童書の内訳",
+          "source": "reported",
+          "result": "pending"
+        },
+        {
+          "ref": "M-O1",
+          "source_row": 1,
+          "scope": "operation",
+          "check": "分室職員の受領署名",
+          "source": "direct",
+          "result": "met"
+        },
+        {
+          "ref": "M-O2",
+          "source_row": 2,
+          "scope": "operation",
+          "check": "配送台帳の終了記録",
+          "source": "direct",
+          "result": "met"
+        }
+      ],
+      "clean_refs": {
+        "report": [
+          "M-R1"
+        ],
+        "operation": [
+          "M-O1",
+          "M-O2"
+        ]
+      }
+    },
+    "H6B1": {
+      "scopes": {
+        "report": {
+          "name": "応募はがきの経路別件数の報告",
+          "checks": [
+            "店頭回収数",
+            "郵送数"
+          ]
+        },
+        "operation": {
+          "name": "抽選会場の予約手配",
+          "checks": [
+            "利用承認書",
+            "会館の予約成立記録"
+          ]
+        }
+      },
+      "record_map": [
+        {
+          "ref": "H-R1a",
+          "source_row": 1,
+          "scope": "report",
+          "check": "店頭回収数",
+          "source": "direct",
+          "result": "met"
+        },
+        {
+          "ref": "H-R1b",
+          "source_row": 1,
+          "scope": "report",
+          "check": "郵送数",
+          "source": "direct",
+          "result": "met"
+        },
+        {
+          "ref": "H-O2",
+          "source_row": 2,
+          "scope": "operation",
+          "check": "利用承認書",
+          "source": "direct",
+          "result": "met"
+        },
+        {
+          "ref": "H-O3",
+          "source_row": 3,
+          "scope": "operation",
+          "check": "会館の予約成立記録",
+          "source": "direct",
+          "result": "met"
+        }
+      ],
+      "clean_refs": {
+        "report": [
+          "H-R1a",
+          "H-R1b"
+        ],
+        "operation": [
+          "H-O2",
+          "H-O3"
+        ]
+      }
+    },
+    "S4K9": {
+      "scopes": {
+        "report": {
+          "name": "協賛会向けの昨年度の日別入場実績",
+          "checks": [
+            "初日の実数",
+            "2日目の実数"
+          ]
+        },
+        "operation": {
+          "name": "今年度の巡回展の受け入れ判断",
+          "checks": [
+            "委員会の受け入れ決定"
+          ]
+        }
+      },
+      "record_map": [
+        {
+          "ref": "S-R1",
+          "source_row": 1,
+          "scope": "report",
+          "check": "初日の実数",
+          "source": "direct",
+          "result": "met"
+        },
+        {
+          "ref": "S-R2",
+          "source_row": 2,
+          "scope": "report",
+          "check": "2日目の実数",
+          "source": "reported",
+          "result": "pending"
+        },
+        {
+          "ref": "S-O3",
+          "source_row": 3,
+          "scope": "operation",
+          "check": "委員会の受け入れ決定",
+          "source": "direct",
+          "result": "pending"
+        }
+      ],
+      "clean_refs": {
+        "report": [
+          "S-R1"
+        ],
+        "operation": [
+          "S-O3"
+        ]
+      }
+    }
+  }
+}

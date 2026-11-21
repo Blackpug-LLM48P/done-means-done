@@ -1,0 +1,174 @@
+[
+  {
+    "job_id": "A-i04",
+    "arm": "A",
+    "mode": "independent",
+    "ids": [
+      "F8D3"
+    ]
+  },
+  {
+    "job_id": "A-i03",
+    "arm": "A",
+    "mode": "independent",
+    "ids": [
+      "F7K4"
+    ]
+  },
+  {
+    "job_id": "A-i05",
+    "arm": "A",
+    "mode": "independent",
+    "ids": [
+      "T2K7F"
+    ]
+  },
+  {
+    "job_id": "A-i01",
+    "arm": "A",
+    "mode": "independent",
+    "ids": [
+      "F2V9"
+    ]
+  },
+  {
+    "job_id": "B-i01",
+    "arm": "B",
+    "mode": "independent",
+    "ids": [
+      "F2V9"
+    ]
+  },
+  {
+    "job_id": "B-i02",
+    "arm": "B",
+    "mode": "independent",
+    "ids": [
+      "F5J6"
+    ]
+  },
+  {
+    "job_id": "B-i08",
+    "arm": "B",
+    "mode": "independent",
+    "ids": [
+      "T8B4N"
+    ]
+  },
+  {
+    "job_id": "B-i06",
+    "arm": "B",
+    "mode": "independent",
+    "ids": [
+      "T3Z8H"
+    ]
+  },
+  {
+    "job_id": "B-c-amber",
+    "arm": "B",
+    "mode": "continuous",
+    "ids": [
+      "T3Z8H",
+      "T6M2Q",
+      "T2K7F",
+      "T8B4N"
+    ]
+  },
+  {
+    "job_id": "B-i04",
+    "arm": "B",
+    "mode": "independent",
+    "ids": [
+      "F8D3"
+    ]
+  },
+  {
+    "job_id": "A-i07",
+    "arm": "A",
+    "mode": "independent",
+    "ids": [
+      "T6M2Q"
+    ]
+  },
+  {
+    "job_id": "A-i08",
+    "arm": "A",
+    "mode": "independent",
+    "ids": [
+      "T8B4N"
+    ]
+  },
+  {
+    "job_id": "B-i05",
+    "arm": "B",
+    "mode": "independent",
+    "ids": [
+      "T2K7F"
+    ]
+  },
+  {
+    "job_id": "B-c-blue",
+    "arm": "B",
+    "mode": "continuous",
+    "ids": [
+      "F7K4",
+      "F8D3",
+      "F2V9",
+      "F5J6"
+    ]
+  },
+  {
+    "job_id": "A-i06",
+    "arm": "A",
+    "mode": "independent",
+    "ids": [
+      "T3Z8H"
+    ]
+  },
+  {
+    "job_id": "A-c-blue",
+    "arm": "A",
+    "mode": "continuous",
+    "ids": [
+      "F7K4",
+      "F8D3",
+      "F2V9",
+      "F5J6"
+    ]
+  },
+  {
+    "job_id": "A-c-amber",
+    "arm": "A",
+    "mode": "continuous",
+    "ids": [
+      "T3Z8H",
+      "T6M2Q",
+      "T2K7F",
+      "T8B4N"
+    ]
+  },
+  {
+    "job_id": "A-i02",
+    "arm": "A",
+    "mode": "independent",
+    "ids": [
+      "F5J6"
+    ]
+  },
+  {
+    "job_id": "B-i07",
+    "arm": "B",
+    "mode": "independent",
+    "ids": [
+      "T6M2Q"
+    ]
+  },
+  {
+    "job_id": "B-i03",
+    "arm": "B",
+    "mode": "independent",
+    "ids": [
+      "F7K4"
+    ]
+  }
+]

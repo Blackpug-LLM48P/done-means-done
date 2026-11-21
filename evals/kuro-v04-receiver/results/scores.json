@@ -1,0 +1,749 @@
+{
+  "by_mode": {
+    "continuous": {
+      "adoption": {
+        "B_action_errors": 0,
+        "B_minus_A_retained_facts": 0,
+        "action_opportunities": 24,
+        "no_aggregate_fact_decrease": true,
+        "passes": true,
+        "zero_B_action_errors": true
+      },
+      "body_pairs": {
+        "F2V9": {
+          "A": 2,
+          "B": 2,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 2
+        },
+        "F5J6": {
+          "A": 2,
+          "B": 2,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 2
+        },
+        "F7K4": {
+          "A": 2,
+          "B": 2,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 2
+        },
+        "F8D3": {
+          "A": 2,
+          "B": 2,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 2
+        },
+        "T2K7F": {
+          "A": 3,
+          "B": 3,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 3
+        },
+        "T3Z8H": {
+          "A": 2,
+          "B": 2,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 2
+        },
+        "T6M2Q": {
+          "A": 2,
+          "B": 2,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 2
+        },
+        "T8B4N": {
+          "A": 2,
+          "B": 2,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 2
+        }
+      },
+      "by_arm": {
+        "A": {
+          "actions": {
+            "advance_operation": {
+              "denominators": {
+                "all": 8,
+                "gold_hold": 4,
+                "gold_plan": 4
+              },
+              "false_hold": 2,
+              "false_plan": 0,
+              "true_hold": 4,
+              "true_plan": 2
+            },
+            "archive_report": {
+              "denominators": {
+                "all": 8,
+                "gold_hold": 4,
+                "gold_plan": 4
+              },
+              "false_hold": 2,
+              "false_plan": 0,
+              "true_hold": 4,
+              "true_plan": 2
+            },
+            "close_case": {
+              "denominators": {
+                "all": 8,
+                "gold_hold": 6,
+                "gold_plan": 2
+              },
+              "false_hold": 0,
+              "false_plan": 0,
+              "true_hold": 6,
+              "true_plan": 2
+            }
+          },
+          "all_actions": {
+            "denominators": {
+              "all": 24,
+              "gold_hold": 14,
+              "gold_plan": 10
+            },
+            "false_hold": 4,
+            "false_plan": 0,
+            "true_hold": 14,
+            "true_plan": 6
+          },
+          "body": {
+            "possible": 17,
+            "responses_with_extra": 0,
+            "retained": 17
+          },
+          "invalid_field_reasons": {},
+          "sessions": 2,
+          "states": {
+            "operation": {
+              "declared": {
+                "correct_complete": 2,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 2
+              },
+              "denominators": {
+                "all": 8,
+                "complete": 4,
+                "open": 4
+              },
+              "received": {
+                "correct_complete": 2,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 2
+              },
+              "source_field": "state",
+              "validation": {
+                "measured": false,
+                "wrong_accepted": 2,
+                "wrong_declarations": 2,
+                "wrong_rejected": 0
+              }
+            },
+            "report": {
+              "declared": {
+                "correct_complete": 2,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 2
+              },
+              "denominators": {
+                "all": 8,
+                "complete": 4,
+                "open": 4
+              },
+              "received": {
+                "correct_complete": 2,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 2
+              },
+              "source_field": "state",
+              "validation": {
+                "measured": false,
+                "wrong_accepted": 2,
+                "wrong_declarations": 2,
+                "wrong_rejected": 0
+              }
+            }
+          },
+          "time_ms": {
+            "available_turns": 8,
+            "missing_turns": 0,
+            "observed_median": 14279.5,
+            "observed_sum": 119940
+          },
+          "turns": 8,
+          "usage": {
+            "available_turns": 8,
+            "missing_turns": 0
+          },
+          "wire_errors": 0
+        },
+        "B": {
+          "actions": {
+            "advance_operation": {
+              "denominators": {
+                "all": 8,
+                "gold_hold": 4,
+                "gold_plan": 4
+              },
+              "false_hold": 0,
+              "false_plan": 0,
+              "true_hold": 4,
+              "true_plan": 4
+            },
+            "archive_report": {
+              "denominators": {
+                "all": 8,
+                "gold_hold": 4,
+                "gold_plan": 4
+              },
+              "false_hold": 0,
+              "false_plan": 0,
+              "true_hold": 4,
+              "true_plan": 4
+            },
+            "close_case": {
+              "denominators": {
+                "all": 8,
+                "gold_hold": 6,
+                "gold_plan": 2
+              },
+              "false_hold": 0,
+              "false_plan": 0,
+              "true_hold": 6,
+              "true_plan": 2
+            }
+          },
+          "all_actions": {
+            "denominators": {
+              "all": 24,
+              "gold_hold": 14,
+              "gold_plan": 10
+            },
+            "false_hold": 0,
+            "false_plan": 0,
+            "true_hold": 14,
+            "true_plan": 10
+          },
+          "body": {
+            "possible": 17,
+            "responses_with_extra": 0,
+            "retained": 17
+          },
+          "invalid_field_reasons": {},
+          "sessions": 2,
+          "states": {
+            "operation": {
+              "declared": {
+                "correct_complete": 4,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 0
+              },
+              "denominators": {
+                "all": 8,
+                "complete": 4,
+                "open": 4
+              },
+              "received": {
+                "correct_complete": 4,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 0
+              },
+              "source_field": "operation_state",
+              "validation": {
+                "evidence_accepted": 8,
+                "evidence_rejected": 0,
+                "evidence_unassessed": 0,
+                "measured": true,
+                "wrong_accepted": 0,
+                "wrong_declarations": 0,
+                "wrong_rejected": 0,
+                "wrong_with_rejected_evidence": 0
+              }
+            },
+            "report": {
+              "declared": {
+                "correct_complete": 4,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 0
+              },
+              "denominators": {
+                "all": 8,
+                "complete": 4,
+                "open": 4
+              },
+              "received": {
+                "correct_complete": 4,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 0
+              },
+              "source_field": "report_state",
+              "validation": {
+                "evidence_accepted": 8,
+                "evidence_rejected": 0,
+                "evidence_unassessed": 0,
+                "measured": true,
+                "wrong_accepted": 0,
+                "wrong_declarations": 0,
+                "wrong_rejected": 0,
+                "wrong_with_rejected_evidence": 0
+              }
+            }
+          },
+          "time_ms": {
+            "available_turns": 8,
+            "missing_turns": 0,
+            "observed_median": 13535.0,
+            "observed_sum": 108853
+          },
+          "turns": 8,
+          "usage": {
+            "available_turns": 8,
+            "missing_turns": 0
+          },
+          "wire_errors": 0
+        }
+      }
+    },
+    "independent": {
+      "adoption": {
+        "B_action_errors": 0,
+        "B_minus_A_retained_facts": 0,
+        "action_opportunities": 24,
+        "no_aggregate_fact_decrease": true,
+        "passes": true,
+        "zero_B_action_errors": true
+      },
+      "body_pairs": {
+        "F2V9": {
+          "A": 2,
+          "B": 2,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 2
+        },
+        "F5J6": {
+          "A": 2,
+          "B": 2,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 2
+        },
+        "F7K4": {
+          "A": 2,
+          "B": 2,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 2
+        },
+        "F8D3": {
+          "A": 2,
+          "B": 2,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 2
+        },
+        "T2K7F": {
+          "A": 3,
+          "B": 3,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": true,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 3
+        },
+        "T3Z8H": {
+          "A": 2,
+          "B": 2,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 2
+        },
+        "T6M2Q": {
+          "A": 2,
+          "B": 2,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 2
+        },
+        "T8B4N": {
+          "A": 2,
+          "B": 2,
+          "B_minus_A": 0,
+          "extra_A": false,
+          "extra_B": false,
+          "gained_in_B": [],
+          "lost_in_B": [],
+          "possible": 2
+        }
+      },
+      "by_arm": {
+        "A": {
+          "actions": {
+            "advance_operation": {
+              "denominators": {
+                "all": 8,
+                "gold_hold": 4,
+                "gold_plan": 4
+              },
+              "false_hold": 2,
+              "false_plan": 0,
+              "true_hold": 4,
+              "true_plan": 2
+            },
+            "archive_report": {
+              "denominators": {
+                "all": 8,
+                "gold_hold": 4,
+                "gold_plan": 4
+              },
+              "false_hold": 2,
+              "false_plan": 0,
+              "true_hold": 4,
+              "true_plan": 2
+            },
+            "close_case": {
+              "denominators": {
+                "all": 8,
+                "gold_hold": 6,
+                "gold_plan": 2
+              },
+              "false_hold": 0,
+              "false_plan": 0,
+              "true_hold": 6,
+              "true_plan": 2
+            }
+          },
+          "all_actions": {
+            "denominators": {
+              "all": 24,
+              "gold_hold": 14,
+              "gold_plan": 10
+            },
+            "false_hold": 4,
+            "false_plan": 0,
+            "true_hold": 14,
+            "true_plan": 6
+          },
+          "body": {
+            "possible": 17,
+            "responses_with_extra": 0,
+            "retained": 17
+          },
+          "invalid_field_reasons": {},
+          "sessions": 8,
+          "states": {
+            "operation": {
+              "declared": {
+                "correct_complete": 2,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 2
+              },
+              "denominators": {
+                "all": 8,
+                "complete": 4,
+                "open": 4
+              },
+              "received": {
+                "correct_complete": 2,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 2
+              },
+              "source_field": "state",
+              "validation": {
+                "measured": false,
+                "wrong_accepted": 2,
+                "wrong_declarations": 2,
+                "wrong_rejected": 0
+              }
+            },
+            "report": {
+              "declared": {
+                "correct_complete": 2,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 2
+              },
+              "denominators": {
+                "all": 8,
+                "complete": 4,
+                "open": 4
+              },
+              "received": {
+                "correct_complete": 2,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 2
+              },
+              "source_field": "state",
+              "validation": {
+                "measured": false,
+                "wrong_accepted": 2,
+                "wrong_declarations": 2,
+                "wrong_rejected": 0
+              }
+            }
+          },
+          "time_ms": {
+            "available_turns": 8,
+            "missing_turns": 0,
+            "observed_median": 15541.5,
+            "observed_sum": 134587
+          },
+          "turns": 8,
+          "usage": {
+            "available_turns": 8,
+            "missing_turns": 0
+          },
+          "wire_errors": 0
+        },
+        "B": {
+          "actions": {
+            "advance_operation": {
+              "denominators": {
+                "all": 8,
+                "gold_hold": 4,
+                "gold_plan": 4
+              },
+              "false_hold": 0,
+              "false_plan": 0,
+              "true_hold": 4,
+              "true_plan": 4
+            },
+            "archive_report": {
+              "denominators": {
+                "all": 8,
+                "gold_hold": 4,
+                "gold_plan": 4
+              },
+              "false_hold": 0,
+              "false_plan": 0,
+              "true_hold": 4,
+              "true_plan": 4
+            },
+            "close_case": {
+              "denominators": {
+                "all": 8,
+                "gold_hold": 6,
+                "gold_plan": 2
+              },
+              "false_hold": 0,
+              "false_plan": 0,
+              "true_hold": 6,
+              "true_plan": 2
+            }
+          },
+          "all_actions": {
+            "denominators": {
+              "all": 24,
+              "gold_hold": 14,
+              "gold_plan": 10
+            },
+            "false_hold": 0,
+            "false_plan": 0,
+            "true_hold": 14,
+            "true_plan": 10
+          },
+          "body": {
+            "possible": 17,
+            "responses_with_extra": 1,
+            "retained": 17
+          },
+          "invalid_field_reasons": {},
+          "sessions": 8,
+          "states": {
+            "operation": {
+              "declared": {
+                "correct_complete": 4,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 0
+              },
+              "denominators": {
+                "all": 8,
+                "complete": 4,
+                "open": 4
+              },
+              "received": {
+                "correct_complete": 4,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 0
+              },
+              "source_field": "operation_state",
+              "validation": {
+                "evidence_accepted": 8,
+                "evidence_rejected": 0,
+                "evidence_unassessed": 0,
+                "measured": true,
+                "wrong_accepted": 0,
+                "wrong_declarations": 0,
+                "wrong_rejected": 0,
+                "wrong_with_rejected_evidence": 0
+              }
+            },
+            "report": {
+              "declared": {
+                "correct_complete": 4,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 0
+              },
+              "denominators": {
+                "all": 8,
+                "complete": 4,
+                "open": 4
+              },
+              "received": {
+                "correct_complete": 4,
+                "correct_open": 4,
+                "invalid": 0,
+                "wrong_complete": 0,
+                "wrong_hold": 0
+              },
+              "source_field": "report_state",
+              "validation": {
+                "evidence_accepted": 8,
+                "evidence_rejected": 0,
+                "evidence_unassessed": 0,
+                "measured": true,
+                "wrong_accepted": 0,
+                "wrong_declarations": 0,
+                "wrong_rejected": 0,
+                "wrong_with_rejected_evidence": 0
+              }
+            }
+          },
+          "time_ms": {
+            "available_turns": 8,
+            "missing_turns": 0,
+            "observed_median": 18813.0,
+            "observed_sum": 152421
+          },
+          "turns": 8,
+          "usage": {
+            "available_turns": 8,
+            "missing_turns": 0
+          },
+          "wire_errors": 0
+        }
+      }
+    }
+  },
+  "controls": {
+    "included_in_fresh_model_denominators": false,
+    "replay": "method/controls.py --check",
+    "result_file": "results/controls.json"
+  },
+  "coverage": {
+    "blind_labels": 32,
+    "cases": 8,
+    "continuous_sequences": {
+      "A": [
+        [
+          "F7K4",
+          "F8D3",
+          "F2V9",
+          "F5J6"
+        ],
+        [
+          "T3Z8H",
+          "T6M2Q",
+          "T2K7F",
+          "T8B4N"
+        ]
+      ],
+      "B": [
+        [
+          "F7K4",
+          "F8D3",
+          "F2V9",
+          "F5J6"
+        ],
+        [
+          "T3Z8H",
+          "T6M2Q",
+          "T2K7F",
+          "T8B4N"
+        ]
+      ]
+    },
+    "sessions": 20,
+    "turns": 32
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "EX-NH": {
+    "handoff": "南浜分室は14時18分に3箱を受領しました。月報用の一般書・児童書の冊数は、発送控えの別紙を待っています。",
+    "report_state": {
+      "value": "open",
+      "scope": "月報用の受入照合報告",
+      "revision": "r2",
+      "as_of": "2026-11-12T15:00:00+09:00",
+      "evidence_refs": [
+        "R2"
+      ]
+    },
+    "operation_state": {
+      "value": "complete",
+      "scope": "南浜分室への図書配送の受け渡し",
+      "revision": "r2",
+      "as_of": "2026-11-12T15:00:00+09:00",
+      "evidence_refs": [
+        "O1",
+        "O2"
+      ]
+    }
+  }
+}

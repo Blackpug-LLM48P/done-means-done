@@ -1,0 +1,87 @@
+{
+  "actions": {
+    "advance_operation": {
+      "decision": "plan",
+      "depends_on": [
+        "operation_state"
+      ],
+      "reasons": [
+        "operation_state: '箱札と棚指定票の照合': met per ['AM-819']",
+        "operation_state: '現物の着棚確認': met per ['AM-362']"
+      ]
+    },
+    "archive_report": {
+      "decision": "hold",
+      "depends_on": [
+        "report_state",
+        "handoff"
+      ],
+      "reasons": [
+        "report_state: '貸出票番号の転記照合': met per ['AM-641']",
+        "report_state: '受領時写真の添付確認': pending per ['AM-504']",
+        "handoff: text present"
+      ]
+    },
+    "close_case": {
+      "decision": "hold",
+      "depends_on": [
+        "report_state",
+        "operation_state",
+        "handoff"
+      ],
+      "reasons": [
+        "report_state: '貸出票番号の転記照合': met per ['AM-641']",
+        "report_state: '受領時写真の添付確認': pending per ['AM-504']",
+        "operation_state: '箱札と棚指定票の照合': met per ['AM-819']",
+        "operation_state: '現物の着棚確認': met per ['AM-362']",
+        "handoff: text present"
+      ]
+    }
+  },
+  "arm": "B",
+  "as_of": "2026-09-17T15:00:00+09:00",
+  "case_id": "T6M2Q",
+  "dry_run": true,
+  "fields": {
+    "handoff": {
+      "reasons": [
+        "text present"
+      ],
+      "valid": true,
+      "value": "『潮路』の衣装借入について、貸出票番号「貸V-183」は原本と受領報告で一致しています。別の衣装の写真が添付されていたため、その写真は取り外されました。撮影班から再添付の連絡はありましたが、9月17日15時時点では正しい受領時写真の添付を直接確認できておらず、受領報告は未完了です。受入箱は箱札と棚指定票を照合して東庫C-4に配架し、14時06分に現物と棚札を確認済みです。"
+    },
+    "operation_state": {
+      "as_of": "2026-09-17T15:00:00+09:00",
+      "evidence_refs": [
+        "AM-819",
+        "AM-362"
+      ],
+      "evidence_valid": true,
+      "reasons": [
+        "'箱札と棚指定票の照合': met per ['AM-819']",
+        "'現物の着棚確認': met per ['AM-362']"
+      ],
+      "revision": "r3",
+      "scope": "受入箱の配架",
+      "valid": true,
+      "value": "complete"
+    },
+    "report_state": {
+      "as_of": "2026-09-17T15:00:00+09:00",
+      "evidence_refs": [
+        "AM-504"
+      ],
+      "evidence_valid": true,
+      "reasons": [
+        "'貸出票番号の転記照合': met per ['AM-641']",
+        "'受領時写真の添付確認': pending per ['AM-504']"
+      ],
+      "revision": "r3",
+      "scope": "衣装借入の受領報告",
+      "valid": true,
+      "value": "open"
+    }
+  },
+  "handoff": "『潮路』の衣装借入について、貸出票番号「貸V-183」は原本と受領報告で一致しています。別の衣装の写真が添付されていたため、その写真は取り外されました。撮影班から再添付の連絡はありましたが、9月17日15時時点では正しい受領時写真の添付を直接確認できておらず、受領報告は未完了です。受入箱は箱札と棚指定票を照合して東庫C-4に配架し、14時06分に現物と棚札を確認済みです。",
+  "revision": "r3"
+}

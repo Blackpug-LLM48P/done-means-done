@@ -1,0 +1,57 @@
+{
+  "actions": {
+    "advance_operation": {
+      "decision": "plan",
+      "depends_on": [
+        "state"
+      ],
+      "reasons": [
+        "state: caller returned 'complete'"
+      ]
+    },
+    "archive_report": {
+      "decision": "plan",
+      "depends_on": [
+        "state",
+        "handoff"
+      ],
+      "reasons": [
+        "state: caller returned 'complete'",
+        "handoff: text present"
+      ]
+    },
+    "close_case": {
+      "decision": "plan",
+      "depends_on": [
+        "state",
+        "handoff"
+      ],
+      "reasons": [
+        "state: caller returned 'complete'",
+        "handoff: text present"
+      ]
+    }
+  },
+  "arm": "A",
+  "as_of": "2026-10-14T16:00:00+09:00",
+  "case_id": "F2V9",
+  "dry_run": true,
+  "fields": {
+    "handoff": {
+      "reasons": [
+        "text present"
+      ],
+      "valid": true,
+      "value": "『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合で全巻を確認しました。庫内担当は14時31分に受領票に署名し、保管棚を「雪-12」と記入しました。校正済み温度計の記録を添付した移送報告書は14時58分に登録され、引き渡しと報告書登録はともに完了しています。"
+    },
+    "state": {
+      "reasons": [
+        "caller returned 'complete'"
+      ],
+      "valid": true,
+      "value": "complete"
+    }
+  },
+  "handoff": "『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合で全巻を確認しました。庫内担当は14時31分に受領票に署名し、保管棚を「雪-12」と記入しました。校正済み温度計の記録を添付した移送報告書は14時58分に登録され、引き渡しと報告書登録はともに完了しています。",
+  "revision": 5
+}

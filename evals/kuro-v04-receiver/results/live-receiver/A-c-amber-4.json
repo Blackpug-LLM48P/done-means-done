@@ -1,0 +1,57 @@
+{
+  "actions": {
+    "advance_operation": {
+      "decision": "hold",
+      "depends_on": [
+        "state"
+      ],
+      "reasons": [
+        "state: caller returned 'open'"
+      ]
+    },
+    "archive_report": {
+      "decision": "hold",
+      "depends_on": [
+        "state",
+        "handoff"
+      ],
+      "reasons": [
+        "state: caller returned 'open'",
+        "handoff: text present"
+      ]
+    },
+    "close_case": {
+      "decision": "hold",
+      "depends_on": [
+        "state",
+        "handoff"
+      ],
+      "reasons": [
+        "state: caller returned 'open'",
+        "handoff: text present"
+      ]
+    }
+  },
+  "arm": "A",
+  "as_of": "2026-10-09T17:00:00+09:00",
+  "case_id": "T8B4N",
+  "dry_run": true,
+  "fields": {
+    "handoff": {
+      "reasons": [
+        "text present"
+      ],
+      "valid": true,
+      "value": "10月9日17時時点の申し送りです。『蛍坂』の外套は左襟の裏にほつれがあり、現物で確認した位置は受領時の状態報告書の記載と一致しています。検品者の署名欄は15時12分の確認時に空欄で、17時までに届いた記録では署名を確認できていません。平置き用の収納段には未晒し木綿を敷きました。16時10分の確認時、外套はまだ検品台にあり、17時までに収納段への移載完了は確認できていません。"
+    },
+    "state": {
+      "reasons": [
+        "caller returned 'open'"
+      ],
+      "valid": true,
+      "value": "open"
+    }
+  },
+  "handoff": "10月9日17時時点の申し送りです。『蛍坂』の外套は左襟の裏にほつれがあり、現物で確認した位置は受領時の状態報告書の記載と一致しています。検品者の署名欄は15時12分の確認時に空欄で、17時までに届いた記録では署名を確認できていません。平置き用の収納段には未晒し木綿を敷きました。16時10分の確認時、外套はまだ検品台にあり、17時までに収納段への移載完了は確認できていません。",
+  "revision": "r2"
+}
