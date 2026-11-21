@@ -1,0 +1,112 @@
+{
+  "body": "納品明細番号は明-562で、先着分は15時28分に荷受場に着きました。納品報告は受領印待ちで、先着分の会場内での引き渡しも残っています。製本所からは、残り30冊を翌朝の便に載せられる可能性があると連絡がありました。",
+  "case_id": "J1658",
+  "category": "control",
+  "initial": null,
+  "job_id": "A9526",
+  "mode": "fixed",
+  "order": 1,
+  "review": {
+    "apply_elapsed_ns": 265393,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236878421438669,
+    "cli_started_unix_ns": 1795236872343131438,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 6078,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236878424182158,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "ad9fe8f4f7e99998a0dab9348341d5d29a1b7e3684ace23b70d8aa24170df9fa",
+    "prompt_sha256": "a6322ad773fc8b519c50aaf2f514046216a987177c59fd45cbc375daec0a2211",
+    "raw_file": "results/review-raw/A9526.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13609,
+        "output_tokens": 23,
+        "reasoning_output_tokens": 12,
+        "total_tokens": 13632
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13609,
+        "output_tokens": 23,
+        "reasoning_output_tokens": 12,
+        "total_tokens": 13632
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc74-c10b-7ef3-a5e4-64a9b8f3f11f",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13609,
+      "output_tokens": 23,
+      "reasoning_output_tokens": 12
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13609,
+      "output_tokens": 23,
+      "reasoning_output_tokens": 12
+    }
+  },
+  "source_sha256": "6e89b726fc38cfa7669341f8a8155065b3c3ef7673cf59b4e88d25934a6f03a7",
+  "trace": {
+    "as_of": "2026-11-06T17:00:00+09:00",
+    "case_id": "J1658",
+    "errors": [],
+    "findings": [],
+    "original_body": "納品明細番号は明-562で、先着分は15時28分に荷受場に着きました。納品報告は受領印待ちで、先着分の会場内での引き渡しも残っています。製本所からは、残り30冊を翌朝の便に載せられる可能性があると連絡がありました。",
+    "packet_sha256": "ad9fe8f4f7e99998a0dab9348341d5d29a1b7e3684ace23b70d8aa24170df9fa",
+    "proposed_body": "納品明細番号は明-562で、先着分は15時28分に荷受場に着きました。納品報告は受領印待ちで、先着分の会場内での引き渡しも残っています。製本所からは、残り30冊を翌朝の便に載せられる可能性があると連絡がありました。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "r3",
+    "sentences": [
+      {
+        "end": 35,
+        "id": 1,
+        "start": 0,
+        "text": "納品明細番号は明-562で、先着分は15時28分に荷受場に着きました。"
+      },
+      {
+        "end": 68,
+        "id": 2,
+        "start": 35,
+        "text": "納品報告は受領印待ちで、先着分の会場内での引き渡しも残っています。"
+      },
+      {
+        "end": 107,
+        "id": 3,
+        "start": 68,
+        "text": "製本所からは、残り30冊を翌朝の便に載せられる可能性があると連絡がありました。"
+      }
+    ],
+    "source_sha256": "df1e1f2a15b79dc92a3e7062927666eed757bf52e796b8ff01a29e9d1b588335",
+    "status": "clear"
+  },
+  "unit_id": "A9526"
+}

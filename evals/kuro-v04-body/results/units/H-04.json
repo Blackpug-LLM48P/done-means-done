@@ -1,0 +1,142 @@
+{
+  "body": "2026年10月14日16時時点で、「つばめ宿」から受領した帽子は2点です。現物と数量報告が一致し、報告書に署名入り借用明細の写しが添付されていることも確認しました。受領数量の報告は完了しています。個体番号は現物と割当票で照合済みです。山高帽（H-42）は個体札を取り付け済みです。麦わら帽（H-43）は取り付け箇所の確認待ちで、個体札は未装着です。",
+  "case_id": "T2K7F",
+  "category": "historical",
+  "initial": null,
+  "job_id": "H-04",
+  "mode": "fixed",
+  "order": 1,
+  "review": {
+    "apply_elapsed_ns": 321485,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236853100723404,
+    "cli_started_unix_ns": 1795236833296447737,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 19804,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236853104487290,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "a437cdec3caf671a8c8a3b95f7efa2cd2a0a150e029aa28bd14803f283ecc703",
+    "prompt_sha256": "54f3fc90821a235324267cf759517777c798327e315bdbcc9611df14d68a0b0e",
+    "raw_file": "results/review-raw/H-04.txt",
+    "raw_sha256": "b4311b632a80a100a4e91cdc223c600f29ebbeb2e8cf462c0c9b1f45c4b777a7",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13757,
+        "output_tokens": 626,
+        "reasoning_output_tokens": 488,
+        "total_tokens": 14383
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13757,
+        "output_tokens": 626,
+        "reasoning_output_tokens": 488,
+        "total_tokens": 14383
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc74-28ae-72b0-8bba-a9aa5ae1d6e5",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13757,
+      "output_tokens": 626,
+      "reasoning_output_tokens": 488
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13757,
+      "output_tokens": 626,
+      "reasoning_output_tokens": 488
+    }
+  },
+  "source_sha256": "f11ff12a0ed92327efcb8cf3c326ba34fbca153a80b0a48be0bc81ceebb5372b",
+  "trace": {
+    "as_of": "2026-10-14T16:00:00+09:00",
+    "case_id": "T2K7F",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "AM-524"
+        ],
+        "end": 32,
+        "quote": "「つばめ宿」から受領した帽子",
+        "reason": "依頼文は「つばめ宿」で借りたとし、原票は受領点数が2点であることを確認していますが、帽子を渡した相手が「つばめ宿」だとは記していません。",
+        "replacement": "「つばめ宿」で借りた帽子の受領点数",
+        "sentence_id": 1,
+        "start": 18
+      }
+    ],
+    "original_body": "2026年10月14日16時時点で、「つばめ宿」から受領した帽子は2点です。現物と数量報告が一致し、報告書に署名入り借用明細の写しが添付されていることも確認しました。受領数量の報告は完了しています。個体番号は現物と割当票で照合済みです。山高帽（H-42）は個体札を取り付け済みです。麦わら帽（H-43）は取り付け箇所の確認待ちで、個体札は未装着です。",
+    "packet_sha256": "a437cdec3caf671a8c8a3b95f7efa2cd2a0a150e029aa28bd14803f283ecc703",
+    "proposed_body": "2026年10月14日16時時点で、「つばめ宿」で借りた帽子の受領点数は2点です。現物と数量報告が一致し、報告書に署名入り借用明細の写しが添付されていることも確認しました。受領数量の報告は完了しています。個体番号は現物と割当票で照合済みです。山高帽（H-42）は個体札を取り付け済みです。麦わら帽（H-43）は取り付け箇所の確認待ちで、個体札は未装着です。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"「つばめ宿」から受領した帽子\",\n      \"reason\": \"依頼文は「つばめ宿」で借りたとし、原票は受領点数が2点であることを確認していますが、帽子を渡した相手が「つばめ宿」だとは記していません。\",\n      \"checked_refs\": [\"AM-524\"],\n      \"replacement\": \"「つばめ宿」で借りた帽子の受領点数\"\n    }\n  ]\n}",
+    "revision": "r6",
+    "sentences": [
+      {
+        "end": 38,
+        "id": 1,
+        "start": 0,
+        "text": "2026年10月14日16時時点で、「つばめ宿」から受領した帽子は2点です。"
+      },
+      {
+        "end": 83,
+        "id": 2,
+        "start": 38,
+        "text": "現物と数量報告が一致し、報告書に署名入り借用明細の写しが添付されていることも確認しました。"
+      },
+      {
+        "end": 99,
+        "id": 3,
+        "start": 83,
+        "text": "受領数量の報告は完了しています。"
+      },
+      {
+        "end": 118,
+        "id": 4,
+        "start": 99,
+        "text": "個体番号は現物と割当票で照合済みです。"
+      },
+      {
+        "end": 141,
+        "id": 5,
+        "start": 118,
+        "text": "山高帽（H-42）は個体札を取り付け済みです。"
+      },
+      {
+        "end": 175,
+        "id": 6,
+        "start": 141,
+        "text": "麦わら帽（H-43）は取り付け箇所の確認待ちで、個体札は未装着です。"
+      }
+    ],
+    "source_sha256": "5ee8deb88602337e254fc5b12468326949086abd05088cf3df3024d28bc6078f",
+    "status": "flagged"
+  },
+  "unit_id": "H-04"
+}

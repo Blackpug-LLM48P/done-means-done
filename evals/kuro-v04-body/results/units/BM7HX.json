@@ -1,0 +1,130 @@
+{
+  "body": "受付が故障票を受け取ったのは10時24分で、録音機の停止も同時刻でした。予備機は音響係の古賀が受け取りました。故障報告の整理は済みました。予備機は接続試験を待っています。",
+  "case_id": "UL58C",
+  "category": "control",
+  "initial": null,
+  "job_id": "BM7HX",
+  "mode": "fixed",
+  "order": 1,
+  "review": {
+    "apply_elapsed_ns": 461092,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236894475434408,
+    "cli_started_unix_ns": 1795236884388649164,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 10087,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236894479567413,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "18e6a75b4b83163a06e78351e15302a24fd5586ad957ad5d7424764418db5572",
+    "prompt_sha256": "3a83e4ba7ea07a8b4c41a8394383d9916a175ea1cb21e978d34d8b3147774269",
+    "raw_file": "results/review-raw/BM7HX.txt",
+    "raw_sha256": "b80474236fb6f20e58f0df0fafda0e34f33325bbd3816202b5f1fbb7e6fc737e",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13398,
+        "output_tokens": 292,
+        "reasoning_output_tokens": 179,
+        "total_tokens": 13690
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13398,
+        "output_tokens": 292,
+        "reasoning_output_tokens": 179,
+        "total_tokens": 13690
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc74-f026-7ad3-b798-008f3aae9dd4",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13398,
+      "output_tokens": 292,
+      "reasoning_output_tokens": 179
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13398,
+      "output_tokens": 292,
+      "reasoning_output_tokens": 179
+    }
+  },
+  "source_sha256": "0f177ce6984f3d97a70ab5de1a2ae6973bcb4e885d8faceeca85d210dd619aa7",
+  "trace": {
+    "as_of": "2026-08-11T16:00:00+09:00",
+    "case_id": "UL58C",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "RK-705"
+        ],
+        "end": 35,
+        "quote": "録音機の停止も同時刻でした",
+        "reason": "10時24分は故障票の受領時刻です。録音機がその時刻に停止したことを示す記録はありません。",
+        "replacement": "受付の受領印と受付ログの時刻は一致しています",
+        "sentence_id": 1,
+        "start": 22
+      }
+    ],
+    "original_body": "受付が故障票を受け取ったのは10時24分で、録音機の停止も同時刻でした。予備機は音響係の古賀が受け取りました。故障報告の整理は済みました。予備機は接続試験を待っています。",
+    "packet_sha256": "18e6a75b4b83163a06e78351e15302a24fd5586ad957ad5d7424764418db5572",
+    "proposed_body": "受付が故障票を受け取ったのは10時24分で、受付の受領印と受付ログの時刻は一致しています。予備機は音響係の古賀が受け取りました。故障報告の整理は済みました。予備機は接続試験を待っています。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"録音機の停止も同時刻でした\",\n      \"reason\": \"10時24分は故障票の受領時刻です。録音機がその時刻に停止したことを示す記録はありません。\",\n      \"checked_refs\": [\"RK-705\"],\n      \"replacement\": \"受付の受領印と受付ログの時刻は一致しています\"\n    }\n  ]\n}",
+    "revision": "r1",
+    "sentences": [
+      {
+        "end": 36,
+        "id": 1,
+        "start": 0,
+        "text": "受付が故障票を受け取ったのは10時24分で、録音機の停止も同時刻でした。"
+      },
+      {
+        "end": 55,
+        "id": 2,
+        "start": 36,
+        "text": "予備機は音響係の古賀が受け取りました。"
+      },
+      {
+        "end": 69,
+        "id": 3,
+        "start": 55,
+        "text": "故障報告の整理は済みました。"
+      },
+      {
+        "end": 85,
+        "id": 4,
+        "start": 69,
+        "text": "予備機は接続試験を待っています。"
+      }
+    ],
+    "source_sha256": "a02efc12d5f309268c297967820e5c1688d0643d54f0e6dc98d5e42e297b37bd",
+    "status": "flagged"
+  },
+  "unit_id": "BM7HX"
+}

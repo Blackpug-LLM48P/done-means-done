@@ -1,0 +1,130 @@
+{
+  "body": "楽譜の借入先は朝凪合唱団です。今回届いた楽譜は全部で12部で、今回使う団員も12人です。借入記録には返却日の入力が残っています。受け入れ作業では声部ごとの仕分けを待っています。",
+  "case_id": "UT6S1",
+  "category": "control",
+  "initial": null,
+  "job_id": "B9QC4",
+  "mode": "fixed",
+  "order": 1,
+  "review": {
+    "apply_elapsed_ns": 261072,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236842911741584,
+    "cli_started_unix_ns": 1795236833303464891,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 9608,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236842914779311,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "bee64263768248c36072c689965f35d79399609ccdc0623be498684e9ee55745",
+    "prompt_sha256": "4f0158cf2381a83ccb3dde3f1cc3e80a3824727d4a206f3d3355d0cf3331e723",
+    "raw_file": "results/review-raw/B9QC4.txt",
+    "raw_sha256": "6b6294690ce267324792b86d70d4df7b64e6632049caf4927200c93db92246a9",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13433,
+        "output_tokens": 145,
+        "reasoning_output_tokens": 44,
+        "total_tokens": 13578
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13433,
+        "output_tokens": 145,
+        "reasoning_output_tokens": 44,
+        "total_tokens": 13578
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc74-28a4-7493-82ee-51df39ba5090",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13433,
+      "output_tokens": 145,
+      "reasoning_output_tokens": 44
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13433,
+      "output_tokens": 145,
+      "reasoning_output_tokens": 44
+    }
+  },
+  "source_sha256": "f5147b4073b6500b769c00363a95a8dbf9397740965a32873c4fd27fc4d42b6e",
+  "trace": {
+    "as_of": "2026-08-27T16:00:00+09:00",
+    "case_id": "UT6S1",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "GF-763"
+        ],
+        "end": 41,
+        "quote": "で、今回使う団員も12人",
+        "reason": "原票の「12部」は届いた楽譜の部数を示す。楽譜を使う団員の人数は記録されていない。",
+        "replacement": "",
+        "sentence_id": 2,
+        "start": 29
+      }
+    ],
+    "original_body": "楽譜の借入先は朝凪合唱団です。今回届いた楽譜は全部で12部で、今回使う団員も12人です。借入記録には返却日の入力が残っています。受け入れ作業では声部ごとの仕分けを待っています。",
+    "packet_sha256": "bee64263768248c36072c689965f35d79399609ccdc0623be498684e9ee55745",
+    "proposed_body": "楽譜の借入先は朝凪合唱団です。今回届いた楽譜は全部で12部です。借入記録には返却日の入力が残っています。受け入れ作業では声部ごとの仕分けを待っています。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"で、今回使う団員も12人\",\n      \"reason\": \"原票の「12部」は届いた楽譜の部数を示す。楽譜を使う団員の人数は記録されていない。\",\n      \"checked_refs\": [\"GF-763\"],\n      \"replacement\": \"\"\n    }\n  ]\n}",
+    "revision": "r2",
+    "sentences": [
+      {
+        "end": 15,
+        "id": 1,
+        "start": 0,
+        "text": "楽譜の借入先は朝凪合唱団です。"
+      },
+      {
+        "end": 44,
+        "id": 2,
+        "start": 15,
+        "text": "今回届いた楽譜は全部で12部で、今回使う団員も12人です。"
+      },
+      {
+        "end": 64,
+        "id": 3,
+        "start": 44,
+        "text": "借入記録には返却日の入力が残っています。"
+      },
+      {
+        "end": 88,
+        "id": 4,
+        "start": 64,
+        "text": "受け入れ作業では声部ごとの仕分けを待っています。"
+      }
+    ],
+    "source_sha256": "7c3a31337d60e1b05e7458e61b3c8fe9300d949dcda5ac46929a91a8a1c137b9",
+    "status": "flagged"
+  },
+  "unit_id": "B9QC4"
+}

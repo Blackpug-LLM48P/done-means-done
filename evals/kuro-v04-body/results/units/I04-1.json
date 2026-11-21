@@ -1,0 +1,193 @@
+{
+  "body": "8月11日16時時点の引継ぎです。録音機の故障票が受付に届いたのは10時24分で、受領印と受付ログの時刻は一致しています。原本も当日の保管ファイルで確認でき、故障報告の整理は完了しました。予備機は機材室で音響係の古賀が受け取りました。接続試験は11時30分の点検時点で未実施で、16時時点では設置完了を確認できていません。",
+  "case_id": "UL58C",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236728233904324,
+    "cli_started_unix_ns": 1795236713308353357,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 14926,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "ca20dd83df8a6df4c1e2b818701f80c1ed673a5548d5afb3cf667a198ca482bb",
+    "raw_file": "results/initial-raw/I04-1.txt",
+    "raw_sha256": "e1d9a5db66cafae65c0b764dc267883299ba8159df919ff9e961274364dbbef9",
+    "receiver_elapsed_ns": 228136,
+    "receiver_file": "results/paired/I04-1.json",
+    "receiver_finished_unix_ns": 1795236728237515236,
+    "receiver_sha256": "508da67475effb981d102e194bb1b969e8afa6b6e0ee5d21d6aaa8e8132180f6",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14686,
+        "output_tokens": 452,
+        "reasoning_output_tokens": 158,
+        "total_tokens": 15138
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14686,
+        "output_tokens": 452,
+        "reasoning_output_tokens": 158,
+        "total_tokens": 15138
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc72-53db-77a3-9bcc-e22f3c4b26ec",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14686,
+      "output_tokens": 452,
+      "reasoning_output_tokens": 158
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14686,
+      "output_tokens": 452,
+      "reasoning_output_tokens": 158
+    },
+    "wire_error": null
+  },
+  "job_id": "I04",
+  "mode": "independent",
+  "order": 1,
+  "review": {
+    "apply_elapsed_ns": 477131,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236823155377102,
+    "cli_started_unix_ns": 1795236818189533640,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 4966,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236823159093803,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "e5ea30d54ded8d67f653d713c991cb42aa5cfa9d0b68b8247dfddb41136717d9",
+    "prompt_sha256": "f3524364619f365c0eff6dda7809d219a69006e80e3921e58f792d96fdf7c601",
+    "raw_file": "results/review-raw/I04-1.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13549,
+        "output_tokens": 48,
+        "reasoning_output_tokens": 37,
+        "total_tokens": 13597
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13549,
+        "output_tokens": 48,
+        "reasoning_output_tokens": 37,
+        "total_tokens": 13597
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc73-ed87-7c72-b536-1d6255103773",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13549,
+      "output_tokens": 48,
+      "reasoning_output_tokens": 37
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13549,
+      "output_tokens": 48,
+      "reasoning_output_tokens": 37
+    }
+  },
+  "source_sha256": "0f177ce6984f3d97a70ab5de1a2ae6973bcb4e885d8faceeca85d210dd619aa7",
+  "trace": {
+    "as_of": "2026-08-11T16:00:00+09:00",
+    "case_id": "UL58C",
+    "errors": [],
+    "findings": [],
+    "original_body": "8月11日16時時点の引継ぎです。録音機の故障票が受付に届いたのは10時24分で、受領印と受付ログの時刻は一致しています。原本も当日の保管ファイルで確認でき、故障報告の整理は完了しました。予備機は機材室で音響係の古賀が受け取りました。接続試験は11時30分の点検時点で未実施で、16時時点では設置完了を確認できていません。",
+    "packet_sha256": "e5ea30d54ded8d67f653d713c991cb42aa5cfa9d0b68b8247dfddb41136717d9",
+    "proposed_body": "8月11日16時時点の引継ぎです。録音機の故障票が受付に届いたのは10時24分で、受領印と受付ログの時刻は一致しています。原本も当日の保管ファイルで確認でき、故障報告の整理は完了しました。予備機は機材室で音響係の古賀が受け取りました。接続試験は11時30分の点検時点で未実施で、16時時点では設置完了を確認できていません。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "r1",
+    "sentences": [
+      {
+        "end": 17,
+        "id": 1,
+        "start": 0,
+        "text": "8月11日16時時点の引継ぎです。"
+      },
+      {
+        "end": 61,
+        "id": 2,
+        "start": 17,
+        "text": "録音機の故障票が受付に届いたのは10時24分で、受領印と受付ログの時刻は一致しています。"
+      },
+      {
+        "end": 94,
+        "id": 3,
+        "start": 61,
+        "text": "原本も当日の保管ファイルで確認でき、故障報告の整理は完了しました。"
+      },
+      {
+        "end": 117,
+        "id": 4,
+        "start": 94,
+        "text": "予備機は機材室で音響係の古賀が受け取りました。"
+      },
+      {
+        "end": 161,
+        "id": 5,
+        "start": 117,
+        "text": "接続試験は11時30分の点検時点で未実施で、16時時点では設置完了を確認できていません。"
+      }
+    ],
+    "source_sha256": "a02efc12d5f309268c297967820e5c1688d0643d54f0e6dc98d5e42e297b37bd",
+    "status": "clear"
+  },
+  "unit_id": "I04-1"
+}

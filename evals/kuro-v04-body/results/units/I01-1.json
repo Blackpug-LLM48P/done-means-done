@@ -1,0 +1,211 @@
+{
+  "body": "11月6日17時時点の引継ぎです。講演会の配布冊子は、製本所の納品明細と報告欄の番号が「明-562」で一致しています。先着分は同日15時28分に荷受場に到着しました。15時51分に確認した受領控えは未押印で、納品報告は未完了です。先着分の台車札と搬入証は照合済みです。16時39分時点で台車は会場の手前で待機しており、会場内での引き渡しは未了です。残り30冊については、製本所から翌朝の便に載せられる可能性があるとの連絡がありました。発送便は未確定です。",
+  "case_id": "J1658",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236736346693133,
+    "cli_started_unix_ns": 1795236719123811232,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 17223,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "0985c1e2c3a6bfde4fe080517ad44251250df54229d7580b0696ab1b06927503",
+    "raw_file": "results/initial-raw/I01-1.txt",
+    "raw_sha256": "8acaa91c49e3c738b124a688de91e051cdbecdfac8f5f2415e5d20da5c6dfffa",
+    "receiver_elapsed_ns": 193521,
+    "receiver_file": "results/paired/I01-1.json",
+    "receiver_finished_unix_ns": 1795236736349121029,
+    "receiver_sha256": "35491b1435df16b43b8c60577ee4f781dea574a528e4dc78d3928005128dc216",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14881,
+        "output_tokens": 622,
+        "reasoning_output_tokens": 268,
+        "total_tokens": 15503
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14881,
+        "output_tokens": 622,
+        "reasoning_output_tokens": 268,
+        "total_tokens": 15503
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc72-6a96-7ad1-91ee-f7c30b933f46",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14881,
+      "output_tokens": 622,
+      "reasoning_output_tokens": 268
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14881,
+      "output_tokens": 622,
+      "reasoning_output_tokens": 268
+    },
+    "wire_error": null
+  },
+  "job_id": "I01",
+  "mode": "independent",
+  "order": 1,
+  "review": {
+    "apply_elapsed_ns": 307502,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236842858730779,
+    "cli_started_unix_ns": 1795236823235193030,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 19624,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236842862435383,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "d993cf0f8b373e45d1f73d879329acb4b6d97a82b36c7c9f628e8ec403dc075d",
+    "prompt_sha256": "b08d58a821beb0794a87566cee56f4026a5d1c1659f98b549a6a91f6073001df",
+    "raw_file": "results/review-raw/I01-1.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13964,
+        "output_tokens": 515,
+        "reasoning_output_tokens": 504,
+        "total_tokens": 14479
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13964,
+        "output_tokens": 515,
+        "reasoning_output_tokens": 504,
+        "total_tokens": 14479
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc74-014b-7692-9bb5-b63f570c9077",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13964,
+      "output_tokens": 515,
+      "reasoning_output_tokens": 504
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13964,
+      "output_tokens": 515,
+      "reasoning_output_tokens": 504
+    }
+  },
+  "source_sha256": "6e89b726fc38cfa7669341f8a8155065b3c3ef7673cf59b4e88d25934a6f03a7",
+  "trace": {
+    "as_of": "2026-11-06T17:00:00+09:00",
+    "case_id": "J1658",
+    "errors": [],
+    "findings": [],
+    "original_body": "11月6日17時時点の引継ぎです。講演会の配布冊子は、製本所の納品明細と報告欄の番号が「明-562」で一致しています。先着分は同日15時28分に荷受場に到着しました。15時51分に確認した受領控えは未押印で、納品報告は未完了です。先着分の台車札と搬入証は照合済みです。16時39分時点で台車は会場の手前で待機しており、会場内での引き渡しは未了です。残り30冊については、製本所から翌朝の便に載せられる可能性があるとの連絡がありました。発送便は未確定です。",
+    "packet_sha256": "d993cf0f8b373e45d1f73d879329acb4b6d97a82b36c7c9f628e8ec403dc075d",
+    "proposed_body": "11月6日17時時点の引継ぎです。講演会の配布冊子は、製本所の納品明細と報告欄の番号が「明-562」で一致しています。先着分は同日15時28分に荷受場に到着しました。15時51分に確認した受領控えは未押印で、納品報告は未完了です。先着分の台車札と搬入証は照合済みです。16時39分時点で台車は会場の手前で待機しており、会場内での引き渡しは未了です。残り30冊については、製本所から翌朝の便に載せられる可能性があるとの連絡がありました。発送便は未確定です。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "r3",
+    "sentences": [
+      {
+        "end": 17,
+        "id": 1,
+        "start": 0,
+        "text": "11月6日17時時点の引継ぎです。"
+      },
+      {
+        "end": 59,
+        "id": 2,
+        "start": 17,
+        "text": "講演会の配布冊子は、製本所の納品明細と報告欄の番号が「明-562」で一致しています。"
+      },
+      {
+        "end": 83,
+        "id": 3,
+        "start": 59,
+        "text": "先着分は同日15時28分に荷受場に到着しました。"
+      },
+      {
+        "end": 115,
+        "id": 4,
+        "start": 83,
+        "text": "15時51分に確認した受領控えは未押印で、納品報告は未完了です。"
+      },
+      {
+        "end": 134,
+        "id": 5,
+        "start": 115,
+        "text": "先着分の台車札と搬入証は照合済みです。"
+      },
+      {
+        "end": 174,
+        "id": 6,
+        "start": 134,
+        "text": "16時39分時点で台車は会場の手前で待機しており、会場内での引き渡しは未了です。"
+      },
+      {
+        "end": 217,
+        "id": 7,
+        "start": 174,
+        "text": "残り30冊については、製本所から翌朝の便に載せられる可能性があるとの連絡がありました。"
+      },
+      {
+        "end": 227,
+        "id": 8,
+        "start": 217,
+        "text": "発送便は未確定です。"
+      }
+    ],
+    "source_sha256": "df1e1f2a15b79dc92a3e7062927666eed757bf52e796b8ff01a29e9d1b588335",
+    "status": "clear"
+  },
+  "unit_id": "I01-1"
+}

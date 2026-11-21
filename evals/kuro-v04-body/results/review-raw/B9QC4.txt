@@ -1,0 +1,11 @@
+{
+  "findings": [
+    {
+      "sentence_id": 2,
+      "quote": "で、今回使う団員も12人",
+      "reason": "原票の「12部」は届いた楽譜の部数を示す。楽譜を使う団員の人数は記録されていない。",
+      "checked_refs": ["GF-763"],
+      "replacement": ""
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "body": "案内番号は催-284で、変更後の開演時刻は18時30分です。緑町公民館で変更を発表したのは朗読会実行委員会です。変更報告の照合と正面掲示板への訂正ポスターの掲示は完了しています。",
+  "case_id": "J7814",
+  "category": "control",
+  "initial": null,
+  "job_id": "A2948",
+  "mode": "fixed",
+  "order": 1,
+  "review": {
+    "apply_elapsed_ns": 263285,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236878366354880,
+    "cli_started_unix_ns": 1795236860380897622,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 17985,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236878369602471,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "d7f971fd0cb383aef05ee4db96513f5ba86fb26d1adab2fd589da315c37b8525",
+    "prompt_sha256": "c17fb28f6dfc29921a29953f70a68d6c9b46cbbfdf9b644743b8cae2e6a3fa81",
+    "raw_file": "results/review-raw/A2948.txt",
+    "raw_sha256": "43ddf23bf69621318a54c8e0991ab731a55538a35e3dd7b737e0c99a479a4cf1",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13400,
+        "output_tokens": 567,
+        "reasoning_output_tokens": 456,
+        "total_tokens": 13967
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13400,
+        "output_tokens": 567,
+        "reasoning_output_tokens": 456,
+        "total_tokens": 13967
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc74-9259-79f1-a80c-e5791f82e9dd",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13400,
+      "output_tokens": 567,
+      "reasoning_output_tokens": 456
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13400,
+      "output_tokens": 567,
+      "reasoning_output_tokens": 456
+    }
+  },
+  "source_sha256": "f32267322036d760fb40e0d7eb8866aeedfa40f9c79f522151e4bca0439fb034",
+  "trace": {
+    "as_of": "2026-09-04T15:00:00+09:00",
+    "case_id": "J7814",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "KY-582"
+        ],
+        "end": 43,
+        "quote": "緑町公民館で変更を発表した",
+        "reason": "原票で緑町公民館と確認できるのは変更案内を受け取った場所です。朗読会実行委員会が発表した場所は記録されていません。",
+        "replacement": "緑町公民館で受け取った変更案内を発表した",
+        "sentence_id": 2,
+        "start": 30
+      }
+    ],
+    "original_body": "案内番号は催-284で、変更後の開演時刻は18時30分です。緑町公民館で変更を発表したのは朗読会実行委員会です。変更報告の照合と正面掲示板への訂正ポスターの掲示は完了しています。",
+    "packet_sha256": "d7f971fd0cb383aef05ee4db96513f5ba86fb26d1adab2fd589da315c37b8525",
+    "proposed_body": "案内番号は催-284で、変更後の開演時刻は18時30分です。緑町公民館で受け取った変更案内を発表したのは朗読会実行委員会です。変更報告の照合と正面掲示板への訂正ポスターの掲示は完了しています。",
+    "raw_review": "{\"findings\":[{\"sentence_id\":2,\"quote\":\"緑町公民館で変更を発表した\",\"reason\":\"原票で緑町公民館と確認できるのは変更案内を受け取った場所です。朗読会実行委員会が発表した場所は記録されていません。\",\"checked_refs\":[\"KY-582\"],\"replacement\":\"緑町公民館で受け取った変更案内を発表した\"}]}",
+    "revision": "r2",
+    "sentences": [
+      {
+        "end": 30,
+        "id": 1,
+        "start": 0,
+        "text": "案内番号は催-284で、変更後の開演時刻は18時30分です。"
+      },
+      {
+        "end": 56,
+        "id": 2,
+        "start": 30,
+        "text": "緑町公民館で変更を発表したのは朗読会実行委員会です。"
+      },
+      {
+        "end": 89,
+        "id": 3,
+        "start": 56,
+        "text": "変更報告の照合と正面掲示板への訂正ポスターの掲示は完了しています。"
+      }
+    ],
+    "source_sha256": "e1afc64548316a8b5b8de1b7e3ce92518b648bb9b1b93eeedaff9e1179a533bf",
+    "status": "flagged"
+  },
+  "unit_id": "A2948"
+}

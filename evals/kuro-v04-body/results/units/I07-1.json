@@ -1,0 +1,193 @@
+{
+  "body": "8月19日16時時点で、印刷見本の引き渡しは完了しています。見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。その場で安西さん本人の署名入り受領票を受け取りました。報告書の提出日欄は受領票の日付と一致しています。受領票の画像が未添付のため、提出報告は未完了です。",
+  "case_id": "U7PY4",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236713259208556,
+    "cli_started_unix_ns": 1795236693895136908,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 19364,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "468e1ba766e23de83b98e2bcb95787bec677c176f04e9eb1015ec269facb4d2a",
+    "raw_file": "results/initial-raw/I07-1.txt",
+    "raw_sha256": "4c54cc82025c19d1d2b88ad9982182207a23ee8615fdd0a194b39b432864b9ad",
+    "receiver_elapsed_ns": 394997,
+    "receiver_file": "results/paired/I07-1.json",
+    "receiver_finished_unix_ns": 1795236713263088790,
+    "receiver_sha256": "0104550b06f46fee13b25b079835dd645b0130390eab2cea1374eb377fafb08f",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 14681,
+        "output_tokens": 450,
+        "reasoning_output_tokens": 172,
+        "total_tokens": 15131
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 14681,
+        "output_tokens": 450,
+        "reasoning_output_tokens": 172,
+        "total_tokens": 15131
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc72-0813-7502-9b87-318100ded0ba",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 14681,
+      "output_tokens": 450,
+      "reasoning_output_tokens": 172
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 14681,
+      "output_tokens": 450,
+      "reasoning_output_tokens": 172
+    },
+    "wire_error": null
+  },
+  "job_id": "I07",
+  "mode": "independent",
+  "order": 1,
+  "review": {
+    "apply_elapsed_ns": 257097,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236823164147581,
+    "cli_started_unix_ns": 1795236818164849099,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 4999,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236823166870550,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "26936946f5fee06e04100a472f5af7062886b214ab2352a9a50284ce08a9d208",
+    "prompt_sha256": "61f217e7a08adac8e1a7843d5ff80c1b46dd372f4b5b2ad5ed1b4c8c6c982936",
+    "raw_file": "results/review-raw/I07-1.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13504,
+        "output_tokens": 34,
+        "reasoning_output_tokens": 23,
+        "total_tokens": 13538
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13504,
+        "output_tokens": 34,
+        "reasoning_output_tokens": 23,
+        "total_tokens": 13538
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc73-eda7-7562-8a2c-cba9776bb2f0",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13504,
+      "output_tokens": 34,
+      "reasoning_output_tokens": 23
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13504,
+      "output_tokens": 34,
+      "reasoning_output_tokens": 23
+    }
+  },
+  "source_sha256": "f364516ea19b60e34143d2ed00fce1f7f83508ae7f9408f4a87e153ff249ba88",
+  "trace": {
+    "as_of": "2026-08-19T16:00:00+09:00",
+    "case_id": "U7PY4",
+    "errors": [],
+    "findings": [],
+    "original_body": "8月19日16時時点で、印刷見本の引き渡しは完了しています。見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。その場で安西さん本人の署名入り受領票を受け取りました。報告書の提出日欄は受領票の日付と一致しています。受領票の画像が未添付のため、提出報告は未完了です。",
+    "packet_sha256": "26936946f5fee06e04100a472f5af7062886b214ab2352a9a50284ce08a9d208",
+    "proposed_body": "8月19日16時時点で、印刷見本の引き渡しは完了しています。見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。その場で安西さん本人の署名入り受領票を受け取りました。報告書の提出日欄は受領票の日付と一致しています。受領票の画像が未添付のため、提出報告は未完了です。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "r3",
+    "sentences": [
+      {
+        "end": 30,
+        "id": 1,
+        "start": 0,
+        "text": "8月19日16時時点で、印刷見本の引き渡しは完了しています。"
+      },
+      {
+        "end": 59,
+        "id": 2,
+        "start": 30,
+        "text": "見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。"
+      },
+      {
+        "end": 86,
+        "id": 3,
+        "start": 59,
+        "text": "その場で安西さん本人の署名入り受領票を受け取りました。"
+      },
+      {
+        "end": 110,
+        "id": 4,
+        "start": 86,
+        "text": "報告書の提出日欄は受領票の日付と一致しています。"
+      },
+      {
+        "end": 135,
+        "id": 5,
+        "start": 110,
+        "text": "受領票の画像が未添付のため、提出報告は未完了です。"
+      }
+    ],
+    "source_sha256": "871088df114a20bfa39dd711587e1e8270e6fc4242165fecfc98b4a04b5e207e",
+    "status": "clear"
+  },
+  "unit_id": "I07-1"
+}

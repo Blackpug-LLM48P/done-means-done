@@ -1,0 +1,187 @@
+{
+  "body": "10月21日11時時点で、植物園入口の券売機の復旧報告は完了しています。障害受付番号「障-719」は保守窓口の受付票と一致し、発券再開時刻の9時46分は券売機のログと一致しました。休止札の番号は撤去指示票と照合済みです。10時41分の現場確認では札はまだ対象機に掛かっており、当番による取り外しを待っています。",
+  "case_id": "J3026",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236789780329620,
+    "cli_started_unix_ns": 1795236775292538712,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 14488,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "61f082138e796d5fc31758512e636ce690fb5ff21767dba893f532d439776b2c",
+    "raw_file": "results/initial-raw/C01-4.txt",
+    "raw_sha256": "48be9bf9cf79f211133067676c04482cd1ebfece1b9e5dd35e9029fea42a7aff",
+    "receiver_elapsed_ns": 311885,
+    "receiver_file": "results/paired/C01-4.json",
+    "receiver_finished_unix_ns": 1795236789783228225,
+    "receiver_sha256": "8f7a3e152650748324bb670ae6eb68e83118609ce16e4d4030e23c2c9ccf803f",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 21888,
+        "input_tokens": 25385,
+        "output_tokens": 288,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 25673
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 58112,
+        "input_tokens": 80442,
+        "output_tokens": 1252,
+        "reasoning_output_tokens": 44,
+        "total_tokens": 81694
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 4,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc72-6a96-76e1-87df-c7b0471473f3",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 21888,
+      "input_tokens": 25385,
+      "output_tokens": 288,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 58112,
+      "input_tokens": 80442,
+      "output_tokens": 1252,
+      "reasoning_output_tokens": 44
+    },
+    "wire_error": null
+  },
+  "job_id": "C01",
+  "mode": "continuous",
+  "order": 4,
+  "review": {
+    "apply_elapsed_ns": 257079,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236833234386338,
+    "cli_started_unix_ns": 1795236823224310999,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 10010,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236833240439909,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "6b53d7ebb60bc318c9258049f61b591d6b0b2dd3605c2aa7328ccae124e2ac10",
+    "prompt_sha256": "b88b47ca2def6f1956d14a5497d775f6da29354fd139cf87226f2d040095303e",
+    "raw_file": "results/review-raw/C01-4.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13526,
+        "output_tokens": 48,
+        "reasoning_output_tokens": 37,
+        "total_tokens": 13574
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13526,
+        "output_tokens": 48,
+        "reasoning_output_tokens": 37,
+        "total_tokens": 13574
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc74-01e5-7a73-98af-3578f7077754",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13526,
+      "output_tokens": 48,
+      "reasoning_output_tokens": 37
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13526,
+      "output_tokens": 48,
+      "reasoning_output_tokens": 37
+    }
+  },
+  "source_sha256": "3dd73453588a5e02050ef3e4b52e9be18a554858d31fb8dd7f59fbbbc7c8f1eb",
+  "trace": {
+    "as_of": "2026-10-21T11:00:00+09:00",
+    "case_id": "J3026",
+    "errors": [],
+    "findings": [],
+    "original_body": "10月21日11時時点で、植物園入口の券売機の復旧報告は完了しています。障害受付番号「障-719」は保守窓口の受付票と一致し、発券再開時刻の9時46分は券売機のログと一致しました。休止札の番号は撤去指示票と照合済みです。10時41分の現場確認では札はまだ対象機に掛かっており、当番による取り外しを待っています。",
+    "packet_sha256": "6b53d7ebb60bc318c9258049f61b591d6b0b2dd3605c2aa7328ccae124e2ac10",
+    "proposed_body": "10月21日11時時点で、植物園入口の券売機の復旧報告は完了しています。障害受付番号「障-719」は保守窓口の受付票と一致し、発券再開時刻の9時46分は券売機のログと一致しました。休止札の番号は撤去指示票と照合済みです。10時41分の現場確認では札はまだ対象機に掛かっており、当番による取り外しを待っています。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "r4",
+    "sentences": [
+      {
+        "end": 36,
+        "id": 1,
+        "start": 0,
+        "text": "10月21日11時時点で、植物園入口の券売機の復旧報告は完了しています。"
+      },
+      {
+        "end": 90,
+        "id": 2,
+        "start": 36,
+        "text": "障害受付番号「障-719」は保守窓口の受付票と一致し、発券再開時刻の9時46分は券売機のログと一致しました。"
+      },
+      {
+        "end": 110,
+        "id": 3,
+        "start": 90,
+        "text": "休止札の番号は撤去指示票と照合済みです。"
+      },
+      {
+        "end": 155,
+        "id": 4,
+        "start": 110,
+        "text": "10時41分の現場確認では札はまだ対象機に掛かっており、当番による取り外しを待っています。"
+      }
+    ],
+    "source_sha256": "3e6798f5ad8855f8dded9cab5fea403306f98b3d16aa4821487a4e12b39f95b4",
+    "status": "clear"
+  },
+  "unit_id": "C01-4"
+}
