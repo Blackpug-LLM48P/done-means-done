@@ -103,8 +103,90 @@ class BoundaryTests(unittest.TestCase):
         self.assertEqual(self.cell('L01「OK」に対しL02「Done」')[0], 0)
         self.assertEqual(self.cell('失敗したのはL02「Done」')[0], 0)
 
+    def test_version_in_prose_keeps_quotes_attributed_to_preceding_block(self):
+        record = '[L35] tool\n正規化済み\n通常別名が参照するv3に差分なし\n追加なし\n[L36] tool\n別の結果\n'
+        evidence = 'L35「正規化済み」、通常別名のv3と全件比較して「差分なし」。さらに「追加なし」。'
+        code, out = self.cell(evidence, records={'r': record})
+        self.assertEqual(code, 0, out)
+        self.assertIn('3 found in cited blocks', out)
+
+        code, out = self.cell(evidence.replace('差分なし', '別の結果'), records={'r': record})
+        self.assertEqual(code, 1, out)
+        self.assertIn('WRONG PLACE', out)
+
+    def test_explicit_version_shaped_id_is_checked(self):
+        for citation in ('v3', '[v3]'):
+            with self.subTest(citation=citation):
+                evidence = citation + '「OK」'
+                code, out = self.cell(evidence, records={'r': RECORD + '[v3] tool\nOK\n'})
+                self.assertEqual(code, 0, out)
+                self.assertIn('1 found in cited blocks', out)
+
+                code, out = self.cell(evidence)
+                self.assertEqual(code, 1, out)
+                self.assertIn('UNKNOWN ID', out)
+
+    def test_version_shaped_source_named_in_prose_is_checked(self):
+        records = {'r': RECORD + '[v3] tool\nStopped\n'}
+        for evidence in ('from v3, the tool reported "Done"',
+                         'L02「Done」。Source v3 reports「Done」',
+                         '記録v3によると「Done」'):
+            with self.subTest(evidence=evidence):
+                code, out = self.cell(evidence, records=records)
+                self.assertEqual(code, 1, out)
+                self.assertIn('WRONG PLACE', out)
+
+        code, out = self.cell('source v99 reports "Done"', records=records)
+        self.assertEqual(code, 1, out)
+        self.assertIn('UNKNOWN ID', out)
+
+    def test_quote_then_comma_does_not_turn_separate_sources_into_an_id_list(self):
+        source = '[L35] tool\nv3 alias: red blue\n'
+        code, out = self.cell('L35「red」、v3「blue」',
+                              records={'r': source + '[v3] tool\ngreen\n'})
+        self.assertEqual(code, 1, out)
+        self.assertIn('WRONG PLACE', out)
+
+        code, out = self.cell('L35「red」、別名 v3 の差分を確認して「blue」', records={'r': source})
+        self.assertEqual(code, 0, out)
+        self.assertIn('2 found in cited blocks', out)
+
+    def test_labelled_version_in_the_preceding_source_keeps_its_citation(self):
+        records = {'r': '[T18] tool\nRelease v7 is ready. All matched.\n'}
+        for evidence in ('T18 "ready". The version v7 tests all "matched".',
+                         'T18「ready」 検査した版名：v7では「matched」。',
+                         'T18 used alias v7 for the "matched" result.'):
+            with self.subTest(evidence=evidence):
+                code, out = self.cell(evidence, records=records)
+                self.assertEqual(code, 0, out)
+                self.assertIn('0 found by whole-record search only', out)
+
+    def test_labelled_version_requires_exact_token_and_respects_real_block(self):
+        evidence = 'T18 "ready". The version v7 tests all "matched".'
+        for version in ('v70', 'v7.1'):
+            with self.subTest(version=version):
+                code, out = self.cell(evidence, records={'r': f'[T18] tool\n{version} ready matched\n'})
+                self.assertEqual(code, 1, out)
+                self.assertIn('UNKNOWN ID', out)
+
+        record = '[T18] tool\nv7 ready matched\n[v7] tool\nfailed\n'
+        code, out = self.cell(evidence, records={'r': record})
+        self.assertEqual(code, 1, out)
+        self.assertIn('WRONG PLACE', out)
+
     def test_bare_filename_is_not_a_block_citation(self):
         self.assertEqual(self.cell('L99.txt「OK」')[0], 0)
+
+    def test_colon_cites_a_block_when_it_immediately_introduces_the_quote(self):
+        for evidence, expected_exit, expected_output in (
+            ('L01: "OK"', 0, '1 found in cited blocks'),
+            ('L99: "OK"', 1, 'UNKNOWN ID'),
+            ('L99: literal-path "OK"', 0, '1 found by whole-record search only'),
+        ):
+            with self.subTest(evidence=evidence):
+                code, out = self.cell(evidence)
+                self.assertEqual(code, expected_exit, out)
+                self.assertIn(expected_output, out)
 
     def test_inconsistent_padding_cannot_change_range_endpoint(self):
         for tail in ['L01-L2', 'L1-L02']:
