@@ -1,0 +1,12 @@
+{
+  "sealed_sha256": "1f3fd2c8dda96cbf2f01f5c5debef632eef0761b198f9435a75cd5c590eddf0f",
+  "source_sha256": {
+    "SPEC.md": "d226c6e1e2cd6be4cb7ec4ac273a3982a65f2d938109739ee0cfbe1a7c470389",
+    "generate.py": "55c297d758b0672907f1e2aa8e551786805c4e2794ec5d4dafd9c7af372fe548",
+    "oracle.py": "28ef5d53d9ef74b8a0b706e1a5a9b32771d2c0cfb211924d8cbb5f0e4f34f1f7"
+  },
+  "visible_in_author_directory": [
+    "SPEC.md"
+  ],
+  "method": "AES-256-GCM; temporary operator key withheld from workers; plaintext roundtrip checked before removal"
+}
