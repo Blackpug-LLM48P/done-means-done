@@ -1,0 +1,1026 @@
+[
+  {
+    "body": "当直者が運転日誌に転記した水位速報は、監視員が午後十時に送信したものだった。速報の対象は北側水門だった。日誌の記入欄は「水位観測」だった。",
+    "case": {
+      "as_of": "2026-11-19T15:00:00+09:00",
+      "case_id": "J-75b2740ddca14e38",
+      "records": [
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-75b2740ddca14e38",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "当直者が、監視員から届いた水位速報を運転日誌に転記した。日誌への転記時刻は午後十時と記され、速報の送信時刻の欄は空欄だった。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-75b2740ddca14e38",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "速報の対象は北側水門だった。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-75b2740ddca14e38",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "日誌の記入欄は「水位観測」だった。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "known",
+    "id": "Q-1217c91d198fad5d",
+    "r1_raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"午後十時に送信したものだった\",\n      \"reason\": \"午後十時は日誌への転記時刻として記されている。速報の送信時刻欄は空欄で、監視員が午後十時に送信したとは確認できない。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"送信したもので、日誌への転記時刻は午後十時と記されていた\"\n    }\n  ]\n}"
+  },
+  {
+    "body": "高松の見学会は6月12日と19日の両日、午前と午後に開かれる。参加には事前の申し込みが必要だ。参加費は1人300円だ。",
+    "case": {
+      "as_of": "2026-11-21T09:00:00+09:00",
+      "case_id": "J-1a26f9c0907bbf55",
+      "records": [
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-1a26f9c0907bbf55",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "高松の見学会は、午前の部を6月12日と19日に設定した。午後の部の日程は調整中だ。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-1a26f9c0907bbf55",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "参加には事前の申し込みが必要だ。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-1a26f9c0907bbf55",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "参加費は1人300円だ。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "new",
+    "id": "Q-183542fcdee60357",
+    "r1_raw": "{\"findings\": [{\"checked_refs\": [\"E1\"], \"quote\": \"高松の見学会は6月12日と19日の両日、午前と午後に開かれる。\", \"reason\": \"原票と本文の関係を照合した。\", \"replacement\": \"高松の見学会は午前の部が6月12日と19日に決まり、午後の部は日程を調整している。\", \"sentence_id\": 1}]}"
+  },
+  {
+    "body": "展示写真の原版を受け取ったのは広報係の森さんだ。貸出台帳に記載された原版の返却期限は12月12日。展示要項で指定されたクレジット表記は「市史資料室所蔵」。",
+    "case": {
+      "as_of": "2026-11-21T09:00:00+09:00",
+      "case_id": "J-25de13a4b2e51dc5",
+      "records": [
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-25de13a4b2e51dc5",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "原版の引渡簿で「展示写真」の行は受領済み。受領部署は「広報係」で、受領者の氏名欄は空欄。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-25de13a4b2e51dc5",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "貸出台帳に記載された原版の返却期限は12月12日。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-25de13a4b2e51dc5",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "展示要項で指定されたクレジット表記は「市史資料室所蔵」。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "new",
+    "id": "Q-18ed676459851b14",
+    "r1_raw": "{\"findings\": [{\"checked_refs\": [\"E1\"], \"quote\": \"展示写真の原版を受け取ったのは広報係の森さんだ。\", \"reason\": \"原票と本文の関係を照合した。\", \"replacement\": \"展示写真の原版は受領済みだ。\", \"sentence_id\": 1}]}"
+  },
+  {
+    "body": "編集者が受け取った夜景写真三点は、いずれも写真家が神戸で撮影したものだった。写真の整理番号は一番から三番だった。掲載予定は冬号だった。",
+    "case": {
+      "as_of": "2026-11-19T15:00:00+09:00",
+      "case_id": "J-f50167836752d043",
+      "records": [
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-f50167836752d043",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "編集者は神戸で写真家が撮影した夜景写真三点を受け取った。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-f50167836752d043",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "写真の整理番号は一番から三番だった。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-f50167836752d043",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "掲載予定は冬号だった。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "known",
+    "id": "Q-22ec7966f4d374ab",
+    "r1_raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"神戸で\",\n      \"reason\": \"E1の「神戸で」は、写真家が撮影した場所とも、編集者が写真を受け取った場所とも読めるため、撮影場所を神戸と断定できない。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"\"\n    }\n  ]\n}"
+  },
+  {
+    "body": "展示写真の原版を受け取ったのは広報係の森さんだ。貸出台帳に記載された原版の返却期限は12月12日。展示要項で指定されたクレジット表記は「市史資料室所蔵」。",
+    "case": {
+      "as_of": "2026-11-21T09:00:00+09:00",
+      "case_id": "J-25de13a4b2e51dc5",
+      "records": [
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-25de13a4b2e51dc5",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "原版の引渡簿で「展示写真」の行は受領済み。受領部署は「広報係」で、受領者の氏名欄は空欄。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-25de13a4b2e51dc5",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "貸出台帳に記載された原版の返却期限は12月12日。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-25de13a4b2e51dc5",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "展示要項で指定されたクレジット表記は「市史資料室所蔵」。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "new",
+    "id": "Q-28a06c9a71e5450f",
+    "r1_raw": "{\"findings\": [{\"checked_refs\": [\"E1\"], \"quote\": \"展示写真の原版を受け取ったのは広報係の森さんだ。\", \"reason\": \"原票と本文の関係を照合した。\", \"replacement\": \"展示写真の原版は広報係に引き渡された。\", \"sentence_id\": 1}]}"
+  },
+  {
+    "body": "物置で見つかったのは航海日誌の原本で、資料館はその写しを受け取った。日誌を書いたのは船長の木島さんだった。資料館が写しを受け取ったのは六月八日だった。",
+    "case": {
+      "as_of": "2026-11-19T15:00:00+09:00",
+      "case_id": "J-e4b5ba789de9c0e9",
+      "records": [
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-e4b5ba789de9c0e9",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "物置で見つかったのは航海日誌の写しだった。原本は船主の家に保管されており、資料館は物置から出た写しを受け取った。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-e4b5ba789de9c0e9",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "日誌を書いたのは船長の木島さんだった。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-e4b5ba789de9c0e9",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "資料館が写しを受け取ったのは六月八日だった。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "known",
+    "id": "Q-33ad670bc45a2fd7",
+    "r1_raw": "{\"findings\":[{\"sentence_id\":1,\"quote\":\"原本\",\"reason\":\"物置で見つかり、資料館が受け取ったのは航海日誌の写しである。原本は船主の家に保管されていた。\",\"checked_refs\":[\"E1\"],\"replacement\":\"写し\"}]}"
+  },
+  {
+    "body": "回収した端材の正味重量は18.7キロだった。梱包指示書では、端材の搬出に青い通い箱を使う。配車表に記載された集荷時刻は木曜の午前10時。",
+    "case": {
+      "as_of": "2026-11-21T09:00:00+09:00",
+      "case_id": "J-04b383a5d5d2d529",
+      "records": [
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-04b383a5d5d2d529",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "回収した端材の計量票は「正味 18.□ kg」と読める。□は印字がにじんで読めない数字1桁。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-04b383a5d5d2d529",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "梱包指示書では、端材の搬出に青い通い箱を使う。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-04b383a5d5d2d529",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "配車表に記載された集荷時刻は木曜の午前10時。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "new",
+    "id": "Q-6699505380377aef",
+    "r1_raw": "{\"findings\": [{\"checked_refs\": [\"E1\"], \"quote\": \"回収した端材の正味重量は18.7キロだった。\", \"reason\": \"原票と本文の関係を照合した。\", \"replacement\": \"回収した端材の正味重量は18キロ台だった。\", \"sentence_id\": 1}]}"
+  },
+  {
+    "body": "司会者は野村さんに閉会の挨拶を頼み、そのことを小森さんに伝えた。式典の会場は桐野ホールだった。開式は午後二時だった。",
+    "case": {
+      "as_of": "2026-11-19T15:00:00+09:00",
+      "case_id": "J-27d258f3b8363784",
+      "records": [
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-27d258f3b8363784",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "司会者は野村さんに閉会の挨拶を頼んだと伝えた。野村さんと小森さんのうち、一人が挨拶の依頼を受け、もう一人がその依頼について司会者から報告を受けた。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-27d258f3b8363784",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "式典の会場は桐野ホールだった。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-27d258f3b8363784",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "開式は午後二時だった。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "known",
+    "id": "Q-825d3ee27395c995",
+    "r1_raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"野村さんに閉会の挨拶を頼み、そのことを小森さん\",\n      \"reason\": \"「野村さんに」は「頼んだ」にも「伝えた」にも掛かり得る。野村さんと小森さんがそれぞれ依頼と報告のいずれかを受けたことは明示されているが、どちらが依頼を受けたかは特定できない。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"野村さんと小森さんのうち一人に閉会の挨拶を頼んだと、もう一人\"\n    }\n  ]\n}"
+  },
+  {
+    "body": "古地図は松江の資料保存室で撮影し、その画像も同じ部屋で公開する。撮影の対象は江戸時代の古地図12枚だ。各画像には地名を読み解くための解説が付く。",
+    "case": {
+      "as_of": "2026-11-21T09:00:00+09:00",
+      "case_id": "J-9f3bccc9f97593fc",
+      "records": [
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-9f3bccc9f97593fc",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "古地図は松江の資料保存室で撮影する。画像の公開場所は未定だ。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-9f3bccc9f97593fc",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "撮影の対象は江戸時代の古地図12枚だ。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-9f3bccc9f97593fc",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "各画像には地名を読み解くための解説が付く。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "new",
+    "id": "Q-8ed003bc35b3c9f8",
+    "r1_raw": "{\"findings\": [{\"checked_refs\": [\"E1\"], \"quote\": \"古地図は松江の資料保存室で撮影し、その画像も同じ部屋で公開する。\", \"reason\": \"原票と本文の関係を照合した。\", \"replacement\": \"古地図を撮影して画像を公開する予定で、どこでその画像を見られるようにするかは未定だ。\", \"sentence_id\": 1}]}"
+  },
+  {
+    "body": "当直者が運転日誌に転記した水位速報は、監視員が午後十時に送信したものだった。速報の対象は北側水門だった。日誌の記入欄は「水位観測」だった。",
+    "case": {
+      "as_of": "2026-11-19T15:00:00+09:00",
+      "case_id": "J-75b2740ddca14e38",
+      "records": [
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-75b2740ddca14e38",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "当直者は午後十時に監視員が送信した水位速報を運転日誌に転記した。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-75b2740ddca14e38",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "速報の対象は北側水門だった。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-75b2740ddca14e38",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "日誌の記入欄は「水位観測」だった。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "known",
+    "id": "Q-9d2e2f2a7972e6f0",
+    "r1_raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"午後十時に送信したものだった\",\n      \"reason\": \"E1の「午後十時に」は、監視員が送信した時刻とも、当直者が転記した時刻とも読める。本文は送信時刻に限定している。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"送信したものだった。原票の「午後十時に」が送信と転記のどちらにかかるかは特定できない\"\n    }\n  ]\n}"
+  },
+  {
+    "body": "編集者が受け取った夜景写真三点は、いずれも写真家が神戸で撮影したものだった。写真の整理番号は一番から三番だった。掲載予定は冬号だった。",
+    "case": {
+      "as_of": "2026-11-19T15:00:00+09:00",
+      "case_id": "J-f50167836752d043",
+      "records": [
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-f50167836752d043",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "編集者が、写真家の撮影した夜景写真三点を受け取った。三点の受取地は神戸と記され、撮影地の欄は空欄だった。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-f50167836752d043",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "写真の整理番号は一番から三番だった。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-f50167836752d043",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "掲載予定は冬号だった。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "known",
+    "id": "Q-a57c566c2fe881b6",
+    "r1_raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"神戸で撮影した\",\n      \"reason\": \"原票で神戸と記されているのは三点の受取地で、撮影地の欄は空欄だった。神戸を撮影地とする根拠はない。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"撮影し、受取地が神戸と記された\"\n    }\n  ]\n}"
+  },
+  {
+    "body": "高松の見学会は6月12日と19日の両日、午前と午後に開かれる。参加には事前の申し込みが必要だ。参加費は1人300円だ。",
+    "case": {
+      "as_of": "2026-11-21T09:00:00+09:00",
+      "case_id": "J-1a26f9c0907bbf55",
+      "records": [
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-1a26f9c0907bbf55",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "高松の見学会は、午前の部を6月12日と19日に設定した。午後の部の日程は調整中だ。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-1a26f9c0907bbf55",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "参加には事前の申し込みが必要だ。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-1a26f9c0907bbf55",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "参加費は1人300円だ。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "new",
+    "id": "Q-aff171db90ea7038",
+    "r1_raw": "{\"findings\": [{\"checked_refs\": [\"E1\"], \"quote\": \"高松の見学会は6月12日と19日の両日、午前と午後に開かれる。\", \"reason\": \"原票と本文の関係を照合した。\", \"replacement\": \"高松の見学会は午前の部の日程が決まり、午後の部は開催日の調整を続けている。\", \"sentence_id\": 1}]}"
+  },
+  {
+    "body": "物置で見つかったのは航海日誌の原本で、資料館はその写しを受け取った。日誌を書いたのは船長の木島さんだった。資料館が写しを受け取ったのは六月八日だった。",
+    "case": {
+      "as_of": "2026-11-19T15:00:00+09:00",
+      "case_id": "J-e4b5ba789de9c0e9",
+      "records": [
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-e4b5ba789de9c0e9",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "資料館は、物置で見つかった航海日誌の写しを受け取った。物置から出たのは一点だけだった。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-e4b5ba789de9c0e9",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "日誌を書いたのは船長の木島さんだった。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-e4b5ba789de9c0e9",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "資料館が写しを受け取ったのは六月八日だった。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "known",
+    "id": "Q-bc3f0846a58808ab",
+    "r1_raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"原本で\",\n      \"reason\": \"E1の「物置で見つかった」は「航海日誌」にも「写し」にもかかり得る。物置から出たのは一点だが、それが原本だったとは特定できない。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"原本か写しのどちらか一点で\"\n    }\n  ]\n}"
+  },
+  {
+    "body": "古地図は松江の資料保存室で撮影し、その画像も同じ部屋で公開する。撮影の対象は江戸時代の古地図12枚だ。各画像には地名を読み解くための解説が付く。",
+    "case": {
+      "as_of": "2026-11-21T09:00:00+09:00",
+      "case_id": "J-9f3bccc9f97593fc",
+      "records": [
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-9f3bccc9f97593fc",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "古地図は松江の資料保存室で撮影する。画像の公開場所は未定だ。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-9f3bccc9f97593fc",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "撮影の対象は江戸時代の古地図12枚だ。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-9f3bccc9f97593fc",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "各画像には地名を読み解くための解説が付く。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "new",
+    "id": "Q-ca095a748f79bf3c",
+    "r1_raw": "{\"findings\": [{\"checked_refs\": [\"E1\"], \"quote\": \"古地図は松江の資料保存室で撮影し、その画像も同じ部屋で公開する。\", \"reason\": \"原票と本文の関係を照合した。\", \"replacement\": \"古地図の撮影は松江の資料保存室で行い、画像をどこで公開するかはまだ決まっていない。\", \"sentence_id\": 1}]}"
+  },
+  {
+    "body": "司会者は野村さんに閉会の挨拶を頼み、そのことを小森さんに伝えた。式典の会場は桐野ホールだった。開式は午後二時だった。",
+    "case": {
+      "as_of": "2026-11-19T15:00:00+09:00",
+      "case_id": "J-27d258f3b8363784",
+      "records": [
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-27d258f3b8363784",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "閉会の挨拶を司会者から頼まれたのは小森さんだった。司会者はその依頼について野村さんに報告した。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-27d258f3b8363784",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "式典の会場は桐野ホールだった。"
+        },
+        {
+          "at": "2026-11-19T15:00:00+09:00",
+          "available_at": "2026-11-19T15:00:00+09:00",
+          "case_id": "J-27d258f3b8363784",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "開式は午後二時だった。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "known",
+    "id": "Q-cc884a9abc47581c",
+    "r1_raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"野村さん\",\n      \"reason\": \"E1では、司会者が閉会の挨拶を頼んだ相手は小森さんである。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"小森さん\"\n    },\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"小森さん\",\n      \"reason\": \"E1では、司会者がその依頼について報告した相手は野村さんである。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"野村さん\"\n    }\n  ]\n}"
+  },
+  {
+    "body": "回収した端材の正味重量は18.7キロだった。梱包指示書では、端材の搬出に青い通い箱を使う。配車表に記載された集荷時刻は木曜の午前10時。",
+    "case": {
+      "as_of": "2026-11-21T09:00:00+09:00",
+      "case_id": "J-04b383a5d5d2d529",
+      "records": [
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-04b383a5d5d2d529",
+          "check": "原票照合",
+          "ref": "E1",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "回収した端材の計量票は「正味 18.□ kg」と読める。□は印字がにじんで読めない数字1桁。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-04b383a5d5d2d529",
+          "check": "原票照合",
+          "ref": "E2",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "梱包指示書では、端材の搬出に青い通い箱を使う。"
+        },
+        {
+          "at": "2026-11-21T09:00:00+09:00",
+          "available_at": "2026-11-21T09:00:00+09:00",
+          "case_id": "J-04b383a5d5d2d529",
+          "check": "原票照合",
+          "ref": "E3",
+          "result": "met",
+          "revision": "r1",
+          "scope": "report",
+          "source": "direct",
+          "text": "配車表に記載された集荷時刻は木曜の午前10時。"
+        }
+      ],
+      "request": "原票に基づき、この案件の引き継ぎ本文を照合してください。",
+      "revision": "r1",
+      "scopes": {
+        "operation": {
+          "checks": [
+            "実施記録"
+          ],
+          "name": "後続業務"
+        },
+        "report": {
+          "checks": [
+            "原票照合"
+          ],
+          "name": "引き継ぎ"
+        }
+      }
+    },
+    "cohort": "new",
+    "id": "Q-f12b38e5bffa8ec5",
+    "r1_raw": "{\"findings\": [{\"checked_refs\": [\"E1\"], \"quote\": \"回収した端材の正味重量は18.7キロだった。\", \"reason\": \"原票と本文の関係を照合した。\", \"replacement\": \"計量の結果、回収した端材の正味重量は20キロを下回った。\", \"sentence_id\": 1}]}"
+  }
+]

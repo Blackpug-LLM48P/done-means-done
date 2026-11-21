@@ -1,0 +1,130 @@
+[
+  {
+    "cohort": "known",
+    "expected": "approve",
+    "family": "F2",
+    "id": "Q-1217c91d198fad5d",
+    "prior_id": "L-eba686f0dac3b1c0",
+    "prior_verdict": "approve"
+  },
+  {
+    "cohort": "new",
+    "expected": "approve",
+    "family": "N3",
+    "id": "Q-183542fcdee60357",
+    "prior_id": null,
+    "prior_verdict": null
+  },
+  {
+    "cohort": "new",
+    "expected": "hold",
+    "family": "N1",
+    "id": "Q-18ed676459851b14",
+    "prior_id": null,
+    "prior_verdict": null
+  },
+  {
+    "cohort": "known",
+    "expected": "hold",
+    "family": "F1",
+    "id": "Q-22ec7966f4d374ab",
+    "prior_id": "L-a9d8bcdc7ec40ea9",
+    "prior_verdict": "approve"
+  },
+  {
+    "cohort": "new",
+    "expected": "approve",
+    "family": "N1",
+    "id": "Q-28a06c9a71e5450f",
+    "prior_id": null,
+    "prior_verdict": null
+  },
+  {
+    "cohort": "known",
+    "expected": "approve",
+    "family": "F3",
+    "id": "Q-33ad670bc45a2fd7",
+    "prior_id": "L-a9fde8416d97ee36",
+    "prior_verdict": "approve"
+  },
+  {
+    "cohort": "new",
+    "expected": "approve",
+    "family": "N2",
+    "id": "Q-6699505380377aef",
+    "prior_id": null,
+    "prior_verdict": null
+  },
+  {
+    "cohort": "known",
+    "expected": "approve",
+    "family": "F4",
+    "id": "Q-825d3ee27395c995",
+    "prior_id": "L-ab0a5618adc28d81",
+    "prior_verdict": "approve"
+  },
+  {
+    "cohort": "new",
+    "expected": "hold",
+    "family": "N4",
+    "id": "Q-8ed003bc35b3c9f8",
+    "prior_id": null,
+    "prior_verdict": null
+  },
+  {
+    "cohort": "known",
+    "expected": "approve",
+    "family": "F2",
+    "id": "Q-9d2e2f2a7972e6f0",
+    "prior_id": "L-d72b8e69c537cb91",
+    "prior_verdict": "approve"
+  },
+  {
+    "cohort": "known",
+    "expected": "approve",
+    "family": "F1",
+    "id": "Q-a57c566c2fe881b6",
+    "prior_id": "L-fa76c826657e03b9",
+    "prior_verdict": "approve"
+  },
+  {
+    "cohort": "new",
+    "expected": "hold",
+    "family": "N3",
+    "id": "Q-aff171db90ea7038",
+    "prior_id": null,
+    "prior_verdict": null
+  },
+  {
+    "cohort": "known",
+    "expected": "approve",
+    "family": "F3",
+    "id": "Q-bc3f0846a58808ab",
+    "prior_id": "L-9e08e46e769a4191",
+    "prior_verdict": "approve"
+  },
+  {
+    "cohort": "new",
+    "expected": "approve",
+    "family": "N4",
+    "id": "Q-ca095a748f79bf3c",
+    "prior_id": null,
+    "prior_verdict": null
+  },
+  {
+    "cohort": "known",
+    "expected": "approve",
+    "family": "F4",
+    "id": "Q-cc884a9abc47581c",
+    "prior_id": "L-86c528ac16c8788b",
+    "prior_verdict": "approve"
+  },
+  {
+    "cohort": "new",
+    "expected": "hold",
+    "family": "N2",
+    "id": "Q-f12b38e5bffa8ec5",
+    "prior_id": null,
+    "prior_verdict": null
+  }
+]
