@@ -1,0 +1,202 @@
+{
+  "T-0419975874d4d4c46aa32e327c887ac4": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "薄紙を挟んだ効果だ",
+        "reason": "発送控えは薄紙を挟み始めた便を、検品票は各便の擦れの件数を記録している。検品票の原因欄に記入はなく、薄紙によって擦れが減ったという因果関係は確認できない。"
+      }
+    ]
+  },
+  "T-09516d3bd051fd95fa38170483303271": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      3
+    ],
+    "issues": [
+      {
+        "sentence_id": 3,
+        "quote": "第三バースのシャッター点検のため",
+        "reason": "点検が行われたことと八分遅れて発車したことは別々に記録されている。運行日報の遅延理由欄は空欄で、点検が遅延原因だという記載はない。"
+      }
+    ]
+  },
+  "T-0b0f54d029ff534a04ee3f6a49700c84": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-0c1977697e331044159b753ff6eb18bb": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-172a299b7d65e69417198c348deb8161": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-1b2d873d0ab041f16117a24bc1771ab9": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "赤い札の台車だけが今回の点検対象だ",
+        "reason": "整備指示書の点検対象は全8台で、札の色は戻し先の区別に使う。赤い札で対象を限定するという指示はない。"
+      }
+    ]
+  },
+  "T-208eddf9b8fa7c735bbfc804be2b9ec4": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      3
+    ],
+    "issues": [
+      {
+        "sentence_id": 3,
+        "quote": "西村さんの提案で",
+        "reason": "出席簿は西村さんと内田さんの出席を示す。時刻を決めた議事メモの発案者欄は空欄で、西村さんへの帰属を支持しない。"
+      }
+    ]
+  },
+  "T-2a4c4f1705b32cf422e17039b5ef6d32": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-2fded07679f2205109f571e5b36f690a": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-5e59e8ec92ffac42c766ddd908cb210b": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-6dcc113e92d4929d0def9fa50c6738c2": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-6e38145e1ac235204f2968851c3cf8fc": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-80b67fb34707eca35b7436410862688a": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "作家自身が入口に選んだ",
+        "reason": "展示台帳にあるのは入口に掛ける作品名で、選んだ人の記録はない。作家が了承したのは作品名札の文字サイズである。"
+      }
+    ]
+  },
+  "T-a6ed4ff14e74259009b7d93c2faae92d": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "高校生まで無料の朗読会と影絵劇",
+        "reason": "二つの催しを並べた料金案内として読むと、高校生まで無料という条件が影絵劇にもかかる。券種表で高校生まで無料なのは朗読会だけで、影絵劇は全年齢五百円である。"
+      }
+    ]
+  },
+  "T-a9c1ef45bace6d462bdbdda8266c2690": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-d24d97c0d08c760e90fde5fd4686c699": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-efdf764c47c7db6b4ebab6605a86ea0a": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      1
+    ],
+    "issues": [
+      {
+        "sentence_id": 1,
+        "quote": "ひな壇用の支柱12本は音響係が舞台脇へ運んだ",
+        "reason": "搬入チェック表では支柱12本を運んだのは設営係である。音響係の完了印はマイクワゴンの搬入に付いている。"
+      }
+    ]
+  },
+  "T-f2091d51beb65b9e7ca919d1e3264654": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  }
+}

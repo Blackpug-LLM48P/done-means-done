@@ -1,0 +1,2899 @@
+[
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": true,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": false,
+      "unsafe_offers": true,
+      "wrongly_held_good_edits": false
+    },
+    "group": "diagnostic",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": false,
+    "reader_candidate_bad": [],
+    "reader_correction_pass": true,
+    "reader_original_bad": [
+      2
+    ],
+    "reader_reference": {
+      "gated": {
+        "action": "offer",
+        "clean_originals_untouched": false,
+        "good_offers": true,
+        "holds": false,
+        "incorrect_edited_clean_originals": false,
+        "missed_needed_repairs": false,
+        "offers": true,
+        "pass_through": false,
+        "strict_task_success": true,
+        "unsafe_offers": false,
+        "wrongly_held_good_edits": false
+      },
+      "standalone": {
+        "action": "offer",
+        "clean_originals_untouched": false,
+        "good_offers": true,
+        "holds": false,
+        "incorrect_edited_clean_originals": false,
+        "missed_needed_repairs": false,
+        "offers": true,
+        "pass_through": false,
+        "strict_task_success": true,
+        "unsafe_offers": false,
+        "wrongly_held_good_edits": false
+      }
+    },
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": true,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": false,
+      "unsafe_offers": true,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "A2948",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "H-01",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      1
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      1
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "H-02",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [],
+    "explicit_verifier_hold": true,
+    "gated": {
+      "action": "hold",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": true,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": false,
+      "strict_task_success": false,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true,
+      true
+    ],
+    "r1_correction_pass": false,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": true,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": false,
+      "unsafe_offers": true,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "H-03",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "hold"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      1
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      1
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "H-04",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      2
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "novel",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      2
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "N01",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [
+      1
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": false,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": true,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": false,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "novel",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": false,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": false,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": true,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": false,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "N02",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "novel",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "N03",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      3
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "novel",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      3
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "N04",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "novel",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "N05",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [
+      2
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": false,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": true,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": false,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "novel",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": false,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": false,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": true,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": false,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "N06",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "novel",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "N07",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      2
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "novel",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      2
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "N08",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      1
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "novel",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      1
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "N09",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "novel",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "N10",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      3
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "novel",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      3
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "N11",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      2
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "novel",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      2
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "N12",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      2
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      2
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-0ad89fff0c785568",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-0e9695e4492129d1",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-1a55d0c7c3174ef8",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-1b6bd8f8a8630768",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-226b9414d635fd33",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-2fd5c8dd1739176a",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      4
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      4
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-32e139d7bbb76c5e",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-3bfea86cf8f7aa3b",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-54ae49307f71b192",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      2
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      2
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-59739b7c95950d48",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      2
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      2
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-5cb5f0e4d2c19f51",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      1
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      1
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-6227aa98fb3a7052",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": true,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": false,
+      "unsafe_offers": true,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": false,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": true,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": false,
+      "unsafe_offers": true,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-62a5f96f41374d48",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-673c0adf7376bb41",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-6b9d006ada286bbe",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-6e3d2760dc34509e",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      2
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      2
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-7c3365bad1c6c4b5",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-7d60373fd1272e34",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-7fae6881c4811602",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-81243443d3ec2482",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      4
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      4
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-8afe19164f7fae9a",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      2
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      2
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-90c521b0be2df01b",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      1
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      1
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-932f9b860cddda0e",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      2
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      2
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-98b7ccf83661d429",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-98d3bdbe0885ec78",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      1
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      1
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-a484db69049ee704",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-a65134e298934db4",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      2
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": true,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": false,
+      "unsafe_offers": true,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": false,
+    "reader_candidate_bad": [
+      2
+    ],
+    "reader_original_bad": [
+      2
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": true,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": false,
+      "unsafe_offers": true,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-b427dd068286a25f",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      4
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      4
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-b9792e28c42f5c61",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-c5882257f7d96b5d",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      4
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      4
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-cc2d485c596aa003",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-d14ae1bfa3d10d63",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      1
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      1
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-e445f06d6c970951",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": true,
+    "expected_sentences": [
+      2
+    ],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": true,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [
+      2
+    ],
+    "review_error": false,
+    "review_status": "flagged",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "offer",
+      "clean_originals_untouched": false,
+      "good_offers": true,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": true,
+      "pass_through": false,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-ef59bd27c61fe451",
+    "verification_error": false,
+    "verifier_called": true,
+    "verifier_transport_status": "ok",
+    "verifier_verdict": "approve"
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-f53db5ac088895ba",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  },
+  {
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "changed_candidate": false,
+    "expected_sentences": [],
+    "explicit_verifier_hold": false,
+    "gated": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "group": "previous",
+    "needs_repair": false,
+    "original_facts": [
+      true,
+      true
+    ],
+    "r1_correction_pass": true,
+    "reader_candidate_bad": [],
+    "reader_original_bad": [],
+    "review_error": false,
+    "review_status": "clear",
+    "review_transport_status": "ok",
+    "standalone": {
+      "action": "pass_through",
+      "clean_originals_untouched": true,
+      "good_offers": false,
+      "holds": false,
+      "incorrect_edited_clean_originals": false,
+      "missed_needed_repairs": false,
+      "offers": false,
+      "pass_through": true,
+      "strict_task_success": true,
+      "unsafe_offers": false,
+      "wrongly_held_good_edits": false
+    },
+    "unit_id": "P-fea30a00e6baec87",
+    "verification_error": false,
+    "verifier_called": false,
+    "verifier_transport_status": null,
+    "verifier_verdict": null
+  }
+]

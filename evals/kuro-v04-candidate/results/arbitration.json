@@ -1,0 +1,20 @@
+{
+  "disputes": {
+    "T-a6ed4ff14e74259009b7d93c2faae92d": {
+      "fact_indices_0based": [],
+      "sentence_ids": [
+        2
+      ]
+    }
+  },
+  "third": {
+    "T-a6ed4ff14e74259009b7d93c2faae92d": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ],
+      "issues": []
+    }
+  }
+}
