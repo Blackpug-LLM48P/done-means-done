@@ -1,0 +1,324 @@
+{
+  "eligible": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6"
+  ],
+  "rows": {
+    "05d2d296a005bf73": {
+      "allowed": [
+        "2"
+      ],
+      "family": "F5",
+      "qualified": true,
+      "source": "a",
+      "votes": [
+        [
+          "2"
+        ],
+        [
+          "2"
+        ]
+      ]
+    },
+    "08929b95a9cd9d4a": {
+      "allowed": [
+        "2"
+      ],
+      "family": "F1",
+      "qualified": true,
+      "source": "b",
+      "votes": [
+        [
+          "2"
+        ],
+        [
+          "2"
+        ]
+      ]
+    },
+    "25eed40711aca68d": {
+      "allowed": [
+        "1"
+      ],
+      "family": "F3",
+      "qualified": true,
+      "source": "b",
+      "votes": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ]
+    },
+    "3a18b842a3d096ff": {
+      "allowed": [
+        "1",
+        "2"
+      ],
+      "family": "F4",
+      "qualified": true,
+      "source": "ambiguous",
+      "votes": [
+        [
+          "1",
+          "2"
+        ],
+        [
+          "1",
+          "2"
+        ]
+      ]
+    },
+    "44c9a979369c9ea9": {
+      "allowed": [
+        "1",
+        "2"
+      ],
+      "family": "F3",
+      "qualified": true,
+      "source": "ambiguous",
+      "votes": [
+        [
+          "1",
+          "2"
+        ],
+        [
+          "1",
+          "2"
+        ]
+      ]
+    },
+    "45b4b0cba8432962": {
+      "allowed": [
+        "1"
+      ],
+      "family": "F6",
+      "qualified": true,
+      "source": "a",
+      "votes": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ]
+    },
+    "51bcc1ee4b412667": {
+      "allowed": [
+        "2"
+      ],
+      "family": "F4",
+      "qualified": true,
+      "source": "a",
+      "votes": [
+        [
+          "2"
+        ],
+        [
+          "2"
+        ]
+      ]
+    },
+    "593bd02e8a8d8c0e": {
+      "allowed": [
+        "2"
+      ],
+      "family": "F2",
+      "qualified": true,
+      "source": "a",
+      "votes": [
+        [
+          "2"
+        ],
+        [
+          "2"
+        ]
+      ]
+    },
+    "6462dc78ae1f3962": {
+      "allowed": [
+        "1"
+      ],
+      "family": "F4",
+      "qualified": true,
+      "source": "b",
+      "votes": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ]
+    },
+    "684363b27865b424": {
+      "allowed": [
+        "2"
+      ],
+      "family": "F3",
+      "qualified": true,
+      "source": "a",
+      "votes": [
+        [
+          "2"
+        ],
+        [
+          "2"
+        ]
+      ]
+    },
+    "7aabc303249ec63d": {
+      "allowed": [
+        "1",
+        "2"
+      ],
+      "family": "F1",
+      "qualified": true,
+      "source": "ambiguous",
+      "votes": [
+        [
+          "1",
+          "2"
+        ],
+        [
+          "1",
+          "2"
+        ]
+      ]
+    },
+    "876788b3611580c0": {
+      "allowed": [
+        "1"
+      ],
+      "family": "F2",
+      "qualified": true,
+      "source": "b",
+      "votes": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ]
+    },
+    "90a82abaf4b32a18": {
+      "allowed": [
+        "1"
+      ],
+      "family": "F6",
+      "qualified": true,
+      "source": "b",
+      "votes": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ]
+    },
+    "a1e4a905bde69c47": {
+      "allowed": [
+        "1"
+      ],
+      "family": "F5",
+      "qualified": true,
+      "source": "b",
+      "votes": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ]
+    },
+    "aa150edbe75a1466": {
+      "allowed": [
+        "1",
+        "2"
+      ],
+      "family": "F5",
+      "qualified": true,
+      "source": "ambiguous",
+      "votes": [
+        [
+          "1",
+          "2"
+        ],
+        [
+          "1",
+          "2"
+        ]
+      ]
+    },
+    "cfb658e3db16c513": {
+      "allowed": [
+        "1",
+        "2"
+      ],
+      "family": "F2",
+      "qualified": true,
+      "source": "ambiguous",
+      "votes": [
+        [
+          "1",
+          "2"
+        ],
+        [
+          "1",
+          "2"
+        ]
+      ]
+    },
+    "d7a80b2168323754": {
+      "allowed": [
+        "1",
+        "2"
+      ],
+      "family": "F6",
+      "qualified": true,
+      "source": "ambiguous",
+      "votes": [
+        [
+          "1",
+          "2"
+        ],
+        [
+          "1",
+          "2"
+        ]
+      ]
+    },
+    "ff20f2ac2912d8e4": {
+      "allowed": [
+        "1"
+      ],
+      "family": "F1",
+      "qualified": true,
+      "source": "a",
+      "votes": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ]
+    }
+  },
+  "selected": [
+    "F1",
+    "F2",
+    "F3",
+    "F4"
+  ]
+}
