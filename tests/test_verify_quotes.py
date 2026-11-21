@@ -33,6 +33,8 @@ FIXTURE_RECORDS = [
     LIVE_CASES.parent / "kuro-v04-reconcile" / "inputs" / "cases.json",
     LIVE_CASES.parent / "kuro-v04-body" / "inputs" / "cases.json",
     LIVE_CASES.parent / "kuro-v04-body" / "inputs" / "controls.json",
+    *(LIVE_CASES.parent / "kuro-v04-ambiguity" / "inputs" / "families" / name
+      for name in ("amber.json", "blue.json")),
     *(LIVE_CASES.parent / "kuro-v04-adversarial" / "inputs" / name
       for name in ("dev-cases.json", "hold-cases.json", "four-cases.json")),
     LIVE_CASES.parent / "kuro-v04-transfer" / "SPEC.md",

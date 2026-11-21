@@ -100,14 +100,16 @@ def main():
         with dest.open("xb") as file: file.write(wire(units))
         return
     assert dest.read_bytes()==wire(units)
+    if args.mode == "open":
+        # Validate the complete schedule and all 82 paired receipts before the first key read.
+        from score import verified_receipts
+        verified_receipts(STUDY, {u["id"]: u for u in units})
     commitments=read(STUDY/"design/commitments.json")
     answers=args.answers or STUDY/"inputs/author-keys"
     for tag in LANES:
         assert sha((answers/(tag+".json")).read_bytes()) == commitments[tag]
     key=wire(open_key(lanes,answers))
     if args.mode=="open":
-        assert len(list((STUDY/"results/receipts").glob("*.json"))) == 82
-        assert (STUDY/"results/runs.json").exists()
         with (STUDY/"inputs/gold.json").open("xb") as file: file.write(key)
     else:
         assert (STUDY/"inputs/gold.json").read_bytes() == key
