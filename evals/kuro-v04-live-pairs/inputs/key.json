@@ -1,0 +1,122 @@
+[
+  {
+    "facts": [
+      "日誌を書いたのは船長の木島さんだった。",
+      "資料館が写しを受け取ったのは六月八日だった。"
+    ],
+    "family": "F3",
+    "id": "L-2da4661199ff7189",
+    "needs_repair": false,
+    "source": "a"
+  },
+  {
+    "facts": [
+      "速報の対象は北側水門だった。",
+      "日誌の記入欄は「水位観測」だった。"
+    ],
+    "family": "F2",
+    "id": "L-3eb514f9c68b3b30",
+    "needs_repair": false,
+    "source": "a"
+  },
+  {
+    "facts": [
+      "式典の会場は桐野ホールだった。",
+      "開式は午後二時だった。"
+    ],
+    "family": "F4",
+    "id": "L-86c528ac16c8788b",
+    "needs_repair": true,
+    "source": "b"
+  },
+  {
+    "facts": [
+      "式典の会場は桐野ホールだった。",
+      "開式は午後二時だった。"
+    ],
+    "family": "F4",
+    "id": "L-8bb9802032169049",
+    "needs_repair": false,
+    "source": "a"
+  },
+  {
+    "facts": [
+      "日誌を書いたのは船長の木島さんだった。",
+      "資料館が写しを受け取ったのは六月八日だった。"
+    ],
+    "family": "F3",
+    "id": "L-9e08e46e769a4191",
+    "needs_repair": true,
+    "source": "ambiguous"
+  },
+  {
+    "facts": [
+      "写真の整理番号は一番から三番だった。",
+      "掲載予定は冬号だった。"
+    ],
+    "family": "F1",
+    "id": "L-a9d8bcdc7ec40ea9",
+    "needs_repair": true,
+    "source": "ambiguous"
+  },
+  {
+    "facts": [
+      "日誌を書いたのは船長の木島さんだった。",
+      "資料館が写しを受け取ったのは六月八日だった。"
+    ],
+    "family": "F3",
+    "id": "L-a9fde8416d97ee36",
+    "needs_repair": true,
+    "source": "b"
+  },
+  {
+    "facts": [
+      "式典の会場は桐野ホールだった。",
+      "開式は午後二時だった。"
+    ],
+    "family": "F4",
+    "id": "L-ab0a5618adc28d81",
+    "needs_repair": true,
+    "source": "ambiguous"
+  },
+  {
+    "facts": [
+      "速報の対象は北側水門だった。",
+      "日誌の記入欄は「水位観測」だった。"
+    ],
+    "family": "F2",
+    "id": "L-d72b8e69c537cb91",
+    "needs_repair": true,
+    "source": "ambiguous"
+  },
+  {
+    "facts": [
+      "写真の整理番号は一番から三番だった。",
+      "掲載予定は冬号だった。"
+    ],
+    "family": "F1",
+    "id": "L-de2abd0b92f92b9a",
+    "needs_repair": false,
+    "source": "a"
+  },
+  {
+    "facts": [
+      "速報の対象は北側水門だった。",
+      "日誌の記入欄は「水位観測」だった。"
+    ],
+    "family": "F2",
+    "id": "L-eba686f0dac3b1c0",
+    "needs_repair": true,
+    "source": "b"
+  },
+  {
+    "facts": [
+      "写真の整理番号は一番から三番だった。",
+      "掲載予定は冬号だった。"
+    ],
+    "family": "F1",
+    "id": "L-fa76c826657e03b9",
+    "needs_repair": true,
+    "source": "b"
+  }
+]

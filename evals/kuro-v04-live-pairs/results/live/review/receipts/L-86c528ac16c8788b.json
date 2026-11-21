@@ -1,0 +1,144 @@
+{
+  "dispatch_order": 2,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "f84a68b7-0091-4472-8e06-8d8e2d217d62",
+    "cli_finished_unix_ns": 1795246289580308742,
+    "cli_started_unix_ns": 1795246273288157159,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 16292,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795246289582185408,
+    "isolation": {
+      "current_key_hidden": true,
+      "empty_cwd": true,
+      "old_key_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repository_hidden": true,
+      "sandbox": "bubblewrap",
+      "units_hidden": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/review/raw/L-86c528ac16c8788b.txt",
+    "raw_sha256": "b91031cdfe2f7dd41f9d25c9471619fc33dbc99986e805a1e1bf7e81948c7d7d",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13354,
+        "output_tokens": 195,
+        "reasoning_output_tokens": 39,
+        "total_tokens": 13549
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13354,
+        "output_tokens": 195,
+        "reasoning_output_tokens": 39,
+        "total_tokens": 13549
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fd04-33c4-7252-b6af-e418787e97ea",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13354,
+      "output_tokens": 195,
+      "reasoning_output_tokens": 39
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13354,
+      "output_tokens": 195,
+      "reasoning_output_tokens": 39
+    }
+  },
+  "packet_sha256": "c4acdfadea780d1e92cf45baaa7beee37b3fb6ba2ff1dcf720b9edb336887b89",
+  "prompt_sha256": "0854ceb07ae4910c40c9e7b0e4dd109bbe87f0830ce95e34c99712b38894324e",
+  "raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"野村さん\",\n      \"reason\": \"E1では、司会者が閉会の挨拶を頼んだ相手は小森さんである。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"小森さん\"\n    },\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"小森さん\",\n      \"reason\": \"E1では、司会者がその依頼について報告した相手は野村さんである。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"野村さん\"\n    }\n  ]\n}",
+  "stage": "review",
+  "trace": {
+    "as_of": "2026-11-19T15:00:00+09:00",
+    "case_id": "J-27d258f3b8363784",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "E1"
+        ],
+        "end": 8,
+        "quote": "野村さん",
+        "reason": "E1では、司会者が閉会の挨拶を頼んだ相手は小森さんである。",
+        "replacement": "小森さん",
+        "sentence_id": 1,
+        "start": 4
+      },
+      {
+        "checked_refs": [
+          "E1"
+        ],
+        "end": 27,
+        "quote": "小森さん",
+        "reason": "E1では、司会者がその依頼について報告した相手は野村さんである。",
+        "replacement": "野村さん",
+        "sentence_id": 1,
+        "start": 23
+      }
+    ],
+    "original_body": "司会者は野村さんに閉会の挨拶を頼み、そのことを小森さんに伝えた。式典の会場は桐野ホールだった。開式は午後二時だった。",
+    "packet_sha256": "c4acdfadea780d1e92cf45baaa7beee37b3fb6ba2ff1dcf720b9edb336887b89",
+    "proposed_body": "司会者は小森さんに閉会の挨拶を頼み、そのことを野村さんに伝えた。式典の会場は桐野ホールだった。開式は午後二時だった。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"野村さん\",\n      \"reason\": \"E1では、司会者が閉会の挨拶を頼んだ相手は小森さんである。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"小森さん\"\n    },\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"小森さん\",\n      \"reason\": \"E1では、司会者がその依頼について報告した相手は野村さんである。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"野村さん\"\n    }\n  ]\n}",
+    "revision": "r1",
+    "sentences": [
+      {
+        "end": 32,
+        "id": 1,
+        "start": 0,
+        "text": "司会者は野村さんに閉会の挨拶を頼み、そのことを小森さんに伝えた。"
+      },
+      {
+        "end": 47,
+        "id": 2,
+        "start": 32,
+        "text": "式典の会場は桐野ホールだった。"
+      },
+      {
+        "end": 58,
+        "id": 3,
+        "start": 47,
+        "text": "開式は午後二時だった。"
+      }
+    ],
+    "source_sha256": "469396291003ccc46eabdaa5c0bb94dbb32034199b1019cc6145bd55d2cb616d",
+    "status": "flagged"
+  },
+  "unit_id": "L-86c528ac16c8788b"
+}

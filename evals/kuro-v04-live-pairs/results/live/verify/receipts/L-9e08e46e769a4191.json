@@ -1,0 +1,103 @@
+{
+  "dispatch_order": 2,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "b1a1a67d-e673-4719-82c1-9132dbd8aba8",
+    "cli_finished_unix_ns": 1795246343632542506,
+    "cli_started_unix_ns": 1795246323365646590,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 20267,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795246343637970366,
+    "isolation": {
+      "current_key_hidden": true,
+      "empty_cwd": true,
+      "old_key_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repository_hidden": true,
+      "sandbox": "bubblewrap",
+      "units_hidden": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/verify/raw/L-9e08e46e769a4191.txt",
+    "raw_sha256": "a90e1869824ea6ab7b18f8151cefe792e8b2e93d0564c0d5eec6402bbb44cb95",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12394,
+        "output_tokens": 488,
+        "reasoning_output_tokens": 318,
+        "total_tokens": 12882
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12394,
+        "output_tokens": 488,
+        "reasoning_output_tokens": 318,
+        "total_tokens": 12882
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fd04-f778-7d00-bba0-524988f3061f",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12394,
+      "output_tokens": 488,
+      "reasoning_output_tokens": 318
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12394,
+      "output_tokens": 488,
+      "reasoning_output_tokens": 318
+    }
+  },
+  "packet_sha256": "b21b6f1b0c3bac26ca8c5cfb63d4fa9f498414046072e7c4c6c84a0fdb9ca8cb",
+  "prompt_sha256": "422a319efebdaf22e5a6179958a0afe285f36b651d097b2cb3c69a0bceb2f165",
+  "r1_sha256": "2ba863996732c45774e2f133e6bc9124c495ae995d210875ee8ef9799dc39248",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"E1では「物置で見つかった」が航海日誌と写しのどちらにかかるか定まらず、元の本文が発見品を原本と断定する根拠は足りない。候補は原本か写しかを未確定とし、物置から出たのは一点で、資料館が受け取ったのは写しだという事実を保っている。著者が船長の木島さんであることはE2、受領日が六月八日であることはE3と一致する。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": "物置で見つかったのは航海日誌の原本か写しのどちらか一点で、資料館はその写しを受け取った。日誌を書いたのは船長の木島さんだった。資料館が写しを受け取ったのは六月八日だった。",
+    "original_body": "物置で見つかったのは航海日誌の原本で、資料館はその写しを受け取った。日誌を書いたのは船長の木島さんだった。資料館が写しを受け取ったのは六月八日だった。",
+    "outcome": "offer",
+    "prompt_sha256": "422a319efebdaf22e5a6179958a0afe285f36b651d097b2cb3c69a0bceb2f165",
+    "rationale": "E1では「物置で見つかった」が航海日誌と写しのどちらにかかるか定まらず、元の本文が発見品を原本と断定する根拠は足りない。候補は原本か写しかを未確定とし、物置から出たのは一点で、資料館が受け取ったのは写しだという事実を保っている。著者が船長の木島さんであることはE2、受領日が六月八日であることはE3と一致する。",
+    "verdict": "approve"
+  },
+  "unit_id": "L-9e08e46e769a4191"
+}

@@ -1,0 +1,18 @@
+{
+  "findings": [
+    {
+      "sentence_id": 1,
+      "quote": "野村さん",
+      "reason": "E1では、司会者が閉会の挨拶を頼んだ相手は小森さんである。",
+      "checked_refs": ["E1"],
+      "replacement": "小森さん"
+    },
+    {
+      "sentence_id": 1,
+      "quote": "小森さん",
+      "reason": "E1では、司会者がその依頼について報告した相手は野村さんである。",
+      "checked_refs": ["E1"],
+      "replacement": "野村さん"
+    }
+  ]
+}
