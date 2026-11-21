@@ -16,6 +16,12 @@ to whole-record matching. Without an ID, only whole-record occurrence is
 checked, and the CLI prints that count. Paths/timestamps are not resolved.
 IDs are case- and zero-padding-sensitive; ranges must use one prefix, ascend,
 and contain at most 201 IDs with consistent endpoint zero-padding. Multiple files must use globally unique IDs.
+An ID can directly introduce a quote with a colon, as in L01: "saved".
+Version-shaped IDs such as v3 are checked, including unknown IDs. After a
+single explicit source, a version/alias label (版, 版名, or 別名 in Japanese)
+can introduce a bare version number from that block, e.g. version v3 or
+通常別名のv3. The exact token must occur in the source. A declared [v3]
+block, an explicit [v3] citation, or an ID list/range takes precedence.
 
 With --draft ID, the ID must exist uniquely. Explicit draft citations and
 quotes occurring only in that block fail. Non-draft preamble and unstructured
@@ -45,7 +51,13 @@ CLOSERS = {'”', '」', '』'}
 SEPARATOR_RE = re.compile(r'^\s*:?-{3,}:?\s*$')
 CJK_RE = re.compile(r'[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff\uff66-\uff9f\U00020000-\U000323af]')
 BLOCK_RE = re.compile(r'^\[([A-Za-z]{1,4}\d+)\]', re.M)
-ID_RE = re.compile(r'(?<![A-Za-z0-9_/.:])([A-Za-z]{1,4})(\d+)(?:\s*[-–—〜～~]\s*([A-Za-z]{1,4})?(\d+))?(?![A-Za-z0-9]|\.[A-Za-z]|[/_:])')
+ID_RE = re.compile(r'(?<![A-Za-z0-9_/.])([A-Za-z]{1,4})(\d+)(?:\s*[-–—〜～~]\s*([A-Za-z]{1,4})?(\d+))?(?![A-Za-z0-9]|\.[A-Za-z]|[/_])')
+ID_JOIN_RE = re.compile(r'\s*(?:,|、|and|&)\s*')
+COLON_QUOTE_RE = re.compile(r':\s*["“「『]')
+VERSION_LABEL_RE = re.compile(
+    r'(?:(?<![A-Za-z0-9_])(?ai:version|alias)(?![A-Za-z0-9_])|版名|別名|版)'
+    r'[\s:=：＝]*(?:[ぁ-ゖ]{1,2}[\s:=：＝]*)?\Z'
+)
 UNSUPPORTED_RE = re.compile(r"[‘«»‹›]|(?<!\w)'[^'\n]+'(?!\w)")
 FOUND, NOT_FOUND, WRONG_PLACE, DRAFT_ONLY = 'FOUND', 'NOT FOUND', 'WRONG PLACE', 'DRAFT ONLY'
 UNKNOWN_ID, INVALID_ID, DRAFT_CITED = 'UNKNOWN ID', 'INVALID ID', 'DRAFT CITED'
@@ -134,23 +146,50 @@ def find_quotes(cell):
     return [(start, q) for start, _, q in scan_quotes(cell)[0]]
 
 
-def citation(cell, start):
+def is_recorded_version(cell, match, previous, blocks):
+    """A labeled version can only describe data from an established source."""
+    if match.group(1) != 'v' or match.group(4) or not blocks:
+        return False
+    version = match.group(0)
+    source = blocks.get(previous.group(0))
+    if source is None or version in blocks:
+        return False
+    if not VERSION_LABEL_RE.search(cell, 0, match.start()) or COLON_QUOTE_RE.match(cell, match.end()):
+        return False
+    token = rf'(?<![A-Za-z0-9_\[])' + re.escape(version) + r'(?![A-Za-z0-9_\]]|[.+-][A-Za-z0-9])'
+    return re.search(token, source) is not None
+
+
+def citation_groups(cell, masked):
+    """Group adjacent IDs, retaining the actual separators between them."""
+    group = []
+    for match in ID_RE.finditer(masked):
+        start, end = match.span()
+        if start and cell[start - 1] == ':':
+            # A colon inside a path or label is not a citation delimiter.
+            if match.group(1) != 'v' or not VERSION_LABEL_RE.search(cell, 0, start):
+                continue
+        if cell[end:end + 1] == ':' and not COLON_QUOTE_RE.match(cell, end):
+            continue
+        if group and not ID_JOIN_RE.fullmatch(cell[group[-1].end():start]):
+            yield group
+            group = []
+        group.append(match)
+    if group:
+        yield group
+
+
+def citation(cell, start, blocks=None):
     # Prior quoted text is data: an ID inside it cannot set the next citation.
     prefix = list(cell[:start])
-    for lo, hi, _ in scan_quotes(cell[:start])[0]:
+    quotes, _ = scan_quotes(cell[:start])
+    for lo, hi, _ in quotes:
         prefix[lo:hi] = ' ' * (hi - lo)
-    text = ''.join(prefix)
-    matches = list(ID_RE.finditer(text))
-    if not matches:
-        return [], None
-    # Support a comma/、/and list as well as a single ID or range.
-    selected = [matches[-1]]
-    for m in reversed(matches[:-1]):
-        between = text[m.end():selected[0].start()]
-        if re.fullmatch(r'\s*(?:,|、|and|&)\s*', between):
-            selected.insert(0, m)
-        else:
-            break
+    selected = []
+    for group in citation_groups(cell, ''.join(prefix)):
+        if len(group) == len(selected) == 1 and is_recorded_version(cell, group[0], selected[0], blocks):
+            continue
+        selected = group
     ids = []
     for m in selected:
         prefix1, low, prefix2, high = m.groups()
@@ -269,7 +308,7 @@ def audit(ledger_text, records, draft_id=None):
         for start, _, quote in quotes:
             q = normalize(quote)
             hits = [name for name, text in whole if q in text]
-            cited, error = citation(cell, start)
+            cited, error = citation(cell, start, blocks)
             unknown = [c for c in cited if c not in blocks]
             if error:
                 status = INVALID_ID
