@@ -1,0 +1,42 @@
+{
+  "amber": {
+    "case_ids": [
+      "J7814",
+      "J3026",
+      "J9460",
+      "J1658"
+    ],
+    "control_ids": [
+      "A6351",
+      "A4183",
+      "A1864",
+      "A5417",
+      "A2948",
+      "A9526",
+      "A7692",
+      "A8079"
+    ],
+    "ciphertext_sha256": "5c0a2c15f167c9d9ff823a61810b094f7db98ccfdc2e706089312cf840964df6",
+    "plaintext_sha256": "2cde3d802efb101e41d6fc1f9bab33107cb96bfe95597346a9c6aa7080fafa72"
+  },
+  "blue": {
+    "case_ids": [
+      "U3J9N",
+      "UL58C",
+      "U7PY4",
+      "UT6S1"
+    ],
+    "control_ids": [
+      "BF3L8",
+      "B9QC4",
+      "BG4NV",
+      "BJ19A",
+      "B8D2F",
+      "B6W2R",
+      "BM7HX",
+      "B5YKP"
+    ],
+    "ciphertext_sha256": "d54d6db72bed54ec5137c8b39e594fdff7018344857a97867e2ca8a4a15a8868",
+    "plaintext_sha256": "6543256edf146a028151b329b9ee77b393e491dac056b5912b778f479b36a0f0"
+  }
+}

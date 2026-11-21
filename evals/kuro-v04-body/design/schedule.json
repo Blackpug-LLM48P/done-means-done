@@ -1,0 +1,78 @@
+[
+  {
+    "job_id": "C02",
+    "mode": "continuous",
+    "ids": [
+      "UL58C",
+      "U7PY4",
+      "U3J9N",
+      "UT6S1"
+    ]
+  },
+  {
+    "job_id": "I02",
+    "mode": "independent",
+    "ids": [
+      "J3026"
+    ]
+  },
+  {
+    "job_id": "I03",
+    "mode": "independent",
+    "ids": [
+      "UT6S1"
+    ]
+  },
+  {
+    "job_id": "I08",
+    "mode": "independent",
+    "ids": [
+      "U3J9N"
+    ]
+  },
+  {
+    "job_id": "I05",
+    "mode": "independent",
+    "ids": [
+      "J7814"
+    ]
+  },
+  {
+    "job_id": "I06",
+    "mode": "independent",
+    "ids": [
+      "J9460"
+    ]
+  },
+  {
+    "job_id": "I07",
+    "mode": "independent",
+    "ids": [
+      "U7PY4"
+    ]
+  },
+  {
+    "job_id": "I04",
+    "mode": "independent",
+    "ids": [
+      "UL58C"
+    ]
+  },
+  {
+    "job_id": "C01",
+    "mode": "continuous",
+    "ids": [
+      "J9460",
+      "J1658",
+      "J7814",
+      "J3026"
+    ]
+  },
+  {
+    "job_id": "I01",
+    "mode": "independent",
+    "ids": [
+      "J1658"
+    ]
+  }
+]
