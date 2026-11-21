@@ -1,0 +1,12 @@
+{
+  "sessions": [
+    "CQ8",
+    "PE7"
+  ],
+  "files": {
+    "cases.json": "dc24cc1eb999e207fe17b5443cf4ff20db815941b24006156a6a4f9d7fc16fd0",
+    "reader.txt": "54970ba2082b8890a38ddea1cf1591c9e383c639d7792db5be76ede2c0217c91",
+    "workflow.txt": "1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6"
+  },
+  "key_sha256": "b2b3f59a2bae4f64a573fe0e4f3c16c8770a8c232dc9f9655e43bb7de9927558"
+}
