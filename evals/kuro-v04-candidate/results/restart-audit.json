@@ -1,0 +1,156 @@
+{
+  "archived_review_claims": 6,
+  "by_stage_and_cohort": {
+    "review": {
+      "novel": {
+        "calls": 12,
+        "first_start_to_last_finish_ms": 46013.173,
+        "median_call_ms": 12286.0,
+        "sum_call_ms": 154908,
+        "token_usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 98560,
+          "input_tokens": 160633,
+          "output_tokens": 3009,
+          "reasoning_output_tokens": 2192,
+          "total_tokens": 163642
+        }
+      }
+    },
+    "verify": {
+      "diagnostic": {
+        "calls": 1,
+        "first_start_to_last_finish_ms": 13214.675,
+        "median_call_ms": 13215,
+        "sum_call_ms": 13215,
+        "token_usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 9856,
+          "input_tokens": 12629,
+          "output_tokens": 314,
+          "reasoning_output_tokens": 117,
+          "total_tokens": 12943
+        }
+      },
+      "novel": {
+        "calls": 6,
+        "first_start_to_last_finish_ms": 64277.854,
+        "median_call_ms": 12811.0,
+        "sum_call_ms": 72521,
+        "token_usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 59136,
+          "input_tokens": 74396,
+          "output_tokens": 1120,
+          "reasoning_output_tokens": 158,
+          "total_tokens": 75516
+        }
+      },
+      "previous": {
+        "calls": 20,
+        "first_start_to_last_finish_ms": 75957.949,
+        "median_call_ms": 13302.5,
+        "sum_call_ms": 298291,
+        "token_usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 131456,
+          "input_tokens": 250097,
+          "output_tokens": 6778,
+          "reasoning_output_tokens": 3537,
+          "total_tokens": 256875
+        }
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "first_flagged": true,
+      "first_sentence_ids": [
+        2
+      ],
+      "repeat_flagged": true,
+      "repeat_sentence_ids": [
+        2
+      ],
+      "same_candidate_utf8": true,
+      "unit_id": "N01"
+    },
+    {
+      "first_flagged": false,
+      "first_sentence_ids": [],
+      "repeat_flagged": false,
+      "repeat_sentence_ids": [],
+      "same_candidate_utf8": true,
+      "unit_id": "N02"
+    },
+    {
+      "first_flagged": true,
+      "first_sentence_ids": [
+        2
+      ],
+      "repeat_flagged": true,
+      "repeat_sentence_ids": [
+        2
+      ],
+      "same_candidate_utf8": false,
+      "unit_id": "N08"
+    },
+    {
+      "first_flagged": true,
+      "first_sentence_ids": [
+        3
+      ],
+      "repeat_flagged": true,
+      "repeat_sentence_ids": [
+        3
+      ],
+      "same_candidate_utf8": false,
+      "unit_id": "N11"
+    },
+    {
+      "first_flagged": true,
+      "first_sentence_ids": [
+        2
+      ],
+      "repeat_flagged": true,
+      "repeat_sentence_ids": [
+        2
+      ],
+      "same_candidate_utf8": false,
+      "unit_id": "N12"
+    }
+  ],
+  "first_wave_checkpoint": "7634ceca670b4bcafd27231a5df910814781f638",
+  "observed_tokens_across_waves_lower_bound": 577026,
+  "same_candidate_utf8_count": 2,
+  "same_flag_count": 5,
+  "same_sentence_set_count": 5,
+  "scored_official_calls": {
+    "calls": 39,
+    "first_start_to_last_finish_ms": 134294.461,
+    "median_call_ms": 13167,
+    "sum_call_ms": 538935,
+    "token_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 299008,
+      "input_tokens": 497755,
+      "output_tokens": 11221,
+      "reasoning_output_tokens": 6004,
+      "total_tokens": 508976
+    }
+  },
+  "supplementary_outputs_compared": 5,
+  "supplementary_usage": {
+    "recorded_calls": 5,
+    "token_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 42880,
+      "input_tokens": 66805,
+      "output_tokens": 1245,
+      "reasoning_output_tokens": 744,
+      "total_tokens": 68050
+    },
+    "unreported_claims": 1
+  },
+  "wave1_and_repeat_ids_disjoint": true
+}

@@ -1,0 +1,119 @@
+{
+  "cohorts": {
+    "diagnostic": {
+      "explicit_verifier_holds": 0,
+      "gated": {
+        "automatically_resolved": 1,
+        "clean_originals_untouched": 0,
+        "good_offers": 0,
+        "holds": 0,
+        "incorrect_edited_clean_originals": 1,
+        "missed_needed_repairs": 0,
+        "offers": 1,
+        "pass_through": 0,
+        "strict_task_success": 0,
+        "unsafe_offers": 1,
+        "wrongly_held_good_edits": 0
+      },
+      "needs_repair": 0,
+      "originally_clean": 1,
+      "review_errors": 0,
+      "selective_gate_pass": false,
+      "standalone": {
+        "automatically_resolved": 1,
+        "clean_originals_untouched": 0,
+        "good_offers": 0,
+        "holds": 0,
+        "incorrect_edited_clean_originals": 1,
+        "missed_needed_repairs": 0,
+        "offers": 1,
+        "pass_through": 0,
+        "strict_task_success": 0,
+        "unsafe_offers": 1,
+        "wrongly_held_good_edits": 0
+      },
+      "unattended_gate_pass": false,
+      "units": 1,
+      "verification_errors": 0,
+      "verifier_calls": 1
+    },
+    "novel": {
+      "explicit_verifier_holds": 0,
+      "gated": {
+        "automatically_resolved": 12,
+        "clean_originals_untouched": 4,
+        "good_offers": 6,
+        "holds": 0,
+        "incorrect_edited_clean_originals": 0,
+        "missed_needed_repairs": 2,
+        "offers": 6,
+        "pass_through": 6,
+        "strict_task_success": 10,
+        "unsafe_offers": 0,
+        "wrongly_held_good_edits": 0
+      },
+      "needs_repair": 8,
+      "originally_clean": 4,
+      "review_errors": 0,
+      "selective_gate_pass": true,
+      "standalone": {
+        "automatically_resolved": 12,
+        "clean_originals_untouched": 4,
+        "good_offers": 6,
+        "holds": 0,
+        "incorrect_edited_clean_originals": 0,
+        "missed_needed_repairs": 2,
+        "offers": 6,
+        "pass_through": 6,
+        "strict_task_success": 10,
+        "unsafe_offers": 0,
+        "wrongly_held_good_edits": 0
+      },
+      "unattended_gate_pass": false,
+      "units": 12,
+      "verification_errors": 0,
+      "verifier_calls": 6
+    },
+    "previous": {
+      "explicit_verifier_holds": 1,
+      "gated": {
+        "automatically_resolved": 39,
+        "clean_originals_untouched": 21,
+        "good_offers": 17,
+        "holds": 1,
+        "incorrect_edited_clean_originals": 1,
+        "missed_needed_repairs": 1,
+        "offers": 19,
+        "pass_through": 20,
+        "strict_task_success": 37,
+        "unsafe_offers": 2,
+        "wrongly_held_good_edits": 0
+      },
+      "needs_repair": 18,
+      "originally_clean": 22,
+      "review_errors": 0,
+      "selective_gate_pass": false,
+      "standalone": {
+        "automatically_resolved": 40,
+        "clean_originals_untouched": 20,
+        "good_offers": 17,
+        "holds": 0,
+        "incorrect_edited_clean_originals": 2,
+        "missed_needed_repairs": 1,
+        "offers": 20,
+        "pass_through": 20,
+        "strict_task_success": 37,
+        "unsafe_offers": 3,
+        "wrongly_held_good_edits": 0
+      },
+      "unattended_gate_pass": false,
+      "units": 40,
+      "verification_errors": 0,
+      "verifier_calls": 20
+    }
+  },
+  "decision": {
+    "selective_gate_pass": false,
+    "unattended_gate_pass": false
+  }
+}

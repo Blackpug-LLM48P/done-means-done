@@ -1,0 +1,52 @@
+{
+  "source_commit": "9c1ce2a38efbac95183125fbb3871d89651a5858",
+  "cohort": "PR12 R1 adoption population",
+  "cases": 40,
+  "excluded_diagnostic": "A2948",
+  "analysis": "採点済みのPR12から求めた事後の理論上限。追加確認の判定精度は測っていない。",
+  "changed_candidates": 20,
+  "already_correct_pass_through": 20,
+  "prespecified_needed_repairs": 18,
+  "ideal_verdicts": {
+    "approve": [
+      "H-02",
+      "H-04",
+      "P-0ad89fff0c785568",
+      "P-32e139d7bbb76c5e",
+      "P-59739b7c95950d48",
+      "P-5cb5f0e4d2c19f51",
+      "P-6227aa98fb3a7052",
+      "P-7c3365bad1c6c4b5",
+      "P-8afe19164f7fae9a",
+      "P-90c521b0be2df01b",
+      "P-932f9b860cddda0e",
+      "P-98b7ccf83661d429",
+      "P-a484db69049ee704",
+      "P-b9792e28c42f5c61",
+      "P-cc2d485c596aa003",
+      "P-e445f06d6c970951",
+      "P-ef59bd27c61fe451"
+    ],
+    "hold": [
+      "H-03",
+      "P-62a5f96f41374d48",
+      "P-b427dd068286a25f"
+    ]
+  },
+  "ideal_counts": {
+    "good_offers": 17,
+    "unsafe_offers": 0,
+    "holds": 3,
+    "clean_originals_protected_by_hold": 2,
+    "needed_repairs_still_unresolved": 1
+  },
+  "held_clean_original_ids": [
+    "H-03",
+    "P-62a5f96f41374d48"
+  ],
+  "strict_automatic_correct_upper_bound": 37,
+  "strict_automatic_all_cases_feasible": false,
+  "binary_candidate_assignment_patterns": 1048576,
+  "patterns_satisfying_selective_gate": 1,
+  "pattern_interpretation": "各変更候補への承認・保留の組合せの個数で、成功確率ではない。"
+}

@@ -1,0 +1,206 @@
+{
+  "N01": {
+    "candidate": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "N02": {
+    "candidate": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "N03": {
+    "candidate": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "N04": {
+    "candidate": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        3
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "N05": {
+    "candidate": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "N06": {
+    "candidate": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "N07": {
+    "candidate": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "N08": {
+    "candidate": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "N09": {
+    "candidate": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        1
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "N10": {
+    "candidate": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "N11": {
+    "candidate": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        3
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "N12": {
+    "candidate": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  }
+}

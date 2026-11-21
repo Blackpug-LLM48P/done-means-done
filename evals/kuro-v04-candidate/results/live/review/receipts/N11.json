@@ -1,0 +1,133 @@
+{
+  "dispatch_order": 1,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "fd31862e-18d9-42d9-875f-8cef85734308",
+    "cli_finished_unix_ns": 1795244558302233494,
+    "cli_started_unix_ns": 1795244545958728259,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 12344,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244558304937953,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/review/raw/N11.txt",
+    "raw_sha256": "748228aefc6c3963ad8dd523a92b20dc565560526995778c2c8792814cda612f",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13371,
+        "output_tokens": 245,
+        "reasoning_output_tokens": 135,
+        "total_tokens": 13616
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13371,
+        "output_tokens": 245,
+        "reasoning_output_tokens": 135,
+        "total_tokens": 13616
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fce9-d892-7cd0-8cca-3a463f6fe1b7",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13371,
+      "output_tokens": 245,
+      "reasoning_output_tokens": 135
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13371,
+      "output_tokens": 245,
+      "reasoning_output_tokens": 135
+    }
+  },
+  "packet_sha256": "f8b7a16ddade159367038374bc9e6412673833980d935d732380f9bf65419388",
+  "prompt_sha256": "e0c8b829a01d34355a9bc3f34ffd221377d566a39d8d8d3ca0d8e0268e2f5cdd",
+  "raw": "{\"findings\":[{\"sentence_id\":3,\"quote\":\"西村さんの提案で\",\"reason\":\"出席簿で西村さんの出席は確認できる。議事メモには9時半に放送する案が出て、その時刻で合意したとあるが、発案者欄は空欄で、西村さんが提案したとは特定できない。\",\"checked_refs\":[\"E1\",\"E2\"],\"replacement\":\"\"}]}",
+  "stage": "review",
+  "trace": {
+    "as_of": "2026-11-12T15:00:00+09:00",
+    "case_id": "N11",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "E1",
+          "E2"
+        ],
+        "end": 43,
+        "quote": "西村さんの提案で",
+        "reason": "出席簿で西村さんの出席は確認できる。議事メモには9時半に放送する案が出て、その時刻で合意したとあるが、発案者欄は空欄で、西村さんが提案したとは特定できない。",
+        "replacement": "",
+        "sentence_id": 3,
+        "start": 35
+      }
+    ],
+    "original_body": "案内所の机は東門に置く。回収用のかごは各売場に1個ずつ配る。場内放送は西村さんの提案で9時半に決まった。",
+    "packet_sha256": "f8b7a16ddade159367038374bc9e6412673833980d935d732380f9bf65419388",
+    "proposed_body": "案内所の机は東門に置く。回収用のかごは各売場に1個ずつ配る。場内放送は9時半に決まった。",
+    "raw_review": "{\"findings\":[{\"sentence_id\":3,\"quote\":\"西村さんの提案で\",\"reason\":\"出席簿で西村さんの出席は確認できる。議事メモには9時半に放送する案が出て、その時刻で合意したとあるが、発案者欄は空欄で、西村さんが提案したとは特定できない。\",\"checked_refs\":[\"E1\",\"E2\"],\"replacement\":\"\"}]}",
+    "revision": "v1",
+    "sentences": [
+      {
+        "end": 12,
+        "id": 1,
+        "start": 0,
+        "text": "案内所の机は東門に置く。"
+      },
+      {
+        "end": 30,
+        "id": 2,
+        "start": 12,
+        "text": "回収用のかごは各売場に1個ずつ配る。"
+      },
+      {
+        "end": 52,
+        "id": 3,
+        "start": 30,
+        "text": "場内放送は西村さんの提案で9時半に決まった。"
+      }
+    ],
+    "source_sha256": "b9e80d05817f56894872295f048acb96c994e048de935af68cb3105b7998bdcc",
+    "status": "flagged"
+  },
+  "unit_id": "N11"
+}

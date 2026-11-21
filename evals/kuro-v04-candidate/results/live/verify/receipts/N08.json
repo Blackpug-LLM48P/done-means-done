@@ -1,0 +1,102 @@
+{
+  "dispatch_order": 24,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "6ea6e417-6644-4bef-b717-5022c364c121",
+    "cli_finished_unix_ns": 1795244668561514781,
+    "cli_started_unix_ns": 1795244654956402694,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 13605,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244668563045371,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/verify/raw/N08.txt",
+    "raw_sha256": "72b959c2ca5706da13125dabeac415d7d40abc29d6e187fa19ccbceff386e79e",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12431,
+        "output_tokens": 213,
+        "reasoning_output_tokens": 23,
+        "total_tokens": 12644
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12431,
+        "output_tokens": 213,
+        "reasoning_output_tokens": 23,
+        "total_tokens": 12644
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fceb-823f-7393-94e0-6dfac34263a2",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12431,
+      "output_tokens": 213,
+      "reasoning_output_tokens": 23
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12431,
+      "output_tokens": 213,
+      "reasoning_output_tokens": 23
+    }
+  },
+  "packet_sha256": "ed63b51a4318d3b08caabc333b6d13557a1ee89fdcd8869281bc09a320314ef8",
+  "prompt_sha256": "3279b1610689efca08887f021fc7b3f5a0384f0f87c2d366530448a5661a3195",
+  "r1_sha256": "e44ffd9fab5f00ae91fe32db23b3f1774a166d471cf362220ef3fbbc797b7b12",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"元の本文は、表紙に擦れがあった見本帳が午前便の5冊から午後便の1冊に減った理由を、薄紙の効果と断定している。E1は薄紙を挟み始めた時点を、E2は各便の擦れの冊数を裏付けるが、検品票に原因の記載はなく、両票から因果関係は確認できない。候補はこの断定を解消し、各便の発送冊数、擦れの冊数、薄紙の使用開始時点、通い箱の回収予定を正確に保っている。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": "見本帳は午前と午後に30冊ずつ発送した。午後便で擦れが5冊から1冊に減った。午後便から見本帳の間に薄紙を挟んだが、検品票に擦れの原因の記載はない。通い箱は翌朝9時に回収する。",
+    "original_body": "見本帳は午前と午後に30冊ずつ発送した。午後便で擦れが5冊から1冊に減ったのは、薄紙を挟んだ効果だ。通い箱は翌朝9時に回収する。",
+    "outcome": "offer",
+    "prompt_sha256": "3279b1610689efca08887f021fc7b3f5a0384f0f87c2d366530448a5661a3195",
+    "rationale": "元の本文は、表紙に擦れがあった見本帳が午前便の5冊から午後便の1冊に減った理由を、薄紙の効果と断定している。E1は薄紙を挟み始めた時点を、E2は各便の擦れの冊数を裏付けるが、検品票に原因の記載はなく、両票から因果関係は確認できない。候補はこの断定を解消し、各便の発送冊数、擦れの冊数、薄紙の使用開始時点、通い箱の回収予定を正確に保っている。",
+    "verdict": "approve"
+  },
+  "unit_id": "N08"
+}

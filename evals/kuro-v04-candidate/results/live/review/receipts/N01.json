@@ -1,0 +1,133 @@
+{
+  "dispatch_order": 5,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "e269ab71-1144-4616-93b8-ce351d128fda",
+    "cli_finished_unix_ns": 1795244558269104919,
+    "cli_started_unix_ns": 1795244545960404259,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 12309,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244558271546755,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/review/raw/N01.txt",
+    "raw_sha256": "c9d8de29518da14e1953b12e718ad27e8f827ae90e8c23b98f676796656c95bf",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13324,
+        "output_tokens": 268,
+        "reasoning_output_tokens": 139,
+        "total_tokens": 13592
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13324,
+        "output_tokens": 268,
+        "reasoning_output_tokens": 139,
+        "total_tokens": 13592
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fce9-d864-72b1-8e34-f1558b47b113",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13324,
+      "output_tokens": 268,
+      "reasoning_output_tokens": 139
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13324,
+      "output_tokens": 268,
+      "reasoning_output_tokens": 139
+    }
+  },
+  "packet_sha256": "99609445faa3b429bf49c61a7985929e7d61fe7428e1da35bd645ae1c7bc59cb",
+  "prompt_sha256": "0b6dd6fc5d9169ea6e9924faf391ebf9677720226d9330a317e2a9664f450d79",
+  "raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"作家自身が入口に選んだ\",\n      \"reason\": \"展示台帳には入口に掛ける作品が記されているが、選定者の記載はない。作家の校正戻しで確認できるのは、作品名札の文字を十二ポイントにする案への了承だけである。\",\n      \"checked_refs\": [\"E1\", \"E2\"],\n      \"replacement\": \"入口に掛ける\"\n    }\n  ]\n}",
+  "stage": "review",
+  "trace": {
+    "as_of": "2026-11-12T15:00:00+09:00",
+    "case_id": "N01",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "E1",
+          "E2"
+        ],
+        "end": 23,
+        "quote": "作家自身が入口に選んだ",
+        "reason": "展示台帳には入口に掛ける作品が記されているが、選定者の記載はない。作家の校正戻しで確認できるのは、作品名札の文字を十二ポイントにする案への了承だけである。",
+        "replacement": "入口に掛ける",
+        "sentence_id": 2,
+        "start": 12
+      }
+    ],
+    "original_body": "展示室の壁は薄い灰色だ。作家自身が入口に選んだのは、連作『低い空』の第三図だった。芳名帳は売店に置く。",
+    "packet_sha256": "99609445faa3b429bf49c61a7985929e7d61fe7428e1da35bd645ae1c7bc59cb",
+    "proposed_body": "展示室の壁は薄い灰色だ。入口に掛けるのは、連作『低い空』の第三図だった。芳名帳は売店に置く。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"作家自身が入口に選んだ\",\n      \"reason\": \"展示台帳には入口に掛ける作品が記されているが、選定者の記載はない。作家の校正戻しで確認できるのは、作品名札の文字を十二ポイントにする案への了承だけである。\",\n      \"checked_refs\": [\"E1\", \"E2\"],\n      \"replacement\": \"入口に掛ける\"\n    }\n  ]\n}",
+    "revision": "v1",
+    "sentences": [
+      {
+        "end": 12,
+        "id": 1,
+        "start": 0,
+        "text": "展示室の壁は薄い灰色だ。"
+      },
+      {
+        "end": 41,
+        "id": 2,
+        "start": 12,
+        "text": "作家自身が入口に選んだのは、連作『低い空』の第三図だった。"
+      },
+      {
+        "end": 51,
+        "id": 3,
+        "start": 41,
+        "text": "芳名帳は売店に置く。"
+      }
+    ],
+    "source_sha256": "7be7eb62be6e6df9c54473b6c9901ce53510b0732232a7c79b60b2c5464de10e",
+    "status": "flagged"
+  },
+  "unit_id": "N01"
+}

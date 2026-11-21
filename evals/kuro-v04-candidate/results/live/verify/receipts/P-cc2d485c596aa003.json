@@ -1,0 +1,102 @@
+{
+  "dispatch_order": 20,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "a87a7f16-9c64-460f-9f25-b0b5c337bb3a",
+    "cli_finished_unix_ns": 1795244654864050026,
+    "cli_started_unix_ns": 1795244643547471455,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 11317,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244654866281971,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/verify/raw/P-cc2d485c596aa003.txt",
+    "raw_sha256": "b0a21f8f074b31b3c87aa344bfbfe4154f9d211185d38d45b67ecf40f7ae1788",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12458,
+        "output_tokens": 205,
+        "reasoning_output_tokens": 49,
+        "total_tokens": 12663
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12458,
+        "output_tokens": 205,
+        "reasoning_output_tokens": 49,
+        "total_tokens": 12663
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fceb-556c-73f1-96ed-420ba40ae44f",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12458,
+      "output_tokens": 205,
+      "reasoning_output_tokens": 49
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12458,
+      "output_tokens": 205,
+      "reasoning_output_tokens": 49
+    }
+  },
+  "packet_sha256": "453c0bc584897c2b554960815938eb42971a1a66276c33ed5120f177681d072b",
+  "prompt_sha256": "fb19574c22ed637dd996d25a7dc45e96ad90ecbbdefaa1a256091d1a80f263c6",
+  "r1_sha256": "7b6e1c5644f025965052d5b82e49d25226e31b2a0f09bc39b143152a170a9a01",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"元の本文は「店長本人の氏名」と断定していますが、原票の「自分の氏名」だけでは誰を指すか確定できません。候補は、店長が副店長に申込欄へ一人分の氏名を記入するよう頼んだという事実を保ち、氏名の持ち主を特定していません。会場と申込締切も原票どおりです。\",\n  \"checked_refs\": [\"a7b6ea98d7\", \"cb6e38bde7\", \"8121550684\"]\n}",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "a7b6ea98d7",
+      "cb6e38bde7",
+      "8121550684"
+    ],
+    "error": null,
+    "offered_body": "会場は青葉会館の研修室Bです。申込締切は11月26日です。店長は副店長に、選書説明会の申込欄への記入を頼みました。記入を頼んだのは一人分の氏名です。",
+    "original_body": "会場は青葉会館の研修室Bです。申込締切は11月26日です。店長は副店長に、選書説明会の申込欄への記入を頼みました。記入を頼んだのは店長本人の氏名です。",
+    "outcome": "offer",
+    "prompt_sha256": "fb19574c22ed637dd996d25a7dc45e96ad90ecbbdefaa1a256091d1a80f263c6",
+    "rationale": "元の本文は「店長本人の氏名」と断定していますが、原票の「自分の氏名」だけでは誰を指すか確定できません。候補は、店長が副店長に申込欄へ一人分の氏名を記入するよう頼んだという事実を保ち、氏名の持ち主を特定していません。会場と申込締切も原票どおりです。",
+    "verdict": "approve"
+  },
+  "unit_id": "P-cc2d485c596aa003"
+}

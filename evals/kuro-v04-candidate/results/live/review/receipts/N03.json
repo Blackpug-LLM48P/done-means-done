@@ -1,0 +1,120 @@
+{
+  "dispatch_order": 10,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "a5010946-967b-4df1-b8f6-a389be245d72",
+    "cli_finished_unix_ns": 1795244564407543510,
+    "cli_started_unix_ns": 1795244558379966716,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 6028,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244564410099375,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/review/raw/N03.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13393,
+        "output_tokens": 18,
+        "reasoning_output_tokens": 7,
+        "total_tokens": 13411
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13393,
+        "output_tokens": 18,
+        "reasoning_output_tokens": 7,
+        "total_tokens": 13411
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fcea-08c4-71e2-969d-d0638cb8a0ec",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13393,
+      "output_tokens": 18,
+      "reasoning_output_tokens": 7
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13393,
+      "output_tokens": 18,
+      "reasoning_output_tokens": 7
+    }
+  },
+  "packet_sha256": "181cd8693636a75c7eea9305c6fd5955210e7fba7f97b952cf3a6780d879ce98",
+  "prompt_sha256": "045983ac40910b281b9a68cbdd998b1369a670108439e8b5230b4fa48f662588",
+  "raw": "{\"findings\":[]}",
+  "stage": "review",
+  "trace": {
+    "as_of": "2026-11-12T15:00:00+09:00",
+    "case_id": "N03",
+    "errors": [],
+    "findings": [],
+    "original_body": "譜面台は客席から見て右に置く。無伴奏の出だしを、歌い手は「港の朝市で最初の店が開く音みたいに歌いたい」と稽古日誌に書いた。歌詞カードには淡い緑色の紙を使う。",
+    "packet_sha256": "181cd8693636a75c7eea9305c6fd5955210e7fba7f97b952cf3a6780d879ce98",
+    "proposed_body": "譜面台は客席から見て右に置く。無伴奏の出だしを、歌い手は「港の朝市で最初の店が開く音みたいに歌いたい」と稽古日誌に書いた。歌詞カードには淡い緑色の紙を使う。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "v1",
+    "sentences": [
+      {
+        "end": 15,
+        "id": 1,
+        "start": 0,
+        "text": "譜面台は客席から見て右に置く。"
+      },
+      {
+        "end": 61,
+        "id": 2,
+        "start": 15,
+        "text": "無伴奏の出だしを、歌い手は「港の朝市で最初の店が開く音みたいに歌いたい」と稽古日誌に書いた。"
+      },
+      {
+        "end": 78,
+        "id": 3,
+        "start": 61,
+        "text": "歌詞カードには淡い緑色の紙を使う。"
+      }
+    ],
+    "source_sha256": "df8475929f2e1a18d72f02eab7e25ad5cba0ff62faec16b4143aaf7baf24b9af",
+    "status": "clear"
+  },
+  "unit_id": "N03"
+}

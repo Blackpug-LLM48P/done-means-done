@@ -1,0 +1,10 @@
+{
+  "attempt_id": "26a35f08-d3c9-4543-ac32-15ad24796f9a",
+  "claimed_unix_ns": 1795244617582090404,
+  "dispatch_order": 11,
+  "packet_sha256": "2b386b921f7b903e24459adf75ed64aa66e20af49cad09e81ea1efde52b51f8a",
+  "prompt_sha256": "ed43f22aef41c239c28859cfbf45af673fc6d8bb20dbf5701a15b16f52b80e03",
+  "r1_sha256": "4707aa7e7263115e0d5ae9875b181dd208c0f1952065054de114fcb1f96f16f2",
+  "stage": "verify",
+  "unit_id": "P-8afe19164f7fae9a"
+}

@@ -1,0 +1,120 @@
+{
+  "dispatch_order": 6,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "a1150ce5-31ae-4dd3-b08b-05bbcc93db4b",
+    "cli_finished_unix_ns": 1795244558236854612,
+    "cli_started_unix_ns": 1795244545976283342,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 12261,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244558241249639,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/review/raw/N02.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13376,
+        "output_tokens": 64,
+        "reasoning_output_tokens": 53,
+        "total_tokens": 13440
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13376,
+        "output_tokens": 64,
+        "reasoning_output_tokens": 53,
+        "total_tokens": 13440
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fce9-d898-7660-b46d-84479d7a1246",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13376,
+      "output_tokens": 64,
+      "reasoning_output_tokens": 53
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13376,
+      "output_tokens": 64,
+      "reasoning_output_tokens": 53
+    }
+  },
+  "packet_sha256": "01198c98cd5ab4fa39f43003843465d7a3ca3c0103e1f4fb5e6cb3dda045c6e5",
+  "prompt_sha256": "1581871a7873fec4067e4dcbfa15a6131726d3d5f2f0a1e68553ca42e5c769ef",
+  "raw": "{\"findings\":[]}",
+  "stage": "review",
+  "trace": {
+    "as_of": "2026-11-12T15:00:00+09:00",
+    "case_id": "N02",
+    "errors": [],
+    "findings": [],
+    "original_body": "河岸倉庫には東口の納品受付と西口の返品受付があり、金曜だけ十六時に締める窓口がある。待機所の自販機は硬貨専用だ。貸出台車は青い札を付けて返す。",
+    "packet_sha256": "01198c98cd5ab4fa39f43003843465d7a3ca3c0103e1f4fb5e6cb3dda045c6e5",
+    "proposed_body": "河岸倉庫には東口の納品受付と西口の返品受付があり、金曜だけ十六時に締める窓口がある。待機所の自販機は硬貨専用だ。貸出台車は青い札を付けて返す。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "v1",
+    "sentences": [
+      {
+        "end": 42,
+        "id": 1,
+        "start": 0,
+        "text": "河岸倉庫には東口の納品受付と西口の返品受付があり、金曜だけ十六時に締める窓口がある。"
+      },
+      {
+        "end": 56,
+        "id": 2,
+        "start": 42,
+        "text": "待機所の自販機は硬貨専用だ。"
+      },
+      {
+        "end": 71,
+        "id": 3,
+        "start": 56,
+        "text": "貸出台車は青い札を付けて返す。"
+      }
+    ],
+    "source_sha256": "56063e5a68a2ff7c9943fa6482672534d8487cba6a4068998f3293abe3104a30",
+    "status": "clear"
+  },
+  "unit_id": "N02"
+}

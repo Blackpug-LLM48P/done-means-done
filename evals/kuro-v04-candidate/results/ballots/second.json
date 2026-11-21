@@ -1,0 +1,194 @@
+{
+  "T-0419975874d4d4c46aa32e327c887ac4": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "薄紙を挟んだ効果だ",
+        "reason": "発送控えに薄紙の使用開始、検品票に擦れの冊数はあるが、検品票の原因欄は空いており、薄紙で擦れが減ったとは判断できない。"
+      }
+    ]
+  },
+  "T-09516d3bd051fd95fa38170483303271": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      3
+    ],
+    "issues": [
+      {
+        "sentence_id": 3,
+        "quote": "第三バースのシャッター点検のため",
+        "reason": "点検と八分の遅延はそれぞれ記録されているが、運行日報は遅延の理由を記しておらず、両者を結ぶ記録もない。"
+      }
+    ]
+  },
+  "T-0b0f54d029ff534a04ee3f6a49700c84": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-0c1977697e331044159b753ff6eb18bb": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-172a299b7d65e69417198c348deb8161": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-1b2d873d0ab041f16117a24bc1771ab9": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "赤い札の台車だけ",
+        "reason": "整備指示書は全8台を点検対象としている。赤い札は戻し先が第1倉庫であることを示す。"
+      }
+    ]
+  },
+  "T-208eddf9b8fa7c735bbfc804be2b9ec4": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      3
+    ],
+    "issues": [
+      {
+        "sentence_id": 3,
+        "quote": "西村さんの提案で",
+        "reason": "出席簿で西村さんの出席は確認できるが、議事メモの発案者欄は空欄で、誰の提案かは分からない。"
+      }
+    ]
+  },
+  "T-2a4c4f1705b32cf422e17039b5ef6d32": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-2fded07679f2205109f571e5b36f690a": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-5e59e8ec92ffac42c766ddd908cb210b": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-6dcc113e92d4929d0def9fa50c6738c2": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-6e38145e1ac235204f2968851c3cf8fc": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-80b67fb34707eca35b7436410862688a": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "作家自身が入口に選んだ",
+        "reason": "展示台帳は入口の作品を特定しているが、その選定者を記していない。作家の了承が記録されているのは作品名札の文字サイズについてである。"
+      }
+    ]
+  },
+  "T-a6ed4ff14e74259009b7d93c2faae92d": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-a9c1ef45bace6d462bdbdda8266c2690": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-d24d97c0d08c760e90fde5fd4686c699": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-efdf764c47c7db6b4ebab6605a86ea0a": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      1
+    ],
+    "issues": [
+      {
+        "sentence_id": 1,
+        "quote": "ひな壇用の支柱12本は音響係が舞台脇へ運んだ",
+        "reason": "搬入チェック表で支柱12本を運んだのは設営係。音響係が運んだのはマイクワゴンだった。"
+      }
+    ]
+  },
+  "T-f2091d51beb65b9e7ca919d1e3264654": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  }
+}

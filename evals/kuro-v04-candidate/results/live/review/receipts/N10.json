@@ -1,0 +1,120 @@
+{
+  "dispatch_order": 7,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "5149e560-03ff-461b-9d0f-09dc3615a3bd",
+    "cli_finished_unix_ns": 1795244573019420128,
+    "cli_started_unix_ns": 1795244558330369591,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 14689,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244573022243347,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/review/raw/N10.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13372,
+        "output_tokens": 246,
+        "reasoning_output_tokens": 235,
+        "total_tokens": 13618
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13372,
+        "output_tokens": 246,
+        "reasoning_output_tokens": 235,
+        "total_tokens": 13618
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fcea-08ab-79a2-b207-032949973dc8",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13372,
+      "output_tokens": 246,
+      "reasoning_output_tokens": 235
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13372,
+      "output_tokens": 246,
+      "reasoning_output_tokens": 235
+    }
+  },
+  "packet_sha256": "42eb7d66bb01b4d2a6c17815de29e3c7740ec27e21c01d24866bc3209b29875a",
+  "prompt_sha256": "cf7b1b8262a75b195ec977c1bfc95d4cf88474acd73171e0a9390ecd0134341c",
+  "raw": "{\"findings\":[]}",
+  "stage": "review",
+  "trace": {
+    "as_of": "2026-11-12T15:00:00+09:00",
+    "case_id": "N10",
+    "errors": [],
+    "findings": [],
+    "original_body": "藍染めの布は14時に裏返す。布を入れる空箱は西口で受け取る。乾燥枠の留め具が3個足りなかった分は、工房の予備でまかなった。",
+    "packet_sha256": "42eb7d66bb01b4d2a6c17815de29e3c7740ec27e21c01d24866bc3209b29875a",
+    "proposed_body": "藍染めの布は14時に裏返す。布を入れる空箱は西口で受け取る。乾燥枠の留め具が3個足りなかった分は、工房の予備でまかなった。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "v1",
+    "sentences": [
+      {
+        "end": 14,
+        "id": 1,
+        "start": 0,
+        "text": "藍染めの布は14時に裏返す。"
+      },
+      {
+        "end": 30,
+        "id": 2,
+        "start": 14,
+        "text": "布を入れる空箱は西口で受け取る。"
+      },
+      {
+        "end": 61,
+        "id": 3,
+        "start": 30,
+        "text": "乾燥枠の留め具が3個足りなかった分は、工房の予備でまかなった。"
+      }
+    ],
+    "source_sha256": "c75091b8cd6e04eecc2bcd186ea63789142e9b08107e09cf154d84f1bbbfbf7e",
+    "status": "clear"
+  },
+  "unit_id": "N10"
+}
