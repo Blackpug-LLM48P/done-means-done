@@ -1,0 +1,106 @@
+{
+  "arm": "new",
+  "cohort": "known",
+  "dispatch_order": 5,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "5a357cd1-b3b3-436f-a992-e08188dfb134",
+    "cli_finished_unix_ns": 1795250418432830166,
+    "cli_started_unix_ns": 1795250400077165271,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 18356,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795250418434560867,
+    "isolation": {
+      "empty_cwd": true,
+      "key_hidden": true,
+      "positive_read": true,
+      "previous_key_hidden": true,
+      "proc_root_checked": true,
+      "repository_hidden": true,
+      "sandbox": "bubblewrap",
+      "units_hidden": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/raw/Q-825d3ee27395c995--new.txt",
+    "raw_sha256": "c9e20085595ce3e53c52e1b65da73ef39e114a235c07867826b95870897740bf",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12505,
+        "output_tokens": 494,
+        "reasoning_output_tokens": 317,
+        "total_tokens": 12999
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12505,
+        "output_tokens": 494,
+        "reasoning_output_tokens": 317,
+        "total_tokens": 12999
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fd43-2c4f-72f0-92e8-d104e771e99b",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12505,
+      "output_tokens": 494,
+      "reasoning_output_tokens": 317
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12505,
+      "output_tokens": 494,
+      "reasoning_output_tokens": 317
+    }
+  },
+  "packet_sha256": "35f186d415e661fcb2934737513c7ea8aa62d97a8e3b9ea40996fc52c63e5134",
+  "prompt_sha256": "b23476e3cec311b36bbf03a7503f35aa425fb0f7b64208ab3414a5533f28d49a",
+  "r1_sha256": "e433fa25472f543e551dc11e953d1a2dd9811d47eb455e31b744a4b7811dc17f",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"E1の「野村さんに」は「頼んだ」にも「伝えた」にもかかり得るため、元の本文が依頼先を野村さん、報告先を小森さんと特定した点は裏付けられない。候補は、野村さんと小森さんの一方が閉会の挨拶を依頼され、もう一方が司会者からその報告を受けたという事実を保っている。会場の桐野ホールと午後二時の開式も、それぞれE2、E3と一致する。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "run_id": "Q-825d3ee27395c995--new",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": "司会者は野村さんと小森さんのうち一人に閉会の挨拶を頼んだと、もう一人に伝えた。式典の会場は桐野ホールだった。開式は午後二時だった。",
+    "original_body": "司会者は野村さんに閉会の挨拶を頼み、そのことを小森さんに伝えた。式典の会場は桐野ホールだった。開式は午後二時だった。",
+    "outcome": "offer",
+    "prompt_sha256": "b23476e3cec311b36bbf03a7503f35aa425fb0f7b64208ab3414a5533f28d49a",
+    "rationale": "E1の「野村さんに」は「頼んだ」にも「伝えた」にもかかり得るため、元の本文が依頼先を野村さん、報告先を小森さんと特定した点は裏付けられない。候補は、野村さんと小森さんの一方が閉会の挨拶を依頼され、もう一方が司会者からその報告を受けたという事実を保っている。会場の桐野ホールと午後二時の開式も、それぞれE2、E3と一致する。",
+    "verdict": "approve"
+  },
+  "unit_id": "Q-825d3ee27395c995"
+}

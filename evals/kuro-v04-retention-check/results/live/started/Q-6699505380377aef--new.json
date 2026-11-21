@@ -1,0 +1,13 @@
+{
+  "arm": "new",
+  "attempt_id": "12961fde-a096-4213-8d72-f424987b816b",
+  "claimed_unix_ns": 1795250429924460065,
+  "cohort": "new",
+  "dispatch_order": 17,
+  "packet_sha256": "7af54bfa4f23e4f7931ee7d7d9bff819c8cc1c8b062ecd17eae283182cbf55f1",
+  "prompt_sha256": "36855b6f824fb258f9b95a017ae8cd8392b310fc9041dc752567f0a098218129",
+  "r1_sha256": "b82acb8db908922f96bb0b703b385c17995b9dd9936a35c1a2e7696b7994b0c1",
+  "run_id": "Q-6699505380377aef--new",
+  "stage": "verify",
+  "unit_id": "Q-6699505380377aef"
+}

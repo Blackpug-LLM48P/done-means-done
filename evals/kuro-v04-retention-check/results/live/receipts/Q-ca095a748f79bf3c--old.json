@@ -1,0 +1,106 @@
+{
+  "arm": "old",
+  "cohort": "new",
+  "dispatch_order": 6,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "8f790259-5ec9-438e-95df-37875467f89e",
+    "cli_finished_unix_ns": 1795250418446123425,
+    "cli_started_unix_ns": 1795250400084999991,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 18361,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795250418452309735,
+    "isolation": {
+      "empty_cwd": true,
+      "key_hidden": true,
+      "positive_read": true,
+      "previous_key_hidden": true,
+      "proc_root_checked": true,
+      "repository_hidden": true,
+      "sandbox": "bubblewrap",
+      "units_hidden": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/raw/Q-ca095a748f79bf3c--old.txt",
+    "raw_sha256": "c8a764e3ba1ebb1b2bb9855d3f4ebfe08d662faf8a7240b57ab77bb6ca2ddefe",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12385,
+        "output_tokens": 138,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 12523
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12385,
+        "output_tokens": 138,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 12523
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fd43-2c3e-7c63-87d8-99d76f6d3172",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12385,
+      "output_tokens": 138,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12385,
+      "output_tokens": 138,
+      "reasoning_output_tokens": 0
+    }
+  },
+  "packet_sha256": "de179d20b4d844d5cf3bafb475016e98ab66f4e4e3680304145f73f31c51067d",
+  "prompt_sha256": "2c81a9edaeb1834a434f852547f91650adeef87802be9c1939a1c01257a65866",
+  "r1_sha256": "2e1d143167dec8c1cd4576879e078eb39adb8ff3a43b9b75a5bd2d9c546ce7ed",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"元の本文は、画像を撮影と同じ部屋で公開すると断定している。E1で確認できるのは、撮影場所が松江の資料保存室で、公開場所は未定ということだ。候補はこの点を正し、E2の撮影対象（江戸時代の古地図12枚）と、E3の各画像に付く地名解説も正確に保っている。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "run_id": "Q-ca095a748f79bf3c--old",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": "古地図の撮影は松江の資料保存室で行い、画像をどこで公開するかはまだ決まっていない。撮影の対象は江戸時代の古地図12枚だ。各画像には地名を読み解くための解説が付く。",
+    "original_body": "古地図は松江の資料保存室で撮影し、その画像も同じ部屋で公開する。撮影の対象は江戸時代の古地図12枚だ。各画像には地名を読み解くための解説が付く。",
+    "outcome": "offer",
+    "prompt_sha256": "2c81a9edaeb1834a434f852547f91650adeef87802be9c1939a1c01257a65866",
+    "rationale": "元の本文は、画像を撮影と同じ部屋で公開すると断定している。E1で確認できるのは、撮影場所が松江の資料保存室で、公開場所は未定ということだ。候補はこの点を正し、E2の撮影対象（江戸時代の古地図12枚）と、E3の各画像に付く地名解説も正確に保っている。",
+    "verdict": "approve"
+  },
+  "unit_id": "Q-ca095a748f79bf3c"
+}

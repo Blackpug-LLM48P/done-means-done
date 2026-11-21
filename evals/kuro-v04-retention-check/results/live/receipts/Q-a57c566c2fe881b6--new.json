@@ -1,0 +1,106 @@
+{
+  "arm": "new",
+  "cohort": "known",
+  "dispatch_order": 20,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "33c297fb-7a78-4f6f-9fec-9f693310d82f",
+    "cli_finished_unix_ns": 1795250453651587378,
+    "cli_started_unix_ns": 1795250441623952980,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 12028,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795250453658855389,
+    "isolation": {
+      "empty_cwd": true,
+      "key_hidden": true,
+      "positive_read": true,
+      "previous_key_hidden": true,
+      "proc_root_checked": true,
+      "repository_hidden": true,
+      "sandbox": "bubblewrap",
+      "units_hidden": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/raw/Q-a57c566c2fe881b6--new.txt",
+    "raw_sha256": "ca8dcfcd6d3ac6fee9e19d652d176e7059c4001a20c8805d49e608081fa45fa3",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12478,
+        "output_tokens": 184,
+        "reasoning_output_tokens": 27,
+        "total_tokens": 12662
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12478,
+        "output_tokens": 184,
+        "reasoning_output_tokens": 27,
+        "total_tokens": 12662
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fd43-ce43-77b0-8577-b66d4aeefcb7",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12478,
+      "output_tokens": 184,
+      "reasoning_output_tokens": 27
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12478,
+      "output_tokens": 184,
+      "reasoning_output_tokens": 27
+    }
+  },
+  "packet_sha256": "77f3aa824f930a08b4fcb25d45aced0e3aa79d986cc043a22f4127e64e7b83a3",
+  "prompt_sha256": "45b829ba0b32c40a50ef11f57339a3f57a560ead566b41f7d54f0c32657e83e8",
+  "r1_sha256": "211f7ced1844d5c251537fd8a6375941911fe15fe6a09a864cd6c3f9c4958250",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"元の本文は三点すべての撮影地を神戸と断定している。E1で神戸と記されているのは受取地で、撮影地の欄は空欄だった。候補は撮影地の断定を外し、写真家が撮影した夜景写真三点を編集者が受け取ったことと、三点の受取地の記載を正確に伝えている。整理番号と掲載予定もE2、E3に一致する。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "run_id": "Q-a57c566c2fe881b6--new",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": "編集者が受け取った夜景写真三点は、いずれも写真家が撮影し、受取地が神戸と記されたものだった。写真の整理番号は一番から三番だった。掲載予定は冬号だった。",
+    "original_body": "編集者が受け取った夜景写真三点は、いずれも写真家が神戸で撮影したものだった。写真の整理番号は一番から三番だった。掲載予定は冬号だった。",
+    "outcome": "offer",
+    "prompt_sha256": "45b829ba0b32c40a50ef11f57339a3f57a560ead566b41f7d54f0c32657e83e8",
+    "rationale": "元の本文は三点すべての撮影地を神戸と断定している。E1で神戸と記されているのは受取地で、撮影地の欄は空欄だった。候補は撮影地の断定を外し、写真家が撮影した夜景写真三点を編集者が受け取ったことと、三点の受取地の記載を正確に伝えている。整理番号と掲載予定もE2、E3に一致する。",
+    "verdict": "approve"
+  },
+  "unit_id": "Q-a57c566c2fe881b6"
+}
