@@ -76,3 +76,5 @@ node check_form.mjs
 ```sh
 python3 -B ui_check.py --chromium /usr/bin/chromium
 ```
+
+追加で別のブラウザー起動経路も確認した。実描画を確認できたビューポートは0、実ブラウザーで観測した保存は0。単体HTML8枚のDOM試験は再現できた。人への配布や人間からの回答は発生していない。[追加起動試験](browser-followup.json)

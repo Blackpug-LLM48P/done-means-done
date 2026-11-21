@@ -1,0 +1,46 @@
+{
+  "date_utc": "2026-11-21",
+  "status": "browser_render_and_file_save_unverified",
+  "attempts": [
+    {
+      "engine": "Chromium 156.0.8078.79",
+      "launch": "Playwright headless, fresh profile, browser sandbox enabled, isolated user and network namespaces",
+      "result": "Exited before page creation. Process singleton socket() returned Operation not permitted (1). A separate AF_UNIX probe in the private namespace also returned EPERM."
+    },
+    {
+      "engine": "QtWebEngine 5.15.2 bundled with 3D Slicer 5.12.4",
+      "launch": "Offscreen widget, temporary settings in an isolated user and network namespace. Verification attempt retained the browser sandbox.",
+      "file": "HN4.html",
+      "result": "The view exposed the requested file URL, but no loadFinished signal or nonempty document result arrived during the 8.5-second event-loop probe. No form control or report was verified."
+    },
+    {
+      "engine": "Cloud Chrome",
+      "launch": "Local-file URL navigation",
+      "result": "The browser URL policy allows only HTTP and HTTPS. It rejected file: before navigation."
+    }
+  ],
+  "verified_browser_viewports": [],
+  "observed_browser_downloads": 0,
+  "verified_mobile_text_overflow": null,
+  "mechanical_fallback": {
+    "method": "embedded JS with a DOM fixture; no browser rendering",
+    "packets": [
+      "AX7.html",
+      "BZ6.html",
+      "CL8.html",
+      "GP9.html",
+      "HN4.html",
+      "JT5.html",
+      "QF2.html",
+      "WM3.html"
+    ],
+    "rerun_matched_prior_record": true,
+    "checks": [
+      "Two sequential reports, required-answer setup and whitespace handling",
+      "Simulated visibility intervals",
+      "Generated JSON Blob text equals the copy field",
+      "Reserved mechanical code yields ineligible export"
+    ]
+  },
+  "human_returns_created": 0
+}
