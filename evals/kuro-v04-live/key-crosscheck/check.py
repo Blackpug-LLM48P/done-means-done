@@ -8,6 +8,8 @@ from tempfile import TemporaryDirectory
 
 here = Path(__file__).resolve().parent
 expected = json.loads((here / "expected.json").read_bytes())
+if set(expected) != {"alpha", "beta"}:
+    raise ValueError("Expected both independently reconstructed cases")
 results = {}
 for case, values in expected.items():
     checker = here.parent / "cases" / case / "oracle" / "assess.py"

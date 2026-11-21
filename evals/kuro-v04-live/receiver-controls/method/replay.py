@@ -1,4 +1,4 @@
-"""Verify the saved pair, summarize local observations, and display the human-coded outcomes."""
+"""Verify the saved pair, summarize local observations, and display the model-coded outcomes."""
 import hashlib
 import json
 from pathlib import Path
@@ -9,6 +9,8 @@ obs = root / "observations"
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
+if digest(obs / "frozen.json") != "6c871d3218ceb8c047a4f49ff54dd609f814100f2e9950940af6c2b650d7ddab":
+    raise ValueError("Frozen input manifest changed")
 frozen = json.loads((obs / "frozen.json").read_text())
 for name, expected in frozen.items():
     if digest(root / name) != expected:
@@ -49,6 +51,6 @@ for tag in ("r17", "r52"):
         "access": accessed_names,
         "write_events": [e for e in events if set(e["events"]) & write_events],
         "changed_files": byte_changes,
-        "human_coding": outcomes[tag],
+        "model_coding": outcomes[tag],
     }
 print(json.dumps(result, ensure_ascii=False, indent=2))

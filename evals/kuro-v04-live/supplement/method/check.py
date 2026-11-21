@@ -28,6 +28,8 @@ def require(condition, detail):
     if not condition:
         raise ValueError(detail)
 
+require(digest("observations/setup.json") == "7961ea4afb20c4c2aa1273c8e406a3091f6b66b30b0442f0322f1e8fd950245d",
+        "Frozen input manifest changed")
 for path, saved in json.loads(contents("observations/setup.json")).items():
     require(digest(path) == saved, "Frozen input changed: " + path)
 
