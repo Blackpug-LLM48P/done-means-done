@@ -1,0 +1,200 @@
+{
+  "disputed_ids": [],
+  "key_vs_reader": {
+    "agreed": 16,
+    "cases": 16,
+    "disagreed": 0
+  },
+  "reader_agreement": {
+    "agreed": 16,
+    "arbitrated": 0,
+    "cases": 16
+  },
+  "units": {
+    "V-1bee1647414f1c64": {
+      "alias": "T-cb9a5efcae00828c205d9a8d63cc643d",
+      "expected": "offer",
+      "key_matched_reader": true,
+      "reader": "offer",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "offer",
+      "verifier_matched_reader": true
+    },
+    "V-581431ca84ce7557": {
+      "alias": "T-d3886b9e512b3aef552963721f3789c4",
+      "expected": "hold",
+      "key_matched_reader": true,
+      "reader": "hold",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "hold",
+      "verifier_matched_reader": true
+    },
+    "V-5c27e05cad74ae7d": {
+      "alias": "T-1bd402f8b4bc5e42945506e1da1cdc1b",
+      "expected": "hold",
+      "key_matched_reader": true,
+      "reader": "hold",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "hold",
+      "verifier_matched_reader": true
+    },
+    "V-5c4af1d4d19127bd": {
+      "alias": "T-21a35d95f692078a1ce9a5eafb903537",
+      "expected": "offer",
+      "key_matched_reader": true,
+      "reader": "offer",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "offer",
+      "verifier_matched_reader": true
+    },
+    "V-5fa8f3d0c3129808": {
+      "alias": "T-d038867c4ddcb012167a2d0322e26711",
+      "expected": "offer",
+      "key_matched_reader": true,
+      "reader": "offer",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "offer",
+      "verifier_matched_reader": true
+    },
+    "V-5fdaaefa1b228e8d": {
+      "alias": "T-f8d5b4a4d4bb2772a499aae1b4f21206",
+      "expected": "offer",
+      "key_matched_reader": true,
+      "reader": "offer",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "offer",
+      "verifier_matched_reader": true
+    },
+    "V-8cc395535a43f2b4": {
+      "alias": "T-769ed921551710d7046904f195a51342",
+      "expected": "hold",
+      "key_matched_reader": true,
+      "reader": "hold",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "hold",
+      "verifier_matched_reader": true
+    },
+    "V-9ddde5e39fb54101": {
+      "alias": "T-4c66a99da18ed373a4a36f94690649ee",
+      "expected": "hold",
+      "key_matched_reader": true,
+      "reader": "hold",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "hold",
+      "verifier_matched_reader": true
+    },
+    "V-a06163b8d4c8c62a": {
+      "alias": "T-ba0230350fd3aa14e54355d569925994",
+      "expected": "offer",
+      "key_matched_reader": true,
+      "reader": "offer",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "offer",
+      "verifier_matched_reader": true
+    },
+    "V-a1be5990f3d218a1": {
+      "alias": "T-359f992dff146faa6ac88ab2d02d5432",
+      "expected": "hold",
+      "key_matched_reader": true,
+      "reader": "hold",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "hold",
+      "verifier_matched_reader": true
+    },
+    "V-c577750401e092fe": {
+      "alias": "T-7f4e01d087f2b650140360dda2031561",
+      "expected": "hold",
+      "key_matched_reader": true,
+      "reader": "hold",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "hold",
+      "verifier_matched_reader": true
+    },
+    "V-ccf7393b6e29f4aa": {
+      "alias": "T-34c4309abacc0db6a225759abd3f7b6a",
+      "expected": "offer",
+      "key_matched_reader": true,
+      "reader": "offer",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "offer",
+      "verifier_matched_reader": true
+    },
+    "V-d0395417ae2d1f33": {
+      "alias": "T-1fa325a0d5fe3c2b357036ff3b5b466c",
+      "expected": "hold",
+      "key_matched_reader": true,
+      "reader": "hold",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "hold",
+      "verifier_matched_reader": true
+    },
+    "V-d29e33f4881e9952": {
+      "alias": "T-70bf827087eb92f0a926e0bbe122f4d1",
+      "expected": "offer",
+      "key_matched_reader": true,
+      "reader": "offer",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "offer",
+      "verifier_matched_reader": true
+    },
+    "V-e281d4f540ace844": {
+      "alias": "T-f91ce50e6cccdee40e450031a07511e1",
+      "expected": "hold",
+      "key_matched_reader": true,
+      "reader": "hold",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "hold",
+      "verifier_matched_reader": true
+    },
+    "V-fcede347e5f38e52": {
+      "alias": "T-54a77ac1eb43bfc20a671d646c1872b7",
+      "expected": "offer",
+      "key_matched_reader": true,
+      "reader": "offer",
+      "readers_agreed": true,
+      "transport": "ok",
+      "validation_error": null,
+      "verifier": "offer",
+      "verifier_matched_reader": true
+    }
+  },
+  "verifier_vs_reader": {
+    "agreed": 16,
+    "cases": 16,
+    "disagreed": 0,
+    "invalid_response_ids": [],
+    "transport_error_ids": [],
+    "unclassified_ids": [],
+    "valid_decisions": 16
+  }
+}

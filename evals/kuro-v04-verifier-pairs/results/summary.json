@@ -1,0 +1,101 @@
+{
+  "ambiguous_pairs_correct": 4,
+  "b_across_sources_correct": 4,
+  "by_cell": {
+    "a_b": {
+      "cells": 4,
+      "correct": 4,
+      "expected_holds": 4,
+      "expected_offers": 0,
+      "failures": [],
+      "false_approvals": 0,
+      "false_holds": 0,
+      "true_approvals": 0,
+      "true_holds": 4,
+      "unclassified_ids": [],
+      "valid_votes": 4
+    },
+    "ambiguous_b": {
+      "cells": 4,
+      "correct": 4,
+      "expected_holds": 4,
+      "expected_offers": 0,
+      "failures": [],
+      "false_approvals": 0,
+      "false_holds": 0,
+      "true_approvals": 0,
+      "true_holds": 4,
+      "unclassified_ids": [],
+      "valid_votes": 4
+    },
+    "ambiguous_common": {
+      "cells": 4,
+      "correct": 4,
+      "expected_holds": 0,
+      "expected_offers": 4,
+      "failures": [],
+      "false_approvals": 0,
+      "false_holds": 0,
+      "true_approvals": 4,
+      "true_holds": 0,
+      "unclassified_ids": [],
+      "valid_votes": 4
+    },
+    "b_b": {
+      "cells": 4,
+      "correct": 4,
+      "expected_holds": 0,
+      "expected_offers": 4,
+      "failures": [],
+      "false_approvals": 0,
+      "false_holds": 0,
+      "true_approvals": 4,
+      "true_holds": 0,
+      "unclassified_ids": [],
+      "valid_votes": 4
+    }
+  },
+  "decision": "pass",
+  "eligible_families": 6,
+  "families": [
+    {
+      "all_four_correct": true,
+      "ambiguous_pair_correct": true,
+      "b_across_sources_correct": true,
+      "family": "F1"
+    },
+    {
+      "all_four_correct": true,
+      "ambiguous_pair_correct": true,
+      "b_across_sources_correct": true,
+      "family": "F2"
+    },
+    {
+      "all_four_correct": true,
+      "ambiguous_pair_correct": true,
+      "b_across_sources_correct": true,
+      "family": "F3"
+    },
+    {
+      "all_four_correct": true,
+      "ambiguous_pair_correct": true,
+      "b_across_sources_correct": true,
+      "family": "F4"
+    }
+  ],
+  "overall": {
+    "cells": 16,
+    "correct": 16,
+    "expected_holds": 8,
+    "expected_offers": 8,
+    "failures": [],
+    "false_approvals": 0,
+    "false_holds": 0,
+    "true_approvals": 8,
+    "true_holds": 8,
+    "unclassified_ids": [],
+    "valid_votes": 16
+  },
+  "planned_families": 4,
+  "tested_families": 4
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "expected": "offer",
+    "family": "F3",
+    "id": "V-1bee1647414f1c64",
+    "proposal": "common",
+    "source": "ambiguous"
+  },
+  {
+    "expected": "hold",
+    "family": "F3",
+    "id": "V-581431ca84ce7557",
+    "proposal": "b",
+    "source": "a"
+  },
+  {
+    "expected": "hold",
+    "family": "F4",
+    "id": "V-5c27e05cad74ae7d",
+    "proposal": "b",
+    "source": "a"
+  },
+  {
+    "expected": "offer",
+    "family": "F1",
+    "id": "V-5c4af1d4d19127bd",
+    "proposal": "common",
+    "source": "ambiguous"
+  },
+  {
+    "expected": "offer",
+    "family": "F4",
+    "id": "V-5fa8f3d0c3129808",
+    "proposal": "b",
+    "source": "b"
+  },
+  {
+    "expected": "offer",
+    "family": "F1",
+    "id": "V-5fdaaefa1b228e8d",
+    "proposal": "b",
+    "source": "b"
+  },
+  {
+    "expected": "hold",
+    "family": "F3",
+    "id": "V-8cc395535a43f2b4",
+    "proposal": "b",
+    "source": "ambiguous"
+  },
+  {
+    "expected": "hold",
+    "family": "F4",
+    "id": "V-9ddde5e39fb54101",
+    "proposal": "b",
+    "source": "ambiguous"
+  },
+  {
+    "expected": "offer",
+    "family": "F2",
+    "id": "V-a06163b8d4c8c62a",
+    "proposal": "common",
+    "source": "ambiguous"
+  },
+  {
+    "expected": "hold",
+    "family": "F2",
+    "id": "V-a1be5990f3d218a1",
+    "proposal": "b",
+    "source": "a"
+  },
+  {
+    "expected": "hold",
+    "family": "F1",
+    "id": "V-c577750401e092fe",
+    "proposal": "b",
+    "source": "ambiguous"
+  },
+  {
+    "expected": "offer",
+    "family": "F3",
+    "id": "V-ccf7393b6e29f4aa",
+    "proposal": "b",
+    "source": "b"
+  },
+  {
+    "expected": "hold",
+    "family": "F2",
+    "id": "V-d0395417ae2d1f33",
+    "proposal": "b",
+    "source": "ambiguous"
+  },
+  {
+    "expected": "offer",
+    "family": "F2",
+    "id": "V-d29e33f4881e9952",
+    "proposal": "b",
+    "source": "b"
+  },
+  {
+    "expected": "hold",
+    "family": "F1",
+    "id": "V-e281d4f540ace844",
+    "proposal": "b",
+    "source": "a"
+  },
+  {
+    "expected": "offer",
+    "family": "F4",
+    "id": "V-fcede347e5f38e52",
+    "proposal": "common",
+    "source": "ambiguous"
+  }
+]
