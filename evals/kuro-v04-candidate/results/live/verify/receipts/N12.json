@@ -1,0 +1,102 @@
+{
+  "dispatch_order": 16,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "fa6567dc-967e-45a3-b736-c156f1474f7e",
+    "cli_finished_unix_ns": 1795244643468482144,
+    "cli_started_unix_ns": 1795244631012009308,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 12456,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244643470745597,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/verify/raw/N12.txt",
+    "raw_sha256": "76c59af85de9ea315aba58860f315572efa71b455c4d4a858c4ef3d49c4a5a3f",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12390,
+        "output_tokens": 217,
+        "reasoning_output_tokens": 81,
+        "total_tokens": 12607
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12390,
+        "output_tokens": 217,
+        "reasoning_output_tokens": 81,
+        "total_tokens": 12607
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fceb-2459-7022-81ee-38e5e4e640ec",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12390,
+      "output_tokens": 217,
+      "reasoning_output_tokens": 81
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12390,
+      "output_tokens": 217,
+      "reasoning_output_tokens": 81
+    }
+  },
+  "packet_sha256": "7ba8be3d2a502ecf0297a4aeec682046f9ec5eb56657769418ea7a894a02b897",
+  "prompt_sha256": "28a3bdbac32593b400d43c6282e325f2bb117d0369f4275ce40c786b6d4f876b",
+  "r1_sha256": "4ee9651ec53726ff99f6571805b3cedfdea95264b137d86dcba7c2304b866942",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"E1は点検対象を台車全8台と明記し、色札は戻し先を示すと定めている。元の本文が対象を赤い札の台車だけに限定する根拠はない。候補は対象を全8台に訂正し、E2の点検場所と、E3の交換用車輪の個数・保管場所を正確に保っている。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": "台車の点検は北の荷さばき場で行う。台車全8台が今回の点検対象だ。交換用の車輪4個は事務所の棚にある。",
+    "original_body": "台車の点検は北の荷さばき場で行う。赤い札の台車だけが今回の点検対象だ。交換用の車輪4個は事務所の棚にある。",
+    "outcome": "offer",
+    "prompt_sha256": "28a3bdbac32593b400d43c6282e325f2bb117d0369f4275ce40c786b6d4f876b",
+    "rationale": "E1は点検対象を台車全8台と明記し、色札は戻し先を示すと定めている。元の本文が対象を赤い札の台車だけに限定する根拠はない。候補は対象を全8台に訂正し、E2の点検場所と、E3の交換用車輪の個数・保管場所を正確に保っている。",
+    "verdict": "approve"
+  },
+  "unit_id": "N12"
+}

@@ -1,0 +1,102 @@
+{
+  "dispatch_order": 3,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "ced30505-7c77-445b-9567-220ab662a2f2",
+    "cli_finished_unix_ns": 1795244617450790871,
+    "cli_started_unix_ns": 1795244604283925023,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 13167,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244617456295306,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/verify/raw/P-7c3365bad1c6c4b5.txt",
+    "raw_sha256": "319cb23874e551bf50164ab514ba1ea33d4d9487c38c9536348d632a9a5883a2",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 12427,
+        "output_tokens": 257,
+        "reasoning_output_tokens": 94,
+        "total_tokens": 12684
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 12427,
+        "output_tokens": 257,
+        "reasoning_output_tokens": 94,
+        "total_tokens": 12684
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fcea-bc74-7371-a2e6-c95a20a0b795",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 12427,
+      "output_tokens": 257,
+      "reasoning_output_tokens": 94
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 12427,
+      "output_tokens": 257,
+      "reasoning_output_tokens": 94
+    }
+  },
+  "packet_sha256": "8bb9d031d7fbe878e240b962a8cdae05247fb3cae40ee8eca64ee484f04fdfea",
+  "prompt_sha256": "9a5ce4bbf60c12632dbf30db0c3fdd73571c466d0c0cce8d0cc959c40c9c384e",
+  "r1_sha256": "8d058d94e890c2d15ef24ef12c001ebfd1d9d1f16773be89b56df92a976af6cf",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"元の本文は検査で投影機を使ったと断定していますが、作業記録には、職人が投影機で図柄を写し取り、転写と検査のうち投影機を使ったのは片方だけだとあります。候補は使用工程を転写だけに訂正し、図柄が検査済みであること、型紙が6枚で保管場所が平棚の3段目であることも正確に保っています。\",\n  \"checked_refs\": [\"2783a07d7b\", \"76721b9639\", \"3dbc1abe20\"]\n}",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "2783a07d7b",
+      "76721b9639",
+      "3dbc1abe20"
+    ],
+    "error": null,
+    "offered_body": "職人が写し取った図柄は検査済みです。図柄を写し取る工程でのみ投影機を使いました。型紙は6枚です。保管場所は平棚の3段目です。",
+    "original_body": "職人が写し取った図柄は検査済みです。図柄を検査する工程で投影機を使いました。型紙は6枚です。保管場所は平棚の3段目です。",
+    "outcome": "offer",
+    "prompt_sha256": "9a5ce4bbf60c12632dbf30db0c3fdd73571c466d0c0cce8d0cc959c40c9c384e",
+    "rationale": "元の本文は検査で投影機を使ったと断定していますが、作業記録には、職人が投影機で図柄を写し取り、転写と検査のうち投影機を使ったのは片方だけだとあります。候補は使用工程を転写だけに訂正し、図柄が検査済みであること、型紙が6枚で保管場所が平棚の3段目であることも正確に保っています。",
+    "verdict": "approve"
+  },
+  "unit_id": "P-7c3365bad1c6c4b5"
+}

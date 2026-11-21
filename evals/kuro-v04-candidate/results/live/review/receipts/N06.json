@@ -1,0 +1,120 @@
+{
+  "dispatch_order": 4,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "2baafd86-c57e-498c-b285-3b89bd990ce4",
+    "cli_finished_unix_ns": 1795244564406221374,
+    "cli_started_unix_ns": 1795244545968126930,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 18438,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244564420006631,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/review/raw/N06.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13464,
+        "output_tokens": 527,
+        "reasoning_output_tokens": 516,
+        "total_tokens": 13991
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13464,
+        "output_tokens": 527,
+        "reasoning_output_tokens": 516,
+        "total_tokens": 13991
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fce9-d894-7561-b7ce-0bbb9aa11f43",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13464,
+      "output_tokens": 527,
+      "reasoning_output_tokens": 516
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13464,
+      "output_tokens": 527,
+      "reasoning_output_tokens": 516
+    }
+  },
+  "packet_sha256": "c1f2e02b80655390cecd9f43f6433bc44b7e6abe65fdb5ac31985c32df6cb49b",
+  "prompt_sha256": "b3bc7e582be889a0062556bfec59143279532b130a2cb1330dbe40abc92c05c9",
+  "raw": "{\"findings\":[]}",
+  "stage": "review",
+  "trace": {
+    "as_of": "2026-11-12T15:00:00+09:00",
+    "case_id": "N06",
+    "errors": [],
+    "findings": [],
+    "original_body": "座布団は入口の籠に積む。土曜は、高校生まで無料の朗読会と影絵劇を開く。当日配る冊子の表紙は木版刷りだ。",
+    "packet_sha256": "c1f2e02b80655390cecd9f43f6433bc44b7e6abe65fdb5ac31985c32df6cb49b",
+    "proposed_body": "座布団は入口の籠に積む。土曜は、高校生まで無料の朗読会と影絵劇を開く。当日配る冊子の表紙は木版刷りだ。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "v1",
+    "sentences": [
+      {
+        "end": 12,
+        "id": 1,
+        "start": 0,
+        "text": "座布団は入口の籠に積む。"
+      },
+      {
+        "end": 35,
+        "id": 2,
+        "start": 12,
+        "text": "土曜は、高校生まで無料の朗読会と影絵劇を開く。"
+      },
+      {
+        "end": 51,
+        "id": 3,
+        "start": 35,
+        "text": "当日配る冊子の表紙は木版刷りだ。"
+      }
+    ],
+    "source_sha256": "2d84003d6ff813f90b6897f75e5c2816d727a74ffd6dc50bdb7eefd93e92bc0d",
+    "status": "clear"
+  },
+  "unit_id": "N06"
+}

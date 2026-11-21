@@ -1,0 +1,120 @@
+{
+  "dispatch_order": 8,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "8430a4eb-de96-4f77-96cd-5b1914a2a5ce",
+    "cli_finished_unix_ns": 1795244564416159213,
+    "cli_started_unix_ns": 1795244558334565192,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 6082,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244564419410493,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/review/raw/N07.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13360,
+        "output_tokens": 36,
+        "reasoning_output_tokens": 25,
+        "total_tokens": 13396
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13360,
+        "output_tokens": 36,
+        "reasoning_output_tokens": 25,
+        "total_tokens": 13396
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fcea-0894-7e93-9502-245bf7a825de",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13360,
+      "output_tokens": 36,
+      "reasoning_output_tokens": 25
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13360,
+      "output_tokens": 36,
+      "reasoning_output_tokens": 25
+    }
+  },
+  "packet_sha256": "13e504757a8a8ca9ae3f40549a1699b942c8228902698aa60a3b6512562c62ed",
+  "prompt_sha256": "9742e2b4ce7e75b6c8521faaf28e07eec57fa24b9204ced5c535bfeb379641fb",
+  "raw": "{\"findings\":[]}",
+  "stage": "review",
+  "trace": {
+    "as_of": "2026-11-12T15:00:00+09:00",
+    "case_id": "N07",
+    "errors": [],
+    "findings": [],
+    "original_body": "北側の臨時窓口は10時に受付を始めた。貸出機が復旧するまでは、その窓口でつないだ。閉館時にはケースを18個回収した。",
+    "packet_sha256": "13e504757a8a8ca9ae3f40549a1699b942c8228902698aa60a3b6512562c62ed",
+    "proposed_body": "北側の臨時窓口は10時に受付を始めた。貸出機が復旧するまでは、その窓口でつないだ。閉館時にはケースを18個回収した。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "v1",
+    "sentences": [
+      {
+        "end": 19,
+        "id": 1,
+        "start": 0,
+        "text": "北側の臨時窓口は10時に受付を始めた。"
+      },
+      {
+        "end": 41,
+        "id": 2,
+        "start": 19,
+        "text": "貸出機が復旧するまでは、その窓口でつないだ。"
+      },
+      {
+        "end": 58,
+        "id": 3,
+        "start": 41,
+        "text": "閉館時にはケースを18個回収した。"
+      }
+    ],
+    "source_sha256": "94a746b02e1a49c6a74972e1304f5cbf2f883a1ceb2aa60ac9203b1ffbdf6a51",
+    "status": "clear"
+  },
+  "unit_id": "N07"
+}

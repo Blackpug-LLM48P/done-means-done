@@ -1,0 +1,133 @@
+{
+  "dispatch_order": 3,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "af4a6132-4cb1-47bf-a0fb-87ee167747ad",
+    "cli_finished_unix_ns": 1795244564407109413,
+    "cli_started_unix_ns": 1795244545947412995,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 18460,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244564417096088,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/review/raw/N08.txt",
+    "raw_sha256": "e44ffd9fab5f00ae91fe32db23b3f1774a166d471cf362220ef3fbbc797b7b12",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13376,
+        "output_tokens": 400,
+        "reasoning_output_tokens": 233,
+        "total_tokens": 13776
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13376,
+        "output_tokens": 400,
+        "reasoning_output_tokens": 233,
+        "total_tokens": 13776
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fce9-d873-70c3-842b-4c5f50f5129e",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13376,
+      "output_tokens": 400,
+      "reasoning_output_tokens": 233
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13376,
+      "output_tokens": 400,
+      "reasoning_output_tokens": 233
+    }
+  },
+  "packet_sha256": "ed63b51a4318d3b08caabc333b6d13557a1ee89fdcd8869281bc09a320314ef8",
+  "prompt_sha256": "c7ff7c84dd6925013fb78f93025fd02153f7976c5f9ef39576c3b485ffcd05b5",
+  "raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"のは、薄紙を挟んだ効果だ\",\n      \"reason\": \"発送控えには午後便から薄紙を挟んだとあり、検品票には表紙に擦れがあった冊数が記録されている。検品票に原因の記載はなく、薄紙が擦れを減らしたとは断定できない。\",\n      \"checked_refs\": [\"E1\", \"E2\"],\n      \"replacement\": \"。午後便から見本帳の間に薄紙を挟んだが、検品票に擦れの原因の記載はない\"\n    }\n  ]\n}",
+  "stage": "review",
+  "trace": {
+    "as_of": "2026-11-12T15:00:00+09:00",
+    "case_id": "N08",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "E1",
+          "E2"
+        ],
+        "end": 49,
+        "quote": "のは、薄紙を挟んだ効果だ",
+        "reason": "発送控えには午後便から薄紙を挟んだとあり、検品票には表紙に擦れがあった冊数が記録されている。検品票に原因の記載はなく、薄紙が擦れを減らしたとは断定できない。",
+        "replacement": "。午後便から見本帳の間に薄紙を挟んだが、検品票に擦れの原因の記載はない",
+        "sentence_id": 2,
+        "start": 37
+      }
+    ],
+    "original_body": "見本帳は午前と午後に30冊ずつ発送した。午後便で擦れが5冊から1冊に減ったのは、薄紙を挟んだ効果だ。通い箱は翌朝9時に回収する。",
+    "packet_sha256": "ed63b51a4318d3b08caabc333b6d13557a1ee89fdcd8869281bc09a320314ef8",
+    "proposed_body": "見本帳は午前と午後に30冊ずつ発送した。午後便で擦れが5冊から1冊に減った。午後便から見本帳の間に薄紙を挟んだが、検品票に擦れの原因の記載はない。通い箱は翌朝9時に回収する。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"のは、薄紙を挟んだ効果だ\",\n      \"reason\": \"発送控えには午後便から薄紙を挟んだとあり、検品票には表紙に擦れがあった冊数が記録されている。検品票に原因の記載はなく、薄紙が擦れを減らしたとは断定できない。\",\n      \"checked_refs\": [\"E1\", \"E2\"],\n      \"replacement\": \"。午後便から見本帳の間に薄紙を挟んだが、検品票に擦れの原因の記載はない\"\n    }\n  ]\n}",
+    "revision": "v1",
+    "sentences": [
+      {
+        "end": 20,
+        "id": 1,
+        "start": 0,
+        "text": "見本帳は午前と午後に30冊ずつ発送した。"
+      },
+      {
+        "end": 50,
+        "id": 2,
+        "start": 20,
+        "text": "午後便で擦れが5冊から1冊に減ったのは、薄紙を挟んだ効果だ。"
+      },
+      {
+        "end": 64,
+        "id": 3,
+        "start": 50,
+        "text": "通い箱は翌朝9時に回収する。"
+      }
+    ],
+    "source_sha256": "9971b4f0f30524cb9d8bd164c61b2db1bbf4faa09f8b46cab12eb6a6d635d192",
+    "status": "flagged"
+  },
+  "unit_id": "N08"
+}

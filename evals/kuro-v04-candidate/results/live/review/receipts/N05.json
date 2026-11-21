@@ -1,0 +1,120 @@
+{
+  "dispatch_order": 9,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "966d7bd4-1539-4c12-b349-0ef455baac5b",
+    "cli_finished_unix_ns": 1795244564405244439,
+    "cli_started_unix_ns": 1795244558355483972,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 6050,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244564415430726,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/review/raw/N05.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13503,
+        "output_tokens": 37,
+        "reasoning_output_tokens": 26,
+        "total_tokens": 13540
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13503,
+        "output_tokens": 37,
+        "reasoning_output_tokens": 26,
+        "total_tokens": 13540
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fcea-08d8-7760-bdcf-97cdac0ebbc8",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13503,
+      "output_tokens": 37,
+      "reasoning_output_tokens": 26
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13503,
+      "output_tokens": 37,
+      "reasoning_output_tokens": 26
+    }
+  },
+  "packet_sha256": "8f2b31ee495da7fc74217cb6cf29c152e1333d9245c354de201632fea6e6405a",
+  "prompt_sha256": "b4b97176c8635d9af58ec38bf0213e9c0d35c011858d12e174eef77aa869c057",
+  "raw": "{\"findings\":[]}",
+  "stage": "review",
+  "trace": {
+    "as_of": "2026-11-12T15:00:00+09:00",
+    "case_id": "N05",
+    "errors": [],
+    "findings": [],
+    "original_body": "瓶の仕切りには厚紙を使う。作業員の集合場所は桟橋の時計の下だ。島向け試験便の計画書は、最終便の荷下ろしを日没前に終えることを目標に掲げていた。",
+    "packet_sha256": "8f2b31ee495da7fc74217cb6cf29c152e1333d9245c354de201632fea6e6405a",
+    "proposed_body": "瓶の仕切りには厚紙を使う。作業員の集合場所は桟橋の時計の下だ。島向け試験便の計画書は、最終便の荷下ろしを日没前に終えることを目標に掲げていた。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "v1",
+    "sentences": [
+      {
+        "end": 13,
+        "id": 1,
+        "start": 0,
+        "text": "瓶の仕切りには厚紙を使う。"
+      },
+      {
+        "end": 31,
+        "id": 2,
+        "start": 13,
+        "text": "作業員の集合場所は桟橋の時計の下だ。"
+      },
+      {
+        "end": 71,
+        "id": 3,
+        "start": 31,
+        "text": "島向け試験便の計画書は、最終便の荷下ろしを日没前に終えることを目標に掲げていた。"
+      }
+    ],
+    "source_sha256": "cbdd71428e0db1fb32ae45a0d3fe7f0070490a5447f0dfb46d16727901a436c0",
+    "status": "clear"
+  },
+  "unit_id": "N05"
+}

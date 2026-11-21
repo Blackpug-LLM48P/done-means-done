@@ -1,0 +1,104 @@
+{
+  "dispatch_order": 12,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "21dd70d2-c1d6-441e-8657-fc2e39c0ecdc",
+    "cli_finished_unix_ns": 1795244643428983330,
+    "cli_started_unix_ns": 1795244625107335841,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 18322,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244643430872095,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/verify/raw/H-02.txt",
+    "raw_sha256": "e2638eb5cc279d1e3fe0c90ea42d0d8b9e8413e2e38349b7ebeb5aa1a205cd1c",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 12830,
+        "output_tokens": 447,
+        "reasoning_output_tokens": 248,
+        "total_tokens": 13277
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 12830,
+        "output_tokens": 447,
+        "reasoning_output_tokens": 248,
+        "total_tokens": 13277
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fceb-0d52-76f2-93fb-8e47251e9c3d",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 12830,
+      "output_tokens": 447,
+      "reasoning_output_tokens": 248
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 12830,
+      "output_tokens": 447,
+      "reasoning_output_tokens": 248
+    }
+  },
+  "packet_sha256": "41347611fdda9338cefce91df77beab84ca9bfb756e1345b7cf468d318d137ee",
+  "prompt_sha256": "e73893837f8f269ae5b56effeb288ffa335a396b89df281ae2a225ba8f46fee7",
+  "r1_sha256": "693c628929d09a5eaa29789efff300d7c7dc5ff51384ff4e4869b20fd88633ba",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"依頼から分かるのは「つばめ宿」で帽子を借りたことまでで、原票にも受領元の記載はありません。元の本文の「つばめ宿から受領した」は受領元を断定しています。候補はその断定を解消し、受領した2点の個体番号（山高帽はH-42、麦わら帽はH-43）、署名入り借用明細の写しの添付、山高帽は札を取り付け済みで麦わら帽は取り付け箇所の確認待ちという事実を正確に保っています。\",\n  \"checked_refs\": [\"AM-380\", \"AM-524\", \"AM-176\", \"AM-898\", \"AM-243\"]\n}",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "AM-380",
+      "AM-524",
+      "AM-176",
+      "AM-898",
+      "AM-243"
+    ],
+    "error": null,
+    "offered_body": "10月14日16時時点で、『つばめ宿』での借入分として受領した帽子は計2点です。現物を割当票と照合し、山高帽の個体番号はH-42、麦わら帽はH-43と確認しました。受領報告書には署名入りの借用明細の写しが添付されています。山高帽の個体札は取り付け済みです。麦わら帽は取り付け箇所の確認待ちで、個体札は未装着です。",
+    "original_body": "10月14日16時時点で、『つばめ宿』から受領した帽子は計2点です。現物を割当票と照合し、山高帽の個体番号はH-42、麦わら帽はH-43と確認しました。受領報告書には署名入りの借用明細の写しが添付されています。山高帽の個体札は取り付け済みです。麦わら帽は取り付け箇所の確認待ちで、個体札は未装着です。",
+    "outcome": "offer",
+    "prompt_sha256": "e73893837f8f269ae5b56effeb288ffa335a396b89df281ae2a225ba8f46fee7",
+    "rationale": "依頼から分かるのは「つばめ宿」で帽子を借りたことまでで、原票にも受領元の記載はありません。元の本文の「つばめ宿から受領した」は受領元を断定しています。候補はその断定を解消し、受領した2点の個体番号（山高帽はH-42、麦わら帽はH-43）、署名入り借用明細の写しの添付、山高帽は札を取り付け済みで麦わら帽は取り付け箇所の確認待ちという事実を正確に保っています。",
+    "verdict": "approve"
+  },
+  "unit_id": "H-02"
+}

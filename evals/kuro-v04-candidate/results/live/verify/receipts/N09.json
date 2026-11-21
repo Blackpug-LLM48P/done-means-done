@@ -1,0 +1,102 @@
+{
+  "dispatch_order": 6,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "d5758d76-9854-4383-bffd-eaf1a3c5643f",
+    "cli_finished_unix_ns": 1795244617449879870,
+    "cli_started_unix_ns": 1795244604283660830,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 13166,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244617453302330,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/verify/raw/N09.txt",
+    "raw_sha256": "993de23b7de975621969de391b85623803680aec73022598cd9da857b7ba70a0",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12412,
+        "output_tokens": 158,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 12570
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12412,
+        "output_tokens": 158,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 12570
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fcea-bc55-7901-9a89-730f309c7b8d",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12412,
+      "output_tokens": 158,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12412,
+      "output_tokens": 158,
+      "reasoning_output_tokens": 0
+    }
+  },
+  "packet_sha256": "a4fd49f508cfd4782d7aea7a7f97ec2f963d11e2e29900df54b663736898b2fa",
+  "prompt_sha256": "f9cc2f46021fde7c70ac0823d2d95593beadfc1bd6ce76a318b5b4e826a93adb",
+  "r1_sha256": "3b2bab9ec3024cafcc963380defbfa2e55c26e02ca14464e58deef85a38e26e5",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"元の本文は、ひな壇用の支柱12本を舞台脇へ運んだのは音響係だと明記している。E1でこの搬入に完了印があるのは設営係で、音響係が搬入したのはマイクワゴンである。候補は担当を設営係に訂正し、支柱の用途・本数・搬入先、E2の消灯予定、E3の予備鍵の本数と預け先を保っている。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": "ひな壇用の支柱12本は設営係が舞台脇へ運んだ。客席側の作業灯は16時に消す。楽屋の予備鍵2本は受付に預けてある。",
+    "original_body": "ひな壇用の支柱12本は音響係が舞台脇へ運んだ。客席側の作業灯は16時に消す。楽屋の予備鍵2本は受付に預けてある。",
+    "outcome": "offer",
+    "prompt_sha256": "f9cc2f46021fde7c70ac0823d2d95593beadfc1bd6ce76a318b5b4e826a93adb",
+    "rationale": "元の本文は、ひな壇用の支柱12本を舞台脇へ運んだのは音響係だと明記している。E1でこの搬入に完了印があるのは設営係で、音響係が搬入したのはマイクワゴンである。候補は担当を設営係に訂正し、支柱の用途・本数・搬入先、E2の消灯予定、E3の予備鍵の本数と預け先を保っている。",
+    "verdict": "approve"
+  },
+  "unit_id": "N09"
+}

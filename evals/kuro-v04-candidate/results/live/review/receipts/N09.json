@@ -1,0 +1,132 @@
+{
+  "dispatch_order": 11,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "f077438d-bbf2-451d-92c3-b494afcbc0ec",
+    "cli_finished_unix_ns": 1795244573008147800,
+    "cli_started_unix_ns": 1795244564489160214,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 8519,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244573011227360,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/review/raw/N09.txt",
+    "raw_sha256": "3b2bab9ec3024cafcc963380defbfa2e55c26e02ca14464e58deef85a38e26e5",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13374,
+        "output_tokens": 120,
+        "reasoning_output_tokens": 12,
+        "total_tokens": 13494
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13374,
+        "output_tokens": 120,
+        "reasoning_output_tokens": 12,
+        "total_tokens": 13494
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fcea-2083-7da2-bce0-e97810b25236",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13374,
+      "output_tokens": 120,
+      "reasoning_output_tokens": 12
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13374,
+      "output_tokens": 120,
+      "reasoning_output_tokens": 12
+    }
+  },
+  "packet_sha256": "a4fd49f508cfd4782d7aea7a7f97ec2f963d11e2e29900df54b663736898b2fa",
+  "prompt_sha256": "01b38b392338b42f4331d51fc8a4f193dec189008ee21d4a7a29ed6fb555ba5d",
+  "raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"音響係\",\n      \"reason\": \"搬入チェック表では、ひな壇用の支柱12本を舞台脇へ運んだのは設営係で、音響係が運んだのはマイクワゴンである。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"設営係\"\n    }\n  ]\n}",
+  "stage": "review",
+  "trace": {
+    "as_of": "2026-11-12T15:00:00+09:00",
+    "case_id": "N09",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "E1"
+        ],
+        "end": 14,
+        "quote": "音響係",
+        "reason": "搬入チェック表では、ひな壇用の支柱12本を舞台脇へ運んだのは設営係で、音響係が運んだのはマイクワゴンである。",
+        "replacement": "設営係",
+        "sentence_id": 1,
+        "start": 11
+      }
+    ],
+    "original_body": "ひな壇用の支柱12本は音響係が舞台脇へ運んだ。客席側の作業灯は16時に消す。楽屋の予備鍵2本は受付に預けてある。",
+    "packet_sha256": "a4fd49f508cfd4782d7aea7a7f97ec2f963d11e2e29900df54b663736898b2fa",
+    "proposed_body": "ひな壇用の支柱12本は設営係が舞台脇へ運んだ。客席側の作業灯は16時に消す。楽屋の予備鍵2本は受付に預けてある。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"音響係\",\n      \"reason\": \"搬入チェック表では、ひな壇用の支柱12本を舞台脇へ運んだのは設営係で、音響係が運んだのはマイクワゴンである。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"設営係\"\n    }\n  ]\n}",
+    "revision": "v1",
+    "sentences": [
+      {
+        "end": 23,
+        "id": 1,
+        "start": 0,
+        "text": "ひな壇用の支柱12本は音響係が舞台脇へ運んだ。"
+      },
+      {
+        "end": 38,
+        "id": 2,
+        "start": 23,
+        "text": "客席側の作業灯は16時に消す。"
+      },
+      {
+        "end": 56,
+        "id": 3,
+        "start": 38,
+        "text": "楽屋の予備鍵2本は受付に預けてある。"
+      }
+    ],
+    "source_sha256": "b1f3b2a917862a16de9b517e91211c40173b1b1ce6516973f8910dc712fd77e9",
+    "status": "flagged"
+  },
+  "unit_id": "N09"
+}

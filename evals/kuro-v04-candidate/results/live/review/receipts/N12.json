@@ -1,0 +1,132 @@
+{
+  "dispatch_order": 2,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "e133fd98-187f-43fd-a309-91c3693311ab",
+    "cli_finished_unix_ns": 1795244558242101316,
+    "cli_started_unix_ns": 1795244545978868346,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 12263,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244558243828148,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/review/raw/N12.txt",
+    "raw_sha256": "4ee9651ec53726ff99f6571805b3cedfdea95264b137d86dcba7c2304b866942",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13358,
+        "output_tokens": 145,
+        "reasoning_output_tokens": 33,
+        "total_tokens": 13503
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13358,
+        "output_tokens": 145,
+        "reasoning_output_tokens": 33,
+        "total_tokens": 13503
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fce9-d887-7d11-bf88-f0c1d3058114",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13358,
+      "output_tokens": 145,
+      "reasoning_output_tokens": 33
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13358,
+      "output_tokens": 145,
+      "reasoning_output_tokens": 33
+    }
+  },
+  "packet_sha256": "7ba8be3d2a502ecf0297a4aeec682046f9ec5eb56657769418ea7a894a02b897",
+  "prompt_sha256": "f2608e6af4174abc8ad12df69b17de7dd058227f21ed317aa9648357966aa4d3",
+  "raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"赤い札の台車だけ\",\n      \"reason\": \"色札は台車の戻し先を示す。整備指示書は台車全8台を点検対象としており、赤い札の台車に限るという条件はない。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"台車全8台\"\n    }\n  ]\n}",
+  "stage": "review",
+  "trace": {
+    "as_of": "2026-11-12T15:00:00+09:00",
+    "case_id": "N12",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "E1"
+        ],
+        "end": 25,
+        "quote": "赤い札の台車だけ",
+        "reason": "色札は台車の戻し先を示す。整備指示書は台車全8台を点検対象としており、赤い札の台車に限るという条件はない。",
+        "replacement": "台車全8台",
+        "sentence_id": 2,
+        "start": 17
+      }
+    ],
+    "original_body": "台車の点検は北の荷さばき場で行う。赤い札の台車だけが今回の点検対象だ。交換用の車輪4個は事務所の棚にある。",
+    "packet_sha256": "7ba8be3d2a502ecf0297a4aeec682046f9ec5eb56657769418ea7a894a02b897",
+    "proposed_body": "台車の点検は北の荷さばき場で行う。台車全8台が今回の点検対象だ。交換用の車輪4個は事務所の棚にある。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"赤い札の台車だけ\",\n      \"reason\": \"色札は台車の戻し先を示す。整備指示書は台車全8台を点検対象としており、赤い札の台車に限るという条件はない。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"台車全8台\"\n    }\n  ]\n}",
+    "revision": "v1",
+    "sentences": [
+      {
+        "end": 17,
+        "id": 1,
+        "start": 0,
+        "text": "台車の点検は北の荷さばき場で行う。"
+      },
+      {
+        "end": 35,
+        "id": 2,
+        "start": 17,
+        "text": "赤い札の台車だけが今回の点検対象だ。"
+      },
+      {
+        "end": 53,
+        "id": 3,
+        "start": 35,
+        "text": "交換用の車輪4個は事務所の棚にある。"
+      }
+    ],
+    "source_sha256": "d29c5a6e3d9a2ed6b26ea21f1a0ba14a75ef1846297651d8bb5df47ea872b37f",
+    "status": "flagged"
+  },
+  "unit_id": "N12"
+}

@@ -1,0 +1,102 @@
+{
+  "dispatch_order": 10,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "46650e2b-22c7-4b3c-a732-4327fab9bde4",
+    "cli_finished_unix_ns": 1795244625087574550,
+    "cli_started_unix_ns": 1795244617590777999,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 7497,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244625089866139,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/verify/raw/N11.txt",
+    "raw_sha256": "e49217cfc55eaccb9f85c334c8ddbe51f75e64046eec9905db8b2209a2641575",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12407,
+        "output_tokens": 157,
+        "reasoning_output_tokens": 12,
+        "total_tokens": 12564
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12407,
+        "output_tokens": 157,
+        "reasoning_output_tokens": 12,
+        "total_tokens": 12564
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fcea-f00e-75f3-a74f-095179cf5df0",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12407,
+      "output_tokens": 157,
+      "reasoning_output_tokens": 12
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12407,
+      "output_tokens": 157,
+      "reasoning_output_tokens": 12
+    }
+  },
+  "packet_sha256": "f8b7a16ddade159367038374bc9e6412673833980d935d732380f9bf65419388",
+  "prompt_sha256": "80af45016f4f46c3def77a71541d344b2721c898f265d6b6542d44663340e6f6",
+  "r1_sha256": "748228aefc6c3963ad8dd523a92b20dc565560526995778c2c8792814cda612f",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"元の本文は西村さんが9時半の放送を提案したと断定している。E1で確認できるのは西村さんの出席までで、E2の発案者欄は空欄である。候補は発案者の断定だけを削り、E2で合意された放送時刻と、E3にある机の設置場所、かごの配布先と個数を保っている。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": "案内所の机は東門に置く。回収用のかごは各売場に1個ずつ配る。場内放送は9時半に決まった。",
+    "original_body": "案内所の机は東門に置く。回収用のかごは各売場に1個ずつ配る。場内放送は西村さんの提案で9時半に決まった。",
+    "outcome": "offer",
+    "prompt_sha256": "80af45016f4f46c3def77a71541d344b2721c898f265d6b6542d44663340e6f6",
+    "rationale": "元の本文は西村さんが9時半の放送を提案したと断定している。E1で確認できるのは西村さんの出席までで、E2の発案者欄は空欄である。候補は発案者の断定だけを削り、E2で合意された放送時刻と、E3にある机の設置場所、かごの配布先と個数を保っている。",
+    "verdict": "approve"
+  },
+  "unit_id": "N11"
+}

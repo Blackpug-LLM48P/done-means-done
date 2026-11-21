@@ -1,0 +1,102 @@
+{
+  "dispatch_order": 1,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "2c6ba2c6-4458-4b69-bf9d-d793b912d9d4",
+    "cli_finished_unix_ns": 1795244617502693699,
+    "cli_started_unix_ns": 1795244604284677430,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 13218,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244617504817578,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/verify/raw/P-e445f06d6c970951.txt",
+    "raw_sha256": "c9c85d5245b2443a090406c5224b4b1b118f4aad63337316b0693fa14579c7bb",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12379,
+        "output_tokens": 234,
+        "reasoning_output_tokens": 83,
+        "total_tokens": 12613
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12379,
+        "output_tokens": 234,
+        "reasoning_output_tokens": 83,
+        "total_tokens": 12613
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fcea-bc72-72b1-a4ee-edc4b4c3941d",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12379,
+      "output_tokens": 234,
+      "reasoning_output_tokens": 83
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12379,
+      "output_tokens": 234,
+      "reasoning_output_tokens": 83
+    }
+  },
+  "packet_sha256": "778b6cbc8b7f9cd076eefe8e98ee6ccb1a43190f80e6e72bb8507cdfb75e5dd1",
+  "prompt_sha256": "04bff67353c788edc1afe81260fc5b6c2e0b5df379e53c34c4199e143375a445",
+  "r1_sha256": "36568b0c17e8d6b71576338b10574debc62721923feff1c320ac1d64bad525de",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"元の本文は「職人の姿を別館でカメラに収めました」と撮影場所を断定しています。J7で確認できるのは、展示台を別館で組み立てたことと、その職人を撮影したことまでです。候補は「別館で」を組み立て場所に結び付けており、S4の「広報誌の春号用」とT6の納品点数4点も正確に保っています。\",\n  \"checked_refs\": [\"S4\", \"J7\", \"T6\"]\n}",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "S4",
+      "J7",
+      "T6"
+    ],
+    "error": null,
+    "offered_body": "広報誌の春号用に、展示台を別館で組み立てた職人の姿をカメラに収めました。納品した写真は4点です。",
+    "original_body": "広報誌の春号用に、展示台を組み立てた職人の姿を別館でカメラに収めました。納品した写真は4点です。",
+    "outcome": "offer",
+    "prompt_sha256": "04bff67353c788edc1afe81260fc5b6c2e0b5df379e53c34c4199e143375a445",
+    "rationale": "元の本文は「職人の姿を別館でカメラに収めました」と撮影場所を断定しています。J7で確認できるのは、展示台を別館で組み立てたことと、その職人を撮影したことまでです。候補は「別館で」を組み立て場所に結び付けており、S4の「広報誌の春号用」とT6の納品点数4点も正確に保っています。",
+    "verdict": "approve"
+  },
+  "unit_id": "P-e445f06d6c970951"
+}

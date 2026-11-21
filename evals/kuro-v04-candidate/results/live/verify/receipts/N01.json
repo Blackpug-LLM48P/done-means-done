@@ -1,0 +1,102 @@
+{
+  "dispatch_order": 7,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "f19100e1-2f7c-4f11-ad90-eeba33bc0cf8",
+    "cli_finished_unix_ns": 1795244630942191198,
+    "cli_started_unix_ns": 1795244617552895163,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 13389,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244630945970557,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/verify/raw/N01.txt",
+    "raw_sha256": "dbe9abb0df9ad1938d243594c2dca5b341f31e735620cfe478501b108715a8f7",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12356,
+        "output_tokens": 204,
+        "reasoning_output_tokens": 42,
+        "total_tokens": 12560
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12356,
+        "output_tokens": 204,
+        "reasoning_output_tokens": 42,
+        "total_tokens": 12560
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fcea-eff9-7f13-b86d-d07ef6efc5cd",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12356,
+      "output_tokens": 204,
+      "reasoning_output_tokens": 42
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12356,
+      "output_tokens": 204,
+      "reasoning_output_tokens": 42
+    }
+  },
+  "packet_sha256": "99609445faa3b429bf49c61a7985929e7d61fe7428e1da35bd645ae1c7bc59cb",
+  "prompt_sha256": "f22b99ec17aec8135ae91e2a887ac0ab98d4d97957f58bd349e7325a2c334d5d",
+  "r1_sha256": "c9d8de29518da14e1953b12e718ad27e8f827ae90e8c23b98f676796656c95bf",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"E1は入口に掛ける作品を連作『低い空』の第三図と特定しているが、選んだ人物は記していない。E2で作家が了承したのは名札の文字サイズの案であり、元の本文の「作家自身が入口に選んだ」という断定を裏付けない。候補は選定者についての断定だけを除き、入口の作品と、E3にある壁の色・芳名帳の置き場所を正確に保っている。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": "展示室の壁は薄い灰色だ。入口に掛けるのは、連作『低い空』の第三図だった。芳名帳は売店に置く。",
+    "original_body": "展示室の壁は薄い灰色だ。作家自身が入口に選んだのは、連作『低い空』の第三図だった。芳名帳は売店に置く。",
+    "outcome": "offer",
+    "prompt_sha256": "f22b99ec17aec8135ae91e2a887ac0ab98d4d97957f58bd349e7325a2c334d5d",
+    "rationale": "E1は入口に掛ける作品を連作『低い空』の第三図と特定しているが、選んだ人物は記していない。E2で作家が了承したのは名札の文字サイズの案であり、元の本文の「作家自身が入口に選んだ」という断定を裏付けない。候補は選定者についての断定だけを除き、入口の作品と、E3にある壁の色・芳名帳の置き場所を正確に保っている。",
+    "verdict": "approve"
+  },
+  "unit_id": "N01"
+}

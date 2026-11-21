@@ -1,0 +1,102 @@
+{
+  "dispatch_order": 15,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "437acebe-4469-427c-807b-46e2e061208a",
+    "cli_finished_unix_ns": 1795244643420083360,
+    "cli_started_unix_ns": 1795244631012545062,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 12408,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244643421700904,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/verify/raw/N04.txt",
+    "raw_sha256": "6e35682f03344bb34746a3505bb739c0b46faef2f5e748e12caa42b1b0f5b014",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12400,
+        "output_tokens": 171,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 12571
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12400,
+        "output_tokens": 171,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 12571
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fceb-2462-76d3-a230-53cc5c6295d7",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12400,
+      "output_tokens": 171,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12400,
+      "output_tokens": 171,
+      "reasoning_output_tokens": 0
+    }
+  },
+  "packet_sha256": "f12dac69d3c45a69be483fe8c2c8ede74f0c29fea2d83cd7796f97ef95705ebc",
+  "prompt_sha256": "6c46f023d9e288ee9589839f7b5e6700aa7f2785d41ea3215a888bf46da99126",
+  "r1_sha256": "cf8afd0f1e413d938d9c156133f39d55de66d989d534fd624a05b25b978b2fbe",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"元の本文は「シャッター点検のため」と遅延の原因を断定している。E1で確認できるのは北浜便が定刻の八分後に発車したことで、遅延理由欄は空欄である。E2は同じ朝に第三バースでシャッターの動作確認を行ったことを記録している。候補はこの二つの事実を因果関係を付けずに伝え、E3の封印色と納品票の控えの保管指示も保っている。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": "集荷袋の封印は白色だ。納品票の控えは車庫に戻して保管する。この朝の第三バースではシャッターの動作確認が行われ、北浜便は発車が八分遅れた。",
+    "original_body": "集荷袋の封印は白色だ。納品票の控えは車庫に戻して保管する。この朝の北浜便は第三バースのシャッター点検のため、発車が八分遅れた。",
+    "outcome": "offer",
+    "prompt_sha256": "6c46f023d9e288ee9589839f7b5e6700aa7f2785d41ea3215a888bf46da99126",
+    "rationale": "元の本文は「シャッター点検のため」と遅延の原因を断定している。E1で確認できるのは北浜便が定刻の八分後に発車したことで、遅延理由欄は空欄である。E2は同じ朝に第三バースでシャッターの動作確認を行ったことを記録している。候補はこの二つの事実を因果関係を付けずに伝え、E3の封印色と納品票の控えの保管指示も保っている。",
+    "verdict": "approve"
+  },
+  "unit_id": "N04"
+}

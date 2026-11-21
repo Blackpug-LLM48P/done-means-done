@@ -1,0 +1,102 @@
+{
+  "dispatch_order": 17,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "34713b67-67d8-4ff2-a6bc-c63a4c64fd64",
+    "cli_finished_unix_ns": 1795244649082718177,
+    "cli_started_unix_ns": 1795244635329594613,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 13753,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795244649084453655,
+    "isolation": {
+      "empty_cwd": true,
+      "fresh_units_probed": true,
+      "intake_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repo_hidden": true,
+      "sandbox": "bubblewrap"
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/verify/raw/P-ef59bd27c61fe451.txt",
+    "raw_sha256": "e4ee04b6e80007cc9cbcf2da32d777de9734ec9fce31d43cb74d969890d15799",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12519,
+        "output_tokens": 220,
+        "reasoning_output_tokens": 75,
+        "total_tokens": 12739
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12519,
+        "output_tokens": 220,
+        "reasoning_output_tokens": 75,
+        "total_tokens": 12739
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fceb-352c-7e83-9f76-b6abdeb3f74b",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12519,
+      "output_tokens": 220,
+      "reasoning_output_tokens": 75
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12519,
+      "output_tokens": 220,
+      "reasoning_output_tokens": 75
+    }
+  },
+  "packet_sha256": "e751eec0b292413dbdea2812abd2a9d2782f5b040f301f4880ae4e7b62019f19",
+  "prompt_sha256": "3d20673b198a3918b19a985cf25d00768e8880e0b01c3c06453daa6e66aacb07",
+  "r1_sha256": "6cc6a7dd4465ff8d50d439eafb49655f385c7b92dda042ddad4a801f26c18753",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"元の本文は事務局による講師名の公表日を11月6日と断定しています。X5で11月6日と確認できるのは委員会が講師を選んだ日で、公表日の記載はありません。候補は日付を選定に正しく結び付け、事務局がその講師を発表した事実と、会場の楓ホール、定員40人を保っています。\",\n  \"checked_refs\": [\"K8\", \"M1\", \"X5\"]\n}",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "K8",
+      "M1",
+      "X5"
+    ],
+    "error": null,
+    "offered_body": "会場は楓ホールです。定員40人の講演会について、事務局が講師名を公表しました。委員会がその講師を選んだのは11月6日です。",
+    "original_body": "会場は楓ホールです。定員40人の講演会について、事務局が講師名を公表したのは11月6日です。",
+    "outcome": "offer",
+    "prompt_sha256": "3d20673b198a3918b19a985cf25d00768e8880e0b01c3c06453daa6e66aacb07",
+    "rationale": "元の本文は事務局による講師名の公表日を11月6日と断定しています。X5で11月6日と確認できるのは委員会が講師を選んだ日で、公表日の記載はありません。候補は日付を選定に正しく結び付け、事務局がその講師を発表した事実と、会場の楓ホール、定員40人を保っています。",
+    "verdict": "approve"
+  },
+  "unit_id": "P-ef59bd27c61fe451"
+}
