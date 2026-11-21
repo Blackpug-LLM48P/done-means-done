@@ -1,0 +1,149 @@
+{
+  "condition": "R1",
+  "dispatch_order": 62,
+  "meta": {
+    "apply_elapsed_ns": 369894,
+    "assistant_messages": 1,
+    "attempt_id": "fe83dea4-54db-495f-9e80-a638b619cd9c",
+    "cli_finished_unix_ns": 1795238580997730836,
+    "cli_started_unix_ns": 1795238539683159020,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 41315,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795238581001189056,
+    "isolation": {
+      "empty_cwd": true,
+      "intake_private_dir_present_on_host": true,
+      "intake_private_path_hidden": true,
+      "positive_read": true,
+      "proc_root_aliases_checked": true,
+      "repository_read_denied": true,
+      "sample_key_read_denied": true,
+      "sandbox": "bubblewrap",
+      "study_read_denied": true,
+      "units_file_probed": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/raw/H-03--R1.txt",
+    "raw_sha256": "a7a007df5a78eb93a3f04bacec933be3859c21f3595d9a79517b129e91faf087",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 13952,
+        "input_tokens": 14480,
+        "output_tokens": 703,
+        "reasoning_output_tokens": 566,
+        "total_tokens": 15183
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 13952,
+        "input_tokens": 14480,
+        "output_tokens": 703,
+        "reasoning_output_tokens": 566,
+        "total_tokens": 15183
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc8e-3270-7cb1-ac55-64181192bada",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 13952,
+      "input_tokens": 14480,
+      "output_tokens": 703,
+      "reasoning_output_tokens": 566
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 13952,
+      "input_tokens": 14480,
+      "output_tokens": 703,
+      "reasoning_output_tokens": 566
+    }
+  },
+  "packet_sha256": "7392f17f6e69bad487b6b6af4b4cdb996deacc6e316b435474a59fa600a58054",
+  "prompt_sha256": "39767bcaa167d72b7001ea13777e1d7b922972b4c038012b3494c3055825184b",
+  "raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"『つばめ宿』の帽子\",\n      \"reason\": \"依頼文が明示するのは『つばめ宿』で借りたという関係です。『つばめ宿』に帽子が属するという読みまでは、依頼文にも受領記録にも裏付けがありません。\",\n      \"checked_refs\": [\"AM-524\", \"AM-898\"],\n      \"replacement\": \"『つばめ宿』で借りた帽子\"\n    }\n  ]\n}",
+  "trace": {
+    "as_of": "2026-10-14T16:00:00+09:00",
+    "case_id": "T2K7F",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "AM-524",
+          "AM-898"
+        ],
+        "end": 22,
+        "quote": "『つばめ宿』の帽子",
+        "reason": "依頼文が明示するのは『つばめ宿』で借りたという関係です。『つばめ宿』に帽子が属するという読みまでは、依頼文にも受領記録にも裏付けがありません。",
+        "replacement": "『つばめ宿』で借りた帽子",
+        "sentence_id": 1,
+        "start": 13
+      }
+    ],
+    "original_body": "10月14日16時時点で、『つばめ宿』の帽子の受領報告は完了しています。受領点数は現物と照合して2点で、報告書には署名入り借用明細の写しが添付されています。帽子と割当票を照合した結果、個体番号は山高帽がH-42、麦わら帽がH-43です。山高帽には個体札を取り付けました。麦わら帽は取り付け箇所の確認待ちで、個体札は未取り付けです。",
+    "packet_sha256": "7392f17f6e69bad487b6b6af4b4cdb996deacc6e316b435474a59fa600a58054",
+    "proposed_body": "10月14日16時時点で、『つばめ宿』で借りた帽子の受領報告は完了しています。受領点数は現物と照合して2点で、報告書には署名入り借用明細の写しが添付されています。帽子と割当票を照合した結果、個体番号は山高帽がH-42、麦わら帽がH-43です。山高帽には個体札を取り付けました。麦わら帽は取り付け箇所の確認待ちで、個体札は未取り付けです。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"『つばめ宿』の帽子\",\n      \"reason\": \"依頼文が明示するのは『つばめ宿』で借りたという関係です。『つばめ宿』に帽子が属するという読みまでは、依頼文にも受領記録にも裏付けがありません。\",\n      \"checked_refs\": [\"AM-524\", \"AM-898\"],\n      \"replacement\": \"『つばめ宿』で借りた帽子\"\n    }\n  ]\n}",
+    "revision": "r6",
+    "sentences": [
+      {
+        "end": 36,
+        "id": 1,
+        "start": 0,
+        "text": "10月14日16時時点で、『つばめ宿』の帽子の受領報告は完了しています。"
+      },
+      {
+        "end": 78,
+        "id": 2,
+        "start": 36,
+        "text": "受領点数は現物と照合して2点で、報告書には署名入り借用明細の写しが添付されています。"
+      },
+      {
+        "end": 118,
+        "id": 3,
+        "start": 78,
+        "text": "帽子と割当票を照合した結果、個体番号は山高帽がH-42、麦わら帽がH-43です。"
+      },
+      {
+        "end": 135,
+        "id": 4,
+        "start": 118,
+        "text": "山高帽には個体札を取り付けました。"
+      },
+      {
+        "end": 165,
+        "id": 5,
+        "start": 135,
+        "text": "麦わら帽は取り付け箇所の確認待ちで、個体札は未取り付けです。"
+      }
+    ],
+    "source_sha256": "5ee8deb88602337e254fc5b12468326949086abd05088cf3df3024d28bc6078f",
+    "status": "flagged"
+  },
+  "unit_id": "H-03"
+}

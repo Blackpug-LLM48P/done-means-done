@@ -1,0 +1,142 @@
+{
+  "condition": "R0",
+  "dispatch_order": 57,
+  "meta": {
+    "apply_elapsed_ns": 240937,
+    "assistant_messages": 1,
+    "attempt_id": "9dfc2456-8a36-4ba1-9649-cde1ad1c40e4",
+    "cli_finished_unix_ns": 1795238539643034180,
+    "cli_started_unix_ns": 1795238525799470183,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 13844,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795238539649033446,
+    "isolation": {
+      "empty_cwd": true,
+      "intake_private_dir_present_on_host": true,
+      "intake_private_path_hidden": true,
+      "positive_read": true,
+      "proc_root_aliases_checked": true,
+      "repository_read_denied": true,
+      "sample_key_read_denied": true,
+      "sandbox": "bubblewrap",
+      "study_read_denied": true,
+      "units_file_probed": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/raw/P-98b7ccf83661d429--R0.txt",
+    "raw_sha256": "bf33a54a9a610941a295a91d949fe0b3e7c3a19ec93e5dad9cd32d03f75eb0b3",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13201,
+        "output_tokens": 336,
+        "reasoning_output_tokens": 219,
+        "total_tokens": 13537
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13201,
+        "output_tokens": 336,
+        "reasoning_output_tokens": 219,
+        "total_tokens": 13537
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc8d-fc36-74f2-a833-5a862f138e0b",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13201,
+      "output_tokens": 336,
+      "reasoning_output_tokens": 219
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13201,
+      "output_tokens": 336,
+      "reasoning_output_tokens": 219
+    }
+  },
+  "packet_sha256": "67f4259f8e69da31a0eedb5dd945ebbb049f224ff362a8c675ec2f032d91faa7",
+  "prompt_sha256": "c03762e57aaab35e96ea571c9d32df89d99ba80659fd16cc026c42c80f299a7f",
+  "raw": "{\"findings\":[{\"sentence_id\":2,\"quote\":\"図柄を写し取る工程で\",\"reason\":\"原票の「投影機で」は「写し取った」と「検査した」のどちらにも係り得ます。使用したのは一方の工程だけと明記されていますが、それが転写だったとは特定できません。\",\"checked_refs\":[\"2783a07d7b\"],\"replacement\":\"転写と検査のうち、どちらか一方の工程で\"}]}",
+  "trace": {
+    "as_of": "2026-11-21T11:00:00+09:00",
+    "case_id": "1e664eec4d",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "2783a07d7b"
+        ],
+        "end": 28,
+        "quote": "図柄を写し取る工程で",
+        "reason": "原票の「投影機で」は「写し取った」と「検査した」のどちらにも係り得ます。使用したのは一方の工程だけと明記されていますが、それが転写だったとは特定できません。",
+        "replacement": "転写と検査のうち、どちらか一方の工程で",
+        "sentence_id": 2,
+        "start": 18
+      }
+    ],
+    "original_body": "職人が写し取った図柄は検査済みです。図柄を写し取る工程で投影機を使いました。型紙は6枚です。保管場所は平棚の3段目です。",
+    "packet_sha256": "67f4259f8e69da31a0eedb5dd945ebbb049f224ff362a8c675ec2f032d91faa7",
+    "proposed_body": "職人が写し取った図柄は検査済みです。転写と検査のうち、どちらか一方の工程で投影機を使いました。型紙は6枚です。保管場所は平棚の3段目です。",
+    "raw_review": "{\"findings\":[{\"sentence_id\":2,\"quote\":\"図柄を写し取る工程で\",\"reason\":\"原票の「投影機で」は「写し取った」と「検査した」のどちらにも係り得ます。使用したのは一方の工程だけと明記されていますが、それが転写だったとは特定できません。\",\"checked_refs\":[\"2783a07d7b\"],\"replacement\":\"転写と検査のうち、どちらか一方の工程で\"}]}",
+    "revision": "r1",
+    "sentences": [
+      {
+        "end": 18,
+        "id": 1,
+        "start": 0,
+        "text": "職人が写し取った図柄は検査済みです。"
+      },
+      {
+        "end": 38,
+        "id": 2,
+        "start": 18,
+        "text": "図柄を写し取る工程で投影機を使いました。"
+      },
+      {
+        "end": 46,
+        "id": 3,
+        "start": 38,
+        "text": "型紙は6枚です。"
+      },
+      {
+        "end": 60,
+        "id": 4,
+        "start": 46,
+        "text": "保管場所は平棚の3段目です。"
+      }
+    ],
+    "source_sha256": "77e4fd0d76088c17c316a92e1643291124f7f1920eb656bb24366308e88097d4",
+    "status": "flagged"
+  },
+  "unit_id": "P-98b7ccf83661d429"
+}

@@ -1,0 +1,118 @@
+{
+  "condition": "R0",
+  "dispatch_order": 33,
+  "meta": {
+    "apply_elapsed_ns": 215615,
+    "assistant_messages": 1,
+    "attempt_id": "0ea2355c-0d3f-439d-8adf-fc874a3d830d",
+    "cli_finished_unix_ns": 1795238469772926999,
+    "cli_started_unix_ns": 1795238463653272970,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 6120,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795238469774797282,
+    "isolation": {
+      "empty_cwd": true,
+      "intake_private_dir_present_on_host": true,
+      "intake_private_path_hidden": true,
+      "positive_read": true,
+      "proc_root_aliases_checked": true,
+      "repository_read_denied": true,
+      "sample_key_read_denied": true,
+      "sandbox": "bubblewrap",
+      "study_read_denied": true,
+      "units_file_probed": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/raw/P-1a55d0c7c3174ef8--R0.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13228,
+        "output_tokens": 25,
+        "reasoning_output_tokens": 14,
+        "total_tokens": 13253
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13228,
+        "output_tokens": 25,
+        "reasoning_output_tokens": 14,
+        "total_tokens": 13253
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc8d-0950-7260-b15d-a9c6566bad7f",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13228,
+      "output_tokens": 25,
+      "reasoning_output_tokens": 14
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13228,
+      "output_tokens": 25,
+      "reasoning_output_tokens": 14
+    }
+  },
+  "packet_sha256": "b3510932233c79cf1bcee43a4838bc2d5f108ca864361d1532f351ecda1c5ff9",
+  "prompt_sha256": "87ecf0a0f0902576ca7fb75fcc6f7c59cd59cbbad65768172e70fa2fc508064a",
+  "raw": "{\"findings\":[]}",
+  "trace": {
+    "as_of": "2026-11-16T17:00:00+09:00",
+    "case_id": "PH-269",
+    "errors": [],
+    "findings": [],
+    "original_body": "会場は楓ホールです。定員40人の講演会について、委員会が選定した講師を事務局が発表しました。",
+    "packet_sha256": "b3510932233c79cf1bcee43a4838bc2d5f108ca864361d1532f351ecda1c5ff9",
+    "proposed_body": "会場は楓ホールです。定員40人の講演会について、委員会が選定した講師を事務局が発表しました。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "r3",
+    "sentences": [
+      {
+        "end": 10,
+        "id": 1,
+        "start": 0,
+        "text": "会場は楓ホールです。"
+      },
+      {
+        "end": 46,
+        "id": 2,
+        "start": 10,
+        "text": "定員40人の講演会について、委員会が選定した講師を事務局が発表しました。"
+      }
+    ],
+    "source_sha256": "789c5783554e7e7441e5bdd5364d4b0c76e7c0579b97a0863f380491fd2ef358",
+    "status": "clear"
+  },
+  "unit_id": "P-1a55d0c7c3174ef8"
+}

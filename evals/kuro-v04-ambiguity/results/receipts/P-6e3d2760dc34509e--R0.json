@@ -1,0 +1,118 @@
+{
+  "condition": "R0",
+  "dispatch_order": 49,
+  "meta": {
+    "apply_elapsed_ns": 168814,
+    "assistant_messages": 1,
+    "attempt_id": "191b2bba-ac2c-41ae-a0cb-73ae6f066558",
+    "cli_finished_unix_ns": 1795238514985976649,
+    "cli_started_unix_ns": 1795238505335167347,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 9651,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795238514987390808,
+    "isolation": {
+      "empty_cwd": true,
+      "intake_private_dir_present_on_host": true,
+      "intake_private_path_hidden": true,
+      "positive_read": true,
+      "proc_root_aliases_checked": true,
+      "repository_read_denied": true,
+      "sample_key_read_denied": true,
+      "sandbox": "bubblewrap",
+      "study_read_denied": true,
+      "units_file_probed": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/raw/P-6e3d2760dc34509e--R0.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13061,
+        "output_tokens": 48,
+        "reasoning_output_tokens": 37,
+        "total_tokens": 13109
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13061,
+        "output_tokens": 48,
+        "reasoning_output_tokens": 37,
+        "total_tokens": 13109
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc8d-ac15-7a33-86ca-124d54e3f765",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13061,
+      "output_tokens": 48,
+      "reasoning_output_tokens": 37
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13061,
+      "output_tokens": 48,
+      "reasoning_output_tokens": 37
+    }
+  },
+  "packet_sha256": "93742fe7fc47f1c0eaae8a931e47ff0fc14d0679c544a0df304688eb32fb6fd5",
+  "prompt_sha256": "7195ae29964eb38dc824f680139e8cc748f4851cc047181452e57b43b73db389",
+  "raw": "{\"findings\":[]}",
+  "trace": {
+    "as_of": "2026-11-10T17:00:00+09:00",
+    "case_id": "QC-317",
+    "errors": [],
+    "findings": [],
+    "original_body": "広報誌の春号用に、展示台を組み上げた職人を撮影しました。納品した写真は4点です。",
+    "packet_sha256": "93742fe7fc47f1c0eaae8a931e47ff0fc14d0679c544a0df304688eb32fb6fd5",
+    "proposed_body": "広報誌の春号用に、展示台を組み上げた職人を撮影しました。納品した写真は4点です。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "r3",
+    "sentences": [
+      {
+        "end": 28,
+        "id": 1,
+        "start": 0,
+        "text": "広報誌の春号用に、展示台を組み上げた職人を撮影しました。"
+      },
+      {
+        "end": 40,
+        "id": 2,
+        "start": 28,
+        "text": "納品した写真は4点です。"
+      }
+    ],
+    "source_sha256": "2a4b5ca51e64823d3119b8e0d4a22d8383a21eea535872c711538c289baa7dcd",
+    "status": "clear"
+  },
+  "unit_id": "P-6e3d2760dc34509e"
+}

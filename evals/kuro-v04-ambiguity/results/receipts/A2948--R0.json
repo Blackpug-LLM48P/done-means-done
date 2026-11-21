@@ -1,0 +1,136 @@
+{
+  "condition": "R0",
+  "dispatch_order": 34,
+  "meta": {
+    "apply_elapsed_ns": 444029,
+    "assistant_messages": 1,
+    "attempt_id": "e59ad550-101c-47f2-8bad-25ab67ca1890",
+    "cli_finished_unix_ns": 1795238480042447537,
+    "cli_started_unix_ns": 1795238463722171387,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 16320,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795238480044546852,
+    "isolation": {
+      "empty_cwd": true,
+      "intake_private_dir_present_on_host": true,
+      "intake_private_path_hidden": true,
+      "positive_read": true,
+      "proc_root_aliases_checked": true,
+      "repository_read_denied": true,
+      "sample_key_read_denied": true,
+      "sandbox": "bubblewrap",
+      "study_read_denied": true,
+      "units_file_probed": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/raw/A2948--R0.txt",
+    "raw_sha256": "393855a551386a40910cbe20fa2190574559651aa385d8f5fdd4779761182539",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13400,
+        "output_tokens": 464,
+        "reasoning_output_tokens": 349,
+        "total_tokens": 13864
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13400,
+        "output_tokens": 464,
+        "reasoning_output_tokens": 349,
+        "total_tokens": 13864
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc8d-09c0-7fb3-8d8a-28842e271368",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13400,
+      "output_tokens": 464,
+      "reasoning_output_tokens": 349
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13400,
+      "output_tokens": 464,
+      "reasoning_output_tokens": 349
+    }
+  },
+  "packet_sha256": "d7f971fd0cb383aef05ee4db96513f5ba86fb26d1adab2fd589da315c37b8525",
+  "prompt_sha256": "c17fb28f6dfc29921a29953f70a68d6c9b46cbbfdf9b644743b8cae2e6a3fa81",
+  "raw": "{\"findings\":[{\"sentence_id\":2,\"quote\":\"緑町公民館で変更を発表した\",\"reason\":\"緑町公民館は変更案内を受け取った場所です。原票は朗読会実行委員会が案内を発表したことを示していますが、発表場所は記していません。\",\"checked_refs\":[\"KY-582\"],\"replacement\":\"緑町公民館で受け取った変更案内を発表した\"}]}",
+  "trace": {
+    "as_of": "2026-09-04T15:00:00+09:00",
+    "case_id": "J7814",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "KY-582"
+        ],
+        "end": 43,
+        "quote": "緑町公民館で変更を発表した",
+        "reason": "緑町公民館は変更案内を受け取った場所です。原票は朗読会実行委員会が案内を発表したことを示していますが、発表場所は記していません。",
+        "replacement": "緑町公民館で受け取った変更案内を発表した",
+        "sentence_id": 2,
+        "start": 30
+      }
+    ],
+    "original_body": "案内番号は催-284で、変更後の開演時刻は18時30分です。緑町公民館で変更を発表したのは朗読会実行委員会です。変更報告の照合と正面掲示板への訂正ポスターの掲示は完了しています。",
+    "packet_sha256": "d7f971fd0cb383aef05ee4db96513f5ba86fb26d1adab2fd589da315c37b8525",
+    "proposed_body": "案内番号は催-284で、変更後の開演時刻は18時30分です。緑町公民館で受け取った変更案内を発表したのは朗読会実行委員会です。変更報告の照合と正面掲示板への訂正ポスターの掲示は完了しています。",
+    "raw_review": "{\"findings\":[{\"sentence_id\":2,\"quote\":\"緑町公民館で変更を発表した\",\"reason\":\"緑町公民館は変更案内を受け取った場所です。原票は朗読会実行委員会が案内を発表したことを示していますが、発表場所は記していません。\",\"checked_refs\":[\"KY-582\"],\"replacement\":\"緑町公民館で受け取った変更案内を発表した\"}]}",
+    "revision": "r2",
+    "sentences": [
+      {
+        "end": 30,
+        "id": 1,
+        "start": 0,
+        "text": "案内番号は催-284で、変更後の開演時刻は18時30分です。"
+      },
+      {
+        "end": 56,
+        "id": 2,
+        "start": 30,
+        "text": "緑町公民館で変更を発表したのは朗読会実行委員会です。"
+      },
+      {
+        "end": 89,
+        "id": 3,
+        "start": 56,
+        "text": "変更報告の照合と正面掲示板への訂正ポスターの掲示は完了しています。"
+      }
+    ],
+    "source_sha256": "e1afc64548316a8b5b8de1b7e3ce92518b648bb9b1b93eeedaff9e1179a533bf",
+    "status": "flagged"
+  },
+  "unit_id": "A2948"
+}

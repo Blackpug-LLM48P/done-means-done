@@ -1,0 +1,1 @@
+{"findings":[{"sentence_id":4,"quote":"店長","reason":"原票は、店長が副店長に記入を頼んだ氏名を、副店長本人の氏名と明記している。","checked_refs":["a7b6ea98d7"],"replacement":"副店長"}]}
