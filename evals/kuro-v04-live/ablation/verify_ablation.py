@@ -66,7 +66,7 @@ def main():
     blind = read_grades("grades_blind.tsv", "anonymous", key)
     public = read_grades("scores.tsv", "condition", {name: name for name in CONDITIONS})
     require(blind == public, "published scores or reasons differ from blind grades")
-    print(f"{len(frozen)} frozen files and {len(outputs)} result files match; all 16 blind decisions mapped")
+    print(f"{len(frozen)} frozen files and {len(outputs)} result files match; all 16 blind grade rows mapped (64 criterion decisions)")
     for condition in CONDITIONS:
         counts = [sum(int(public[condition, case][i]) for case in CASES) for i in range(len(CRITERIA))]
         detail = " ".join(f"{criterion}={n}/{len(CASES)}" for criterion, n in zip(CRITERIA, counts))
