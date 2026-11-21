@@ -1,0 +1,342 @@
+{
+  "provider": "GPT",
+  "slots_registered": 16,
+  "states": {
+    "submitted": 16
+  },
+  "unique_observed_sessions": 16,
+  "observed_turns": 32,
+  "usage_observed": {
+    "input_tokens": 479242,
+    "cached_input_tokens": 251904,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34037,
+    "reasoning_output_tokens": 20231
+  },
+  "observed_input_plus_output_tokens": 513279,
+  "all_submitted": true,
+  "commitments_sha256": "622fb4e1c86fd9fc84d39d931616c7cb4d9ff8f2c0b1f8cc27c7bbb2688ee361",
+  "assignments_sha256": "5aedc2e3e5fb966a32e0d81672d351ebf52ffe646db724ad705dd9a1b68f8d6f",
+  "slots": [
+    {
+      "job": "16fcd1f3db58f37433eb9645",
+      "state": "submitted",
+      "receipt_files": 17,
+      "receipt_manifest_sha256": "f0ed047e0a9958ce96e03af9a8dc3ec1df73d6eb592f5334d693bcdafc41dbcf",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 28042,
+        "cached_input_tokens": 12672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1578,
+        "reasoning_output_tokens": 823
+      },
+      "observed_cli_ms": 48551,
+      "slot_elapsed_ms": 48985,
+      "delivery_manifest_verified": true,
+      "delivery_files": 8,
+      "delivery_manifest_sha256": "1c36f25cda75c3d003bfe11f0d00056c6e56fda494931318f6403536fae578cf",
+      "report_sha256": "c6f38ceb967ece069f3eca6349226daa957a2a1f74e927230b68800d392d2772"
+    },
+    {
+      "job": "1fedd5ace6b8ad82c4638add",
+      "state": "submitted",
+      "receipt_files": 15,
+      "receipt_manifest_sha256": "d7fc48e1e2d96d33159aa773af8c1080c095c1c4c19800136321c04565a44677",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 27420,
+        "cached_input_tokens": 12544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1618,
+        "reasoning_output_tokens": 810
+      },
+      "observed_cli_ms": 48881,
+      "slot_elapsed_ms": 49296,
+      "delivery_manifest_verified": true,
+      "delivery_files": 6,
+      "delivery_manifest_sha256": "8aba026f406341f15097ff539bdbefb503b2a0a75b3f5b2656b432677543007f",
+      "report_sha256": "a4d545d9ece2bf6d4c7394e897604764cd6d8a0afe6c1843db8d4f58f61b8a4a"
+    },
+    {
+      "job": "2bc7adeb9f605771d8b37c2e",
+      "state": "submitted",
+      "receipt_files": 13,
+      "receipt_manifest_sha256": "8d499994c1ff2d2b8c18864fa80a6cc4588f116a9cb778d227469b4b71421316",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 31721,
+        "cached_input_tokens": 14208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2919,
+        "reasoning_output_tokens": 1984
+      },
+      "observed_cli_ms": 70520,
+      "slot_elapsed_ms": 71049,
+      "delivery_manifest_verified": true,
+      "delivery_files": 4,
+      "delivery_manifest_sha256": "a95da6f320d5ce4f7febc5b71808d6f2ad14d1e872cd837b8ff0af9dbe8c118c",
+      "report_sha256": "491d070e1ab797ef16932af0b8b0e0cb0bd885104d1564f7d6f60e861941d4e7"
+    },
+    {
+      "job": "3cfe5e2fe9b17d654f3c0ca2",
+      "state": "submitted",
+      "receipt_files": 16,
+      "receipt_manifest_sha256": "a5aec3627fc60192a0c7011cd2ac854ecee7ca82dac6feb665e1561adc60df38",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 28183,
+        "cached_input_tokens": 12672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1841,
+        "reasoning_output_tokens": 1010
+      },
+      "observed_cli_ms": 55950,
+      "slot_elapsed_ms": 56370,
+      "delivery_manifest_verified": true,
+      "delivery_files": 7,
+      "delivery_manifest_sha256": "a28046550040909798e751ea0ba7cb6c083ed3c2dd182cb5ec334fa8082ee65f",
+      "report_sha256": "b23c0f0c304389c540f21f3621fa491d33e7daafc9fc854d8679b672f4da5473"
+    },
+    {
+      "job": "6508ec997f25ed1671210a07",
+      "state": "submitted",
+      "receipt_files": 17,
+      "receipt_manifest_sha256": "83586a0d9400284b5113b8820fb2b4113912e4b0d63c706488acc34490d1c759",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 28695,
+        "cached_input_tokens": 12672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2351,
+        "reasoning_output_tokens": 1628
+      },
+      "observed_cli_ms": 63457,
+      "slot_elapsed_ms": 63888,
+      "delivery_manifest_verified": true,
+      "delivery_files": 8,
+      "delivery_manifest_sha256": "ea5624fce46f10f69956039cd3b14e566a46249490d6b5f7eaec2ad8dd2c0ed8",
+      "report_sha256": "8ce9a6fab2b0ee56815a9512c4cc5c7b825a0bba5d1b94d69503d67881765717"
+    },
+    {
+      "job": "6c5b72f27a3cd401369a78c7",
+      "state": "submitted",
+      "receipt_files": 15,
+      "receipt_manifest_sha256": "5ab40449e075562846428e78d9807c2bb724fc06cf5421f83f65a11dfc63f08f",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 27535,
+        "cached_input_tokens": 12672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1148,
+        "reasoning_output_tokens": 413
+      },
+      "observed_cli_ms": 36616,
+      "slot_elapsed_ms": 37190,
+      "delivery_manifest_verified": true,
+      "delivery_files": 6,
+      "delivery_manifest_sha256": "8516d526b6e79222c2d9148ef7db127418db3cb6dc9fb08ae51c92087d4d3dd7",
+      "report_sha256": "15038efa692c994645987648c9307c8c29dd4d3a4d0c99fd3a6df598340e873c"
+    },
+    {
+      "job": "6d4e083fa579becea76dd96b",
+      "state": "submitted",
+      "receipt_files": 15,
+      "receipt_manifest_sha256": "52cbb96d20f8f27e6eca6e93bca888178f28e78a2c4499b32470c6ebc6212171",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 27623,
+        "cached_input_tokens": 12544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1804,
+        "reasoning_output_tokens": 1039
+      },
+      "observed_cli_ms": 46370,
+      "slot_elapsed_ms": 46799,
+      "delivery_manifest_verified": true,
+      "delivery_files": 6,
+      "delivery_manifest_sha256": "5ee3f31003b9aa23c03c055396282aa0304eab59d7f25d43990c97fc14533cae",
+      "report_sha256": "47c58d2e1d2be49e226ac8937775bc2f03aee3561c4119f8b99a9f06aa1f3787"
+    },
+    {
+      "job": "708e187bf51af71f929e1647",
+      "state": "submitted",
+      "receipt_files": 13,
+      "receipt_manifest_sha256": "57e0366404ca5c70391ff0e69afb1a4235afc4cb2033d80bf1bcf99c03bd07f3",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 26994,
+        "cached_input_tokens": 12544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1440,
+        "reasoning_output_tokens": 680
+      },
+      "observed_cli_ms": 46399,
+      "slot_elapsed_ms": 46806,
+      "delivery_manifest_verified": true,
+      "delivery_files": 4,
+      "delivery_manifest_sha256": "e420b267bac7d06bdfc329c1092b564cfb272a3e42300ffd5cef7240f812efad",
+      "report_sha256": "cbf9c7f2a807dec0b59e3806b52b4fa90f97bb6bc5df29e9c423ef4dc79211d7"
+    },
+    {
+      "job": "96cc3798437399b590653b9c",
+      "state": "submitted",
+      "receipt_files": 15,
+      "receipt_manifest_sha256": "8eee10340bfa8c8311f79ff7462f1f00b339470656fe0c835c9ca535266d08fe",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 32052,
+        "cached_input_tokens": 24064,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2927,
+        "reasoning_output_tokens": 1806
+      },
+      "observed_cli_ms": 71901,
+      "slot_elapsed_ms": 72307,
+      "delivery_manifest_verified": true,
+      "delivery_files": 6,
+      "delivery_manifest_sha256": "8aba026f406341f15097ff539bdbefb503b2a0a75b3f5b2656b432677543007f",
+      "report_sha256": "80280a295adc79b6d583a58295393cce7d68fb117d04d248d1d2cf710d3a4a90"
+    },
+    {
+      "job": "a50d6c10bf57242b55894e8d",
+      "state": "submitted",
+      "receipt_files": 17,
+      "receipt_manifest_sha256": "f07799696a72b085bf4ee8ef139e69947aa2d6677280a736e6d96ea6b88b61e3",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 27999,
+        "cached_input_tokens": 12800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1569,
+        "reasoning_output_tokens": 806
+      },
+      "observed_cli_ms": 43779,
+      "slot_elapsed_ms": 44291,
+      "delivery_manifest_verified": true,
+      "delivery_files": 8,
+      "delivery_manifest_sha256": "5a5dc494a6a692301d4bf1182d16298073bd2581e4a9fca7d7d1e20f2a27afa3",
+      "report_sha256": "6778a5e2b2f49b6c65ec764017c3fd156ef8a57b5ea03a27a3385fca61d5a751"
+    },
+    {
+      "job": "b10b0e2d902e09b0bf6f30bd",
+      "state": "submitted",
+      "receipt_files": 15,
+      "receipt_manifest_sha256": "4d542c5253e3511c49429f7ea050455b10b4b61c80cb442a536f3e5f76228a52",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 32346,
+        "cached_input_tokens": 24192,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2827,
+        "reasoning_output_tokens": 1806
+      },
+      "observed_cli_ms": 75473,
+      "slot_elapsed_ms": 75866,
+      "delivery_manifest_verified": true,
+      "delivery_files": 6,
+      "delivery_manifest_sha256": "8516d526b6e79222c2d9148ef7db127418db3cb6dc9fb08ae51c92087d4d3dd7",
+      "report_sha256": "3a8e411fb48937ad8bbefddbb390fe980e95347923aafe9f49d62da04da93a26"
+    },
+    {
+      "job": "b23c95f562092d437a9af349",
+      "state": "submitted",
+      "receipt_files": 17,
+      "receipt_manifest_sha256": "7445cc807775b3ee1de3e17163b3d41b783314a313d9979b58b8976e76d0cf64",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 32187,
+        "cached_input_tokens": 17664,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2482,
+        "reasoning_output_tokens": 1593
+      },
+      "observed_cli_ms": 61130,
+      "slot_elapsed_ms": 61566,
+      "delivery_manifest_verified": true,
+      "delivery_files": 8,
+      "delivery_manifest_sha256": "878caa1b3652035e2a6722705a78273ab2ab1fd515e923761990b49e44e3c3b1",
+      "report_sha256": "fd83fcf23426543ad3deaf107f1e7c8dbb0526c7772dc1f68ff9559f0b90b9d7"
+    },
+    {
+      "job": "bdb79d90648c093676c01e62",
+      "state": "submitted",
+      "receipt_files": 17,
+      "receipt_manifest_sha256": "d56b875aa575fdfbc88a333db4c75251c3fd08d2becf2baf0ec00e66f374ba25",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 32100,
+        "cached_input_tokens": 17792,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2462,
+        "reasoning_output_tokens": 1684
+      },
+      "observed_cli_ms": 69539,
+      "slot_elapsed_ms": 70015,
+      "delivery_manifest_verified": true,
+      "delivery_files": 8,
+      "delivery_manifest_sha256": "ea5624fce46f10f69956039cd3b14e566a46249490d6b5f7eaec2ad8dd2c0ed8",
+      "report_sha256": "b9f6231678f696517d4495996b6bd948d5638789b5af67ce1ed44c25b0cbbe15"
+    },
+    {
+      "job": "c1d6878bd04760df82a6229b",
+      "state": "submitted",
+      "receipt_files": 16,
+      "receipt_manifest_sha256": "4327ae4b6e56e7e0f898e25eb892bb76558f027475c7c828da268946faf9adb6",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 31997,
+        "cached_input_tokens": 14336,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2153,
+        "reasoning_output_tokens": 1209
+      },
+      "observed_cli_ms": 55799,
+      "slot_elapsed_ms": 56215,
+      "delivery_manifest_verified": true,
+      "delivery_files": 7,
+      "delivery_manifest_sha256": "0f7093f9b12ac31c0096eeb566bc8ceede85dd085becc87a3a5074110f7fb9e7",
+      "report_sha256": "70c6a3d0c37217e4eae843d47c0795d7fa14e8201ef8bcb2fe1afe931c15531a"
+    },
+    {
+      "job": "c3381447c43bb78bc0b08a2f",
+      "state": "submitted",
+      "receipt_files": 17,
+      "receipt_manifest_sha256": "44fff6dfc78aad88645fff17c43e54a0c8d88103be2ca8e9e1b9c89722ee4654",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 32359,
+        "cached_input_tokens": 24320,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2271,
+        "reasoning_output_tokens": 1393
+      },
+      "observed_cli_ms": 61121,
+      "slot_elapsed_ms": 61570,
+      "delivery_manifest_verified": true,
+      "delivery_files": 8,
+      "delivery_manifest_sha256": "25ac598f0ffa83fbdac1214bee37ea0eb8868f2203bf081e6394fc919947888d",
+      "report_sha256": "f14c67e89efab39bae26dafb021b4087714b8d276cc49705de657e16f537608d"
+    },
+    {
+      "job": "c4eb40f52a640b498d7515bd",
+      "state": "submitted",
+      "receipt_files": 15,
+      "receipt_manifest_sha256": "90397992fd57f2c25e2b1c67ad45eb48a993765272a20a3711f7f029eb822fa0",
+      "observed_turns": 2,
+      "usage": {
+        "input_tokens": 31989,
+        "cached_input_tokens": 14208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2647,
+        "reasoning_output_tokens": 1547
+      },
+      "observed_cli_ms": 70407,
+      "slot_elapsed_ms": 70987,
+      "delivery_manifest_verified": true,
+      "delivery_files": 6,
+      "delivery_manifest_sha256": "558bbf41e8d8efb06becb2b7233e221ded0a43c550a4ab694836ea1920e68303",
+      "report_sha256": "0956a86cbc2a7d0838f9ebec5c0ab3560a551a67db6ab74a9841c2828a18c2dc"
+    }
+  ]
+}
