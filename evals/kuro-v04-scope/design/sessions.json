@@ -1,0 +1,56 @@
+{
+  "D19": {
+    "arm": "one",
+    "stratum": "office",
+    "files": {
+      "cases.json": "7a6195338de0901fa5be593bcf1cfab0c6b3d7b4c54b1db3ddc1bad93abd8a59",
+      "reader.txt": "60d9000a717f693361b25ff5b0caf96f1c79a4efd1752c74a56a1d300fe27f6d",
+      "workflow.txt": "774bfa0dafc508c931531c35af682d58e8e8e8fda47424f69a34a599dc6a348d"
+    }
+  },
+  "V40": {
+    "arm": "one",
+    "stratum": "ops",
+    "files": {
+      "cases.json": "7e68de3324c63e0748d9f9ce2c232013cc5d7f0b8bdb47c9c28333a35d8e7d12",
+      "reader.txt": "60d9000a717f693361b25ff5b0caf96f1c79a4efd1752c74a56a1d300fe27f6d",
+      "workflow.txt": "774bfa0dafc508c931531c35af682d58e8e8e8fda47424f69a34a599dc6a348d"
+    }
+  },
+  "P59": {
+    "arm": "scope",
+    "stratum": "office",
+    "files": {
+      "cases.json": "7a6195338de0901fa5be593bcf1cfab0c6b3d7b4c54b1db3ddc1bad93abd8a59",
+      "reader.txt": "60d9000a717f693361b25ff5b0caf96f1c79a4efd1752c74a56a1d300fe27f6d",
+      "workflow.txt": "4bbb77a938bd5db6e3b2803b2ac25b7e1e9916f39f987db528fe131f0f9d5c40"
+    }
+  },
+  "M82": {
+    "arm": "scope",
+    "stratum": "ops",
+    "files": {
+      "cases.json": "7e68de3324c63e0748d9f9ce2c232013cc5d7f0b8bdb47c9c28333a35d8e7d12",
+      "reader.txt": "60d9000a717f693361b25ff5b0caf96f1c79a4efd1752c74a56a1d300fe27f6d",
+      "workflow.txt": "4bbb77a938bd5db6e3b2803b2ac25b7e1e9916f39f987db528fe131f0f9d5c40"
+    }
+  },
+  "N36": {
+    "arm": "v04",
+    "stratum": "office",
+    "files": {
+      "cases.json": "7a6195338de0901fa5be593bcf1cfab0c6b3d7b4c54b1db3ddc1bad93abd8a59",
+      "reader.txt": "60d9000a717f693361b25ff5b0caf96f1c79a4efd1752c74a56a1d300fe27f6d",
+      "workflow.txt": "1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6"
+    }
+  },
+  "C71": {
+    "arm": "v04",
+    "stratum": "ops",
+    "files": {
+      "cases.json": "7e68de3324c63e0748d9f9ce2c232013cc5d7f0b8bdb47c9c28333a35d8e7d12",
+      "reader.txt": "60d9000a717f693361b25ff5b0caf96f1c79a4efd1752c74a56a1d300fe27f6d",
+      "workflow.txt": "1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6"
+    }
+  }
+}
