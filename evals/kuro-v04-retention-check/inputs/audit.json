@@ -1,0 +1,88 @@
+{
+  "both_match": 8,
+  "candidates": 8,
+  "qualified": true,
+  "readers_agree": 8,
+  "rows": {
+    "T-0bf3ed1141961a51": {
+      "both_match": true,
+      "expected": "approve",
+      "id": "Q-183542fcdee60357",
+      "readers_agree": true,
+      "votes": [
+        "approve",
+        "approve"
+      ]
+    },
+    "T-409b9c3d5d4d2572": {
+      "both_match": true,
+      "expected": "hold",
+      "id": "Q-18ed676459851b14",
+      "readers_agree": true,
+      "votes": [
+        "hold",
+        "hold"
+      ]
+    },
+    "T-5ea63f17436de1d8": {
+      "both_match": true,
+      "expected": "hold",
+      "id": "Q-aff171db90ea7038",
+      "readers_agree": true,
+      "votes": [
+        "hold",
+        "hold"
+      ]
+    },
+    "T-85f9653d99e941f2": {
+      "both_match": true,
+      "expected": "approve",
+      "id": "Q-28a06c9a71e5450f",
+      "readers_agree": true,
+      "votes": [
+        "approve",
+        "approve"
+      ]
+    },
+    "T-a297a5461b14453c": {
+      "both_match": true,
+      "expected": "approve",
+      "id": "Q-6699505380377aef",
+      "readers_agree": true,
+      "votes": [
+        "approve",
+        "approve"
+      ]
+    },
+    "T-bab9c4c11c438bf0": {
+      "both_match": true,
+      "expected": "hold",
+      "id": "Q-f12b38e5bffa8ec5",
+      "readers_agree": true,
+      "votes": [
+        "hold",
+        "hold"
+      ]
+    },
+    "T-bafe748821366687": {
+      "both_match": true,
+      "expected": "hold",
+      "id": "Q-8ed003bc35b3c9f8",
+      "readers_agree": true,
+      "votes": [
+        "hold",
+        "hold"
+      ]
+    },
+    "T-d6893da6e63fd0cd": {
+      "both_match": true,
+      "expected": "approve",
+      "id": "Q-ca095a748f79bf3c",
+      "readers_agree": true,
+      "votes": [
+        "approve",
+        "approve"
+      ]
+    }
+  }
+}
