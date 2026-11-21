@@ -29,6 +29,8 @@ A [follow-up on unseen broadcast handoffs](kuro-v04-transfer/README.md) freezes 
 
 The [revision and action scope study](kuro-v04-scope/README.md) compares eight retrieval settings and three full-record reader instructions on six further Japanese cases. The paired results quantify wrong citations prevented and previously correct evidence lost.
 
+The [adversarial handoff study](kuro-v04-adversarial/README.md) tests whether a completion flag describes the report or the operation. It includes paired controls, a caller interface that names both states, and quote-checker controls.
+
 ## Fixtures
 
 | Fixture | Record | Keys | What it tests |

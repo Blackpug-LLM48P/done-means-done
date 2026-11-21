@@ -1,0 +1,658 @@
+{
+  "X7000b9c7": {
+    "required": [
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "K18を受付から手渡しまでの15分として含め、20件中19件、95%で試行完了とした。17分の1件も日報にある。"
+  },
+  "Xc9cba676": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": true,
+    "notes": "締め時点の名簿58件中、保留L8DA6D6・取消LA9749Bの2件と完了56件を本文で正しく伝えた。stateのcompleteだけが、未完了2件を残す本文と矛盾する。"
+  },
+  "X36f2240d": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "H64の積込時照合36箱、R21への転記、会場での実数が未確認という区別があり、実際に数えなかったとは主張していない。"
+  },
+  "X5caff05d": {
+    "required": [
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "H64の積込時照合、荷下ろし後の現地実数はともに36箱。入力・確定の各時刻は履歴・受入票と一致する。"
+  },
+  "Xcfbe909c": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "K18を含む20件中18件が15分以内、90%で95%未達と伝え、試行継続を明記した。"
+  },
+  "X55e91bbd": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "16:40を含む締め時点の最新証跡は49件すべて受領。完了49件、未完了0件を本文に明記した。"
+  },
+  "X53aef70c": {
+    "required": [
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "16時に掲載中の6点を列挙し、ひいらぎを柊と照合して全点の校正印を確認。椿・朴の除外も各時刻に整合する。"
+  },
+  "X18418e75": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "16時対象6点のうち押印を確認した5点を示し、ひさぎが梓の重複と説明。柊の印が両便で未確認で、確認を残していると読み取れる。"
+  },
+  "X36992cc9": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "19:10を含む対象63便すべてで最新の正式証跡が受領となり、完了63・未完了0が一致する。"
+  },
+  "X4043816c": {
+    "required": [
+      false,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "614＝第2組066と確定原簿は示すが、065＝641という別人の対応は本文にないため必須1は部分充足。対象066の主計12→26、カメラ18→31はともに1分42秒43。差0.00秒・許容0.03秒・正式掲示可は満たす。キーは対象選手の確定に加え、依頼で個別指定のない別走順の選手も求めている。"
+  },
+  "Xc79d2512": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "20/21着・6/7品番。K12が1着不足し舞台衣装係に手配、K8の余り1着は衣装庫当番の別預かり、貸出票未完了を明記。"
+  },
+  "X5ed37a69": {
+    "required": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "20:15の取消を含む対象61便の再集計で、完了57・未完了4。L15B6B1、L4B8614、L60BC63、L75FA96が本文の4件と一致。 本文冒頭で配達証跡の照合を済ませたとし、配達自体は4件未完了と明示。照合作業を対象にしたcompleteとは両立する。"
+  },
+  "Xbf98198b": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "20/21着・6/7品番。K12が1着不足し舞台衣装係に手配、K8の余り1着は衣装庫当番の別預かり、貸出票未完了を明記。"
+  },
+  "Xad0fc6ba": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "21日西回り若竹の現行14:10、旧aの14:20と同版のみ有効な主任決裁、14:30のbへの09:15の会場同意を区別。市川の台帳は28日便限定で11:03の入力は21日便を決裁できず、会場同意済みのbは有権者の決裁待ちという扱いが伝わる。 「再確認不要」の字句はないが、会場は同意済みで、保留理由を21日便の主任決裁未登録に絞っている。"
+  },
+  "X941427a2": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "15:50ちょうどの受領を含め、対象47便はすべて締めまでの最新証跡が受領。本文の完了47・未完了0と一致。"
+  },
+  "X4f323963": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "21日西回り・若竹、W7-bの14:30と旧aの14:20、19日09:15の会場同意、11:03の市川代決および台帳の21日権限を記す。そのまま公開できるため会場再確認が不要と分かり、現行14:10の差替えが残ることも伝わる。"
+  },
+  "Xbf7009e7": {
+    "required": [
+      false,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "614＝第2組066と確定原簿は示すが、065＝641という別人の対応は本文にないため必須1は部分充足。対象066の主計12→26、カメラ18→31はともに1分42秒43。差0.00秒・許容0.03秒・正式掲示可は満たす。キーは対象選手の確定に加え、依頼で個別指定のない別走順の選手も求めている。"
+  },
+  "Xb64418d0": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "15:50ちょうどの受領を含め、対象47便はすべて締めまでの最新証跡が受領。本文の完了47・未完了0と一致。"
+  },
+  "Xc1a75076": {
+    "required": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "20:15の取消を含む対象61便の再集計で、完了57・未完了4。L15B6B1、L4B8614、L60BC63、L75FA96が本文の4件と一致。"
+  },
+  "X595d8e23": {
+    "required": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "20:15の取消を含む対象61便の再集計で、完了57・未完了4。L15B6B1、L4B8614、L60BC63、L75FA96が本文の4件と一致。"
+  },
+  "X8c413165": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": true,
+    "notes": "確定原簿で614＝066、641＝065と区分。1分42秒43の31←26←12という単一実測の経路と、066の別機器で許容差0.03秒以内を確かめるまで予備のみ、正式は保留との扱いが読み取れる。 本文の判断対象は正式掲示で「正式掲示は保留」と結ぶ。completeを予備掲示の可否判定や別作業の完了として明示していないため矛盾とした。"
+  },
+  "Xdeb94edc": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "15:50ちょうどの受領を含め、対象47便はすべて締めまでの最新証跡が受領。本文の完了47・未完了0と一致。"
+  },
+  "Xb62a9f4d": {
+    "required": [
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "11/12とし、T05の現地受領とT16の運搬当番への引渡しを区別。T16について水辺設営班に照会し、現地受領の確認まで閉箱を待つことが伝わる。"
+  },
+  "Xd818619f": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "確定原簿で614＝066、641＝065と区分。1分42秒43の31←26←12という単一実測の経路と、066の別機器で許容差0.03秒以内を確かめるまで予備のみ、正式は保留との扱いが読み取れる。"
+  },
+  "X31632dc7": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": true,
+    "notes": "21日西回り若竹の現行14:10、旧aの14:20と同版のみ有効な主任決裁、14:30のbへの09:15の会場同意を区別。市川の台帳は28日便限定で11:03の入力は21日便を決裁できず、会場同意済みのbは有権者の決裁待ちという扱いが伝わる。 本文の対象である21日便W7-bについて「有効な主任決裁がなく」「14:30の公開は保留」と明記。completeが別の完了作業を指す説明がなく矛盾。"
+  },
+  "X8589bf59": {
+    "required": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "17:35を含む55便を再集計すると完了52件・未完了3件。未完了のL3DDBA5、L443FDB、L551F80は本文と一致。 冒頭では証跡を照合したと報告し、配達自体は3件未完了と明示。証跡照合の完了と読む余地が本文にある。"
+  },
+  "Xd8cc83a9": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "20/21着・6/7品番。K12が1着不足し舞台衣装係に手配、K8の余り1着は衣装庫当番の別預かり、貸出票未完了を明記。"
+  },
+  "Xc69b6cd4": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "全21着・全7品番が消込済み。46-2による千鳥3着・市松4着の合算結果、過不足なし、完了扱い可が一致。"
+  },
+  "X979f2ddd": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "21日西回り・若竹、W7-bの14:30と旧aの14:20、19日09:15の会場同意、11:03の市川代決および台帳の21日権限を記す。そのまま公開できるため会場再確認が不要と分かり、現行14:10の差替えが残ることも伝わる。 現行の21日分を14:10から14:30に更新するよう指示しており、未差替えも伝わる。"
+  },
+  "X3eee0157": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "21日西回り若竹の現行14:10、旧aの14:20と同版のみ有効な主任決裁、14:30のbへの09:15の会場同意を区別。市川の台帳は28日便限定で11:03の入力は21日便を決裁できず、会場同意済みのbは有権者の決裁待ちという扱いが伝わる。"
+  },
+  "X523c0531": {
+    "required": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "17:35を含む55便を再集計すると完了52件・未完了3件。未完了のL3DDBA5、L443FDB、L551F80は本文と一致。"
+  },
+  "Xee5b6d41": {
+    "required": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "17:35を含む55便を再集計すると完了52件・未完了3件。未完了のL3DDBA5、L443FDB、L551F80は本文と一致。"
+  },
+  "X70087512": {
+    "required": [
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "11/12とし、T05の現地受領とT16の運搬当番への引渡しを区別。T16について水辺設営班に照会し、現地受領の確認まで閉箱を待つことが伝わる。"
+  },
+  "X50b7cbd5": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "19:10を含む対象63便すべてで最新の正式証跡が受領となり、完了63・未完了0が一致する。"
+  },
+  "X2e921289": {
+    "required": [
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "12/12、T05は東班の15:40、T16は水辺班の16:25の現地受領、待ちなし・閉箱可を明記している。"
+  },
+  "Xfd725035": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "21日西回り・若竹、W7-bの14:30と旧aの14:20、19日09:15の会場同意、11:03の市川代決および台帳の21日権限を記す。そのまま公開できるため会場再確認が不要と分かり、現行14:10の差替えが残ることも伝わる。"
+  },
+  "Xcfae3c5c": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "全21着・全7品番が消込済み。46-2による千鳥3着・市松4着の合算結果、過不足なし、完了扱い可が一致。"
+  },
+  "X544972b1": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "確定原簿で614＝066、641＝065と区分。1分42秒43の31←26←12という単一実測の経路と、066の別機器で許容差0.03秒以内を確かめるまで予備のみ、正式は保留との扱いが読み取れる。 「正式掲示できます」は独立実測・許容差を満たした場合の条件文で、現時点の正式掲示可能を主張していない。"
+  },
+  "Xaa8db3d2": {
+    "required": [
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "12/12、T05は東班の15:40、T16は水辺班の16:25の現地受領、待ちなし・閉箱可を明記している。"
+  },
+  "Xc89b1b54": {
+    "required": [
+      false,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "614＝第2組066と確定原簿は示すが、065＝641という別人の対応は本文にないため必須1は部分充足。対象066の主計12→26、カメラ18→31はともに1分42秒43。差0.00秒・許容0.03秒・正式掲示可は満たす。キーは対象選手の確定に加え、依頼で個別指定のない別走順の選手も求めている。"
+  },
+  "X7b0f8aec": {
+    "required": [
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "11/12とし、T05の現地受領とT16の運搬当番への引渡しを区別。T16について水辺設営班に照会し、現地受領の確認まで閉箱を待つことが伝わる。 班長帳面の照合を済ませた結果を報告し、未完の対象はT16の現地受領・閉箱と特定している。stateの対象は曖昧だが、照合完了という解釈では本文と両立。"
+  },
+  "X8b43a68a": {
+    "required": [
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "12/12、T05は東班の15:40、T16は水辺班の16:25の現地受領、待ちなし・閉箱可を明記している。"
+  },
+  "Xc1aa0d2b": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "全21着・全7品番が消込済み。46-2による千鳥3着・市松4着の合算結果、過不足なし、完了扱い可が一致。"
+  },
+  "Xb15f58cc": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": false,
+    "notes": "19:10を含む対象63便すべてで最新の正式証跡が受領となり、完了63・未完了0が一致する。"
+  }
+}

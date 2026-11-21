@@ -1,0 +1,578 @@
+{
+  "reviewed_utc": "2026-11-21T02:35:12.645078+00:00",
+  "scope": "Frozen cases, keys, pair files and origins only; no response or intervention data. Verdicts derived from requests and records. The initial schema preview displayed the first complete case object from each split, including its draft. The subsequent derivation view selected requests and records only. Keys and pair files were opened only after the independent states were written. Source intake fixture copies checked. Volume uses public-record result_from_ledger; rationale timelines separately traced from the case records.",
+  "precomparison_state_artifact_sha256": "30d698e1aba779fc1fcde7f13fe9f5191ddac040d94cee7bb19f4d04499e0235",
+  "totals": {
+    "cases": 20,
+    "handwritten": 14,
+    "volume": 6,
+    "pairs": 10,
+    "state_disagreements": 0,
+    "required_statements": 58,
+    "forbidden_statements": 50
+  },
+  "summary": "All states and case-specific numeric or identity facts reproduced. Narrow ambiguity in whether separately approved, superseded W7-a retained publication authority; this does not change W7-b status. Some exact details imposed by the rubric exceed what the explicit request strictly requires. The two exhibitions/costume pairs change both one record and the draft. Each volume pair comprises different independent ledgers.",
+  "freeze_verified": {
+    "design/origins.json": "4e3ac931a4c83e0e1f501353d52af5bd2ca7e9c711e19a03c365aa5229a37b37",
+    "inputs/dev-cases.json": "0b26d4a06f0f83798df3d5ca046b24221879a2dfad61f6743fa5250883ab390c",
+    "inputs/dev-key.json": "f97633d81e1312e2bf5f33de89893902fba06b5d958fd33b262c9c2cb5748c51",
+    "inputs/dev-pairs.json": "07c4430b2e63a7b0ddb81e2e98c28703e9f2323c43ec06ba18225031cf0dc3eb",
+    "inputs/hold-cases.json": "5a9588ec8dd13a90c2808834900e30e40932d8bc26ccd5d977b867aa59d3a242",
+    "inputs/hold-key.json": "86c921ee9e1fd24a1fc25cb9f29cfd2b812dbae7d7282953f2ae25c788dcb60a",
+    "inputs/hold-pairs.json": "b420cd1b25b64d813a267b36f68bd4954a9e723f202fd9b5c049b41a931dc2ba"
+  },
+  "origins_and_source_files_verified": true,
+  "cases": {
+    "S8R": {
+      "split": "dev",
+      "origin": "dev",
+      "derived_state": "complete",
+      "independent_evidence": "20件のうち既締め分18件とK18が15分以内。10:58→11:13はちょうど15分。19/20＝95%で完了。",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 1,
+      "forbidden_checked": 2,
+      "findings": [
+        {
+          "area": "rationale wording",
+          "severity": "editorial",
+          "explanation": "「先に締めた18件」is correct as the qualifying subset. More exact wording would be「先に締めた19件のうち15分以内の18件」, since 19 cases had already closed."
+        }
+      ]
+    },
+    "M4V": {
+      "split": "dev",
+      "origin": "dev",
+      "derived_state": "open",
+      "independent_evidence": "対象は柳・楓・榎・柊・梓・槐の6点。ひさぎ＝梓は重複し柊のみ欠けるため5/6。椿取り下げ・朴追加は16時の対象外。",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 2,
+      "forbidden_checked": 2,
+      "findings": []
+    },
+    "Q2B": {
+      "split": "dev",
+      "origin": "dev",
+      "derived_state": "complete",
+      "independent_evidence": "H64で積込み36。荷下ろし後に森が現場実数としてR21に14:03に入力し、確定36。両端36で受入完了。",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 1,
+      "forbidden_checked": 2,
+      "findings": []
+    },
+    "G6N": {
+      "split": "dev",
+      "origin": "dev",
+      "derived_state": "complete",
+      "independent_evidence": "16時の6点は柳・楓・榎・柊・梓・槐。第二便ひいらぎ＝柊。楓が重複、6/6完了。",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 1,
+      "forbidden_checked": 2,
+      "findings": []
+    },
+    "W3H": {
+      "split": "dev",
+      "origin": "dev",
+      "derived_state": "open",
+      "independent_evidence": "発送36は確認済み。R21確定の36はH64の転記で、サインも数量なし。荷下ろし後に現場実数36であったかが未確認。",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 2,
+      "forbidden_checked": 3,
+      "findings": []
+    },
+    "J7F": {
+      "split": "dev",
+      "origin": "dev",
+      "derived_state": "open",
+      "independent_evidence": "K18は10時台に受付し、10:58→11:14は16分で超過。18/20＝90%で試行継続。",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 2,
+      "forbidden_checked": 2,
+      "findings": []
+    },
+    "BCA9871": {
+      "split": "dev",
+      "origin": "volume",
+      "derived_state": "complete",
+      "independent_evidence": "完了49、未完了0。未完了正式荷番[]",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 2,
+      "forbidden_checked": 2,
+      "findings": [],
+      "rationale_source_timelines": {
+        "L6716C9": [
+          [
+            "16:02",
+            "保留"
+          ],
+          [
+            "16:40",
+            "受領"
+          ],
+          [
+            "16:45",
+            "取消"
+          ]
+        ]
+      },
+      "cutoff_inclusive": "16:40"
+    },
+    "B03CBFA": {
+      "split": "dev",
+      "origin": "volume",
+      "derived_state": "open",
+      "independent_evidence": "完了56、未完了2。未完了正式荷番['L8DA6D6', 'LA9749B']",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 4,
+      "forbidden_checked": 2,
+      "findings": [],
+      "rationale_source_timelines": {
+        "L8DA6D6": [
+          [
+            "17:38",
+            "保留"
+          ],
+          [
+            "18:06",
+            "受領"
+          ]
+        ],
+        "LA9749B": [
+          [
+            "17:27",
+            "受領"
+          ],
+          [
+            "18:05",
+            "取消"
+          ],
+          [
+            "18:10",
+            "受領"
+          ]
+        ]
+      },
+      "cutoff_inclusive": "18:05"
+    },
+    "m49b8a3": {
+      "split": "hold",
+      "origin": "holda",
+      "derived_state": "complete",
+      "independent_evidence": "班長の現地受領を重複排除し旧称2件を読替。12/12位置、台紙EのT05・T16双方受領、待ちなし、箱を閉じてよい。",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 3,
+      "forbidden_checked": 3,
+      "findings": []
+    },
+    "m0d73c1": {
+      "split": "hold",
+      "origin": "holda",
+      "derived_state": "open",
+      "independent_evidence": "受領はT02,T03,T05,T06,T08,T11,T12,T14,T18,T20,T21で11/12。台紙EはT05受領、T16は運搬押印のみで未確認。水辺設営班に照会、箱は開けておく。",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 3,
+      "forbidden_checked": 4,
+      "findings": []
+    },
+    "m85c49a": {
+      "split": "hold",
+      "origin": "holda",
+      "derived_state": "open",
+      "independent_evidence": "貸出は順に3,4,2,3,2,4,3＝21。枝46-2採用で受領3,4,2,4,2,3,3。K8に1着余り（衣装庫当番）、K12に1着不足（舞台衣装係）。品番別上限で20/21着・6/7品番。貸出票未完。",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 4,
+      "forbidden_checked": 3,
+      "findings": []
+    },
+    "m137fa0": {
+      "split": "hold",
+      "origin": "holda",
+      "derived_state": "complete",
+      "independent_evidence": "46-2採用・31,37重複除外で受領3,4,2,3,2,4,3。21/21着・7/7品番。不足・余りなし、貸出票完了可。",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 2,
+      "forbidden_checked": 3,
+      "findings": []
+    },
+    "k7f4b": {
+      "split": "hold",
+      "origin": "holdb",
+      "derived_state": "complete",
+      "independent_evidence": "614は第2組066。26←12と31←18は別機器。ともに1:42.43、差0.00秒≦0.03秒。主計1:42.43を正式掲示可。",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 4,
+      "forbidden_checked": 3,
+      "findings": [
+        {
+          "area": "grading granularity",
+          "severity": "annotation caveat",
+          "explanation": "The 065→641 mapping is accurate and a useful exclusion. Correctly identifying the confirmed 066→614 service and tracing both devices suffices to identify the target unambiguously even without mentioning the other runner. The literal extra clause is a stricter reporting standard than the express request."
+        }
+      ]
+    },
+    "k2a9e": {
+      "split": "hold",
+      "origin": "holdb",
+      "derived_state": "open",
+      "independent_evidence": "614は第2組066。31←26←12、26←12で同一主計に合流し、065のカメラ実測は対象外。映像目録不可。予備1:42.43のみ、正式保留。",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 4,
+      "forbidden_checked": 3,
+      "findings": [
+        {
+          "area": "grading granularity",
+          "severity": "annotation caveat",
+          "explanation": "The 065→641 mapping is accurate, but an answer can trace the shared 066 source fully without giving the other runner’s bib. This affects the detail rubric, not the verdict."
+        }
+      ]
+    },
+    "k5c8d": {
+      "split": "hold",
+      "origin": "holdb",
+      "derived_state": "complete",
+      "independent_evidence": "11/21若竹・西回り、W7-b 14:30の会場同意と対象運行日の市川代決で成立。ウェブ更新前の表示は14:10。14:30公開可。",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 4,
+      "forbidden_checked": 3,
+      "findings": [
+        {
+          "area": "grading granularity",
+          "severity": "annotation caveat",
+          "explanation": "09:15 (original venue email) and 11:03 (substitute approval) are supported. The request demands traceable service, version and authority but does not explicitly require clock times or the sentence that rechecking consent is unnecessary. A report that identifies the original venue email and valid dated decision unambiguously can meet the request without those details."
+        }
+      ]
+    },
+    "k3b6a": {
+      "split": "hold",
+      "origin": "holdb",
+      "derived_state": "open",
+      "independent_evidence": "11/21若竹・西回りW7-b、会場は14:30に同意したが市川代決指定は11/28で対象外、主任または11/21に有権限の者の決裁が要る。W7-bは公開保留、現行掲載14:10。aは別版としてbの決裁に使えない。",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": "Qualified for current versus historic W7-a authority; see findings.",
+      "rationale_supported": true,
+      "required_checked": 4,
+      "forbidden_checked": 3,
+      "findings": [
+        {
+          "area": "attribution / old approved version",
+          "severity": "limited ambiguity",
+          "explanation": "The W7-b state, the current table at 14:10, and the invalid substitute approval for 21 November are clear. On W7-a 14:20 both venue consent and the chief approval had previously been recorded for the same date, stop, and version, satisfying the generic publication rule before revision. The records describe b as the correction and show no carryover, but never expressly say whether the new proposal revoked the separately established authority to publish a. The forbidden claim that 14:20 is the current displayed time is definitively false. The part that excludes any separate historical/continuing authorization to publish a rests on implicit supersession. Distinguish the version-b state from this narrow ambiguity."
+        },
+        {
+          "area": "grading granularity",
+          "severity": "annotation caveat",
+          "explanation": "Same explicit-versus-implicit granularity as the W7-b complete case: the original email and approval entry are unambiguous if identified by date, version and actor, without reproducing their exact clock times."
+        }
+      ]
+    },
+    "B8F2C00": {
+      "split": "hold",
+      "origin": "volume",
+      "derived_state": "open",
+      "independent_evidence": "完了52、未完了3。未完了正式荷番['L3DDBA5', 'L443FDB', 'L551F80']",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 5,
+      "forbidden_checked": 2,
+      "findings": [],
+      "rationale_source_timelines": {
+        "L3DDBA5": [
+          [
+            "17:08",
+            "保留"
+          ],
+          [
+            "17:36",
+            "受領"
+          ]
+        ],
+        "L443FDB": [
+          [
+            "16:57",
+            "受領"
+          ],
+          [
+            "17:35",
+            "取消"
+          ],
+          [
+            "17:40",
+            "受領"
+          ]
+        ],
+        "L551F80": []
+      },
+      "cutoff_inclusive": "17:35"
+    },
+    "B601508": {
+      "split": "hold",
+      "origin": "volume",
+      "derived_state": "complete",
+      "independent_evidence": "完了63、未完了0。未完了正式荷番[]",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 2,
+      "forbidden_checked": 2,
+      "findings": [],
+      "rationale_source_timelines": {
+        "L411188": [
+          [
+            "18:32",
+            "保留"
+          ],
+          [
+            "19:10",
+            "受領"
+          ],
+          [
+            "19:15",
+            "取消"
+          ]
+        ]
+      },
+      "cutoff_inclusive": "19:10"
+    },
+    "BB3B9C5": {
+      "split": "hold",
+      "origin": "volume",
+      "derived_state": "complete",
+      "independent_evidence": "完了47、未完了0。未完了正式荷番[]",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 2,
+      "forbidden_checked": 2,
+      "findings": [],
+      "rationale_source_timelines": {
+        "L882ED7": [
+          [
+            "15:12",
+            "保留"
+          ],
+          [
+            "15:50",
+            "受領"
+          ],
+          [
+            "15:55",
+            "取消"
+          ]
+        ]
+      },
+      "cutoff_inclusive": "15:50"
+    },
+    "BDF3195": {
+      "split": "hold",
+      "origin": "volume",
+      "derived_state": "open",
+      "independent_evidence": "完了57、未完了4。未完了正式荷番['L15B6B1', 'L4B8614', 'L60BC63', 'L75FA96']",
+      "registered_state_matches": true,
+      "required_facts_supported": true,
+      "forbidden_claims_properly_excluded": true,
+      "rationale_supported": true,
+      "required_checked": 6,
+      "forbidden_checked": 2,
+      "findings": [],
+      "rationale_source_timelines": {
+        "L15B6B1": [
+          [
+            "19:48",
+            "保留"
+          ],
+          [
+            "20:16",
+            "受領"
+          ]
+        ],
+        "L4B8614": [],
+        "L60BC63": [
+          [
+            "19:44",
+            "受領"
+          ],
+          [
+            "20:14",
+            "取消"
+          ]
+        ],
+        "L75FA96": [
+          [
+            "19:37",
+            "受領"
+          ],
+          [
+            "20:15",
+            "取消"
+          ],
+          [
+            "20:20",
+            "受領"
+          ]
+        ]
+      },
+      "cutoff_inclusive": "20:15"
+    }
+  },
+  "pairs": [
+    {
+      "ids": [
+        "G6N",
+        "M4V"
+      ],
+      "opposite_verified": true,
+      "same_request": true,
+      "same_draft": true,
+      "differing_record_positions_including_length": 1,
+      "designation": "single record changes"
+    },
+    {
+      "ids": [
+        "S8R",
+        "J7F"
+      ],
+      "opposite_verified": true,
+      "same_request": true,
+      "same_draft": true,
+      "differing_record_positions_including_length": 1,
+      "designation": "single record changes"
+    },
+    {
+      "ids": [
+        "W3H",
+        "Q2B"
+      ],
+      "opposite_verified": true,
+      "same_request": true,
+      "same_draft": true,
+      "differing_record_positions_including_length": 1,
+      "designation": "single record changes"
+    },
+    {
+      "ids": [
+        "BCA9871",
+        "B03CBFA"
+      ],
+      "opposite_verified": true,
+      "same_request": false,
+      "same_draft": false,
+      "differing_record_positions_including_length": 175,
+      "designation": "complementary independent ledgers, not single-record comparisons"
+    },
+    {
+      "ids": [
+        "m49b8a3",
+        "m0d73c1"
+      ],
+      "opposite_verified": true,
+      "same_request": true,
+      "same_draft": false,
+      "differing_record_positions_including_length": 1,
+      "designation": "matched records; drafts also vary"
+    },
+    {
+      "ids": [
+        "m85c49a",
+        "m137fa0"
+      ],
+      "opposite_verified": true,
+      "same_request": true,
+      "same_draft": false,
+      "differing_record_positions_including_length": 1,
+      "designation": "matched records; drafts also vary"
+    },
+    {
+      "ids": [
+        "k7f4b",
+        "k2a9e"
+      ],
+      "opposite_verified": true,
+      "same_request": true,
+      "same_draft": true,
+      "differing_record_positions_including_length": 1,
+      "designation": "single record changes"
+    },
+    {
+      "ids": [
+        "k5c8d",
+        "k3b6a"
+      ],
+      "opposite_verified": true,
+      "same_request": true,
+      "same_draft": true,
+      "differing_record_positions_including_length": 1,
+      "designation": "single record changes"
+    },
+    {
+      "ids": [
+        "B8F2C00",
+        "B601508"
+      ],
+      "opposite_verified": true,
+      "same_request": false,
+      "same_draft": false,
+      "differing_record_positions_including_length": 186,
+      "designation": "complementary independent ledgers, not single-record comparisons"
+    },
+    {
+      "ids": [
+        "BB3B9C5",
+        "BDF3195"
+      ],
+      "opposite_verified": true,
+      "same_request": false,
+      "same_draft": true,
+      "differing_record_positions_including_length": 185,
+      "designation": "complementary independent ledgers, not single-record comparisons"
+    }
+  ]
+}

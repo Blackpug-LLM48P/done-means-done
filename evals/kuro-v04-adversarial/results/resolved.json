@@ -1,0 +1,18 @@
+{
+  "X7b0f8aec": {
+    "required": [
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "conflict": true,
+    "notes": "作者キーの open と回答の complete は不一致。本文との矛盾は別に判定した。「班長帳面を照合した結果」は照合を済ませたことを示すが、complete が指すのは帳面照合だけだとは明示していない。本文ではT16の現地受領が待ちで、確認まで原稿箱を開けておくよう指示している。本文だけなら閉箱保留の指示は明確だが、state も見る閉場係は、案件を完了扱いにするか、T16の確認を追い続けるかで迷いうる。このため conflict は true。"
+  }
+}

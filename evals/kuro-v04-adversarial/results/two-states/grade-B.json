@@ -1,0 +1,186 @@
+{
+  "m49b8a3": {
+    "required": [
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "12位置の和集合、Eの各受領帳面、閉箱指示が一致する。"
+  },
+  "m0d73c1": {
+    "required": [
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "11/12、T05の受領、T16の記載なし、照会先と閉箱保留を記した。"
+  },
+  "m85c49a": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "21着実受領と20着消込を区別し、6/7品番、K12不足とK8余剰の個別引継ぎ、貸出票未完了がそろう。"
+  },
+  "m137fa0": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "袋札46-2と他の袋を合わせた各品番が貸出数と一致し、全数・全品番・過不足なし・完了可を記した。"
+  },
+  "k7f4b": {
+    "required": [
+      false,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "原簿で614を066と確定し、両機器からの経路と差を示すので後任は正式掲示の判断を追える。キーの第1項に含まれる065＝641の説明は本文にない。"
+  },
+  "k2a9e": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "確定原簿の066と065の選手、066の両卓の同一発生元、予備掲示値と正式掲示に欠ける別計時・許容差を明示した。"
+  },
+  "k5c8d": {
+    "required": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "対象便・版・同意日時・代決権限・公開可・旧時刻のウェブ表示が明確で依頼を満たす。会場同意が成立済みとは伝えているが、キー第2項の再確認不要という依頼草案への返答までは書いていない。"
+  },
+  "k3b6a": {
+    "required": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "対象便・版・会場同意と決裁権限のずれを示し、現行14:10の継続と14:30の保留を引き継いだ。キー第2項の再確認不要は明記せず、その判断は同意済みの記述から読み取る形。"
+  },
+  "B8F2C00": {
+    "required": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "再集計で52件・3件。正式荷番3件の内訳も17:35時点の証跡と一致する。"
+  },
+  "B601508": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "19:10までの最終証跡を正式荷番ごとに取ると全63件が受領であり、両件数を明記した。"
+  },
+  "BB3B9C5": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "15:50までの最終証跡を正式荷番ごとに取ると全47件が受領であり、両件数を明記した。"
+  },
+  "BDF3195": {
+    "required": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "再集計で57件・4件。4件の正式荷番・保留、証跡なし、取消の各内訳も20:15時点の記録と一致する。"
+  }
+}

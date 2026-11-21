@@ -1,0 +1,34 @@
+{
+  "k5c8d": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "第2項は充足。19日09:15に会場管理者がW7-bの14:30に同意したこと、11:03に変更が成立し14:30で公開できること、14:20は旧案であることを明記している。引継ぎを受けた担当者にとって、会場への再確認は公開の前提に残っていない。"
+  },
+  "k3b6a": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "第2項は充足。現行案W7-bの14:30に19日09:15に会場が同意済みと明記し、告知を保留する理由を21日便の有効な決裁の欠如に特定している。14:20は旧案と整理されており、担当者はその時刻で会場に確認し直す必要がないと読める。"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "answers": [
+    {
+      "arm": "v04",
+      "audit_complete": true,
+      "case": "B03CBFA",
+      "expected_state": "complete",
+      "handoff_errors": [],
+      "session": "AQ4",
+      "state": "complete",
+      "state_correct": true,
+      "target": "audit"
+    },
+    {
+      "arm": "v04",
+      "audit_complete": true,
+      "case": "BCA9871",
+      "expected_state": "complete",
+      "handoff_errors": [],
+      "session": "AQ4",
+      "state": "complete",
+      "state_correct": true,
+      "target": "audit"
+    },
+    {
+      "arm": "proposal",
+      "audit_complete": true,
+      "case": "B03CBFA",
+      "expected_state": "complete",
+      "handoff_errors": [],
+      "session": "GF7",
+      "state": "complete",
+      "state_correct": true,
+      "target": "audit"
+    },
+    {
+      "arm": "proposal",
+      "audit_complete": true,
+      "case": "BCA9871",
+      "expected_state": "complete",
+      "handoff_errors": [],
+      "session": "GF7",
+      "state": "complete",
+      "state_correct": true,
+      "target": "audit"
+    },
+    {
+      "arm": "proposal",
+      "audit_complete": true,
+      "case": "B03CBFA",
+      "expected_state": "open",
+      "handoff_errors": [],
+      "session": "LK6",
+      "state": "open",
+      "state_correct": true,
+      "target": "delivery"
+    },
+    {
+      "arm": "proposal",
+      "audit_complete": true,
+      "case": "BCA9871",
+      "expected_state": "complete",
+      "handoff_errors": [],
+      "session": "LK6",
+      "state": "complete",
+      "state_correct": true,
+      "target": "delivery"
+    },
+    {
+      "arm": "v04",
+      "audit_complete": true,
+      "case": "B03CBFA",
+      "expected_state": "open",
+      "handoff_errors": [],
+      "session": "YK1",
+      "state": "open",
+      "state_correct": true,
+      "target": "delivery"
+    },
+    {
+      "arm": "v04",
+      "audit_complete": true,
+      "case": "BCA9871",
+      "expected_state": "complete",
+      "handoff_errors": [],
+      "session": "YK1",
+      "state": "complete",
+      "state_correct": true,
+      "target": "delivery"
+    }
+  ],
+  "ledger_facts": {
+    "B03CBFA": {
+      "complete": 56,
+      "cutoff": "18:05",
+      "pending": 2,
+      "pending_items": {
+        "L8DA6D6": {
+          "at": "17:38",
+          "status": "保留"
+        },
+        "LA9749B": {
+          "at": "18:05",
+          "status": "取消"
+        }
+      },
+      "total": 58
+    },
+    "BCA9871": {
+      "complete": 49,
+      "cutoff": "16:40",
+      "pending": 0,
+      "pending_items": {},
+      "total": 49
+    }
+  },
+  "summary": {
+    "answers": 8,
+    "audit_complete": 8,
+    "manual_review_needed": 0,
+    "state_correct": 8
+  }
+}
