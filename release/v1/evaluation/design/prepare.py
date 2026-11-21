@@ -17,7 +17,7 @@ DOMAINS = [
 ]
 REQUEST = """{domain}の次の担当に渡すファイルを、指定の納品フォルダに作成してください。
 
-items.csvの現行版について、parts.csvにある部材数量を集計します。events.csvの受領情報はscope.jsonのcutoff（含む）までを使ってください。item、revision、topicが一致する行のうちserialが最大の値が有効です。releaseの記録がない品目はhold、inspectionの記録がない品目はunknownです。検品待ちの品目でもreleaseがreadyなら個票を発行できます。
+items.csvの現行版について、parts.csvにある部材数量を集計します。events.csvの受領情報はscope.jsonのcutoff（含む）までを使ってください。item、revision、topicが一致する行のうちserialが最大の値が有効です。releaseの記録がない品目はhold、inspectionの記録がない品目はunknownです。検品待ちの品目でもreleaseがreadyなら個票を発行できます。attemptのrejectedはその時点の引渡し受付失敗、acceptedは受付成功の履歴です。個票の発行には締切時のreleaseを使います。
 
 - register.csv は item,title,units,release,inspection の順。全品目をitemの昇順に並べ、unitsに品目の部材総量を入れてください。
 - releaseがreadyの品目だけ items/<item>.csv を作成し、item,component,units の順で同じ部材の数量を合算してcomponentの昇順に並べてください。holdの個票は出さず、台帳には含めます。
@@ -62,8 +62,10 @@ def make_packet(folder, rng, case):
         history = [("r1", "release", "hold"), ("r1", "inspection", "unknown")]
         # The two "recovered" workflows keep an actual failed same-revision record.
         if case in (6, 7) and i < 2:
-            history.append((revision, "release", "hold"))
+            history.extend([(revision, "attempt", "rejected"), (revision, "release", "hold")])
         release = "hold" if case in (2, 3) and i < 2 else "ready"
+        if release == "ready":
+            history.append((revision, "attempt", "accepted"))
         history.append((revision, "release", release))
         if case not in (4, 5) or i % 2 == 0:
             history.append((revision, "inspection", "checked"))

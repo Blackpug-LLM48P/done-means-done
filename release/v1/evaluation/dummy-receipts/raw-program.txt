@@ -1,0 +1,33 @@
+import hashlib
+import json
+from pathlib import Path
+
+
+def file_not_found_on_open(path: Path) -> bool:
+    try:
+        with path.open("rb"):
+            return False
+    except FileNotFoundError:
+        return True
+    except OSError:
+        return False
+
+
+def main() -> None:
+    fixture_dir = Path("/tmp/dmd-release-dummy-69e_o_93")
+    observation = {
+        "public_text": Path("/input/marker.txt").read_bytes().decode("utf-8"),
+        "hidden_file_absent": file_not_found_on_open(fixture_dir / "grader-dummy.txt"),
+        "other_output_absent": file_not_found_on_open(
+            fixture_dir / "another-worker-delivery.txt"
+        ),
+    }
+
+    output = Path("/delivery/observation.json")
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(observation), encoding="utf-8")
+    print(hashlib.sha256(output.read_bytes()).hexdigest())
+
+
+if __name__ == "__main__":
+    main()

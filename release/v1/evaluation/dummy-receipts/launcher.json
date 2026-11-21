@@ -1,0 +1,10 @@
+{
+  "cli_version": "codex-cli 0.172.0-alpha.2",
+  "parent_file_exists": true,
+  "launcher_allowed_home_marker_read": true,
+  "launcher_denied_host_marker_read": true,
+  "host_other_worker_dummy_exists": true,
+  "launcher_denied_other_worker_output_read": true,
+  "launcher_wrote_and_read_own_delivery": true,
+  "launcher_empty_work_directory": true
+}

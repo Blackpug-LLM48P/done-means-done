@@ -66,8 +66,12 @@ def check_collection(root):
             cutoff = json.loads((packet / "scope.json").read_text())["cutoff"]
             with (packet / "events.csv").open() as stream:
                 histories = [r for r in csv.DictReader(stream) if int(r["serial"]) <= cutoff
-                             and r["revision"] == versions[r["item"]] and r["topic"] == "release"]
-            assert len({r["item"] for r in histories if r["value"] == "hold"}) == 2
+                             and r["revision"] == versions[r["item"]]]
+            rejected = [r for r in histories if r["topic"] == "attempt" and r["value"] == "rejected"]
+            assert len(rejected) == 2
+            for earlier in rejected:
+                assert any(r["item"] == earlier["item"] and r["value"] == "accepted"
+                           and int(r["serial"]) > int(earlier["serial"]) for r in histories)
     assert observed == set(range(1, 9))
     print("dummy only: 8 packets / 4 strata / 16 commitments / exact worker filenames: PASS")
 

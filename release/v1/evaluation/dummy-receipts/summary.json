@@ -1,0 +1,19 @@
+{
+  "dummy_only": true,
+  "cli_version": "codex-cli 0.172.0-alpha.2",
+  "model": "gpt-6.2-astra",
+  "effort": "ultra",
+  "worker_threads": 1,
+  "model_turns": 2,
+  "same_thread_report": true,
+  "official_tool_events": 0,
+  "host_dummy_existed": true,
+  "offline_worker_read_assigned_input": true,
+  "offline_worker_missing_host_dummy": true,
+  "offline_worker_missing_other_worker_output": true,
+  "offline_worker_wrote_and_read_own_delivery": true,
+  "delivery_readback_sha256": "ad7187990f1ce7cf4c1736ed39b9274ce8efa199144e6b801470837d3d61e9d5",
+  "host_and_worker_network_namespaces_differ": true,
+  "public_marker": "input-7cfa297b862375d0",
+  "report_matched_public_marker": true
+}
