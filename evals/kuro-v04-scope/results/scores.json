@@ -1,0 +1,2278 @@
+{
+  "author": {
+    "arms": {
+      "reader-one": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 0,
+          "correct_abstention": 14,
+          "correct_line": 16,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        }
+      },
+      "reader-scope": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 0,
+          "correct_abstention": 14,
+          "correct_line": 16,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        }
+      },
+      "reader-v04": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 0,
+          "correct_abstention": 14,
+          "correct_line": 16,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        }
+      },
+      "source-rescue": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 1,
+              "wrong_line_without_support": 2
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 3
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 3
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 0,
+          "correct_abstention": 0,
+          "correct_line": 15,
+          "wrong_line_with_support": 1,
+          "wrong_line_without_support": 14
+        }
+      },
+      "source-veto": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 1,
+              "wrong_line_without_support": 2
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 3
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 1,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 0,
+          "correct_abstention": 1,
+          "correct_line": 15,
+          "wrong_line_with_support": 1,
+          "wrong_line_without_support": 13
+        }
+      },
+      "source_action-rescue": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 1,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 1
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 1,
+              "correct_abstention": 3,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 3,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 14,
+          "correct_abstention": 13,
+          "correct_line": 2,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 1
+        }
+      },
+      "source_action-veto": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 1,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 1
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 1,
+              "correct_abstention": 3,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 3,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 14,
+          "correct_abstention": 13,
+          "correct_line": 2,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 1
+        }
+      },
+      "source_revision-rescue": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 1,
+              "wrong_line_without_support": 2
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 3
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 3
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 0,
+          "correct_abstention": 0,
+          "correct_line": 15,
+          "wrong_line_with_support": 1,
+          "wrong_line_without_support": 14
+        }
+      },
+      "source_revision-veto": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 2,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 2,
+          "correct_abstention": 12,
+          "correct_line": 14,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 2
+        }
+      },
+      "source_revision_action-rescue": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 2,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 1,
+              "correct_abstention": 3,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 3,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 14,
+          "correct_abstention": 14,
+          "correct_line": 2,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        }
+      },
+      "source_revision_action-veto": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 2,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 1,
+              "correct_abstention": 3,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 3,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 14,
+          "correct_abstention": 14,
+          "correct_line": 2,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        }
+      }
+    },
+    "case_count": 6,
+    "comparison": {
+      "baseline": "source-veto",
+      "candidate": "source_revision_action-rescue",
+      "category_transitions": {
+        "abstention_with_support": {
+          "abstention_with_support": 0,
+          "correct_abstention": 0,
+          "correct_line": 0,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        },
+        "correct_abstention": {
+          "abstention_with_support": 0,
+          "correct_abstention": 1,
+          "correct_line": 0,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        },
+        "correct_line": {
+          "abstention_with_support": 13,
+          "correct_abstention": 0,
+          "correct_line": 2,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        },
+        "wrong_line_with_support": {
+          "abstention_with_support": 1,
+          "correct_abstention": 0,
+          "correct_line": 0,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        },
+        "wrong_line_without_support": {
+          "abstention_with_support": 0,
+          "correct_abstention": 13,
+          "correct_line": 0,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        }
+      },
+      "events": {
+        "abstention_with_support_avoided": {
+          "count": 0,
+          "questions": []
+        },
+        "abstention_with_support_introduced": {
+          "count": 14,
+          "questions": [
+            {
+              "case_id": "c6j4",
+              "query_id": "g4p"
+            },
+            {
+              "case_id": "c6j4",
+              "query_id": "t7v"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "g9z"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "h4w"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "x6b"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "j7y"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "v2h"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "x5k"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "d3u"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "m2z"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "r6e"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "e7n"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "c1d"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "e5r"
+            }
+          ]
+        },
+        "correct_abstention_lost": {
+          "count": 0,
+          "questions": []
+        },
+        "correct_abstention_recovered": {
+          "count": 13,
+          "questions": [
+            {
+              "case_id": "c6j4",
+              "query_id": "b5m"
+            },
+            {
+              "case_id": "c6j4",
+              "query_id": "z9c"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "s5d"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "u2f"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "n1p"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "u6c"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "k9i"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "y7d"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "j8v"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "n3a"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "w4c"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "p6u"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "y8n"
+            }
+          ]
+        },
+        "correct_decision_lost": {
+          "count": 13,
+          "questions": [
+            {
+              "case_id": "c6j4",
+              "query_id": "g4p"
+            },
+            {
+              "case_id": "c6j4",
+              "query_id": "t7v"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "g9z"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "h4w"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "x6b"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "j7y"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "v2h"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "x5k"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "d3u"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "r6e"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "e7n"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "c1d"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "e5r"
+            }
+          ]
+        },
+        "correct_decision_recovered": {
+          "count": 13,
+          "questions": [
+            {
+              "case_id": "c6j4",
+              "query_id": "b5m"
+            },
+            {
+              "case_id": "c6j4",
+              "query_id": "z9c"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "s5d"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "u2f"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "n1p"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "u6c"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "k9i"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "y7d"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "j8v"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "n3a"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "w4c"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "p6u"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "y8n"
+            }
+          ]
+        },
+        "correct_line_lost": {
+          "count": 13,
+          "questions": [
+            {
+              "case_id": "c6j4",
+              "query_id": "g4p"
+            },
+            {
+              "case_id": "c6j4",
+              "query_id": "t7v"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "g9z"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "h4w"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "x6b"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "j7y"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "v2h"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "x5k"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "d3u"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "r6e"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "e7n"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "c1d"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "e5r"
+            }
+          ]
+        },
+        "correct_line_recovered": {
+          "count": 0,
+          "questions": []
+        },
+        "wrong_citation_avoided": {
+          "count": 14,
+          "questions": [
+            {
+              "case_id": "c6j4",
+              "query_id": "b5m"
+            },
+            {
+              "case_id": "c6j4",
+              "query_id": "z9c"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "s5d"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "u2f"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "n1p"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "u6c"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "k9i"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "m2z"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "y7d"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "j8v"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "n3a"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "w4c"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "p6u"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "y8n"
+            }
+          ]
+        },
+        "wrong_citation_introduced": {
+          "count": 0,
+          "questions": []
+        },
+        "wrong_citation_retained_same_row": {
+          "count": 0,
+          "questions": []
+        },
+        "wrong_citation_switched_row": {
+          "count": 0,
+          "questions": []
+        }
+      }
+    },
+    "question_count": 30
+  },
+  "independent": {
+    "arms": {
+      "reader-one": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 0,
+          "correct_abstention": 14,
+          "correct_line": 16,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        }
+      },
+      "reader-scope": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 0,
+          "correct_abstention": 14,
+          "correct_line": 16,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        }
+      },
+      "reader-v04": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 0,
+          "correct_abstention": 14,
+          "correct_line": 16,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        }
+      },
+      "source-rescue": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 1,
+              "wrong_line_without_support": 2
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 3
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 3
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 0,
+          "correct_abstention": 0,
+          "correct_line": 15,
+          "wrong_line_with_support": 1,
+          "wrong_line_without_support": 14
+        }
+      },
+      "source-veto": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 1,
+              "wrong_line_without_support": 2
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 3
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 1,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 0,
+          "correct_abstention": 1,
+          "correct_line": 15,
+          "wrong_line_with_support": 1,
+          "wrong_line_without_support": 13
+        }
+      },
+      "source_action-rescue": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 1,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 1
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 1,
+              "correct_abstention": 3,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 3,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 14,
+          "correct_abstention": 13,
+          "correct_line": 2,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 1
+        }
+      },
+      "source_action-veto": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 1,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 1
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 1,
+              "correct_abstention": 3,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 3,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 14,
+          "correct_abstention": 13,
+          "correct_line": 2,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 1
+        }
+      },
+      "source_revision-rescue": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 1,
+              "wrong_line_without_support": 2
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 3
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 3
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 0,
+          "correct_abstention": 0,
+          "correct_line": 15,
+          "wrong_line_with_support": 1,
+          "wrong_line_without_support": 14
+        }
+      },
+      "source_revision-veto": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 0,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 2
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 2,
+              "correct_line": 3,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 2,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 0,
+              "correct_abstention": 3,
+              "correct_line": 2,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 2,
+          "correct_abstention": 12,
+          "correct_line": 14,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 2
+        }
+      },
+      "source_revision_action-rescue": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 2,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 1,
+              "correct_abstention": 3,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 3,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 14,
+          "correct_abstention": 14,
+          "correct_line": 2,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        }
+      },
+      "source_revision_action-veto": {
+        "by_case": {
+          "c6j4": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 2,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "f7k2": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "h7s3": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "q6m4": {
+            "counts": {
+              "abstention_with_support": 3,
+              "correct_abstention": 2,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "v3s8": {
+            "counts": {
+              "abstention_with_support": 1,
+              "correct_abstention": 3,
+              "correct_line": 1,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          },
+          "w2f9": {
+            "counts": {
+              "abstention_with_support": 2,
+              "correct_abstention": 3,
+              "correct_line": 0,
+              "wrong_line_with_support": 0,
+              "wrong_line_without_support": 0
+            }
+          }
+        },
+        "counts": {
+          "abstention_with_support": 14,
+          "correct_abstention": 14,
+          "correct_line": 2,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        }
+      }
+    },
+    "case_count": 6,
+    "comparison": {
+      "baseline": "source-veto",
+      "candidate": "source_revision_action-rescue",
+      "category_transitions": {
+        "abstention_with_support": {
+          "abstention_with_support": 0,
+          "correct_abstention": 0,
+          "correct_line": 0,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        },
+        "correct_abstention": {
+          "abstention_with_support": 0,
+          "correct_abstention": 1,
+          "correct_line": 0,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        },
+        "correct_line": {
+          "abstention_with_support": 13,
+          "correct_abstention": 0,
+          "correct_line": 2,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        },
+        "wrong_line_with_support": {
+          "abstention_with_support": 1,
+          "correct_abstention": 0,
+          "correct_line": 0,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        },
+        "wrong_line_without_support": {
+          "abstention_with_support": 0,
+          "correct_abstention": 13,
+          "correct_line": 0,
+          "wrong_line_with_support": 0,
+          "wrong_line_without_support": 0
+        }
+      },
+      "events": {
+        "abstention_with_support_avoided": {
+          "count": 0,
+          "questions": []
+        },
+        "abstention_with_support_introduced": {
+          "count": 14,
+          "questions": [
+            {
+              "case_id": "c6j4",
+              "query_id": "g4p"
+            },
+            {
+              "case_id": "c6j4",
+              "query_id": "t7v"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "g9z"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "h4w"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "x6b"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "j7y"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "v2h"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "x5k"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "d3u"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "m2z"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "r6e"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "e7n"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "c1d"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "e5r"
+            }
+          ]
+        },
+        "correct_abstention_lost": {
+          "count": 0,
+          "questions": []
+        },
+        "correct_abstention_recovered": {
+          "count": 13,
+          "questions": [
+            {
+              "case_id": "c6j4",
+              "query_id": "b5m"
+            },
+            {
+              "case_id": "c6j4",
+              "query_id": "z9c"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "s5d"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "u2f"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "n1p"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "u6c"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "k9i"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "y7d"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "j8v"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "n3a"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "w4c"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "p6u"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "y8n"
+            }
+          ]
+        },
+        "correct_decision_lost": {
+          "count": 13,
+          "questions": [
+            {
+              "case_id": "c6j4",
+              "query_id": "g4p"
+            },
+            {
+              "case_id": "c6j4",
+              "query_id": "t7v"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "g9z"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "h4w"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "x6b"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "j7y"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "v2h"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "x5k"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "d3u"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "r6e"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "e7n"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "c1d"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "e5r"
+            }
+          ]
+        },
+        "correct_decision_recovered": {
+          "count": 13,
+          "questions": [
+            {
+              "case_id": "c6j4",
+              "query_id": "b5m"
+            },
+            {
+              "case_id": "c6j4",
+              "query_id": "z9c"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "s5d"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "u2f"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "n1p"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "u6c"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "k9i"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "y7d"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "j8v"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "n3a"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "w4c"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "p6u"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "y8n"
+            }
+          ]
+        },
+        "correct_line_lost": {
+          "count": 13,
+          "questions": [
+            {
+              "case_id": "c6j4",
+              "query_id": "g4p"
+            },
+            {
+              "case_id": "c6j4",
+              "query_id": "t7v"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "g9z"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "h4w"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "x6b"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "j7y"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "v2h"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "x5k"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "d3u"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "r6e"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "e7n"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "c1d"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "e5r"
+            }
+          ]
+        },
+        "correct_line_recovered": {
+          "count": 0,
+          "questions": []
+        },
+        "wrong_citation_avoided": {
+          "count": 14,
+          "questions": [
+            {
+              "case_id": "c6j4",
+              "query_id": "b5m"
+            },
+            {
+              "case_id": "c6j4",
+              "query_id": "z9c"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "s5d"
+            },
+            {
+              "case_id": "f7k2",
+              "query_id": "u2f"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "n1p"
+            },
+            {
+              "case_id": "h7s3",
+              "query_id": "u6c"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "k9i"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "m2z"
+            },
+            {
+              "case_id": "q6m4",
+              "query_id": "y7d"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "j8v"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "n3a"
+            },
+            {
+              "case_id": "v3s8",
+              "query_id": "w4c"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "p6u"
+            },
+            {
+              "case_id": "w2f9",
+              "query_id": "y8n"
+            }
+          ]
+        },
+        "wrong_citation_introduced": {
+          "count": 0,
+          "questions": []
+        },
+        "wrong_citation_retained_same_row": {
+          "count": 0,
+          "questions": []
+        },
+        "wrong_citation_switched_row": {
+          "count": 0,
+          "questions": []
+        }
+      }
+    },
+    "question_count": 30
+  }
+}

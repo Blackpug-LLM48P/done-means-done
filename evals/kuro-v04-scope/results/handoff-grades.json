@@ -1,0 +1,128 @@
+{
+  "H01": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "f5yの点検票に部屋・設定版・場面・測定位置と428 lxの読みがそろう。"
+  },
+  "H02": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "y5sは結線を戻した再試行で、切替表示Bのままスクリーンに「翌朝」が出たと記録する。"
+  },
+  "H03": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "r9hでは会計側の取込結果が未着で、y2kは箱から消えたことをもとにした推測にとどまる。"
+  },
+  "H04": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "g3vが一度の下版用書き出しを、s8nが後の旧版置き場への移動を裏付ける。"
+  },
+  "H05": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "z4sの14件中12件成功を検証環境に限定し、r9hの本番結果未着と区別している。"
+  },
+  "H06": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "b7uはr2の色校正1部の受付。r3本刷りの発注記録がないことだけを述べている。"
+  },
+  "H07": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "g3vで下版用フォルダーへの書き出しが確認でき、後の移動はs8nに明記されている。"
+  },
+  "H08": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "r9hは受渡し箱への投入を現場からの連絡と明示し、本番の取込結果は未着としている。"
+  },
+  "H09": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "y5sには結線を戻してやり直した際、B表示のまま「翌朝」がスクリーンに出た記録がある。"
+  },
+  "H10": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "f5yは会議室Bの第4版「受付」で、受付卓上の照度計が428 lxを示した記録。"
+  },
+  "H11": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "書き出しはg3v、第5版が正式版になった後の第4版移動はs8nが明示する。"
+  },
+  "H12": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "f5yの水曜9時半の点検票に、部屋・版・場面・測定位置・428 lxの値が一致する。"
+  },
+  "H13": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "b7uはr2の色校正1部を明記し、案件にはr3の本刷り発注を裏付ける記録がない。"
+  },
+  "H14": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "v4eが「18」入力時の交代と本人の未確定を記録し、その後の確定はo5gの推測でも裏付けられない。"
+  },
+  "H15": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "y5sには結線を戻した後、B系で「翌朝」をスクリーンに表示できたとある。"
+  },
+  "H16": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "v4eが入力までを直接記録し、交代後も含め設定が確定したかについては未確認と伝えている。"
+  },
+  "H17": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "v4eが夜間速度欄の「18」の入力を示し、案件にはv2で確定した記録がない。"
+  },
+  "H18": {
+    "selected_contradiction": false,
+    "unknown_as_not_done": false,
+    "unsupported_extra": false,
+    "supported_answer_omitted": false,
+    "reason": "b7uの受付票はr2の色校正分で、r3の本刷りの発注有無は案件記録から確認できない。"
+  }
+}

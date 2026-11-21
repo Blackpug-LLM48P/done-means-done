@@ -27,6 +27,8 @@ The [Japanese working-agent comparison](kuro-v04-live/README.md) includes 16 liv
 
 A [follow-up on unseen broadcast handoffs](kuro-v04-transfer/README.md) freezes six submissions before sampling, executes them under OS isolation, and independently scores the recipient reports. It also records a [project-specific sparse-retrieval comparison](kuro-v04-transfer/paper-probe/report.md).
 
+The [revision and action scope study](kuro-v04-scope/README.md) compares eight retrieval settings and three full-record reader instructions on six further Japanese cases. The paired results quantify wrong citations prevented and previously correct evidence lost.
+
 ## Fixtures
 
 | Fixture | Record | Keys | What it tests |
