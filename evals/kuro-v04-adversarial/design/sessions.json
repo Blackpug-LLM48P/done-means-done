@@ -1,0 +1,94 @@
+{
+  "JW8": {
+    "phase": "dev",
+    "arm": "v04",
+    "ids": [
+      "S8R",
+      "W3H",
+      "G6N",
+      "BCA9871"
+    ]
+  },
+  "AG5": {
+    "phase": "dev",
+    "arm": "v04",
+    "ids": [
+      "J7F",
+      "Q2B",
+      "M4V",
+      "B03CBFA"
+    ]
+  },
+  "RT5": {
+    "phase": "hold",
+    "arm": "v04",
+    "ids": [
+      "BDF3195",
+      "m137fa0",
+      "k2a9e",
+      "B8F2C00",
+      "m0d73c1",
+      "k3b6a"
+    ]
+  },
+  "BY6": {
+    "phase": "hold",
+    "arm": "v04",
+    "ids": [
+      "BB3B9C5",
+      "m85c49a",
+      "k7f4b",
+      "B601508",
+      "m49b8a3",
+      "k5c8d"
+    ]
+  },
+  "PM3": {
+    "phase": "hold",
+    "arm": "one",
+    "ids": [
+      "BDF3195",
+      "m137fa0",
+      "k2a9e",
+      "B8F2C00",
+      "m0d73c1",
+      "k3b6a"
+    ]
+  },
+  "EV4": {
+    "phase": "hold",
+    "arm": "one",
+    "ids": [
+      "BB3B9C5",
+      "m85c49a",
+      "k7f4b",
+      "B601508",
+      "m49b8a3",
+      "k5c8d"
+    ]
+  },
+  "DX2": {
+    "phase": "hold",
+    "arm": "proposal",
+    "ids": [
+      "BDF3195",
+      "m137fa0",
+      "k2a9e",
+      "B8F2C00",
+      "m0d73c1",
+      "k3b6a"
+    ]
+  },
+  "WU9": {
+    "phase": "hold",
+    "arm": "proposal",
+    "ids": [
+      "BB3B9C5",
+      "m85c49a",
+      "k7f4b",
+      "B601508",
+      "m49b8a3",
+      "k5c8d"
+    ]
+  }
+}
