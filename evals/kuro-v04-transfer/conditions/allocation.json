@@ -1,0 +1,26 @@
+{
+  "R17": [
+    "one",
+    "mixed"
+  ],
+  "S62": [
+    "candidate",
+    "mixed"
+  ],
+  "V54": [
+    "one",
+    "clean"
+  ],
+  "J83": [
+    "candidate",
+    "clean"
+  ],
+  "W26": [
+    "one",
+    "blocked"
+  ],
+  "M45": [
+    "candidate",
+    "blocked"
+  ]
+}

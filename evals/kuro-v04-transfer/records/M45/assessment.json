@@ -1,0 +1,40 @@
+{
+  "checks": {
+    "handoff_counts": true,
+    "handoff_recovery": true,
+    "handoff_route": true,
+    "handoff_schema": true,
+    "inventory": true,
+    "queue_current": true,
+    "queue_evidence": true,
+    "queue_schema": true,
+    "queue_state": true
+  },
+  "pass": true,
+  "report_facts": {
+    "desk": "若葉調整室",
+    "holds": {
+      "CHECK_FAILED": [
+        "P-580"
+      ],
+      "CONFLICT": [
+        "P-422",
+        "P-924"
+      ],
+      "NO_CHECK": [
+        "P-669",
+        "P-705"
+      ],
+      "NO_RECEIPT": [
+        "P-771"
+      ]
+    },
+    "ready": 0,
+    "recovered": [
+      "P-422",
+      "P-771"
+    ],
+    "shift": "FM-26410",
+    "total": 6
+  }
+}

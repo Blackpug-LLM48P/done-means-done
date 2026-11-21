@@ -1,0 +1,62 @@
+[
+  {
+    "packet": "416a7f0924",
+    "slots": 6,
+    "covered": 6,
+    "omissions": [],
+    "errors": [],
+    "unverified": [],
+    "hedges": [],
+    "notes": "4番組すべてREADYで保留0。P-585の第4版は点検連番82で失敗後、84で成功。引渡予定先を含む報告が納品と一致。"
+  },
+  {
+    "packet": "4dfc8d5113",
+    "slots": 11,
+    "covered": 11,
+    "omissions": [],
+    "errors": [],
+    "unverified": [],
+    "hedges": [],
+    "notes": "3件の使用可能ID、5件の保留理由、2件の点検復旧が合う。P-336の最新対象受領は連番264でM-48054、計画はM-48055。受領未確認の表現はP-106・P-617の採用版について予定先に記録がないことに対応。"
+  },
+  {
+    "packet": "4fbbe07f2b",
+    "slots": 6,
+    "covered": 6,
+    "omissions": [],
+    "errors": [],
+    "unverified": [],
+    "hedges": [],
+    "notes": "4件とも採用版の最新点検に合格し、月見調整室の最新対象受領の符号も計画と一致。P-585第4版の再点検合格も原記録の連番82・84と整合。"
+  },
+  {
+    "packet": "697fcb151a",
+    "slots": 12,
+    "covered": 12,
+    "omissions": [],
+    "errors": [],
+    "unverified": [],
+    "hedges": [],
+    "notes": "0/6件使用可。保留全6件の理由が原記録およびqueueの各状態に対応。受領面の保留が続くP-422・P-771を点検復旧として正しく報告。"
+  },
+  {
+    "packet": "f53a76c62a",
+    "slots": 12,
+    "covered": 12,
+    "omissions": [],
+    "errors": [],
+    "unverified": [],
+    "hedges": [],
+    "notes": "6件すべての保留理由と、点検が復旧したP-422・P-771が納品・原記録どおり。若葉調整室を予定の引渡先と読める。"
+  },
+  {
+    "packet": "fc2098c63f",
+    "slots": 11,
+    "covered": 11,
+    "omissions": [],
+    "errors": [],
+    "unverified": [],
+    "hedges": [],
+    "notes": "全IDの版とP-336の両符号が正しい。P-725第4版は浜風調整室の受領記録155が存在し、採用版の点検は欠けている。P-106・P-336の再点検合格も記録どおり。"
+  }
+]

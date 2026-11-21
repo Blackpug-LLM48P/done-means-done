@@ -1,0 +1,88 @@
+{
+  "rows": [
+    {
+      "field": "controlling_source",
+      "expected": "MV-493",
+      "source_quote": "Signed movement slip MV-493, revision C",
+      "M3": "supported",
+      "R6": "supported"
+    },
+    {
+      "field": "controlling_revision",
+      "expected": "C",
+      "source_quote": "Signed movement slip MV-493, revision C",
+      "M3": "supported",
+      "R6": "supported"
+    },
+    {
+      "field": "crate_count",
+      "expected": 4,
+      "source_quote": "Four crates via Birch Gate at 14:25.",
+      "M3": "supported",
+      "R6": "supported"
+    },
+    {
+      "field": "gate",
+      "expected": "Birch Gate",
+      "source_quote": "Four crates via Birch Gate at 14:25.",
+      "M3": "supported",
+      "R6": "supported"
+    },
+    {
+      "field": "pickup",
+      "expected": "14:25",
+      "source_quote": "Four crates via Birch Gate at 14:25.",
+      "M3": "supported",
+      "R6": "supported"
+    },
+    {
+      "field": "cancelled_source",
+      "expected": "W-12",
+      "source_quote": "explicitly cancels W-12 rev B.",
+      "M3": "supported",
+      "R6": "supported"
+    },
+    {
+      "field": "packing_authority",
+      "expected": "EM-76",
+      "source_quote": "Collections lead's email EM-76 authorizes packing the four crates.",
+      "M3": "supported",
+      "R6": "supported"
+    },
+    {
+      "field": "permit_id",
+      "expected": "LP-28",
+      "source_quote": "lift permit LP-28.",
+      "M3": "supported",
+      "R6": "supported"
+    },
+    {
+      "field": "permit_status",
+      "expected": "pending",
+      "source_quote": "The permit remains pending",
+      "M3": "supported",
+      "R6": "supported"
+    },
+    {
+      "field": "notice_id",
+      "expected": "TX-816",
+      "source_quote": "Courier console transaction TX-816 says the routing notice was SENT to dispatch.",
+      "M3": "supported",
+      "R6": "supported"
+    },
+    {
+      "field": "dispatch_transmission",
+      "expected": "sent",
+      "source_quote": "the routing notice was SENT to dispatch.",
+      "M3": "supported",
+      "R6": "supported"
+    },
+    {
+      "field": "dispatch_receipt",
+      "expected": "unconfirmed",
+      "source_quote": "The recipient-acknowledgment column is blank. No call or later acknowledgment is recorded.",
+      "M3": "supported",
+      "R6": "supported"
+    }
+  ]
+}

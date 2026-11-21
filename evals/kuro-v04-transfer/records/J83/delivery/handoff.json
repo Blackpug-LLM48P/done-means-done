@@ -1,0 +1,14 @@
+{
+  "shift": "FM-64567",
+  "desk": "月見調整室",
+  "counts": {
+    "NO_CHECK": 0,
+    "CHECK_FAILED": 0,
+    "NO_RECEIPT": 0,
+    "CONFLICT": 0,
+    "READY": 4
+  },
+  "recovered": [
+    "P-585"
+  ]
+}

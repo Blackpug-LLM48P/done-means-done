@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "handoff_counts": true,
+    "handoff_recovery": true,
+    "handoff_route": true,
+    "handoff_schema": true,
+    "inventory": true,
+    "queue_current": true,
+    "queue_evidence": true,
+    "queue_schema": true,
+    "queue_state": true
+  },
+  "pass": true,
+  "report_facts": {
+    "desk": "月見調整室",
+    "holds": {},
+    "ready": 4,
+    "recovered": [
+      "P-585"
+    ],
+    "shift": "FM-64567",
+    "total": 4
+  }
+}

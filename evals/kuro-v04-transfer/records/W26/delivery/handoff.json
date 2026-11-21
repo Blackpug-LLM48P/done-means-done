@@ -1,0 +1,15 @@
+{
+  "shift": "FM-26410",
+  "desk": "若葉調整室",
+  "counts": {
+    "NO_CHECK": 2,
+    "CHECK_FAILED": 1,
+    "NO_RECEIPT": 1,
+    "CONFLICT": 2,
+    "READY": 0
+  },
+  "recovered": [
+    "P-422",
+    "P-771"
+  ]
+}

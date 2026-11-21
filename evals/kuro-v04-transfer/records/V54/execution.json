@@ -1,0 +1,37 @@
+{
+  "entry": [
+    "/usr/bin/python3.13",
+    "-I",
+    "-S",
+    "-B",
+    "/submission.py"
+  ],
+  "python": "/usr/bin/python3.13",
+  "input_manifest": {
+    "shift.json": {
+      "bytes": 3531,
+      "sha256": "d730e48c9da1f09bad30568a28de7cecad65efa6027268a4d73b2c09e7e01d83"
+    }
+  },
+  "submission_sha256": "1df8f74e49ebdabe13ed5c64b23d16a9716d8968dc56d259f66b341fd04647dc",
+  "host_net_ns": "net:[4026532358]",
+  "worker_net_ns": "net:[4026532282]",
+  "elapsed_seconds": 0.115,
+  "timed_out": false,
+  "exit_code": 0,
+  "stdout": "勤務枠 FM-64567、予定の引渡先 月見調整室。全4件中4件が使用可能です。\n保留：なし。\n点検復旧：P-585。\n",
+  "stdout_bytes": 140,
+  "stderr": "",
+  "stderr_bytes": 0,
+  "delivery_manifest": {
+    "handoff.json": {
+      "bytes": 205,
+      "sha256": "68d6c483e888cea1fccafdeda6a33d56bac9889a36d5c448c017f56824619440"
+    },
+    "queue.json": {
+      "bytes": 445,
+      "sha256": "542584b7f5f1a38b4830b8bdf7d95eee3b6162f2b1a6908e039101080641d2f0"
+    }
+  },
+  "ok": true
+}

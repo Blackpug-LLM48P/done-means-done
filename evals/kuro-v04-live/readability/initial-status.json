@@ -1,0 +1,187 @@
+{
+  "version": "jp-handoff-1",
+  "issued_readers": 0,
+  "verified_return_receipts": 0,
+  "inbox_files": 0,
+  "missing_receipt_files": [],
+  "valid_human_readers": 0,
+  "completed_case_reports": 0,
+  "excluded_files": {},
+  "exclusions": [],
+  "four_contrasts": [
+    {
+      "case": "library",
+      "replicate": 1,
+      "arms": {
+        "one": {
+          "readers": 0,
+          "mean_facts_of_3": null,
+          "handoff_correct_fraction": null,
+          "mean_usefulness_of_5": null,
+          "usefulness_counts_1_to_5": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "timed_readers": 0,
+          "median_visible_ms": null
+        },
+        "v04": {
+          "readers": 0,
+          "mean_facts_of_3": null,
+          "handoff_correct_fraction": null,
+          "mean_usefulness_of_5": null,
+          "usefulness_counts_1_to_5": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "timed_readers": 0,
+          "median_visible_ms": null
+        }
+      },
+      "v04_minus_one": {
+        "mean_facts_of_3": null,
+        "handoff_correct_fraction": null,
+        "mean_usefulness_of_5": null,
+        "median_visible_ms": null
+      }
+    },
+    {
+      "case": "library",
+      "replicate": 2,
+      "arms": {
+        "one": {
+          "readers": 0,
+          "mean_facts_of_3": null,
+          "handoff_correct_fraction": null,
+          "mean_usefulness_of_5": null,
+          "usefulness_counts_1_to_5": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "timed_readers": 0,
+          "median_visible_ms": null
+        },
+        "v04": {
+          "readers": 0,
+          "mean_facts_of_3": null,
+          "handoff_correct_fraction": null,
+          "mean_usefulness_of_5": null,
+          "usefulness_counts_1_to_5": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "timed_readers": 0,
+          "median_visible_ms": null
+        }
+      },
+      "v04_minus_one": {
+        "mean_facts_of_3": null,
+        "handoff_correct_fraction": null,
+        "mean_usefulness_of_5": null,
+        "median_visible_ms": null
+      }
+    },
+    {
+      "case": "exhibit",
+      "replicate": 1,
+      "arms": {
+        "one": {
+          "readers": 0,
+          "mean_facts_of_3": null,
+          "handoff_correct_fraction": null,
+          "mean_usefulness_of_5": null,
+          "usefulness_counts_1_to_5": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "timed_readers": 0,
+          "median_visible_ms": null
+        },
+        "v04": {
+          "readers": 0,
+          "mean_facts_of_3": null,
+          "handoff_correct_fraction": null,
+          "mean_usefulness_of_5": null,
+          "usefulness_counts_1_to_5": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "timed_readers": 0,
+          "median_visible_ms": null
+        }
+      },
+      "v04_minus_one": {
+        "mean_facts_of_3": null,
+        "handoff_correct_fraction": null,
+        "mean_usefulness_of_5": null,
+        "median_visible_ms": null
+      }
+    },
+    {
+      "case": "exhibit",
+      "replicate": 2,
+      "arms": {
+        "one": {
+          "readers": 0,
+          "mean_facts_of_3": null,
+          "handoff_correct_fraction": null,
+          "mean_usefulness_of_5": null,
+          "usefulness_counts_1_to_5": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "timed_readers": 0,
+          "median_visible_ms": null
+        },
+        "v04": {
+          "readers": 0,
+          "mean_facts_of_3": null,
+          "handoff_correct_fraction": null,
+          "mean_usefulness_of_5": null,
+          "usefulness_counts_1_to_5": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "timed_readers": 0,
+          "median_visible_ms": null
+        }
+      },
+      "v04_minus_one": {
+        "mean_facts_of_3": null,
+        "handoff_correct_fraction": null,
+        "mean_usefulness_of_5": null,
+        "median_visible_ms": null
+      }
+    }
+  ],
+  "equal_weight_difference_over_four": {
+    "mean_facts_of_3": null,
+    "handoff_correct_fraction": null,
+    "mean_usefulness_of_5": null,
+    "median_visible_ms": null
+  }
+}

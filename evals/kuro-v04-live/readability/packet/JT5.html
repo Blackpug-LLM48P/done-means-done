@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<title>業務報告を読む｜受け手の回答票</title>
+<style>
+:root { color-scheme: light; font: 17px/1.7 'Noto Sans JP','Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif; color:#182d26; background:#f2f5f2; }
+* { box-sizing:border-box; } body { margin:0 auto; max-width:50rem; padding:clamp(.8rem,3.5vw,2.6rem); } h1,h2,h3,p { margin:0 0 .75rem; } h1 { font-size:clamp(1.55rem,4vw,2rem); letter-spacing:.025em; } h2 { font-size:1.35rem; } h3 { font-size:1.1rem; } main { padding:clamp(1rem,4vw,2rem); background:#fff; border:1px solid #c7d4cc; border-radius:.65rem; } .step { margin-bottom:.3rem; color:#3b6655; font-weight:700; } .hint { font-size:.92rem; color:#42564b; } article { background:#f6f8f5; padding:1.1rem; border-left:.25rem solid #628471; margin:1.1rem 0 1.5rem; overflow-wrap:anywhere; } article p:last-child,article ul:last-child {margin-bottom:0;} article ul {padding-left:1.4rem;} .file-label { color:#254d43; text-decoration:underline; text-underline-offset:2px; } form>label,fieldset { display:block; margin:1.25rem 0; } input[type=text],select,textarea { font:inherit; display:block; width:100%; max-width:28rem; background:white; color:#182d26; border:1px solid #728578; padding:.45rem .55rem; border-radius:.25rem; } input[type=checkbox],input[type=radio] {width:1.05rem; height:1.05rem; flex:none; margin:.36rem .55rem 0 0; } .choice {display:flex; align-items:flex-start; padding:.4rem 0; } fieldset {border:0; padding:0;} legend,.prompt {font-weight:650;} button {font:inherit; font-weight:650; padding:.6rem 1.15rem; border-radius:.35rem; border:0; background:#1e5542; color:#fff; cursor:pointer;} button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,summary:focus-visible {outline:3px solid #9b4d0a; outline-offset:3px;} button:active {background:#163e31;} .error {color:#9c2f1b;} [hidden] {display:none !important;} details {margin:1rem 0;} textarea {max-width:100%; height:8rem;} footer {margin:.8rem 0; font-size:.88rem; color:#475b50;} @media(max-width:420px){button{width:100%;} article{padding:.8rem;}}
+</style>
+<header><h1>業務報告を読む</h1></header>
+<main>
+<section id="start"><h2>受け手の回答票</h2><p>図書館と展覧会の担当になったつもりで、報告を1通ずつ読んでください。各画面では、報告を読み返しながら回答できます。わからないときは「不明」と入力するか、「報告から判断できない」を選んでください。</p>
+<p>制限時間はありません。報告と設問を表示してから「回答を確定」を押すまで、ブラウザーがこのページを表示中と判定した時間を記録します。次の画面に進むと、前の回答は確定します。</p>
+<p class="hint">2件を終えたら回答ファイルを保存し、実施担当者に渡してください。画面を閉じると入力内容が消えます。氏名の入力は不要です。</p>
+<form id="start-form"><label><span class="prompt">配布された参加コード</span><input id="reader" type="text" required maxlength="14" pattern="[Rr]-[a-fA-F0-9]{12}" placeholder="R-と12桁の英数字" autocomplete="off" autocapitalize="characters" spellcheck="false"></label>
+<label class="choice"><input id="eligible" type="checkbox" required>この試験への参加は初めてで、今回の課題・報告・正解・作成条件の対応を事前に見ていません。外部の資料やAIを使わず自分で回答します。</label>
+<button type="submit">最初の報告を開く</button></form></section>
+<section id="trial" hidden><p class="step" id="progress"></p><h2 id="title" tabindex="-1"></h2><p id="role"></p><p class="hint">下線は元の報告にあった資料名や参照箇所です。この回答票では報告の本文を使います。</p><article id="report" aria-label="受け取った報告"></article>
+<form id="answer-form"><div id="facts"></div><fieldset id="handoff"><legend></legend><div id="choices"></div></fieldset>
+<label><span class="prompt">次の担当として、この報告は案内を進めるのにどの程度役立ちましたか？</span><select id="useful" required><option value="">選んでください</option><option value="1">1　まったく役立たなかった</option><option value="2">2　あまり役立たなかった</option><option value="3">3　どちらともいえない</option><option value="4">4　やや役立った</option><option value="5">5　とても役立った</option></select></label>
+<p class="error" id="error" aria-live="polite"></p><button type="submit" id="advance">回答を確定</button></form></section>
+<section id="done" hidden><h2 id="done-title" tabindex="-1">2件の回答がそろいました</h2><p>下のボタンでJSONファイルを保存し、受け取った方法で実施担当者に渡してください。</p><button id="download" type="button">回答ファイルを保存</button><details><summary>保存ボタンを使えない場合</summary><label>この回答データをすべてコピーして、実施担当者に渡してください。<textarea id="copy" readonly></textarea></label></details></section>
+<noscript>この回答票にはブラウザーのJavaScriptが必要です。</noscript></main><footer>受け手の回答票</footer>
+<script id="payload" type="application/json">{"form": "JT5", "version": "jp-handoff-1", "tasks": [{"title": "展覧会の受付", "role": "あなたは当日朝の受付担当です。前の担当者の報告を読んで、来場者への案内を準備してください。", "facts": [["来場者向け時刻表の掲載件数は？", "件"], ["予告チラシから取り下げた催しのIDは？", "催しID"], ["P04の開始時刻は？", "時刻"]], "action": "来場者から「P04の会場と、P06の開始・終了時刻」を聞かれたら、どう案内しますか？", "options": ["P04は紙工房。P06は14:10から14:45。", "P04は閲覧室。P06は13:30から14:10。", "P04は紙工房。P06は13:30から14:10。", "P04は閲覧室。P06は14:10から14:45。", "報告から判断できない。"], "report": "\u003cp>11月28日「紙の庭」展の\u003cspan class=\"file-label\">来場者向け時刻表\u003c/span>は6件です。\u003cspan class=\"file-label\">会場別進行表\u003c/span>にはスタッフ枠を含めて7件を掲載しました。\u003c/p>\u003cp>予告チラシから取り下げる催しは \u003cstrong>P07「紙の音を聴く」\u003c/strong> の1件です。理由は「機材調整のため」です。\u003cspan class=\"file-label\">予告チラシ取下げ一覧\u003c/span>\u003c/p>\u003cp>P04「紙と光の対話」は \u003cstrong>閲覧室（C）で13:30開始\u003c/strong>、P06「染め見本を読む」は \u003cstrong>14:10開始・14:45終了\u003c/strong> です。\u003c/p>"}, {"title": "図書館の受取案内", "role": "あなたは開館前の案内担当です。前の担当者の報告を読んで、受取案内を準備してください。", "facts": [["取り置きに割り当てた冊数は？", "冊"], ["今すぐ受取案内に回せる予約は何件ですか？", "件"], ["確認を待っている予約番号は？", "予約番号"]], "action": "確認待ちの予約について、次に何をしますか？", "options": ["割当を解除して、受取館を確認する。", "取り置きを維持し、受取館を確認してから案内する。", "取り置きを維持し、今すぐ受取案内を送る。", "割当を解除して、次の予約者に案内する。", "報告から判断できない。"], "report": "\u003cp>11月21日分は\u003cspan class=\"file-label\">取り置き棚用に4冊を割り当てました\u003c/span>。\u003cspan class=\"file-label\">受取案内に回せるのは3件\u003c/span>で、受取期限はいずれも2026年11月27日です。\u003c/p>\u003cp>\u003cspan class=\"file-label\">確認待ちは予約R104の1件\u003c/span>です。受取館コード「B07」が当日の館一覧に未登録のため、取り置きを維持し、案内を保留しています。案内前に受取館を確認してください。\u003c/p>"}]}</script>
+<script>
+'use strict';
+const data = JSON.parse(document.getElementById('payload').textContent);
+const el = id => document.getElementById(id);
+let trialIndex = 0;
+let openedAt = 0;
+let events = [];
+let observing = false;
+let finished = false;
+let ballot;
+const clock = () => Math.max(0, Math.round(performance.now() - openedAt));
+function visibleChange() {
+  if (!observing) return;
+  const open = events.length % 2 === 1;
+  if (open && document.hidden) events.push(clock());
+  if (!open && !document.hidden) events.push(clock());
+}
+document.addEventListener('visibilitychange', visibleChange);
+window.addEventListener('beforeunload', event => {
+  if (ballot && !finished) { event.preventDefault(); event.returnValue = ''; }
+});
+el('start-form').addEventListener('submit', event => {
+  event.preventDefault();
+  const reader = el('reader').value.trim().toUpperCase();
+  const mechanicalTest = reader === 'R-000000000000';
+  ballot = {version:data.version, form:data.form, reader, eligible:el('eligible').checked && !mechanicalTest, return_type:mechanicalTest ? 'mechanical_test' : 'reader', tasks:[]};
+  el('start').hidden = true;
+  el('trial').hidden = false;
+  showTrial();
+});
+function showTrial() {
+  const task = data.tasks[trialIndex];
+  el('progress').textContent = '報告 ' + (trialIndex + 1) + ' / 2';
+  el('title').textContent = task.title;
+  el('role').textContent = task.role;
+  el('report').innerHTML = task.report;
+  el('facts').replaceChildren();
+  el('choices').replaceChildren();
+  el('useful').value = '';
+  el('error').textContent = '';
+  task.facts.forEach(([prompt, unit], idx) => {
+    const label = document.createElement('label');
+    label.style.display = 'block';
+    label.style.margin = '1rem 0';
+    const text = document.createElement('span');
+    text.className = 'prompt';
+    text.textContent = prompt;
+    const input = document.createElement('input');
+    input.id = 'fact-' + idx;
+    input.type = 'text'; input.required = true; input.maxLength = 50; input.autocomplete = 'off';
+    input.placeholder = unit === '時刻' ? '例　09:15／不明' : unit === '冊' || unit === '件' ? '数字／不明' : unit + '／不明';
+    label.append(text, input); el('facts').append(label);
+  });
+  el('handoff').querySelector('legend').textContent = task.action;
+  task.options.forEach((choice, idx) => {
+    const label = document.createElement('label'); label.className = 'choice';
+    const radio = document.createElement('input'); radio.type='radio'; radio.name='handoff'; radio.value=String(idx); radio.required=true;
+    label.append(radio, document.createTextNode(choice)); el('choices').append(label);
+  });
+  el('advance').textContent = trialIndex ? '回答を確定して保存画面へ' : '回答を確定して次の報告へ';
+  el('title').focus({preventScroll:true}); window.scrollTo(0, 0);
+  openedAt = performance.now(); events = []; observing = true; visibleChange();
+}
+el('answer-form').addEventListener('submit', event => {
+  event.preventDefault();
+  const facts = Array.from(el('facts').querySelectorAll('input'), input => input.value.trim());
+  const firstEmpty = facts.indexOf('');
+  if (firstEmpty !== -1) { el('error').textContent = '空欄には回答または「不明」を入力してください。'; el('fact-' + firstEmpty).focus(); return; }
+  if (events.length % 2 === 1) events.push(clock());
+  observing = false;
+  ballot.tasks.push({facts, handoff:Number(el('choices').querySelector(':checked').value), useful:Number(el('useful').value), visible_intervals_ms:events});
+  trialIndex++;
+  if (trialIndex < data.tasks.length) { showTrial(); return; }
+  finished = true; el('trial').hidden = true; el('done').hidden = false; el('copy').value = JSON.stringify(ballot, null, 2) + '\n';
+  el('done-title').focus({preventScroll:true}); window.scrollTo(0, 0);
+});
+el('download').addEventListener('click', () => {
+  const url = URL.createObjectURL(new Blob([el('copy').value], {type:'application/json'}));
+  const anchor = document.createElement('a'); anchor.href = url; anchor.download = 'response-' + ballot.reader + '.json';
+  document.body.append(anchor); anchor.click(); anchor.remove(); setTimeout(() => URL.revokeObjectURL(url), 1500);
+});
+</script></html>

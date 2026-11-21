@@ -1,0 +1,38 @@
+{
+  "cli": "codex-cli 0.172.0-alpha.2",
+  "daemon_version": {
+    "exit": 1,
+    "diagnostics": [
+      "operation_not_permitted",
+      "control_socket_unreachable"
+    ]
+  },
+  "isolated_credential_stores": {
+    "keyring": {
+      "exit": 1,
+      "diagnostics": [
+        "operation_not_permitted",
+        "keyring_load_failed"
+      ]
+    },
+    "ephemeral": {
+      "exit": 1,
+      "diagnostics": [
+        "not_logged_in"
+      ]
+    }
+  },
+  "ambient_plan_token_variables_set": {
+    "ACCESS_TOKEN": false,
+    "CODEX_ACCESS_TOKEN": false
+  },
+  "existing_login_model_startup": {
+    "exit": 1,
+    "diagnostics": [
+      "read_only_filesystem",
+      "app_server_init_failed"
+    ],
+    "event_count": 0,
+    "expected_reply_observed": false
+  }
+}

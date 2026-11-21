@@ -1,0 +1,58 @@
+[
+  {
+    "slot": "P-106",
+    "rev": 11,
+    "state": "NO_RECEIPT",
+    "check_seq": 321,
+    "receipt_seq": null
+  },
+  {
+    "slot": "P-111",
+    "rev": 6,
+    "state": "READY",
+    "check_seq": 290,
+    "receipt_seq": 295
+  },
+  {
+    "slot": "P-285",
+    "rev": 11,
+    "state": "READY",
+    "check_seq": 227,
+    "receipt_seq": 233
+  },
+  {
+    "slot": "P-336",
+    "rev": 10,
+    "state": "CONFLICT",
+    "check_seq": 258,
+    "receipt_seq": 264
+  },
+  {
+    "slot": "P-443",
+    "rev": 9,
+    "state": "CHECK_FAILED",
+    "check_seq": 181,
+    "receipt_seq": 188
+  },
+  {
+    "slot": "P-615",
+    "rev": 3,
+    "state": "READY",
+    "check_seq": 97,
+    "receipt_seq": 107
+  },
+  {
+    "slot": "P-617",
+    "rev": 8,
+    "state": "NO_RECEIPT",
+    "check_seq": 124,
+    "receipt_seq": null
+  },
+  {
+    "slot": "P-725",
+    "rev": 4,
+    "state": "NO_CHECK",
+    "check_seq": null,
+    "receipt_seq": 155
+  }
+]

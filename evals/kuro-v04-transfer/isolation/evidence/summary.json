@@ -1,0 +1,33 @@
+{
+  "host_canary_controls": {
+    "peer": {
+      "path": "/workspace/scratch/ceaa355c859e/next-dmd/isolation/evidence/outside-peer/synthetic-marker.txt",
+      "host_sha256": "2cc4587db24e68889368f6da56f0e9f2d8f8825d8d61cf867bb9b54ed3f80f00"
+    },
+    "key": {
+      "path": "/workspace/scratch/ceaa355c859e/next-dmd/isolation/evidence/outside-key/synthetic-marker.txt",
+      "host_sha256": "0830c6af131e34431fdce3f2da920cc39a7b9100c79f6965a95f6d278b1eccf6"
+    },
+    "repo": {
+      "path": "/workspace/scratch/ceaa355c859e/next-dmd/isolation/evidence/outside-repo/synthetic-marker.txt",
+      "host_sha256": "c76a48f24a02db1f0809c89cfa933b805080b0682970f445ad6f316361cea594"
+    }
+  },
+  "worker_probe_ok": true,
+  "worker_exit": 0,
+  "host_net_ns": "net:[4026532358]",
+  "worker_net_ns": "net:[4026532282]",
+  "host_input_preserved": true,
+  "worker_output_observed": true,
+  "cli_path": "/opt/codex/bin/codex",
+  "cli_version": {
+    "exit_code": 0,
+    "stdout": "codex-cli 0.172.0-alpha.2\n",
+    "stderr": ""
+  },
+  "cli_local-inference": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Error: OSS setup failed: No running Ollama server detected. Start it with: `ollama serve` (after installing). Install instructions: https://github.com/ollama/ollama?tab=readme-ov-file#ollama\n"
+  }
+}

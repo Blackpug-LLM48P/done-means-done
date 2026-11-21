@@ -1,0 +1,213 @@
+{
+  "shift": "FM-64567",
+  "desk": "月見調整室",
+  "plan": [
+    {
+      "slot": "P-219",
+      "rev": 9,
+      "code": "M-6F291"
+    },
+    {
+      "slot": "P-367",
+      "rev": 9,
+      "code": "M-F977E"
+    },
+    {
+      "slot": "P-434",
+      "rev": 6,
+      "code": "M-6ACC1"
+    },
+    {
+      "slot": "P-585",
+      "rev": 4,
+      "code": "M-A3423"
+    }
+  ],
+  "checks": [
+    {
+      "seq": 176,
+      "slot": "P-367",
+      "rev": 9,
+      "result": "pass"
+    },
+    {
+      "seq": 77,
+      "slot": "P-585",
+      "rev": 3,
+      "result": "fail"
+    },
+    {
+      "seq": 84,
+      "slot": "P-585",
+      "rev": 4,
+      "result": "pass"
+    },
+    {
+      "seq": 133,
+      "slot": "P-434",
+      "rev": 5,
+      "result": "fail"
+    },
+    {
+      "seq": 140,
+      "slot": "P-219",
+      "rev": 8,
+      "result": "fail"
+    },
+    {
+      "seq": 194,
+      "slot": "P-367",
+      "rev": 8,
+      "result": "pass"
+    },
+    {
+      "seq": 141,
+      "slot": "P-219",
+      "rev": 9,
+      "result": "pass"
+    },
+    {
+      "seq": 82,
+      "slot": "P-585",
+      "rev": 4,
+      "result": "fail"
+    },
+    {
+      "seq": 91,
+      "slot": "P-585",
+      "rev": 3,
+      "result": "pass"
+    },
+    {
+      "seq": 104,
+      "slot": "P-434",
+      "rev": 5,
+      "result": "fail"
+    },
+    {
+      "seq": 170,
+      "slot": "P-367",
+      "rev": 8,
+      "result": "fail"
+    },
+    {
+      "seq": 158,
+      "slot": "P-219",
+      "rev": 8,
+      "result": "fail"
+    },
+    {
+      "seq": 112,
+      "slot": "P-434",
+      "rev": 6,
+      "result": "pass"
+    }
+  ],
+  "receipts": [
+    {
+      "seq": 202,
+      "slot": "P-367",
+      "rev": 9,
+      "desk": "こまち調整室",
+      "code": "M-F977E"
+    },
+    {
+      "seq": 90,
+      "slot": "P-585",
+      "rev": 4,
+      "desk": "月見調整室",
+      "code": "M-A3423"
+    },
+    {
+      "seq": 127,
+      "slot": "P-434",
+      "rev": 6,
+      "desk": "月見調整室",
+      "code": "M-6ACC1"
+    },
+    {
+      "seq": 88,
+      "slot": "P-585",
+      "rev": 4,
+      "desk": "月見調整室",
+      "code": "M-A3422"
+    },
+    {
+      "seq": 184,
+      "slot": "P-367",
+      "rev": 9,
+      "desk": "月見調整室",
+      "code": "M-F977F"
+    },
+    {
+      "seq": 149,
+      "slot": "P-219",
+      "rev": 9,
+      "desk": "月見調整室",
+      "code": "M-6F291"
+    },
+    {
+      "seq": 136,
+      "slot": "P-434",
+      "rev": 5,
+      "desk": "月見調整室",
+      "code": "M-6ACC1"
+    },
+    {
+      "seq": 118,
+      "slot": "P-434",
+      "rev": 6,
+      "desk": "月見調整室",
+      "code": "M-6ACC0"
+    },
+    {
+      "seq": 93,
+      "slot": "P-585",
+      "rev": 3,
+      "desk": "月見調整室",
+      "code": "M-A3423"
+    },
+    {
+      "seq": 195,
+      "slot": "P-367",
+      "rev": 8,
+      "desk": "月見調整室",
+      "code": "M-F977E"
+    },
+    {
+      "seq": 137,
+      "slot": "P-434",
+      "rev": 6,
+      "desk": "こまち調整室",
+      "code": "M-6ACC1"
+    },
+    {
+      "seq": 99,
+      "slot": "P-585",
+      "rev": 4,
+      "desk": "こまち調整室",
+      "code": "M-A3423"
+    },
+    {
+      "seq": 166,
+      "slot": "P-219",
+      "rev": 9,
+      "desk": "こまち調整室",
+      "code": "M-6F291"
+    },
+    {
+      "seq": 160,
+      "slot": "P-219",
+      "rev": 8,
+      "desk": "月見調整室",
+      "code": "M-6F291"
+    },
+    {
+      "seq": 193,
+      "slot": "P-367",
+      "rev": 9,
+      "desk": "月見調整室",
+      "code": "M-F977E"
+    }
+  ]
+}

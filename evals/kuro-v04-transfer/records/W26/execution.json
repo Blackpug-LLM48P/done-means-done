@@ -1,0 +1,37 @@
+{
+  "entry": [
+    "/usr/bin/python3.13",
+    "-I",
+    "-S",
+    "-B",
+    "/submission.py"
+  ],
+  "python": "/usr/bin/python3.13",
+  "input_manifest": {
+    "shift.json": {
+      "bytes": 4895,
+      "sha256": "dfb928e09443c419bcf671257bae3b86b180b1cd35e5cf52358556260e728c81"
+    }
+  },
+  "submission_sha256": "4805ac967cca1e80daa956e6295a7f4b63eac319b3c3132dc51f551aeb1a0aa8",
+  "host_net_ns": "net:[4026532358]",
+  "worker_net_ns": "net:[4026532282]",
+  "elapsed_seconds": 0.114,
+  "timed_out": false,
+  "exit_code": 0,
+  "stdout": "勤務枠 FM-26410、引渡先 若葉調整室。全6件中0件が使用可能です。\n保留：P-422（最新受領記録の照合符号が計画と不一致）、P-580（採用版の最新点検が失敗）、P-669（採用版の点検記録なし）、P-705（採用版の点検記録なし）、P-771（予定の調整室から採用版の受領記録なし）、P-924（最新受領記録の照合符号が計画と不一致）\n点検復旧：P-422、P-771\n",
+  "stdout_bytes": 463,
+  "stderr": "",
+  "stderr_bytes": 0,
+  "delivery_manifest": {
+    "handoff.json": {
+      "bytes": 218,
+      "sha256": "1b992bca408536131672061f0a7f4cdf69b5fb3a02ea33cac09e1697a241071d"
+    },
+    "queue.json": {
+      "bytes": 696,
+      "sha256": "3e8b6c24905406b3f09230e1e47651c1cc59b85680a29fc5ac46b7460e51d090"
+    }
+  },
+  "ok": true
+}
