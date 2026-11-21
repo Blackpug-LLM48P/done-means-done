@@ -1,0 +1,18 @@
+{
+  "decision": "adopt",
+  "gates": {
+    "continuous": true,
+    "historical_delivery": true,
+    "independent": true,
+    "manual_receipt_expectations": true
+  },
+  "historical_recovered": {
+    "M3V7-GS1/1": [
+      "advance_operation"
+    ],
+    "M3V7-HN3/1": [
+      "advance_operation"
+    ]
+  },
+  "scope": "Single dry-run receiver using the frozen PR 9 caller and DMD v0.4."
+}

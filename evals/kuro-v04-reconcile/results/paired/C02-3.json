@@ -1,0 +1,277 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '筋押し溝幅の設定照合': met per ['GF-836']",
+          "operation_state: '折り目の割れ検査': met per ['GF-357']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '製紙ロットの原札照合': met per ['GF-710']",
+          "report_state: '受入票への計量票の添付確認': met per ['GF-618']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '製紙ロットの原札照合': met per ['GF-710']",
+          "report_state: '受入票への計量票の添付確認': met per ['GF-618']",
+          "operation_state: '筋押し溝幅の設定照合': met per ['GF-836']",
+          "operation_state: '折り目の割れ検査': met per ['GF-357']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-10-29T11:30:00+09:00",
+    "case_id": "WVQ6P",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月29日11時30分時点で、図録『余白』r5の見返し用紙の受入票確認と、折り見本の加工試験はともに完了しています。今回受け入れた製紙ロットはKP-273で、入荷束の製紙所原札と受入票の番号が一致しました。受入票の添付欄では、この入荷束の計量票画像を判読できることも確認済みです。加工試験で採用した筋押し溝幅は0.8 mmで、設定票の値と取り付けた罫線台の刻印が一致しました。この溝幅で加工した2枚目の見本を折り戻し、折り目の表裏を拡大鏡で検査した結果、割れは見当たらず合格しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-29T11:30:00+09:00",
+        "evidence_refs": [
+          "GF-836",
+          "GF-357"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'筋押し溝幅の設定照合': met per ['GF-836']",
+          "'折り目の割れ検査': met per ['GF-357']"
+        ],
+        "revision": "r5",
+        "scope": "折り見本の加工試験",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-29T11:30:00+09:00",
+        "evidence_refs": [
+          "GF-710",
+          "GF-618"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'製紙ロットの原札照合': met per ['GF-710']",
+          "'受入票への計量票の添付確認': met per ['GF-618']"
+        ],
+        "revision": "r5",
+        "scope": "見返し用紙の受入票",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "10月29日11時30分時点で、図録『余白』r5の見返し用紙の受入票確認と、折り見本の加工試験はともに完了しています。今回受け入れた製紙ロットはKP-273で、入荷束の製紙所原札と受入票の番号が一致しました。受入票の添付欄では、この入荷束の計量票画像を判読できることも確認済みです。加工試験で採用した筋押し溝幅は0.8 mmで、設定票の値と取り付けた罫線台の刻印が一致しました。この溝幅で加工した2枚目の見本を折り戻し、折り目の表裏を拡大鏡で検査した結果、割れは見当たらず合格しました。",
+    "revision": "r5"
+  },
+  "B1": {
+    "action_keys": {
+      "advance_operation": "[\"WVQ6P\",\"r5\",[63928924200,\"\"],\"advance_operation\",[\"折り見本の加工試験\"]]",
+      "archive_report": "[\"WVQ6P\",\"r5\",[63928924200,\"\"],\"archive_report\",[\"見返し用紙の受入票\"]]",
+      "close_case": "[\"WVQ6P\",\"r5\",[63928924200,\"\"],\"close_case\",[\"見返し用紙の受入票\",\"折り見本の加工試験\"]]"
+    },
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '筋押し溝幅の設定照合': met per ['GF-836']",
+          "operation_state: '折り目の割れ検査': met per ['GF-357']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '製紙ロットの原札照合': met per ['GF-710']",
+          "report_state: '受入票への計量票の添付確認': met per ['GF-618']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '製紙ロットの原札照合': met per ['GF-710']",
+          "report_state: '受入票への計量票の添付確認': met per ['GF-618']",
+          "operation_state: '筋押し溝幅の設定照合': met per ['GF-836']",
+          "operation_state: '折り目の割れ検査': met per ['GF-357']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-10-29T11:30:00+09:00",
+    "case_id": "WVQ6P",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月29日11時30分時点で、図録『余白』r5の見返し用紙の受入票確認と、折り見本の加工試験はともに完了しています。今回受け入れた製紙ロットはKP-273で、入荷束の製紙所原札と受入票の番号が一致しました。受入票の添付欄では、この入荷束の計量票画像を判読できることも確認済みです。加工試験で採用した筋押し溝幅は0.8 mmで、設定票の値と取り付けた罫線台の刻印が一致しました。この溝幅で加工した2枚目の見本を折り戻し、折り目の表裏を拡大鏡で検査した結果、割れは見当たらず合格しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-29T11:30:00+09:00",
+        "evidence_refs": [
+          "GF-836",
+          "GF-357"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'筋押し溝幅の設定照合': met per ['GF-836']",
+          "'折り目の割れ検査': met per ['GF-357']"
+        ],
+        "revision": "r5",
+        "scope": "折り見本の加工試験",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-29T11:30:00+09:00",
+        "evidence_refs": [
+          "GF-710",
+          "GF-618"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'製紙ロットの原札照合': met per ['GF-710']",
+          "'受入票への計量票の添付確認': met per ['GF-618']"
+        ],
+        "revision": "r5",
+        "scope": "見返し用紙の受入票",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "10月29日11時30分時点で、図録『余白』r5の見返し用紙の受入票確認と、折り見本の加工試験はともに完了しています。今回受け入れた製紙ロットはKP-273で、入荷束の製紙所原札と受入票の番号が一致しました。受入票の添付欄では、この入荷束の計量票画像を判読できることも確認済みです。加工試験で採用した筋押し溝幅は0.8 mmで、設定票の値と取り付けた罫線台の刻印が一致しました。この溝幅で加工した2枚目の見本を折り戻し、折り目の表裏を拡大鏡で検査した結果、割れは見当たらず合格しました。",
+    "newly_planned": [
+      "archive_report",
+      "advance_operation",
+      "close_case"
+    ],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月29日11時30分時点で、図録『余白』r5の見返し用紙の受入票確認と、折り見本の加工試験はともに完了しています。今回受け入れた製紙ロットはKP-273で、入荷束の製紙所原札と受入票の番号が一致しました。受入票の添付欄では、この入荷束の計量票画像を判読できることも確認済みです。加工試験で採用した筋押し溝幅は0.8 mmで、設定票の値と取り付けた罫線台の刻印が一致しました。この溝幅で加工した2枚目の見本を折り戻し、折り目の表裏を拡大鏡で検査した結果、割れは見当たらず合格しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-29T11:30:00+09:00",
+        "evidence_refs": [
+          "GF-836",
+          "GF-357"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'筋押し溝幅の設定照合': met per ['GF-836']",
+          "'折り目の割れ検査': met per ['GF-357']"
+        ],
+        "revision": "r5",
+        "scope": "折り見本の加工試験",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-29T11:30:00+09:00",
+        "evidence_refs": [
+          "GF-710",
+          "GF-618"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'製紙ロットの原札照合': met per ['GF-710']",
+          "'受入票への計量票の添付確認': met per ['GF-618']"
+        ],
+        "revision": "r5",
+        "scope": "見返し用紙の受入票",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "original_response": {
+      "handoff": "10月29日11時30分時点で、図録『余白』r5の見返し用紙の受入票確認と、折り見本の加工試験はともに完了しています。今回受け入れた製紙ロットはKP-273で、入荷束の製紙所原札と受入票の番号が一致しました。受入票の添付欄では、この入荷束の計量票画像を判読できることも確認済みです。加工試験で採用した筋押し溝幅は0.8 mmで、設定票の値と取り付けた罫線台の刻印が一致しました。この溝幅で加工した2枚目の見本を折り戻し、折り目の表裏を拡大鏡で検査した結果、割れは見当たらず合格しました。",
+      "operation_state": {
+        "as_of": "2026-10-29T11:30:00+09:00",
+        "evidence_refs": [
+          "GF-836",
+          "GF-357"
+        ],
+        "revision": "r5",
+        "scope": "折り見本の加工試験",
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-29T11:30:00+09:00",
+        "evidence_refs": [
+          "GF-710",
+          "GF-618"
+        ],
+        "revision": "r5",
+        "scope": "見返し用紙の受入票",
+        "value": "complete"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": "r5"
+  }
+}

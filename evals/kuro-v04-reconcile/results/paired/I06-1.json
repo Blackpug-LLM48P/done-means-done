@@ -1,0 +1,261 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '試験カード番号の照合': met per ['PB-837']",
+          "operation_state: '入口読取機での解錠試験': pending per ['PB-694']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '入口名と会場図の照合': met per ['PB-409']",
+          "report_state: '当日連絡先の掲載確認': pending per ['PB-573']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '入口名と会場図の照合': met per ['PB-409']",
+          "report_state: '当日連絡先の掲載確認': pending per ['PB-573']",
+          "operation_state: '試験カード番号の照合': met per ['PB-837']",
+          "operation_state: '入口読取機での解錠試験': pending per ['PB-694']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-10-21T17:00:00+09:00",
+    "case_id": "WRAY2",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "『水辺文庫』内覧会（r4）の10月21日17時時点の状況です。来場者向け案内の入口名「柳小路口」は、承認済みの会場図と一致しています。差し替え後の案内紙面では当日連絡先の行が抜けていました。印刷所からは連絡先を復元して再入稿したとの連絡がありましたが、再入稿後の紙面での掲載確認が残っているため、入館案内の確認票は未完了です。当日用カードの識別番号はAC-684で、試験票の指定番号と一致しています。入口読取機にこのカードをかざしても扉は開かず、開通試験は再試験待ちです。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-21T17:00:00+09:00",
+        "evidence_refs": [
+          "PB-694"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'試験カード番号の照合': met per ['PB-837']",
+          "'入口読取機での解錠試験': pending per ['PB-694']"
+        ],
+        "revision": "r4",
+        "scope": "当日用カードの開通試験",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-21T17:00:00+09:00",
+        "evidence_refs": [
+          "PB-573"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'入口名と会場図の照合': met per ['PB-409']",
+          "'当日連絡先の掲載確認': pending per ['PB-573']"
+        ],
+        "revision": "r4",
+        "scope": "入館案内の確認票",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "『水辺文庫』内覧会（r4）の10月21日17時時点の状況です。来場者向け案内の入口名「柳小路口」は、承認済みの会場図と一致しています。差し替え後の案内紙面では当日連絡先の行が抜けていました。印刷所からは連絡先を復元して再入稿したとの連絡がありましたが、再入稿後の紙面での掲載確認が残っているため、入館案内の確認票は未完了です。当日用カードの識別番号はAC-684で、試験票の指定番号と一致しています。入口読取機にこのカードをかざしても扉は開かず、開通試験は再試験待ちです。",
+    "revision": "r4"
+  },
+  "B1": {
+    "action_keys": {},
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '試験カード番号の照合': met per ['PB-837']",
+          "operation_state: '入口読取機での解錠試験': pending per ['PB-694']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '入口名と会場図の照合': met per ['PB-409']",
+          "report_state: '当日連絡先の掲載確認': pending per ['PB-573']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '入口名と会場図の照合': met per ['PB-409']",
+          "report_state: '当日連絡先の掲載確認': pending per ['PB-573']",
+          "operation_state: '試験カード番号の照合': met per ['PB-837']",
+          "operation_state: '入口読取機での解錠試験': pending per ['PB-694']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-10-21T17:00:00+09:00",
+    "case_id": "WRAY2",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "『水辺文庫』内覧会（r4）の10月21日17時時点の状況です。来場者向け案内の入口名「柳小路口」は、承認済みの会場図と一致しています。差し替え後の案内紙面では当日連絡先の行が抜けていました。印刷所からは連絡先を復元して再入稿したとの連絡がありましたが、再入稿後の紙面での掲載確認が残っているため、入館案内の確認票は未完了です。当日用カードの識別番号はAC-684で、試験票の指定番号と一致しています。入口読取機にこのカードをかざしても扉は開かず、開通試験は再試験待ちです。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-21T17:00:00+09:00",
+        "evidence_refs": [
+          "PB-694"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'試験カード番号の照合': met per ['PB-837']",
+          "'入口読取機での解錠試験': pending per ['PB-694']"
+        ],
+        "revision": "r4",
+        "scope": "当日用カードの開通試験",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-21T17:00:00+09:00",
+        "evidence_refs": [
+          "PB-573"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'入口名と会場図の照合': met per ['PB-409']",
+          "'当日連絡先の掲載確認': pending per ['PB-573']"
+        ],
+        "revision": "r4",
+        "scope": "入館案内の確認票",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "『水辺文庫』内覧会（r4）の10月21日17時時点の状況です。来場者向け案内の入口名「柳小路口」は、承認済みの会場図と一致しています。差し替え後の案内紙面では当日連絡先の行が抜けていました。印刷所からは連絡先を復元して再入稿したとの連絡がありましたが、再入稿後の紙面での掲載確認が残っているため、入館案内の確認票は未完了です。当日用カードの識別番号はAC-684で、試験票の指定番号と一致しています。入口読取機にこのカードをかざしても扉は開かず、開通試験は再試験待ちです。",
+    "newly_planned": [],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "『水辺文庫』内覧会（r4）の10月21日17時時点の状況です。来場者向け案内の入口名「柳小路口」は、承認済みの会場図と一致しています。差し替え後の案内紙面では当日連絡先の行が抜けていました。印刷所からは連絡先を復元して再入稿したとの連絡がありましたが、再入稿後の紙面での掲載確認が残っているため、入館案内の確認票は未完了です。当日用カードの識別番号はAC-684で、試験票の指定番号と一致しています。入口読取機にこのカードをかざしても扉は開かず、開通試験は再試験待ちです。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-21T17:00:00+09:00",
+        "evidence_refs": [
+          "PB-694"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'試験カード番号の照合': met per ['PB-837']",
+          "'入口読取機での解錠試験': pending per ['PB-694']"
+        ],
+        "revision": "r4",
+        "scope": "当日用カードの開通試験",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-21T17:00:00+09:00",
+        "evidence_refs": [
+          "PB-573"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'入口名と会場図の照合': met per ['PB-409']",
+          "'当日連絡先の掲載確認': pending per ['PB-573']"
+        ],
+        "revision": "r4",
+        "scope": "入館案内の確認票",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "original_response": {
+      "handoff": "『水辺文庫』内覧会（r4）の10月21日17時時点の状況です。来場者向け案内の入口名「柳小路口」は、承認済みの会場図と一致しています。差し替え後の案内紙面では当日連絡先の行が抜けていました。印刷所からは連絡先を復元して再入稿したとの連絡がありましたが、再入稿後の紙面での掲載確認が残っているため、入館案内の確認票は未完了です。当日用カードの識別番号はAC-684で、試験票の指定番号と一致しています。入口読取機にこのカードをかざしても扉は開かず、開通試験は再試験待ちです。",
+      "operation_state": {
+        "as_of": "2026-10-21T17:00:00+09:00",
+        "evidence_refs": [
+          "PB-694"
+        ],
+        "revision": "r4",
+        "scope": "当日用カードの開通試験",
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-21T17:00:00+09:00",
+        "evidence_refs": [
+          "PB-573"
+        ],
+        "revision": "r4",
+        "scope": "入館案内の確認票",
+        "value": "open"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": "r4"
+  }
+}

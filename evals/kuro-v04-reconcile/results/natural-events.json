@@ -1,0 +1,2682 @@
+[
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 175211,
+    "b1_elapsed_ns": 218291,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "実際の区画名と出口格子の落ち葉が一致し、写真の別区画判明と16時30分時点の通水保留も正しい。",
+      "required_facts": [
+        "西区",
+        "落ち葉"
+      ]
+    },
+    "case_id": "N6QKD",
+    "cli_started_unix_ns": 1795235354005905153,
+    "elapsed_ms": 21231,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 14979,
+      "output_tokens": 654,
+      "reasoning_output_tokens": 332,
+      "total_tokens": 15633
+    },
+    "job_id": "I05",
+    "label": "H-d4142d2e15a088b0628fcccd",
+    "mode": "independent",
+    "order": 1,
+    "raw_sha256": "240e1ad3ed93762c2aab141c8e1ff87a066f78bd6a385acb5b414c67326ba87d",
+    "receiver_finished_unix_ns": 1795235375239423514,
+    "receiver_sha256": "3aa4482bcfe0438a1da8007bc9840557822054303427d621d55a408ed6d4f740",
+    "reconciliation_elapsed_ns": 43080,
+    "session_id": "01a1fc5d-9663-7c80-ad48-8fbcea7f8404",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'入口からの流入確認': met per ['GP-374']",
+          "'出口からの流出確認': pending per ['GP-439']"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "入口からの流入確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "GP-374"
+            ]
+          },
+          "出口からの流出確認": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "GP-439"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'試験区画の照合': met per ['GP-911']",
+          "'出口側写真と撮影地点の照合': pending per ['GP-707']"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "出口側写真と撮影地点の照合": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "GP-707"
+            ]
+          },
+          "試験区画の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "GP-911"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 247626,
+    "b1_elapsed_ns": 307991,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "曲名と実際の座席番号が一致し、譜面台・前列の双方から顔が見えた確認と現行版の署名保留も正しい。",
+      "required_facts": [
+        "水の綾",
+        "一階A列5番"
+      ]
+    },
+    "case_id": "NM5V9",
+    "cli_started_unix_ns": 1795235354016490680,
+    "elapsed_ms": 21202,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 14988,
+      "output_tokens": 636,
+      "reasoning_output_tokens": 301,
+      "total_tokens": 15624
+    },
+    "job_id": "I01",
+    "label": "H-b27dcdf6e97d8fbb43b0b217",
+    "mode": "independent",
+    "order": 1,
+    "raw_sha256": "5bb744adefac6e715ea3617d97cd8376353ecb958be905435b5205293551db30",
+    "receiver_finished_unix_ns": 1795235375220325265,
+    "receiver_sha256": "16262c6e6c0e1c5c023e8269f846f8a61b075a6d26d1826d348522ea3ef15fc5",
+    "reconciliation_elapsed_ns": 60365,
+    "session_id": "01a1fc5d-965b-79f3-b3d6-9f749c6d5943",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'譜面台による遮りの確認': met per ['JH-648']",
+          "'前列奏者による遮りの確認': met per ['JH-509']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "前列奏者による遮りの確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "JH-509"
+            ]
+          },
+          "譜面台による遮りの確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "JH-648"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'曲名の照合': met per ['JH-828']",
+          "'舞台監督の署名確認': no eligible direct observation at cutoff"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "曲名の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "JH-828"
+            ]
+          },
+          "舞台監督の署名確認": {
+            "outcomes": [],
+            "refs": []
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 246158,
+    "b1_elapsed_ns": 345607,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "採用色票P-14、最終実測150 lxが一致し、記録図の差し替えと色調の再確認も記録どおり。",
+      "required_facts": [
+        "P-14",
+        "150 lx"
+      ]
+    },
+    "case_id": "NW7J2",
+    "cli_started_unix_ns": 1795235354012844591,
+    "elapsed_ms": 21160,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 15007,
+      "output_tokens": 682,
+      "reasoning_output_tokens": 332,
+      "total_tokens": 15689
+    },
+    "job_id": "C01",
+    "label": "H-20d182c1e2cd4fbe982807aa",
+    "mode": "continuous",
+    "order": 1,
+    "raw_sha256": "376bfdc4a81a64dc9d642c58931316cd40f57e6731a6c50eecb76e18ebb39bc5",
+    "receiver_finished_unix_ns": 1795235375186993846,
+    "receiver_sha256": "4f5b278d3b98e6c7e5f0314fad760e33e603224aa9d13bdb34277e6bcb854186",
+    "reconciliation_elapsed_ns": 99449,
+    "session_id": "01a1fc5d-966b-7753-9bd1-08f758cb40d6",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'補彩箇所の境界の確認': met per ['RO-296']",
+          "'展示照明下の色合わせ': met per ['RO-450']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "展示照明下の色合わせ": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "RO-450"
+            ]
+          },
+          "補彩箇所の境界の確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "RO-296"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'色票番号の照合': met per ['RO-804']",
+          "'記録図の照合': met per ['RO-733']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "色票番号の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "RO-804"
+            ]
+          },
+          "記録図の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "RO-733"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 149042,
+    "b1_elapsed_ns": 246495,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "曲名と確認席が一致し、受付経由の署名情報と現行版の未確認を区別している。",
+      "required_facts": [
+        "水の綾",
+        "一階A列5番"
+      ]
+    },
+    "case_id": "NM5V9",
+    "cli_started_unix_ns": 1795235375189939066,
+    "elapsed_ms": 16826,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14976,
+      "input_tokens": 19153,
+      "output_tokens": 480,
+      "reasoning_output_tokens": 145,
+      "total_tokens": 19633
+    },
+    "job_id": "C01",
+    "label": "H-08914d03ef27aa0bbfecab33",
+    "mode": "continuous",
+    "order": 2,
+    "raw_sha256": "7a90dec9eedb980be120ec8d32608fe26363611d1d006aff1f113557cf987b08",
+    "receiver_finished_unix_ns": 1795235392018813075,
+    "receiver_sha256": "43e7ef107fb9aeed36c38febf172ce204a676bbbb2a9f54545654ec7e2d51d1d",
+    "reconciliation_elapsed_ns": 97453,
+    "session_id": "01a1fc5d-966b-7753-9bd1-08f758cb40d6",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'譜面台による遮りの確認': met per ['JH-648']",
+          "'前列奏者による遮りの確認': met per ['JH-509']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "前列奏者による遮りの確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "JH-509"
+            ]
+          },
+          "譜面台による遮りの確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "JH-648"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'曲名の照合': met per ['JH-828']",
+          "'舞台監督の署名確認': no eligible direct observation at cutoff"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "曲名の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "JH-828"
+            ]
+          },
+          "舞台監督の署名確認": {
+            "outcomes": [],
+            "refs": []
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 188104,
+    "b1_elapsed_ns": 331569,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "基準星ベガと直近画像の7画素のずれが一致。再調整の結果を電話での伝聞にとどめている。",
+      "required_facts": [
+        "ベガ",
+        "7画素"
+      ]
+    },
+    "case_id": "N2F8X",
+    "cli_started_unix_ns": 1795235392019962715,
+    "elapsed_ms": 16213,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 19072,
+      "input_tokens": 23093,
+      "output_tokens": 509,
+      "reasoning_output_tokens": 144,
+      "total_tokens": 23602
+    },
+    "job_id": "C01",
+    "label": "H-436b763bc0fdf4aef862152e",
+    "mode": "continuous",
+    "order": 3,
+    "raw_sha256": "2b9a0ed37ed0abe53f3921a16fbff8f042491e95beedc007d9aab227bf8fef57",
+    "receiver_finished_unix_ns": 1795235408235969330,
+    "receiver_sha256": "129e252a6419a095120349b7f509498c55c621bfb64d87abb830877ab2b03367",
+    "reconciliation_elapsed_ns": 143465,
+    "session_id": "01a1fc5d-966b-7753-9bd1-08f758cb40d6",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'初期位置表示の確認': met per ['DK-307']",
+          "'導入後の中心位置確認': pending per ['DK-242']"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "初期位置表示の確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "DK-307"
+            ]
+          },
+          "導入後の中心位置確認": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "DK-242"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'基準星名の照合': met per ['DK-169']",
+          "'撮像時刻の照合': met per ['DK-980']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "基準星名の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "DK-169"
+            ]
+          },
+          "撮像時刻の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "DK-980"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 152505,
+    "b1_elapsed_ns": 189069,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "西区への注水と出口格子の落ち葉が一致し、写真差し替え待ちと流出未確認も基準時刻に合う。",
+      "required_facts": [
+        "西区",
+        "落ち葉"
+      ]
+    },
+    "case_id": "N6QKD",
+    "cli_started_unix_ns": 1795235408239462783,
+    "elapsed_ms": 20049,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 23040,
+      "input_tokens": 27057,
+      "output_tokens": 548,
+      "reasoning_output_tokens": 221,
+      "total_tokens": 27605
+    },
+    "job_id": "C01",
+    "label": "H-ae681f3c90b57a9dab810af5",
+    "mode": "continuous",
+    "order": 4,
+    "raw_sha256": "6a4949e61e5d68176ec758c3e52b7014d6812c32574f763775df3e49cc911b13",
+    "receiver_finished_unix_ns": 1795235428291202100,
+    "receiver_sha256": "9591949cc345a0c7569e7a2c0261fa9eeb272bedc3af2c30b4c3af6037a9c867",
+    "reconciliation_elapsed_ns": 36564,
+    "session_id": "01a1fc5d-966b-7753-9bd1-08f758cb40d6",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'入口からの流入確認': met per ['GP-374']",
+          "'出口からの流出確認': pending per ['GP-439']"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "入口からの流入確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "GP-374"
+            ]
+          },
+          "出口からの流出確認": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "GP-439"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'試験区画の照合': met per ['GP-911']",
+          "'出口側写真と撮影地点の照合': pending per ['GP-707']"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "出口側写真と撮影地点の照合": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "GP-707"
+            ]
+          },
+          "試験区画の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "GP-911"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 173251,
+    "b1_elapsed_ns": 232831,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "参加人数12人と青果の分岐先Q17bが一致。無回答経路の修正後の通過は口頭連絡として扱っている。",
+      "required_facts": [
+        "予備調査の参加人数は12人",
+        "青果を選んだ場合の分岐先は設問Q17b"
+      ]
+    },
+    "case_id": "WZW36",
+    "cli_started_unix_ns": 1795235354022190068,
+    "elapsed_ms": 21155,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 15158,
+      "output_tokens": 534,
+      "reasoning_output_tokens": 173,
+      "total_tokens": 15692
+    },
+    "job_id": "C02",
+    "label": "H-018bad1185c4e8404f36fc73",
+    "mode": "continuous",
+    "order": 1,
+    "raw_sha256": "7873703febeb9fb0b10e10615949958439ecbedf59abc405e979b1a4791e1814",
+    "receiver_finished_unix_ns": 1795235375187536056,
+    "receiver_sha256": "1dbe41b7b6b8c93369ee61634efded40323c4beafd69fa7865416c2ffd74618b",
+    "reconciliation_elapsed_ns": 59580,
+    "session_id": "01a1fc5d-9681-7240-89de-7ea4347e3b36",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'分岐先と確定設計の照合': met per ['IM-297']",
+          "'無回答経路の通し試験': pending per ['IM-643']"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "分岐先と確定設計の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "IM-297"
+            ]
+          },
+          "無回答経路の通し試験": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "IM-643"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'参加人数と回答原票の照合': met per ['IM-405']",
+          "'修正理由の記載確認': met per ['IM-582']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "修正理由の記載確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "IM-582"
+            ]
+          },
+          "参加人数と回答原票の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "IM-405"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 254124,
+    "b1_elapsed_ns": 336477,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "指定レートと原盤番号が一致し、制作進行の伝言と基準時刻までの署名確認状況を正しく区別した。",
+      "required_facts": [
+        "照合した原盤番号はAR-660",
+        "配信用ファイルのサンプルレートは96 kHz"
+      ]
+    },
+    "case_id": "W34LF",
+    "cli_started_unix_ns": 1795235375189267208,
+    "elapsed_ms": 16841,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 15104,
+      "input_tokens": 19158,
+      "output_tokens": 401,
+      "reasoning_output_tokens": 41,
+      "total_tokens": 19559
+    },
+    "job_id": "C02",
+    "label": "H-bcef372f50a277be867e044f",
+    "mode": "continuous",
+    "order": 2,
+    "raw_sha256": "0cc4b5c7e1eb71c877bb13f44bdaf582691b5c99f9d7adcdacacaf8ba9f47c36",
+    "receiver_finished_unix_ns": 1795235392032975948,
+    "receiver_sha256": "bf834dbb3e37c91f2a8b5ec98be9dab59fcb1c3394a80fa31c4f3fdde911e850",
+    "reconciliation_elapsed_ns": 82353,
+    "session_id": "01a1fc5d-9681-7240-89de-7ea4347e3b36",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'書き出し形式の実測確認': met per ['HK-712']",
+          "'終端の再生確認': met per ['HK-490']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "書き出し形式の実測確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "HK-712"
+            ]
+          },
+          "終端の再生確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "HK-490"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'原盤番号の照合': met per ['HK-316']",
+          "'試聴担当者の署名確認': pending per ['HK-584']"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "原盤番号の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "HK-316"
+            ]
+          },
+          "試聴担当者の署名確認": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "HK-584"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 159602,
+    "b1_elapsed_ns": 246908,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "今回のロットと採用溝幅が一致し、計量票の添付と二枚目の試験合格にも直接記録がある。",
+      "required_facts": [
+        "今回の製紙ロットはKP-273",
+        "採用した筋押し溝幅は0.8 mm"
+      ]
+    },
+    "case_id": "WVQ6P",
+    "cli_started_unix_ns": 1795235392036788866,
+    "elapsed_ms": 16206,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 19072,
+      "input_tokens": 23083,
+      "output_tokens": 376,
+      "reasoning_output_tokens": 0,
+      "total_tokens": 23459
+    },
+    "job_id": "C02",
+    "label": "H-4c9ad229563cbefc1c1b8c3c",
+    "mode": "continuous",
+    "order": 3,
+    "raw_sha256": "0a3adaaf160b5fc651c6f4cbb5af0aee64ad0f0a81a17ca153d969b9d53e0062",
+    "receiver_finished_unix_ns": 1795235408246657528,
+    "receiver_sha256": "0c7fc6f302ef1662b361bd687f65a3ebb32c80923156457c6f8aab9e39511067",
+    "reconciliation_elapsed_ns": 87306,
+    "session_id": "01a1fc5d-9681-7240-89de-7ea4347e3b36",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'筋押し溝幅の設定照合': met per ['GF-836']",
+          "'折り目の割れ検査': met per ['GF-357']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "折り目の割れ検査": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "GF-357"
+            ]
+          },
+          "筋押し溝幅の設定照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "GF-836"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'製紙ロットの原札照合': met per ['GF-710']",
+          "'受入票への計量票の添付確認': met per ['GF-618']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "受入票への計量票の添付確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "GF-618"
+            ]
+          },
+          "製紙ロットの原札照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "GF-710"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 199353,
+    "b1_elapsed_ns": 240863,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "案内にある柳小路口と開通試験に用いたAC-684が一致。再入稿の伝聞と解錠の再試験待ちを正しく記した。",
+      "required_facts": [
+        "案内に記載した入口名は柳小路口",
+        "試験カードの識別番号はAC-684"
+      ]
+    },
+    "case_id": "WRAY2",
+    "cli_started_unix_ns": 1795235408248316250,
+    "elapsed_ms": 20002,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 23040,
+      "input_tokens": 27089,
+      "output_tokens": 548,
+      "reasoning_output_tokens": 171,
+      "total_tokens": 27637
+    },
+    "job_id": "C02",
+    "label": "H-da70112e88c7ccd096e17c3e",
+    "mode": "continuous",
+    "order": 4,
+    "raw_sha256": "34a2fd1c82d4033aea1d8a8f89f2e36602a4141ad6da7e8fccfca130613ee13f",
+    "receiver_finished_unix_ns": 1795235428252874090,
+    "receiver_sha256": "fdae1e64c65baec5aa3587c829c7e8be8345a51fbcece441105a9a4fa2f23ac3",
+    "reconciliation_elapsed_ns": 41510,
+    "session_id": "01a1fc5d-9681-7240-89de-7ea4347e3b36",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'試験カード番号の照合': met per ['PB-837']",
+          "'入口読取機での解錠試験': pending per ['PB-694']"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "入口読取機での解錠試験": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "PB-694"
+            ]
+          },
+          "試験カード番号の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "PB-837"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'入口名と会場図の照合': met per ['PB-409']",
+          "'当日連絡先の掲載確認': pending per ['PB-573']"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "入口名と会場図の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "PB-409"
+            ]
+          },
+          "当日連絡先の掲載確認": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "PB-573"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 147245,
+    "b1_elapsed_ns": 180162,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "案内の入口名と試験カード番号が一致。再入稿は印刷所の連絡として記し、解錠も再試験待ちとしている。",
+      "required_facts": [
+        "案内に記載した入口名は柳小路口",
+        "試験カードの識別番号はAC-684"
+      ]
+    },
+    "case_id": "WRAY2",
+    "cli_started_unix_ns": 1795235375269184766,
+    "elapsed_ms": 16771,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 15154,
+      "output_tokens": 477,
+      "reasoning_output_tokens": 125,
+      "total_tokens": 15631
+    },
+    "job_id": "I06",
+    "label": "H-7d44ad3d5d8068d9620bf619",
+    "mode": "independent",
+    "order": 1,
+    "raw_sha256": "3d87f64898519784de80f3bafde042d1c131fccb00ad10e758d57d3bba82ff50",
+    "receiver_finished_unix_ns": 1795235392042591757,
+    "receiver_sha256": "f1827ed9c8b2eb6dbe6fb87ba4d2fb5a47f058a1654b1804b685b8fa85b50d1a",
+    "reconciliation_elapsed_ns": 32917,
+    "session_id": "01a1fc5d-e95f-7092-bb96-e1c25fe9f5f4",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'試験カード番号の照合': met per ['PB-837']",
+          "'入口読取機での解錠試験': pending per ['PB-694']"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "入口読取機での解錠試験": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "PB-694"
+            ]
+          },
+          "試験カード番号の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "PB-837"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'入口名と会場図の照合': met per ['PB-409']",
+          "'当日連絡先の掲載確認': pending per ['PB-573']"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "入口名と会場図の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "PB-409"
+            ]
+          },
+          "当日連絡先の掲載確認": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "PB-573"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 219875,
+    "b1_elapsed_ns": 317656,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "色票と最終照度が一致し、境界に浮きがなく、調整後に色調が合ったとの記述にも根拠がある。",
+      "required_facts": [
+        "P-14",
+        "150 lx"
+      ]
+    },
+    "case_id": "NW7J2",
+    "cli_started_unix_ns": 1795235375296309955,
+    "elapsed_ms": 24190,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 15007,
+      "output_tokens": 682,
+      "reasoning_output_tokens": 326,
+      "total_tokens": 15689
+    },
+    "job_id": "I03",
+    "label": "H-66c54850228a1e188f208c53",
+    "mode": "independent",
+    "order": 1,
+    "raw_sha256": "5b2292680aca796e4bbe54e30accba26d3267bb299abb6a55d0d7be96e4e7795",
+    "receiver_finished_unix_ns": 1795235399488311105,
+    "receiver_sha256": "fb74e1752696317913135706e3b36adea69a0fa9c491db6c197e393eaaeb6fff",
+    "reconciliation_elapsed_ns": 97781,
+    "session_id": "01a1fc5d-e95d-7ef1-bef8-32557b381afe",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'補彩箇所の境界の確認': met per ['RO-296']",
+          "'展示照明下の色合わせ': met per ['RO-450']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "展示照明下の色合わせ": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "RO-450"
+            ]
+          },
+          "補彩箇所の境界の確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "RO-296"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'色票番号の照合': met per ['RO-804']",
+          "'記録図の照合': met per ['RO-733']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "色票番号の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "RO-804"
+            ]
+          },
+          "記録図の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "RO-733"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 158657,
+    "b1_elapsed_ns": 222054,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "照合結果はベガ、直近画像は7画素のずれと明記。再調整後の許容円内への復帰は未確認としている。",
+      "required_facts": [
+        "ベガ",
+        "7画素"
+      ]
+    },
+    "case_id": "N2F8X",
+    "cli_started_unix_ns": 1795235392081515004,
+    "elapsed_ms": 16138,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14984,
+      "output_tokens": 480,
+      "reasoning_output_tokens": 147,
+      "total_tokens": 15464
+    },
+    "job_id": "I08",
+    "label": "H-ca3aa94fb1849677f03ccf17",
+    "mode": "independent",
+    "order": 1,
+    "raw_sha256": "abd70352bffdca6dadd1e41620f75c279e98169c974d5d34e20324fd4436d4b9",
+    "receiver_finished_unix_ns": 1795235408221440585,
+    "receiver_sha256": "40384d2fe36abf1e02937af7988729e1c18460f378c612b0bebcd63d4e03e8f8",
+    "reconciliation_elapsed_ns": 63397,
+    "session_id": "01a1fc5e-2af9-76a2-b390-dc4ba6209da9",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'初期位置表示の確認': met per ['DK-307']",
+          "'導入後の中心位置確認': pending per ['DK-242']"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "初期位置表示の確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "DK-307"
+            ]
+          },
+          "導入後の中心位置確認": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "DK-242"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'基準星名の照合': met per ['DK-169']",
+          "'撮像時刻の照合': met per ['DK-980']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "基準星名の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "DK-169"
+            ]
+          },
+          "撮像時刻の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "DK-980"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 158234,
+    "b1_elapsed_ns": 275381,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "受入ロットと採用溝幅が一致し、添付計量票の判読と折り目の合格は直接確認されている。",
+      "required_facts": [
+        "今回の製紙ロットはKP-273",
+        "採用した筋押し溝幅は0.8 mm"
+      ]
+    },
+    "case_id": "WVQ6P",
+    "cli_started_unix_ns": 1795235399525792215,
+    "elapsed_ms": 20191,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 15048,
+      "output_tokens": 586,
+      "reasoning_output_tokens": 237,
+      "total_tokens": 15634
+    },
+    "job_id": "I04",
+    "label": "H-e8edb51dd50b3526a78c6aac",
+    "mode": "independent",
+    "order": 1,
+    "raw_sha256": "5f148685d3afe7dede1520a3a6d21300154f51f33f014df0b06c23c14770e307",
+    "receiver_finished_unix_ns": 1795235419718802667,
+    "receiver_sha256": "b1e908ff256e3e175a83dfd91452193e0301e0f3a45273781a648038b786a5ae",
+    "reconciliation_elapsed_ns": 117147,
+    "session_id": "01a1fc5e-47d1-7f20-b098-cf25ef8cfecc",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'筋押し溝幅の設定照合': met per ['GF-836']",
+          "'折り目の割れ検査': met per ['GF-357']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "折り目の割れ検査": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "GF-357"
+            ]
+          },
+          "筋押し溝幅の設定照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "GF-836"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'製紙ロットの原札照合': met per ['GF-710']",
+          "'受入票への計量票の添付確認': met per ['GF-618']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "受入票への計量票の添付確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "GF-618"
+            ]
+          },
+          "製紙ロットの原札照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "GF-710"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 137889,
+    "b1_elapsed_ns": 194325,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "原盤番号と配信用WAVのレートが一致。13時に参照できた範囲で署名確認を保留している。",
+      "required_facts": [
+        "照合した原盤番号はAR-660",
+        "配信用ファイルのサンプルレートは96 kHz"
+      ]
+    },
+    "case_id": "W34LF",
+    "cli_started_unix_ns": 1795235408259888133,
+    "elapsed_ms": 20040,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 14990,
+      "output_tokens": 531,
+      "reasoning_output_tokens": 169,
+      "total_tokens": 15521
+    },
+    "job_id": "I02",
+    "label": "H-43d6ab755fe18ccf8c44ea3b",
+    "mode": "independent",
+    "order": 1,
+    "raw_sha256": "40bde5a73e75b853c895d1837652460359eacef769c6a5abfc5504fb427a05ee",
+    "receiver_finished_unix_ns": 1795235428301723674,
+    "receiver_sha256": "3f640b69cdf2c4749b7fd9af9e74306407e0b1e1b4efc1d4e0d3318d1b00d16a",
+    "reconciliation_elapsed_ns": 56436,
+    "session_id": "01a1fc5e-6a66-72c3-9553-905f8bae563d",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'書き出し形式の実測確認': met per ['HK-712']",
+          "'終端の再生確認': met per ['HK-490']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "書き出し形式の実測確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "HK-712"
+            ]
+          },
+          "終端の再生確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "HK-490"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'原盤番号の照合': met per ['HK-316']",
+          "'試聴担当者の署名確認': pending per ['HK-584']"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "原盤番号の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "HK-316"
+            ]
+          },
+          "試聴担当者の署名確認": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "HK-584"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "archive_report": {
+        "B0": "true_plan",
+        "B0_business": "true_plan",
+        "B0_plan": true,
+        "B1": "true_plan",
+        "B1_business": "true_plan",
+        "B1_plan": true,
+        "duplicate_registration": false,
+        "expected_plan": true,
+        "gold_business_plan": true,
+        "newly_registered": 1,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      },
+      "close_case": {
+        "B0": "true_hold",
+        "B0_business": "true_hold",
+        "B0_plan": false,
+        "B1": "true_hold",
+        "B1_business": "true_hold",
+        "B1_plan": false,
+        "duplicate_registration": false,
+        "expected_plan": false,
+        "gold_business_plan": false,
+        "newly_registered": 0,
+        "previously_correct_degraded": false,
+        "recovered": false,
+        "recovery_target": false,
+        "registration_mismatch": false,
+        "unrelated_change": false
+      }
+    },
+    "additional_model_calls": 0,
+    "b0_elapsed_ns": 231715,
+    "b1_elapsed_ns": 317032,
+    "body": {
+      "extra": false,
+      "facts": [
+        true,
+        true
+      ],
+      "notes": "原票照合の参加人数と青果選択時の設問が一致し、設計担当者の連絡を直接の再試験結果と区別している。",
+      "required_facts": [
+        "予備調査の参加人数は12人",
+        "青果を選んだ場合の分岐先は設問Q17b"
+      ]
+    },
+    "case_id": "WZW36",
+    "cli_started_unix_ns": 1795235419754206991,
+    "elapsed_ms": 23412,
+    "initial_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 15158,
+      "output_tokens": 669,
+      "reasoning_output_tokens": 300,
+      "total_tokens": 15827
+    },
+    "job_id": "I07",
+    "label": "H-b637e6692f32d81a4c26ac39",
+    "mode": "independent",
+    "order": 1,
+    "raw_sha256": "ada3d64fd6950e45dea25ef549b804e4796e8850ea54376901aa91be53df1bbe",
+    "receiver_finished_unix_ns": 1795235443169101915,
+    "receiver_sha256": "7ff9e5b29543d83303f9a69930ae7d63c08516c5104ec3bd60bd1bee73756475",
+    "reconciliation_elapsed_ns": 85317,
+    "session_id": "01a1fc5e-96db-7bd0-aed7-14f308c77312",
+    "source_reads": 0,
+    "states": {
+      "operation": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "open",
+        "expected": "open",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_open",
+        "original_reasons": [
+          "'分岐先と確定設計の照合': met per ['IM-297']",
+          "'無回答経路の通し試験': pending per ['IM-643']"
+        ],
+        "original_value": "open",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "分岐先と確定設計の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "IM-297"
+            ]
+          },
+          "無回答経路の通し試験": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "IM-643"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      },
+      "report": {
+        "binding_ok": true,
+        "detection": false,
+        "effective_valid": true,
+        "effective_value": "complete",
+        "expected": "complete",
+        "initial_evidence_valid": true,
+        "initial_valid": true,
+        "original_class": "correct_complete",
+        "original_reasons": [
+          "'参加人数と回答原票の照合': met per ['IM-405']",
+          "'修正理由の記載確認': met per ['IM-582']"
+        ],
+        "original_value": "complete",
+        "outcome": "unchanged",
+        "reason": "initial verification passed",
+        "source_checkpoints": {
+          "修正理由の記載確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "IM-582"
+            ]
+          },
+          "参加人数と回答原票の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "IM-405"
+            ]
+          }
+        },
+        "triggered": false,
+        "witnesses": []
+      }
+    },
+    "wire_error": null
+  }
+]

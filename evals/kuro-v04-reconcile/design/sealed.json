@@ -1,0 +1,26 @@
+{
+  "amber": {
+    "ciphertext_sha256": "cd60b88fbbd44c1bbbdfeababb1504e2fac63a815cd2513ca426e9f10f0b4d22",
+    "plaintext_sha256": "be64578aff1115cc96ab72f7309abf14db0660ea3520e319f6a4c8abfb2deda1",
+    "ids": [
+      "NW7J2",
+      "N2F8X",
+      "NM5V9",
+      "N6QKD"
+    ]
+  },
+  "blue": {
+    "ciphertext_sha256": "d5313cf5bfaf05c60a482c6eaf720d5a2f647bebc29b8e216f95234c0ec38480",
+    "plaintext_sha256": "a76d3f9d46bfb9cba3133f391b833bcc9963a687739133866ab1a286d6e495ad",
+    "ids": [
+      "WZW36",
+      "W34LF",
+      "WRAY2",
+      "WVQ6P"
+    ]
+  },
+  "controls": {
+    "ciphertext_sha256": "84fb7a8d9f3877fa1417f43ef47d7bc0485aee5d17e8adace8772af100a6de5d",
+    "plaintext_sha256": "a3dc27f00a329ae39977ddec83ee7976d6b5bba4badac9ad4d372b85b80beb24"
+  }
+}

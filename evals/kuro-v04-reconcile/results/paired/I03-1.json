@@ -1,0 +1,277 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '補彩箇所の境界の確認': met per ['RO-296']",
+          "operation_state: '展示照明下の色合わせ': met per ['RO-450']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '色票番号の照合': met per ['RO-804']",
+          "report_state: '記録図の照合': met per ['RO-733']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '色票番号の照合': met per ['RO-804']",
+          "report_state: '記録図の照合': met per ['RO-733']",
+          "operation_state: '補彩箇所の境界の確認': met per ['RO-296']",
+          "operation_state: '展示照明下の色合わせ': met per ['RO-450']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-10-05T15:00:00+09:00",
+    "case_id": "NW7J2",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月5日15時現在、屏風『夕凪』左隻の補彩は、修復記録の照合と仕上がりの確認がともに完了しています。試し塗りで採用した色票はP-14で、記録用紙の番号と一致しました。差し替え後の記録図も、雲の左端まで実物の補彩範囲と一致しています。左隻の作業範囲を斜光で確認したところ、補彩の境界に浮きは見られませんでした。仕上がりを最後に確認した14時32分の展示灯下の実測照度は150 lxで、調整後の雲の左端は周囲と色調が合っていました。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-05T15:00:00+09:00",
+        "evidence_refs": [
+          "RO-296",
+          "RO-450"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'補彩箇所の境界の確認': met per ['RO-296']",
+          "'展示照明下の色合わせ': met per ['RO-450']"
+        ],
+        "revision": "校3",
+        "scope": "左隻の補彩仕上げ",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-05T15:00:00+09:00",
+        "evidence_refs": [
+          "RO-804",
+          "RO-733"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'色票番号の照合': met per ['RO-804']",
+          "'記録図の照合': met per ['RO-733']"
+        ],
+        "revision": "校3",
+        "scope": "補彩の修復記録",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "10月5日15時現在、屏風『夕凪』左隻の補彩は、修復記録の照合と仕上がりの確認がともに完了しています。試し塗りで採用した色票はP-14で、記録用紙の番号と一致しました。差し替え後の記録図も、雲の左端まで実物の補彩範囲と一致しています。左隻の作業範囲を斜光で確認したところ、補彩の境界に浮きは見られませんでした。仕上がりを最後に確認した14時32分の展示灯下の実測照度は150 lxで、調整後の雲の左端は周囲と色調が合っていました。",
+    "revision": "校3"
+  },
+  "B1": {
+    "action_keys": {
+      "advance_operation": "[\"NW7J2\",\"校3\",[63926863200,\"\"],\"advance_operation\",[\"左隻の補彩仕上げ\"]]",
+      "archive_report": "[\"NW7J2\",\"校3\",[63926863200,\"\"],\"archive_report\",[\"補彩の修復記録\"]]",
+      "close_case": "[\"NW7J2\",\"校3\",[63926863200,\"\"],\"close_case\",[\"補彩の修復記録\",\"左隻の補彩仕上げ\"]]"
+    },
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '補彩箇所の境界の確認': met per ['RO-296']",
+          "operation_state: '展示照明下の色合わせ': met per ['RO-450']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '色票番号の照合': met per ['RO-804']",
+          "report_state: '記録図の照合': met per ['RO-733']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '色票番号の照合': met per ['RO-804']",
+          "report_state: '記録図の照合': met per ['RO-733']",
+          "operation_state: '補彩箇所の境界の確認': met per ['RO-296']",
+          "operation_state: '展示照明下の色合わせ': met per ['RO-450']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-10-05T15:00:00+09:00",
+    "case_id": "NW7J2",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月5日15時現在、屏風『夕凪』左隻の補彩は、修復記録の照合と仕上がりの確認がともに完了しています。試し塗りで採用した色票はP-14で、記録用紙の番号と一致しました。差し替え後の記録図も、雲の左端まで実物の補彩範囲と一致しています。左隻の作業範囲を斜光で確認したところ、補彩の境界に浮きは見られませんでした。仕上がりを最後に確認した14時32分の展示灯下の実測照度は150 lxで、調整後の雲の左端は周囲と色調が合っていました。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-05T15:00:00+09:00",
+        "evidence_refs": [
+          "RO-296",
+          "RO-450"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'補彩箇所の境界の確認': met per ['RO-296']",
+          "'展示照明下の色合わせ': met per ['RO-450']"
+        ],
+        "revision": "校3",
+        "scope": "左隻の補彩仕上げ",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-05T15:00:00+09:00",
+        "evidence_refs": [
+          "RO-804",
+          "RO-733"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'色票番号の照合': met per ['RO-804']",
+          "'記録図の照合': met per ['RO-733']"
+        ],
+        "revision": "校3",
+        "scope": "補彩の修復記録",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "10月5日15時現在、屏風『夕凪』左隻の補彩は、修復記録の照合と仕上がりの確認がともに完了しています。試し塗りで採用した色票はP-14で、記録用紙の番号と一致しました。差し替え後の記録図も、雲の左端まで実物の補彩範囲と一致しています。左隻の作業範囲を斜光で確認したところ、補彩の境界に浮きは見られませんでした。仕上がりを最後に確認した14時32分の展示灯下の実測照度は150 lxで、調整後の雲の左端は周囲と色調が合っていました。",
+    "newly_planned": [
+      "archive_report",
+      "advance_operation",
+      "close_case"
+    ],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月5日15時現在、屏風『夕凪』左隻の補彩は、修復記録の照合と仕上がりの確認がともに完了しています。試し塗りで採用した色票はP-14で、記録用紙の番号と一致しました。差し替え後の記録図も、雲の左端まで実物の補彩範囲と一致しています。左隻の作業範囲を斜光で確認したところ、補彩の境界に浮きは見られませんでした。仕上がりを最後に確認した14時32分の展示灯下の実測照度は150 lxで、調整後の雲の左端は周囲と色調が合っていました。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-05T15:00:00+09:00",
+        "evidence_refs": [
+          "RO-296",
+          "RO-450"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'補彩箇所の境界の確認': met per ['RO-296']",
+          "'展示照明下の色合わせ': met per ['RO-450']"
+        ],
+        "revision": "校3",
+        "scope": "左隻の補彩仕上げ",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-05T15:00:00+09:00",
+        "evidence_refs": [
+          "RO-804",
+          "RO-733"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'色票番号の照合': met per ['RO-804']",
+          "'記録図の照合': met per ['RO-733']"
+        ],
+        "revision": "校3",
+        "scope": "補彩の修復記録",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "original_response": {
+      "handoff": "10月5日15時現在、屏風『夕凪』左隻の補彩は、修復記録の照合と仕上がりの確認がともに完了しています。試し塗りで採用した色票はP-14で、記録用紙の番号と一致しました。差し替え後の記録図も、雲の左端まで実物の補彩範囲と一致しています。左隻の作業範囲を斜光で確認したところ、補彩の境界に浮きは見られませんでした。仕上がりを最後に確認した14時32分の展示灯下の実測照度は150 lxで、調整後の雲の左端は周囲と色調が合っていました。",
+      "operation_state": {
+        "as_of": "2026-10-05T15:00:00+09:00",
+        "evidence_refs": [
+          "RO-296",
+          "RO-450"
+        ],
+        "revision": "校3",
+        "scope": "左隻の補彩仕上げ",
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-05T15:00:00+09:00",
+        "evidence_refs": [
+          "RO-804",
+          "RO-733"
+        ],
+        "revision": "校3",
+        "scope": "補彩の修復記録",
+        "value": "complete"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": "校3"
+  }
+}

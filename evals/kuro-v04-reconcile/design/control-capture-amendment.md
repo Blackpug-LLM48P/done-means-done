@@ -1,0 +1,5 @@
+# Historical input compatibility amendment before scoring
+
+The frozen control recorder captured 41 of 42 receipts, including all injected faults and GS1/M3V7. It stopped reading HN3 before invoking either receiver for that response. PR #8's GS1 stores rows in a list, whereas HN3 is keyed directly by case ID. The recorder initially treated both as lists. The HN3 payload, case and adapter had already been committed and hashed.
+
+`method/historical_io.py --complete-recording` uses the case-keyed object for HN3 and the same PR #9 metadata adapter as the other historical sample. It authorizes only one missing receipt, reads no answer sheet, writes through a separate staging directory, refuses to overwrite an existing file, and compares the original 41 receipt hashes before and after. Both product implementations, control recipes, expectations and 41 existing decisions retain their original bytes. For scoring and reproduction, use `method/historical_io.py --write` or `--check` from this suite. These run the frozen recorder and scorer with the same HN3 decoding fix.

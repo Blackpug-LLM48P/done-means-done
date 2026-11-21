@@ -1,0 +1,261 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '入口からの流入確認': met per ['GP-374']",
+          "operation_state: '出口からの流出確認': pending per ['GP-439']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '試験区画の照合': met per ['GP-911']",
+          "report_state: '出口側写真と撮影地点の照合': pending per ['GP-707']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '試験区画の照合': met per ['GP-911']",
+          "report_state: '出口側写真と撮影地点の照合': pending per ['GP-707']",
+          "operation_state: '入口からの流入確認': met per ['GP-374']",
+          "operation_state: '出口からの流出確認': pending per ['GP-439']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-10-24T16:30:00+09:00",
+    "case_id": "N6QKD",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月24日16時30分時点で、実際に注水した区画は西区です。現地の区画札と観察票を照合して確認しました。観察票の出口側写真は、16時09分に撮影地点の札が写った原画像と照合し直したところ、別区画のものと判明し、差し替え待ちです。現地では入口から西区への流入を目視しました。出口側を最後に観察した15時58分には、格子に落ち葉が詰まり、水はまだ抜けていませんでした。出口からの流出は未確認のため、通水確認は保留です。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-24T16:30:00+09:00",
+        "evidence_refs": [
+          "GP-439"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'入口からの流入確認': met per ['GP-374']",
+          "'出口からの流出確認': pending per ['GP-439']"
+        ],
+        "revision": 2,
+        "scope": "試験区画の通水確認",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-24T16:30:00+09:00",
+        "evidence_refs": [
+          "GP-707"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'試験区画の照合': met per ['GP-911']",
+          "'出口側写真と撮影地点の照合': pending per ['GP-707']"
+        ],
+        "revision": 2,
+        "scope": "雨庭の観察票",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "10月24日16時30分時点で、実際に注水した区画は西区です。現地の区画札と観察票を照合して確認しました。観察票の出口側写真は、16時09分に撮影地点の札が写った原画像と照合し直したところ、別区画のものと判明し、差し替え待ちです。現地では入口から西区への流入を目視しました。出口側を最後に観察した15時58分には、格子に落ち葉が詰まり、水はまだ抜けていませんでした。出口からの流出は未確認のため、通水確認は保留です。",
+    "revision": 2
+  },
+  "B1": {
+    "action_keys": {},
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '入口からの流入確認': met per ['GP-374']",
+          "operation_state: '出口からの流出確認': pending per ['GP-439']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '試験区画の照合': met per ['GP-911']",
+          "report_state: '出口側写真と撮影地点の照合': pending per ['GP-707']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '試験区画の照合': met per ['GP-911']",
+          "report_state: '出口側写真と撮影地点の照合': pending per ['GP-707']",
+          "operation_state: '入口からの流入確認': met per ['GP-374']",
+          "operation_state: '出口からの流出確認': pending per ['GP-439']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-10-24T16:30:00+09:00",
+    "case_id": "N6QKD",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月24日16時30分時点で、実際に注水した区画は西区です。現地の区画札と観察票を照合して確認しました。観察票の出口側写真は、16時09分に撮影地点の札が写った原画像と照合し直したところ、別区画のものと判明し、差し替え待ちです。現地では入口から西区への流入を目視しました。出口側を最後に観察した15時58分には、格子に落ち葉が詰まり、水はまだ抜けていませんでした。出口からの流出は未確認のため、通水確認は保留です。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-24T16:30:00+09:00",
+        "evidence_refs": [
+          "GP-439"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'入口からの流入確認': met per ['GP-374']",
+          "'出口からの流出確認': pending per ['GP-439']"
+        ],
+        "revision": 2,
+        "scope": "試験区画の通水確認",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-24T16:30:00+09:00",
+        "evidence_refs": [
+          "GP-707"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'試験区画の照合': met per ['GP-911']",
+          "'出口側写真と撮影地点の照合': pending per ['GP-707']"
+        ],
+        "revision": 2,
+        "scope": "雨庭の観察票",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "10月24日16時30分時点で、実際に注水した区画は西区です。現地の区画札と観察票を照合して確認しました。観察票の出口側写真は、16時09分に撮影地点の札が写った原画像と照合し直したところ、別区画のものと判明し、差し替え待ちです。現地では入口から西区への流入を目視しました。出口側を最後に観察した15時58分には、格子に落ち葉が詰まり、水はまだ抜けていませんでした。出口からの流出は未確認のため、通水確認は保留です。",
+    "newly_planned": [],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月24日16時30分時点で、実際に注水した区画は西区です。現地の区画札と観察票を照合して確認しました。観察票の出口側写真は、16時09分に撮影地点の札が写った原画像と照合し直したところ、別区画のものと判明し、差し替え待ちです。現地では入口から西区への流入を目視しました。出口側を最後に観察した15時58分には、格子に落ち葉が詰まり、水はまだ抜けていませんでした。出口からの流出は未確認のため、通水確認は保留です。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-24T16:30:00+09:00",
+        "evidence_refs": [
+          "GP-439"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'入口からの流入確認': met per ['GP-374']",
+          "'出口からの流出確認': pending per ['GP-439']"
+        ],
+        "revision": 2,
+        "scope": "試験区画の通水確認",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-24T16:30:00+09:00",
+        "evidence_refs": [
+          "GP-707"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'試験区画の照合': met per ['GP-911']",
+          "'出口側写真と撮影地点の照合': pending per ['GP-707']"
+        ],
+        "revision": 2,
+        "scope": "雨庭の観察票",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "original_response": {
+      "handoff": "10月24日16時30分時点で、実際に注水した区画は西区です。現地の区画札と観察票を照合して確認しました。観察票の出口側写真は、16時09分に撮影地点の札が写った原画像と照合し直したところ、別区画のものと判明し、差し替え待ちです。現地では入口から西区への流入を目視しました。出口側を最後に観察した15時58分には、格子に落ち葉が詰まり、水はまだ抜けていませんでした。出口からの流出は未確認のため、通水確認は保留です。",
+      "operation_state": {
+        "as_of": "2026-10-24T16:30:00+09:00",
+        "evidence_refs": [
+          "GP-439"
+        ],
+        "revision": 2,
+        "scope": "試験区画の通水確認",
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-24T16:30:00+09:00",
+        "evidence_refs": [
+          "GP-707"
+        ],
+        "revision": 2,
+        "scope": "雨庭の観察票",
+        "value": "open"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": 2
+  }
+}

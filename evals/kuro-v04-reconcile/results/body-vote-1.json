@@ -1,0 +1,130 @@
+{
+  "H-018bad1185c4e8404f36fc73": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "参加人数12人と青果の分岐先Q17bが一致。無回答経路の修正後の通過は口頭連絡として扱っている。"
+  },
+  "H-08914d03ef27aa0bbfecab33": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "曲名と確認席が一致し、受付経由の署名情報と現行版の未確認を区別している。"
+  },
+  "H-20d182c1e2cd4fbe982807aa": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "採用色票P-14、最終実測150 lxが一致し、記録図の差し替えと色調の再確認も記録どおり。"
+  },
+  "H-436b763bc0fdf4aef862152e": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "基準星ベガと直近画像の7画素のずれが一致。再調整の結果を電話での伝聞にとどめている。"
+  },
+  "H-43d6ab755fe18ccf8c44ea3b": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "原盤番号と配信用WAVのレートが一致。13時に参照できた範囲で署名確認を保留している。"
+  },
+  "H-4c9ad229563cbefc1c1b8c3c": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "今回のロットと採用溝幅が一致し、計量票の添付と二枚目の試験合格にも直接記録がある。"
+  },
+  "H-66c54850228a1e188f208c53": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "色票と最終照度が一致し、境界に浮きがなく、調整後に色調が合ったとの記述にも根拠がある。"
+  },
+  "H-7d44ad3d5d8068d9620bf619": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "案内の入口名と試験カード番号が一致。再入稿は印刷所の連絡として記し、解錠も再試験待ちとしている。"
+  },
+  "H-ae681f3c90b57a9dab810af5": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "西区への注水と出口格子の落ち葉が一致し、写真差し替え待ちと流出未確認も基準時刻に合う。"
+  },
+  "H-b27dcdf6e97d8fbb43b0b217": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "曲名と実際の座席番号が一致し、譜面台・前列の双方から顔が見えた確認と現行版の署名保留も正しい。"
+  },
+  "H-b637e6692f32d81a4c26ac39": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "原票照合の参加人数と青果選択時の設問が一致し、設計担当者の連絡を直接の再試験結果と区別している。"
+  },
+  "H-bcef372f50a277be867e044f": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "指定レートと原盤番号が一致し、制作進行の伝言と基準時刻までの署名確認状況を正しく区別した。"
+  },
+  "H-ca3aa94fb1849677f03ccf17": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "照合結果はベガ、直近画像は7画素のずれと明記。再調整後の許容円内への復帰は未確認としている。"
+  },
+  "H-d4142d2e15a088b0628fcccd": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "実際の区画名と出口格子の落ち葉が一致し、写真の別区画判明と16時30分時点の通水保留も正しい。"
+  },
+  "H-da70112e88c7ccd096e17c3e": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "案内にある柳小路口と開通試験に用いたAC-684が一致。再入稿の伝聞と解錠の再試験待ちを正しく記した。"
+  },
+  "H-e8edb51dd50b3526a78c6aac": {
+    "extra": false,
+    "facts": [
+      true,
+      true
+    ],
+    "notes": "受入ロットと採用溝幅が一致し、添付計量票の判読と折り目の合格は直接確認されている。"
+  }
+}

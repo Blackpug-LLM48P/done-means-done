@@ -1,0 +1,1859 @@
+{
+  "all_expectations_met": true,
+  "by_receipt": {
+    "C01/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PPP",
+        "B1_plan": "PPP",
+        "attempts": 0,
+        "detected": "00",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "source_state": "CC",
+        "triggered": "00"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PPP",
+        "B1_plan": "PPP",
+        "attempts": 0,
+        "detected": "00",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "triggered": "00"
+      },
+      "outcomes": {
+        "operation_state": "unchanged",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/C01-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "initial verification passed",
+        "report_state": "initial verification passed"
+      }
+    },
+    "C02/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 0,
+        "detected": "00",
+        "initial_state": "CO",
+        "new_plans": "PHH",
+        "source_state": "CO",
+        "triggered": "00"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 0,
+        "detected": "00",
+        "initial_state": "CO",
+        "new_plans": "PHH",
+        "triggered": "00"
+      },
+      "outcomes": {
+        "operation_state": "unchanged",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/C02-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "initial verification passed",
+        "report_state": "initial verification passed"
+      }
+    },
+    "C03/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HPH",
+        "B1_plan": "HPH",
+        "attempts": 0,
+        "detected": "00",
+        "initial_state": "OC",
+        "new_plans": "HPH",
+        "source_state": "OC",
+        "triggered": "00"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HPH",
+        "B1_plan": "HPH",
+        "attempts": 0,
+        "detected": "00",
+        "initial_state": "OC",
+        "new_plans": "HPH",
+        "triggered": "00"
+      },
+      "outcomes": {
+        "operation_state": "unchanged",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/C03-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "initial verification passed",
+        "report_state": "initial verification passed"
+      }
+    },
+    "C04/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HHH",
+        "B1_plan": "HHH",
+        "attempts": 0,
+        "detected": "00",
+        "initial_state": "OO",
+        "new_plans": "HHH",
+        "source_state": "OO",
+        "triggered": "00"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HHH",
+        "B1_plan": "HHH",
+        "attempts": 0,
+        "detected": "00",
+        "initial_state": "OO",
+        "new_plans": "HHH",
+        "triggered": "00"
+      },
+      "outcomes": {
+        "operation_state": "unchanged",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/C04-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "initial verification passed",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F01/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HHH",
+        "B1_plan": "HPH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "OO",
+        "new_plans": "HPH",
+        "source_state": "OC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HHH",
+        "B1_plan": "HPH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "OO",
+        "new_plans": "HPH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_complete",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F01-1.json",
+      "recovered": [
+        "advance_operation"
+      ],
+      "target_recoveries": [
+        "advance_operation"
+      ],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F02/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        false,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "10",
+        "initial_state": "OO",
+        "new_plans": "PHH",
+        "source_state": "CO",
+        "triggered": "10"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "10",
+        "initial_state": "OO",
+        "new_plans": "PHH",
+        "triggered": "10"
+      },
+      "outcomes": {
+        "operation_state": "unchanged",
+        "report_state": "verified_complete"
+      },
+      "receipt": "results/control-receipts/F02-1.json",
+      "recovered": [
+        "archive_report"
+      ],
+      "target_recoveries": [
+        "archive_report"
+      ],
+      "trigger_reason": {
+        "operation_state": "initial verification passed",
+        "report_state": "original state or references failed source verification"
+      }
+    },
+    "F03/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HHH",
+        "B1_plan": "HHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "OC",
+        "new_plans": "HHH",
+        "source_state": "OO",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HHH",
+        "B1_plan": "HHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "OC",
+        "new_plans": "HHH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_open",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F03-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F04/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "source_state": "CO",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_open",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F04-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F05/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        false,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "11",
+        "initial_state": "OO",
+        "new_plans": "PPP",
+        "source_state": "CC",
+        "triggered": "11"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "11",
+        "initial_state": "OO",
+        "new_plans": "PPP",
+        "triggered": "11"
+      },
+      "outcomes": {
+        "operation_state": "verified_complete",
+        "report_state": "verified_complete"
+      },
+      "receipt": "results/control-receipts/F05-1.json",
+      "recovered": [
+        "archive_report",
+        "advance_operation",
+        "close_case"
+      ],
+      "target_recoveries": [
+        "archive_report",
+        "advance_operation",
+        "close_case"
+      ],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "original state or references failed source verification"
+      }
+    },
+    "F06/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HPH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "10",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "source_state": "CC",
+        "triggered": "10"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HPH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "10",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "triggered": "10"
+      },
+      "outcomes": {
+        "operation_state": "unchanged",
+        "report_state": "verified_complete"
+      },
+      "receipt": "results/control-receipts/F06-1.json",
+      "recovered": [
+        "archive_report",
+        "close_case"
+      ],
+      "target_recoveries": [
+        "archive_report",
+        "close_case"
+      ],
+      "trigger_reason": {
+        "operation_state": "initial verification passed",
+        "report_state": "original state or references failed source verification"
+      }
+    },
+    "F07/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_complete",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F07-1.json",
+      "recovered": [
+        "advance_operation",
+        "close_case"
+      ],
+      "target_recoveries": [
+        "advance_operation",
+        "close_case"
+      ],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F08/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_complete",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F08-1.json",
+      "recovered": [
+        "advance_operation",
+        "close_case"
+      ],
+      "target_recoveries": [
+        "advance_operation",
+        "close_case"
+      ],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F09/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_complete",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F09-1.json",
+      "recovered": [
+        "advance_operation",
+        "close_case"
+      ],
+      "target_recoveries": [
+        "advance_operation",
+        "close_case"
+      ],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F10/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_complete",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F10-1.json",
+      "recovered": [
+        "advance_operation",
+        "close_case"
+      ],
+      "target_recoveries": [
+        "advance_operation",
+        "close_case"
+      ],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F11/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_complete",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F11-1.json",
+      "recovered": [
+        "advance_operation",
+        "close_case"
+      ],
+      "target_recoveries": [
+        "advance_operation",
+        "close_case"
+      ],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F12/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_complete",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F12-1.json",
+      "recovered": [
+        "advance_operation",
+        "close_case"
+      ],
+      "target_recoveries": [
+        "advance_operation",
+        "close_case"
+      ],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F13/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_complete",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F13-1.json",
+      "recovered": [
+        "advance_operation",
+        "close_case"
+      ],
+      "target_recoveries": [
+        "advance_operation",
+        "close_case"
+      ],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F14/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        false,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HPH",
+        "B1_plan": "HPH",
+        "attempts": 1,
+        "detected": "10",
+        "initial_state": "CC",
+        "new_plans": "HPH",
+        "source_state": "OC",
+        "triggered": "10"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HPH",
+        "B1_plan": "HPH",
+        "attempts": 1,
+        "detected": "10",
+        "initial_state": "CC",
+        "new_plans": "HPH",
+        "triggered": "10"
+      },
+      "outcomes": {
+        "operation_state": "unchanged",
+        "report_state": "insufficient_evidence"
+      },
+      "receipt": "results/control-receipts/F14-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "initial verification passed",
+        "report_state": "original state or references failed source verification"
+      }
+    },
+    "F15/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "source_state": "CO",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "conflict_or_invalid_source",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F15-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F16/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "source_state": "CO",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_open",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F16-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F17/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "source_state": "CO",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_open",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F17-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F18/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "source_state": "CO",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_open",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F18-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F19/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "source_state": "CO",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_open",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F19-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F20/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        false,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HHH",
+        "B1_plan": "HHH",
+        "attempts": 0,
+        "detected": "11",
+        "initial_state": "??",
+        "new_plans": "HHH",
+        "source_state": "CC",
+        "triggered": "00"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HHH",
+        "B1_plan": "HHH",
+        "attempts": 0,
+        "detected": "11",
+        "initial_state": "??",
+        "new_plans": "HHH",
+        "triggered": "00"
+      },
+      "outcomes": {
+        "operation_state": "binding_rejected",
+        "report_state": "binding_rejected"
+      },
+      "receipt": "results/control-receipts/F20-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "response must contain exactly the trusted case ID",
+        "report_state": "response must contain exactly the trusted case ID"
+      }
+    },
+    "F21/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 0,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "source_state": "CC",
+        "triggered": "00"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 0,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "triggered": "00"
+      },
+      "outcomes": {
+        "operation_state": "binding_rejected",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F21-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "submitted revision differs from the trusted case",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F22/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HPH",
+        "B1_plan": "HPH",
+        "attempts": 0,
+        "detected": "10",
+        "initial_state": "CC",
+        "new_plans": "HPH",
+        "source_state": "CC",
+        "triggered": "00"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HPH",
+        "B1_plan": "HPH",
+        "attempts": 0,
+        "detected": "10",
+        "initial_state": "CC",
+        "new_plans": "HPH",
+        "triggered": "00"
+      },
+      "outcomes": {
+        "operation_state": "unchanged",
+        "report_state": "binding_rejected"
+      },
+      "receipt": "results/control-receipts/F22-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "initial verification passed",
+        "report_state": "submitted target differs from the trusted scope"
+      }
+    },
+    "F23/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 0,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "source_state": "CC",
+        "triggered": "00"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 0,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "triggered": "00"
+      },
+      "outcomes": {
+        "operation_state": "binding_rejected",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F23-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "submitted cutoff differs from the trusted case",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F24/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "read_failed",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F24-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F25/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "source_rejected",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F25-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F26/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        false,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "11",
+        "initial_state": "OC",
+        "new_plans": "PHH",
+        "source_state": "CC",
+        "triggered": "10"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "11",
+        "initial_state": "OC",
+        "new_plans": "PHH",
+        "triggered": "10"
+      },
+      "outcomes": {
+        "operation_state": "binding_rejected",
+        "report_state": "verified_complete"
+      },
+      "receipt": "results/control-receipts/F26-1.json",
+      "recovered": [
+        "archive_report"
+      ],
+      "target_recoveries": [
+        "archive_report"
+      ],
+      "trigger_reason": {
+        "operation_state": "submitted revision differs from the trusted case",
+        "report_state": "original state or references failed source verification"
+      }
+    },
+    "F27/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CO",
+        "new_plans": "PPP",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CO",
+        "new_plans": "PPP",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_complete",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F27-1.json",
+      "recovered": [
+        "advance_operation",
+        "close_case"
+      ],
+      "target_recoveries": [
+        "advance_operation",
+        "close_case"
+      ],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F27/2": {
+      "B0_repeat_plan_offers": [
+        "archive_report"
+      ],
+      "business_state_correct": [
+        true,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CO",
+        "new_plans": "HHH",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PPP",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CO",
+        "new_plans": "HHH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_complete",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F27-2.json",
+      "recovered": [
+        "advance_operation",
+        "close_case"
+      ],
+      "target_recoveries": [
+        "advance_operation",
+        "close_case"
+      ],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F28/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HHH",
+        "B1_plan": "HPH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CO",
+        "new_plans": "HPH",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HHH",
+        "B1_plan": "HPH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CO",
+        "new_plans": "HPH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_complete",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F28-1.json",
+      "recovered": [
+        "advance_operation"
+      ],
+      "target_recoveries": [
+        "advance_operation"
+      ],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F29/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "source_rejected",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F29-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F30/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "source_rejected",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F30-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F31/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "source_state": "CC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "CC",
+        "new_plans": "PHH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "source_rejected",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F31-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F32/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PPP",
+        "B1_plan": "PPP",
+        "attempts": 0,
+        "detected": "00",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "source_state": "CC",
+        "triggered": "00"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PPP",
+        "B1_plan": "PPP",
+        "attempts": 0,
+        "detected": "00",
+        "initial_state": "CC",
+        "new_plans": "PPP",
+        "triggered": "00"
+      },
+      "outcomes": {
+        "operation_state": "unchanged",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F32-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "initial verification passed",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F33/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 0,
+        "detected": "01",
+        "initial_state": "C?",
+        "new_plans": "PHH",
+        "source_state": "CC",
+        "triggered": "00"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "PHH",
+        "B1_plan": "PHH",
+        "attempts": 0,
+        "detected": "01",
+        "initial_state": "C?",
+        "new_plans": "PHH",
+        "triggered": "00"
+      },
+      "outcomes": {
+        "operation_state": "binding_rejected",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/F33-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "missing or invalid original state value",
+        "report_state": "initial verification passed"
+      }
+    },
+    "F34/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        false,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HPH",
+        "B1_plan": "HPH",
+        "attempts": 0,
+        "detected": "10",
+        "initial_state": "?C",
+        "new_plans": "HPH",
+        "source_state": "CC",
+        "triggered": "00"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HPH",
+        "B1_plan": "HPH",
+        "attempts": 0,
+        "detected": "10",
+        "initial_state": "?C",
+        "new_plans": "HPH",
+        "triggered": "00"
+      },
+      "outcomes": {
+        "operation_state": "unchanged",
+        "report_state": "binding_rejected"
+      },
+      "receipt": "results/control-receipts/F34-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "initial verification passed",
+        "report_state": "missing or invalid original state value"
+      }
+    },
+    "F35/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        true
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HPH",
+        "B1_plan": "HPH",
+        "attempts": 0,
+        "detected": "10",
+        "initial_state": "CC",
+        "new_plans": "HPH",
+        "source_state": "CC",
+        "triggered": "00"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HPH",
+        "B1_plan": "HPH",
+        "attempts": 0,
+        "detected": "10",
+        "initial_state": "CC",
+        "new_plans": "HPH",
+        "triggered": "00"
+      },
+      "outcomes": {
+        "operation_state": "unchanged",
+        "report_state": "binding_rejected"
+      },
+      "receipt": "results/control-receipts/F35-1.json",
+      "recovered": [],
+      "target_recoveries": [],
+      "trigger_reason": {
+        "operation_state": "initial verification passed",
+        "report_state": "submitted target differs from the trusted scope"
+      }
+    },
+    "M3V7-GS1/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HHH",
+        "B1_plan": "HPH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "OO",
+        "new_plans": "HPH",
+        "source_state": "OC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HHH",
+        "B1_plan": "HPH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "OO",
+        "new_plans": "HPH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_complete",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/M3V7-GS1-1.json",
+      "recovered": [
+        "advance_operation"
+      ],
+      "target_recoveries": [
+        "advance_operation"
+      ],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    },
+    "M3V7-HN3/1": {
+      "B0_repeat_plan_offers": [],
+      "business_state_correct": [
+        true,
+        false
+      ],
+      "duplicate_plans": 0,
+      "ground_truth": {
+        "B0_plan": "HHH",
+        "B1_plan": "HPH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "OO",
+        "new_plans": "HPH",
+        "source_state": "OC",
+        "triggered": "01"
+      },
+      "matches_expectations": true,
+      "observed": {
+        "B0_plan": "HHH",
+        "B1_plan": "HPH",
+        "attempts": 1,
+        "detected": "01",
+        "initial_state": "OO",
+        "new_plans": "HPH",
+        "triggered": "01"
+      },
+      "outcomes": {
+        "operation_state": "verified_complete",
+        "report_state": "unchanged"
+      },
+      "receipt": "results/control-receipts/M3V7-HN3-1.json",
+      "recovered": [
+        "advance_operation"
+      ],
+      "target_recoveries": [
+        "advance_operation"
+      ],
+      "trigger_reason": {
+        "operation_state": "original state or references failed source verification",
+        "report_state": "initial verification passed"
+      }
+    }
+  },
+  "categories": {
+    "clean": {
+      "B0_false_hold": 0,
+      "B0_false_plan": 0,
+      "B0_repeat_plan_offers": 0,
+      "B1_false_hold": 0,
+      "B1_false_plan": 0,
+      "actually_recovered": 0,
+      "additional_including_ledger_open_close": 2005986,
+      "additional_model_calls": 0,
+      "already_correct_changed": 0,
+      "baseline": 734197,
+      "correct_holds": 7,
+      "detected_fields": 0,
+      "duplicates": 0,
+      "expectation_misses": 0,
+      "hold_targets": 7,
+      "initial_correct": 8,
+      "initial_invalid": 0,
+      "initial_wrong_complete": 0,
+      "initial_wrong_open": 0,
+      "logical_operations": 12,
+      "new_plans": 5,
+      "previously_planned": 0,
+      "receipts": 4,
+      "recovery_targets": 0,
+      "source_reads": 0,
+      "triggered_fields": 0,
+      "verified_evidence_corrections": 0,
+      "verified_state_corrections": 0
+    },
+    "mutation": {
+      "B0_false_hold": 25,
+      "B0_false_plan": 0,
+      "B0_repeat_plan_offers": 0,
+      "B1_false_hold": 0,
+      "B1_false_plan": 0,
+      "actually_recovered": 25,
+      "additional_including_ledger_open_close": 23227834,
+      "additional_model_calls": 0,
+      "already_correct_changed": 0,
+      "baseline": 4540122,
+      "correct_holds": 50,
+      "detected_fields": 37,
+      "duplicates": 0,
+      "expectation_misses": 0,
+      "hold_targets": 50,
+      "initial_correct": 51,
+      "initial_invalid": 4,
+      "initial_wrong_complete": 8,
+      "initial_wrong_open": 7,
+      "logical_operations": 105,
+      "new_plans": 55,
+      "previously_planned": 0,
+      "receipts": 35,
+      "recovery_targets": 25,
+      "source_reads": 27,
+      "triggered_fields": 28,
+      "verified_evidence_corrections": 8,
+      "verified_state_corrections": 13
+    },
+    "redelivery": {
+      "B0_false_hold": 2,
+      "B0_false_plan": 0,
+      "B0_repeat_plan_offers": 1,
+      "B1_false_hold": 0,
+      "B1_false_plan": 0,
+      "actually_recovered": 2,
+      "additional_including_ledger_open_close": 867569,
+      "additional_model_calls": 0,
+      "already_correct_changed": 0,
+      "baseline": 126303,
+      "correct_holds": 0,
+      "detected_fields": 1,
+      "duplicates": 0,
+      "expectation_misses": 0,
+      "hold_targets": 0,
+      "initial_correct": 1,
+      "initial_invalid": 0,
+      "initial_wrong_complete": 0,
+      "initial_wrong_open": 1,
+      "logical_operations": 3,
+      "new_plans": 0,
+      "previously_planned": 3,
+      "receipts": 1,
+      "recovery_targets": 2,
+      "source_reads": 1,
+      "triggered_fields": 1,
+      "verified_evidence_corrections": 0,
+      "verified_state_corrections": 1
+    },
+    "regression": {
+      "B0_false_hold": 2,
+      "B0_false_plan": 0,
+      "B0_repeat_plan_offers": 0,
+      "B1_false_hold": 0,
+      "B1_false_plan": 0,
+      "actually_recovered": 2,
+      "additional_including_ledger_open_close": 2685965,
+      "additional_model_calls": 0,
+      "already_correct_changed": 0,
+      "baseline": 289853,
+      "correct_holds": 4,
+      "detected_fields": 2,
+      "duplicates": 0,
+      "expectation_misses": 0,
+      "hold_targets": 4,
+      "initial_correct": 2,
+      "initial_invalid": 0,
+      "initial_wrong_complete": 0,
+      "initial_wrong_open": 2,
+      "logical_operations": 6,
+      "new_plans": 2,
+      "previously_planned": 0,
+      "receipts": 2,
+      "recovery_targets": 2,
+      "source_reads": 2,
+      "triggered_fields": 2,
+      "verified_evidence_corrections": 0,
+      "verified_state_corrections": 2
+    }
+  }
+}
