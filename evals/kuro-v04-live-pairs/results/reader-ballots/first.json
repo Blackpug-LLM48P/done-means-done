@@ -1,0 +1,74 @@
+{
+  "T-0780f64d70c33f6d66cdcc028275a275": {
+    "supported": true,
+    "preserves_specifics": true,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "E1では「野村さんに」が依頼の相手とも報告の相手とも読める。二人が別々の役割を担ったことは明記され、候補は依頼と報告の関係、会場、開式時刻を保っている。"
+  },
+  "T-27dcd53ff5e5f99fe7a290cc30133856": {
+    "supported": true,
+    "preserves_specifics": true,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "E1で依頼の相手は小森さん、報告の相手は野村さんと特定でき、候補の二人の役割はその通り。会場と開式時刻も一致する。"
+  },
+  "T-347c935c87f5d14c919b527f630796c5": {
+    "supported": true,
+    "preserves_specifics": true,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "写真家が撮影して編集者が受け取った三点で、神戸は三点の受取地として記録されている。候補はこの対応を明示し、整理番号と掲載予定も保つ。"
+  },
+  "T-8230713e4f4a0308b8fda1ff1fa3626d": {
+    "supported": true,
+    "preserves_specifics": true,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "E1では物置で発見された写しと資料館が受け取った写しが同一で、候補もそれを明示する。著者と受取日も一致する。"
+  },
+  "T-9584e9969c6b836745943a0f4a769389": {
+    "supported": true,
+    "preserves_specifics": true,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "E1の「物置で見つかった」は「航海日誌」にも「航海日誌の写し」にもかかる。候補は発見物が一点という情報と両方の読みを保ち、「その写し」を航海日誌の写しとして読むと受領物も一致する。著者と受取日も残る。"
+  },
+  "T-bd8543b33ab1dbe029461a9f8bf002f4": {
+    "supported": true,
+    "preserves_specifics": false,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "候補にある撮影者、受取人、三点という数量、整理番号、掲載予定は原票通り。ただしE1には撮影か受け取りのいずれかが神戸で行われたという情報があり、候補から地名が丸ごと消えている。"
+  },
+  "T-d2b1c2514d77d7bacc8ef6733d9746d8": {
+    "supported": true,
+    "preserves_specifics": true,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "E1では午後十時が「送信した」にも「転記した」にもかかり得る。候補は時刻を残してこの二つの読みを示し、送信者、転記者、対象水門、記入欄も保っている。"
+  },
+  "T-f737f14327e18fc45668e9669d0601a0": {
+    "supported": true,
+    "preserves_specifics": true,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "監視員から届いた速報を当直者が転記したことと、転記時刻が午後十時と記されたことがE1に対応する。候補の対象水門と記入欄もE2、E3通り。"
+  }
+}

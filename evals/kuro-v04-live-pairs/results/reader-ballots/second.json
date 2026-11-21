@@ -1,0 +1,74 @@
+{
+  "T-0780f64d70c33f6d66cdcc028275a275": {
+    "supported": true,
+    "preserves_specifics": true,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "E1では野村さんと小森さんが依頼と報告を一件ずつ受けている。「野村さんに」は頼んだ相手とも伝えた相手とも読める。候補は両名と別々の役割を残し、E2の会場とE3の時刻も一致する。"
+  },
+  "T-27dcd53ff5e5f99fe7a290cc30133856": {
+    "supported": true,
+    "preserves_specifics": true,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "E1は挨拶を頼まれたのが小森さん、依頼について報告を受けたのが野村さんと明記しており、候補の人名と役割が一致する。会場と開式時刻もE2・E3どおり。"
+  },
+  "T-347c935c87f5d14c919b527f630796c5": {
+    "supported": true,
+    "preserves_specifics": true,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "E1は三点を撮影したのが写真家、受け取ったのが編集者、神戸と記されたのが受取地と明記する。候補はこの区別を保持し、整理番号と掲載予定も残している。"
+  },
+  "T-8230713e4f4a0308b8fda1ff1fa3626d": {
+    "supported": true,
+    "preserves_specifics": true,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "E1は物置での発見物と資料館への引き渡し品を同じ写しと明記する。候補はその同一性を保ち、木島さんの役職と著者であること、受取日を正しく残す。"
+  },
+  "T-9584e9969c6b836745943a0f4a769389": {
+    "supported": true,
+    "preserves_specifics": true,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "E1の「物置で見つかった」は日誌にも写しにもかかりうる。候補には発見物が一点という記録、可能な二通り、資料館が受け取ったのが当該日誌の写しであることが残る。著者と受取日も一致する。"
+  },
+  "T-bd8543b33ab1dbe029461a9f8bf002f4": {
+    "supported": true,
+    "preserves_specifics": false,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "E1から編集者による受け取りと写真家による夜景写真三点の撮影は読み取れるので、候補の断定には根拠がある。一方、撮影と受け取りのいずれかに神戸が関わるという記録まで落ちた。整理番号と掲載予定は残る。"
+  },
+  "T-d2b1c2514d77d7bacc8ef6733d9746d8": {
+    "supported": true,
+    "preserves_specifics": true,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "E1の「午後十時に」は送信にも転記にもかかりうる。候補は両方の出来事と行為者、時刻とその係り先の曖昧さを明記し、北側水門と記入欄名も保持する。"
+  },
+  "T-f737f14327e18fc45668e9669d0601a0": {
+    "supported": true,
+    "preserves_specifics": true,
+    "facts": [
+      true,
+      true
+    ],
+    "reason": "E1では監視員からの速報を当直者が転記し、午後十時と記載された欄は転記時刻である。候補はこの対応を保ち、E2の対象とE3の記入欄も正確に残している。"
+  }
+}

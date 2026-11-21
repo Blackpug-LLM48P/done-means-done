@@ -1,0 +1,246 @@
+[
+  {
+    "candidate_good": null,
+    "changed_sentences": [],
+    "family": "F3",
+    "grade": null,
+    "needs_repair": false,
+    "r1": "clear",
+    "r1_only": "correct_pass",
+    "source": "a",
+    "unit_id": "L-2da4661199ff7189",
+    "verifier": "uncalled",
+    "with_verifier": "correct_pass"
+  },
+  {
+    "candidate_good": null,
+    "changed_sentences": [],
+    "family": "F2",
+    "grade": null,
+    "needs_repair": false,
+    "r1": "clear",
+    "r1_only": "correct_pass",
+    "source": "a",
+    "unit_id": "L-3eb514f9c68b3b30",
+    "verifier": "uncalled",
+    "with_verifier": "correct_pass"
+  },
+  {
+    "candidate_good": true,
+    "changed_sentences": [
+      1
+    ],
+    "family": "F4",
+    "grade": {
+      "alias": "T-27dcd53ff5e5f99fe7a290cc30133856",
+      "arbitrated_fields": [],
+      "criteria": {
+        "fact_1": true,
+        "fact_2": true,
+        "preserves_specifics": true,
+        "supported": true
+      }
+    },
+    "needs_repair": true,
+    "r1": "flagged",
+    "r1_only": "correct_repair",
+    "source": "b",
+    "unit_id": "L-86c528ac16c8788b",
+    "verifier": "approve",
+    "with_verifier": "correct_repair"
+  },
+  {
+    "candidate_good": null,
+    "changed_sentences": [],
+    "family": "F4",
+    "grade": null,
+    "needs_repair": false,
+    "r1": "clear",
+    "r1_only": "correct_pass",
+    "source": "a",
+    "unit_id": "L-8bb9802032169049",
+    "verifier": "uncalled",
+    "with_verifier": "correct_pass"
+  },
+  {
+    "candidate_good": true,
+    "changed_sentences": [
+      1
+    ],
+    "family": "F3",
+    "grade": {
+      "alias": "T-9584e9969c6b836745943a0f4a769389",
+      "arbitrated_fields": [],
+      "criteria": {
+        "fact_1": true,
+        "fact_2": true,
+        "preserves_specifics": true,
+        "supported": true
+      }
+    },
+    "needs_repair": true,
+    "r1": "flagged",
+    "r1_only": "correct_repair",
+    "source": "ambiguous",
+    "unit_id": "L-9e08e46e769a4191",
+    "verifier": "approve",
+    "with_verifier": "correct_repair"
+  },
+  {
+    "candidate_good": false,
+    "changed_sentences": [
+      1
+    ],
+    "family": "F1",
+    "grade": {
+      "alias": "T-bd8543b33ab1dbe029461a9f8bf002f4",
+      "arbitrated_fields": [],
+      "criteria": {
+        "fact_1": true,
+        "fact_2": true,
+        "preserves_specifics": false,
+        "supported": true
+      }
+    },
+    "needs_repair": true,
+    "r1": "flagged",
+    "r1_only": "wrong_offer",
+    "source": "ambiguous",
+    "unit_id": "L-a9d8bcdc7ec40ea9",
+    "verifier": "approve",
+    "with_verifier": "wrong_offer"
+  },
+  {
+    "candidate_good": true,
+    "changed_sentences": [
+      1
+    ],
+    "family": "F3",
+    "grade": {
+      "alias": "T-8230713e4f4a0308b8fda1ff1fa3626d",
+      "arbitrated_fields": [],
+      "criteria": {
+        "fact_1": true,
+        "fact_2": true,
+        "preserves_specifics": true,
+        "supported": true
+      }
+    },
+    "needs_repair": true,
+    "r1": "flagged",
+    "r1_only": "correct_repair",
+    "source": "b",
+    "unit_id": "L-a9fde8416d97ee36",
+    "verifier": "approve",
+    "with_verifier": "correct_repair"
+  },
+  {
+    "candidate_good": true,
+    "changed_sentences": [
+      1
+    ],
+    "family": "F4",
+    "grade": {
+      "alias": "T-0780f64d70c33f6d66cdcc028275a275",
+      "arbitrated_fields": [],
+      "criteria": {
+        "fact_1": true,
+        "fact_2": true,
+        "preserves_specifics": true,
+        "supported": true
+      }
+    },
+    "needs_repair": true,
+    "r1": "flagged",
+    "r1_only": "correct_repair",
+    "source": "ambiguous",
+    "unit_id": "L-ab0a5618adc28d81",
+    "verifier": "approve",
+    "with_verifier": "correct_repair"
+  },
+  {
+    "candidate_good": true,
+    "changed_sentences": [
+      1
+    ],
+    "family": "F2",
+    "grade": {
+      "alias": "T-d2b1c2514d77d7bacc8ef6733d9746d8",
+      "arbitrated_fields": [],
+      "criteria": {
+        "fact_1": true,
+        "fact_2": true,
+        "preserves_specifics": true,
+        "supported": true
+      }
+    },
+    "needs_repair": true,
+    "r1": "flagged",
+    "r1_only": "correct_repair",
+    "source": "ambiguous",
+    "unit_id": "L-d72b8e69c537cb91",
+    "verifier": "approve",
+    "with_verifier": "correct_repair"
+  },
+  {
+    "candidate_good": null,
+    "changed_sentences": [],
+    "family": "F1",
+    "grade": null,
+    "needs_repair": false,
+    "r1": "clear",
+    "r1_only": "correct_pass",
+    "source": "a",
+    "unit_id": "L-de2abd0b92f92b9a",
+    "verifier": "uncalled",
+    "with_verifier": "correct_pass"
+  },
+  {
+    "candidate_good": true,
+    "changed_sentences": [
+      1
+    ],
+    "family": "F2",
+    "grade": {
+      "alias": "T-f737f14327e18fc45668e9669d0601a0",
+      "arbitrated_fields": [],
+      "criteria": {
+        "fact_1": true,
+        "fact_2": true,
+        "preserves_specifics": true,
+        "supported": true
+      }
+    },
+    "needs_repair": true,
+    "r1": "flagged",
+    "r1_only": "correct_repair",
+    "source": "b",
+    "unit_id": "L-eba686f0dac3b1c0",
+    "verifier": "approve",
+    "with_verifier": "correct_repair"
+  },
+  {
+    "candidate_good": true,
+    "changed_sentences": [
+      1
+    ],
+    "family": "F1",
+    "grade": {
+      "alias": "T-347c935c87f5d14c919b527f630796c5",
+      "arbitrated_fields": [],
+      "criteria": {
+        "fact_1": true,
+        "fact_2": true,
+        "preserves_specifics": true,
+        "supported": true
+      }
+    },
+    "needs_repair": true,
+    "r1": "flagged",
+    "r1_only": "correct_repair",
+    "source": "b",
+    "unit_id": "L-fa76c826657e03b9",
+    "verifier": "approve",
+    "with_verifier": "correct_repair"
+  }
+]

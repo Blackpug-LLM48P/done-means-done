@@ -1,0 +1,288 @@
+{
+  "by_source": {
+    "a": {
+      "bad_candidates": 0,
+      "bad_candidates_approved": 0,
+      "bad_candidates_stopped": {
+        "denominator": 0,
+        "numerator": 0,
+        "rate": null
+      },
+      "candidates": 0,
+      "cases": 4,
+      "clean": 4,
+      "good_candidates": 0,
+      "good_candidates_held": {
+        "denominator": 0,
+        "numerator": 0,
+        "rate": null
+      },
+      "needs_repair": 0,
+      "r1_clear_missed": {
+        "denominator": 0,
+        "numerator": 0,
+        "rate": null
+      },
+      "r1_invalid": 0,
+      "r1_missing": 0,
+      "r1_only": {
+        "clean_overediting_offered": 0,
+        "clean_pass": {
+          "denominator": 4,
+          "numerator": 4,
+          "rate": 1.0
+        },
+        "correct_automatic_resolution": 4,
+        "correct_pass": 4,
+        "correct_repair": 0,
+        "explicit_hold": 0,
+        "invalid_response": 0,
+        "missed_repair": 0,
+        "missing_response": 0,
+        "repairs_offered": {
+          "denominator": 0,
+          "numerator": 0,
+          "rate": null
+        },
+        "wrong_offer": 0
+      },
+      "verifier_invalid": 0,
+      "verifier_missing": 0,
+      "with_verifier": {
+        "clean_overediting_offered": 0,
+        "clean_pass": {
+          "denominator": 4,
+          "numerator": 4,
+          "rate": 1.0
+        },
+        "correct_automatic_resolution": 4,
+        "correct_pass": 4,
+        "correct_repair": 0,
+        "explicit_hold": 0,
+        "invalid_response": 0,
+        "missed_repair": 0,
+        "missing_response": 0,
+        "repairs_offered": {
+          "denominator": 0,
+          "numerator": 0,
+          "rate": null
+        },
+        "wrong_offer": 0
+      }
+    },
+    "ambiguous": {
+      "bad_candidates": 1,
+      "bad_candidates_approved": 1,
+      "bad_candidates_stopped": {
+        "denominator": 1,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "candidates": 4,
+      "cases": 4,
+      "clean": 0,
+      "good_candidates": 3,
+      "good_candidates_held": {
+        "denominator": 3,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "needs_repair": 4,
+      "r1_clear_missed": {
+        "denominator": 4,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "r1_invalid": 0,
+      "r1_missing": 0,
+      "r1_only": {
+        "clean_overediting_offered": 0,
+        "clean_pass": {
+          "denominator": 0,
+          "numerator": 0,
+          "rate": null
+        },
+        "correct_automatic_resolution": 3,
+        "correct_pass": 0,
+        "correct_repair": 3,
+        "explicit_hold": 0,
+        "invalid_response": 0,
+        "missed_repair": 0,
+        "missing_response": 0,
+        "repairs_offered": {
+          "denominator": 4,
+          "numerator": 3,
+          "rate": 0.75
+        },
+        "wrong_offer": 1
+      },
+      "verifier_invalid": 0,
+      "verifier_missing": 0,
+      "with_verifier": {
+        "clean_overediting_offered": 0,
+        "clean_pass": {
+          "denominator": 0,
+          "numerator": 0,
+          "rate": null
+        },
+        "correct_automatic_resolution": 3,
+        "correct_pass": 0,
+        "correct_repair": 3,
+        "explicit_hold": 0,
+        "invalid_response": 0,
+        "missed_repair": 0,
+        "missing_response": 0,
+        "repairs_offered": {
+          "denominator": 4,
+          "numerator": 3,
+          "rate": 0.75
+        },
+        "wrong_offer": 1
+      }
+    },
+    "b": {
+      "bad_candidates": 0,
+      "bad_candidates_approved": 0,
+      "bad_candidates_stopped": {
+        "denominator": 0,
+        "numerator": 0,
+        "rate": null
+      },
+      "candidates": 4,
+      "cases": 4,
+      "clean": 0,
+      "good_candidates": 4,
+      "good_candidates_held": {
+        "denominator": 4,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "needs_repair": 4,
+      "r1_clear_missed": {
+        "denominator": 4,
+        "numerator": 0,
+        "rate": 0.0
+      },
+      "r1_invalid": 0,
+      "r1_missing": 0,
+      "r1_only": {
+        "clean_overediting_offered": 0,
+        "clean_pass": {
+          "denominator": 0,
+          "numerator": 0,
+          "rate": null
+        },
+        "correct_automatic_resolution": 4,
+        "correct_pass": 0,
+        "correct_repair": 4,
+        "explicit_hold": 0,
+        "invalid_response": 0,
+        "missed_repair": 0,
+        "missing_response": 0,
+        "repairs_offered": {
+          "denominator": 4,
+          "numerator": 4,
+          "rate": 1.0
+        },
+        "wrong_offer": 0
+      },
+      "verifier_invalid": 0,
+      "verifier_missing": 0,
+      "with_verifier": {
+        "clean_overediting_offered": 0,
+        "clean_pass": {
+          "denominator": 0,
+          "numerator": 0,
+          "rate": null
+        },
+        "correct_automatic_resolution": 4,
+        "correct_pass": 0,
+        "correct_repair": 4,
+        "explicit_hold": 0,
+        "invalid_response": 0,
+        "missed_repair": 0,
+        "missing_response": 0,
+        "repairs_offered": {
+          "denominator": 4,
+          "numerator": 4,
+          "rate": 1.0
+        },
+        "wrong_offer": 0
+      }
+    }
+  },
+  "overall": {
+    "bad_candidates": 1,
+    "bad_candidates_approved": 1,
+    "bad_candidates_stopped": {
+      "denominator": 1,
+      "numerator": 0,
+      "rate": 0.0
+    },
+    "candidates": 8,
+    "cases": 12,
+    "clean": 4,
+    "good_candidates": 7,
+    "good_candidates_held": {
+      "denominator": 7,
+      "numerator": 0,
+      "rate": 0.0
+    },
+    "needs_repair": 8,
+    "r1_clear_missed": {
+      "denominator": 8,
+      "numerator": 0,
+      "rate": 0.0
+    },
+    "r1_invalid": 0,
+    "r1_missing": 0,
+    "r1_only": {
+      "clean_overediting_offered": 0,
+      "clean_pass": {
+        "denominator": 4,
+        "numerator": 4,
+        "rate": 1.0
+      },
+      "correct_automatic_resolution": 11,
+      "correct_pass": 4,
+      "correct_repair": 7,
+      "explicit_hold": 0,
+      "invalid_response": 0,
+      "missed_repair": 0,
+      "missing_response": 0,
+      "repairs_offered": {
+        "denominator": 8,
+        "numerator": 7,
+        "rate": 0.875
+      },
+      "wrong_offer": 1
+    },
+    "verifier_invalid": 0,
+    "verifier_missing": 0,
+    "with_verifier": {
+      "clean_overediting_offered": 0,
+      "clean_pass": {
+        "denominator": 4,
+        "numerator": 4,
+        "rate": 1.0
+      },
+      "correct_automatic_resolution": 11,
+      "correct_pass": 4,
+      "correct_repair": 7,
+      "explicit_hold": 0,
+      "invalid_response": 0,
+      "missed_repair": 0,
+      "missing_response": 0,
+      "repairs_offered": {
+        "denominator": 8,
+        "numerator": 7,
+        "rate": 0.875
+      },
+      "wrong_offer": 1
+    }
+  },
+  "reader_agreement": {
+    "candidates": 8,
+    "fully_agreed": 8
+  }
+}
