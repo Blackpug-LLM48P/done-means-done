@@ -1,0 +1,269 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '初期位置表示の確認': met per ['DK-307']",
+          "operation_state: '導入後の中心位置確認': pending per ['DK-242']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '基準星名の照合': met per ['DK-169']",
+          "report_state: '撮像時刻の照合': met per ['DK-980']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '基準星名の照合': met per ['DK-169']",
+          "report_state: '撮像時刻の照合': met per ['DK-980']",
+          "operation_state: '初期位置表示の確認': met per ['DK-307']",
+          "operation_state: '導入後の中心位置確認': pending per ['DK-242']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-10-12T17:30:00+09:00",
+    "case_id": "N2F8X",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月12日17時30分時点で、試験観測票（第4版）の照合は完了しています。試験視野の星の並びから確認した基準星はベガで、観測票の記載と一致しました。撮像時刻も画像ヘッダーの現地時刻と照合済みです。望遠鏡の導入試験では、制御卓の初期位置表示が据え付け位置の目盛と一致しました。17時09分に確認した直近の試験画像では、星像の中心が基準線から7画素ずれ、許容円の外にありました。17時18分の電話では再調整で中心に入ったとの話がありましたが、再調整後の位置は直接確認できておらず、導入試験は保留です。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-12T17:30:00+09:00",
+        "evidence_refs": [
+          "DK-242"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'初期位置表示の確認': met per ['DK-307']",
+          "'導入後の中心位置確認': pending per ['DK-242']"
+        ],
+        "revision": 4,
+        "scope": "望遠鏡の導入試験",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-12T17:30:00+09:00",
+        "evidence_refs": [
+          "DK-169",
+          "DK-980"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'基準星名の照合': met per ['DK-169']",
+          "'撮像時刻の照合': met per ['DK-980']"
+        ],
+        "revision": 4,
+        "scope": "試験観測票",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "10月12日17時30分時点で、試験観測票（第4版）の照合は完了しています。試験視野の星の並びから確認した基準星はベガで、観測票の記載と一致しました。撮像時刻も画像ヘッダーの現地時刻と照合済みです。望遠鏡の導入試験では、制御卓の初期位置表示が据え付け位置の目盛と一致しました。17時09分に確認した直近の試験画像では、星像の中心が基準線から7画素ずれ、許容円の外にありました。17時18分の電話では再調整で中心に入ったとの話がありましたが、再調整後の位置は直接確認できておらず、導入試験は保留です。",
+    "revision": 4
+  },
+  "B1": {
+    "action_keys": {
+      "archive_report": "[\"N2F8X\",4,[63927477000,\"\"],\"archive_report\",[\"試験観測票\"]]"
+    },
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '初期位置表示の確認': met per ['DK-307']",
+          "operation_state: '導入後の中心位置確認': pending per ['DK-242']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '基準星名の照合': met per ['DK-169']",
+          "report_state: '撮像時刻の照合': met per ['DK-980']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '基準星名の照合': met per ['DK-169']",
+          "report_state: '撮像時刻の照合': met per ['DK-980']",
+          "operation_state: '初期位置表示の確認': met per ['DK-307']",
+          "operation_state: '導入後の中心位置確認': pending per ['DK-242']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-10-12T17:30:00+09:00",
+    "case_id": "N2F8X",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月12日17時30分時点で、試験観測票（第4版）の照合は完了しています。試験視野の星の並びから確認した基準星はベガで、観測票の記載と一致しました。撮像時刻も画像ヘッダーの現地時刻と照合済みです。望遠鏡の導入試験では、制御卓の初期位置表示が据え付け位置の目盛と一致しました。17時09分に確認した直近の試験画像では、星像の中心が基準線から7画素ずれ、許容円の外にありました。17時18分の電話では再調整で中心に入ったとの話がありましたが、再調整後の位置は直接確認できておらず、導入試験は保留です。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-12T17:30:00+09:00",
+        "evidence_refs": [
+          "DK-242"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'初期位置表示の確認': met per ['DK-307']",
+          "'導入後の中心位置確認': pending per ['DK-242']"
+        ],
+        "revision": 4,
+        "scope": "望遠鏡の導入試験",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-12T17:30:00+09:00",
+        "evidence_refs": [
+          "DK-169",
+          "DK-980"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'基準星名の照合': met per ['DK-169']",
+          "'撮像時刻の照合': met per ['DK-980']"
+        ],
+        "revision": 4,
+        "scope": "試験観測票",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "10月12日17時30分時点で、試験観測票（第4版）の照合は完了しています。試験視野の星の並びから確認した基準星はベガで、観測票の記載と一致しました。撮像時刻も画像ヘッダーの現地時刻と照合済みです。望遠鏡の導入試験では、制御卓の初期位置表示が据え付け位置の目盛と一致しました。17時09分に確認した直近の試験画像では、星像の中心が基準線から7画素ずれ、許容円の外にありました。17時18分の電話では再調整で中心に入ったとの話がありましたが、再調整後の位置は直接確認できておらず、導入試験は保留です。",
+    "newly_planned": [
+      "archive_report"
+    ],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月12日17時30分時点で、試験観測票（第4版）の照合は完了しています。試験視野の星の並びから確認した基準星はベガで、観測票の記載と一致しました。撮像時刻も画像ヘッダーの現地時刻と照合済みです。望遠鏡の導入試験では、制御卓の初期位置表示が据え付け位置の目盛と一致しました。17時09分に確認した直近の試験画像では、星像の中心が基準線から7画素ずれ、許容円の外にありました。17時18分の電話では再調整で中心に入ったとの話がありましたが、再調整後の位置は直接確認できておらず、導入試験は保留です。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-12T17:30:00+09:00",
+        "evidence_refs": [
+          "DK-242"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'初期位置表示の確認': met per ['DK-307']",
+          "'導入後の中心位置確認': pending per ['DK-242']"
+        ],
+        "revision": 4,
+        "scope": "望遠鏡の導入試験",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-12T17:30:00+09:00",
+        "evidence_refs": [
+          "DK-169",
+          "DK-980"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'基準星名の照合': met per ['DK-169']",
+          "'撮像時刻の照合': met per ['DK-980']"
+        ],
+        "revision": 4,
+        "scope": "試験観測票",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "original_response": {
+      "handoff": "10月12日17時30分時点で、試験観測票（第4版）の照合は完了しています。試験視野の星の並びから確認した基準星はベガで、観測票の記載と一致しました。撮像時刻も画像ヘッダーの現地時刻と照合済みです。望遠鏡の導入試験では、制御卓の初期位置表示が据え付け位置の目盛と一致しました。17時09分に確認した直近の試験画像では、星像の中心が基準線から7画素ずれ、許容円の外にありました。17時18分の電話では再調整で中心に入ったとの話がありましたが、再調整後の位置は直接確認できておらず、導入試験は保留です。",
+      "operation_state": {
+        "as_of": "2026-10-12T17:30:00+09:00",
+        "evidence_refs": [
+          "DK-242"
+        ],
+        "revision": 4,
+        "scope": "望遠鏡の導入試験",
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-12T17:30:00+09:00",
+        "evidence_refs": [
+          "DK-169",
+          "DK-980"
+        ],
+        "revision": 4,
+        "scope": "試験観測票",
+        "value": "complete"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": 4
+  }
+}

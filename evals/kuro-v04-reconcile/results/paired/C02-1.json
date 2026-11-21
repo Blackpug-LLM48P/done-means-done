@@ -1,0 +1,269 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '分岐先と確定設計の照合': met per ['IM-297']",
+          "operation_state: '無回答経路の通し試験': pending per ['IM-643']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '参加人数と回答原票の照合': met per ['IM-405']",
+          "report_state: '修正理由の記載確認': met per ['IM-582']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '参加人数と回答原票の照合': met per ['IM-405']",
+          "report_state: '修正理由の記載確認': met per ['IM-582']",
+          "operation_state: '分岐先と確定設計の照合': met per ['IM-297']",
+          "operation_state: '無回答経路の通し試験': pending per ['IM-643']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-10-07T16:30:00+09:00",
+    "case_id": "WZW36",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月7日16時30分時点で、『夕市の買い物調査』r6の予備調査の検証は完了しています。参加人数は12人で、回答原票の人数と一致しました。選択肢「その他」を追加した理由も、検証記録の改訂欄で確認済みです。本番フォームでは、青果を選ぶと確定設計どおり設問Q17bに進む設定です。公開準備は未完了です。16時08分の再試験では、購入品を選ばずに進むと空の必須欄に戻り、送信画面に到達できませんでした。設計担当者からは修正後に通過したとの連絡がありますが、修正後の通過を直接確認した記録はありません。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-07T16:30:00+09:00",
+        "evidence_refs": [
+          "IM-643"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'分岐先と確定設計の照合': met per ['IM-297']",
+          "'無回答経路の通し試験': pending per ['IM-643']"
+        ],
+        "revision": "r6",
+        "scope": "本番フォームの公開準備",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-07T16:30:00+09:00",
+        "evidence_refs": [
+          "IM-405",
+          "IM-582"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'参加人数と回答原票の照合': met per ['IM-405']",
+          "'修正理由の記載確認': met per ['IM-582']"
+        ],
+        "revision": "r6",
+        "scope": "予備調査の検証記録",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "10月7日16時30分時点で、『夕市の買い物調査』r6の予備調査の検証は完了しています。参加人数は12人で、回答原票の人数と一致しました。選択肢「その他」を追加した理由も、検証記録の改訂欄で確認済みです。本番フォームでは、青果を選ぶと確定設計どおり設問Q17bに進む設定です。公開準備は未完了です。16時08分の再試験では、購入品を選ばずに進むと空の必須欄に戻り、送信画面に到達できませんでした。設計担当者からは修正後に通過したとの連絡がありますが、修正後の通過を直接確認した記録はありません。",
+    "revision": "r6"
+  },
+  "B1": {
+    "action_keys": {
+      "archive_report": "[\"WZW36\",\"r6\",[63927041400,\"\"],\"archive_report\",[\"予備調査の検証記録\"]]"
+    },
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '分岐先と確定設計の照合': met per ['IM-297']",
+          "operation_state: '無回答経路の通し試験': pending per ['IM-643']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '参加人数と回答原票の照合': met per ['IM-405']",
+          "report_state: '修正理由の記載確認': met per ['IM-582']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '参加人数と回答原票の照合': met per ['IM-405']",
+          "report_state: '修正理由の記載確認': met per ['IM-582']",
+          "operation_state: '分岐先と確定設計の照合': met per ['IM-297']",
+          "operation_state: '無回答経路の通し試験': pending per ['IM-643']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-10-07T16:30:00+09:00",
+    "case_id": "WZW36",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月7日16時30分時点で、『夕市の買い物調査』r6の予備調査の検証は完了しています。参加人数は12人で、回答原票の人数と一致しました。選択肢「その他」を追加した理由も、検証記録の改訂欄で確認済みです。本番フォームでは、青果を選ぶと確定設計どおり設問Q17bに進む設定です。公開準備は未完了です。16時08分の再試験では、購入品を選ばずに進むと空の必須欄に戻り、送信画面に到達できませんでした。設計担当者からは修正後に通過したとの連絡がありますが、修正後の通過を直接確認した記録はありません。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-07T16:30:00+09:00",
+        "evidence_refs": [
+          "IM-643"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'分岐先と確定設計の照合': met per ['IM-297']",
+          "'無回答経路の通し試験': pending per ['IM-643']"
+        ],
+        "revision": "r6",
+        "scope": "本番フォームの公開準備",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-07T16:30:00+09:00",
+        "evidence_refs": [
+          "IM-405",
+          "IM-582"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'参加人数と回答原票の照合': met per ['IM-405']",
+          "'修正理由の記載確認': met per ['IM-582']"
+        ],
+        "revision": "r6",
+        "scope": "予備調査の検証記録",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "10月7日16時30分時点で、『夕市の買い物調査』r6の予備調査の検証は完了しています。参加人数は12人で、回答原票の人数と一致しました。選択肢「その他」を追加した理由も、検証記録の改訂欄で確認済みです。本番フォームでは、青果を選ぶと確定設計どおり設問Q17bに進む設定です。公開準備は未完了です。16時08分の再試験では、購入品を選ばずに進むと空の必須欄に戻り、送信画面に到達できませんでした。設計担当者からは修正後に通過したとの連絡がありますが、修正後の通過を直接確認した記録はありません。",
+    "newly_planned": [
+      "archive_report"
+    ],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月7日16時30分時点で、『夕市の買い物調査』r6の予備調査の検証は完了しています。参加人数は12人で、回答原票の人数と一致しました。選択肢「その他」を追加した理由も、検証記録の改訂欄で確認済みです。本番フォームでは、青果を選ぶと確定設計どおり設問Q17bに進む設定です。公開準備は未完了です。16時08分の再試験では、購入品を選ばずに進むと空の必須欄に戻り、送信画面に到達できませんでした。設計担当者からは修正後に通過したとの連絡がありますが、修正後の通過を直接確認した記録はありません。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-07T16:30:00+09:00",
+        "evidence_refs": [
+          "IM-643"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'分岐先と確定設計の照合': met per ['IM-297']",
+          "'無回答経路の通し試験': pending per ['IM-643']"
+        ],
+        "revision": "r6",
+        "scope": "本番フォームの公開準備",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-07T16:30:00+09:00",
+        "evidence_refs": [
+          "IM-405",
+          "IM-582"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'参加人数と回答原票の照合': met per ['IM-405']",
+          "'修正理由の記載確認': met per ['IM-582']"
+        ],
+        "revision": "r6",
+        "scope": "予備調査の検証記録",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "original_response": {
+      "handoff": "10月7日16時30分時点で、『夕市の買い物調査』r6の予備調査の検証は完了しています。参加人数は12人で、回答原票の人数と一致しました。選択肢「その他」を追加した理由も、検証記録の改訂欄で確認済みです。本番フォームでは、青果を選ぶと確定設計どおり設問Q17bに進む設定です。公開準備は未完了です。16時08分の再試験では、購入品を選ばずに進むと空の必須欄に戻り、送信画面に到達できませんでした。設計担当者からは修正後に通過したとの連絡がありますが、修正後の通過を直接確認した記録はありません。",
+      "operation_state": {
+        "as_of": "2026-10-07T16:30:00+09:00",
+        "evidence_refs": [
+          "IM-643"
+        ],
+        "revision": "r6",
+        "scope": "本番フォームの公開準備",
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-07T16:30:00+09:00",
+        "evidence_refs": [
+          "IM-405",
+          "IM-582"
+        ],
+        "revision": "r6",
+        "scope": "予備調査の検証記録",
+        "value": "complete"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": "r6"
+  }
+}
