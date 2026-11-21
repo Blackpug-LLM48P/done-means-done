@@ -1,0 +1,22 @@
+{
+  "AQ4": {
+    "target": "audit",
+    "arm": "v04",
+    "added_instruction": "この回答の state は、締め時刻時点の件数と必要な荷番を正しく照合して、この報告を作成できたかを表します。"
+  },
+  "GF7": {
+    "target": "audit",
+    "arm": "proposal",
+    "added_instruction": "この回答の state は、締め時刻時点の件数と必要な荷番を正しく照合して、この報告を作成できたかを表します。"
+  },
+  "YK1": {
+    "target": "delivery",
+    "arm": "v04",
+    "added_instruction": "この回答の state は、締め時刻までに対象便の配達が全件完了したかを表します。"
+  },
+  "LK6": {
+    "target": "delivery",
+    "arm": "proposal",
+    "added_instruction": "この回答の state は、締め時刻までに対象便の配達が全件完了したかを表します。"
+  }
+}
