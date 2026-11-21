@@ -1,0 +1,510 @@
+{
+  "R-0ca67b673ccd53d99b00f278": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "貸出票と借入記録の貸出元は朝凪合唱団で、到着分を現物で数えた結果は12部。返却日入力と声部別の仕分けが残る。"
+  },
+  "R-15a2a0013bb0e54d59973f6c": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "RE-418の番号・荷受場到着時刻と一致。残部の翌朝便は製本所の見込みとして伝えている。"
+  },
+  "R-1bbfdad69e8fb202ac2c5324": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "現物の2点と山高帽H-42、麦わら帽H-43が一致する。16時までに個体札を取り付けたのは山高帽のみ。"
+  },
+  "R-1cd5cbcc1b7fa7a1b874026c": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "RK-705で故障票の受付は10時24分、RK-658で受取人は音響係の古賀。接続試験と設置の記述も確認時点に即している。"
+  },
+  "R-36fc2a115f772affa6378421": {
+    "bad_sentence_ids": [
+      1
+    ],
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "issues": [
+      {
+        "quote": "『つばめ宿』から受領した",
+        "reason": "依頼は「『つばめ宿』で借りた帽子」とし、現物記録は点数を示す。引き渡し元が『つばめ宿』であるという記録はない。",
+        "sentence_id": 1
+      }
+    ],
+    "notes": "現物の2点と山高帽H-42、麦わら帽H-43が一致する。16時までに個体札を取り付けたのは山高帽のみ。"
+  },
+  "R-3ac9341e584baaa111f64495": {
+    "bad_sentence_ids": [
+      2
+    ],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [
+      {
+        "quote": "会場の緑町公民館が変更を発表しました",
+        "reason": "KY-582の発表主体は朗読会実行委員会。緑町公民館は会場。",
+        "sentence_id": 2
+      }
+    ],
+    "notes": "案内番号と新時刻はKY-582・KY-136に一致。発表主体が異なる。"
+  },
+  "R-41c2c45d7e0ffe5aae5ed1f4": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "受付票の障-719、ログの発券再開9時46分が明記されている。10時41分にも現場に休止札が残っていた。"
+  },
+  "R-44b2b318d784d4b6fdb67c64": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "UF-519の18冊とUF-942の配架先を明記。署名待ちと配架済みも区別している。"
+  },
+  "R-47fb743c7e204613d3191743": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "受付票の障-719、ログの発券再開9時46分が明記されている。10時41分にも現場に休止札が残っていた。"
+  },
+  "R-485e07cb32fc985adc9984e3": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "RK-705・RK-658どおり受付時刻と受取人を明記し、保管までの完了と接続試験待ちを正しく伝えている。"
+  },
+  "R-50826661441275fbc56bc28a": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "窓口への持参と安西による受け取りは現物の受け渡しと署名入り受領票に合う。提出報告は画像添付待ち。"
+  },
+  "R-52d913734bacf39bebf4b399": {
+    "bad_sentence_ids": [
+      2
+    ],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [
+      {
+        "quote": "寄贈誌の全18冊で確認済み",
+        "reason": "UF-674が青いカバーを現物確認した範囲は閲覧用見本の3冊。残り15冊には確認記録がない。",
+        "sentence_id": 2
+      }
+    ],
+    "notes": "必須の受入18冊・配架先郷-06はいずれも正しい。カバーの確認冊数のみ拡大。"
+  },
+  "R-5ad6adbf3585125a84dfb6b8": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "窓口への持参と安西による受け取りは現物の受け渡しと署名入り受領票に合う。提出報告は画像添付待ち。"
+  },
+  "R-5d456d5e6d4fb04e19687b9b": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "受領2点と両帽子の番号はAM-524・AM-176どおり。16時時点で取り付けたのは山高帽のみ。"
+  },
+  "R-61bc78bfd074a2bff6daf040": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "明-562と荷受場到着15時28分は荷受記録と整合する。受領印と会場内引き渡しは未了で、残部の翌朝便は製本所が可能性を伝えた段階。"
+  },
+  "R-69fb88e55e90f05293bf5714": {
+    "bad_sentence_ids": [
+      1
+    ],
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "issues": [
+      {
+        "quote": "「つばめ宿」から受領した",
+        "reason": "依頼の「『つばめ宿』で借りた」は案件を特定する記述。AM-524は点数を確認したのみで、『つばめ宿』が現物の受け渡し元だったとは確認できない。",
+        "sentence_id": 1
+      }
+    ],
+    "notes": "受領2点、山高帽H-42・麦わら帽H-43と取り付け状況は正確。受け渡し元の特定には記録がない。"
+  },
+  "R-6d2e187a34876f8d90853115": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "作成者欄と当番表で池田、西玄関の掲示板で差し替えを確認している。両作業の完了も記録に合う。"
+  },
+  "R-795da4b1b7dd91f65d0e69df": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "KY-582・KY-136で両必須事実を確認。会場と委員会の役割、掲示完了の記述も一致。"
+  },
+  "R-80af72614e25446fbf555003": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "作成者欄と当番表で池田、西玄関の掲示板で差し替えを確認している。両作業の完了も記録に合う。"
+  },
+  "R-81c476a0d3ab643814683269": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "案内番号・新開演時刻が一致。14時18分をポスターの掲出を確認した時刻として用いている。"
+  },
+  "R-82a640ad83ba10a735904618": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "受入18冊と見本の棚番号郷-06を明記。青いカバーの確認対象を見本3冊に限定している。"
+  },
+  "R-84cd636398cde1fb9ec19dd5": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "案内番号・変更後の時刻、版記号の照合と掲出の現地確認がKY-582からKY-491の記録に沿う。"
+  },
+  "R-8a587edb7e8f1e0bd52d41d1": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "受付での故障票受領は10時24分、予備機の受取人は音響係の古賀。原本保管済みで接続試験が残る。"
+  },
+  "R-8fffcf5871dc8ad87e26c0e3": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "UF-519の全18冊の照合と、UF-942の郷-06での3冊の確認を正しく伝える。"
+  },
+  "R-905028ebf3f107862132d1c3": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "貸出票と借入記録の貸出元は朝凪合唱団で、到着分を現物で数えた結果は12部。返却日入力と声部別の仕分けが残る。"
+  },
+  "R-915dd9e587c6256e4d09c40b": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "AM-524・AM-176の数量と割当が一致。16時時点で添付済み、麦わら帽は確認待ち。"
+  },
+  "R-9e4881bfb38ccdf97e5d7370": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "受付での故障票受領は10時24分、予備機の受取人は音響係の古賀。原本保管済みで接続試験が残る。"
+  },
+  "R-a0de10687ec38f0123ab43f1": {
+    "bad_sentence_ids": [
+      2
+    ],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [
+      {
+        "quote": "その場で色校正を始めました",
+        "reason": "前日のメールにあるのは安西の希望。MI-576が記録したのは見本の受領と署名入り受領票の交付まで。",
+        "sentence_id": 2
+      }
+    ],
+    "notes": "MI-431・MI-576どおり窓口への持参と安西の受領を伝えている。色校正の開始は未確認。"
+  },
+  "R-a4484021ac99791c76c7cfc9": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "作成者欄と当番表で池田、西玄関の掲示板で差し替えを確認している。両作業の完了も記録に合う。"
+  },
+  "R-af677f4a18c2770b2a57265f": {
+    "bad_sentence_ids": [
+      2
+    ],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [
+      {
+        "quote": "緑町公民館で変更を発表した",
+        "reason": "KY-582で緑町公民館と明示されるのは会場と変更案内を受け取った場所。実行委員会が発表した場所までは特定できない。",
+        "sentence_id": 2
+      }
+    ],
+    "notes": "案内番号・変更後の時刻と発表主体は正確。受取場所を発表場所にも結び付けている。"
+  },
+  "R-b57248d758aec79306296397": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "催-284と18時30分は報告欄と委員会の変更案内で照合済みで、発表主体と掲示先も記録に合う。"
+  },
+  "R-b82347e4906f0cd67c43db2b": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "MI-431・MI-576で持参、安西の受領、署名入り受領票を確認。添付待ちもMI-890に一致。"
+  },
+  "R-bb1c145f59ecfb482c1da7fa": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "作成者欄と当番表で池田、西玄関の掲示板で差し替えを確認している。両作業の完了も記録に合う。"
+  },
+  "R-bc6b4a6f3721c863d01f723e": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "RE-418の時刻・番号を明示し、RE-295の未押印とRE-538の会場手前での待機を区別している。"
+  },
+  "R-bc899e68b18940982c79e280": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "現物の2点と山高帽H-42、麦わら帽H-43が一致する。16時までに個体札を取り付けたのは山高帽のみ。"
+  },
+  "R-be573700ac71c06ac8381e38": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "NH-806・NH-254に番号と再開時刻が一致。再起動と発券再開の前後関係はログに記録されている。"
+  },
+  "R-c6bbede1603037e2ae2b3a91": {
+    "bad_sentence_ids": [
+      1
+    ],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [
+      {
+        "quote": "録音機の停止も同時刻でした",
+        "reason": "10時24分は受付が故障票を受け取った時刻。録音機本体の停止時刻を示す記録はない。",
+        "sentence_id": 1
+      }
+    ],
+    "notes": "受付での故障票受領は10時24分、予備機の受取人は音響係の古賀。原本保管済みで接続試験が残る。"
+  },
+  "R-d734730be81d708d813bc0d4": {
+    "bad_sentence_ids": [
+      1
+    ],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [
+      {
+        "quote": "池田が演目変更を決裁しました",
+        "reason": "EN-846で池田は会議記録の作成者。EN-309の決裁者署名は公演責任者の長尾。",
+        "sentence_id": 1
+      }
+    ],
+    "notes": "EN-846・EN-162の作成者と実際の差し替え場所は示されているが、作成者に決裁も帰属させた。"
+  },
+  "R-d908ba03d4a6b73a0c823198": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "貸出票と借入記録の貸出元は朝凪合唱団で、到着分を現物で数えた結果は12部。返却日入力と声部別の仕分けが残る。"
+  },
+  "R-e8f4f34184b7b06fedf7751b": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "UF-519・UF-942の数量と棚番号を満たし、カバーの確認をUF-674の見本3冊に限定している。"
+  },
+  "R-eb0d748854e8d78b8c244004": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "窓口への持参と安西による受け取りは現物の受け渡しと署名入り受領票に合う。提出報告は画像添付待ち。"
+  },
+  "R-ed047e8a83b8e2bc7a3a5eda": {
+    "bad_sentence_ids": [
+      3
+    ],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [
+      {
+        "quote": "翌朝の便に載せることが決まった",
+        "reason": "RE-154は製本所から可能性の連絡があったという記録で、翌朝便への搭載が決定したという連絡はない。",
+        "sentence_id": 3
+      }
+    ],
+    "notes": "明-562と15時28分の荷受場到着は正確。残り30冊の便の確度のみ過大。"
+  },
+  "R-f067f46b2b971600c0efffe1": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "明-562と荷受場到着15時28分は荷受記録と整合する。受領印と会場内引き渡しは未了で、残部の翌朝便は製本所が可能性を伝えた段階。"
+  },
+  "R-f1b9fbe488bc09ae91d92b4f": {
+    "bad_sentence_ids": [
+      2
+    ],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [
+      {
+        "quote": "今回使う団員も12人です",
+        "reason": "GF-763の12は届いた楽譜の部数。利用団員12人は先月のメモで、今回の人数は集計中。",
+        "sentence_id": 2
+      }
+    ],
+    "notes": "貸出元と今回届いた部数はGF-318・GF-763に一致。利用する人数の追加のみ不正確。"
+  },
+  "R-f1ec09b3b85c7dd3b3b7031d": {
+    "bad_sentence_ids": [
+      2
+    ],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [
+      {
+        "quote": "再起動によって発券が再開したことをログで確認しています",
+        "reason": "ログから分かるのは9時41分の再起動の後、9時46分に発券が再開した順序であり、再起動が再開の原因とは確認できない。",
+        "sentence_id": 2
+      }
+    ],
+    "notes": "受付票の障-719、ログの発券再開9時46分が明記されている。10時41分にも現場に休止札が残っていた。"
+  },
+  "R-f617676d0c5def6a75e8d31b": {
+    "bad_sentence_ids": [],
+    "facts": [
+      true,
+      true
+    ],
+    "issues": [],
+    "notes": "NH-806・NH-254の番号と再開時刻を明記。撤去指示票との番号照合、10時41分時点の未撤去も記録どおり。"
+  }
+}

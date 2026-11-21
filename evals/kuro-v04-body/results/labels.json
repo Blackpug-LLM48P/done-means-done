@@ -1,0 +1,290 @@
+{
+  "V-0ad3c3ef4b8c7ce153992c4a": {
+    "unit_id": "A2948",
+    "variant": "original"
+  },
+  "V-0d6592763d49ac64c66fc925": {
+    "unit_id": "A9526",
+    "variant": "candidate"
+  },
+  "V-10bfd74a4ab0c53c84007670": {
+    "unit_id": "A1864",
+    "variant": "candidate"
+  },
+  "V-17bacd49604825b624af9a4e": {
+    "unit_id": "H-01",
+    "variant": "original"
+  },
+  "V-21075463d7fd8216d868e514": {
+    "unit_id": "A7692",
+    "variant": "candidate"
+  },
+  "V-284681499fed1fddeec5da47": {
+    "unit_id": "C02-2",
+    "variant": "original"
+  },
+  "V-29cb31884034666a4478b0a7": {
+    "unit_id": "I08-1",
+    "variant": "original"
+  },
+  "V-2c0a089ce3818e4cae9f2850": {
+    "unit_id": "I04-1",
+    "variant": "original"
+  },
+  "V-31d4cd9b0144885e7369b41a": {
+    "unit_id": "C01-2",
+    "variant": "candidate"
+  },
+  "V-323ff9832779fb416e9b91b5": {
+    "unit_id": "B8D2F",
+    "variant": "original"
+  },
+  "V-34850cb723a00e3e89300409": {
+    "unit_id": "C02-3",
+    "variant": "original"
+  },
+  "V-3982225027885165d9053532": {
+    "unit_id": "A6351",
+    "variant": "candidate"
+  },
+  "V-3ae61216549d5415a4978aa1": {
+    "unit_id": "C01-4",
+    "variant": "original"
+  },
+  "V-3ed6b9c3fa8b0e420adf30e0": {
+    "unit_id": "I02-1",
+    "variant": "original"
+  },
+  "V-3f1f3ca449f5996dbedfac34": {
+    "unit_id": "H-02",
+    "variant": "candidate"
+  },
+  "V-3f5633e2d2a2db42a131aa02": {
+    "unit_id": "I03-1",
+    "variant": "candidate"
+  },
+  "V-4106f6221e079655fa3f809f": {
+    "unit_id": "I02-1",
+    "variant": "candidate"
+  },
+  "V-4c70a601808b14acac2825bd": {
+    "unit_id": "H-04",
+    "variant": "candidate"
+  },
+  "V-4e288db2c6af858f7402a038": {
+    "unit_id": "C01-1",
+    "variant": "candidate"
+  },
+  "V-4f65da0e5bb62c314f96601e": {
+    "unit_id": "H-01",
+    "variant": "candidate"
+  },
+  "V-51891894226607ea484248ba": {
+    "unit_id": "A5417",
+    "variant": "original"
+  },
+  "V-5a199f272dedbf992a1b6821": {
+    "unit_id": "C02-2",
+    "variant": "candidate"
+  },
+  "V-5e0a2d0afb5bd3062cef7b93": {
+    "unit_id": "H-03",
+    "variant": "candidate"
+  },
+  "V-6005ec35663b3918d6a76184": {
+    "unit_id": "A6351",
+    "variant": "original"
+  },
+  "V-66234b0f566cde5d1d76e84f": {
+    "unit_id": "B9QC4",
+    "variant": "original"
+  },
+  "V-669c93f752486003ba1a90cc": {
+    "unit_id": "A4183",
+    "variant": "candidate"
+  },
+  "V-6b4ff0fc113df9d0dcd3e266": {
+    "unit_id": "BM7HX",
+    "variant": "original"
+  },
+  "V-6c1974bbebc4763215546d1e": {
+    "unit_id": "A8079",
+    "variant": "original"
+  },
+  "V-6d018c2a545bd8709290bc99": {
+    "unit_id": "BF3L8",
+    "variant": "candidate"
+  },
+  "V-6f6d167b91cde85083252fd6": {
+    "unit_id": "B6W2R",
+    "variant": "candidate"
+  },
+  "V-7187ac8d072165f83fa341d5": {
+    "unit_id": "C01-2",
+    "variant": "original"
+  },
+  "V-736735dbf0168201436c67cb": {
+    "unit_id": "C02-1",
+    "variant": "candidate"
+  },
+  "V-747d88c164eac6cc34607f85": {
+    "unit_id": "I06-1",
+    "variant": "original"
+  },
+  "V-82b3e89c0aea2b879664df8f": {
+    "unit_id": "B8D2F",
+    "variant": "candidate"
+  },
+  "V-84cad697af306ce78d0811a4": {
+    "unit_id": "A2948",
+    "variant": "candidate"
+  },
+  "V-871aa6d7356939c7fe8c90f9": {
+    "unit_id": "I07-1",
+    "variant": "original"
+  },
+  "V-8829be880e18993102f1f5c2": {
+    "unit_id": "C01-3",
+    "variant": "candidate"
+  },
+  "V-8cf8a070b84f8b2910ceeea7": {
+    "unit_id": "H-02",
+    "variant": "original"
+  },
+  "V-9031827b997e5359d5eed94a": {
+    "unit_id": "C01-3",
+    "variant": "original"
+  },
+  "V-905ed956c86f467dc0830def": {
+    "unit_id": "A8079",
+    "variant": "candidate"
+  },
+  "V-91e7cce01944f308f0f2fde8": {
+    "unit_id": "A9526",
+    "variant": "original"
+  },
+  "V-92ad118380f5ca0d473c5ccc": {
+    "unit_id": "I05-1",
+    "variant": "candidate"
+  },
+  "V-97c5c348d64798e686c4ce7b": {
+    "unit_id": "A4183",
+    "variant": "original"
+  },
+  "V-a00df94f29489a4d817a7868": {
+    "unit_id": "BG4NV",
+    "variant": "original"
+  },
+  "V-a24553ce4cbd90c2eae8cd2b": {
+    "unit_id": "BJ19A",
+    "variant": "candidate"
+  },
+  "V-a5969d0915d60fd9027095df": {
+    "unit_id": "C02-1",
+    "variant": "original"
+  },
+  "V-a88b8bb7ed0a516dc72134de": {
+    "unit_id": "H-03",
+    "variant": "original"
+  },
+  "V-afacc3cc69851303eb6f7b70": {
+    "unit_id": "A5417",
+    "variant": "candidate"
+  },
+  "V-afb4dcb8d3a0092e83afaaab": {
+    "unit_id": "A7692",
+    "variant": "original"
+  },
+  "V-affaca0b6b02c71a90100f4a": {
+    "unit_id": "C01-4",
+    "variant": "candidate"
+  },
+  "V-b82ae33fc1eb17798f8873ae": {
+    "unit_id": "BG4NV",
+    "variant": "candidate"
+  },
+  "V-b9f434058f03218d927e5dce": {
+    "unit_id": "H-04",
+    "variant": "original"
+  },
+  "V-ba70a5cc94b4d6ebc8e0c011": {
+    "unit_id": "B9QC4",
+    "variant": "candidate"
+  },
+  "V-bba1c4e2b251ac515087673c": {
+    "unit_id": "I01-1",
+    "variant": "original"
+  },
+  "V-bd3c64f1dee3dfc72e0b08fe": {
+    "unit_id": "BM7HX",
+    "variant": "candidate"
+  },
+  "V-c1ba7462b65407129e3f5102": {
+    "unit_id": "I05-1",
+    "variant": "original"
+  },
+  "V-c2b57b4860e9c6dd03021f21": {
+    "unit_id": "C02-4",
+    "variant": "original"
+  },
+  "V-ca6da3686d176b3828ebcc4a": {
+    "unit_id": "A1864",
+    "variant": "original"
+  },
+  "V-cc09c6345d724691dd1d3cb7": {
+    "unit_id": "B6W2R",
+    "variant": "original"
+  },
+  "V-cd13a4b990339f9031089d8e": {
+    "unit_id": "BJ19A",
+    "variant": "original"
+  },
+  "V-cea314b72f823f579364e205": {
+    "unit_id": "B5YKP",
+    "variant": "original"
+  },
+  "V-d44fa17dd16fa06046cfab92": {
+    "unit_id": "B5YKP",
+    "variant": "candidate"
+  },
+  "V-d45aa7e91ac24e7c5b077d01": {
+    "unit_id": "I01-1",
+    "variant": "candidate"
+  },
+  "V-dbdc47a8ee1095f099608ed7": {
+    "unit_id": "I06-1",
+    "variant": "candidate"
+  },
+  "V-dec725f03f1f66dc09afec9c": {
+    "unit_id": "I08-1",
+    "variant": "candidate"
+  },
+  "V-e52aedc9e215e7e9758249c3": {
+    "unit_id": "I04-1",
+    "variant": "candidate"
+  },
+  "V-eb37ca76c125fc0517229140": {
+    "unit_id": "BF3L8",
+    "variant": "original"
+  },
+  "V-ee5db8dd9009c840a1c3ee16": {
+    "unit_id": "I03-1",
+    "variant": "original"
+  },
+  "V-eefe34d6f83937385c4faf19": {
+    "unit_id": "I07-1",
+    "variant": "candidate"
+  },
+  "V-f2caa881167de345f32b9754": {
+    "unit_id": "C02-3",
+    "variant": "candidate"
+  },
+  "V-f3356c2ec00e168573f57708": {
+    "unit_id": "C01-1",
+    "variant": "original"
+  },
+  "V-fead77acfa0678fcb69d8ad6": {
+    "unit_id": "C02-4",
+    "variant": "candidate"
+  }
+}
