@@ -1,0 +1,7 @@
+{
+  "commitments_sha256": "622fb4e1c86fd9fc84d39d931616c7cb4d9ff8f2c0b1f8cc27c7bbb2688ee361",
+  "dummy": false,
+  "gpt_jobs_sha256": "5aedc2e3e5fb966a32e0d81672d351ebf52ffe646db724ad705dd9a1b68f8d6f",
+  "opus_jobs_sha256": "286ffd12333d4c73a27d16c4ca2929370fa7877bfc9862d5bb9cf597eab3672c",
+  "scoring_sha256": "b7cd80fc5f2b690e78ddeabdad9563516e78cde07d88908b9313047ca7894cac"
+}
