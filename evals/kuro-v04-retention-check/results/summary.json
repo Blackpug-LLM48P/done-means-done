@@ -1,0 +1,131 @@
+{
+  "archived_old_votes": 8,
+  "cohorts": {
+    "known": {
+      "changes": {
+        "improved": 1,
+        "regressed": 0,
+        "unchanged_correct": 7,
+        "unchanged_wrong": 0,
+        "unevaluable": 0
+      },
+      "new": {
+        "bad_approved": {
+          "denominator": 1,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "bad_stopped": {
+          "denominator": 1,
+          "numerator": 1,
+          "rate": 1.0
+        },
+        "correct": 8,
+        "good_approved": {
+          "denominator": 7,
+          "numerator": 7,
+          "rate": 1.0
+        },
+        "good_held": {
+          "denominator": 7,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "invalid": 0,
+        "missing": 0
+      },
+      "old": {
+        "bad_approved": {
+          "denominator": 1,
+          "numerator": 1,
+          "rate": 1.0
+        },
+        "bad_stopped": {
+          "denominator": 1,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "correct": 7,
+        "good_approved": {
+          "denominator": 7,
+          "numerator": 7,
+          "rate": 1.0
+        },
+        "good_held": {
+          "denominator": 7,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "invalid": 0,
+        "missing": 0
+      }
+    },
+    "new": {
+      "changes": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged_correct": 8,
+        "unchanged_wrong": 0,
+        "unevaluable": 0
+      },
+      "new": {
+        "bad_approved": {
+          "denominator": 4,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "bad_stopped": {
+          "denominator": 4,
+          "numerator": 4,
+          "rate": 1.0
+        },
+        "correct": 8,
+        "good_approved": {
+          "denominator": 4,
+          "numerator": 4,
+          "rate": 1.0
+        },
+        "good_held": {
+          "denominator": 4,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "invalid": 0,
+        "missing": 0
+      },
+      "old": {
+        "bad_approved": {
+          "denominator": 4,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "bad_stopped": {
+          "denominator": 4,
+          "numerator": 4,
+          "rate": 1.0
+        },
+        "correct": 8,
+        "good_approved": {
+          "denominator": 4,
+          "numerator": 4,
+          "rate": 1.0
+        },
+        "good_held": {
+          "denominator": 4,
+          "numerator": 0,
+          "rate": 0.0
+        },
+        "invalid": 0,
+        "missing": 0
+      }
+    }
+  },
+  "conditions": {
+    "all_votes_valid": true,
+    "known_all_correct": true,
+    "new_all_correct": true,
+    "new_reader_audit_complete_and_aligned": true
+  },
+  "meets_preregistered_criteria": true,
+  "official_calls": 24
+}

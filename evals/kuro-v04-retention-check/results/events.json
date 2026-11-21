@@ -1,0 +1,146 @@
+[
+  {
+    "change": "unchanged_correct",
+    "cohort": "known",
+    "expected": "approve",
+    "family": "F2",
+    "id": "Q-1217c91d198fad5d",
+    "new": "approve",
+    "old": "approve"
+  },
+  {
+    "change": "unchanged_correct",
+    "cohort": "new",
+    "expected": "approve",
+    "family": "N3",
+    "id": "Q-183542fcdee60357",
+    "new": "approve",
+    "old": "approve"
+  },
+  {
+    "change": "unchanged_correct",
+    "cohort": "new",
+    "expected": "hold",
+    "family": "N1",
+    "id": "Q-18ed676459851b14",
+    "new": "hold",
+    "old": "hold"
+  },
+  {
+    "change": "improved",
+    "cohort": "known",
+    "expected": "hold",
+    "family": "F1",
+    "id": "Q-22ec7966f4d374ab",
+    "new": "hold",
+    "old": "approve"
+  },
+  {
+    "change": "unchanged_correct",
+    "cohort": "new",
+    "expected": "approve",
+    "family": "N1",
+    "id": "Q-28a06c9a71e5450f",
+    "new": "approve",
+    "old": "approve"
+  },
+  {
+    "change": "unchanged_correct",
+    "cohort": "known",
+    "expected": "approve",
+    "family": "F3",
+    "id": "Q-33ad670bc45a2fd7",
+    "new": "approve",
+    "old": "approve"
+  },
+  {
+    "change": "unchanged_correct",
+    "cohort": "new",
+    "expected": "approve",
+    "family": "N2",
+    "id": "Q-6699505380377aef",
+    "new": "approve",
+    "old": "approve"
+  },
+  {
+    "change": "unchanged_correct",
+    "cohort": "known",
+    "expected": "approve",
+    "family": "F4",
+    "id": "Q-825d3ee27395c995",
+    "new": "approve",
+    "old": "approve"
+  },
+  {
+    "change": "unchanged_correct",
+    "cohort": "new",
+    "expected": "hold",
+    "family": "N4",
+    "id": "Q-8ed003bc35b3c9f8",
+    "new": "hold",
+    "old": "hold"
+  },
+  {
+    "change": "unchanged_correct",
+    "cohort": "known",
+    "expected": "approve",
+    "family": "F2",
+    "id": "Q-9d2e2f2a7972e6f0",
+    "new": "approve",
+    "old": "approve"
+  },
+  {
+    "change": "unchanged_correct",
+    "cohort": "known",
+    "expected": "approve",
+    "family": "F1",
+    "id": "Q-a57c566c2fe881b6",
+    "new": "approve",
+    "old": "approve"
+  },
+  {
+    "change": "unchanged_correct",
+    "cohort": "new",
+    "expected": "hold",
+    "family": "N3",
+    "id": "Q-aff171db90ea7038",
+    "new": "hold",
+    "old": "hold"
+  },
+  {
+    "change": "unchanged_correct",
+    "cohort": "known",
+    "expected": "approve",
+    "family": "F3",
+    "id": "Q-bc3f0846a58808ab",
+    "new": "approve",
+    "old": "approve"
+  },
+  {
+    "change": "unchanged_correct",
+    "cohort": "new",
+    "expected": "approve",
+    "family": "N4",
+    "id": "Q-ca095a748f79bf3c",
+    "new": "approve",
+    "old": "approve"
+  },
+  {
+    "change": "unchanged_correct",
+    "cohort": "known",
+    "expected": "approve",
+    "family": "F4",
+    "id": "Q-cc884a9abc47581c",
+    "new": "approve",
+    "old": "approve"
+  },
+  {
+    "change": "unchanged_correct",
+    "cohort": "new",
+    "expected": "hold",
+    "family": "N2",
+    "id": "Q-f12b38e5bffa8ec5",
+    "new": "hold",
+    "old": "hold"
+  }
+]
