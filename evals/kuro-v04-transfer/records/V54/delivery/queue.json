@@ -1,0 +1,30 @@
+[
+  {
+    "slot": "P-219",
+    "rev": 9,
+    "state": "READY",
+    "check_seq": 141,
+    "receipt_seq": 149
+  },
+  {
+    "slot": "P-367",
+    "rev": 9,
+    "state": "READY",
+    "check_seq": 176,
+    "receipt_seq": 193
+  },
+  {
+    "slot": "P-434",
+    "rev": 6,
+    "state": "READY",
+    "check_seq": 112,
+    "receipt_seq": 127
+  },
+  {
+    "slot": "P-585",
+    "rev": 4,
+    "state": "READY",
+    "check_seq": 84,
+    "receipt_seq": 90
+  }
+]

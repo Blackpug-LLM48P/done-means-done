@@ -1,0 +1,44 @@
+[
+  {
+    "slot": "P-422",
+    "rev": 11,
+    "state": "CONFLICT",
+    "check_seq": 103,
+    "receipt_seq": 113
+  },
+  {
+    "slot": "P-580",
+    "rev": 7,
+    "state": "CHECK_FAILED",
+    "check_seq": 149,
+    "receipt_seq": 152
+  },
+  {
+    "slot": "P-669",
+    "rev": 10,
+    "state": "NO_CHECK",
+    "check_seq": null,
+    "receipt_seq": 72
+  },
+  {
+    "slot": "P-705",
+    "rev": 3,
+    "state": "NO_CHECK",
+    "check_seq": null,
+    "receipt_seq": 187
+  },
+  {
+    "slot": "P-771",
+    "rev": 12,
+    "state": "NO_RECEIPT",
+    "check_seq": 207,
+    "receipt_seq": null
+  },
+  {
+    "slot": "P-924",
+    "rev": 6,
+    "state": "CONFLICT",
+    "check_seq": 38,
+    "receipt_seq": 46
+  }
+]

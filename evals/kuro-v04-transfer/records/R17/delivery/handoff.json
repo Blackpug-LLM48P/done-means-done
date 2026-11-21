@@ -1,0 +1,15 @@
+{
+  "shift": "FM-48937",
+  "desk": "浜風調整室",
+  "counts": {
+    "NO_CHECK": 1,
+    "CHECK_FAILED": 1,
+    "NO_RECEIPT": 2,
+    "CONFLICT": 1,
+    "READY": 3
+  },
+  "recovered": [
+    "P-106",
+    "P-336"
+  ]
+}

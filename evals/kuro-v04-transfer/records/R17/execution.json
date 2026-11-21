@@ -1,0 +1,37 @@
+{
+  "entry": [
+    "/usr/bin/python3.13",
+    "-I",
+    "-S",
+    "-B",
+    "/submission.py"
+  ],
+  "python": "/usr/bin/python3.13",
+  "input_manifest": {
+    "shift.json": {
+      "bytes": 6329,
+      "sha256": "d9471566e8aba7aae2db9a90bdf20bdb0371b39921ef3ee2294b3412fede1676"
+    }
+  },
+  "submission_sha256": "63fc202ba3f2a3794648eaf4cd2e1565a8e6cbaa76d4e1efdc00e5ac8740f3b0",
+  "host_net_ns": "net:[4026532358]",
+  "worker_net_ns": "net:[4026532282]",
+  "elapsed_seconds": 0.115,
+  "timed_out": false,
+  "exit_code": 0,
+  "stdout": "勤務枠 FM-48937、引渡先 浜風調整室。全8件のうち3件が使用可能です。\n保留：P-106（予定の調整室に採用版の受領記録なし）、P-336（最新の受領記録と計画の照合符号が不一致）、P-443（採用版の最新点検が失敗）、P-617（予定の調整室に採用版の受領記録なし）、P-725（採用版の点検記録なし）。\n点検復旧：P-106、P-336。\n",
+  "stdout_bytes": 428,
+  "stderr": "",
+  "stderr_bytes": 0,
+  "delivery_manifest": {
+    "handoff.json": {
+      "bytes": 218,
+      "sha256": "f511000b83c79aba23b277915ea48184ff4c77855bda5d83319c845c64dd4f17"
+    },
+    "queue.json": {
+      "bytes": 919,
+      "sha256": "82ae6b071ae7edb0a80f753c8b1e92d7e4acb9611dac6281cd19c01a2017c493"
+    }
+  },
+  "ok": true
+}
