@@ -1,0 +1,345 @@
+{
+  "rows": [
+    {
+      "attempt_id": "246c5ecf-e8a8-48b7-8654-99355f15e416",
+      "final_answer": "{\"findings\":[{\"sentence_id\":2,\"quote\":\"作家自身が入口に選んだ\",\"reason\":\"展示台帳には入口に掛ける作品は明記されているが、選んだ人物の記載はない。作家が了承したのは作品名札の文字を十二ポイントにする案である。\",\"checked_refs\":[\"E1\",\"E2\"],\"replacement\":\"入口に掛ける\"}]}",
+      "model_settings": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "packet_sha256": "99609445faa3b429bf49c61a7985929e7d61fe7428e1da35bd645ae1c7bc59cb",
+      "prompt_sha256": "0b6dd6fc5d9169ea6e9924faf391ebf9677720226d9330a317e2a9664f450d79",
+      "raw_sha256": "a95b8e7d6be251972371888eeb5d298230f6a1d94d59cf202058c0ae31b7d271",
+      "session_id": "01a1fcce-c7b6-77e1-a53c-47b11ae0845d",
+      "task_complete": true,
+      "tokens_when_reported": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13324,
+        "output_tokens": 232,
+        "reasoning_output_tokens": 133,
+        "total_tokens": 13556
+      },
+      "trace": {
+        "as_of": "2026-11-12T15:00:00+09:00",
+        "case_id": "N01",
+        "errors": [],
+        "findings": [
+          {
+            "checked_refs": [
+              "E1",
+              "E2"
+            ],
+            "end": 23,
+            "quote": "作家自身が入口に選んだ",
+            "reason": "展示台帳には入口に掛ける作品は明記されているが、選んだ人物の記載はない。作家が了承したのは作品名札の文字を十二ポイントにする案である。",
+            "replacement": "入口に掛ける",
+            "sentence_id": 2,
+            "start": 12
+          }
+        ],
+        "original_body": "展示室の壁は薄い灰色だ。作家自身が入口に選んだのは、連作『低い空』の第三図だった。芳名帳は売店に置く。",
+        "packet_sha256": "99609445faa3b429bf49c61a7985929e7d61fe7428e1da35bd645ae1c7bc59cb",
+        "proposed_body": "展示室の壁は薄い灰色だ。入口に掛けるのは、連作『低い空』の第三図だった。芳名帳は売店に置く。",
+        "raw_review": "{\"findings\":[{\"sentence_id\":2,\"quote\":\"作家自身が入口に選んだ\",\"reason\":\"展示台帳には入口に掛ける作品は明記されているが、選んだ人物の記載はない。作家が了承したのは作品名札の文字を十二ポイントにする案である。\",\"checked_refs\":[\"E1\",\"E2\"],\"replacement\":\"入口に掛ける\"}]}",
+        "revision": "v1",
+        "sentences": [
+          {
+            "end": 12,
+            "id": 1,
+            "start": 0,
+            "text": "展示室の壁は薄い灰色だ。"
+          },
+          {
+            "end": 41,
+            "id": 2,
+            "start": 12,
+            "text": "作家自身が入口に選んだのは、連作『低い空』の第三図だった。"
+          },
+          {
+            "end": 51,
+            "id": 3,
+            "start": 41,
+            "text": "芳名帳は売店に置く。"
+          }
+        ],
+        "source_sha256": "7be7eb62be6e6df9c54473b6c9901ce53510b0732232a7c79b60b2c5464de10e",
+        "status": "flagged"
+      },
+      "unit_id": "N01"
+    },
+    {
+      "attempt_id": "27957e68-f79c-49ad-9aea-8fec537cc6a4",
+      "final_answer": "{\"findings\":[]}",
+      "model_settings": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "packet_sha256": "01198c98cd5ab4fa39f43003843465d7a3ca3c0103e1f4fb5e6cb3dda045c6e5",
+      "prompt_sha256": "1581871a7873fec4067e4dcbfa15a6131726d3d5f2f0a1e68553ca42e5c769ef",
+      "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+      "session_id": "01a1fcce-c678-7933-8db5-a5d18e18d5dc",
+      "task_complete": true,
+      "tokens_when_reported": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13376,
+        "output_tokens": 82,
+        "reasoning_output_tokens": 71,
+        "total_tokens": 13458
+      },
+      "trace": {
+        "as_of": "2026-11-12T15:00:00+09:00",
+        "case_id": "N02",
+        "errors": [],
+        "findings": [],
+        "original_body": "河岸倉庫には東口の納品受付と西口の返品受付があり、金曜だけ十六時に締める窓口がある。待機所の自販機は硬貨専用だ。貸出台車は青い札を付けて返す。",
+        "packet_sha256": "01198c98cd5ab4fa39f43003843465d7a3ca3c0103e1f4fb5e6cb3dda045c6e5",
+        "proposed_body": "河岸倉庫には東口の納品受付と西口の返品受付があり、金曜だけ十六時に締める窓口がある。待機所の自販機は硬貨専用だ。貸出台車は青い札を付けて返す。",
+        "raw_review": "{\"findings\":[]}",
+        "revision": "v1",
+        "sentences": [
+          {
+            "end": 42,
+            "id": 1,
+            "start": 0,
+            "text": "河岸倉庫には東口の納品受付と西口の返品受付があり、金曜だけ十六時に締める窓口がある。"
+          },
+          {
+            "end": 56,
+            "id": 2,
+            "start": 42,
+            "text": "待機所の自販機は硬貨専用だ。"
+          },
+          {
+            "end": 71,
+            "id": 3,
+            "start": 56,
+            "text": "貸出台車は青い札を付けて返す。"
+          }
+        ],
+        "source_sha256": "56063e5a68a2ff7c9943fa6482672534d8487cba6a4068998f3293abe3104a30",
+        "status": "clear"
+      },
+      "unit_id": "N02"
+    },
+    {
+      "attempt_id": "1aabe8fb-668e-4663-bc2a-226f69f7065c",
+      "final_answer": null,
+      "model_settings": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "packet_sha256": "c1f2e02b80655390cecd9f43f6433bc44b7e6abe65fdb5ac31985c32df6cb49b",
+      "prompt_sha256": "b3bc7e582be889a0062556bfec59143279532b130a2cb1330dbe40abc92c05c9",
+      "session_id": "01a1fcce-c62e-78d0-841b-e08c1d4f89f4",
+      "task_complete": false,
+      "tokens_when_reported": null,
+      "unit_id": "N06"
+    },
+    {
+      "attempt_id": "c364922b-d1b2-4564-b659-6514038ee536",
+      "final_answer": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"のは、薄紙を挟んだ効果だ\",\n      \"reason\": \"発送控えで午後便から薄紙を挟んだことは確認できるが、検品票に擦れの原因の記載はなく、冊数の減少を薄紙の効果とする根拠はない。\",\n      \"checked_refs\": [\"E1\", \"E2\"],\n      \"replacement\": \"。午後便からは見本帳の間に薄紙を挟んだ\"\n    }\n  ]\n}",
+      "model_settings": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "packet_sha256": "ed63b51a4318d3b08caabc333b6d13557a1ee89fdcd8869281bc09a320314ef8",
+      "prompt_sha256": "c7ff7c84dd6925013fb78f93025fd02153f7976c5f9ef39576c3b485ffcd05b5",
+      "raw_sha256": "157127b01a3698fa9661c20dc39eaf0979a068f4e4bfa7ac8cbef24e93718344",
+      "session_id": "01a1fcce-c6b9-74e0-bda9-9b09d1c80763",
+      "task_complete": true,
+      "tokens_when_reported": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13376,
+        "output_tokens": 397,
+        "reasoning_output_tokens": 254,
+        "total_tokens": 13773
+      },
+      "trace": {
+        "as_of": "2026-11-12T15:00:00+09:00",
+        "case_id": "N08",
+        "errors": [],
+        "findings": [
+          {
+            "checked_refs": [
+              "E1",
+              "E2"
+            ],
+            "end": 49,
+            "quote": "のは、薄紙を挟んだ効果だ",
+            "reason": "発送控えで午後便から薄紙を挟んだことは確認できるが、検品票に擦れの原因の記載はなく、冊数の減少を薄紙の効果とする根拠はない。",
+            "replacement": "。午後便からは見本帳の間に薄紙を挟んだ",
+            "sentence_id": 2,
+            "start": 37
+          }
+        ],
+        "original_body": "見本帳は午前と午後に30冊ずつ発送した。午後便で擦れが5冊から1冊に減ったのは、薄紙を挟んだ効果だ。通い箱は翌朝9時に回収する。",
+        "packet_sha256": "ed63b51a4318d3b08caabc333b6d13557a1ee89fdcd8869281bc09a320314ef8",
+        "proposed_body": "見本帳は午前と午後に30冊ずつ発送した。午後便で擦れが5冊から1冊に減った。午後便からは見本帳の間に薄紙を挟んだ。通い箱は翌朝9時に回収する。",
+        "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"のは、薄紙を挟んだ効果だ\",\n      \"reason\": \"発送控えで午後便から薄紙を挟んだことは確認できるが、検品票に擦れの原因の記載はなく、冊数の減少を薄紙の効果とする根拠はない。\",\n      \"checked_refs\": [\"E1\", \"E2\"],\n      \"replacement\": \"。午後便からは見本帳の間に薄紙を挟んだ\"\n    }\n  ]\n}",
+        "revision": "v1",
+        "sentences": [
+          {
+            "end": 20,
+            "id": 1,
+            "start": 0,
+            "text": "見本帳は午前と午後に30冊ずつ発送した。"
+          },
+          {
+            "end": 50,
+            "id": 2,
+            "start": 20,
+            "text": "午後便で擦れが5冊から1冊に減ったのは、薄紙を挟んだ効果だ。"
+          },
+          {
+            "end": 64,
+            "id": 3,
+            "start": 50,
+            "text": "通い箱は翌朝9時に回収する。"
+          }
+        ],
+        "source_sha256": "9971b4f0f30524cb9d8bd164c61b2db1bbf4faa09f8b46cab12eb6a6d635d192",
+        "status": "flagged"
+      },
+      "unit_id": "N08"
+    },
+    {
+      "attempt_id": "f45878dd-b261-494e-8e2d-d0e8992896fc",
+      "final_answer": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 3,\n      \"quote\": \"西村さんの提案で\",\n      \"reason\": \"出席簿で西村さんの出席は確認できるが、議事メモの発案者欄は空欄で、9時半の放送を提案したのが西村さんだとは特定できない。\",\n      \"checked_refs\": [\"E1\", \"E2\"],\n      \"replacement\": \"提案どおり\"\n    }\n  ]\n}",
+      "model_settings": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "packet_sha256": "f8b7a16ddade159367038374bc9e6412673833980d935d732380f9bf65419388",
+      "prompt_sha256": "e0c8b829a01d34355a9bc3f34ffd221377d566a39d8d8d3ca0d8e0268e2f5cdd",
+      "raw_sha256": "a4ce0291e591391a4af6499de4a86f9326e2431dbcc81af42925731132483b13",
+      "session_id": "01a1fcce-c650-7a20-97e8-f0ed4f09c466",
+      "task_complete": true,
+      "tokens_when_reported": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13371,
+        "output_tokens": 356,
+        "reasoning_output_tokens": 231,
+        "total_tokens": 13727
+      },
+      "trace": {
+        "as_of": "2026-11-12T15:00:00+09:00",
+        "case_id": "N11",
+        "errors": [],
+        "findings": [
+          {
+            "checked_refs": [
+              "E1",
+              "E2"
+            ],
+            "end": 43,
+            "quote": "西村さんの提案で",
+            "reason": "出席簿で西村さんの出席は確認できるが、議事メモの発案者欄は空欄で、9時半の放送を提案したのが西村さんだとは特定できない。",
+            "replacement": "提案どおり",
+            "sentence_id": 3,
+            "start": 35
+          }
+        ],
+        "original_body": "案内所の机は東門に置く。回収用のかごは各売場に1個ずつ配る。場内放送は西村さんの提案で9時半に決まった。",
+        "packet_sha256": "f8b7a16ddade159367038374bc9e6412673833980d935d732380f9bf65419388",
+        "proposed_body": "案内所の机は東門に置く。回収用のかごは各売場に1個ずつ配る。場内放送は提案どおり9時半に決まった。",
+        "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 3,\n      \"quote\": \"西村さんの提案で\",\n      \"reason\": \"出席簿で西村さんの出席は確認できるが、議事メモの発案者欄は空欄で、9時半の放送を提案したのが西村さんだとは特定できない。\",\n      \"checked_refs\": [\"E1\", \"E2\"],\n      \"replacement\": \"提案どおり\"\n    }\n  ]\n}",
+        "revision": "v1",
+        "sentences": [
+          {
+            "end": 12,
+            "id": 1,
+            "start": 0,
+            "text": "案内所の机は東門に置く。"
+          },
+          {
+            "end": 30,
+            "id": 2,
+            "start": 12,
+            "text": "回収用のかごは各売場に1個ずつ配る。"
+          },
+          {
+            "end": 52,
+            "id": 3,
+            "start": 30,
+            "text": "場内放送は西村さんの提案で9時半に決まった。"
+          }
+        ],
+        "source_sha256": "b9e80d05817f56894872295f048acb96c994e048de935af68cb3105b7998bdcc",
+        "status": "flagged"
+      },
+      "unit_id": "N11"
+    },
+    {
+      "attempt_id": "3449dc13-0b43-492b-ba9e-a208529c6a1e",
+      "final_answer": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"赤い札の台車だけ\",\n      \"reason\": \"整備指示書では点検対象は台車全8台で、赤い札は戻し先が第1倉庫であることを示す。点検対象を赤い札の台車に限る根拠はない。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"全8台の台車\"\n    }\n  ]\n}",
+      "model_settings": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "packet_sha256": "7ba8be3d2a502ecf0297a4aeec682046f9ec5eb56657769418ea7a894a02b897",
+      "prompt_sha256": "f2608e6af4174abc8ad12df69b17de7dd058227f21ed317aa9648357966aa4d3",
+      "raw_sha256": "642ce4888ccaf66feab3d285809f87f27ea28d176701f4d7caa92d9182f2569a",
+      "session_id": "01a1fcce-c685-7881-a387-7810f3d6ba4d",
+      "task_complete": true,
+      "tokens_when_reported": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 13312,
+        "input_tokens": 13358,
+        "output_tokens": 178,
+        "reasoning_output_tokens": 55,
+        "total_tokens": 13536
+      },
+      "trace": {
+        "as_of": "2026-11-12T15:00:00+09:00",
+        "case_id": "N12",
+        "errors": [],
+        "findings": [
+          {
+            "checked_refs": [
+              "E1"
+            ],
+            "end": 25,
+            "quote": "赤い札の台車だけ",
+            "reason": "整備指示書では点検対象は台車全8台で、赤い札は戻し先が第1倉庫であることを示す。点検対象を赤い札の台車に限る根拠はない。",
+            "replacement": "全8台の台車",
+            "sentence_id": 2,
+            "start": 17
+          }
+        ],
+        "original_body": "台車の点検は北の荷さばき場で行う。赤い札の台車だけが今回の点検対象だ。交換用の車輪4個は事務所の棚にある。",
+        "packet_sha256": "7ba8be3d2a502ecf0297a4aeec682046f9ec5eb56657769418ea7a894a02b897",
+        "proposed_body": "台車の点検は北の荷さばき場で行う。全8台の台車が今回の点検対象だ。交換用の車輪4個は事務所の棚にある。",
+        "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"赤い札の台車だけ\",\n      \"reason\": \"整備指示書では点検対象は台車全8台で、赤い札は戻し先が第1倉庫であることを示す。点検対象を赤い札の台車に限る根拠はない。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"全8台の台車\"\n    }\n  ]\n}",
+        "revision": "v1",
+        "sentences": [
+          {
+            "end": 17,
+            "id": 1,
+            "start": 0,
+            "text": "台車の点検は北の荷さばき場で行う。"
+          },
+          {
+            "end": 35,
+            "id": 2,
+            "start": 17,
+            "text": "赤い札の台車だけが今回の点検対象だ。"
+          },
+          {
+            "end": 53,
+            "id": 3,
+            "start": 35,
+            "text": "交換用の車輪4個は事務所の棚にある。"
+          }
+        ],
+        "source_sha256": "d29c5a6e3d9a2ed6b26ea21f1a0ba14a75ef1846297651d8bb5df47ea872b37f",
+        "status": "flagged"
+      },
+      "unit_id": "N12"
+    }
+  ],
+  "source": "CLI rollout final outputs matched to frozen prompt and started claim; supplementary only. No process exit status or official receipt."
+}
