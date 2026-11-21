@@ -1,0 +1,7 @@
+10:00 handoff. Desk lead sets revisions. T01 requires lid and seal PASS on the current revision before staging. T11 transfers open work to this desk and adds no receipt.
+
+Sorrel — T03 supersedes T01’s r2 with r3 for today. Keep T02 (S2/Z, both PASS) closed in history. T04 (S3/L) records r3 lid PASS, seal QUEUED. Enter r3 in the review queue. The inspector has the strip (T04, T10). Stage only after r3 seal PASS. T07 copied T06, which copied T05 (notebook N). N cites yesterday’s r2 card. None adds r3 evidence.
+
+Flint — Stage r4 (T01). T08 (F4/Z) records both PASS and the local source pack is present.
+
+Iris — Enter r1 (T01) in the input-request queue for the seal strip. T09 (I1/L) records lid PASS, seal BLOCKED. T10 confirms no strip or local substitute. Once supplied, queue seal review and stage only after PASS.

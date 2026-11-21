@@ -1,0 +1,29 @@
+{
+  "report": "Flint r4 has one station receipt confirming both checks passed and is ready to stage. Sorrel r3 passed lid. Its seal check is queued, and the inspector has the strip. The copied notes refer to r2. Iris r1 passed lid, and its seal check is blocked pending the strip.",
+  "batches": {
+    "Sorrel": {
+      "revision": 3,
+      "passed": ["lid"],
+      "seal_state": "queued",
+      "basis": ["T03", "T04", "T10"],
+      "all_pass_receipts": 0,
+      "action": "queue_check"
+    },
+    "Flint": {
+      "revision": 4,
+      "passed": ["lid", "seal"],
+      "seal_state": "pass",
+      "basis": ["T08"],
+      "all_pass_receipts": 1,
+      "action": "stage"
+    },
+    "Iris": {
+      "revision": 1,
+      "passed": ["lid"],
+      "seal_state": "blocked",
+      "basis": ["T09", "T10"],
+      "all_pass_receipts": 0,
+      "action": "request_input"
+    }
+  }
+}

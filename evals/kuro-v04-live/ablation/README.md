@@ -49,3 +49,5 @@
 - `prompts/<条件>/policy.md`, `diff.patch`, `dispatch.txt`：条件ごとの指示全文、フル条件との差分、投入文。
 - `raw/<条件>.md`：条件ごとの無編集の回答。
 - `results/grades_blind.tsv`, `blind_key.json`, `scores.tsv`, `outputs_sha256.json`：仮名での判定・解錠表・条件名付き判定・出力のSHA-256。
+
+凍結済みの入力、条件差分、原出力、採点の対応は、このディレクトリで `python3 -B verify_ablation.py` を実行すると検算できる。`frozen/make_variants.py` は当時のディレクトリ構成で使った生成手順の保存物で、再生成すると凍結用の一覧を書き換える。公開済み結果の追試には読み取り専用の検算を使う。

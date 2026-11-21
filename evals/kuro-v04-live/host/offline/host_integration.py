@@ -11,14 +11,16 @@ import os
 from pathlib import Path
 import queue
 import socket
+import shutil
 import struct
 import subprocess
 import tempfile
 import threading
 import time
 
-ROOT = Path(__file__).resolve().parent
-CLI = '/opt/codex/bin/codex'
+CLI = shutil.which('codex')
+if CLI is None:
+    raise SystemExit('The Codex CLI must be on PATH')
 MARKER = 'COMPACT-TEAL-496'
 BEFORE = 'BEFORE-BRASS-512'
 OUTPUT = { 'cli': subprocess.check_output([CLI,'--version'],text=True).strip(), 'provider':'fixed local Responses stub',
@@ -68,7 +70,7 @@ class FixedProvider(BaseHTTPRequestHandler):
 server=ThreadingHTTPServer(('127.0.0.1',0),FixedProvider)
 threading.Thread(target=server.serve_forever,daemon=True).start()
 started=time.monotonic()
-with tempfile.TemporaryDirectory(prefix='fixture-',dir=ROOT) as scratch:
+with tempfile.TemporaryDirectory(prefix='fixture-') as scratch:
     work=Path(scratch)/'work'; work.mkdir()
     home=Path(scratch)/'codex'; home.mkdir()
     settings=f'''model="fixture-stub"
@@ -149,5 +151,5 @@ stream_max_retries=0
         except subprocess.TimeoutExpired: proc.kill(); proc.wait()
 server.shutdown(); server.server_close()
 OUTPUT['harness_elapsed_s']=round(time.monotonic()-started,2)
-(ROOT/'observation.json').write_text(json.dumps(OUTPUT,indent=2)+'\n')
 print(json.dumps(OUTPUT,indent=2))
+raise SystemExit(0 if OUTPUT['outcome'] == 'integration observed' else 1)

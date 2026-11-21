@@ -1,0 +1,14 @@
+{
+  "fixtures/archive-list.tsv": "e4694b45b18659de86a1a640cc96358b42649a81595a6b414f6c0f3a077c982f",
+  "fixtures/body.md": "38e4e5ca81cf0759948b5c3b841826dc147605c60251738b0d19a5d3d6bbcbda",
+  "fixtures/header.txt": "8b8302ca8b3be9ee3cda28f7a24ec605cf530b3bba1e7479f2f5f4a71d68cbda",
+  "fixtures/task.txt": "fe3923a7b87340687d773fb2ba1f3888f174095c751c6582d8996da769f81413",
+  "method/preregister.md": "c34a8013267f92c5e1889c1f7565f9d591142c3bbe42c3360084f1effe6e0694",
+  "method/watch.py": "c529eee2cdbc57b78e364f868931c3376455626365d8019bf3be8ff5932dbcce",
+  "observations/r17.before.archive-list.tsv": "e4694b45b18659de86a1a640cc96358b42649a81595a6b414f6c0f3a077c982f",
+  "observations/r17.before.review.md": "38e4e5ca81cf0759948b5c3b841826dc147605c60251738b0d19a5d3d6bbcbda",
+  "observations/r17.task.txt": "836f5622fd76b0f45b7b7a41f56a9584dbc0cb9b5e92d0da07616b26e683ea6f",
+  "observations/r52.before.archive-list.tsv": "e4694b45b18659de86a1a640cc96358b42649a81595a6b414f6c0f3a077c982f",
+  "observations/r52.before.review.md": "158c30baf5fd6df76a8db3451cd0f5e423b820bcc27454a49c8605d01338c6a4",
+  "observations/r52.task.txt": "b104eaa58e9b8d09a22b3930d133d1eefec7e02614fb10ffe09850d2d6415f4b"
+}

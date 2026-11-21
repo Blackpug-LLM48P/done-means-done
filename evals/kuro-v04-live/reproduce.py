@@ -13,6 +13,15 @@ VERSIONS = {
     "candidate": "583edeaa8e5708675d654d27f913348200601c3a",
     "previous": "2fe38b0e0d94c3dc89adabc9146b145953fb467b",
 }
+SLOTS = {"alpha": 4, "beta": 6}
+METRICS = ("T", "F", "U", "O", "H")
+# Digests of the original, separately saved ballots and the pre-grading receipt.
+BALLOT_DIGESTS = {
+    "a": "1851e76fcacdee80513522ee186786a1028696ff26b010753ba809dbdb7dea42",
+    "b": "e3e1ac3c959733964ee289706b7cac32b74d27c9c5b877f5f44318e23ffb87b3",
+    "adjudicated": "37832d10299fb2d856c0c10c532785bbb9aa5cfebb4e5638e2e87179ce3af764",
+}
+RECEIPT_DIGEST = "96d9491cb3db98719b7bb9c9550e043f21f12bf9aef6d1cedf82bad9819b1f0d"
 
 
 def digest(path):
@@ -30,8 +39,20 @@ def require(condition, message):
 
 def verified_cases():
     cases = {}
-    for case in sorted((STUDY / "cases").iterdir()):
+    case_dirs = sorted(path for path in (STUDY / "cases").iterdir() if path.is_dir())
+    require({case.name for case in case_dirs} == SLOTS.keys(), "case set differs")
+    for case in case_dirs:
         freeze = read_json(case / "freeze.json")
+        require(freeze["case"] == case.name, "case name differs from freeze")
+        fixed = {
+            str(p.relative_to(case))
+            for directory in ("task", "oracle")
+            for p in (case / directory).rglob("*")
+            if p.is_file() and "__pycache__" not in p.parts
+        }
+        require(fixed == freeze["frozen_sha256"].keys(), f"{case.name}: frozen file set differs")
+        require(set(freeze["common"]) == {"PROTOCOL.md", "worker.txt"}, "common file set differs")
+        require(len(freeze["workers"]) == 8, f"{case.name}: worker count differs")
         for path, wanted in freeze["frozen_sha256"].items():
             require(digest(case / path) == wanted, f"{case.name}/{path}: frozen input changed")
         for path, wanted in freeze["common"].items():
@@ -62,8 +83,40 @@ def prepare(cases, run, destination):
     print((STUDY / "worker.txt").read_text().replace("{INSTANCE}", str(destination.resolve())).strip())
 
 
+def checked_ballots(receipts):
+    packet_case = {r["packet"]: r["case"] for r in receipts}
+    require(len(packet_case) == len(receipts), "duplicate packet ID in receipts")
+    ballots = {}
+    for name, wanted_digest in BALLOT_DIGESTS.items():
+        path = STUDY / "scoring" / (name + ".json")
+        rows = read_json(path)
+        ballot = {row["packet"]: row for row in rows}
+        require(len(rows) == len(packet_case) and ballot.keys() == packet_case.keys(),
+                f"{name}: ballot membership differs")
+        for packet, row in ballot.items():
+            label = f"{name}/{packet}"
+            require(all(type(row[k]) is int and row[k] >= 0 for k in (*METRICS, "slots")),
+                    f"{label}: invalid count")
+            require(row["slots"] == SLOTS[packet_case[packet]] and row["O"] <= row["slots"],
+                    f"{label}: invalid recipient slot count")
+            require(row["F"] + row["U"] <= row["T"] and row["H"] <= row["T"],
+                    f"{label}: invalid proposition counts")
+            require(isinstance(row["claims"], list) and row["T"] == len(row["claims"])
+                    and all(isinstance(item, str) and item.strip() for item in row["claims"]),
+                    f"{label}: proposition list differs")
+        require(digest(path) == wanted_digest, f"{name}: original ballot bytes differ")
+        ballots[name] = ballot
+    return ballots
+
+
+def metric_counts(rows):
+    return " ".join(f"{k}={sum(row[k] for row in rows)}" for k in (*METRICS, "slots"))
+
+
 def replay(cases):
-    receipts = read_json(STUDY / "scoring/receipts.json")
+    receipt_file = STUDY / "scoring/receipts.json"
+    receipts = read_json(receipt_file)
+    require(digest(receipt_file) == RECEIPT_DIGEST, "original receipt bytes differ")
     require(len(cases) == len(receipts) == 16, "assignment or receipt count differs")
     require({row["run"] for row in receipts} == cases.keys(), "receipt membership differs")
     checked = 0
@@ -78,16 +131,22 @@ def replay(cases):
         report = (packet / "REPORT.md").read_bytes().decode()
         require(len(report.rstrip("\r\n")) == row["chars"], f"{run}: character count differs")
         observed = json.loads(subprocess.check_output([sys.executable, "-B", case / "oracle/assess.py", packet]))
+        require(len(observed) == 3 and all(type(v) is bool for v in observed.values()),
+                f"{run}: expected three boolean artifact assessments")
         require(observed == row["artifacts"], f"{run}: artifact assessment differs")
         checked += len(observed)
         succeeded += sum(observed.values())
-    ballots = [read_json(STUDY / "scoring" / name) for name in ("a.json", "b.json", "adjudicated.json")]
-    packets = {r["packet"] for r in receipts}
-    for ballot in ballots:
-        require(len(ballot) == len(packets) and {r["packet"] for r in ballot} == packets, "ballot membership differs")
-        for r in ballot:
-            require(r["T"] == len(r["claims"]), f"{r['packet']}: proposition list differs")
+    ballots = checked_ballots(receipts)
     print(f"{len(receipts)} raw reports and receipts verified; {succeeded}/{checked} artifact checks pass; 3 complete ballots")
+    for name, ballot in ballots.items():
+        print(f"{name}: {metric_counts(ballot.values())}")
+    first, second = ballots["a"], ballots["b"]
+    agreement = {k: sum(first[p][k] == second[p][k] for p in first) for k in METRICS}
+    print("Agreement on report counts:", " ".join(f"{k}={n}/{len(first)}" for k, n in agreement.items()))
+    final = ballots["adjudicated"]
+    for arm in sorted({r["arm"] for r in receipts}):
+        rows = [final[r["packet"]] for r in receipts if r["arm"] == arm]
+        print(f"{arm} ({len(rows)} reports): {metric_counts(rows)}")
 
 
 if __name__ == "__main__":

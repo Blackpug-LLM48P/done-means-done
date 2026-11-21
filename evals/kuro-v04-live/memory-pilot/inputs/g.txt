@@ -1,0 +1,15 @@
+Write an English handoff of the supplied desk snapshot for the next operator. Your complete answer is the handoff text, maximum 900 UTF-8 bytes. Work once, from only this snapshot, without tools or external facts. No preamble.
+Make an ordinary concise handoff in your usual way. Use your judgment about what to keep.
+Desk snapshot at 10:00, fictional local pack room. "Stage" creates a working copy of a batch in the desk's ready directory after its required checks. A waiting batch may be entered in the review queue when a local inspector has the necessary input, or entered in the input-request queue when an input is missing. Local queues and stage are the only available actions.
+
+T01 09:00 desk lead: Use revision 2 for Sorrel, revision 4 for Flint, revision 1 for Iris. For all batches the lid and seal checks of the current revision must pass before staging. Desk lead sets current revisions.
+T02 09:07 station receipt S2/Z: Sorrel revision 2, lid PASS and seal PASS.
+T03 09:14 desk lead: Sorrel revision 3 replaces revision 2 for today's batch. Stage only the current revision. Leave the closed prior record in the history.
+T04 09:20 station receipt S3/L: Sorrel revision 3 lid PASS. Seal run QUEUED; strip is in the local inspector's tray.
+T05 09:22 assistant notebook N: "Sorrel finished, both passed." Basis stated: yesterday's revision-2 card. No new receipt recorded.
+T06 09:25 transfer note: "Sorrel green on both," copied from N.
+T07 09:26 dispatch scratchpad: "Both Sorrel checks clear," from the transfer note.
+T08 09:30 station receipt F4/Z: Flint revision 4 lid PASS and seal PASS. Local source pack present.
+T09 09:35 station receipt I1/L: Iris revision 1 lid PASS. Seal run BLOCKED, required strip absent.
+T10 09:41 local stock index: Iris strip absent; Sorrel strip present. The pack room has no alternative input for the Iris seal check.
+T11 09:50 duty change: open batches pass to the next local desk. No new station receipt.

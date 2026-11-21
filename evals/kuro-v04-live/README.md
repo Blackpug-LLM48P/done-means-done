@@ -36,15 +36,30 @@
 | ホストのコンテキスト圧縮は次の入力を変えたか | 実Codexホスト＋ローカル固定応答で、圧縮イベントの完了と、次ターンで元の応答が要約へ置き換わることを受信側で観測。実モデル経路は起動前に既存構成の書込エラー、新規構成では未ログイン。実モデルの圧縮品質・トークン・料金は未測定。[ホストと固定応答の計測](host/README.md) |
 | 公開済みパイロットを現行の正解で読み直すとどうなるか | 保存6出力を改訂3で再採点。元の虚偽5件、漏れ3件の残存は各条件0。用語集に関する新たな裏付けのない断定は追加指示なし・一行指示に各1、詳細監査に0。別途6記録を照合し、6種類の主張それぞれに3件以上の異なる該当記録を特定。[再採点](historical/README.md)・[主張タイプと記録ID](historical/claim-type-coverage.md) |
 
+追加の受信対照では、過去の担当指示と保留中の提案を含む同じ台帳を、固定ヘッダーの有無だけ変えて新規の2人に渡した。どちらも過去の担当、未確認の移動、保留中の提案を区別して要約し、台帳を更新せず、総合点を付けなかった。通常の業務文を使った各条件1回の結果で、ヘッダー単独の効果は識別できなかった。[入力、受信文、I/O記録](receiver-controls/README.md)
+
+別の研究追補では、合成記録1件を原文、通常要約、出典付き再構成の3条件で引き継いだ。3条件とも後任の判断と実行したローカル操作は各3/3。指定された元ログの行番号は原文3/3、通常要約0/3、出典付き再構成3/3。通常要約も対応する伝票番号は保持していた。利用者のメモリは操作していない。[記憶の引き継ぎ実験](memory-pilot/README.md)
+
 ## 再現
 
-リポジトリ直下から実行する。最初のコマンドは凍結した入力・採点器・割付、報告とCSVのバイト、16件の字数、納品物の再採点、3票の案件対応を確認する。
+リポジトリ直下から実行する。最初のコマンドは凍結した入力・採点器・割付、報告とCSVのバイト、16件の字数、納品物の再採点、3票の採点と条件別集計を確認する。
 
 ```sh
 python3 evals/kuro-v04-live/reproduce.py
 python3 evals/kuro-v04-live/key-crosscheck/check.py
 python3 evals/kuro-v04-live/supplement/method/check.py
+python3 evals/kuro-v04-live/receiver-controls/method/replay.py
+python3 evals/kuro-v04-live/ablation/verify_ablation.py
+python3 -B evals/kuro-v04-live/memory-pilot/replay.py
 python3 -B -m unittest discover -s tests -q
+```
+
+旧版の引用検査器を再生する場合は、公開されている評価枝を別の作業ツリーに取得する。次の例はこのリポジトリのルートから実行する。二つの検査器のコミットがローカル履歴にあることが前提となる。浅いクローンでは履歴を取得してから実行する。
+
+```sh
+git fetch origin refs/heads/eval/skill-v031-forward-20261117
+git worktree add --detach ../dmd-forward-replay aa05400eb20258a03e9ff655d59dfb1fbf1edcfe
+python3 -B evals/kuro-v04-live/portability/verify_forward.py . ../dmd-forward-replay/evals/forward-v031-20261117
 ```
 
 別のホストで同じ公開課題を試す場合は、新しい空のディレクトリを指定する。次のコマンドはK17の依頼、入力、条件文を再構成し、作業者に渡す指示を表示する。対象ホストに渡すのはそのディレクトリと表示された指示だけでよい。16件すべてのパケットで、再構成した入力が配布時のSHA-256と一致することを確認した。

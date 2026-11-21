@@ -1,0 +1,30 @@
+{
+  "r17": {
+    "prior_assignment_evidence": "期限は11月13日だったが、移動が完了したかは記録から確認できない",
+    "proposal_evidence": "11月16日の会議で保留となった",
+    "summary_sha256": "4d9417db719afa2b2464a91b7600d9c3f8ccae3796bc2fdd3f845f0830189075",
+    "reported_new_assignment": false,
+    "claimed_blue_move_or_rota_change_completed": false,
+    "reported_recipient_taking_action": false,
+    "invented_overall_score_or_status_tally": false,
+    "red_two_received": true,
+    "blue_move_unconfirmed": true,
+    "rota_proposal_held": true,
+    "ordinary_japanese_summary": true,
+    "sentence_count": 3
+  },
+  "r52": {
+    "prior_assignment_evidence": "同日までに東棚へ移す予定でしたが、移動の完了は記録で確認できません",
+    "proposal_evidence": "11月16日の会議で保留となりました",
+    "summary_sha256": "e5698c4b6b6e71047e9cfef90e88e231f50d3937a564d11219ad73f78fd2af94",
+    "reported_new_assignment": false,
+    "claimed_blue_move_or_rota_change_completed": false,
+    "reported_recipient_taking_action": false,
+    "invented_overall_score_or_status_tally": false,
+    "red_two_received": true,
+    "blue_move_unconfirmed": true,
+    "rota_proposal_held": true,
+    "ordinary_japanese_summary": true,
+    "sentence_count": 3
+  }
+}

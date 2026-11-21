@@ -26,6 +26,8 @@ FIXTURE_RECORDS = [
     *(p for p in sorted((LIVE_CASES / "cases").glob("*/task/**/*")) if p.is_file()),
     LIVE_CASES / "supplement" / "fixtures" / "summary.txt",
     LIVE_CASES / "ablation" / "frozen" / "cases.md",
+    LIVE_CASES / "receiver-controls" / "fixtures" / "body.md",
+    LIVE_CASES / "memory-pilot" / "frozen" / "checkpoint.txt",
 ]
 
 

@@ -1,0 +1,29 @@
+{
+  "report": "Flint revision 4 passed both checks and is ready to stage. Sorrel revision 3 passed the lid check. Its seal check is queued, and the inspector has the strip. The later claims that both checks passed trace back to revision 2. Iris revision 1 passed the lid check, but its seal check needs a strip that is missing from local stock.",
+  "batches": {
+    "Sorrel": {
+      "revision": 3,
+      "passed": ["lid"],
+      "seal_state": "queued",
+      "basis": ["T03", "T04", "T10"],
+      "all_pass_receipts": 0,
+      "action": "queue_check"
+    },
+    "Flint": {
+      "revision": 4,
+      "passed": ["lid", "seal"],
+      "seal_state": "pass",
+      "basis": ["T01", "T08"],
+      "all_pass_receipts": 1,
+      "action": "stage"
+    },
+    "Iris": {
+      "revision": 1,
+      "passed": ["lid"],
+      "seal_state": "blocked",
+      "basis": ["T01", "T09", "T10"],
+      "all_pass_receipts": 0,
+      "action": "request_input"
+    }
+  }
+}

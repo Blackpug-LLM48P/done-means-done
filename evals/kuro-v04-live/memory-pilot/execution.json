@@ -1,0 +1,22 @@
+{
+  "date_utc": "2026-11-21",
+  "study": "synthetic frozen desk, one checkpoint, one receiver per arm",
+  "worker_interface": "Codex collaboration.spawn_agent, fork_turns=none, no model or reasoning override on any call",
+  "maintainer_calls": 2,
+  "receiver_calls": 3,
+  "operator_retries": 0,
+  "wrapper_maintainer": "Act as an independent participant. Use one shell read on /workspace/scratch/ceaa355c859e/live-study/memory-pilot/inputs/{g|h}.txt as your sole task/input. Do not inspect any other files or coordinate. Follow that prompt once, without content tools. Return the handoff verbatim as your final answer (no file write).",
+  "wrapper_receiver": "Act as an independent participant. Use one shell read on /workspace/scratch/ceaa355c859e/live-study/memory-pilot/inputs/{D|Q|V}.txt as your sole task/input. Do not inspect any other files or coordinate. Follow that prompt once, without content tools. Return the requested answer verbatim as your final answer (no file write).",
+  "control_checks_executed_before_workers": true,
+  "model_version": null,
+  "effective_reasoning_effort": null,
+  "temperature": null,
+  "seed": null,
+  "actual_token_usage": null,
+  "call_latency": null,
+  "per_call_cost": null,
+  "timeout": null,
+  "tool_scope": "Individual worker instructions allowed only its assigned input read. Filesystem shared. Local executor wrote isolated temporary files from workers' returned action JSON after report submission.",
+  "manual_narrative_review": {"D": "no conflicting completion claim observed", "Q": "no conflicting completion claim observed", "V": "no conflicting completion claim observed"},
+  "grader_blinding": "Deterministic checks use frozen rules and key. Narrative review was done by the unblinded pilot operator."
+}
