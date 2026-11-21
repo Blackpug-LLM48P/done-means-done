@@ -1,0 +1,22 @@
+{
+  "amber": {
+    "case_ids": [
+      "T3Z8H",
+      "T6M2Q",
+      "T2K7F",
+      "T8B4N"
+    ],
+    "canonical_gold_digest": "e9b086ec014c464e5a59b2e3795b322f601e6179407bea351db781b848fff739",
+    "envelope_sha256": "d9f1734650f1a6d1f8c5ac125f5f1003e0a29d6f3729322a8067c00b589d3489"
+  },
+  "blue": {
+    "case_ids": [
+      "F7K4",
+      "F8D3",
+      "F2V9",
+      "F5J6"
+    ],
+    "canonical_gold_digest": "49e876c5346df74e0540d1c4ae45b2620c6fd1182eab93169b214eefeb20e4f1",
+    "envelope_sha256": "33f2d67acd2022adb1c0cca09da20f7911233fc408484e94de2e7b518d83b17b"
+  }
+}

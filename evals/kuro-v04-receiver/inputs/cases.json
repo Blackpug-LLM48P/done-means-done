@@ -1,0 +1,766 @@
+[
+  {
+    "case_id": "T6M2Q",
+    "revision": "r3",
+    "as_of": "2026-09-17T15:00:00+09:00",
+    "request": "『潮路』の衣装借入について、受領報告と箱の配架の進み具合を引き継いでください。本文に貸出票番号と実際の配架先を明記してください。",
+    "draft": "昨日の下書きには配架先の候補として西庫B-2と書かれている。",
+    "scopes": {
+      "report": {
+        "name": "衣装借入の受領報告",
+        "checks": [
+          "貸出票番号の転記照合",
+          "受領時写真の添付確認"
+        ]
+      },
+      "operation": {
+        "name": "受入箱の配架",
+        "checks": [
+          "箱札と棚指定票の照合",
+          "現物の着棚確認"
+        ]
+      }
+    },
+    "records": [
+      {
+        "ref": "AM-641",
+        "case_id": "T6M2Q",
+        "revision": "r3",
+        "scope": "report",
+        "check": "貸出票番号の転記照合",
+        "at": "2026-09-17T13:12:00+09:00",
+        "available_at": "2026-09-17T13:12:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "貸出票の原本と受領報告を突合。転記された番号は貸V-183。"
+      },
+      {
+        "ref": "AM-275",
+        "case_id": "T6M2Q",
+        "revision": "r3",
+        "scope": "report",
+        "check": "受領時写真の添付確認",
+        "at": "2026-09-17T13:38:00+09:00",
+        "available_at": "2026-09-17T13:38:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "受領時写真が添付欄にあることを確認した。"
+      },
+      {
+        "ref": "AM-819",
+        "case_id": "T6M2Q",
+        "revision": "r3",
+        "scope": "operation",
+        "check": "箱札と棚指定票の照合",
+        "at": "2026-09-17T13:44:00+09:00",
+        "available_at": "2026-09-17T13:44:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "『潮路』の箱札を読み、最新の棚指定票と照合した。"
+      },
+      {
+        "ref": "AM-362",
+        "case_id": "T6M2Q",
+        "revision": "r3",
+        "scope": "operation",
+        "check": "現物の着棚確認",
+        "at": "2026-09-17T14:06:00+09:00",
+        "available_at": "2026-09-17T14:06:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "箱を配架。現物と棚札をその場で確認した。実際の配架先は東庫C-4。"
+      },
+      {
+        "ref": "AM-504",
+        "case_id": "T6M2Q",
+        "revision": "r3",
+        "scope": "report",
+        "check": "受領時写真の添付確認",
+        "at": "2026-09-17T14:24:00+09:00",
+        "available_at": "2026-09-17T14:24:00+09:00",
+        "source": "direct",
+        "result": "pending",
+        "text": "添付写真が別の衣装と判明して外した。添付欄は空で、正しい写真を待っている。"
+      },
+      {
+        "ref": "AM-953",
+        "case_id": "T6M2Q",
+        "revision": "r3",
+        "scope": "report",
+        "check": "受領時写真の添付確認",
+        "at": "2026-09-17T14:46:00+09:00",
+        "available_at": "2026-09-17T14:46:00+09:00",
+        "source": "reported",
+        "result": "met",
+        "text": "撮影班から、新しい写真を添付し直したと電話があった。"
+      }
+    ]
+  },
+  {
+    "case_id": "T3Z8H",
+    "revision": "r5",
+    "as_of": "2026-10-02T12:30:00+09:00",
+    "request": "『月の庭』の受領明細報告と上着の採寸について回答してください。貸主名と採寸した上着の袖丈を本文に入れてください。",
+    "draft": "仮目録では上着の袖丈はおよそ60 cmと見積もられている。",
+    "scopes": {
+      "report": {
+        "name": "貸借品の受領明細報告",
+        "checks": [
+          "貸主欄の原本照合",
+          "明細の担当者確認印"
+        ]
+      },
+      "operation": {
+        "name": "上着の採寸",
+        "checks": [
+          "袖丈の実測",
+          "着丈の実測"
+        ]
+      }
+    },
+    "records": [
+      {
+        "ref": "AM-198",
+        "case_id": "T3Z8H",
+        "revision": "r5",
+        "scope": "operation",
+        "check": "着丈の実測",
+        "at": "2026-10-02T10:18:00+09:00",
+        "available_at": "2026-10-02T10:18:00+09:00",
+        "source": "direct",
+        "result": "pending",
+        "text": "上着を取り出して準備したが、着丈はまだ測っていない。"
+      },
+      {
+        "ref": "AM-714",
+        "case_id": "T3Z8H",
+        "revision": "r5",
+        "scope": "report",
+        "check": "貸主欄の原本照合",
+        "at": "2026-10-02T10:25:00+09:00",
+        "available_at": "2026-10-02T10:25:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "貸主欄を署名済み貸出票と照合した。貸主は銀笛座。"
+      },
+      {
+        "ref": "AM-336",
+        "case_id": "T3Z8H",
+        "revision": "r5",
+        "scope": "operation",
+        "check": "袖丈の実測",
+        "at": "2026-10-02T10:34:00+09:00",
+        "available_at": "2026-10-02T10:34:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "上着の肩先から袖口まで計測。袖丈は57 cm。"
+      },
+      {
+        "ref": "AM-862",
+        "case_id": "T3Z8H",
+        "revision": "r5",
+        "scope": "operation",
+        "check": "着丈の実測",
+        "at": "2026-10-02T10:51:00+09:00",
+        "available_at": "2026-10-02T10:51:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "上着の背中心で着丈を計測し、72 cmと記録した。"
+      },
+      {
+        "ref": "AM-549",
+        "case_id": "T3Z8H",
+        "revision": "r5",
+        "scope": "report",
+        "check": "明細の担当者確認印",
+        "at": "2026-10-02T11:07:00+09:00",
+        "available_at": "2026-10-02T11:07:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "担当者が受領明細を読み合わせ、その場で明細の確認印を押した。"
+      },
+      {
+        "ref": "AM-421",
+        "case_id": "T3Z8H",
+        "revision": "r4",
+        "scope": "report",
+        "check": "明細の担当者確認印",
+        "at": "2026-10-02T12:02:00+09:00",
+        "available_at": "2026-10-02T12:02:00+09:00",
+        "source": "direct",
+        "result": "pending",
+        "text": "旧版を見直したところ、担当者印の欄は空白だった。"
+      }
+    ]
+  },
+  {
+    "case_id": "T8B4N",
+    "revision": "r2",
+    "as_of": "2026-10-09T17:00:00+09:00",
+    "request": "『蛍坂』の状態報告と外套の平置き収納について、次の当番へ申し送りを作成してください。実見した傷みの位置と収納用に敷いた布の種類を書いてください。",
+    "draft": "巡回用の走り書きでは外套を掛けて保管する予定になっていた。",
+    "scopes": {
+      "report": {
+        "name": "借入外套の受領時状態報告",
+        "checks": [
+          "損傷位置の記載照合",
+          "検品者の署名確認"
+        ]
+      },
+      "operation": {
+        "name": "外套の平置き収納",
+        "checks": [
+          "収納段への敷布設置",
+          "外套の収納段への移載"
+        ]
+      }
+    },
+    "records": [
+      {
+        "ref": "AM-680",
+        "case_id": "T8B4N",
+        "revision": "r2",
+        "scope": "report",
+        "check": "損傷位置の記載照合",
+        "at": "2026-10-09T14:16:00+09:00",
+        "available_at": "2026-10-09T14:16:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "現物と報告書を突合した。ほつれは左襟の裏にあり、位置は記載と一致した。"
+      },
+      {
+        "ref": "AM-903",
+        "case_id": "T8B4N",
+        "revision": "r2",
+        "scope": "report",
+        "check": "検品者の署名確認",
+        "at": "2026-10-09T15:12:00+09:00",
+        "available_at": "2026-10-09T15:12:00+09:00",
+        "source": "direct",
+        "result": "pending",
+        "text": "当該報告書の検品者署名欄は空欄だった。"
+      },
+      {
+        "ref": "AM-234",
+        "case_id": "T8B4N",
+        "revision": "r2",
+        "scope": "operation",
+        "check": "収納段への敷布設置",
+        "at": "2026-10-09T15:35:00+09:00",
+        "available_at": "2026-10-09T15:35:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "収納段に未晒し木綿を敷き、しわを伸ばした。"
+      },
+      {
+        "ref": "AM-461",
+        "case_id": "T8B4N",
+        "revision": "r2",
+        "scope": "operation",
+        "check": "外套の収納段への移載",
+        "at": "2026-10-09T16:10:00+09:00",
+        "available_at": "2026-10-09T16:10:00+09:00",
+        "source": "direct",
+        "result": "pending",
+        "text": "現物は検品台にある。収納段への移載はまだ行っていない。"
+      },
+      {
+        "ref": "AM-795",
+        "case_id": "T5R9D",
+        "revision": "r2",
+        "scope": "operation",
+        "check": "外套の収納段への移載",
+        "at": "2026-10-09T16:31:00+09:00",
+        "available_at": "2026-10-09T16:31:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "別の借入外套を検品台から指定の収納段へ移した。"
+      },
+      {
+        "ref": "AM-157",
+        "case_id": "T8B4N",
+        "revision": "r2",
+        "scope": "report",
+        "check": "検品者の署名確認",
+        "at": "2026-10-09T16:48:00+09:00",
+        "available_at": "2026-10-09T17:14:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "検品者が署名した現行の報告書を確認した。回線復旧後に受信。"
+      }
+    ]
+  },
+  {
+    "case_id": "T2K7F",
+    "revision": "r6",
+    "as_of": "2026-10-14T16:00:00+09:00",
+    "request": "『つばめ宿』で借りた帽子の受領報告と個体札の取り付けについて回答してください。本文で受領点数と帽子ごとの個体番号を伝えてください。",
+    "draft": "衣装係の予定表には帽子3点と記されていた。",
+    "scopes": {
+      "report": {
+        "name": "借入帽子の受領数量報告",
+        "checks": [
+          "受領点数の現物照合",
+          "借用明細写しの添付確認"
+        ]
+      },
+      "operation": {
+        "name": "帽子への個体札取り付け",
+        "checks": [
+          "個体番号の現物割当照合",
+          "全点への札取り付け確認"
+        ]
+      }
+    },
+    "records": [
+      {
+        "ref": "AM-380",
+        "case_id": "T2K7F",
+        "revision": "r6",
+        "scope": "report",
+        "check": "借用明細写しの添付確認",
+        "at": "2026-10-14T13:22:00+09:00",
+        "available_at": "2026-10-14T13:22:00+09:00",
+        "source": "direct",
+        "result": "pending",
+        "text": "報告書を開いた時点では借用明細の写しがまだ付いていない。"
+      },
+      {
+        "ref": "AM-524",
+        "case_id": "T2K7F",
+        "revision": "r6",
+        "scope": "report",
+        "check": "受領点数の現物照合",
+        "at": "2026-10-14T13:41:00+09:00",
+        "available_at": "2026-10-14T13:41:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "現物を数えて数量報告と照合した。受領点数は2点。"
+      },
+      {
+        "ref": "AM-176",
+        "case_id": "T2K7F",
+        "revision": "r6",
+        "scope": "operation",
+        "check": "個体番号の現物割当照合",
+        "at": "2026-10-14T14:04:00+09:00",
+        "available_at": "2026-10-14T14:04:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "帽子を割当票と突合。山高帽はH-42、麦わら帽はH-43。"
+      },
+      {
+        "ref": "AM-898",
+        "case_id": "T2K7F",
+        "revision": "r6",
+        "scope": "report",
+        "check": "借用明細写しの添付確認",
+        "at": "2026-10-14T14:32:00+09:00",
+        "available_at": "2026-10-14T14:32:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "署名入り借用明細の写しが報告書に添付されたことを画面で確認。"
+      },
+      {
+        "ref": "AM-243",
+        "case_id": "T2K7F",
+        "revision": "r6",
+        "scope": "operation",
+        "check": "全点への札取り付け確認",
+        "at": "2026-10-14T15:28:00+09:00",
+        "available_at": "2026-10-14T15:28:00+09:00",
+        "source": "direct",
+        "result": "pending",
+        "text": "山高帽だけに札を取り付けた。麦わら帽は札を付ける箇所の確認待ち。"
+      },
+      {
+        "ref": "AM-651",
+        "case_id": "T2K7F",
+        "revision": "r6",
+        "scope": "operation",
+        "check": "全点への札取り付け確認",
+        "at": "2026-10-14T16:19:00+09:00",
+        "available_at": "2026-10-14T16:19:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "麦わら帽にも札が付き、2点とも取り付けを確認。"
+      }
+    ]
+  },
+  {
+    "case_id": "F7K4",
+    "revision": 3,
+    "as_of": "2026-10-07T16:00:00+09:00",
+    "request": "巡回上映に貸し出す『凪の港』の35mmプリントについて、搬出点検票と運送会社への引き渡しの状況を回答してください。輸送箱の番号と、運転手が受領署名した時刻も明記してください。",
+    "draft": "運転手の署名を受けたので、点検票も含め全件完了としてよい。",
+    "scopes": {
+      "report": {
+        "name": "搬出点検票",
+        "checks": [
+          "点検結果の入力",
+          "保存版PDFの承認"
+        ]
+      },
+      "operation": {
+        "name": "運送会社への引き渡し",
+        "checks": [
+          "輸送箱の封印",
+          "運転手の受領署名"
+        ]
+      }
+    },
+    "records": [
+      {
+        "ref": "b7q1",
+        "case_id": "F7K4",
+        "revision": 3,
+        "scope": "report",
+        "check": "保存版PDFの承認",
+        "at": "2026-10-07T15:42:00+09:00",
+        "available_at": "2026-10-07T15:42:00+09:00",
+        "source": "reported",
+        "result": "met",
+        "text": "事務室から保存版に承認が付いたらしいとの電話。"
+      },
+      {
+        "ref": "b7q2",
+        "case_id": "F7K4",
+        "revision": 3,
+        "scope": "operation",
+        "check": "輸送箱の封印",
+        "at": "2026-10-07T13:25:00+09:00",
+        "available_at": "2026-10-07T13:25:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "封印台帳に輸送箱 K-24 の施封を記帳した。"
+      },
+      {
+        "ref": "b7q3",
+        "case_id": "F7K4",
+        "revision": 3,
+        "scope": "report",
+        "check": "点検結果の入力",
+        "at": "2026-10-07T13:10:00+09:00",
+        "available_at": "2026-10-07T13:10:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "点検票の必須項目を入力し、登録番号を採番した。"
+      },
+      {
+        "ref": "b7q4",
+        "case_id": "F7K4",
+        "revision": 3,
+        "scope": "operation",
+        "check": "運転手の受領署名",
+        "at": "2026-10-07T15:17:00+09:00",
+        "available_at": "2026-10-07T15:17:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "集荷伝票の受領欄に運転手が15時17分に署名した。"
+      },
+      {
+        "ref": "b7q5",
+        "case_id": "F7K4",
+        "revision": 2,
+        "scope": "report",
+        "check": "保存版PDFの承認",
+        "at": "2026-10-07T15:51:00+09:00",
+        "available_at": "2026-10-07T15:51:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "承認ログに保存版への電子署名がある。"
+      },
+      {
+        "ref": "b7q6",
+        "case_id": "F7K4",
+        "revision": 3,
+        "scope": "report",
+        "check": "保存版PDFの承認",
+        "at": "2026-10-07T14:40:00+09:00",
+        "available_at": "2026-10-07T14:40:00+09:00",
+        "source": "direct",
+        "result": "pending",
+        "text": "現行の保存版は決裁待ち。承認者欄は空欄。"
+      }
+    ]
+  },
+  {
+    "case_id": "F2V9",
+    "revision": 5,
+    "as_of": "2026-10-14T16:00:00+09:00",
+    "request": "分館から本館低温庫に戻す『岬の学校』の16mmプリントについて、移送報告書と庫内担当への引き渡しを判定してください。搬入した巻数と、庫内担当が受領票に記した保管棚を教えてください。",
+    "draft": "庫内担当はまだ受領しておらず、報告書の登録も保留する。",
+    "scopes": {
+      "report": {
+        "name": "移送報告書",
+        "checks": [
+          "温度履歴の添付",
+          "報告書の登録"
+        ]
+      },
+      "operation": {
+        "name": "本館低温庫への引き渡し",
+        "checks": [
+          "搬入巻数の照合",
+          "庫内担当の受領署名"
+        ]
+      }
+    },
+    "records": [
+      {
+        "ref": "b2m1",
+        "case_id": "F2V9",
+        "revision": 5,
+        "scope": "operation",
+        "check": "庫内担当の受領署名",
+        "at": "2026-10-14T13:54:00+09:00",
+        "available_at": "2026-10-14T13:54:00+09:00",
+        "source": "direct",
+        "result": "pending",
+        "text": "冷却待機室に到着。受領票の署名欄は空欄。"
+      },
+      {
+        "ref": "b2m2",
+        "case_id": "F2V9",
+        "revision": 5,
+        "scope": "report",
+        "check": "報告書の登録",
+        "at": "2026-10-14T14:58:00+09:00",
+        "available_at": "2026-10-14T14:58:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "登録台帳に移送報告書の現行版が収載された。"
+      },
+      {
+        "ref": "b2m3",
+        "case_id": "F2V9",
+        "revision": 5,
+        "scope": "operation",
+        "check": "搬入巻数の照合",
+        "at": "2026-10-14T14:05:00+09:00",
+        "available_at": "2026-10-14T14:05:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "搬入時の現物照合で全4巻が揃った。"
+      },
+      {
+        "ref": "b2m4",
+        "case_id": "F2V9",
+        "revision": 5,
+        "scope": "report",
+        "check": "温度履歴の添付",
+        "at": "2026-10-14T13:49:00+09:00",
+        "available_at": "2026-10-14T13:49:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "担当者が校正済み温度計の記録を報告書に添付した。"
+      },
+      {
+        "ref": "b2m5",
+        "case_id": "F2V9",
+        "revision": 5,
+        "scope": "operation",
+        "check": "庫内担当の受領署名",
+        "at": "2026-10-14T14:31:00+09:00",
+        "available_at": "2026-10-14T14:31:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "庫内担当が受領票に署名し、保管棚「雪-12」を記した。"
+      },
+      {
+        "ref": "b2m6",
+        "case_id": "F6H1",
+        "revision": 5,
+        "scope": "operation",
+        "check": "搬入巻数の照合",
+        "at": "2026-10-14T15:18:00+09:00",
+        "available_at": "2026-10-14T15:18:00+09:00",
+        "source": "direct",
+        "result": "pending",
+        "text": "この便は第4巻が未着のため数量照合を保留。"
+      }
+    ]
+  },
+  {
+    "case_id": "F8D3",
+    "revision": 2,
+    "as_of": "2026-10-21T16:00:00+09:00",
+    "request": "映像資料館から寄託者へ返送する『夜番』のプリントについて、返送明細書と寄託者側の受領がどこまで進んだか知らせてください。発送に使った便名と、到着した外箱の数を添えてください。",
+    "draft": "寄託者の受付に荷物が届いたため、受領確認も済んだ。明細書は前版のまま。",
+    "scopes": {
+      "report": {
+        "name": "返送明細書",
+        "checks": [
+          "返送便名の登録",
+          "明細書の確定"
+        ]
+      },
+      "operation": {
+        "name": "寄託者側の受領",
+        "checks": [
+          "到着外箱の検数",
+          "受領権限者の検収署名"
+        ]
+      }
+    },
+    "records": [
+      {
+        "ref": "b8u1",
+        "case_id": "F8D3",
+        "revision": 2,
+        "scope": "report",
+        "check": "返送便名の登録",
+        "at": "2026-10-21T09:43:00+09:00",
+        "available_at": "2026-10-21T09:43:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "返送明細の輸送欄に便名「青葉5便」を登録。"
+      },
+      {
+        "ref": "b8u2",
+        "case_id": "F8D3",
+        "revision": 2,
+        "scope": "operation",
+        "check": "受領権限者の検収署名",
+        "at": "2026-10-21T15:55:00+09:00",
+        "available_at": "2026-10-21T16:12:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "権限者の署名済み検収票を受信した。"
+      },
+      {
+        "ref": "b8u3",
+        "case_id": "F8D3",
+        "revision": 2,
+        "scope": "report",
+        "check": "明細書の確定",
+        "at": "2026-10-21T10:14:00+09:00",
+        "available_at": "2026-10-21T10:14:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "責任者が全行を確認し、返送明細書の現行版を確定した。"
+      },
+      {
+        "ref": "b8u4",
+        "case_id": "F8D3",
+        "revision": 2,
+        "scope": "operation",
+        "check": "受領権限者の検収署名",
+        "at": "2026-10-21T15:44:00+09:00",
+        "available_at": "2026-10-21T15:44:00+09:00",
+        "source": "direct",
+        "result": "pending",
+        "text": "寄託者の検収台帳で署名欄は空欄、検収待ち。"
+      },
+      {
+        "ref": "b8u5",
+        "case_id": "F8D3",
+        "revision": 2,
+        "scope": "operation",
+        "check": "到着外箱の検数",
+        "at": "2026-10-21T15:38:00+09:00",
+        "available_at": "2026-10-21T15:38:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "寄託者の受付担当が到着した外箱2箱を現物で数えた。"
+      }
+    ]
+  },
+  {
+    "case_id": "F5J6",
+    "revision": 4,
+    "as_of": "2026-10-28T16:00:00+09:00",
+    "request": "修復工房へ送った『春の市電』のプリントについて、引き渡し記録票と工房への現物引き渡しの状況を知らせてください。工房で照合した缶の識別番号と、記録票に登録済みの担当班名を記載してください。",
+    "draft": "工房への引き渡しは完了し、記録票も責任者の確認を経て確定した。",
+    "scopes": {
+      "report": {
+        "name": "引き渡し記録票",
+        "checks": [
+          "担当班の登録",
+          "責任者の確定署名"
+        ]
+      },
+      "operation": {
+        "name": "修復工房への現物引き渡し",
+        "checks": [
+          "フィルム缶番号の照合",
+          "工房受付の受領印"
+        ]
+      }
+    },
+    "records": [
+      {
+        "ref": "b5t1",
+        "case_id": "F5J6",
+        "revision": 4,
+        "scope": "operation",
+        "check": "フィルム缶番号の照合",
+        "at": "2026-10-28T14:34:00+09:00",
+        "available_at": "2026-10-28T14:34:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "工房の照合簿で現物の缶番号 T-903 を発送控えと照合。"
+      },
+      {
+        "ref": "b5t2",
+        "case_id": "F5J6",
+        "revision": 4,
+        "scope": "report",
+        "check": "責任者の確定署名",
+        "at": "2026-10-28T15:39:00+09:00",
+        "available_at": "2026-10-28T15:39:00+09:00",
+        "source": "direct",
+        "result": "pending",
+        "text": "責任者の確定署名を依頼中。記録票は確認用版。"
+      },
+      {
+        "ref": "b5t3",
+        "case_id": "F5J6",
+        "revision": 4,
+        "scope": "operation",
+        "check": "工房受付の受領印",
+        "at": "2026-10-28T16:08:00+09:00",
+        "available_at": "2026-10-28T16:08:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "工房受付が引き渡し控えに受領印を押した。"
+      },
+      {
+        "ref": "b5t4",
+        "case_id": "F5J6",
+        "revision": 4,
+        "scope": "report",
+        "check": "担当班の登録",
+        "at": "2026-10-28T10:18:00+09:00",
+        "available_at": "2026-10-28T10:18:00+09:00",
+        "source": "direct",
+        "result": "met",
+        "text": "記録票の担当班欄に「銀塩班」を登録した。"
+      },
+      {
+        "ref": "b5t5",
+        "case_id": "F5J6",
+        "revision": 4,
+        "scope": "operation",
+        "check": "工房受付の受領印",
+        "at": "2026-10-28T14:57:00+09:00",
+        "available_at": "2026-10-28T14:57:00+09:00",
+        "source": "direct",
+        "result": "pending",
+        "text": "工房窓口で確認した控えは受領印待ち。"
+      },
+      {
+        "ref": "b5t6",
+        "case_id": "F5J6",
+        "revision": 4,
+        "scope": "report",
+        "check": "責任者の確定署名",
+        "at": "2026-10-28T15:46:00+09:00",
+        "available_at": "2026-10-28T15:46:00+09:00",
+        "source": "reported",
+        "result": "met",
+        "text": "同行スタッフから責任者が署名を終えたと聞いた。"
+      }
+    ]
+  }
+]
