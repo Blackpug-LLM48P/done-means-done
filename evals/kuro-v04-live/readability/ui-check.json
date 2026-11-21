@@ -1,0 +1,11 @@
+{
+  "status": "blocked_before_browser_start",
+  "attempted": "offline Chromium via Playwright for 360x740 and 1280x800",
+  "browser": "Chromium",
+  "binary": "/usr/bin/chromium",
+  "observed_error": "chrome/browser/process_singleton_posix.cc:297 socket() failed: Operation not permitted (1)",
+  "rendered_viewports": 0,
+  "observed_browser_downloads": 0,
+  "human_returns_created": 0,
+  "fallback_record": "form-check.json"
+}

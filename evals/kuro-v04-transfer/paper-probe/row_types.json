@@ -1,0 +1,6 @@
+{
+  "A01-E1":"direct","A01-E2":"direct","A01-E3":"direct","A01-E4":"firsthand_report",
+  "A02-E1":"direct","A02-E2":"hearsay","A02-E3":"direct",
+  "A03-E1":"direct","A03-E2":"direct","A03-E3":"uncertain_report",
+  "A04-E1":"direct","A04-E2":"hearsay","A04-E3":"direct","A04-E4":"direct"
+}

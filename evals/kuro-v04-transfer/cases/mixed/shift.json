@@ -1,0 +1,381 @@
+{
+  "shift": "FM-48937",
+  "desk": "浜風調整室",
+  "plan": [
+    {
+      "slot": "P-111",
+      "rev": 6,
+      "code": "M-9D06B"
+    },
+    {
+      "slot": "P-443",
+      "rev": 9,
+      "code": "M-629BC"
+    },
+    {
+      "slot": "P-615",
+      "rev": 3,
+      "code": "M-BDEAC"
+    },
+    {
+      "slot": "P-285",
+      "rev": 11,
+      "code": "M-3298B"
+    },
+    {
+      "slot": "P-336",
+      "rev": 10,
+      "code": "M-48055"
+    },
+    {
+      "slot": "P-725",
+      "rev": 4,
+      "code": "M-11555"
+    },
+    {
+      "slot": "P-617",
+      "rev": 8,
+      "code": "M-26ECA"
+    },
+    {
+      "slot": "P-106",
+      "rev": 11,
+      "code": "M-371ED"
+    }
+  ],
+  "checks": [
+    {
+      "seq": 196,
+      "slot": "P-443",
+      "rev": 8,
+      "result": "pass"
+    },
+    {
+      "seq": 272,
+      "slot": "P-336",
+      "rev": 9,
+      "result": "pass"
+    },
+    {
+      "seq": 160,
+      "slot": "P-725",
+      "rev": 3,
+      "result": "fail"
+    },
+    {
+      "seq": 281,
+      "slot": "P-111",
+      "rev": 5,
+      "result": "fail"
+    },
+    {
+      "seq": 249,
+      "slot": "P-336",
+      "rev": 10,
+      "result": "fail"
+    },
+    {
+      "seq": 181,
+      "slot": "P-443",
+      "rev": 9,
+      "result": "fail"
+    },
+    {
+      "seq": 174,
+      "slot": "P-443",
+      "rev": 9,
+      "result": "pass"
+    },
+    {
+      "seq": 311,
+      "slot": "P-106",
+      "rev": 10,
+      "result": "fail"
+    },
+    {
+      "seq": 296,
+      "slot": "P-111",
+      "rev": 5,
+      "result": "fail"
+    },
+    {
+      "seq": 109,
+      "slot": "P-615",
+      "rev": 2,
+      "result": "fail"
+    },
+    {
+      "seq": 290,
+      "slot": "P-111",
+      "rev": 6,
+      "result": "pass"
+    },
+    {
+      "seq": 173,
+      "slot": "P-443",
+      "rev": 8,
+      "result": "fail"
+    },
+    {
+      "seq": 116,
+      "slot": "P-617",
+      "rev": 7,
+      "result": "fail"
+    },
+    {
+      "seq": 248,
+      "slot": "P-336",
+      "rev": 9,
+      "result": "fail"
+    },
+    {
+      "seq": 97,
+      "slot": "P-615",
+      "rev": 3,
+      "result": "pass"
+    },
+    {
+      "seq": 327,
+      "slot": "P-106",
+      "rev": 10,
+      "result": "fail"
+    },
+    {
+      "seq": 258,
+      "slot": "P-336",
+      "rev": 10,
+      "result": "pass"
+    },
+    {
+      "seq": 92,
+      "slot": "P-615",
+      "rev": 2,
+      "result": "fail"
+    },
+    {
+      "seq": 227,
+      "slot": "P-285",
+      "rev": 11,
+      "result": "pass"
+    },
+    {
+      "seq": 129,
+      "slot": "P-617",
+      "rev": 7,
+      "result": "fail"
+    },
+    {
+      "seq": 221,
+      "slot": "P-285",
+      "rev": 10,
+      "result": "fail"
+    },
+    {
+      "seq": 321,
+      "slot": "P-106",
+      "rev": 11,
+      "result": "pass"
+    },
+    {
+      "seq": 239,
+      "slot": "P-285",
+      "rev": 10,
+      "result": "fail"
+    },
+    {
+      "seq": 316,
+      "slot": "P-106",
+      "rev": 11,
+      "result": "fail"
+    },
+    {
+      "seq": 124,
+      "slot": "P-617",
+      "rev": 8,
+      "result": "pass"
+    },
+    {
+      "seq": 147,
+      "slot": "P-725",
+      "rev": 3,
+      "result": "fail"
+    }
+  ],
+  "receipts": [
+    {
+      "seq": 295,
+      "slot": "P-111",
+      "rev": 6,
+      "desk": "浜風調整室",
+      "code": "M-9D06B"
+    },
+    {
+      "seq": 333,
+      "slot": "P-106",
+      "rev": 10,
+      "desk": "浜風調整室",
+      "code": "M-371ED"
+    },
+    {
+      "seq": 264,
+      "slot": "P-336",
+      "rev": 10,
+      "desk": "浜風調整室",
+      "code": "M-48054"
+    },
+    {
+      "seq": 304,
+      "slot": "P-111",
+      "rev": 6,
+      "desk": "夕凪調整室",
+      "code": "M-9D06B"
+    },
+    {
+      "seq": 142,
+      "slot": "P-617",
+      "rev": 8,
+      "desk": "夕凪調整室",
+      "code": "M-26ECA"
+    },
+    {
+      "seq": 135,
+      "slot": "P-617",
+      "rev": 7,
+      "desk": "浜風調整室",
+      "code": "M-26ECA"
+    },
+    {
+      "seq": 155,
+      "slot": "P-725",
+      "rev": 4,
+      "desk": "浜風調整室",
+      "code": "M-11555"
+    },
+    {
+      "seq": 188,
+      "slot": "P-443",
+      "rev": 9,
+      "desk": "浜風調整室",
+      "code": "M-629BC"
+    },
+    {
+      "seq": 340,
+      "slot": "P-106",
+      "rev": 11,
+      "desk": "夕凪調整室",
+      "code": "M-371ED"
+    },
+    {
+      "seq": 165,
+      "slot": "P-725",
+      "rev": 3,
+      "desk": "浜風調整室",
+      "code": "M-11555"
+    },
+    {
+      "seq": 233,
+      "slot": "P-285",
+      "rev": 11,
+      "desk": "浜風調整室",
+      "code": "M-3298B"
+    },
+    {
+      "seq": 276,
+      "slot": "P-336",
+      "rev": 10,
+      "desk": "夕凪調整室",
+      "code": "M-48055"
+    },
+    {
+      "seq": 273,
+      "slot": "P-336",
+      "rev": 9,
+      "desk": "浜風調整室",
+      "code": "M-48055"
+    },
+    {
+      "seq": 242,
+      "slot": "P-285",
+      "rev": 11,
+      "desk": "夕凪調整室",
+      "code": "M-3298B"
+    },
+    {
+      "seq": 241,
+      "slot": "P-285",
+      "rev": 10,
+      "desk": "浜風調整室",
+      "code": "M-3298B"
+    },
+    {
+      "seq": 205,
+      "slot": "P-443",
+      "rev": 8,
+      "desk": "浜風調整室",
+      "code": "M-629BC"
+    },
+    {
+      "seq": 115,
+      "slot": "P-615",
+      "rev": 3,
+      "desk": "夕凪調整室",
+      "code": "M-BDEAC"
+    },
+    {
+      "seq": 228,
+      "slot": "P-285",
+      "rev": 11,
+      "desk": "浜風調整室",
+      "code": "M-3298A"
+    },
+    {
+      "seq": 167,
+      "slot": "P-725",
+      "rev": 4,
+      "desk": "夕凪調整室",
+      "code": "M-11555"
+    },
+    {
+      "seq": 300,
+      "slot": "P-111",
+      "rev": 5,
+      "desk": "浜風調整室",
+      "code": "M-9D06B"
+    },
+    {
+      "seq": 110,
+      "slot": "P-615",
+      "rev": 2,
+      "desk": "浜風調整室",
+      "code": "M-BDEAC"
+    },
+    {
+      "seq": 263,
+      "slot": "P-336",
+      "rev": 10,
+      "desk": "浜風調整室",
+      "code": "M-48055"
+    },
+    {
+      "seq": 214,
+      "slot": "P-443",
+      "rev": 9,
+      "desk": "夕凪調整室",
+      "code": "M-629BC"
+    },
+    {
+      "seq": 107,
+      "slot": "P-615",
+      "rev": 3,
+      "desk": "浜風調整室",
+      "code": "M-BDEAC"
+    },
+    {
+      "seq": 105,
+      "slot": "P-615",
+      "rev": 3,
+      "desk": "浜風調整室",
+      "code": "M-BDEAD"
+    }
+  ]
+}

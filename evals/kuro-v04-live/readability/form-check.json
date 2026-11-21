@@ -1,0 +1,14 @@
+{
+  "tested": "embedded JS with a DOM fixture; no browser rendering",
+  "packets": [
+    "AX7.html",
+    "BZ6.html",
+    "CL8.html",
+    "GP9.html",
+    "HN4.html",
+    "JT5.html",
+    "QF2.html",
+    "WM3.html"
+  ],
+  "human_returns_created": 0
+}

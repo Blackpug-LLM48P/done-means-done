@@ -1,0 +1,26 @@
+{
+  "transport": "ChatGPT collaboration, new task with fork_turns=none for each participant, same model routing as parent; exact served model build unavailable",
+  "coordinator": "/root/live_compaction_relay",
+  "participants": {
+    "compact": {
+      "agent": "/root/live_compaction_relay/scribe",
+      "final_return_matches_packet": true
+    },
+    "after": {
+      "agent": "/root/live_compaction_relay/auditor_after",
+      "final_return_matches_packet": true
+    },
+    "original": {
+      "agent": "/root/live_compaction_relay/auditor_original",
+      "final_return_matches_packet": true
+    },
+    "masked_source_review": {
+      "agent": "/root/live_compaction_relay/source_review",
+      "final_return": "M3 and R6 each 12/12 supported",
+      "condition_label_mapping": {
+        "M3": "original",
+        "R6": "after"
+      }
+    }
+  }
+}

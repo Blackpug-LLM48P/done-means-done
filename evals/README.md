@@ -25,6 +25,8 @@ The [Japanese handoff and audit checks](kuro-v04-smoke/README.md) include the re
 
 The [Japanese working-agent comparison](kuro-v04-live/README.md) includes 16 live runs, both task-author checkers, the actual delivered files and independent report grading. Its [protocol](kuro-v04-live/PROTOCOL.md) distinguishes the live one-line control from the original separate reviewer.
 
+A [follow-up on unseen broadcast handoffs](kuro-v04-transfer/README.md) freezes six submissions before sampling, executes them under OS isolation, and independently scores the recipient reports. It also records a [project-specific sparse-retrieval comparison](kuro-v04-transfer/paper-probe/report.md).
+
 ## Fixtures
 
 | Fixture | Record | Keys | What it tests |

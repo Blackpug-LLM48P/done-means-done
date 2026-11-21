@@ -1,0 +1,277 @@
+{
+  "started_at": "2026-11-21T01:56:12.300012+00:00",
+  "case_id": "juniper-crates-01",
+  "cli": "codex-cli 0.172.0-alpha.2",
+  "interfaces_in_host_namespace": [
+    "lo"
+  ],
+  "ephemeral_threads": true,
+  "worker_transport": "local filtered mailbox; output authored by separate fresh ChatGPT collaboration workers",
+  "fixture_transport": "only seed turns return a prerecorded synthetic case",
+  "preregistered_sha256": {
+    "case.json": "49317c2ae6ef83b823b277ef97eeea7dab57713a0c933d2196cb69907fb193a0",
+    "score.py": "888d0a766a75255f3c84a25fc4771142a6cdf6d39c45d32ad74273bf004dba86"
+  },
+  "provider_requests": [
+    {
+      "phase": "seed_before",
+      "received_at": "2026-11-21T01:56:12.570609+00:00",
+      "input_item_count": 4,
+      "record_present_as_full_item": false,
+      "initial_marker_in_any_input_text": false
+    },
+    {
+      "phase": "compact",
+      "received_at": "2026-11-21T01:56:12.606811+00:00",
+      "input_item_count": 6,
+      "record_present_as_full_item": true,
+      "initial_marker_in_any_input_text": true,
+      "dispatched_at": "2026-11-21T01:56:12.607083+00:00",
+      "task_sha256": "ad9c7d91fd6dbef36169b5233debf6290005b66d25f0145551383bcbaa4d2f2f",
+      "evidence_sha256": "08838b6cbe2b93db9b1c72e19aba7471d7a6b8080f1d88bf3a79b4f76f0a1914",
+      "worker_request_sha256": "dbcb7df52983a2b45e856a729950d36a0275ba0a29a4a584079645d6e9fc2a93"
+    },
+    {
+      "phase": "after",
+      "received_at": "2026-11-21T01:57:35.382720+00:00",
+      "input_item_count": 6,
+      "record_present_as_full_item": false,
+      "initial_marker_in_any_input_text": false,
+      "full_summary_count_in_input": 1,
+      "case_fingerprints_outside_summary": [],
+      "dispatched_at": "2026-11-21T01:57:35.383062+00:00",
+      "task_sha256": "3815e1192135281bac3ad41542962441f2c80600b40ef9e49e3c1a5640dac759",
+      "evidence_sha256": "ddee2d922fbaa206c9392ddcb04069292f220934fddcd81e8c93911fbc6426bc",
+      "worker_request_sha256": "eb05d740fcb3d9f175b1a18bc2089e58306322bca585b672f76cb9b6f5fb5fd7"
+    },
+    {
+      "phase": "seed_control",
+      "received_at": "2026-11-21T01:58:24.839283+00:00",
+      "input_item_count": 4,
+      "record_present_as_full_item": false,
+      "initial_marker_in_any_input_text": false
+    },
+    {
+      "phase": "original",
+      "received_at": "2026-11-21T01:58:24.880293+00:00",
+      "input_item_count": 6,
+      "record_present_as_full_item": true,
+      "initial_marker_in_any_input_text": true,
+      "dispatched_at": "2026-11-21T01:58:24.880645+00:00",
+      "task_sha256": "3815e1192135281bac3ad41542962441f2c80600b40ef9e49e3c1a5640dac759",
+      "evidence_sha256": "08838b6cbe2b93db9b1c72e19aba7471d7a6b8080f1d88bf3a79b4f76f0a1914",
+      "worker_request_sha256": "d5121568b49f65b4f4b567842e35d40331738bbba9c2a728a682a3595409242d"
+    }
+  ],
+  "model_outputs": {
+    "compact": {
+      "worker": "scribe",
+      "text": "Follow signed slip MV-493 rev C for the 14:25 pickup of four crates at Birch Gate. It cancels W-12 rev B’s five-crate Alder Door pickup at 13:40. EM-76 authorizes packing. Hold the lift until the site electrician approves permit LP-28. TX-816 records the routing notice as sent to dispatch at 10:04. Follow up with dispatch because receipt is still unconfirmed.",
+      "sha256": "ddee2d922fbaa206c9392ddcb04069292f220934fddcd81e8c93911fbc6426bc",
+      "received_at": "2026-11-21T01:57:35.335976+00:00"
+    },
+    "after": {
+      "worker": "auditor_after",
+      "text": "{\"controlling_source\":\"MV-493\",\"controlling_revision\":\"C\",\"crate_count\":4,\"gate\":\"Birch Gate\",\"pickup\":\"14:25\",\"cancelled_source\":\"W-12\",\"packing_authority\":\"EM-76\",\"permit_id\":\"LP-28\",\"permit_status\":\"pending\",\"notice_id\":\"TX-816\",\"dispatch_transmission\":\"sent\",\"dispatch_receipt\":\"unconfirmed\"}",
+      "sha256": "df850f34844f9d140986b6d38bfcaa5f96a4ab3f8de0689b8a8383d42852ac43",
+      "received_at": "2026-11-21T01:58:24.769722+00:00"
+    },
+    "original": {
+      "worker": "auditor_original",
+      "text": "{\"controlling_source\":\"MV-493\",\"controlling_revision\":\"C\",\"crate_count\":4,\"gate\":\"Birch Gate\",\"pickup\":\"14:25\",\"cancelled_source\":\"W-12\",\"packing_authority\":\"EM-76\",\"permit_id\":\"LP-28\",\"permit_status\":\"pending\",\"notice_id\":\"TX-816\",\"dispatch_transmission\":\"sent\",\"dispatch_receipt\":\"unconfirmed\"}",
+      "sha256": "df850f34844f9d140986b6d38bfcaa5f96a4ab3f8de0689b8a8383d42852ac43",
+      "received_at": "2026-11-21T01:58:51.793379+00:00"
+    }
+  },
+  "host_events": [
+    {
+      "phase": "seed_before",
+      "method": "turn/started",
+      "time": "2026-11-21T01:56:12.545991+00:00",
+      "status": "inProgress"
+    },
+    {
+      "phase": "seed_before",
+      "method": "item/started",
+      "time": "2026-11-21T01:56:12.552521+00:00",
+      "kind": "userMessage"
+    },
+    {
+      "phase": "seed_before",
+      "method": "item/completed",
+      "time": "2026-11-21T01:56:12.552680+00:00",
+      "kind": "userMessage"
+    },
+    {
+      "phase": "seed_before",
+      "method": "item/started",
+      "time": "2026-11-21T01:56:12.573831+00:00",
+      "kind": "agentMessage"
+    },
+    {
+      "phase": "seed_before",
+      "method": "item/completed",
+      "time": "2026-11-21T01:56:12.574000+00:00",
+      "kind": "agentMessage",
+      "agent_text_sha256": "08838b6cbe2b93db9b1c72e19aba7471d7a6b8080f1d88bf3a79b4f76f0a1914"
+    },
+    {
+      "phase": "seed_before",
+      "method": "turn/completed",
+      "time": "2026-11-21T01:56:12.574971+00:00",
+      "status": "completed"
+    },
+    {
+      "phase": "compact",
+      "method": "turn/started",
+      "time": "2026-11-21T01:56:12.593189+00:00",
+      "status": "inProgress"
+    },
+    {
+      "phase": "compact",
+      "method": "item/started",
+      "time": "2026-11-21T01:56:12.594199+00:00",
+      "kind": "contextCompaction"
+    },
+    {
+      "phase": "compact",
+      "method": "item/completed",
+      "time": "2026-11-21T01:57:35.342482+00:00",
+      "kind": "contextCompaction"
+    },
+    {
+      "phase": "compact",
+      "method": "turn/completed",
+      "time": "2026-11-21T01:57:35.342508+00:00",
+      "status": "completed"
+    },
+    {
+      "phase": "after",
+      "method": "turn/started",
+      "time": "2026-11-21T01:57:35.362102+00:00",
+      "status": "inProgress"
+    },
+    {
+      "phase": "after",
+      "method": "item/started",
+      "time": "2026-11-21T01:57:35.363548+00:00",
+      "kind": "userMessage"
+    },
+    {
+      "phase": "after",
+      "method": "item/completed",
+      "time": "2026-11-21T01:57:35.363562+00:00",
+      "kind": "userMessage"
+    },
+    {
+      "phase": "after",
+      "method": "item/started",
+      "time": "2026-11-21T01:58:24.774252+00:00",
+      "kind": "agentMessage"
+    },
+    {
+      "phase": "after",
+      "method": "item/completed",
+      "time": "2026-11-21T01:58:24.774287+00:00",
+      "kind": "agentMessage",
+      "agent_text_sha256": "df850f34844f9d140986b6d38bfcaa5f96a4ab3f8de0689b8a8383d42852ac43"
+    },
+    {
+      "phase": "after",
+      "method": "turn/completed",
+      "time": "2026-11-21T01:58:24.774847+00:00",
+      "status": "completed"
+    },
+    {
+      "phase": "seed_control",
+      "method": "turn/started",
+      "time": "2026-11-21T01:58:24.820993+00:00",
+      "status": "inProgress"
+    },
+    {
+      "phase": "seed_control",
+      "method": "item/started",
+      "time": "2026-11-21T01:58:24.822650+00:00",
+      "kind": "userMessage"
+    },
+    {
+      "phase": "seed_control",
+      "method": "item/completed",
+      "time": "2026-11-21T01:58:24.824252+00:00",
+      "kind": "userMessage"
+    },
+    {
+      "phase": "seed_control",
+      "method": "item/started",
+      "time": "2026-11-21T01:58:24.841784+00:00",
+      "kind": "agentMessage"
+    },
+    {
+      "phase": "seed_control",
+      "method": "item/completed",
+      "time": "2026-11-21T01:58:24.841807+00:00",
+      "kind": "agentMessage",
+      "agent_text_sha256": "08838b6cbe2b93db9b1c72e19aba7471d7a6b8080f1d88bf3a79b4f76f0a1914"
+    },
+    {
+      "phase": "seed_control",
+      "method": "turn/completed",
+      "time": "2026-11-21T01:58:24.842184+00:00",
+      "status": "completed"
+    },
+    {
+      "phase": "original",
+      "method": "turn/started",
+      "time": "2026-11-21T01:58:24.859886+00:00",
+      "status": "inProgress"
+    },
+    {
+      "phase": "original",
+      "method": "item/started",
+      "time": "2026-11-21T01:58:24.861433+00:00",
+      "kind": "userMessage"
+    },
+    {
+      "phase": "original",
+      "method": "item/completed",
+      "time": "2026-11-21T01:58:24.861451+00:00",
+      "kind": "userMessage"
+    },
+    {
+      "phase": "original",
+      "method": "item/started",
+      "time": "2026-11-21T01:58:51.798323+00:00",
+      "kind": "agentMessage"
+    },
+    {
+      "phase": "original",
+      "method": "item/completed",
+      "time": "2026-11-21T01:58:51.798359+00:00",
+      "kind": "agentMessage",
+      "agent_text_sha256": "df850f34844f9d140986b6d38bfcaa5f96a4ab3f8de0689b8a8383d42852ac43"
+    },
+    {
+      "phase": "original",
+      "method": "turn/completed",
+      "time": "2026-11-21T01:58:51.798742+00:00",
+      "status": "completed"
+    }
+  ],
+  "checks": {
+    "distinct_host_threads": true,
+    "unique_requests_in_frozen_order": true,
+    "three_distinct_workers": true,
+    "context_compaction_completed": true,
+    "pre_compaction_input_includes_whole_synthetic_case": true,
+    "post_summary_exactly_once_in_provider_input": true,
+    "post_evidence_hash_equals_live_summary_hash": true,
+    "post_raw_record_absent": true,
+    "post_initial_marker_absent": true,
+    "post_original_fingerprints_absent_outside_summary": true,
+    "direct_receives_original": true,
+    "same_question": true,
+    "host_emits_both_model_answers": true
+  },
+  "status": "all transport checks passed",
+  "finished_at": "2026-11-21T01:58:51.921450+00:00"
+}

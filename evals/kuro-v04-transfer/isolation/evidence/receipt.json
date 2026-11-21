@@ -1,0 +1,33 @@
+{
+  "entry": [
+    "/usr/bin/python3.13",
+    "-I",
+    "-S",
+    "-B",
+    "/submission.py"
+  ],
+  "python": "/usr/bin/python3.13",
+  "input_manifest": {
+    "dispatch.csv": {
+      "bytes": 31,
+      "sha256": "98400f9d5f73c4259dcf9666b4c970e92da687a20776f46cb639d5554fb873a0"
+    }
+  },
+  "submission_sha256": "68a9c21ba3287b4bccb762751d26bdfb2bcbc79bed8c3fc19adde5eca8273d5f",
+  "host_net_ns": "net:[4026532358]",
+  "worker_net_ns": "net:[4026532282]",
+  "elapsed_seconds": 0.115,
+  "timed_out": false,
+  "exit_code": 0,
+  "stdout": "allowed office-data read and delivery write, all denial assertions passed\n",
+  "stdout_bytes": 74,
+  "stderr": "",
+  "stderr_bytes": 0,
+  "delivery_manifest": {
+    "observed.json": {
+      "bytes": 1125,
+      "sha256": "300c3305cc46735d2e5d432d6cc468f49876991014e43b7d427b258709496860"
+    }
+  },
+  "ok": true
+}

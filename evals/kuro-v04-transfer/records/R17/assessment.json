@@ -1,0 +1,39 @@
+{
+  "checks": {
+    "handoff_counts": true,
+    "handoff_recovery": true,
+    "handoff_route": true,
+    "handoff_schema": true,
+    "inventory": true,
+    "queue_current": true,
+    "queue_evidence": true,
+    "queue_schema": true,
+    "queue_state": true
+  },
+  "pass": true,
+  "report_facts": {
+    "desk": "浜風調整室",
+    "holds": {
+      "CHECK_FAILED": [
+        "P-443"
+      ],
+      "CONFLICT": [
+        "P-336"
+      ],
+      "NO_CHECK": [
+        "P-725"
+      ],
+      "NO_RECEIPT": [
+        "P-106",
+        "P-617"
+      ]
+    },
+    "ready": 3,
+    "recovered": [
+      "P-106",
+      "P-336"
+    ],
+    "shift": "FM-48937",
+    "total": 8
+  }
+}

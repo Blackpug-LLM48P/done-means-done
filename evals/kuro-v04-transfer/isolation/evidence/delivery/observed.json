@@ -1,0 +1,66 @@
+{
+  "input_read": [
+    {
+      "ticket": "OFC-101",
+      "team": "Facilities"
+    }
+  ],
+  "cwd": "/delivery",
+  "input_visible": [
+    "dispatch.csv"
+  ],
+  "env_names": [
+    "HOME",
+    "LANG",
+    "PATH",
+    "PWD"
+  ],
+  "root_entries": [
+    "delivery",
+    "input",
+    "lib",
+    "lib64",
+    "submission.py",
+    "usr"
+  ],
+  "peer_read": {
+    "errno": 2,
+    "error": "No such file or directory"
+  },
+  "key_read": {
+    "errno": 2,
+    "error": "No such file or directory"
+  },
+  "repo_read": {
+    "errno": 2,
+    "error": "No such file or directory"
+  },
+  "input_edit": {
+    "errno": 30,
+    "error": "Read-only file system"
+  },
+  "input_create": {
+    "errno": 30,
+    "error": "Read-only file system"
+  },
+  "runtime_write": {
+    "errno": 30,
+    "error": "Read-only file system"
+  },
+  "root_write": {
+    "errno": 30,
+    "error": "Read-only file system"
+  },
+  "proc_read": {
+    "errno": 2,
+    "error": "No such file or directory"
+  },
+  "network_socket": {
+    "errno": 1,
+    "error": "Operation not permitted"
+  },
+  "unix_socket": {
+    "errno": 1,
+    "error": "Operation not permitted"
+  }
+}

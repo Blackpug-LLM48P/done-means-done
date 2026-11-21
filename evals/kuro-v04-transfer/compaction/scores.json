@@ -1,0 +1,160 @@
+{
+  "after": {
+    "json_object": true,
+    "score": 12,
+    "total": 12,
+    "facts": [
+      {
+        "fact": "controlling_source",
+        "expected": "MV-493",
+        "actual": "MV-493",
+        "pass": true
+      },
+      {
+        "fact": "controlling_revision",
+        "expected": "C",
+        "actual": "C",
+        "pass": true
+      },
+      {
+        "fact": "crate_count",
+        "expected": 4,
+        "actual": 4,
+        "pass": true
+      },
+      {
+        "fact": "gate",
+        "expected": "Birch Gate",
+        "actual": "Birch Gate",
+        "pass": true
+      },
+      {
+        "fact": "pickup",
+        "expected": "14:25",
+        "actual": "14:25",
+        "pass": true
+      },
+      {
+        "fact": "cancelled_source",
+        "expected": "W-12",
+        "actual": "W-12",
+        "pass": true
+      },
+      {
+        "fact": "packing_authority",
+        "expected": "EM-76",
+        "actual": "EM-76",
+        "pass": true
+      },
+      {
+        "fact": "permit_id",
+        "expected": "LP-28",
+        "actual": "LP-28",
+        "pass": true
+      },
+      {
+        "fact": "permit_status",
+        "expected": "pending",
+        "actual": "pending",
+        "pass": true
+      },
+      {
+        "fact": "notice_id",
+        "expected": "TX-816",
+        "actual": "TX-816",
+        "pass": true
+      },
+      {
+        "fact": "dispatch_transmission",
+        "expected": "sent",
+        "actual": "sent",
+        "pass": true
+      },
+      {
+        "fact": "dispatch_receipt",
+        "expected": "unconfirmed",
+        "actual": "unconfirmed",
+        "pass": true
+      }
+    ]
+  },
+  "original": {
+    "json_object": true,
+    "score": 12,
+    "total": 12,
+    "facts": [
+      {
+        "fact": "controlling_source",
+        "expected": "MV-493",
+        "actual": "MV-493",
+        "pass": true
+      },
+      {
+        "fact": "controlling_revision",
+        "expected": "C",
+        "actual": "C",
+        "pass": true
+      },
+      {
+        "fact": "crate_count",
+        "expected": 4,
+        "actual": 4,
+        "pass": true
+      },
+      {
+        "fact": "gate",
+        "expected": "Birch Gate",
+        "actual": "Birch Gate",
+        "pass": true
+      },
+      {
+        "fact": "pickup",
+        "expected": "14:25",
+        "actual": "14:25",
+        "pass": true
+      },
+      {
+        "fact": "cancelled_source",
+        "expected": "W-12",
+        "actual": "W-12",
+        "pass": true
+      },
+      {
+        "fact": "packing_authority",
+        "expected": "EM-76",
+        "actual": "EM-76",
+        "pass": true
+      },
+      {
+        "fact": "permit_id",
+        "expected": "LP-28",
+        "actual": "LP-28",
+        "pass": true
+      },
+      {
+        "fact": "permit_status",
+        "expected": "pending",
+        "actual": "pending",
+        "pass": true
+      },
+      {
+        "fact": "notice_id",
+        "expected": "TX-816",
+        "actual": "TX-816",
+        "pass": true
+      },
+      {
+        "fact": "dispatch_transmission",
+        "expected": "sent",
+        "actual": "sent",
+        "pass": true
+      },
+      {
+        "fact": "dispatch_receipt",
+        "expected": "unconfirmed",
+        "actual": "unconfirmed",
+        "pass": true
+      }
+    ]
+  }
+}
