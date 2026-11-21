@@ -1,0 +1,107 @@
+{
+  "T2K7F": {
+    "actions": {
+      "advance_operation": false,
+      "archive_report": true,
+      "close_case": false
+    },
+    "facts": [
+      "帽子の受領点数は2点。",
+      "山高帽の個体番号はH-42。",
+      "麦わら帽の個体番号はH-43。"
+    ],
+    "operation": "open",
+    "report": "complete"
+  },
+  "T3Z8H": {
+    "actions": {
+      "advance_operation": true,
+      "archive_report": true,
+      "close_case": true
+    },
+    "facts": [
+      "貸主は銀笛座。",
+      "上着の袖丈は57 cm。"
+    ],
+    "operation": "complete",
+    "report": "complete"
+  },
+  "T6M2Q": {
+    "actions": {
+      "advance_operation": true,
+      "archive_report": false,
+      "close_case": false
+    },
+    "facts": [
+      "貸出票番号は貸V-183。",
+      "実際の配架先は東庫C-4。"
+    ],
+    "operation": "complete",
+    "report": "open"
+  },
+  "T8B4N": {
+    "actions": {
+      "advance_operation": false,
+      "archive_report": false,
+      "close_case": false
+    },
+    "facts": [
+      "ほつれは左襟の裏にある。",
+      "収納段に敷いた布は未晒し木綿。"
+    ],
+    "operation": "open",
+    "report": "open"
+  },
+  "F2V9": {
+    "actions": {
+      "advance_operation": true,
+      "archive_report": true,
+      "close_case": true
+    },
+    "facts": [
+      "搬入したプリントは4巻。",
+      "受領票に記された保管棚は雪-12。"
+    ],
+    "operation": "complete",
+    "report": "complete"
+  },
+  "F5J6": {
+    "actions": {
+      "advance_operation": false,
+      "archive_report": false,
+      "close_case": false
+    },
+    "facts": [
+      "照合したフィルム缶の識別番号はT-903。",
+      "記録票に登録済みの担当班は銀塩班。"
+    ],
+    "operation": "open",
+    "report": "open"
+  },
+  "F7K4": {
+    "actions": {
+      "advance_operation": true,
+      "archive_report": false,
+      "close_case": false
+    },
+    "facts": [
+      "輸送箱の番号はK-24。",
+      "運転手の受領署名は15時17分。"
+    ],
+    "operation": "complete",
+    "report": "open"
+  },
+  "F8D3": {
+    "actions": {
+      "advance_operation": false,
+      "archive_report": true,
+      "close_case": false
+    },
+    "facts": [
+      "返送便は青葉5便。",
+      "到着した外箱は2箱。"
+    ],
+    "operation": "open",
+    "report": "complete"
+  }
+}

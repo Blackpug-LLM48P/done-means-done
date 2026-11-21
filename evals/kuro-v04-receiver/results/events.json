@@ -1,0 +1,5226 @@
+[
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "false_hold",
+        "decision": "hold",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "返送便は青葉5便。",
+        "到着した外箱は2箱。"
+      ],
+      "extra": false,
+      "notes": "青葉5便と到着外箱2箱を正しく記載。明細書は確定し、締切までに検収署名が確認できなかった経緯にも整合する。 / 便名は青葉5便、到着は外箱2箱。現行明細書の確定と締切までの検収署名未確認が正確。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F8D3",
+    "elapsed_ms": 15532,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": true,
+        "wrong_declaration": true,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-6be314d808e7d368ff48967f",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/A-i04-1.json",
+    "raw_sha256": "555f59e48398c57bf6339419a849d55ad9f4877d6fdc3335c4b8eff6d71ba556",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'open'"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-10-21T16:00:00+09:00",
+      "case_id": "F8D3",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "10月21日16時時点で、『夜番』のプリントの返送明細書には、発送に使った「青葉5便」が登録され、責任者が現行版を確定しています。寄託者の受付担当は到着した外箱2箱を現物で数えました。15時44分の検収台帳では署名欄が空欄で、16時時点の記録では受領権限者の検収署名は確認できていません。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'open'"
+          ],
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "10月21日16時時点で、『夜番』のプリントの返送明細書には、発送に使った「青葉5便」が登録され、責任者が現行版を確定しています。寄託者の受付担当は到着した外箱2箱を現物で数えました。15時44分の検収台帳では署名欄が空欄で、16時時点の記録では受領権限者の検収署名は確認できていません。",
+      "revision": 2
+    },
+    "session_id": "01a1fc1b-709d-72e2-877d-8f4dad95fe43",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "wrong_hold",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "wrong_hold",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14389,
+      "output_tokens": 231,
+      "reasoning_output_tokens": 81
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "false_hold",
+        "decision": "hold",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "輸送箱の番号はK-24。",
+        "運転手の受領署名は15時17分。"
+      ],
+      "extra": false,
+      "notes": "K-24と15時17分を明記。電子署名のある旧版と、承認未確認の現行版を区別している。 / 輸送箱K-24、運転手の受領署名15時17分が一致。第2版の電子署名と第3版の承認情報を区別している。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F7K4",
+    "elapsed_ms": 15551,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": true,
+        "wrong_declaration": true,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-282611776f81a5da53e76415",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/A-i03-1.json",
+    "raw_sha256": "6926b57f48c23f2c9dac26f9d14bd9d53f15c2e510545ced3446b8fe8cc4b12a",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'open'"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-10-07T16:00:00+09:00",
+      "case_id": "F7K4",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "10月7日16時現在、『凪の港』の35mmプリントは運送会社への引き渡しが完了しています。輸送箱はK-24で、封印済みです。運転手は15時17分に集荷伝票の受領欄に署名しました。搬出点検票は必須項目の入力と登録番号の採番が済んでいます。第3版の保存版PDFは14時40分時点で決裁待ちでした。15時42分に事務室から承認されたらしいとの電話がありましたが、承認ログで電子署名を確認できるのは第2版のみで、第3版の承認は未確認です。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'open'"
+          ],
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "10月7日16時現在、『凪の港』の35mmプリントは運送会社への引き渡しが完了しています。輸送箱はK-24で、封印済みです。運転手は15時17分に集荷伝票の受領欄に署名しました。搬出点検票は必須項目の入力と登録番号の採番が済んでいます。第3版の保存版PDFは14時40分時点で決裁待ちでした。15時42分に事務室から承認されたらしいとの電話がありましたが、承認ログで電子署名を確認できるのは第2版のみで、第3版の承認は未確認です。",
+      "revision": 3
+    },
+    "session_id": "01a1fc1b-7083-78c2-b171-89126f76fbb9",
+    "states": {
+      "operation": {
+        "declared_class": "wrong_hold",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "wrong_hold",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14485,
+      "output_tokens": 270,
+      "reasoning_output_tokens": 73
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "false_hold",
+        "decision": "hold",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true,
+        true
+      ],
+      "expected_facts": [
+        "帽子の受領点数は2点。",
+        "山高帽の個体番号はH-42。",
+        "麦わら帽の個体番号はH-43。"
+      ],
+      "extra": false,
+      "notes": "受領2点、山高帽H-42、麦わら帽H-43の対応が正しい。16時までに札を付けたのは山高帽だけ。 / 受領2点、山高帽H-42、麦わら帽H-43が一致。札の取り付け状況も16時までの記録に沿う。",
+      "possible": 3,
+      "retained": 3
+    },
+    "case_id": "T2K7F",
+    "elapsed_ms": 15559,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": true,
+        "wrong_declaration": true,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-a1db4093560f14978d439f80",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/A-i05-1.json",
+    "raw_sha256": "28560f5b1b9b30d4f2f3a8568ecae5a58d08984d7fd6ec54b5692c2d68e2785f",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'open'"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-10-14T16:00:00+09:00",
+      "case_id": "T2K7F",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "10月14日16時時点で、『つばめ宿』から受領した帽子は計2点です。現物を割当票と照合し、山高帽の個体番号はH-42、麦わら帽はH-43と確認しました。受領報告書には署名入りの借用明細の写しが添付されています。山高帽の個体札は取り付け済みです。麦わら帽は取り付け箇所の確認待ちで、個体札は未装着です。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'open'"
+          ],
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "10月14日16時時点で、『つばめ宿』から受領した帽子は計2点です。現物を割当票と照合し、山高帽の個体番号はH-42、麦わら帽はH-43と確認しました。受領報告書には署名入りの借用明細の写しが添付されています。山高帽の個体札は取り付け済みです。麦わら帽は取り付け箇所の確認待ちで、個体札は未装着です。",
+      "revision": "r6"
+    },
+    "session_id": "01a1fc1b-7077-7713-89cf-8163541f44ed",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "wrong_hold",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "wrong_hold",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14535,
+      "output_tokens": 392,
+      "reasoning_output_tokens": 234
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "搬入したプリントは4巻。",
+        "受領票に記された保管棚は雪-12。"
+      ],
+      "extra": false,
+      "notes": "全4巻と受領票の雪-12が一致し、当該案件の署名と報告書登録を確認している。 / 現物照合の全4巻と受領票の棚「雪-12」が一致。本件の署名と報告書登録も確認できる。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F2V9",
+    "elapsed_ms": 15501,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-388c29294805744723b496d4",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/A-i01-1.json",
+    "raw_sha256": "56830fecf296b695f81a3d9f6fd9dcaf933bd151e1c3c77a45bc437ed99a1373",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "plan",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'complete'"
+          ]
+        },
+        "archive_report": {
+          "decision": "plan",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'complete'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "plan",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'complete'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-10-14T16:00:00+09:00",
+      "case_id": "F2V9",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合で全巻を確認しました。庫内担当は14時31分に受領票に署名し、保管棚を「雪-12」と記入しました。校正済み温度計の記録を添付した移送報告書は14時58分に登録され、引き渡しと報告書登録はともに完了しています。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'complete'"
+          ],
+          "valid": true,
+          "value": "complete"
+        }
+      },
+      "handoff": "『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合で全巻を確認しました。庫内担当は14時31分に受領票に署名し、保管棚を「雪-12」と記入しました。校正済み温度計の記録を添付した移送報告書は14時58分に登録され、引き渡しと報告書登録はともに完了しています。",
+      "revision": 5
+    },
+    "session_id": "01a1fc1b-70a2-7ca0-8a17-9e9d0edb1b04",
+    "states": {
+      "operation": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'complete'"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "state",
+        "valid": true,
+        "value": "complete"
+      },
+      "report": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'complete'"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "state",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14501,
+      "output_tokens": 169,
+      "reasoning_output_tokens": 27
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "搬入したプリントは4巻。",
+        "受領票に記された保管棚は雪-12。"
+      ],
+      "extra": false,
+      "notes": "搬入全4巻と受領票の雪-12を明記。現行報告書の温度記録添付と登録、受領署名も記録どおり。 / 現物照合の全4巻と受領票の棚「雪-12」が一致。本件の署名と報告書登録も確認できる。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F2V9",
+    "elapsed_ms": 18304,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-512be5d9a7495f09aefa9678",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/B-i01-1.json",
+    "raw_sha256": "c6a14b267c76fd24d673fe0db3f272b9b6a16fb56abe7656da612e43fb00a3bf",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "plan",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: '搬入巻数の照合': met per ['b2m3']",
+            "operation_state: '庫内担当の受領署名': met per ['b2m5']"
+          ]
+        },
+        "archive_report": {
+          "decision": "plan",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '温度履歴の添付': met per ['b2m4']",
+            "report_state: '報告書の登録': met per ['b2m2']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "plan",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '温度履歴の添付': met per ['b2m4']",
+            "report_state: '報告書の登録': met per ['b2m2']",
+            "operation_state: '搬入巻数の照合': met per ['b2m3']",
+            "operation_state: '庫内担当の受領署名': met per ['b2m5']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-10-14T16:00:00+09:00",
+      "case_id": "F2V9",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "2026年10月14日16時時点で、『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合と引き渡しを完了しました。庫内担当は受領票に署名し、保管棚を「雪-12」と記入しました。移送報告書の第5版には校正済み温度計の記録を添付し、台帳への登録を完了しました。"
+        },
+        "operation_state": {
+          "as_of": "2026-10-14T16:00:00+09:00",
+          "evidence_refs": [
+            "b2m3",
+            "b2m5"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'搬入巻数の照合': met per ['b2m3']",
+            "'庫内担当の受領署名': met per ['b2m5']"
+          ],
+          "revision": 5,
+          "scope": "本館低温庫への引き渡し",
+          "valid": true,
+          "value": "complete"
+        },
+        "report_state": {
+          "as_of": "2026-10-14T16:00:00+09:00",
+          "evidence_refs": [
+            "b2m4",
+            "b2m2"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'温度履歴の添付': met per ['b2m4']",
+            "'報告書の登録': met per ['b2m2']"
+          ],
+          "revision": 5,
+          "scope": "移送報告書",
+          "valid": true,
+          "value": "complete"
+        }
+      },
+      "handoff": "2026年10月14日16時時点で、『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合と引き渡しを完了しました。庫内担当は受領票に署名し、保管棚を「雪-12」と記入しました。移送報告書の第5版には校正済み温度計の記録を添付し、台帳への登録を完了しました。",
+      "revision": 5
+    },
+    "session_id": "01a1fc1b-ad06-7a01-b7ef-efbf14333745",
+    "states": {
+      "operation": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'搬入巻数の照合': met per ['b2m3']",
+          "'庫内担当の受領署名': met per ['b2m5']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "complete"
+      },
+      "report": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'温度履歴の添付': met per ['b2m4']",
+          "'報告書の登録': met per ['b2m2']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14848,
+      "input_tokens": 14926,
+      "output_tokens": 406,
+      "reasoning_output_tokens": 119
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "照合したフィルム缶の識別番号はT-903。",
+        "記録票に登録済みの担当班は銀塩班。"
+      ],
+      "extra": false,
+      "notes": "缶番号T-903と銀塩班が一致。受領印待ちと署名依頼中は、それぞれ最後に直接確認した状態に沿う。 / 缶番号T-903と銀塩班を記載。受領印待ちと確認用版はいずれも期限内の直接記録に沿う。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F5J6",
+    "elapsed_ms": 18253,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-5a58529e0e054a1a72bc50c7",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/B-i02-1.json",
+    "raw_sha256": "236a8776a972470f82ec62eea69e9716cddb8f2673a05281f9aba60993927545",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: 'フィルム缶番号の照合': met per ['b5t1']",
+            "operation_state: '工房受付の受領印': pending per ['b5t5']"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '担当班の登録': met per ['b5t4']",
+            "report_state: '責任者の確定署名': pending per ['b5t2']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '担当班の登録': met per ['b5t4']",
+            "report_state: '責任者の確定署名': pending per ['b5t2']",
+            "operation_state: 'フィルム缶番号の照合': met per ['b5t1']",
+            "operation_state: '工房受付の受領印': pending per ['b5t5']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-10-28T16:00:00+09:00",
+      "case_id": "F5J6",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "2026年10月28日16時（日本時間）時点で、『春の市電』のプリントは、修復工房で現物のフィルム缶番号「T-903」を発送控えと照合済みです。引き渡し控えは工房受付の受領印待ちで、現物引き渡しの完了は未確認です。引き渡し記録票には担当班「銀塩班」が登録されています。責任者の確定署名は依頼中で、記録票は確認用版です。"
+        },
+        "operation_state": {
+          "as_of": "2026-10-28T16:00:00+09:00",
+          "evidence_refs": [
+            "b5t5"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'フィルム缶番号の照合': met per ['b5t1']",
+            "'工房受付の受領印': pending per ['b5t5']"
+          ],
+          "revision": 4,
+          "scope": "修復工房への現物引き渡し",
+          "valid": true,
+          "value": "open"
+        },
+        "report_state": {
+          "as_of": "2026-10-28T16:00:00+09:00",
+          "evidence_refs": [
+            "b5t2"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'担当班の登録': met per ['b5t4']",
+            "'責任者の確定署名': pending per ['b5t2']"
+          ],
+          "revision": 4,
+          "scope": "引き渡し記録票",
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "2026年10月28日16時（日本時間）時点で、『春の市電』のプリントは、修復工房で現物のフィルム缶番号「T-903」を発送控えと照合済みです。引き渡し控えは工房受付の受領印待ちで、現物引き渡しの完了は未確認です。引き渡し記録票には担当班「銀塩班」が登録されています。責任者の確定署名は依頼中で、記録票は確認用版です。",
+      "revision": 4
+    },
+    "session_id": "01a1fc1b-ad33-76f1-aa42-3a41d1391184",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'フィルム缶番号の照合': met per ['b5t1']",
+          "'工房受付の受領印': pending per ['b5t5']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'担当班の登録': met per ['b5t4']",
+          "'責任者の確定署名': pending per ['b5t2']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14938,
+      "output_tokens": 588,
+      "reasoning_output_tokens": 290
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "ほつれは左襟の裏にある。",
+        "収納段に敷いた布は未晒し木綿。"
+      ],
+      "extra": false,
+      "notes": "ほつれは左襟の裏、敷布は未晒し木綿と一致。署名確認と当該外套の移載が未了という記述も締切時点に合う。 / 左襟の裏のほつれと未晒し木綿が一致。署名確認と移載の状況も当該案件で締切前に利用できた記録に沿っている。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "T8B4N",
+    "elapsed_ms": 18235,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-b1bf8dd9000f8755ecca3ea6",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/B-i08-1.json",
+    "raw_sha256": "230257a71e11139aa145e1de81b58e1768e241c0fffe9cf2e74e3fac1e732d63",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: '収納段への敷布設置': met per ['AM-234']",
+            "operation_state: '外套の収納段への移載': pending per ['AM-461']"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '損傷位置の記載照合': met per ['AM-680']",
+            "report_state: '検品者の署名確認': pending per ['AM-903']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '損傷位置の記載照合': met per ['AM-680']",
+            "report_state: '検品者の署名確認': pending per ['AM-903']",
+            "operation_state: '収納段への敷布設置': met per ['AM-234']",
+            "operation_state: '外套の収納段への移載': pending per ['AM-461']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-10-09T17:00:00+09:00",
+      "case_id": "T8B4N",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "10月9日17時時点の申し送りです。借入外套『蛍坂』のほつれは左襟の裏にあり、受領時状態報告書の記載と一致しました。15時12分の確認では検品者の署名欄は空欄で、署名確認は未了です。平置き用の収納段には未晒し木綿を敷き、しわを伸ばしました。16時10分の確認では外套は検品台にあり、収納段への移載は未了です。"
+        },
+        "operation_state": {
+          "as_of": "2026-10-09T17:00:00+09:00",
+          "evidence_refs": [
+            "AM-461"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'収納段への敷布設置': met per ['AM-234']",
+            "'外套の収納段への移載': pending per ['AM-461']"
+          ],
+          "revision": "r2",
+          "scope": "外套の平置き収納",
+          "valid": true,
+          "value": "open"
+        },
+        "report_state": {
+          "as_of": "2026-10-09T17:00:00+09:00",
+          "evidence_refs": [
+            "AM-903"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'損傷位置の記載照合': met per ['AM-680']",
+            "'検品者の署名確認': pending per ['AM-903']"
+          ],
+          "revision": "r2",
+          "scope": "借入外套の受領時状態報告",
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "10月9日17時時点の申し送りです。借入外套『蛍坂』のほつれは左襟の裏にあり、受領時状態報告書の記載と一致しました。15時12分の確認では検品者の署名欄は空欄で、署名確認は未了です。平置き用の収納段には未晒し木綿を敷き、しわを伸ばしました。16時10分の確認では外套は検品台にあり、収納段への移載は未了です。",
+      "revision": "r2"
+    },
+    "session_id": "01a1fc1b-ad3c-7792-b351-8e8ac702e706",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'収納段への敷布設置': met per ['AM-234']",
+          "'外套の収納段への移載': pending per ['AM-461']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'損傷位置の記載照合': met per ['AM-680']",
+          "'検品者の署名確認': pending per ['AM-903']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14950,
+      "output_tokens": 632,
+      "reasoning_output_tokens": 333
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "貸主は銀笛座。",
+        "上着の袖丈は57 cm。"
+      ],
+      "extra": false,
+      "notes": "貸主の銀笛座、袖丈57 cmに加え、確認印と着丈72 cmも現行版の直接記録で確認できる。 / 貸主の銀笛座と袖丈57 cmを明記。担当者の確認印と着丈の実測値にも裏付けがある。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "T3Z8H",
+    "elapsed_ms": 18223,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-fe23a6afe52c07a13e3308fe",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/B-i06-1.json",
+    "raw_sha256": "a0f3f4ad58b20befff9e119ffa519427251b41177cb0a149f37f5d92e439f643",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "plan",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: '袖丈の実測': met per ['AM-336']",
+            "operation_state: '着丈の実測': met per ['AM-862']"
+          ]
+        },
+        "archive_report": {
+          "decision": "plan",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '貸主欄の原本照合': met per ['AM-714']",
+            "report_state: '明細の担当者確認印': met per ['AM-549']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "plan",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '貸主欄の原本照合': met per ['AM-714']",
+            "report_state: '明細の担当者確認印': met per ['AM-549']",
+            "operation_state: '袖丈の実測': met per ['AM-336']",
+            "operation_state: '着丈の実測': met per ['AM-862']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-10-02T12:30:00+09:00",
+      "case_id": "T3Z8H",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "『月の庭』の貸主は銀笛座です。受領明細の貸主欄を署名済みの貸出票と照合し、担当者が明細を読み合わせて確認印を押しました。上着の採寸も完了し、肩先から袖口までの袖丈は57 cm、背中心で測った着丈は72 cmでした。"
+        },
+        "operation_state": {
+          "as_of": "2026-10-02T12:30:00+09:00",
+          "evidence_refs": [
+            "AM-336",
+            "AM-862"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'袖丈の実測': met per ['AM-336']",
+            "'着丈の実測': met per ['AM-862']"
+          ],
+          "revision": "r5",
+          "scope": "上着の採寸",
+          "valid": true,
+          "value": "complete"
+        },
+        "report_state": {
+          "as_of": "2026-10-02T12:30:00+09:00",
+          "evidence_refs": [
+            "AM-714",
+            "AM-549"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'貸主欄の原本照合': met per ['AM-714']",
+            "'明細の担当者確認印': met per ['AM-549']"
+          ],
+          "revision": "r5",
+          "scope": "貸借品の受領明細報告",
+          "valid": true,
+          "value": "complete"
+        }
+      },
+      "handoff": "『月の庭』の貸主は銀笛座です。受領明細の貸主欄を署名済みの貸出票と照合し、担当者が明細を読み合わせて確認印を押しました。上着の採寸も完了し、肩先から袖口までの袖丈は57 cm、背中心で測った着丈は72 cmでした。",
+      "revision": "r5"
+    },
+    "session_id": "01a1fc1b-ad51-70e3-b000-030f06512410",
+    "states": {
+      "operation": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'袖丈の実測': met per ['AM-336']",
+          "'着丈の実測': met per ['AM-862']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "complete"
+      },
+      "report": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'貸主欄の原本照合': met per ['AM-714']",
+          "'明細の担当者確認印': met per ['AM-549']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14907,
+      "output_tokens": 401,
+      "reasoning_output_tokens": 138
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "貸主は銀笛座。",
+        "上着の袖丈は57 cm。"
+      ],
+      "extra": false,
+      "notes": "原本照合による銀笛座と上着の実測袖丈57 cmを明記。着丈と担当者印も現行版の記録に合う。 / 貸主は銀笛座、実測袖丈は57 cm。現行版の確認印と着丈72 cmにも根拠がある。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "T3Z8H",
+    "elapsed_ms": 14224,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-8d989769c424cd49fb8c618f",
+    "mode": "continuous",
+    "order": 1,
+    "raw_file": "results/raw/B-c-amber-1.json",
+    "raw_sha256": "5682493a13853f94ec8c01978c19a2e76d1618d0b18fb743184ce067d106b226",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "plan",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: '袖丈の実測': met per ['AM-336']",
+            "operation_state: '着丈の実測': met per ['AM-862']"
+          ]
+        },
+        "archive_report": {
+          "decision": "plan",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '貸主欄の原本照合': met per ['AM-714']",
+            "report_state: '明細の担当者確認印': met per ['AM-549']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "plan",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '貸主欄の原本照合': met per ['AM-714']",
+            "report_state: '明細の担当者確認印': met per ['AM-549']",
+            "operation_state: '袖丈の実測': met per ['AM-336']",
+            "operation_state: '着丈の実測': met per ['AM-862']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-10-02T12:30:00+09:00",
+      "case_id": "T3Z8H",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "『月の庭』の貸借品の受領明細報告と上着の採寸は完了しました。貸主欄を署名済みの貸出票と照合し、貸主が銀笛座であることを確認しました。担当者は受領明細を読み合わせ、確認印を押しました。上着の実測値は、肩先から袖口までの袖丈が57 cm、背中心で測った着丈が72 cmです。"
+        },
+        "operation_state": {
+          "as_of": "2026-10-02T12:30:00+09:00",
+          "evidence_refs": [
+            "AM-336",
+            "AM-862"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'袖丈の実測': met per ['AM-336']",
+            "'着丈の実測': met per ['AM-862']"
+          ],
+          "revision": "r5",
+          "scope": "上着の採寸",
+          "valid": true,
+          "value": "complete"
+        },
+        "report_state": {
+          "as_of": "2026-10-02T12:30:00+09:00",
+          "evidence_refs": [
+            "AM-714",
+            "AM-549"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'貸主欄の原本照合': met per ['AM-714']",
+            "'明細の担当者確認印': met per ['AM-549']"
+          ],
+          "revision": "r5",
+          "scope": "貸借品の受領明細報告",
+          "valid": true,
+          "value": "complete"
+        }
+      },
+      "handoff": "『月の庭』の貸借品の受領明細報告と上着の採寸は完了しました。貸主欄を署名済みの貸出票と照合し、貸主が銀笛座であることを確認しました。担当者は受領明細を読み合わせ、確認印を押しました。上着の実測値は、肩先から袖口までの袖丈が57 cm、背中心で測った着丈が72 cmです。",
+      "revision": "r5"
+    },
+    "session_id": "01a1fc1b-f4b3-72c3-b3e2-23d9d75e743d",
+    "states": {
+      "operation": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'袖丈の実測': met per ['AM-336']",
+          "'着丈の実測': met per ['AM-862']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "complete"
+      },
+      "report": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'貸主欄の原本照合': met per ['AM-714']",
+          "'明細の担当者確認印': met per ['AM-549']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14907,
+      "output_tokens": 318,
+      "reasoning_output_tokens": 34
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "貸出票番号は貸V-183。",
+        "実際の配架先は東庫C-4。"
+      ],
+      "extra": false,
+      "notes": "貸V-183と実際の東庫C-4が一致。写真の取り外しと、再添付の連絡後も未確認である点を正しく記載。 / 貸出票番号は貸V-183、実配架先は東庫C-4。写真の再添付は撮影班の申告として明示している。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "T6M2Q",
+    "elapsed_ms": 14238,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-968d6ffbfa44978d2038d01f",
+    "mode": "continuous",
+    "order": 2,
+    "raw_file": "results/raw/B-c-amber-2.json",
+    "raw_sha256": "113eeb7fa372d9c8e89b7f0c25256a47bde1437be13a6d033371b39520f11ece",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "plan",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: '箱札と棚指定票の照合': met per ['AM-819']",
+            "operation_state: '現物の着棚確認': met per ['AM-362']"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '貸出票番号の転記照合': met per ['AM-641']",
+            "report_state: '受領時写真の添付確認': pending per ['AM-504']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '貸出票番号の転記照合': met per ['AM-641']",
+            "report_state: '受領時写真の添付確認': pending per ['AM-504']",
+            "operation_state: '箱札と棚指定票の照合': met per ['AM-819']",
+            "operation_state: '現物の着棚確認': met per ['AM-362']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-09-17T15:00:00+09:00",
+      "case_id": "T6M2Q",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "9月17日15時時点で、『潮路』の衣装借入の受領報告は、正しい受領時写真の添付確認が残っています。貸出票番号「貸V-183」は原本と照合済みです。14時24分に別の衣装の写真を外し、14時46分に撮影班から新しい写真を添付し直したとの連絡がありました。再添付後の写真は未確認です。受入箱の配架は完了しました。箱札を最新の棚指定票と照合し、実際の配架先「東庫C-4」で現物と棚札を確認しました。"
+        },
+        "operation_state": {
+          "as_of": "2026-09-17T15:00:00+09:00",
+          "evidence_refs": [
+            "AM-819",
+            "AM-362"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'箱札と棚指定票の照合': met per ['AM-819']",
+            "'現物の着棚確認': met per ['AM-362']"
+          ],
+          "revision": "r3",
+          "scope": "受入箱の配架",
+          "valid": true,
+          "value": "complete"
+        },
+        "report_state": {
+          "as_of": "2026-09-17T15:00:00+09:00",
+          "evidence_refs": [
+            "AM-504"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'貸出票番号の転記照合': met per ['AM-641']",
+            "'受領時写真の添付確認': pending per ['AM-504']"
+          ],
+          "revision": "r3",
+          "scope": "衣装借入の受領報告",
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "9月17日15時時点で、『潮路』の衣装借入の受領報告は、正しい受領時写真の添付確認が残っています。貸出票番号「貸V-183」は原本と照合済みです。14時24分に別の衣装の写真を外し、14時46分に撮影班から新しい写真を添付し直したとの連絡がありました。再添付後の写真は未確認です。受入箱の配架は完了しました。箱札を最新の棚指定票と照合し、実際の配架先「東庫C-4」で現物と棚札を確認しました。",
+      "revision": "r3"
+    },
+    "session_id": "01a1fc1b-f4b3-72c3-b3e2-23d9d75e743d",
+    "states": {
+      "operation": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'箱札と棚指定票の照合': met per ['AM-819']",
+          "'現物の着棚確認': met per ['AM-362']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "complete"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'貸出票番号の転記照合': met per ['AM-641']",
+          "'受領時写真の添付確認': pending per ['AM-504']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14848,
+      "input_tokens": 18649,
+      "output_tokens": 353,
+      "reasoning_output_tokens": 28
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true,
+        true
+      ],
+      "expected_facts": [
+        "帽子の受領点数は2点。",
+        "山高帽の個体番号はH-42。",
+        "麦わら帽の個体番号はH-43。"
+      ],
+      "extra": false,
+      "notes": "受領2点、山高帽H-42、麦わら帽H-43がすべて一致。麦わら帽は締切時点で札の取り付け待ち。 / 2点と山高帽H-42・麦わら帽H-43の対応が一致。締切時に札が付いていたのは山高帽のみ。",
+      "possible": 3,
+      "retained": 3
+    },
+    "case_id": "T2K7F",
+    "elapsed_ms": 10864,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-8f738f4a2014471a0f76f208",
+    "mode": "continuous",
+    "order": 3,
+    "raw_file": "results/raw/B-c-amber-3.json",
+    "raw_sha256": "5a075d3310a866068845aacb074d1f5eacd6e32ea72c9bc6079eace20c2bb455",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: '個体番号の現物割当照合': met per ['AM-176']",
+            "operation_state: '全点への札取り付け確認': pending per ['AM-243']"
+          ]
+        },
+        "archive_report": {
+          "decision": "plan",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '受領点数の現物照合': met per ['AM-524']",
+            "report_state: '借用明細写しの添付確認': met per ['AM-898']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '受領点数の現物照合': met per ['AM-524']",
+            "report_state: '借用明細写しの添付確認': met per ['AM-898']",
+            "operation_state: '個体番号の現物割当照合': met per ['AM-176']",
+            "operation_state: '全点への札取り付け確認': pending per ['AM-243']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-10-14T16:00:00+09:00",
+      "case_id": "T2K7F",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "10月14日16時時点で、『つばめ宿』の借入帽子の受領数量報告は完了しています。受領した帽子は2点で、現物の点数と報告書の記載が一致し、署名入り借用明細の写しも添付済みです。個体番号は現物と割当票で照合しました。山高帽（H-42）は個体札を取り付け済みです。麦わら帽（H-43）は取り付け箇所の確認待ちで、個体札は未装着です。"
+        },
+        "operation_state": {
+          "as_of": "2026-10-14T16:00:00+09:00",
+          "evidence_refs": [
+            "AM-243"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'個体番号の現物割当照合': met per ['AM-176']",
+            "'全点への札取り付け確認': pending per ['AM-243']"
+          ],
+          "revision": "r6",
+          "scope": "帽子への個体札取り付け",
+          "valid": true,
+          "value": "open"
+        },
+        "report_state": {
+          "as_of": "2026-10-14T16:00:00+09:00",
+          "evidence_refs": [
+            "AM-524",
+            "AM-898"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'受領点数の現物照合': met per ['AM-524']",
+            "'借用明細写しの添付確認': met per ['AM-898']"
+          ],
+          "revision": "r6",
+          "scope": "借入帽子の受領数量報告",
+          "valid": true,
+          "value": "complete"
+        }
+      },
+      "handoff": "10月14日16時時点で、『つばめ宿』の借入帽子の受領数量報告は完了しています。受領した帽子は2点で、現物の点数と報告書の記載が一致し、署名入り借用明細の写しも添付済みです。個体番号は現物と割当票で照合しました。山高帽（H-42）は個体札を取り付け済みです。麦わら帽（H-43）は取り付け箇所の確認待ちで、個体札は未装着です。",
+      "revision": "r6"
+    },
+    "session_id": "01a1fc1b-f4b3-72c3-b3e2-23d9d75e743d",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'個体番号の現物割当照合': met per ['AM-176']",
+          "'全点への札取り付け確認': pending per ['AM-243']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'受領点数の現物照合': met per ['AM-524']",
+          "'借用明細写しの添付確認': met per ['AM-898']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 18560,
+      "input_tokens": 22438,
+      "output_tokens": 311,
+      "reasoning_output_tokens": 0
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "ほつれは左襟の裏にある。",
+        "収納段に敷いた布は未晒し木綿。"
+      ],
+      "extra": false,
+      "notes": "左襟の裏のほつれと未晒し木綿を明記。17時までの対象案件では検品者署名と収納段への移載を確認できていない。 / 左襟裏のほつれと未晒し木綿が一致。対象の外套の移載と報告書の署名はいずれも期限内に完了を確認できない。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "T8B4N",
+    "elapsed_ms": 13218,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-c42d066a9f7d13a53cbdb7cd",
+    "mode": "continuous",
+    "order": 4,
+    "raw_file": "results/raw/B-c-amber-4.json",
+    "raw_sha256": "204f4ff3fd0a38f8082f180c7ced47cb9045f9b77ce436934f15fe0c8bc21b6e",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: '収納段への敷布設置': met per ['AM-234']",
+            "operation_state: '外套の収納段への移載': pending per ['AM-461']"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '損傷位置の記載照合': met per ['AM-680']",
+            "report_state: '検品者の署名確認': pending per ['AM-903']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '損傷位置の記載照合': met per ['AM-680']",
+            "report_state: '検品者の署名確認': pending per ['AM-903']",
+            "operation_state: '収納段への敷布設置': met per ['AM-234']",
+            "operation_state: '外套の収納段への移載': pending per ['AM-461']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-10-09T17:00:00+09:00",
+      "case_id": "T8B4N",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "10月9日17時時点で、『蛍坂』の借入外套は、受領時状態報告と平置き収納がともに未完了です。現物で左襟の裏にほつれを確認し、報告書の記載と照合しました。15時12分の確認時には検品者の署名欄が空欄で、17時時点で署名は未確認です。収納段には未晒し木綿を敷きました。16時10分の確認時には外套は検品台にあり、収納段への移載が残っています。"
+        },
+        "operation_state": {
+          "as_of": "2026-10-09T17:00:00+09:00",
+          "evidence_refs": [
+            "AM-461"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'収納段への敷布設置': met per ['AM-234']",
+            "'外套の収納段への移載': pending per ['AM-461']"
+          ],
+          "revision": "r2",
+          "scope": "外套の平置き収納",
+          "valid": true,
+          "value": "open"
+        },
+        "report_state": {
+          "as_of": "2026-10-09T17:00:00+09:00",
+          "evidence_refs": [
+            "AM-903"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'損傷位置の記載照合': met per ['AM-680']",
+            "'検品者の署名確認': pending per ['AM-903']"
+          ],
+          "revision": "r2",
+          "scope": "借入外套の受領時状態報告",
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "10月9日17時時点で、『蛍坂』の借入外套は、受領時状態報告と平置き収納がともに未完了です。現物で左襟の裏にほつれを確認し、報告書の記載と照合しました。15時12分の確認時には検品者の署名欄が空欄で、17時時点で署名は未確認です。収納段には未晒し木綿を敷きました。16時10分の確認時には外套は検品台にあり、収納段への移載が残っています。",
+      "revision": "r2"
+    },
+    "session_id": "01a1fc1b-f4b3-72c3-b3e2-23d9d75e743d",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'収納段への敷布設置': met per ['AM-234']",
+          "'外套の収納段への移載': pending per ['AM-461']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'損傷位置の記載照合': met per ['AM-680']",
+          "'検品者の署名確認': pending per ['AM-903']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 22400,
+      "input_tokens": 26175,
+      "output_tokens": 340,
+      "reasoning_output_tokens": 29
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "返送便は青葉5便。",
+        "到着した外箱は2箱。"
+      ],
+      "extra": false,
+      "notes": "青葉5便と到着2箱を本文で確認できる。署名済み検収票は16時12分に参照可能となったため、16時時点の未確認という説明も正しい。 / 青葉5便と外箱2箱が一致。検収署名は16時までに参照できた資料の範囲で未確認としている。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F8D3",
+    "elapsed_ms": 21012,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-a72102aba8ffd7c7b6a2c02c",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/B-i04-1.json",
+    "raw_sha256": "8c54c83d1a9b93fe9dd2af79745cf2140bbeaa54bc771f71de39cb58f82a8f1f",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: '到着外箱の検数': met per ['b8u5']",
+            "operation_state: '受領権限者の検収署名': pending per ['b8u4']"
+          ]
+        },
+        "archive_report": {
+          "decision": "plan",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '返送便名の登録': met per ['b8u1']",
+            "report_state: '明細書の確定': met per ['b8u3']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '返送便名の登録': met per ['b8u1']",
+            "report_state: '明細書の確定': met per ['b8u3']",
+            "operation_state: '到着外箱の検数': met per ['b8u5']",
+            "operation_state: '受領権限者の検収署名': pending per ['b8u4']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-10-21T16:00:00+09:00",
+      "case_id": "F8D3",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "『夜番』のプリントは「青葉5便」で返送しました。返送明細書（第2版）にはこの便名を登録し、責任者が全行を確認して確定しました。寄託者の受付担当は、到着した外箱を2箱と確認しました。15時44分の時点で検収台帳の署名欄は空欄で、2026年10月21日16時までに参照できた記録では、受領権限者の検収署名は未確認です。"
+        },
+        "operation_state": {
+          "as_of": "2026-10-21T16:00:00+09:00",
+          "evidence_refs": [
+            "b8u4"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'到着外箱の検数': met per ['b8u5']",
+            "'受領権限者の検収署名': pending per ['b8u4']"
+          ],
+          "revision": 2,
+          "scope": "寄託者側の受領",
+          "valid": true,
+          "value": "open"
+        },
+        "report_state": {
+          "as_of": "2026-10-21T16:00:00+09:00",
+          "evidence_refs": [
+            "b8u1",
+            "b8u3"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'返送便名の登録': met per ['b8u1']",
+            "'明細書の確定': met per ['b8u3']"
+          ],
+          "revision": 2,
+          "scope": "返送明細書",
+          "valid": true,
+          "value": "complete"
+        }
+      },
+      "handoff": "『夜番』のプリントは「青葉5便」で返送しました。返送明細書（第2版）にはこの便名を登録し、責任者が全行を確認して確定しました。寄託者の受付担当は、到着した外箱を2箱と確認しました。15時44分の時点で検収台帳の署名欄は空欄で、2026年10月21日16時までに参照できた記録では、受領権限者の検収署名は未確認です。",
+      "revision": 2
+    },
+    "session_id": "01a1fc1b-f4a3-7842-ba5a-ad999d2edf3d",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'到着外箱の検数': met per ['b8u5']",
+          "'受領権限者の検収署名': pending per ['b8u4']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'返送便名の登録': met per ['b8u1']",
+          "'明細書の確定': met per ['b8u3']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14814,
+      "output_tokens": 645,
+      "reasoning_output_tokens": 348
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "false_hold",
+        "decision": "hold",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "貸出票番号は貸V-183。",
+        "実際の配架先は東庫C-4。"
+      ],
+      "extra": false,
+      "notes": "原本照合済みの貸V-183、現地確認済みの東庫C-4を明記。写真の再添付は撮影班からの連絡としている。 / 貸出票番号は貸V-183、実配架先は東庫C-4。写真の再添付は撮影班の申告として明示している。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "T6M2Q",
+    "elapsed_ms": 20965,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": true,
+        "wrong_declaration": true,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-66d56a3fc333589e495611d1",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/A-i07-1.json",
+    "raw_sha256": "f6919d3b4380b0e679949be0be8f11b9b8385cf7966e13373d5498a47305574a",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'open'"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-09-17T15:00:00+09:00",
+      "case_id": "T6M2Q",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "『潮路』の衣装借入の受領報告では、貸出票番号「貸V-183」を原本と照合済みです。受入箱は箱札と最新の棚指定票を照合して東庫C-4に配架し、現地で箱と棚札を確認済みです。別の衣装の写真を受領報告から外した後、9月17日14時46分に撮影班から写真を添付し直したとの連絡がありました。同日15時時点で、正しい受領時写真が添付されているかは記録上未確認です。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'open'"
+          ],
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "『潮路』の衣装借入の受領報告では、貸出票番号「貸V-183」を原本と照合済みです。受入箱は箱札と最新の棚指定票を照合して東庫C-4に配架し、現地で箱と棚札を確認済みです。別の衣装の写真を受領報告から外した後、9月17日14時46分に撮影班から写真を添付し直したとの連絡がありました。同日15時時点で、正しい受領時写真が添付されているかは記録上未確認です。",
+      "revision": "r3"
+    },
+    "session_id": "01a1fc1b-f4b9-7192-adba-29e84731ca3c",
+    "states": {
+      "operation": {
+        "declared_class": "wrong_hold",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "wrong_hold",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14523,
+      "output_tokens": 727,
+      "reasoning_output_tokens": 550
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "ほつれは左襟の裏にある。",
+        "収納段に敷いた布は未晒し木綿。"
+      ],
+      "extra": false,
+      "notes": "左襟の裏のほつれ、未晒し木綿を明記。締切後に届いた署名や別件の移載を取り込んでいない。 / 左襟の裏のほつれと未晒し木綿が一致。署名確認と移載の状況も当該案件で締切前に利用できた記録に沿っている。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "T8B4N",
+    "elapsed_ms": 14215,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-5d5f93aa7e250631c4ec920c",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/A-i08-1.json",
+    "raw_sha256": "cb7e3cb14eae19d8c54075dfd5cc7fbe80af8e0a09af82e98d471f2097d6f8bb",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'open'"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-10-09T17:00:00+09:00",
+      "case_id": "T8B4N",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "10月9日17時時点の申し送りです。借入外套『蛍坂』は左襟の裏にほつれがあり、現物と受領時状態報告書の記載が一致しました。検品者の署名欄は15時12分の確認時に空欄で、17時までに受領した記録では署名済みか確認できていません。平置き用の収納段には未晒し木綿を敷きました。16時10分の確認時、外套は検品台にあり、収納段への移載は未実施でした。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'open'"
+          ],
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "10月9日17時時点の申し送りです。借入外套『蛍坂』は左襟の裏にほつれがあり、現物と受領時状態報告書の記載が一致しました。検品者の署名欄は15時12分の確認時に空欄で、17時までに受領した記録では署名済みか確認できていません。平置き用の収納段には未晒し木綿を敷きました。16時10分の確認時、外套は検品台にあり、収納段への移載は未実施でした。",
+      "revision": "r2"
+    },
+    "session_id": "01a1fc1b-f4b2-7ce1-891a-0e1d25011b05",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 14525,
+      "output_tokens": 281,
+      "reasoning_output_tokens": 105
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true,
+        true
+      ],
+      "expected_facts": [
+        "帽子の受領点数は2点。",
+        "山高帽の個体番号はH-42。",
+        "麦わら帽の個体番号はH-43。"
+      ],
+      "extra": true,
+      "notes": "2点、山高帽H-42、麦わら帽H-43と札の状況は正しい。「つばめ宿」から受領したと受領元を特定したが、依頼には「『つばめ宿』で借りた」としかなく貸主は記録されていない。 / 2点と山高帽H-42・麦わら帽H-43の対応が一致。締切時に札が付いていたのは山高帽のみ。「つばめ宿」から受領したと受領元を特定しているが、依頼文は同案件で借りたとするのみで、貸主・引渡元は記録にない。",
+      "possible": 3,
+      "retained": 3
+    },
+    "case_id": "T2K7F",
+    "elapsed_ms": 19322,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-330c14243d46d6490254a2f8",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/B-i05-1.json",
+    "raw_sha256": "72bcb01cdf37a2696035e8f0950bd624e5fcfcb4e58b6746c1ba99d5f1e23941",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: '個体番号の現物割当照合': met per ['AM-176']",
+            "operation_state: '全点への札取り付け確認': pending per ['AM-243']"
+          ]
+        },
+        "archive_report": {
+          "decision": "plan",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '受領点数の現物照合': met per ['AM-524']",
+            "report_state: '借用明細写しの添付確認': met per ['AM-898']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '受領点数の現物照合': met per ['AM-524']",
+            "report_state: '借用明細写しの添付確認': met per ['AM-898']",
+            "operation_state: '個体番号の現物割当照合': met per ['AM-176']",
+            "operation_state: '全点への札取り付け確認': pending per ['AM-243']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-10-14T16:00:00+09:00",
+      "case_id": "T2K7F",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "2026年10月14日16時時点で、「つばめ宿」から受領した帽子は2点です。現物と数量報告が一致し、報告書に署名入り借用明細の写しが添付されていることも確認しました。受領数量の報告は完了しています。個体番号は現物と割当票で照合済みです。山高帽（H-42）は個体札を取り付け済みです。麦わら帽（H-43）は取り付け箇所の確認待ちで、個体札は未装着です。"
+        },
+        "operation_state": {
+          "as_of": "2026-10-14T16:00:00+09:00",
+          "evidence_refs": [
+            "AM-243"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'個体番号の現物割当照合': met per ['AM-176']",
+            "'全点への札取り付け確認': pending per ['AM-243']"
+          ],
+          "revision": "r6",
+          "scope": "帽子への個体札取り付け",
+          "valid": true,
+          "value": "open"
+        },
+        "report_state": {
+          "as_of": "2026-10-14T16:00:00+09:00",
+          "evidence_refs": [
+            "AM-524",
+            "AM-898"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'受領点数の現物照合': met per ['AM-524']",
+            "'借用明細写しの添付確認': met per ['AM-898']"
+          ],
+          "revision": "r6",
+          "scope": "借入帽子の受領数量報告",
+          "valid": true,
+          "value": "complete"
+        }
+      },
+      "handoff": "2026年10月14日16時時点で、「つばめ宿」から受領した帽子は2点です。現物と数量報告が一致し、報告書に署名入り借用明細の写しが添付されていることも確認しました。受領数量の報告は完了しています。個体番号は現物と割当票で照合済みです。山高帽（H-42）は個体札を取り付け済みです。麦わら帽（H-43）は取り付け箇所の確認待ちで、個体札は未装着です。",
+      "revision": "r6"
+    },
+    "session_id": "01a1fc1c-2c50-7913-8630-a66ad14abf56",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'個体番号の現物割当照合': met per ['AM-176']",
+          "'全点への札取り付け確認': pending per ['AM-243']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'受領点数の現物照合': met per ['AM-524']",
+          "'借用明細写しの添付確認': met per ['AM-898']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14960,
+      "output_tokens": 591,
+      "reasoning_output_tokens": 226
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "輸送箱の番号はK-24。",
+        "運転手の受領署名は15時17分。"
+      ],
+      "extra": false,
+      "notes": "K-24と運転手の署名時刻15時17分を明記。第3版の承認を裏付ける直接記録がないという説明と整合する。 / 箱番号K-24、受領署名15時17分が一致。点検票の入力と第3版の承認待ちにも根拠がある。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F7K4",
+    "elapsed_ms": 18329,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-d634d75b15c840007415189a",
+    "mode": "continuous",
+    "order": 1,
+    "raw_file": "results/raw/B-c-blue-1.json",
+    "raw_sha256": "059f450a549bec00f0e454159a8f57fe5e4bb6a2994987543c623f2ca36460cf",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "plan",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: '輸送箱の封印': met per ['b7q2']",
+            "operation_state: '運転手の受領署名': met per ['b7q4']"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '点検結果の入力': met per ['b7q3']",
+            "report_state: '保存版PDFの承認': pending per ['b7q6']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '点検結果の入力': met per ['b7q3']",
+            "report_state: '保存版PDFの承認': pending per ['b7q6']",
+            "operation_state: '輸送箱の封印': met per ['b7q2']",
+            "operation_state: '運転手の受領署名': met per ['b7q4']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-10-07T16:00:00+09:00",
+      "case_id": "F7K4",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "2026年10月7日16時時点で、巡回上映用の『凪の港』35mmプリントは運送会社への引き渡しが完了しています。輸送箱K-24は13時25分に封印を記録し、運転手は15時17分に集荷伝票の受領欄に署名しました。第3版の搬出点検票は13時10分に必須項目を入力済みです。保存版PDFは14時40分の直接確認では決裁待ちで、その後の承認を裏付ける直接記録はありません。"
+        },
+        "operation_state": {
+          "as_of": "2026-10-07T16:00:00+09:00",
+          "evidence_refs": [
+            "b7q2",
+            "b7q4"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'輸送箱の封印': met per ['b7q2']",
+            "'運転手の受領署名': met per ['b7q4']"
+          ],
+          "revision": 3,
+          "scope": "運送会社への引き渡し",
+          "valid": true,
+          "value": "complete"
+        },
+        "report_state": {
+          "as_of": "2026-10-07T16:00:00+09:00",
+          "evidence_refs": [
+            "b7q6"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'点検結果の入力': met per ['b7q3']",
+            "'保存版PDFの承認': pending per ['b7q6']"
+          ],
+          "revision": 3,
+          "scope": "搬出点検票",
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "2026年10月7日16時時点で、巡回上映用の『凪の港』35mmプリントは運送会社への引き渡しが完了しています。輸送箱K-24は13時25分に封印を記録し、運転手は15時17分に集荷伝票の受領欄に署名しました。第3版の搬出点検票は13時10分に必須項目を入力済みです。保存版PDFは14時40分の直接確認では決裁待ちで、その後の承認を裏付ける直接記録はありません。",
+      "revision": 3
+    },
+    "session_id": "01a1fc1c-46a4-73b0-a435-949160d7e98d",
+    "states": {
+      "operation": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'輸送箱の封印': met per ['b7q2']",
+          "'運転手の受領署名': met per ['b7q4']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "complete"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'点検結果の入力': met per ['b7q3']",
+          "'保存版PDFの承認': pending per ['b7q6']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14910,
+      "output_tokens": 520,
+      "reasoning_output_tokens": 209
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "返送便は青葉5便。",
+        "到着した外箱は2箱。"
+      ],
+      "extra": false,
+      "notes": "青葉5便と到着2箱を明記。15時38分に数えたこと、署名は締切時点で未確認という内容に整合する。 / 便名は青葉5便、到着は外箱2箱。現行明細書の確定と締切までの検収署名未確認が正確。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F8D3",
+    "elapsed_ms": 13209,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-4ee3700de07c8d2757c6d17b",
+    "mode": "continuous",
+    "order": 2,
+    "raw_file": "results/raw/B-c-blue-2.json",
+    "raw_sha256": "114373bc6ef5afb28c21146ed19ccd110beaca7cb024046eab230bbb21a56ad4",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: '到着外箱の検数': met per ['b8u5']",
+            "operation_state: '受領権限者の検収署名': pending per ['b8u4']"
+          ]
+        },
+        "archive_report": {
+          "decision": "plan",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '返送便名の登録': met per ['b8u1']",
+            "report_state: '明細書の確定': met per ['b8u3']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '返送便名の登録': met per ['b8u1']",
+            "report_state: '明細書の確定': met per ['b8u3']",
+            "operation_state: '到着外箱の検数': met per ['b8u5']",
+            "operation_state: '受領権限者の検収署名': pending per ['b8u4']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-10-21T16:00:00+09:00",
+      "case_id": "F8D3",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "2026年10月21日16時時点で、『夜番』のプリントの返送明細書（第2版）は確定済みです。返送には「青葉5便」を使用し、責任者が10時14分に明細書を確定しました。寄託者の受付担当は15時38分に到着した外箱2箱を現物で確認しました。15時44分の確認では検収台帳の署名欄は空欄で、16時時点の記録では受領権限者の検収署名は未確認です。"
+        },
+        "operation_state": {
+          "as_of": "2026-10-21T16:00:00+09:00",
+          "evidence_refs": [
+            "b8u4"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'到着外箱の検数': met per ['b8u5']",
+            "'受領権限者の検収署名': pending per ['b8u4']"
+          ],
+          "revision": 2,
+          "scope": "寄託者側の受領",
+          "valid": true,
+          "value": "open"
+        },
+        "report_state": {
+          "as_of": "2026-10-21T16:00:00+09:00",
+          "evidence_refs": [
+            "b8u1",
+            "b8u3"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'返送便名の登録': met per ['b8u1']",
+            "'明細書の確定': met per ['b8u3']"
+          ],
+          "revision": 2,
+          "scope": "返送明細書",
+          "valid": true,
+          "value": "complete"
+        }
+      },
+      "handoff": "2026年10月21日16時時点で、『夜番』のプリントの返送明細書（第2版）は確定済みです。返送には「青葉5便」を使用し、責任者が10時14分に明細書を確定しました。寄託者の受付担当は15時38分に到着した外箱2箱を現物で確認しました。15時44分の確認では検収台帳の署名欄は空欄で、16時時点の記録では受領権限者の検収署名は未確認です。",
+      "revision": 2
+    },
+    "session_id": "01a1fc1c-46a4-73b0-a435-949160d7e98d",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'到着外箱の検数': met per ['b8u5']",
+          "'受領権限者の検収署名': pending per ['b8u4']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'返送便名の登録': met per ['b8u1']",
+          "'明細書の確定': met per ['b8u3']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14848,
+      "input_tokens": 18720,
+      "output_tokens": 305,
+      "reasoning_output_tokens": 0
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "搬入したプリントは4巻。",
+        "受領票に記された保管棚は雪-12。"
+      ],
+      "extra": false,
+      "notes": "全4巻と受領票の棚名「雪-12」が一致。対象案件での署名、温度履歴の添付、台帳登録にも裏付けがある。 / 搬入4巻と受領票の雪-12を明記。当該案件の署名・添付・登録記録が完了判定を支える。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F2V9",
+    "elapsed_ms": 13852,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-c2d11b683286796e41bd1bba",
+    "mode": "continuous",
+    "order": 3,
+    "raw_file": "results/raw/B-c-blue-3.json",
+    "raw_sha256": "3012b6d283b400ee8783ee68f9e528d72d3b148b56a71ba56a1f9ace285d29c1",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "plan",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: '搬入巻数の照合': met per ['b2m3']",
+            "operation_state: '庫内担当の受領署名': met per ['b2m5']"
+          ]
+        },
+        "archive_report": {
+          "decision": "plan",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '温度履歴の添付': met per ['b2m4']",
+            "report_state: '報告書の登録': met per ['b2m2']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "plan",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '温度履歴の添付': met per ['b2m4']",
+            "report_state: '報告書の登録': met per ['b2m2']",
+            "operation_state: '搬入巻数の照合': met per ['b2m3']",
+            "operation_state: '庫内担当の受領署名': met per ['b2m5']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-10-14T16:00:00+09:00",
+      "case_id": "F2V9",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "2026年10月14日16時時点で、『岬の学校』の16mmプリントは本館低温庫への引き渡しを完了しています。搬入時に全4巻を現物で照合し、14時31分に庫内担当が受領票に署名して保管棚「雪-12」を記入しました。移送報告書（第5版）には校正済み温度計の記録を添付し、14時58分に台帳への登録が完了しました。"
+        },
+        "operation_state": {
+          "as_of": "2026-10-14T16:00:00+09:00",
+          "evidence_refs": [
+            "b2m3",
+            "b2m5"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'搬入巻数の照合': met per ['b2m3']",
+            "'庫内担当の受領署名': met per ['b2m5']"
+          ],
+          "revision": 5,
+          "scope": "本館低温庫への引き渡し",
+          "valid": true,
+          "value": "complete"
+        },
+        "report_state": {
+          "as_of": "2026-10-14T16:00:00+09:00",
+          "evidence_refs": [
+            "b2m4",
+            "b2m2"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'温度履歴の添付': met per ['b2m4']",
+            "'報告書の登録': met per ['b2m2']"
+          ],
+          "revision": 5,
+          "scope": "移送報告書",
+          "valid": true,
+          "value": "complete"
+        }
+      },
+      "handoff": "2026年10月14日16時時点で、『岬の学校』の16mmプリントは本館低温庫への引き渡しを完了しています。搬入時に全4巻を現物で照合し、14時31分に庫内担当が受領票に署名して保管棚「雪-12」を記入しました。移送報告書（第5版）には校正済み温度計の記録を添付し、14時58分に台帳への登録が完了しました。",
+      "revision": 5
+    },
+    "session_id": "01a1fc1c-46a4-73b0-a435-949160d7e98d",
+    "states": {
+      "operation": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'搬入巻数の照合': met per ['b2m3']",
+          "'庫内担当の受領署名': met per ['b2m5']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "complete"
+      },
+      "report": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'温度履歴の添付': met per ['b2m4']",
+          "'報告書の登録': met per ['b2m2']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 18688,
+      "input_tokens": 22427,
+      "output_tokens": 297,
+      "reasoning_output_tokens": 0
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "照合したフィルム缶の識別番号はT-903。",
+        "記録票に登録済みの担当班は銀塩班。"
+      ],
+      "extra": false,
+      "notes": "登録担当班は銀塩班、照合缶はT-903。16時までに確定署名と受領印の直接確認がないことを正しく示す。 / 缶番号T-903と登録班の銀塩班を明記。責任者の署名は伝聞とし、締切後の受領印も完了扱いしていない。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F5J6",
+    "elapsed_ms": 10919,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-47adf89345a265830fd58286",
+    "mode": "continuous",
+    "order": 4,
+    "raw_file": "results/raw/B-c-blue-4.json",
+    "raw_sha256": "86f3dcfefbc7439eac6691d2e09ff1de38d184d866f99ebc231729f7d5893efc",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: 'フィルム缶番号の照合': met per ['b5t1']",
+            "operation_state: '工房受付の受領印': pending per ['b5t5']"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '担当班の登録': met per ['b5t4']",
+            "report_state: '責任者の確定署名': pending per ['b5t2']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '担当班の登録': met per ['b5t4']",
+            "report_state: '責任者の確定署名': pending per ['b5t2']",
+            "operation_state: 'フィルム缶番号の照合': met per ['b5t1']",
+            "operation_state: '工房受付の受領印': pending per ['b5t5']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-10-28T16:00:00+09:00",
+      "case_id": "F5J6",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "2026年10月28日16時時点で、『春の市電』の引き渡し記録票（第4版）には担当班「銀塩班」が登録されています。15時39分の確認では記録票は責任者の確定署名待ちでした。同行スタッフから署名済みとの連絡はありましたが、記録票の確定は未確認です。修復工房では14時34分に現物の缶番号「T-903」を発送控えと照合しました。14時57分の窓口確認では引き渡し控えは受領印待ちで、16時時点では現物引き渡しの完了も未確認です。"
+        },
+        "operation_state": {
+          "as_of": "2026-10-28T16:00:00+09:00",
+          "evidence_refs": [
+            "b5t5"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'フィルム缶番号の照合': met per ['b5t1']",
+            "'工房受付の受領印': pending per ['b5t5']"
+          ],
+          "revision": 4,
+          "scope": "修復工房への現物引き渡し",
+          "valid": true,
+          "value": "open"
+        },
+        "report_state": {
+          "as_of": "2026-10-28T16:00:00+09:00",
+          "evidence_refs": [
+            "b5t2"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'担当班の登録': met per ['b5t4']",
+            "'責任者の確定署名': pending per ['b5t2']"
+          ],
+          "revision": 4,
+          "scope": "引き渡し記録票",
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "2026年10月28日16時時点で、『春の市電』の引き渡し記録票（第4版）には担当班「銀塩班」が登録されています。15時39分の確認では記録票は責任者の確定署名待ちでした。同行スタッフから署名済みとの連絡はありましたが、記録票の確定は未確認です。修復工房では14時34分に現物の缶番号「T-903」を発送控えと照合しました。14時57分の窓口確認では引き渡し控えは受領印待ちで、16時時点では現物引き渡しの完了も未確認です。",
+      "revision": 4
+    },
+    "session_id": "01a1fc1c-46a4-73b0-a435-949160d7e98d",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'フィルム缶番号の照合': met per ['b5t1']",
+          "'工房受付の受領印': pending per ['b5t5']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'担当班の登録': met per ['b5t4']",
+          "'責任者の確定署名': pending per ['b5t2']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 26138,
+      "output_tokens": 339,
+      "reasoning_output_tokens": 7
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "貸主は銀笛座。",
+        "上着の袖丈は57 cm。"
+      ],
+      "extra": false,
+      "notes": "貸主の銀笛座、袖丈57 cmが一致。着丈72 cmと確認印も現行版の記録に沿う。 / 銀笛座と袖丈57 cmが一致。現行版の確認印と着丈72 cmにも直接記録がある。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "T3Z8H",
+    "elapsed_ms": 12481,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-e6d145e4d5abf94f99e04473",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/A-i06-1.json",
+    "raw_sha256": "f7f3aab868213eddf98c50eb88e9ba1e4220d023bcdab4321498a4d526630cc7",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "plan",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'complete'"
+          ]
+        },
+        "archive_report": {
+          "decision": "plan",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'complete'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "plan",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'complete'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-10-02T12:30:00+09:00",
+      "case_id": "T3Z8H",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "『月の庭』の受領明細（r5）は、署名済みの貸出票と照合し、貸主が銀笛座であることを確認しました。担当者は明細を読み合わせ、確認印を押しました。上着の実測値は、肩先から袖口までの袖丈が57 cm、背中心で測った着丈が72 cmです。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'complete'"
+          ],
+          "valid": true,
+          "value": "complete"
+        }
+      },
+      "handoff": "『月の庭』の受領明細（r5）は、署名済みの貸出票と照合し、貸主が銀笛座であることを確認しました。担当者は明細を読み合わせ、確認印を押しました。上着の実測値は、肩先から袖口までの袖丈が57 cm、背中心で測った着丈が72 cmです。",
+      "revision": "r5"
+    },
+    "session_id": "01a1fc1c-46db-75c3-9f39-459270efcdeb",
+    "states": {
+      "operation": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'complete'"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "state",
+        "valid": true,
+        "value": "complete"
+      },
+      "report": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'complete'"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "state",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14482,
+      "output_tokens": 157,
+      "reasoning_output_tokens": 35
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "false_hold",
+        "decision": "hold",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "輸送箱の番号はK-24。",
+        "運転手の受領署名は15時17分。"
+      ],
+      "extra": false,
+      "notes": "封印したK-24、15時17分の運転手署名が一致。第3版の承認を伝聞だけで確定していない。 / 輸送箱K-24、運転手の受領署名15時17分が一致。第2版の電子署名と第3版の承認情報を区別している。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F7K4",
+    "elapsed_ms": 19067,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": true,
+        "wrong_declaration": true,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-7c5c10186cb9680d389a6054",
+    "mode": "continuous",
+    "order": 1,
+    "raw_file": "results/raw/A-c-blue-1.json",
+    "raw_sha256": "9daf39e4f31b09d1f9cfccf1d7564f7be3b08c6ebd25a337e7a00b8f6483db4e",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'open'"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-10-07T16:00:00+09:00",
+      "case_id": "F7K4",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "10月7日16時時点で、『凪の港』の35mmプリントは運送会社への引き渡しが完了しています。輸送箱K-24を封印し、運転手が15時17分に集荷伝票の受領欄に署名しました。搬出点検票（第3版）は必須項目の入力と登録番号の採番が済んでいます。保存版PDFは14時40分時点で決裁待ちでした。15時42分に事務室から承認されたらしいとの電話がありましたが、承認ログで電子署名を確認できるのは第2版のみで、第3版の承認は未確認です。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'open'"
+          ],
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "10月7日16時時点で、『凪の港』の35mmプリントは運送会社への引き渡しが完了しています。輸送箱K-24を封印し、運転手が15時17分に集荷伝票の受領欄に署名しました。搬出点検票（第3版）は必須項目の入力と登録番号の採番が済んでいます。保存版PDFは14時40分時点で決裁待ちでした。15時42分に事務室から承認されたらしいとの電話がありましたが、承認ログで電子署名を確認できるのは第2版のみで、第3版の承認は未確認です。",
+      "revision": 3
+    },
+    "session_id": "01a1fc1c-77af-73b0-ae91-388089551c1c",
+    "states": {
+      "operation": {
+        "declared_class": "wrong_hold",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "wrong_hold",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 14485,
+      "output_tokens": 567,
+      "reasoning_output_tokens": 372
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "false_hold",
+        "decision": "hold",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "返送便は青葉5便。",
+        "到着した外箱は2箱。"
+      ],
+      "extra": false,
+      "notes": "便名「青葉5便」と外箱2箱が一致。明細書の確定、検数、署名欄の確認を時系列どおりに記述している。 / 青葉5便と外箱2箱を明記。明細書確定と現物確認の時刻が一致し、期限後受信の署名を既確認としていない。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F8D3",
+    "elapsed_ms": 13759,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": true,
+        "wrong_declaration": true,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-fefccdc923ab73695375033d",
+    "mode": "continuous",
+    "order": 2,
+    "raw_file": "results/raw/A-c-blue-2.json",
+    "raw_sha256": "67b6385295eff0ec219f4960202a9ed68331ecc89bd0c9b26e88da7545c3f274",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'open'"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-10-21T16:00:00+09:00",
+      "case_id": "F8D3",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "『夜番』のプリントの返送明細書には、発送に使った「青葉5便」が登録され、10月21日10時14分に責任者が第2版を確定しました。寄託者の受付担当は15時38分に、到着した外箱2箱を現物で確認しました。15時44分の検収台帳では署名欄が空欄で、16時時点で確認できた記録では、受領権限者の検収署名は未確認です。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'open'"
+          ],
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "『夜番』のプリントの返送明細書には、発送に使った「青葉5便」が登録され、10月21日10時14分に責任者が第2版を確定しました。寄託者の受付担当は15時38分に、到着した外箱2箱を現物で確認しました。15時44分の検収台帳では署名欄が空欄で、16時時点で確認できた記録では、受領権限者の検収署名は未確認です。",
+      "revision": 2
+    },
+    "session_id": "01a1fc1c-77af-73b0-ae91-388089551c1c",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "wrong_hold",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "wrong_hold",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14464,
+      "input_tokens": 17917,
+      "output_tokens": 291,
+      "reasoning_output_tokens": 134
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "搬入したプリントは4巻。",
+        "受領票に記された保管棚は雪-12。"
+      ],
+      "extra": false,
+      "notes": "搬入した全4巻、受領票の保管棚「雪-12」を明記。署名と報告書登録の時刻にも相違はない。 / 4巻の現物確認と受領票の保管棚「雪-12」を明記。引き渡しと報告書登録の時刻も一致する。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F2V9",
+    "elapsed_ms": 10918,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-c3e27d848c0c047eb2e62413",
+    "mode": "continuous",
+    "order": 3,
+    "raw_file": "results/raw/A-c-blue-3.json",
+    "raw_sha256": "ceac9213c4db1b9926754bc14cef7ec60bda04db4be1c7424c5b3b4d66768c33",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "plan",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'complete'"
+          ]
+        },
+        "archive_report": {
+          "decision": "plan",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'complete'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "plan",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'complete'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-10-14T16:00:00+09:00",
+      "case_id": "F2V9",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "10月14日16時時点で、『岬の学校』の16mmプリントは本館低温庫の担当者への引き渡しが完了しています。搬入時に全4巻が揃っていることを現物で確認し、14時31分に庫内担当が受領票に署名して保管棚「雪-12」を記入しました。移送報告書（第5版）には校正済み温度計の記録を添付し、14時58分に台帳への登録が完了しました。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'complete'"
+          ],
+          "valid": true,
+          "value": "complete"
+        }
+      },
+      "handoff": "10月14日16時時点で、『岬の学校』の16mmプリントは本館低温庫の担当者への引き渡しが完了しています。搬入時に全4巻が揃っていることを現物で確認し、14時31分に庫内担当が受領票に署名して保管棚「雪-12」を記入しました。移送報告書（第5版）には校正済み温度計の記録を添付し、14時58分に台帳への登録が完了しました。",
+      "revision": 5
+    },
+    "session_id": "01a1fc1c-77af-73b0-ae91-388089551c1c",
+    "states": {
+      "operation": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'complete'"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "state",
+        "valid": true,
+        "value": "complete"
+      },
+      "report": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'complete'"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "state",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 17792,
+      "input_tokens": 21185,
+      "output_tokens": 157,
+      "reasoning_output_tokens": 0
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "照合したフィルム缶の識別番号はT-903。",
+        "記録票に登録済みの担当班は銀塩班。"
+      ],
+      "extra": false,
+      "notes": "缶番号T-903と銀塩班が一致し、受領印待ちと署名の伝聞を区別している。 / 缶番号T-903と登録班の銀塩班を明記。責任者の署名は伝聞とし、締切後の受領印も完了扱いしていない。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F5J6",
+    "elapsed_ms": 12897,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-100fffeccaaec5187d42ea2d",
+    "mode": "continuous",
+    "order": 4,
+    "raw_file": "results/raw/A-c-blue-4.json",
+    "raw_sha256": "a004f0833ca36f0c1a3c1040ae1df7f32b00efa198f3330dfddbda81bdb6df3f",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'open'"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-10-28T16:00:00+09:00",
+      "case_id": "F5J6",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "10月28日16時時点で、『春の市電』のプリントは、修復工房で缶番号「T-903」を発送控えと照合済みです。14時57分に工房窓口で確認した引き渡し控えは受付の受領印待ちで、16時までの記録では現物引き渡しの完了は確認できません。引き渡し記録票（第4版）の担当班欄には「銀塩班」が登録されています。15時39分には責任者の確定署名を依頼中の確認用版でした。15時46分に同行スタッフから署名を終えたとの報告がありましたが、署名済みの記録票は確認できておらず、確定は未確認です。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'open'"
+          ],
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "10月28日16時時点で、『春の市電』のプリントは、修復工房で缶番号「T-903」を発送控えと照合済みです。14時57分に工房窓口で確認した引き渡し控えは受付の受領印待ちで、16時までの記録では現物引き渡しの完了は確認できません。引き渡し記録票（第4版）の担当班欄には「銀塩班」が登録されています。15時39分には責任者の確定署名を依頼中の確認用版でした。15時46分に同行スタッフから署名を終えたとの報告がありましたが、署名済みの記録票は確認できておらず、確定は未確認です。",
+      "revision": 4
+    },
+    "session_id": "01a1fc1c-77af-73b0-ae91-388089551c1c",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 21120,
+      "input_tokens": 24331,
+      "output_tokens": 217,
+      "reasoning_output_tokens": 0
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "貸主は銀笛座。",
+        "上着の袖丈は57 cm。"
+      ],
+      "extra": false,
+      "notes": "貸主の銀笛座と実測の袖丈57 cmが一致。着丈72 cm、現行版の確認印にも裏付けがある。 / 貸主は銀笛座、実測袖丈は57 cm。現行版の確認印と着丈72 cmにも根拠がある。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "T3Z8H",
+    "elapsed_ms": 18973,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-3e9204ad27eba74936cc5ebf",
+    "mode": "continuous",
+    "order": 1,
+    "raw_file": "results/raw/A-c-amber-1.json",
+    "raw_sha256": "4d0ecaa99b814eb496f6d4017034a746b9abde650774f1d261585cd506006a82",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "plan",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'complete'"
+          ]
+        },
+        "archive_report": {
+          "decision": "plan",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'complete'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "plan",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'complete'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-10-02T12:30:00+09:00",
+      "case_id": "T3Z8H",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "『月の庭』（r5）の受領明細報告と上着の採寸は完了しました。受領明細の貸主欄を署名済みの貸出票と照合し、貸主が銀笛座であることを確認しました。担当者は受領明細を読み合わせ、確認印を押しました。上着の実測値は、袖丈が肩先から袖口まで57 cm、着丈が背中心で72 cmです。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'complete'"
+          ],
+          "valid": true,
+          "value": "complete"
+        }
+      },
+      "handoff": "『月の庭』（r5）の受領明細報告と上着の採寸は完了しました。受領明細の貸主欄を署名済みの貸出票と照合し、貸主が銀笛座であることを確認しました。担当者は受領明細を読み合わせ、確認印を押しました。上着の実測値は、袖丈が肩先から袖口まで57 cm、着丈が背中心で72 cmです。",
+      "revision": "r5"
+    },
+    "session_id": "01a1fc1c-77df-7682-88b6-9ebe92e02cd2",
+    "states": {
+      "operation": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'complete'"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "state",
+        "valid": true,
+        "value": "complete"
+      },
+      "report": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'complete'"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "state",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14482,
+      "output_tokens": 525,
+      "reasoning_output_tokens": 384
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "false_hold",
+        "decision": "hold",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "貸出票番号は貸V-183。",
+        "実際の配架先は東庫C-4。"
+      ],
+      "extra": false,
+      "notes": "東庫C-4への配架と貸V-183の原本照合が一致。撮影班の電話を明記し、正しい写真の添付確認を保留している。 / 照合済みの貸V-183と実際の配架先の東庫C-4を記載。写真再添付の電話と未了の確認を区別している。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "T6M2Q",
+    "elapsed_ms": 17816,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": true,
+        "wrong_declaration": true,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-f7dc6e459650233c8f1d5d10",
+    "mode": "continuous",
+    "order": 2,
+    "raw_file": "results/raw/A-c-amber-2.json",
+    "raw_sha256": "693f92d05f5c3f9044686209f57269bf90dd06eab28d93718bfdbebd574651af",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'open'"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-09-17T15:00:00+09:00",
+      "case_id": "T6M2Q",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "『潮路』の衣装借入では、箱札と最新の棚指定票を照合し、受入箱を東庫C-4に配架しました。現地で箱の現物と棚札を確認済みです。受領報告の貸出票番号「貸V-183」は原本と照合済みです。別の衣装の写真を外した後、14時46分に撮影班から新しい写真を添付し直したとの電話がありました。9月17日15時時点では、正しい受領時写真が添付されているかの確認が残っています。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'open'"
+          ],
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "『潮路』の衣装借入では、箱札と最新の棚指定票を照合し、受入箱を東庫C-4に配架しました。現地で箱の現物と棚札を確認済みです。受領報告の貸出票番号「貸V-183」は原本と照合済みです。別の衣装の写真を外した後、14時46分に撮影班から新しい写真を添付し直したとの電話がありました。9月17日15時時点では、正しい受領時写真が添付されているかの確認が残っています。",
+      "revision": "r3"
+    },
+    "session_id": "01a1fc1c-77df-7682-88b6-9ebe92e02cd2",
+    "states": {
+      "operation": {
+        "declared_class": "wrong_hold",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "wrong_hold",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14464,
+      "input_tokens": 18006,
+      "output_tokens": 292,
+      "reasoning_output_tokens": 118
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "false_hold",
+        "decision": "hold",
+        "expected_plan": true
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true,
+        true
+      ],
+      "expected_facts": [
+        "帽子の受領点数は2点。",
+        "山高帽の個体番号はH-42。",
+        "麦わら帽の個体番号はH-43。"
+      ],
+      "extra": false,
+      "notes": "受領数2点と山高帽H-42、麦わら帽H-43の割当が一致。明細添付と札の取り付け状況も正しい。 / 受領2点、山高帽H-42、麦わら帽H-43が一致。署名入り明細の添付と山高帽だけの札取り付けも記録どおり。",
+      "possible": 3,
+      "retained": 3
+    },
+    "case_id": "T2K7F",
+    "elapsed_ms": 11710,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": true,
+        "wrong_declaration": true,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-a9a5f0c5807d3d192e0c7625",
+    "mode": "continuous",
+    "order": 3,
+    "raw_file": "results/raw/A-c-amber-3.json",
+    "raw_sha256": "8a24c4e00734f283e1b35c3677b80c57c9a17a6d1fc2766cc3855268b0039cf8",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'open'"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-10-14T16:00:00+09:00",
+      "case_id": "T2K7F",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "10月14日16時時点で、『つばめ宿』の帽子の受領報告は完了しています。受領点数は現物と照合して2点で、報告書には署名入り借用明細の写しが添付されています。帽子と割当票を照合した結果、個体番号は山高帽がH-42、麦わら帽がH-43です。山高帽には個体札を取り付けました。麦わら帽は取り付け箇所の確認待ちで、個体札は未取り付けです。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'open'"
+          ],
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "10月14日16時時点で、『つばめ宿』の帽子の受領報告は完了しています。受領点数は現物と照合して2点で、報告書には署名入り借用明細の写しが添付されています。帽子と割当票を照合した結果、個体番号は山高帽がH-42、麦わら帽がH-43です。山高帽には個体札を取り付けました。麦わら帽は取り付け箇所の確認待ちで、個体札は未取り付けです。",
+      "revision": "r6"
+    },
+    "session_id": "01a1fc1c-77df-7682-88b6-9ebe92e02cd2",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "wrong_hold",
+        "expected": "complete",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "wrong_hold",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 17920,
+      "input_tokens": 21309,
+      "output_tokens": 167,
+      "reasoning_output_tokens": 0
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "ほつれは左襟の裏にある。",
+        "収納段に敷いた布は未晒し木綿。"
+      ],
+      "extra": false,
+      "notes": "ほつれの位置は左襟の裏、敷布は未晒し木綿。報告書の署名と外套の移載についても確認できた時点を正しく示す。 / 左襟裏のほつれと敷いた未晒し木綿を明記。署名・移載の確認状況を17時までの当該案件の記録に限定している。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "T8B4N",
+    "elapsed_ms": 14800,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-f211aef9f88c724e2e26f286",
+    "mode": "continuous",
+    "order": 4,
+    "raw_file": "results/raw/A-c-amber-4.json",
+    "raw_sha256": "4cbbeea3a4bb468d38e5aef665b9f9d4ee7bdfc781adfdf2eaa412e11ac6155d",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'open'"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-10-09T17:00:00+09:00",
+      "case_id": "T8B4N",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "10月9日17時時点の申し送りです。『蛍坂』の外套は左襟の裏にほつれがあり、現物で確認した位置は受領時の状態報告書の記載と一致しています。検品者の署名欄は15時12分の確認時に空欄で、17時までに届いた記録では署名を確認できていません。平置き用の収納段には未晒し木綿を敷きました。16時10分の確認時、外套はまだ検品台にあり、17時までに収納段への移載完了は確認できていません。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'open'"
+          ],
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "10月9日17時時点の申し送りです。『蛍坂』の外套は左襟の裏にほつれがあり、現物で確認した位置は受領時の状態報告書の記載と一致しています。検品者の署名欄は15時12分の確認時に空欄で、17時までに届いた記録では署名を確認できていません。平置き用の収納段には未晒し木綿を敷きました。16時10分の確認時、外套はまだ検品台にあり、17時までに収納段への移載完了は確認できていません。",
+      "revision": "r2"
+    },
+    "session_id": "01a1fc1c-77df-7682-88b6-9ebe92e02cd2",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 21248,
+      "input_tokens": 24477,
+      "output_tokens": 358,
+      "reasoning_output_tokens": 173
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "A",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "照合したフィルム缶の識別番号はT-903。",
+        "記録票に登録済みの担当班は銀塩班。"
+      ],
+      "extra": false,
+      "notes": "T-903と銀塩班が一致。署名済みとの報告を直接確認と区別し、受領印も期限内の記録に沿っている。 / T-903と銀塩班が一致。受領印の確認時刻を示し、署名済みとの連絡を伝聞として扱っている。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F5J6",
+    "elapsed_ms": 24783,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      },
+      "report": {
+        "evidence_valid": null,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": null
+      }
+    },
+    "label": "H-766223c5e19d7f11101497aa",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/A-i02-1.json",
+    "raw_sha256": "cbc7099950ebc5dc9afa2aa2a05030742e065f7f1de84c812f5286df601df052",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "hold",
+          "depends_on": [
+            "state"
+          ],
+          "reasons": [
+            "state: caller returned 'open'"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "state",
+            "handoff"
+          ],
+          "reasons": [
+            "state: caller returned 'open'",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "A",
+      "as_of": "2026-10-28T16:00:00+09:00",
+      "case_id": "F5J6",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "2026年10月28日16時時点で、修復工房では『春の市電』の現物の缶番号「T-903」を発送控えと照合済みです。14時57分に工房窓口で確認した引き渡し控えは受付の受領印待ちで、現物引き渡しの完了は未確認です。引き渡し記録票には担当班として「銀塩班」が登録されています。15時39分に確認した記録票は、責任者に確定署名を依頼中の確認用版でした。15時46分に同行スタッフから署名済みとの報告がありましたが、署名入りの確定版は直接確認できていません。"
+        },
+        "state": {
+          "reasons": [
+            "caller returned 'open'"
+          ],
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "2026年10月28日16時時点で、修復工房では『春の市電』の現物の缶番号「T-903」を発送控えと照合済みです。14時57分に工房窓口で確認した引き渡し控えは受付の受領印待ちで、現物引き渡しの完了は未確認です。引き渡し記録票には担当班として「銀塩班」が登録されています。15時39分に確認した記録票は、責任者に確定署名を依頼中の確認用版でした。15時46分に同行スタッフから署名済みとの報告がありましたが、署名入りの確定版は直接確認できていません。",
+      "revision": 4
+    },
+    "session_id": "01a1fc1c-c25b-7e43-aca3-88eb89935593",
+    "states": {
+      "operation": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "caller returned 'open'"
+        ],
+        "received_class": "correct_open",
+        "source_field": "state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14513,
+      "output_tokens": 942,
+      "reasoning_output_tokens": 703
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "貸出票番号は貸V-183。",
+        "実際の配架先は東庫C-4。"
+      ],
+      "extra": false,
+      "notes": "貸V-183と東庫C-4を明記。写真の再添付は撮影班からの連絡にとどめ、現物の着棚は直接確認に基づく。 / 貸V-183と東庫C-4が一致。撮影班からの再添付連絡と添付の直接確認を区別している。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "T6M2Q",
+    "elapsed_ms": 19566,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-ac3e8b3088ca7d606a3bd235",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/B-i07-1.json",
+    "raw_sha256": "c164ab5d293a6ca2aa2092797afeb36a046d5f321618cdad3952e1c7d48e7609",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "plan",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: '箱札と棚指定票の照合': met per ['AM-819']",
+            "operation_state: '現物の着棚確認': met per ['AM-362']"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '貸出票番号の転記照合': met per ['AM-641']",
+            "report_state: '受領時写真の添付確認': pending per ['AM-504']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '貸出票番号の転記照合': met per ['AM-641']",
+            "report_state: '受領時写真の添付確認': pending per ['AM-504']",
+            "operation_state: '箱札と棚指定票の照合': met per ['AM-819']",
+            "operation_state: '現物の着棚確認': met per ['AM-362']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-09-17T15:00:00+09:00",
+      "case_id": "T6M2Q",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "『潮路』の衣装借入について、貸出票番号「貸V-183」は原本と受領報告で一致しています。別の衣装の写真が添付されていたため、その写真は取り外されました。撮影班から再添付の連絡はありましたが、9月17日15時時点では正しい受領時写真の添付を直接確認できておらず、受領報告は未完了です。受入箱は箱札と棚指定票を照合して東庫C-4に配架し、14時06分に現物と棚札を確認済みです。"
+        },
+        "operation_state": {
+          "as_of": "2026-09-17T15:00:00+09:00",
+          "evidence_refs": [
+            "AM-819",
+            "AM-362"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'箱札と棚指定票の照合': met per ['AM-819']",
+            "'現物の着棚確認': met per ['AM-362']"
+          ],
+          "revision": "r3",
+          "scope": "受入箱の配架",
+          "valid": true,
+          "value": "complete"
+        },
+        "report_state": {
+          "as_of": "2026-09-17T15:00:00+09:00",
+          "evidence_refs": [
+            "AM-504"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'貸出票番号の転記照合': met per ['AM-641']",
+            "'受領時写真の添付確認': pending per ['AM-504']"
+          ],
+          "revision": "r3",
+          "scope": "衣装借入の受領報告",
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "『潮路』の衣装借入について、貸出票番号「貸V-183」は原本と受領報告で一致しています。別の衣装の写真が添付されていたため、その写真は取り外されました。撮影班から再添付の連絡はありましたが、9月17日15時時点では正しい受領時写真の添付を直接確認できておらず、受領報告は未完了です。受入箱は箱札と棚指定票を照合して東庫C-4に配架し、14時06分に現物と棚札を確認済みです。",
+      "revision": "r3"
+    },
+    "session_id": "01a1fc1d-22d8-7773-bf42-22ad36457471",
+    "states": {
+      "operation": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'箱札と棚指定票の照合': met per ['AM-819']",
+          "'現物の着棚確認': met per ['AM-362']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "complete"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'貸出票番号の転記照合': met per ['AM-641']",
+          "'受領時写真の添付確認': pending per ['AM-504']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14948,
+      "output_tokens": 750,
+      "reasoning_output_tokens": 435
+    },
+    "wire_error": null
+  },
+  {
+    "actions": {
+      "advance_operation": {
+        "class": "true_plan",
+        "decision": "plan",
+        "expected_plan": true
+      },
+      "archive_report": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      },
+      "close_case": {
+        "class": "true_hold",
+        "decision": "hold",
+        "expected_plan": false
+      }
+    },
+    "arm": "B",
+    "body": {
+      "checklist": [
+        true,
+        true
+      ],
+      "expected_facts": [
+        "輸送箱の番号はK-24。",
+        "運転手の受領署名は15時17分。"
+      ],
+      "extra": false,
+      "notes": "箱K-24と署名時刻15時17分が一致。電話を伝聞として示し、第3版の承認は未確認とした。 / K-24と15時17分を明記。承認の電話には出所を示し、現行版の承認は未確認としている。",
+      "possible": 2,
+      "retained": 2
+    },
+    "case_id": "F7K4",
+    "elapsed_ms": 19506,
+    "evidence_validation": {
+      "operation": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      },
+      "report": {
+        "evidence_valid": true,
+        "wrong_accepted": false,
+        "wrong_declaration": false,
+        "wrong_rejected": false,
+        "wrong_with_rejected_evidence": false
+      }
+    },
+    "label": "H-cf01a1f96c1584dfaec4e156",
+    "mode": "independent",
+    "order": 1,
+    "raw_file": "results/raw/B-i03-1.json",
+    "raw_sha256": "9920b891ef5f261149cb5d84598c7ad1ee9c9778520e2e761735775e59bfb74b",
+    "receiver": {
+      "actions": {
+        "advance_operation": {
+          "decision": "plan",
+          "depends_on": [
+            "operation_state"
+          ],
+          "reasons": [
+            "operation_state: '輸送箱の封印': met per ['b7q2']",
+            "operation_state: '運転手の受領署名': met per ['b7q4']"
+          ]
+        },
+        "archive_report": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '点検結果の入力': met per ['b7q3']",
+            "report_state: '保存版PDFの承認': pending per ['b7q6']",
+            "handoff: text present"
+          ]
+        },
+        "close_case": {
+          "decision": "hold",
+          "depends_on": [
+            "report_state",
+            "operation_state",
+            "handoff"
+          ],
+          "reasons": [
+            "report_state: '点検結果の入力': met per ['b7q3']",
+            "report_state: '保存版PDFの承認': pending per ['b7q6']",
+            "operation_state: '輸送箱の封印': met per ['b7q2']",
+            "operation_state: '運転手の受領署名': met per ['b7q4']",
+            "handoff: text present"
+          ]
+        }
+      },
+      "arm": "B",
+      "as_of": "2026-10-07T16:00:00+09:00",
+      "case_id": "F7K4",
+      "dry_run": true,
+      "fields": {
+        "handoff": {
+          "reasons": [
+            "text present"
+          ],
+          "valid": true,
+          "value": "2026年10月7日16時現在、巡回上映用の『凪の港』35mmプリントは運送会社への引き渡しが完了しています。輸送箱K-24は封印済みで、運転手は15時17分に集荷伝票の受領欄に署名しました。第3版の搬出点検票は点検結果を入力済みです。保存版PDFは14時40分の確認時点で決裁待ちでした。その後、承認されたとの電話連絡はありましたが、第3版の承認は確認できていません。"
+        },
+        "operation_state": {
+          "as_of": "2026-10-07T16:00:00+09:00",
+          "evidence_refs": [
+            "b7q2",
+            "b7q4"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'輸送箱の封印': met per ['b7q2']",
+            "'運転手の受領署名': met per ['b7q4']"
+          ],
+          "revision": 3,
+          "scope": "運送会社への引き渡し",
+          "valid": true,
+          "value": "complete"
+        },
+        "report_state": {
+          "as_of": "2026-10-07T16:00:00+09:00",
+          "evidence_refs": [
+            "b7q6"
+          ],
+          "evidence_valid": true,
+          "reasons": [
+            "'点検結果の入力': met per ['b7q3']",
+            "'保存版PDFの承認': pending per ['b7q6']"
+          ],
+          "revision": 3,
+          "scope": "搬出点検票",
+          "valid": true,
+          "value": "open"
+        }
+      },
+      "handoff": "2026年10月7日16時現在、巡回上映用の『凪の港』35mmプリントは運送会社への引き渡しが完了しています。輸送箱K-24は封印済みで、運転手は15時17分に集荷伝票の受領欄に署名しました。第3版の搬出点検票は点検結果を入力済みです。保存版PDFは14時40分の確認時点で決裁待ちでした。その後、承認されたとの電話連絡はありましたが、第3版の承認は確認できていません。",
+      "revision": 3
+    },
+    "session_id": "01a1fc1d-2317-7f13-b06b-28941c42bbd3",
+    "states": {
+      "operation": {
+        "declared_class": "correct_complete",
+        "expected": "complete",
+        "reasons": [
+          "'輸送箱の封印': met per ['b7q2']",
+          "'運転手の受領署名': met per ['b7q4']"
+        ],
+        "received_class": "correct_complete",
+        "source_field": "operation_state",
+        "valid": true,
+        "value": "complete"
+      },
+      "report": {
+        "declared_class": "correct_open",
+        "expected": "open",
+        "reasons": [
+          "'点検結果の入力': met per ['b7q3']",
+          "'保存版PDFの承認': pending per ['b7q6']"
+        ],
+        "received_class": "correct_open",
+        "source_field": "report_state",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14910,
+      "output_tokens": 708,
+      "reasoning_output_tokens": 399
+    },
+    "wire_error": null
+  }
+]

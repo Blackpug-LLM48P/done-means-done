@@ -1,0 +1,1483 @@
+{
+  "audited_turns": 32,
+  "author_commitments": {
+    "amber": {
+      "canonical_gold_sha256": "e9b086ec014c464e5a59b2e3795b322f601e6179407bea351db781b848fff739",
+      "case_ids": [
+        "T3Z8H",
+        "T6M2Q",
+        "T2K7F",
+        "T8B4N"
+      ],
+      "envelope_sha256": "d9f1734650f1a6d1f8c5ac125f5f1003e0a29d6f3729322a8067c00b589d3489",
+      "state_cells": {
+        "complete/complete": 1,
+        "complete/open": 1,
+        "open/complete": 1,
+        "open/open": 1
+      }
+    },
+    "blue": {
+      "canonical_gold_sha256": "49e876c5346df74e0540d1c4ae45b2620c6fd1182eab93169b214eefeb20e4f1",
+      "case_ids": [
+        "F7K4",
+        "F8D3",
+        "F2V9",
+        "F5J6"
+      ],
+      "envelope_sha256": "33f2d67acd2022adb1c0cca09da20f7911233fc408484e94de2e7b518d83b17b",
+      "state_cells": {
+        "complete/complete": 1,
+        "complete/open": 1,
+        "open/complete": 1,
+        "open/open": 1
+      }
+    }
+  },
+  "by_mode": {
+    "continuous": {
+      "A": {
+        "cli_elapsed_ms": {
+          "max": 19067,
+          "median": 14279.5,
+          "min": 10918,
+          "missing_turns": 0,
+          "observed_turns": 8,
+          "sum": 119940
+        },
+        "first_cli_started_unix_ns": 1795231086390799036,
+        "last_receiver_finished_unix_ns": 1795231149759489510,
+        "receiver_elapsed_ms": {
+          "max": 1.388437,
+          "median": 0.1328045,
+          "min": 0.093942,
+          "missing_turns": 0,
+          "observed_turns": 8,
+          "sum": 2.268549
+        },
+        "sessions": 2,
+        "tokens": {
+          "cache_write_input_tokens": {
+            "max": 0,
+            "median": 0.0,
+            "min": 0,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 0
+          },
+          "cached_input_tokens": {
+            "max": 21248,
+            "median": 16128.0,
+            "min": 3328,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 120192
+          },
+          "input_tokens": {
+            "max": 24477,
+            "median": 19595.5,
+            "min": 14482,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 156192
+          },
+          "output_tokens": {
+            "max": 567,
+            "median": 291.5,
+            "min": 157,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 2574
+          },
+          "reasoning_output_tokens": {
+            "max": 384,
+            "median": 126.0,
+            "min": 0,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 1181
+          },
+          "total_tokens": {
+            "max": 24835,
+            "median": 19820.0,
+            "min": 15007,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 158766
+          }
+        },
+        "turns": 8,
+        "wall_span_ms": 63368.690474
+      },
+      "B": {
+        "cli_elapsed_ms": {
+          "max": 18329,
+          "median": 13535.0,
+          "min": 10864,
+          "missing_turns": 0,
+          "observed_turns": 8,
+          "sum": 108853
+        },
+        "first_cli_started_unix_ns": 1795231052815207119,
+        "last_receiver_finished_unix_ns": 1795231130154915669,
+        "receiver_elapsed_ms": {
+          "max": 0.656048,
+          "median": 0.3868975,
+          "min": 0.23631,
+          "missing_turns": 0,
+          "observed_turns": 8,
+          "sum": 3.020424
+        },
+        "sessions": 2,
+        "tokens": {
+          "cache_write_input_tokens": {
+            "max": 0,
+            "median": 0.0,
+            "min": 0,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 0
+          },
+          "cached_input_tokens": {
+            "max": 22400,
+            "median": 14848.0,
+            "min": 0,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 92672
+          },
+          "input_tokens": {
+            "max": 26175,
+            "median": 20573.5,
+            "min": 14907,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 164364
+          },
+          "output_tokens": {
+            "max": 520,
+            "median": 328.5,
+            "min": 297,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 2783
+          },
+          "reasoning_output_tokens": {
+            "max": 209,
+            "median": 17.5,
+            "min": 0,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 307
+          },
+          "total_tokens": {
+            "max": 26515,
+            "median": 20874.5,
+            "min": 15225,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 167147
+          }
+        },
+        "turns": 8,
+        "wall_span_ms": 77339.70855
+      }
+    },
+    "independent": {
+      "A": {
+        "cli_elapsed_ms": {
+          "max": 24783,
+          "median": 15541.5,
+          "min": 12481,
+          "missing_turns": 0,
+          "observed_turns": 8,
+          "sum": 134587
+        },
+        "first_cli_started_unix_ns": 1795231018928861404,
+        "last_receiver_finished_unix_ns": 1795231130202916431,
+        "receiver_elapsed_ms": {
+          "max": 1.089778,
+          "median": 0.1230765,
+          "min": 0.084441,
+          "missing_turns": 0,
+          "observed_turns": 8,
+          "sum": 2.191799
+        },
+        "sessions": 8,
+        "tokens": {
+          "cache_write_input_tokens": {
+            "max": 0,
+            "median": 0.0,
+            "min": 0,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 0
+          },
+          "cached_input_tokens": {
+            "max": 9856,
+            "median": 1664.0,
+            "min": 0,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 19840
+          },
+          "input_tokens": {
+            "max": 14535,
+            "median": 14507.0,
+            "min": 14389,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 115953
+          },
+          "output_tokens": {
+            "max": 942,
+            "median": 275.5,
+            "min": 157,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 3169
+          },
+          "reasoning_output_tokens": {
+            "max": 703,
+            "median": 93.0,
+            "min": 27,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 1808
+          },
+          "total_tokens": {
+            "max": 15455,
+            "median": 14780.5,
+            "min": 14620,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 119122
+          }
+        },
+        "turns": 8,
+        "wall_span_ms": 111274.055027
+      },
+      "B": {
+        "cli_elapsed_ms": {
+          "max": 21012,
+          "median": 18813.0,
+          "min": 18223,
+          "missing_turns": 0,
+          "observed_turns": 8,
+          "sum": 152421
+        },
+        "first_cli_started_unix_ns": 1795231034485619655,
+        "last_receiver_finished_unix_ns": 1795231149762104156,
+        "receiver_elapsed_ms": {
+          "max": 2.349539,
+          "median": 0.3356125,
+          "min": 0.199373,
+          "missing_turns": 0,
+          "observed_turns": 8,
+          "sum": 5.70406
+        },
+        "sessions": 8,
+        "tokens": {
+          "cache_write_input_tokens": {
+            "max": 0,
+            "median": 0.0,
+            "min": 0,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 0
+          },
+          "cached_input_tokens": {
+            "max": 14848,
+            "median": 0.0,
+            "min": 0,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 21504
+          },
+          "input_tokens": {
+            "max": 14960,
+            "median": 14932.0,
+            "min": 14814,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 119353
+          },
+          "output_tokens": {
+            "max": 750,
+            "median": 611.5,
+            "min": 401,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 4721
+          },
+          "reasoning_output_tokens": {
+            "max": 435,
+            "median": 311.5,
+            "min": 119,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 2288
+          },
+          "total_tokens": {
+            "max": 15698,
+            "median": 15538.5,
+            "min": 15308,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 124074
+          }
+        },
+        "turns": 8,
+        "wall_span_ms": 115276.484501
+      }
+    }
+  },
+  "definitions": {
+    "cli_elapsed_ms": "CLI launch through process return, measured with a monotonic clock.",
+    "receiver_elapsed_ms": "Raw file parsing, digest and local receiver evaluation, before log persistence.",
+    "tokens": "Per-turn deltas of cumulative CLI counters. A single-call rollout fills missing fields when available. Cached input and reasoning output are subsets. Total is input plus output. Null denotes an unobserved field.",
+    "wall_span_ms": "Earliest CLI start to latest immediate receiver finish within the group. Includes overlap and idle intervals; group spans are not additive."
+  },
+  "grading": {
+    "disputed_extra_flags": 0,
+    "disputed_fact_flags": 0,
+    "double_graded": 32,
+    "responses_with_disagreement": 0
+  },
+  "isolation": {
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "probe_session_excluded": true,
+    "sandbox": "bubblewrap",
+    "smoke_file": "design/isolation-smoke.json"
+  },
+  "malformed_raw_files": [],
+  "multiple_assistant_messages": [
+    "results/raw/B-i05-1.json",
+    "results/raw/A-i02-1.json"
+  ],
+  "overall": {
+    "cli_elapsed_ms": {
+      "max": 24783,
+      "median": 15541.5,
+      "min": 10864,
+      "missing_turns": 0,
+      "observed_turns": 32,
+      "sum": 515801
+    },
+    "first_cli_started_unix_ns": 1795231018928861404,
+    "last_receiver_finished_unix_ns": 1795231149762104156,
+    "receiver_elapsed_ms": {
+      "max": 2.349539,
+      "median": 0.2375375,
+      "min": 0.084441,
+      "missing_turns": 0,
+      "observed_turns": 32,
+      "sum": 13.184832
+    },
+    "sessions": 20,
+    "tokens": {
+      "cache_write_input_tokens": {
+        "max": 0,
+        "median": 0.0,
+        "min": 0,
+        "missing_turns": 0,
+        "observed_turns": 32,
+        "sum": 0
+      },
+      "cached_input_tokens": {
+        "max": 22400,
+        "median": 3328.0,
+        "min": 0,
+        "missing_turns": 0,
+        "observed_turns": 32,
+        "sum": 254208
+      },
+      "input_tokens": {
+        "max": 26175,
+        "median": 14932.0,
+        "min": 14389,
+        "missing_turns": 0,
+        "observed_turns": 32,
+        "sum": 555862
+      },
+      "output_tokens": {
+        "max": 942,
+        "median": 346.5,
+        "min": 157,
+        "missing_turns": 0,
+        "observed_turns": 32,
+        "sum": 13247
+      },
+      "reasoning_output_tokens": {
+        "max": 703,
+        "median": 118.5,
+        "min": 0,
+        "missing_turns": 0,
+        "observed_turns": 32,
+        "sum": 5584
+      },
+      "total_tokens": {
+        "max": 26515,
+        "median": 15538.5,
+        "min": 14620,
+        "missing_turns": 0,
+        "observed_turns": 32,
+        "sum": 569109
+      }
+    },
+    "turns": 32,
+    "wall_span_ms": 130833.242752
+  },
+  "per_turn": [
+    {
+      "arm": "A",
+      "case_id": "F8D3",
+      "cli_finished_unix_ns": 1795231034460616888,
+      "cli_started_unix_ns": 1795231018928861404,
+      "elapsed_ms": 15532,
+      "job_id": "A-i04",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 0.087358,
+      "receiver_finished_unix_ns": 1795231034462200478,
+      "session_id": "01a1fc1b-709d-72e2-877d-8f4dad95fe43",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14389,
+        "output_tokens": 231,
+        "reasoning_output_tokens": 81,
+        "total_tokens": 14620
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "F7K4",
+      "cli_finished_unix_ns": 1795231034484617528,
+      "cli_started_unix_ns": 1795231018933611408,
+      "elapsed_ms": 15551,
+      "job_id": "A-i03",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 0.142384,
+      "receiver_finished_unix_ns": 1795231034487403827,
+      "session_id": "01a1fc1b-7083-78c2-b171-89126f76fbb9",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14485,
+        "output_tokens": 270,
+        "reasoning_output_tokens": 73,
+        "total_tokens": 14755
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "T2K7F",
+      "cli_finished_unix_ns": 1795231034490076437,
+      "cli_started_unix_ns": 1795231018930613987,
+      "elapsed_ms": 15559,
+      "job_id": "A-i05",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 1.089778,
+      "receiver_finished_unix_ns": 1795231034496603493,
+      "session_id": "01a1fc1b-7077-7713-89cf-8163541f44ed",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14535,
+        "output_tokens": 392,
+        "reasoning_output_tokens": 234,
+        "total_tokens": 14927
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "F2V9",
+      "cli_finished_unix_ns": 1795231034449243195,
+      "cli_started_unix_ns": 1795231018948538700,
+      "elapsed_ms": 15501,
+      "job_id": "A-i01",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 0.125949,
+      "receiver_finished_unix_ns": 1795231034452300043,
+      "session_id": "01a1fc1b-70a2-7ca0-8a17-9e9d0edb1b04",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14501,
+        "output_tokens": 169,
+        "reasoning_output_tokens": 27,
+        "total_tokens": 14670
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "F2V9",
+      "cli_finished_unix_ns": 1795231052789612860,
+      "cli_started_unix_ns": 1795231034485619655,
+      "elapsed_ms": 18304,
+      "job_id": "B-i01",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 0.199373,
+      "receiver_finished_unix_ns": 1795231052791235470,
+      "session_id": "01a1fc1b-ad06-7a01-b7ef-efbf14333745",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14848,
+        "input_tokens": 14926,
+        "output_tokens": 406,
+        "reasoning_output_tokens": 119,
+        "total_tokens": 15332
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "F5J6",
+      "cli_finished_unix_ns": 1795231052759944365,
+      "cli_started_unix_ns": 1795231034507214982,
+      "elapsed_ms": 18253,
+      "job_id": "B-i02",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 0.346107,
+      "receiver_finished_unix_ns": 1795231052764945018,
+      "session_id": "01a1fc1b-ad33-76f1-aa42-3a41d1391184",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14938,
+        "output_tokens": 588,
+        "reasoning_output_tokens": 290,
+        "total_tokens": 15526
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "T8B4N",
+      "cli_finished_unix_ns": 1795231052768018032,
+      "cli_started_unix_ns": 1795231034532815458,
+      "elapsed_ms": 18235,
+      "job_id": "B-i08",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 0.57012,
+      "receiver_finished_unix_ns": 1795231052771494831,
+      "session_id": "01a1fc1b-ad3c-7792-b351-8e8ac702e706",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14950,
+        "output_tokens": 632,
+        "reasoning_output_tokens": 333,
+        "total_tokens": 15582
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "T3Z8H",
+      "cli_finished_unix_ns": 1795231052761310946,
+      "cli_started_unix_ns": 1795231034538014570,
+      "elapsed_ms": 18223,
+      "job_id": "B-i06",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 0.325118,
+      "receiver_finished_unix_ns": 1795231052767149494,
+      "session_id": "01a1fc1b-ad51-70e3-b000-030f06512410",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14907,
+        "output_tokens": 401,
+        "reasoning_output_tokens": 138,
+        "total_tokens": 15308
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "T3Z8H",
+      "cli_finished_unix_ns": 1795231067039228393,
+      "cli_started_unix_ns": 1795231052815207119,
+      "elapsed_ms": 14224,
+      "job_id": "B-c-amber",
+      "mode": "continuous",
+      "order": 1,
+      "receiver_elapsed_ms": 0.23631,
+      "receiver_finished_unix_ns": 1795231067041316837,
+      "session_id": "01a1fc1b-f4b3-72c3-b3e2-23d9d75e743d",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14907,
+        "output_tokens": 318,
+        "reasoning_output_tokens": 34,
+        "total_tokens": 15225
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "T6M2Q",
+      "cli_finished_unix_ns": 1795231081281224934,
+      "cli_started_unix_ns": 1795231067042879563,
+      "elapsed_ms": 14238,
+      "job_id": "B-c-amber",
+      "mode": "continuous",
+      "order": 2,
+      "receiver_elapsed_ms": 0.368046,
+      "receiver_finished_unix_ns": 1795231081283976820,
+      "session_id": "01a1fc1b-f4b3-72c3-b3e2-23d9d75e743d",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14848,
+        "input_tokens": 18649,
+        "output_tokens": 353,
+        "reasoning_output_tokens": 28,
+        "total_tokens": 19002
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "T2K7F",
+      "cli_finished_unix_ns": 1795231092150526943,
+      "cli_started_unix_ns": 1795231081286055774,
+      "elapsed_ms": 10864,
+      "job_id": "B-c-amber",
+      "mode": "continuous",
+      "order": 3,
+      "receiver_elapsed_ms": 0.656048,
+      "receiver_finished_unix_ns": 1795231092154805751,
+      "session_id": "01a1fc1b-f4b3-72c3-b3e2-23d9d75e743d",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 18560,
+        "input_tokens": 22438,
+        "output_tokens": 311,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 22749
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "T8B4N",
+      "cli_finished_unix_ns": 1795231105375342536,
+      "cli_started_unix_ns": 1795231092157446421,
+      "elapsed_ms": 13218,
+      "job_id": "B-c-amber",
+      "mode": "continuous",
+      "order": 4,
+      "receiver_elapsed_ms": 0.243408,
+      "receiver_finished_unix_ns": 1795231105377810232,
+      "session_id": "01a1fc1b-f4b3-72c3-b3e2-23d9d75e743d",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 22400,
+        "input_tokens": 26175,
+        "output_tokens": 340,
+        "reasoning_output_tokens": 29,
+        "total_tokens": 26515
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "F8D3",
+      "cli_finished_unix_ns": 1795231073830915063,
+      "cli_started_unix_ns": 1795231052819402005,
+      "elapsed_ms": 21012,
+      "job_id": "B-i04",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 0.219241,
+      "receiver_finished_unix_ns": 1795231073838162995,
+      "session_id": "01a1fc1b-f4a3-7842-ba5a-ad999d2edf3d",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14814,
+        "output_tokens": 645,
+        "reasoning_output_tokens": 348,
+        "total_tokens": 15459
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "T6M2Q",
+      "cli_finished_unix_ns": 1795231073783328520,
+      "cli_started_unix_ns": 1795231052818553514,
+      "elapsed_ms": 20965,
+      "job_id": "A-i07",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 0.120204,
+      "receiver_finished_unix_ns": 1795231073785743798,
+      "session_id": "01a1fc1b-f4b9-7192-adba-29e84731ca3c",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14523,
+        "output_tokens": 727,
+        "reasoning_output_tokens": 550,
+        "total_tokens": 15250
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "T8B4N",
+      "cli_finished_unix_ns": 1795231067044506991,
+      "cli_started_unix_ns": 1795231052829895909,
+      "elapsed_ms": 14215,
+      "job_id": "A-i08",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 0.084441,
+      "receiver_finished_unix_ns": 1795231067046521658,
+      "session_id": "01a1fc1b-f4b2-7ce1-891a-0e1d25011b05",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 14525,
+        "output_tokens": 281,
+        "reasoning_output_tokens": 105,
+        "total_tokens": 14806
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "T2K7F",
+      "cli_finished_unix_ns": 1795231086402929544,
+      "cli_started_unix_ns": 1795231067080855498,
+      "elapsed_ms": 19322,
+      "job_id": "B-i05",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 0.316557,
+      "receiver_finished_unix_ns": 1795231086405580722,
+      "session_id": "01a1fc1c-2c50-7913-8630-a66ad14abf56",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14960,
+        "output_tokens": 591,
+        "reasoning_output_tokens": 226,
+        "total_tokens": 15551
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "F7K4",
+      "cli_finished_unix_ns": 1795231092147563007,
+      "cli_started_unix_ns": 1795231073818619399,
+      "elapsed_ms": 18329,
+      "job_id": "B-c-blue",
+      "mode": "continuous",
+      "order": 1,
+      "receiver_elapsed_ms": 0.433713,
+      "receiver_finished_unix_ns": 1795231092150107109,
+      "session_id": "01a1fc1c-46a4-73b0-a435-949160d7e98d",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14910,
+        "output_tokens": 520,
+        "reasoning_output_tokens": 209,
+        "total_tokens": 15430
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "F8D3",
+      "cli_finished_unix_ns": 1795231105362933175,
+      "cli_started_unix_ns": 1795231092154311661,
+      "elapsed_ms": 13209,
+      "job_id": "B-c-blue",
+      "mode": "continuous",
+      "order": 2,
+      "receiver_elapsed_ms": 0.238765,
+      "receiver_finished_unix_ns": 1795231105365600816,
+      "session_id": "01a1fc1c-46a4-73b0-a435-949160d7e98d",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14848,
+        "input_tokens": 18720,
+        "output_tokens": 305,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 19025
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "F2V9",
+      "cli_finished_unix_ns": 1795231119220225688,
+      "cli_started_unix_ns": 1795231105368014839,
+      "elapsed_ms": 13852,
+      "job_id": "B-c-blue",
+      "mode": "continuous",
+      "order": 3,
+      "receiver_elapsed_ms": 0.438385,
+      "receiver_finished_unix_ns": 1795231119226132194,
+      "session_id": "01a1fc1c-46a4-73b0-a435-949160d7e98d",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 18688,
+        "input_tokens": 22427,
+        "output_tokens": 297,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 22724
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "F5J6",
+      "cli_finished_unix_ns": 1795231130148950226,
+      "cli_started_unix_ns": 1795231119230163658,
+      "elapsed_ms": 10919,
+      "job_id": "B-c-blue",
+      "mode": "continuous",
+      "order": 4,
+      "receiver_elapsed_ms": 0.405749,
+      "receiver_finished_unix_ns": 1795231130154915669,
+      "session_id": "01a1fc1c-46a4-73b0-a435-949160d7e98d",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 26138,
+        "output_tokens": 339,
+        "reasoning_output_tokens": 7,
+        "total_tokens": 26477
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "T3Z8H",
+      "cli_finished_unix_ns": 1795231086358809474,
+      "cli_started_unix_ns": 1795231073877419651,
+      "elapsed_ms": 12481,
+      "job_id": "A-i06",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 0.104836,
+      "receiver_finished_unix_ns": 1795231086360947599,
+      "session_id": "01a1fc1c-46db-75c3-9f39-459270efcdeb",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14482,
+        "output_tokens": 157,
+        "reasoning_output_tokens": 35,
+        "total_tokens": 14639
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "F7K4",
+      "cli_finished_unix_ns": 1795231105457308078,
+      "cli_started_unix_ns": 1795231086390799036,
+      "elapsed_ms": 19067,
+      "job_id": "A-c-blue",
+      "mode": "continuous",
+      "order": 1,
+      "receiver_elapsed_ms": 0.123186,
+      "receiver_finished_unix_ns": 1795231105459289827,
+      "session_id": "01a1fc1c-77af-73b0-ae91-388089551c1c",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 14485,
+        "output_tokens": 567,
+        "reasoning_output_tokens": 372,
+        "total_tokens": 15052
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "F8D3",
+      "cli_finished_unix_ns": 1795231119220805916,
+      "cli_started_unix_ns": 1795231105462191312,
+      "elapsed_ms": 13759,
+      "job_id": "A-c-blue",
+      "mode": "continuous",
+      "order": 2,
+      "receiver_elapsed_ms": 0.146527,
+      "receiver_finished_unix_ns": 1795231119226551621,
+      "session_id": "01a1fc1c-77af-73b0-ae91-388089551c1c",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14464,
+        "input_tokens": 17917,
+        "output_tokens": 291,
+        "reasoning_output_tokens": 134,
+        "total_tokens": 18208
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "F2V9",
+      "cli_finished_unix_ns": 1795231130148456907,
+      "cli_started_unix_ns": 1795231119230738605,
+      "elapsed_ms": 10918,
+      "job_id": "A-c-blue",
+      "mode": "continuous",
+      "order": 3,
+      "receiver_elapsed_ms": 0.14905,
+      "receiver_finished_unix_ns": 1795231130154352722,
+      "session_id": "01a1fc1c-77af-73b0-ae91-388089551c1c",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 17792,
+        "input_tokens": 21185,
+        "output_tokens": 157,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 21342
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "F5J6",
+      "cli_finished_unix_ns": 1795231143055796485,
+      "cli_started_unix_ns": 1795231130158851567,
+      "elapsed_ms": 12897,
+      "job_id": "A-c-blue",
+      "mode": "continuous",
+      "order": 4,
+      "receiver_elapsed_ms": 0.101798,
+      "receiver_finished_unix_ns": 1795231143058409056,
+      "session_id": "01a1fc1c-77af-73b0-ae91-388089551c1c",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 21120,
+        "input_tokens": 24331,
+        "output_tokens": 217,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 24548
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "T3Z8H",
+      "cli_finished_unix_ns": 1795231105412586270,
+      "cli_started_unix_ns": 1795231086439815080,
+      "elapsed_ms": 18973,
+      "job_id": "A-c-amber",
+      "mode": "continuous",
+      "order": 1,
+      "receiver_elapsed_ms": 0.093942,
+      "receiver_finished_unix_ns": 1795231105414544347,
+      "session_id": "01a1fc1c-77df-7682-88b6-9ebe92e02cd2",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14482,
+        "output_tokens": 525,
+        "reasoning_output_tokens": 384,
+        "total_tokens": 15007
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "T6M2Q",
+      "cli_finished_unix_ns": 1795231123233241075,
+      "cli_started_unix_ns": 1795231105417352865,
+      "elapsed_ms": 17816,
+      "job_id": "A-c-amber",
+      "mode": "continuous",
+      "order": 2,
+      "receiver_elapsed_ms": 0.14088,
+      "receiver_finished_unix_ns": 1795231123235822026,
+      "session_id": "01a1fc1c-77df-7682-88b6-9ebe92e02cd2",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14464,
+        "input_tokens": 18006,
+        "output_tokens": 292,
+        "reasoning_output_tokens": 118,
+        "total_tokens": 18298
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "T2K7F",
+      "cli_finished_unix_ns": 1795231134947597789,
+      "cli_started_unix_ns": 1795231123237846666,
+      "elapsed_ms": 11710,
+      "job_id": "A-c-amber",
+      "mode": "continuous",
+      "order": 3,
+      "receiver_elapsed_ms": 0.124729,
+      "receiver_finished_unix_ns": 1795231134949819221,
+      "session_id": "01a1fc1c-77df-7682-88b6-9ebe92e02cd2",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 17920,
+        "input_tokens": 21309,
+        "output_tokens": 167,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 21476
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "T8B4N",
+      "cli_finished_unix_ns": 1795231149752151373,
+      "cli_started_unix_ns": 1795231134952333453,
+      "elapsed_ms": 14800,
+      "job_id": "A-c-amber",
+      "mode": "continuous",
+      "order": 4,
+      "receiver_elapsed_ms": 1.388437,
+      "receiver_finished_unix_ns": 1795231149759489510,
+      "session_id": "01a1fc1c-77df-7682-88b6-9ebe92e02cd2",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 21248,
+        "input_tokens": 24477,
+        "output_tokens": 358,
+        "reasoning_output_tokens": 173,
+        "total_tokens": 24835
+      }
+    },
+    {
+      "arm": "A",
+      "case_id": "F5J6",
+      "cli_finished_unix_ns": 1795231130199795947,
+      "cli_started_unix_ns": 1795231105416885790,
+      "elapsed_ms": 24783,
+      "job_id": "A-i02",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 0.436849,
+      "receiver_finished_unix_ns": 1795231130202916431,
+      "session_id": "01a1fc1c-c25b-7e43-aca3-88eb89935593",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14513,
+        "output_tokens": 942,
+        "reasoning_output_tokens": 703,
+        "total_tokens": 15455
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "T6M2Q",
+      "cli_finished_unix_ns": 1795231149756842492,
+      "cli_started_unix_ns": 1795231130190589525,
+      "elapsed_ms": 19566,
+      "job_id": "B-i07",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 2.349539,
+      "receiver_finished_unix_ns": 1795231149762104156,
+      "session_id": "01a1fc1d-22d8-7773-bf42-22ad36457471",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14948,
+        "output_tokens": 750,
+        "reasoning_output_tokens": 435,
+        "total_tokens": 15698
+      }
+    },
+    {
+      "arm": "B",
+      "case_id": "F7K4",
+      "cli_finished_unix_ns": 1795231149747112096,
+      "cli_started_unix_ns": 1795231130240895308,
+      "elapsed_ms": 19506,
+      "job_id": "B-i03",
+      "mode": "independent",
+      "order": 1,
+      "receiver_elapsed_ms": 1.378005,
+      "receiver_finished_unix_ns": 1795231149758008573,
+      "session_id": "01a1fc1d-2317-7f13-b06b-28941c42bbd3",
+      "tokens": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14910,
+        "output_tokens": 708,
+        "reasoning_output_tokens": 399,
+        "total_tokens": 15618
+      }
+    }
+  ],
+  "registry_oracle": {
+    "F2V9": {
+      "actions": {
+        "advance_operation": true,
+        "archive_report": true,
+        "close_case": true
+      },
+      "checkpoints": {
+        "operation": {
+          "庫内担当の受領署名": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "b2m5"
+            ]
+          },
+          "搬入巻数の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "b2m3"
+            ]
+          }
+        },
+        "report": {
+          "報告書の登録": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "b2m2"
+            ]
+          },
+          "温度履歴の添付": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "b2m4"
+            ]
+          }
+        }
+      },
+      "operation": "complete",
+      "report": "complete"
+    },
+    "F5J6": {
+      "actions": {
+        "advance_operation": false,
+        "archive_report": false,
+        "close_case": false
+      },
+      "checkpoints": {
+        "operation": {
+          "フィルム缶番号の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "b5t1"
+            ]
+          },
+          "工房受付の受領印": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "b5t5"
+            ]
+          }
+        },
+        "report": {
+          "担当班の登録": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "b5t4"
+            ]
+          },
+          "責任者の確定署名": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "b5t2"
+            ]
+          }
+        }
+      },
+      "operation": "open",
+      "report": "open"
+    },
+    "F7K4": {
+      "actions": {
+        "advance_operation": true,
+        "archive_report": false,
+        "close_case": false
+      },
+      "checkpoints": {
+        "operation": {
+          "輸送箱の封印": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "b7q2"
+            ]
+          },
+          "運転手の受領署名": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "b7q4"
+            ]
+          }
+        },
+        "report": {
+          "保存版PDFの承認": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "b7q6"
+            ]
+          },
+          "点検結果の入力": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "b7q3"
+            ]
+          }
+        }
+      },
+      "operation": "complete",
+      "report": "open"
+    },
+    "F8D3": {
+      "actions": {
+        "advance_operation": false,
+        "archive_report": true,
+        "close_case": false
+      },
+      "checkpoints": {
+        "operation": {
+          "到着外箱の検数": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "b8u5"
+            ]
+          },
+          "受領権限者の検収署名": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "b8u4"
+            ]
+          }
+        },
+        "report": {
+          "明細書の確定": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "b8u3"
+            ]
+          },
+          "返送便名の登録": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "b8u1"
+            ]
+          }
+        }
+      },
+      "operation": "open",
+      "report": "complete"
+    },
+    "T2K7F": {
+      "actions": {
+        "advance_operation": false,
+        "archive_report": true,
+        "close_case": false
+      },
+      "checkpoints": {
+        "operation": {
+          "個体番号の現物割当照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "AM-176"
+            ]
+          },
+          "全点への札取り付け確認": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "AM-243"
+            ]
+          }
+        },
+        "report": {
+          "借用明細写しの添付確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "AM-898"
+            ]
+          },
+          "受領点数の現物照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "AM-524"
+            ]
+          }
+        }
+      },
+      "operation": "open",
+      "report": "complete"
+    },
+    "T3Z8H": {
+      "actions": {
+        "advance_operation": true,
+        "archive_report": true,
+        "close_case": true
+      },
+      "checkpoints": {
+        "operation": {
+          "着丈の実測": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "AM-862"
+            ]
+          },
+          "袖丈の実測": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "AM-336"
+            ]
+          }
+        },
+        "report": {
+          "明細の担当者確認印": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "AM-549"
+            ]
+          },
+          "貸主欄の原本照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "AM-714"
+            ]
+          }
+        }
+      },
+      "operation": "complete",
+      "report": "complete"
+    },
+    "T6M2Q": {
+      "actions": {
+        "advance_operation": true,
+        "archive_report": false,
+        "close_case": false
+      },
+      "checkpoints": {
+        "operation": {
+          "現物の着棚確認": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "AM-362"
+            ]
+          },
+          "箱札と棚指定票の照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "AM-819"
+            ]
+          }
+        },
+        "report": {
+          "受領時写真の添付確認": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "AM-504"
+            ]
+          },
+          "貸出票番号の転記照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "AM-641"
+            ]
+          }
+        }
+      },
+      "operation": "complete",
+      "report": "open"
+    },
+    "T8B4N": {
+      "actions": {
+        "advance_operation": false,
+        "archive_report": false,
+        "close_case": false
+      },
+      "checkpoints": {
+        "operation": {
+          "収納段への敷布設置": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "AM-234"
+            ]
+          },
+          "外套の収納段への移載": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "AM-461"
+            ]
+          }
+        },
+        "report": {
+          "損傷位置の記載照合": {
+            "outcomes": [
+              "met"
+            ],
+            "refs": [
+              "AM-680"
+            ]
+          },
+          "検品者の署名確認": {
+            "outcomes": [
+              "pending"
+            ],
+            "refs": [
+              "AM-903"
+            ]
+          }
+        }
+      },
+      "operation": "open",
+      "report": "open"
+    }
+  }
+}

@@ -31,6 +31,8 @@ The [revision and action scope study](kuro-v04-scope/README.md) compares eight r
 
 The [adversarial handoff study](kuro-v04-adversarial/README.md) tests whether a completion flag describes the report or the operation. It includes paired controls, a caller interface that names both states, and quote-checker controls.
 
+The [caller and receiver dry run](kuro-v04-receiver/README.md) compares a single completion flag with two evidence-bound states. It records the downstream decisions on eight new cases, with separate fresh-session and continuing-session results.
+
 ## Fixtures
 
 | Fixture | Record | Keys | What it tests |
