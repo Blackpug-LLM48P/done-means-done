@@ -1,0 +1,74 @@
+{
+  "H01": {
+    "tag": "P59",
+    "case_id": "q6m4"
+  },
+  "H02": {
+    "tag": "M82",
+    "case_id": "c6j4"
+  },
+  "H03": {
+    "tag": "D19",
+    "case_id": "v3s8"
+  },
+  "H04": {
+    "tag": "V40",
+    "case_id": "h7s3"
+  },
+  "H05": {
+    "tag": "P59",
+    "case_id": "v3s8"
+  },
+  "H06": {
+    "tag": "P59",
+    "case_id": "f7k2"
+  },
+  "H07": {
+    "tag": "M82",
+    "case_id": "h7s3"
+  },
+  "H08": {
+    "tag": "N36",
+    "case_id": "v3s8"
+  },
+  "H09": {
+    "tag": "C71",
+    "case_id": "c6j4"
+  },
+  "H10": {
+    "tag": "N36",
+    "case_id": "q6m4"
+  },
+  "H11": {
+    "tag": "C71",
+    "case_id": "h7s3"
+  },
+  "H12": {
+    "tag": "D19",
+    "case_id": "q6m4"
+  },
+  "H13": {
+    "tag": "D19",
+    "case_id": "f7k2"
+  },
+  "H14": {
+    "tag": "C71",
+    "case_id": "w2f9"
+  },
+  "H15": {
+    "tag": "V40",
+    "case_id": "c6j4"
+  },
+  "H16": {
+    "tag": "M82",
+    "case_id": "w2f9"
+  },
+  "H17": {
+    "tag": "V40",
+    "case_id": "w2f9"
+  },
+  "H18": {
+    "tag": "N36",
+    "case_id": "f7k2"
+  }
+}
