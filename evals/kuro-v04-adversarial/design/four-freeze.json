@@ -1,0 +1,12 @@
+{
+  "sessions": [
+    "GS1",
+    "HN3"
+  ],
+  "files": {
+    "cases.json": "6d948e7916beba616f8ac7b319aca73a2d972fc8fbc6ac7c17ead73989a53b8d",
+    "workflow.txt": "1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6",
+    "reader.txt": "54970ba2082b8890a38ddea1cf1591c9e383c639d7792db5be76ede2c0217c91"
+  },
+  "key_sha256": "b2b3f59a2bae4f64a573fe0e4f3c16c8770a8c232dc9f9655e43bb7de9927558"
+}
