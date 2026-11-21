@@ -1,0 +1,234 @@
+{
+  "raw_formats": {
+    "TB6": "object_by_id",
+    "TF2": "array_with_id"
+  },
+  "disputed_fields_one_based": {
+    "k5c8d": [
+      "required[2]"
+    ],
+    "k3b6a": [
+      "required[2]"
+    ]
+  },
+  "cases": [
+    {
+      "id": "m49b8a3",
+      "source": "holda",
+      "session": "TF2",
+      "business_target": "対象となる全掲出位置の現地受領と原稿箱の閉鎖可否",
+      "report_state": "complete",
+      "report_expected": "complete",
+      "operation_state": "complete",
+      "operation_expected": "complete",
+      "both_correct": true,
+      "request_fulfilled": true,
+      "missing_gold_requirements": [],
+      "forbidden_present": [],
+      "extra": false
+    },
+    {
+      "id": "m0d73c1",
+      "source": "holda",
+      "session": "TB6",
+      "business_target": "対象となる全掲出位置の現地受領と原稿箱の閉鎖可否",
+      "report_state": "complete",
+      "report_expected": "complete",
+      "operation_state": "open",
+      "operation_expected": "open",
+      "both_correct": true,
+      "request_fulfilled": true,
+      "missing_gold_requirements": [],
+      "forbidden_present": [],
+      "extra": false
+    },
+    {
+      "id": "m85c49a",
+      "source": "holda",
+      "session": "TF2",
+      "business_target": "今回の貸出票に含まれる全衣装の返納消込",
+      "report_state": "complete",
+      "report_expected": "complete",
+      "operation_state": "open",
+      "operation_expected": "open",
+      "both_correct": true,
+      "request_fulfilled": true,
+      "missing_gold_requirements": [],
+      "forbidden_present": [],
+      "extra": false
+    },
+    {
+      "id": "m137fa0",
+      "source": "holda",
+      "session": "TB6",
+      "business_target": "今回の貸出票に含まれる全衣装の返納消込",
+      "report_state": "complete",
+      "report_expected": "complete",
+      "operation_state": "complete",
+      "operation_expected": "complete",
+      "both_correct": true,
+      "request_fulfilled": true,
+      "missing_gold_requirements": [],
+      "forbidden_present": [],
+      "extra": false
+    },
+    {
+      "id": "k7f4b",
+      "source": "holdb",
+      "session": "TF2",
+      "business_target": "ゼッケン614の600 mの正式掲示の可否",
+      "report_state": "complete",
+      "report_expected": "complete",
+      "operation_state": "complete",
+      "operation_expected": "complete",
+      "both_correct": true,
+      "request_fulfilled": true,
+      "missing_gold_requirements": [
+        "11月8日第2組のゼッケン614は訂正後の走順066であり、065の数値は641のもの。"
+      ],
+      "forbidden_present": [],
+      "extra": false,
+      "request": "11月8日17時30分の記録班交代時点で、ゼッケン614の600 mの掲示について引継ぎ文をまとめてください。草案を資料に照らして直し、採用できるタイムの扱いと、その判断を後任が追える根拠を残してください。",
+      "grader_notes": {
+        "A": "必須1のうち、065が641の数値である点は本文から欠落。依頼対象614は確定原簿で066と特定し、独立する両機器の値・差・正式掲示可否まで追える。",
+        "B": "原簿で614を066と確定し、両機器からの経路と差を示すので後任は正式掲示の判断を追える。キーの第1項に含まれる065＝641の説明は本文にない。"
+      }
+    },
+    {
+      "id": "k2a9e",
+      "source": "holdb",
+      "session": "TB6",
+      "business_target": "ゼッケン614の600 mの正式掲示の可否",
+      "report_state": "complete",
+      "report_expected": "complete",
+      "operation_state": "open",
+      "operation_expected": "open",
+      "both_correct": true,
+      "request_fulfilled": true,
+      "missing_gold_requirements": [],
+      "forbidden_present": [],
+      "extra": false
+    },
+    {
+      "id": "k5c8d",
+      "source": "holdb",
+      "session": "TF2",
+      "business_target": "11月21日の若竹集会所の現行変更案を公開できるか",
+      "report_state": "complete",
+      "report_expected": "complete",
+      "operation_state": "complete",
+      "operation_expected": "complete",
+      "both_correct": true,
+      "request_fulfilled": true,
+      "missing_gold_requirements": [],
+      "forbidden_present": [],
+      "extra": false,
+      "request": "11月19日16時現在、11月21日の移動図書館・若竹集会所の時刻について、ウェブ担当への引継ぎを作ってください。草案を修正し、公開に使える時刻と変更案の扱いを、対象便・版・決裁権限が追える形で記してください。",
+      "grader_notes": {
+        "A": "21日西回りの版と旧時刻、09:15の会場同意、代決の権限・時刻、ウェブ差替え前の状態を特定。14:30で即時公開できるとの指示により会場再確認不要も伝わる。",
+        "B": "対象便・版・同意日時・代決権限・公開可・旧時刻のウェブ表示が明確で依頼を満たす。会場同意が成立済みとは伝えているが、キー第2項の再確認不要という依頼草案への返答までは書いていない。",
+        "resolved": "第2項は充足。19日09:15に会場管理者がW7-bの14:30に同意したこと、11:03に変更が成立し14:30で公開できること、14:20は旧案であることを明記している。引継ぎを受けた担当者にとって、会場への再確認は公開の前提に残っていない。"
+      }
+    },
+    {
+      "id": "k3b6a",
+      "source": "holdb",
+      "session": "TB6",
+      "business_target": "11月21日の若竹集会所の現行変更案を公開できるか",
+      "report_state": "complete",
+      "report_expected": "complete",
+      "operation_state": "open",
+      "operation_expected": "open",
+      "both_correct": true,
+      "request_fulfilled": true,
+      "missing_gold_requirements": [],
+      "forbidden_present": [],
+      "extra": false,
+      "request": "11月19日16時現在、11月21日の移動図書館・若竹集会所の時刻について、ウェブ担当への引継ぎを作ってください。草案を修正し、公開に使える時刻と変更案の扱いを、対象便・版・決裁権限が追える形で記してください。",
+      "grader_notes": {
+        "A": "対象版と会場同意済みを示し、28日限定の代決権・旧版決裁の不継承を説明。保留の理由を有効な決裁の欠如に特定し、14:10の公開継続を指示。",
+        "B": "対象便・版・会場同意と決裁権限のずれを示し、現行14:10の継続と14:30の保留を引き継いだ。キー第2項の再確認不要は明記せず、その判断は同意済みの記述から読み取る形。",
+        "resolved": "第2項は充足。現行案W7-bの14:30に19日09:15に会場が同意済みと明記し、告知を保留する理由を21日便の有効な決裁の欠如に特定している。14:20は旧案と整理されており、担当者はその時刻で会場に確認し直す必要がないと読める。"
+      }
+    },
+    {
+      "id": "B8F2C00",
+      "source": "volume",
+      "session": "TB6",
+      "business_target": "指定された締め時刻での対象便全件の配達",
+      "report_state": "complete",
+      "report_expected": "complete",
+      "operation_state": "open",
+      "operation_expected": "open",
+      "both_correct": true,
+      "request_fulfilled": true,
+      "missing_gold_requirements": [],
+      "forbidden_present": [],
+      "extra": false
+    },
+    {
+      "id": "B601508",
+      "source": "volume",
+      "session": "TF2",
+      "business_target": "指定された締め時刻での対象便全件の配達",
+      "report_state": "complete",
+      "report_expected": "complete",
+      "operation_state": "complete",
+      "operation_expected": "complete",
+      "both_correct": true,
+      "request_fulfilled": true,
+      "missing_gold_requirements": [],
+      "forbidden_present": [],
+      "extra": false
+    },
+    {
+      "id": "BB3B9C5",
+      "source": "volume",
+      "session": "TF2",
+      "business_target": "指定された締め時刻での対象便全件の配達",
+      "report_state": "complete",
+      "report_expected": "complete",
+      "operation_state": "complete",
+      "operation_expected": "complete",
+      "both_correct": true,
+      "request_fulfilled": true,
+      "missing_gold_requirements": [],
+      "forbidden_present": [],
+      "extra": false
+    },
+    {
+      "id": "BDF3195",
+      "source": "volume",
+      "session": "TB6",
+      "business_target": "指定された締め時刻での対象便全件の配達",
+      "report_state": "complete",
+      "report_expected": "complete",
+      "operation_state": "open",
+      "operation_expected": "open",
+      "both_correct": true,
+      "request_fulfilled": true,
+      "missing_gold_requirements": [],
+      "forbidden_present": [],
+      "extra": false
+    }
+  ],
+  "summary": {
+    "cases": 12,
+    "operation_correct": 12,
+    "report_correct": 12,
+    "both_correct": 12,
+    "reference_pairs": {
+      "complete/complete": 6,
+      "complete/open": 6,
+      "open/complete": 0,
+      "open/open": 0
+    },
+    "request_fulfilled": 12,
+    "cases_with_all_gold_requirements": 11,
+    "required_total": 43,
+    "required_missing": 1,
+    "forbidden_total": 33,
+    "forbidden_present": 0,
+    "cases_with_extra": 0
+  }
+}

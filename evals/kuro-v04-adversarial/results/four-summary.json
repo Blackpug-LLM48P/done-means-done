@@ -1,0 +1,324 @@
+{
+  "reference": {
+    "Q8F2": {
+      "report_state": "complete",
+      "operation_state": "open"
+    },
+    "M3V7": {
+      "report_state": "open",
+      "operation_state": "complete"
+    },
+    "H6B1": {
+      "report_state": "complete",
+      "operation_state": "complete"
+    },
+    "S4K9": {
+      "report_state": "open",
+      "operation_state": "open"
+    }
+  },
+  "raw_formats": {
+    "GS1": "array_with_id",
+    "HN3": "object_by_id",
+    "CQ8": "object_by_id",
+    "PE7": "object_by_id"
+  },
+  "targets": {
+    "compound": {
+      "observations": 8,
+      "both_correct": 6,
+      "field_mismatches": {
+        "report_state": 0,
+        "operation_state": 2
+      },
+      "required_present": 18,
+      "required_total": 18,
+      "with_extra": 1,
+      "adequate": 7,
+      "cases": {
+        "Q8F2": {
+          "observations": 2,
+          "both_correct": 2,
+          "field_mismatches": {
+            "report_state": 0,
+            "operation_state": 0
+          },
+          "required_present": 4,
+          "required_total": 4,
+          "with_extra": 0,
+          "adequate": 2
+        },
+        "M3V7": {
+          "observations": 2,
+          "both_correct": 0,
+          "field_mismatches": {
+            "report_state": 0,
+            "operation_state": 2
+          },
+          "required_present": 4,
+          "required_total": 4,
+          "with_extra": 0,
+          "adequate": 2
+        },
+        "H6B1": {
+          "observations": 2,
+          "both_correct": 2,
+          "field_mismatches": {
+            "report_state": 0,
+            "operation_state": 0
+          },
+          "required_present": 4,
+          "required_total": 4,
+          "with_extra": 1,
+          "adequate": 1
+        },
+        "S4K9": {
+          "observations": 2,
+          "both_correct": 2,
+          "field_mismatches": {
+            "report_state": 0,
+            "operation_state": 0
+          },
+          "required_present": 6,
+          "required_total": 6,
+          "with_extra": 0,
+          "adequate": 2
+        }
+      }
+    },
+    "operation_only": {
+      "observations": 8,
+      "both_correct": 8,
+      "field_mismatches": {
+        "report_state": 0,
+        "operation_state": 0
+      },
+      "required_present": 18,
+      "required_total": 18,
+      "with_extra": 0,
+      "adequate": 8,
+      "cases": {
+        "Q8F2": {
+          "observations": 2,
+          "both_correct": 2,
+          "field_mismatches": {
+            "report_state": 0,
+            "operation_state": 0
+          },
+          "required_present": 4,
+          "required_total": 4,
+          "with_extra": 0,
+          "adequate": 2
+        },
+        "M3V7": {
+          "observations": 2,
+          "both_correct": 2,
+          "field_mismatches": {
+            "report_state": 0,
+            "operation_state": 0
+          },
+          "required_present": 4,
+          "required_total": 4,
+          "with_extra": 0,
+          "adequate": 2
+        },
+        "H6B1": {
+          "observations": 2,
+          "both_correct": 2,
+          "field_mismatches": {
+            "report_state": 0,
+            "operation_state": 0
+          },
+          "required_present": 4,
+          "required_total": 4,
+          "with_extra": 0,
+          "adequate": 2
+        },
+        "S4K9": {
+          "observations": 2,
+          "both_correct": 2,
+          "field_mismatches": {
+            "report_state": 0,
+            "operation_state": 0
+          },
+          "required_present": 6,
+          "required_total": 6,
+          "with_extra": 0,
+          "adequate": 2
+        }
+      }
+    }
+  },
+  "rows": [
+    {
+      "session": "GS1",
+      "id": "Q8F2",
+      "both_correct": true,
+      "mismatches": {},
+      "required_present": 2,
+      "required_total": 2,
+      "extra": false,
+      "adequate": true
+    },
+    {
+      "session": "GS1",
+      "id": "M3V7",
+      "both_correct": false,
+      "mismatches": {
+        "operation_state": {
+          "expected": "complete",
+          "observed": "open"
+        }
+      },
+      "required_present": 2,
+      "required_total": 2,
+      "extra": false,
+      "adequate": true
+    },
+    {
+      "session": "GS1",
+      "id": "H6B1",
+      "both_correct": true,
+      "mismatches": {},
+      "required_present": 2,
+      "required_total": 2,
+      "extra": true,
+      "adequate": false
+    },
+    {
+      "session": "GS1",
+      "id": "S4K9",
+      "both_correct": true,
+      "mismatches": {},
+      "required_present": 3,
+      "required_total": 3,
+      "extra": false,
+      "adequate": true
+    },
+    {
+      "session": "HN3",
+      "id": "Q8F2",
+      "both_correct": true,
+      "mismatches": {},
+      "required_present": 2,
+      "required_total": 2,
+      "extra": false,
+      "adequate": true
+    },
+    {
+      "session": "HN3",
+      "id": "M3V7",
+      "both_correct": false,
+      "mismatches": {
+        "operation_state": {
+          "expected": "complete",
+          "observed": "open"
+        }
+      },
+      "required_present": 2,
+      "required_total": 2,
+      "extra": false,
+      "adequate": true
+    },
+    {
+      "session": "HN3",
+      "id": "H6B1",
+      "both_correct": true,
+      "mismatches": {},
+      "required_present": 2,
+      "required_total": 2,
+      "extra": false,
+      "adequate": true
+    },
+    {
+      "session": "HN3",
+      "id": "S4K9",
+      "both_correct": true,
+      "mismatches": {},
+      "required_present": 3,
+      "required_total": 3,
+      "extra": false,
+      "adequate": true
+    },
+    {
+      "session": "CQ8",
+      "id": "Q8F2",
+      "both_correct": true,
+      "mismatches": {},
+      "required_present": 2,
+      "required_total": 2,
+      "extra": false,
+      "adequate": true
+    },
+    {
+      "session": "CQ8",
+      "id": "M3V7",
+      "both_correct": true,
+      "mismatches": {},
+      "required_present": 2,
+      "required_total": 2,
+      "extra": false,
+      "adequate": true
+    },
+    {
+      "session": "CQ8",
+      "id": "H6B1",
+      "both_correct": true,
+      "mismatches": {},
+      "required_present": 2,
+      "required_total": 2,
+      "extra": false,
+      "adequate": true
+    },
+    {
+      "session": "CQ8",
+      "id": "S4K9",
+      "both_correct": true,
+      "mismatches": {},
+      "required_present": 3,
+      "required_total": 3,
+      "extra": false,
+      "adequate": true
+    },
+    {
+      "session": "PE7",
+      "id": "Q8F2",
+      "both_correct": true,
+      "mismatches": {},
+      "required_present": 2,
+      "required_total": 2,
+      "extra": false,
+      "adequate": true
+    },
+    {
+      "session": "PE7",
+      "id": "M3V7",
+      "both_correct": true,
+      "mismatches": {},
+      "required_present": 2,
+      "required_total": 2,
+      "extra": false,
+      "adequate": true
+    },
+    {
+      "session": "PE7",
+      "id": "H6B1",
+      "both_correct": true,
+      "mismatches": {},
+      "required_present": 2,
+      "required_total": 2,
+      "extra": false,
+      "adequate": true
+    },
+    {
+      "session": "PE7",
+      "id": "S4K9",
+      "both_correct": true,
+      "mismatches": {},
+      "required_present": 3,
+      "required_total": 3,
+      "extra": false,
+      "adequate": true
+    }
+  ]
+}

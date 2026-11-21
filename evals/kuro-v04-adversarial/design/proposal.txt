@@ -1,0 +1,1 @@
+When a handoff includes a status field, identify exactly what it tracks. Finishing a check can leave the work being checked open. Apply the requested meaning to the field and name both outcomes in the handoff when they differ. If the field's meaning is unspecified and the two outcomes differ, state which outcome your label describes.

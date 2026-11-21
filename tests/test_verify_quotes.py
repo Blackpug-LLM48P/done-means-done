@@ -29,6 +29,8 @@ FIXTURE_RECORDS = [
     LIVE_CASES / "receiver-controls" / "fixtures" / "body.md",
     LIVE_CASES / "memory-pilot" / "frozen" / "checkpoint.txt",
     LIVE_CASES.parent / "kuro-v04-scope" / "inputs" / "cases.json",
+    *(LIVE_CASES.parent / "kuro-v04-adversarial" / "inputs" / name
+      for name in ("dev-cases.json", "hold-cases.json", "four-cases.json")),
     LIVE_CASES.parent / "kuro-v04-transfer" / "SPEC.md",
     *(LIVE_CASES.parent / "kuro-v04-transfer" / "cases" / case / "shift.json"
       for case in ("mixed", "clean", "blocked")),

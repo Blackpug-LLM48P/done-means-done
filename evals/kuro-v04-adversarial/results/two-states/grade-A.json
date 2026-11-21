@@ -1,0 +1,186 @@
+{
+  "m49b8a3": {
+    "required": [
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "12/12、Eの2位置それぞれの受領記録、待ちなしと閉箱指示を確認。"
+  },
+  "m0d73c1": {
+    "required": [
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "11/12と両位置の状態を示し、T16のみ水辺設営班への照会と閉箱保留としている。"
+  },
+  "m85c49a": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "消込20/21着・6/7品番。K12不足とK8余剰は各1着で、双方の担当と貸出票の保留も明記。"
+  },
+  "m137fa0": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "21/21着・7/7品番、不足・余剰なし、完了可能という報告。補足の袋札内訳も一致。"
+  },
+  "k7f4b": {
+    "required": [
+      false,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "必須1のうち、065が641の数値である点は本文から欠落。依頼対象614は確定原簿で066と特定し、独立する両機器の値・差・正式掲示可否まで追える。"
+  },
+  "k2a9e": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "確定した066と065の選手を区別し、066の両表示が同じ主計値に遡る経路を提示。予備掲示のみ、別機器の実測値と許容差の確認が残ることが伝わる。"
+  },
+  "k5c8d": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "21日西回りの版と旧時刻、09:15の会場同意、代決の権限・時刻、ウェブ差替え前の状態を特定。14:30で即時公開できるとの指示により会場再確認不要も伝わる。"
+  },
+  "k3b6a": {
+    "required": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "対象版と会場同意済みを示し、28日限定の代決権・旧版決裁の不継承を説明。保留の理由を有効な決裁の欠如に特定し、14:10の公開継続を指示。"
+  },
+  "B8F2C00": {
+    "required": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "17:35を含む正式証跡の再集計と完了52・未完了3件、正式荷番3件、その各状態が一致。"
+  },
+  "B601508": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "19:10を含めて照合し、全63件で最新の正式証跡が受領。本文は完了63件と未完了0件を明示。"
+  },
+  "BB3B9C5": {
+    "required": [
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "15:50を含めて照合し、全47件で最新の正式証跡が受領。本文は完了47件と未完了0件を明示。"
+  },
+  "BDF3195": {
+    "required": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "forbidden": [
+      false,
+      false
+    ],
+    "extra": false,
+    "report_done": true,
+    "notes": "20:15を含む正式証跡の再集計と完了57・未完了4件、正式荷番4件、その各状態が一致。"
+  }
+}

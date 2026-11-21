@@ -1,0 +1,62 @@
+{
+  "JW8": {
+    "reader.txt": "dbcda3e3187190dc8c1a01d90a296d38bd25d6b517c3a669559baa6c97f10a75",
+    "cases.json": "7ee49c729556882093bd9845ebace0e857e1ae0d524fc43cca4bc3ae07f36507",
+    "workflow.txt": "1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6"
+  },
+  "AG5": {
+    "reader.txt": "dbcda3e3187190dc8c1a01d90a296d38bd25d6b517c3a669559baa6c97f10a75",
+    "cases.json": "3803fe2a77c2df5bf962adcb30e2811b702b065a3391bc21481c00dda76a7b4e",
+    "workflow.txt": "1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6"
+  },
+  "RT5": {
+    "reader.txt": "dbcda3e3187190dc8c1a01d90a296d38bd25d6b517c3a669559baa6c97f10a75",
+    "cases.json": "e5fddb5997c4b163818a3979fa4ecb46164ece49e6e029dbf67dfb54029bbe6b",
+    "workflow.txt": "1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6"
+  },
+  "BY6": {
+    "reader.txt": "dbcda3e3187190dc8c1a01d90a296d38bd25d6b517c3a669559baa6c97f10a75",
+    "cases.json": "f9df04f5733de071c3741b1e4f2ca43be62311620a6c424692fabafe3bec6d22",
+    "workflow.txt": "1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6"
+  },
+  "PM3": {
+    "reader.txt": "dbcda3e3187190dc8c1a01d90a296d38bd25d6b517c3a669559baa6c97f10a75",
+    "cases.json": "e5fddb5997c4b163818a3979fa4ecb46164ece49e6e029dbf67dfb54029bbe6b",
+    "workflow.txt": "774bfa0dafc508c931531c35af682d58e8e8e8fda47424f69a34a599dc6a348d"
+  },
+  "EV4": {
+    "reader.txt": "dbcda3e3187190dc8c1a01d90a296d38bd25d6b517c3a669559baa6c97f10a75",
+    "cases.json": "f9df04f5733de071c3741b1e4f2ca43be62311620a6c424692fabafe3bec6d22",
+    "workflow.txt": "774bfa0dafc508c931531c35af682d58e8e8e8fda47424f69a34a599dc6a348d"
+  },
+  "DX2": {
+    "reader.txt": "dbcda3e3187190dc8c1a01d90a296d38bd25d6b517c3a669559baa6c97f10a75",
+    "cases.json": "e5fddb5997c4b163818a3979fa4ecb46164ece49e6e029dbf67dfb54029bbe6b",
+    "workflow.txt": "4b395bc06bc7b8410567c78e4191b634aa940d417c7777aea408f1fdd8f9cb20"
+  },
+  "WU9": {
+    "reader.txt": "dbcda3e3187190dc8c1a01d90a296d38bd25d6b517c3a669559baa6c97f10a75",
+    "cases.json": "f9df04f5733de071c3741b1e4f2ca43be62311620a6c424692fabafe3bec6d22",
+    "workflow.txt": "4b395bc06bc7b8410567c78e4191b634aa940d417c7777aea408f1fdd8f9cb20"
+  },
+  "AQ4": {
+    "reader.txt": "95a8216768a4e7bb8aa1c1a8061a1ce0dc2e3a9dd96a99ca941cd964fce60295",
+    "cases.json": "885ef5a5653847c20c811d6f83dee1cc7db43088fb5930ffa40eb36b92016e6e",
+    "workflow.txt": "1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6"
+  },
+  "GF7": {
+    "reader.txt": "95a8216768a4e7bb8aa1c1a8061a1ce0dc2e3a9dd96a99ca941cd964fce60295",
+    "cases.json": "885ef5a5653847c20c811d6f83dee1cc7db43088fb5930ffa40eb36b92016e6e",
+    "workflow.txt": "4b395bc06bc7b8410567c78e4191b634aa940d417c7777aea408f1fdd8f9cb20"
+  },
+  "YK1": {
+    "reader.txt": "9755882ef91f1c0ff14731b33acd4e2876f1317b2724cd2123ec6d3b8f2247a9",
+    "cases.json": "885ef5a5653847c20c811d6f83dee1cc7db43088fb5930ffa40eb36b92016e6e",
+    "workflow.txt": "1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6"
+  },
+  "LK6": {
+    "reader.txt": "9755882ef91f1c0ff14731b33acd4e2876f1317b2724cd2123ec6d3b8f2247a9",
+    "cases.json": "885ef5a5653847c20c811d6f83dee1cc7db43088fb5930ffa40eb36b92016e6e",
+    "workflow.txt": "4b395bc06bc7b8410567c78e4191b634aa940d417c7777aea408f1fdd8f9cb20"
+  }
+}

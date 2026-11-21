@@ -1,0 +1,435 @@
+{
+  "hold_v04_to_proposal": {
+    "by_source": {
+      "holda": {
+        "all_ok": {
+          "regressions": [
+            "m0d73c1"
+          ],
+          "rescues": []
+        },
+        "cases_missing_required": {
+          "regressions": [],
+          "rescues": []
+        },
+        "cases_with_conflict": {
+          "regressions": [
+            "m0d73c1"
+          ],
+          "rescues": []
+        },
+        "cases_with_extra": {
+          "regressions": [],
+          "rescues": []
+        },
+        "cases_with_forbidden": {
+          "regressions": [],
+          "rescues": []
+        },
+        "false_complete": {
+          "regressions": [
+            "m0d73c1"
+          ],
+          "rescues": []
+        },
+        "false_hold": {
+          "regressions": [],
+          "rescues": []
+        }
+      },
+      "holdb": {
+        "all_ok": {
+          "regressions": [
+            "k2a9e",
+            "k3b6a"
+          ],
+          "rescues": []
+        },
+        "cases_missing_required": {
+          "regressions": [],
+          "rescues": []
+        },
+        "cases_with_conflict": {
+          "regressions": [
+            "k2a9e",
+            "k3b6a"
+          ],
+          "rescues": []
+        },
+        "cases_with_extra": {
+          "regressions": [],
+          "rescues": []
+        },
+        "cases_with_forbidden": {
+          "regressions": [],
+          "rescues": []
+        },
+        "false_complete": {
+          "regressions": [
+            "k2a9e",
+            "k3b6a"
+          ],
+          "rescues": []
+        },
+        "false_hold": {
+          "regressions": [],
+          "rescues": []
+        }
+      },
+      "volume": {
+        "all_ok": {
+          "regressions": [
+            "B8F2C00",
+            "BDF3195"
+          ],
+          "rescues": []
+        },
+        "cases_missing_required": {
+          "regressions": [],
+          "rescues": []
+        },
+        "cases_with_conflict": {
+          "regressions": [],
+          "rescues": []
+        },
+        "cases_with_extra": {
+          "regressions": [],
+          "rescues": []
+        },
+        "cases_with_forbidden": {
+          "regressions": [],
+          "rescues": []
+        },
+        "false_complete": {
+          "regressions": [
+            "B8F2C00",
+            "BDF3195"
+          ],
+          "rescues": []
+        },
+        "false_hold": {
+          "regressions": [],
+          "rescues": []
+        }
+      }
+    },
+    "total": {
+      "all_ok": {
+        "regressions": [
+          "B8F2C00",
+          "BDF3195",
+          "k2a9e",
+          "k3b6a",
+          "m0d73c1"
+        ],
+        "rescues": []
+      },
+      "cases_missing_required": {
+        "regressions": [],
+        "rescues": []
+      },
+      "cases_with_conflict": {
+        "regressions": [
+          "k2a9e",
+          "k3b6a",
+          "m0d73c1"
+        ],
+        "rescues": []
+      },
+      "cases_with_extra": {
+        "regressions": [],
+        "rescues": []
+      },
+      "cases_with_forbidden": {
+        "regressions": [],
+        "rescues": []
+      },
+      "false_complete": {
+        "regressions": [
+          "B8F2C00",
+          "BDF3195",
+          "k2a9e",
+          "k3b6a",
+          "m0d73c1"
+        ],
+        "rescues": []
+      },
+      "false_hold": {
+        "regressions": [],
+        "rescues": []
+      }
+    }
+  },
+  "reader_disagreements": {
+    "differing_flag_counts": {
+      "conflict": 1,
+      "extra": 0,
+      "forbidden": 0,
+      "required": 0
+    },
+    "labels_graded_by_both": 44,
+    "labels_with_flag_disagreement": 1
+  },
+  "scores": {
+    "dev": {
+      "v04": {
+        "by_source": {
+          "dev": {
+            "all_ok": 6,
+            "cases": 6,
+            "cases_missing_required": 0,
+            "cases_with_conflict": 0,
+            "cases_with_extra": 0,
+            "cases_with_forbidden": 0,
+            "false_complete": 0,
+            "false_hold": 0,
+            "forbidden_facts_present": 0,
+            "forbidden_facts_total": 13,
+            "reference_complete": 3,
+            "reference_open": 3,
+            "required_facts_missing": 0,
+            "required_facts_total": 9
+          },
+          "volume": {
+            "all_ok": 1,
+            "cases": 2,
+            "cases_missing_required": 0,
+            "cases_with_conflict": 1,
+            "cases_with_extra": 0,
+            "cases_with_forbidden": 0,
+            "false_complete": 1,
+            "false_hold": 0,
+            "forbidden_facts_present": 0,
+            "forbidden_facts_total": 4,
+            "reference_complete": 1,
+            "reference_open": 1,
+            "required_facts_missing": 0,
+            "required_facts_total": 6
+          }
+        },
+        "total": {
+          "all_ok": 7,
+          "cases": 8,
+          "cases_missing_required": 0,
+          "cases_with_conflict": 1,
+          "cases_with_extra": 0,
+          "cases_with_forbidden": 0,
+          "false_complete": 1,
+          "false_hold": 0,
+          "forbidden_facts_present": 0,
+          "forbidden_facts_total": 17,
+          "reference_complete": 4,
+          "reference_open": 4,
+          "required_facts_missing": 0,
+          "required_facts_total": 15
+        }
+      }
+    },
+    "hold": {
+      "one": {
+        "by_source": {
+          "holda": {
+            "all_ok": 4,
+            "cases": 4,
+            "cases_missing_required": 0,
+            "cases_with_conflict": 0,
+            "cases_with_extra": 0,
+            "cases_with_forbidden": 0,
+            "false_complete": 0,
+            "false_hold": 0,
+            "forbidden_facts_present": 0,
+            "forbidden_facts_total": 13,
+            "reference_complete": 2,
+            "reference_open": 2,
+            "required_facts_missing": 0,
+            "required_facts_total": 12
+          },
+          "holdb": {
+            "all_ok": 3,
+            "cases": 4,
+            "cases_missing_required": 1,
+            "cases_with_conflict": 0,
+            "cases_with_extra": 0,
+            "cases_with_forbidden": 0,
+            "false_complete": 0,
+            "false_hold": 0,
+            "forbidden_facts_present": 0,
+            "forbidden_facts_total": 12,
+            "reference_complete": 2,
+            "reference_open": 2,
+            "required_facts_missing": 1,
+            "required_facts_total": 16
+          },
+          "volume": {
+            "all_ok": 4,
+            "cases": 4,
+            "cases_missing_required": 0,
+            "cases_with_conflict": 0,
+            "cases_with_extra": 0,
+            "cases_with_forbidden": 0,
+            "false_complete": 0,
+            "false_hold": 0,
+            "forbidden_facts_present": 0,
+            "forbidden_facts_total": 8,
+            "reference_complete": 2,
+            "reference_open": 2,
+            "required_facts_missing": 0,
+            "required_facts_total": 15
+          }
+        },
+        "total": {
+          "all_ok": 11,
+          "cases": 12,
+          "cases_missing_required": 1,
+          "cases_with_conflict": 0,
+          "cases_with_extra": 0,
+          "cases_with_forbidden": 0,
+          "false_complete": 0,
+          "false_hold": 0,
+          "forbidden_facts_present": 0,
+          "forbidden_facts_total": 33,
+          "reference_complete": 6,
+          "reference_open": 6,
+          "required_facts_missing": 1,
+          "required_facts_total": 43
+        }
+      },
+      "proposal": {
+        "by_source": {
+          "holda": {
+            "all_ok": 3,
+            "cases": 4,
+            "cases_missing_required": 0,
+            "cases_with_conflict": 1,
+            "cases_with_extra": 0,
+            "cases_with_forbidden": 0,
+            "false_complete": 1,
+            "false_hold": 0,
+            "forbidden_facts_present": 0,
+            "forbidden_facts_total": 13,
+            "reference_complete": 2,
+            "reference_open": 2,
+            "required_facts_missing": 0,
+            "required_facts_total": 12
+          },
+          "holdb": {
+            "all_ok": 1,
+            "cases": 4,
+            "cases_missing_required": 1,
+            "cases_with_conflict": 2,
+            "cases_with_extra": 0,
+            "cases_with_forbidden": 0,
+            "false_complete": 2,
+            "false_hold": 0,
+            "forbidden_facts_present": 0,
+            "forbidden_facts_total": 12,
+            "reference_complete": 2,
+            "reference_open": 2,
+            "required_facts_missing": 1,
+            "required_facts_total": 16
+          },
+          "volume": {
+            "all_ok": 2,
+            "cases": 4,
+            "cases_missing_required": 0,
+            "cases_with_conflict": 0,
+            "cases_with_extra": 0,
+            "cases_with_forbidden": 0,
+            "false_complete": 2,
+            "false_hold": 0,
+            "forbidden_facts_present": 0,
+            "forbidden_facts_total": 8,
+            "reference_complete": 2,
+            "reference_open": 2,
+            "required_facts_missing": 0,
+            "required_facts_total": 15
+          }
+        },
+        "total": {
+          "all_ok": 6,
+          "cases": 12,
+          "cases_missing_required": 1,
+          "cases_with_conflict": 3,
+          "cases_with_extra": 0,
+          "cases_with_forbidden": 0,
+          "false_complete": 5,
+          "false_hold": 0,
+          "forbidden_facts_present": 0,
+          "forbidden_facts_total": 33,
+          "reference_complete": 6,
+          "reference_open": 6,
+          "required_facts_missing": 1,
+          "required_facts_total": 43
+        }
+      },
+      "v04": {
+        "by_source": {
+          "holda": {
+            "all_ok": 4,
+            "cases": 4,
+            "cases_missing_required": 0,
+            "cases_with_conflict": 0,
+            "cases_with_extra": 0,
+            "cases_with_forbidden": 0,
+            "false_complete": 0,
+            "false_hold": 0,
+            "forbidden_facts_present": 0,
+            "forbidden_facts_total": 13,
+            "reference_complete": 2,
+            "reference_open": 2,
+            "required_facts_missing": 0,
+            "required_facts_total": 12
+          },
+          "holdb": {
+            "all_ok": 3,
+            "cases": 4,
+            "cases_missing_required": 1,
+            "cases_with_conflict": 0,
+            "cases_with_extra": 0,
+            "cases_with_forbidden": 0,
+            "false_complete": 0,
+            "false_hold": 0,
+            "forbidden_facts_present": 0,
+            "forbidden_facts_total": 12,
+            "reference_complete": 2,
+            "reference_open": 2,
+            "required_facts_missing": 1,
+            "required_facts_total": 16
+          },
+          "volume": {
+            "all_ok": 4,
+            "cases": 4,
+            "cases_missing_required": 0,
+            "cases_with_conflict": 0,
+            "cases_with_extra": 0,
+            "cases_with_forbidden": 0,
+            "false_complete": 0,
+            "false_hold": 0,
+            "forbidden_facts_present": 0,
+            "forbidden_facts_total": 8,
+            "reference_complete": 2,
+            "reference_open": 2,
+            "required_facts_missing": 0,
+            "required_facts_total": 15
+          }
+        },
+        "total": {
+          "all_ok": 11,
+          "cases": 12,
+          "cases_missing_required": 1,
+          "cases_with_conflict": 0,
+          "cases_with_extra": 0,
+          "cases_with_forbidden": 0,
+          "false_complete": 0,
+          "false_hold": 0,
+          "forbidden_facts_present": 0,
+          "forbidden_facts_total": 33,
+          "reference_complete": 6,
+          "reference_open": 6,
+          "required_facts_missing": 1,
+          "required_facts_total": 43
+        }
+      }
+    }
+  }
+}

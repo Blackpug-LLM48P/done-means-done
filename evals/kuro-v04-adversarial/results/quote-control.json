@@ -1,0 +1,32 @@
+{
+  "scoped_audit": {
+    "exit": 0,
+    "stdout": "FOUND        row 1: '金額は一致、期間は不一致'\nFOUND        row 2: '金額は一致、期間は不一致'\nFOUND        row 3: '今回の照合対象は金額と期間'\n\n3 quotes: 3 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 3 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: R03.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+    "stderr": ""
+  },
+  "reversed_status_only": {
+    "exit": 0,
+    "stdout": "FOUND        row 1: '金額は一致、期間は不一致'\nFOUND        row 2: '金額は一致、期間は不一致'\nFOUND        row 3: '今回の照合対象は金額と期間'\n\n3 quotes: 3 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 3 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: R03.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+    "stderr": ""
+  },
+  "revised_report_only": {
+    "exit": 0,
+    "stdout": "FOUND        row 1: '金額は一致、期間は不一致'\nFOUND        row 2: '金額は一致、期間は不一致'\nFOUND        row 3: '今回の照合対象は金額と期間'\n\n3 quotes: 3 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 3 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: R03.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+    "stderr": ""
+  },
+  "one_quote_without_id": {
+    "exit": 0,
+    "stdout": "FOUND        row 1: '金額は一致、期間は不一致'\nFOUND        row 2: '金額は一致、期間は不一致'\nFOUND        row 3: '今回の照合対象は金額と期間'\n\n3 quotes: 3 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 2 found in cited blocks; 1 found by whole-record search only.\nDraft exclusion: R03.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+    "stderr": ""
+  },
+  "one_quote_in_wrong_block": {
+    "exit": 1,
+    "stdout": "FOUND        row 1: '金額は一致、期間は不一致'\nFOUND        row 2: '金額は一致、期間は不一致'\nWRONG PLACE  row 3: '今回の照合対象は金額と期間'\n\n3 quotes: 2 found, 1 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 2 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: R03.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+    "stderr": ""
+  },
+  "ordinary_handoff": {
+    "exit": 1,
+    "stdout": "\n0 quotes: 0 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 0 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: R03.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\nNo quotes found in the ledger. Nothing was verified.\n",
+    "stderr": ""
+  }
+}
