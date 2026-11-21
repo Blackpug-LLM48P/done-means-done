@@ -1,0 +1,34 @@
+--- full/policy.md
++++ remove_attribution/policy.md
+@@ -23,7 +23,7 @@
+ | STATE | The artifact, revision, destination and action reached |
+ | VERIFICATION | The check that actually ran and its result |
+ | SCOPE | The subset, version or time covered by that check |
+-| HEARSAY | Who reported the result and what they actually said |
++| HEARSAY | The claim and its stated scope |
+ | REMAINING | A current unmet or materially unconfirmed requirement |
+ 
+ Assign one status per claim.
+@@ -33,19 +33,19 @@
+ - **UNVERIFIED** — the available record leaves the claim open. A missing entry alone cannot establish failure, absence or non-execution.
+ - **OMITTED** — a material REMAINING item is missing from the draft. If the missing item concerns an unconfirmed result, describe the gap as such.
+ 
+-Distinguish a request, an attempt, a success signal, a saved artifact, a readback, a verification and a delivery. Use the source that establishes the stage claimed. An agent's message can support attribution to that agent. A claim of independent confirmation needs a corresponding observation. Evaluate negative claims and explanations with the same care as positive ones.
++Distinguish a request, an attempt, a success signal, a saved artifact, a readback, a verification and a delivery. Use the source that establishes the stage claimed. Evaluate negative claims and explanations with the same care as positive ones.
+ 
+ For a ledger entry, put a searchable verbatim quote in double quotation marks or 「」 and give its record ID, timestamp or path. Use fewer than 15 whitespace-delimited words. For quotes containing Japanese or Chinese characters, also use fewer than 40 characters including spaces. The draft identifies the claim under review. Cite the original record for its outcome. If the outcome is unknown, point to the visible requirement or limits of the inspected record and state what remains unknown. If evidence was lost, describe the gap without inventing a quotation.
+ 
+ ## Rewrite and check the outgoing message
+ 
+-Keep supported facts. Correct the quantity, destination, attribution or scope of conflicting claims. Restore each material omission. Say the work is complete when every active criterion is supported. Otherwise say what was delivered and which criterion remains open. Include causes only when the record establishes them. A resolved problem belongs in the report only if its history affects the recipient's decision.
++Keep supported facts. Correct the quantity, destination or scope of conflicting claims. Restore each material omission. Say the work is complete when every active criterion is supported. Otherwise say what was delivered and which criterion remains open. Include causes only when the record establishes them. A resolved problem belongs in the report only if its history affects the recipient's decision.
+ 
+ Read the actual final wording against the evidence once more. Check facts introduced by the rewrite, including negatives, causes and words such as “all.” Removing an unsupported claim must still leave the recipient able to identify any consequential gap. If you own the ongoing task, resume its authorized workflow for an actionable gap, then recheck the affected claims. A separate or retrospective evaluator returns its findings to the caller.
+ 
+ ## Output
+ 
+-When the user wants a completion message or a handoff, including a draft checked against supplied records and rewritten for sending, return the revised message in the requested language and format. Give the result, a usable deliverable or location when applicable, the scope of any material checks and current gaps. Include record IDs if the recipient wants to trace a finding. Keep working notes internal. For example, if the only evidence is a worker's save report, a Japanese handoff can say 「担当は保存済みと報告しています。指定先にあるかは、この記録からは確認できません。」
++When the user wants a completion message or a handoff, including a draft checked against supplied records and rewritten for sending, return the revised message in the requested language and format. Give the result, a usable deliverable or location when applicable, the scope of any material checks and current gaps. Include record IDs if the recipient wants to trace a finding. Keep working notes internal.
+ 
+ Use the detailed format when the requested deliverable is an audit, an evidence ledger or an extended work-state check, or when an existing workflow expects this format.
+ 

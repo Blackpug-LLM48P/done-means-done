@@ -1,0 +1,19 @@
+{
+  "frozen/cases.md": "811bc780e7e7b8001cdb54b0743cbe3cffbb76054ac7ee29b4fac3221a7dee71",
+  "frozen/design.md": "2449ca15c962ce5f9c5f503c51038b340a6e90219a3e692d9031f106855d0762",
+  "frozen/make_variants.py": "d578c141a705498f463e9959645729caea9e4cf2cf29b326aaa4c4863ee4922f",
+  "frozen/receiver.txt": "9a8608899efbff5e430da03bfb50996734b94b406b7f74c1a664aea3924dd9ad",
+  "frozen/rubric.md": "4878c56f1dd757040ee8105bbabc917989ec9750e3afee954115c1cd9ab5253c",
+  "prompts/full/diff.patch": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "prompts/full/dispatch.txt": "ac7b812f2b1052c2a5ae83114d4c5657325485135752834c810e729827abe2b2",
+  "prompts/full/policy.md": "1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6",
+  "prompts/remove_attribution/diff.patch": "9da7a01205ac554ee13b938d9741893067891804aaf54504bb57f7f8222fba97",
+  "prompts/remove_attribution/dispatch.txt": "007406d8e7816143ce3c0f5ae7783e207d33ee4d7694d008f6f25949d58777a5",
+  "prompts/remove_attribution/policy.md": "d53e107a8635e070b50ba3c4591b3152d3769d899202c6d25c60ee9425d801cf",
+  "prompts/remove_draft_source_exclusion/diff.patch": "487ad95b8b5ae21678d87f74ad09d2d8c797a4359dafef6e14930c505dce451f",
+  "prompts/remove_draft_source_exclusion/dispatch.txt": "560c86db25cd63d44535fb3d1e630136303c8d02a8ab14f3925ad8808ff5f062",
+  "prompts/remove_draft_source_exclusion/policy.md": "73e8fd00c5d2a53adc3e77977b45888bad4dcec08b665ed82ac2e65f768cacd8",
+  "prompts/remove_final_recheck/diff.patch": "addacca579ce1778a1913a7b30dc899805fd7e9ecac37ec6273f8a6f7abe086b",
+  "prompts/remove_final_recheck/dispatch.txt": "f749016f089e341420fadb414bc8666cbe219d687583592b582acd43158e7596",
+  "prompts/remove_final_recheck/policy.md": "1c402bfd602e82de6e53f4d08c522ce50414f58fb3eac60d3454087336ff1181"
+}

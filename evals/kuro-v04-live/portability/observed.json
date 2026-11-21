@@ -1,0 +1,270 @@
+{
+  "revision": "583edeaa8e5708675d654d27f913348200601c3a",
+  "python": "3.12.14",
+  "readme_claude_project_copy": {
+    "on_path": false,
+    "scope": "README project folder copy, frontmatter and relative resources",
+    "files": {
+      "DESIGN.md": "1a8aa23e7885e086a0b27e10992dab6756ca93e2e85dc18af01cae9391e83a45",
+      "SKILL.md": "1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6",
+      "references/work-state-check.md": "5f7a12690b7cc7962ae9cc28768d88efbbe2b936ccfded4b5ce83642228dce63",
+      "scripts/verify_quotes.py": "fe65fbe1a68f9572c0ca3d29f6cff17f82e509541f06a316f45d7d27680dd938"
+    },
+    "pass": true
+  },
+  "codex_host_discovery": {
+    "empty_project": {
+      "host": "local-discovery-check/0.172.0-alpha.2 (Linux Unknown; x86_64) unknown (local-discovery-check; 1)",
+      "cwd": "/project",
+      "errors": [],
+      "candidate": []
+    },
+    "claude_path_only": {
+      "host": "local-discovery-check/0.172.0-alpha.2 (Linux Unknown; x86_64) unknown (local-discovery-check; 1)",
+      "cwd": "/project",
+      "errors": [],
+      "candidate": []
+    },
+    "after": {
+      "host": "local-discovery-check/0.172.0-alpha.2 (Linux Unknown; x86_64) unknown (local-discovery-check; 1)",
+      "cwd": "/project",
+      "errors": [],
+      "candidate": [
+        {
+          "name": "report-reality-check",
+          "description": "Check a completion report or handoff against the user's request and the session record. Use before a completion claim, a handoff, or context compaction, and when asked to audit an earlier report. Skip casual conversation and single-step answers that make no claim about work performed.",
+          "path": "/project/.agents/skills/report-reality-check/SKILL.md",
+          "scope": "repo",
+          "enabled": true,
+          "pluginId": null
+        }
+      ]
+    },
+    "action": "skills/list only",
+    "pass": true
+  },
+  "help": {
+    "exit": 0,
+    "contains": {
+      "--draft ID": true,
+      "--allow-unquoted": true,
+      "Exit 0": true,
+      "Exit 1": true,
+      "Exit 2": true,
+      "version/alias": true,
+      "201 IDs": true
+    },
+    "pass": true
+  },
+  "cli": [
+    {
+      "name": "alias JP, second file, uncited",
+      "expected_exit": 0,
+      "exit": 0,
+      "checks": {
+        "3 found in cited blocks; 1 found by whole-record search only.": true,
+        "Draft exclusion: D09": true
+      },
+      "stdout": "FOUND        row 1: '受領済み'\nFOUND        row 1: '変更点ゼロ'\nFOUND        row 2: '箱は到着した'\nFOUND        row 3: 'release v8'\n\n4 quotes: 4 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 3 found in cited blocks; 1 found by whole-record search only.\nDraft exclusion: D09.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": "",
+      "inputs_unchanged": true,
+      "pass": true
+    },
+    {
+      "name": "alias EN in prior block",
+      "expected_exit": 0,
+      "exit": 0,
+      "checks": {
+        "2 found in cited blocks": true
+      },
+      "stdout": "FOUND        row 1: 'release v8'\nFOUND        row 1: '変更点ゼロ'\n\n2 quotes: 2 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 2 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": "",
+      "inputs_unchanged": true,
+      "pass": true
+    },
+    {
+      "name": "declared alias block takes precedence",
+      "expected_exit": 1,
+      "exit": 1,
+      "checks": {
+        "WRONG PLACE": true
+      },
+      "stdout": "FOUND        row 1: '受領済み'\nWRONG PLACE  row 1: '変更点ゼロ'\n\n2 quotes: 1 found, 1 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": "",
+      "inputs_unchanged": true,
+      "pass": true
+    },
+    {
+      "name": "version absent as exact token",
+      "expected_exit": 1,
+      "exit": 1,
+      "checks": {
+        "UNKNOWN ID": true
+      },
+      "stdout": "FOUND        row 1: '受領済み'\nUNKNOWN ID   row 1: '変更点ゼロ' (v8)\n\n2 quotes: 1 found, 1 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": "",
+      "inputs_unchanged": true,
+      "pass": true
+    },
+    {
+      "name": "draft only no ID",
+      "expected_exit": 1,
+      "exit": 1,
+      "checks": {
+        "DRAFT ONLY": true
+      },
+      "stdout": "DRAFT ONLY   row 1: '総合承認のみ'\n\n1 quotes: 0 found, 1 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 0 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: D09.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": "",
+      "inputs_unchanged": true,
+      "pass": true
+    },
+    {
+      "name": "draft ID not in source",
+      "expected_exit": 2,
+      "exit": 2,
+      "checks": {
+        "INPUT ERROR": true
+      },
+      "stdout": "",
+      "stderr": "INPUT ERROR: --draft ID does not exist: D90\n",
+      "inputs_unchanged": true,
+      "pass": true
+    },
+    {
+      "name": "duplicate ID across files",
+      "expected_exit": 2,
+      "exit": 2,
+      "checks": {
+        "INPUT ERROR": true
+      },
+      "stdout": "",
+      "stderr": "INPUT ERROR: duplicate record IDs across files: ['S07']; check records separately\n",
+      "inputs_unchanged": true,
+      "pass": true
+    },
+    {
+      "name": "201 ID range",
+      "expected_exit": 0,
+      "exit": 0,
+      "checks": {
+        "1 found in cited blocks": true
+      },
+      "stdout": "FOUND        row 1: 'observation 201'\n\n1 quotes: 1 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": "",
+      "inputs_unchanged": true,
+      "pass": true
+    },
+    {
+      "name": "202 ID range",
+      "expected_exit": 1,
+      "exit": 1,
+      "checks": {
+        "INVALID ID": true
+      },
+      "stdout": "INVALID ID   row 1: 'observation 202' (invalid ID range: Z001–Z202)\n\n1 quotes: 0 found, 1 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 0 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": "",
+      "inputs_unchanged": true,
+      "pass": true
+    },
+    {
+      "name": "39 CJK characters",
+      "expected_exit": 0,
+      "exit": 0,
+      "checks": {
+        "0 over the length rule": true
+      },
+      "stdout": "FOUND        row 1: '甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲'\n\n1 quotes: 1 found, 0 failed, 0 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 0 found in cited blocks; 1 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": "",
+      "inputs_unchanged": true,
+      "pass": true
+    },
+    {
+      "name": "40 CJK characters",
+      "expected_exit": 1,
+      "exit": 1,
+      "checks": {
+        "1 over the length rule": true
+      },
+      "stdout": "FOUND        row 1: '甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲甲' [too long: 40 characters (rule: under 40)]\n\n1 quotes: 1 found, 0 failed, 1 over the length rule. Rows without a quote: 0. Parse issues: 0.\nCoverage: 0 found in cited blocks; 1 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": "",
+      "inputs_unchanged": true,
+      "pass": true
+    },
+    {
+      "name": "allow unquoted with positive quote",
+      "expected_exit": 0,
+      "exit": 0,
+      "checks": {
+        "Rows without a quote: 1": true
+      },
+      "stdout": "FOUND        row 1: '受領済み'\nNO QUOTE    row 2\n\n1 quotes: 1 found, 0 failed, 0 over the length rule. Rows without a quote: 1. Parse issues: 0.\nCoverage: 1 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\n",
+      "stderr": "",
+      "inputs_unchanged": true,
+      "pass": true
+    },
+    {
+      "name": "allow unquoted alone still fails",
+      "expected_exit": 1,
+      "exit": 1,
+      "checks": {
+        "No quotes found": true
+      },
+      "stdout": "NO QUOTE    row 1\n\n0 quotes: 0 found, 0 failed, 0 over the length rule. Rows without a quote: 1. Parse issues: 0.\nCoverage: 0 found in cited blocks; 0 found by whole-record search only.\nDraft exclusion: not requested.\nChecked: supported quoted spans in Evidence cells and explicitly cited IDs/ranges.\nNot checked: claim support, completeness, unmarked quotations, text outside Evidence cells, or record authenticity.\nNo quotes found in the ledger. Nothing was verified.\n",
+      "stderr": "",
+      "inputs_unchanged": true,
+      "pass": true
+    }
+  ],
+  "historical": {
+    "reference": "2fe38b0e0d94c3dc89adabc9146b145953fb467b",
+    "nonkey_protected": [
+      {
+        "path": "evals/testlog-01/STRESS_CHECK_RUN01_claude.txt",
+        "observed_sha256": "3b33f8952c72200739edaf41a18299fdc72c28de06832bf894fd991eaf3de2a7",
+        "expected_sha256": "3b33f8952c72200739edaf41a18299fdc72c28de06832bf894fd991eaf3de2a7",
+        "matches": true
+      },
+      {
+        "path": "evals/testlog-01/STRESS_CHECK_TESTLOG_01.txt",
+        "observed_sha256": "655948b2c7515625e445683d89e127cb30d5cd511d0b9b30eb16b2c7f4107500",
+        "expected_sha256": "655948b2c7515625e445683d89e127cb30d5cd511d0b9b30eb16b2c7f4107500",
+        "matches": true
+      },
+      {
+        "path": "evals/testlog-02-clean/TESTLOG_02.txt",
+        "observed_sha256": "958f7f4f0185ebf2075efd5e840219a0ce25061acf3125d414a4467aa014c1a0",
+        "expected_sha256": "958f7f4f0185ebf2075efd5e840219a0ce25061acf3125d414a4467aa014c1a0",
+        "matches": true
+      },
+      {
+        "path": "origin/AI_AGENT_STRESS_CHECK_v0.1_20261102.txt",
+        "observed_sha256": "cc8c556520749988598dd454bfc63351ed9ff859dcee77f96c3b8706d0bc4c6a",
+        "expected_sha256": "cc8c556520749988598dd454bfc63351ed9ff859dcee77f96c3b8706d0bc4c6a",
+        "matches": true
+      },
+      {
+        "path": "origin/AI_AGENT_STRESS_CHECK_v0.2_20261102.txt",
+        "observed_sha256": "9b426280db453212d8a7a4e1e1734f8e49fdac070ab0f4db0be0a5a5396920f0",
+        "expected_sha256": "9b426280db453212d8a7a4e1e1734f8e49fdac070ab0f4db0be0a5a5396920f0",
+        "matches": true
+      },
+      {
+        "path": "research/2026-11-04-agent-memory-maintenance.md",
+        "observed_sha256": "9fc1954f9eb7ef62062f3ab8a394b04c5dfad080611b1402de641f4be1b0d814",
+        "expected_sha256": "9fc1954f9eb7ef62062f3ab8a394b04c5dfad080611b1402de641f4be1b0d814",
+        "matches": true
+      }
+    ],
+    "historical_commits_available_in_local_object_store": {
+      "0caf2b7737bf4acf02cf9cda3749c595611bfa8b": false,
+      "aa05400eb20258a03e9ff655d59dfb1fbf1edcfe": false
+    }
+  },
+  "historical_cli_replay": {
+    "reference": "2fe38b0e0d94c3dc89adabc9146b145953fb467b",
+    "cases": 28,
+    "matched_exit": 28,
+    "case_file_unchanged_since_reference": true
+  },
+  "package_bytes_unchanged_after_cli": true
+}

@@ -4,7 +4,7 @@
 
 An experimental agent skill that checks an AI agent's report against the session record **before** it says "done", then rewrites the report to match the evidence.
 
-**Status:** Kuro-Pug v0.4 candidate, based on the v0.3.1 repair. See the [Japanese handoff and audit examples](evals/kuro-v04-smoke/README.md) for the candidate's outputs. In a [24-output comparison of v0.3.1](https://github.com/Blackpug-LLM48P/done-means-done/blob/aa05400eb20258a03e9ff655d59dfb1fbf1edcfe/evals/forward-v031-20261117/README.md), the main error counts tied across all three conditions. The median full response was 4,917 characters with the skill and 976.5 with a one-line instruction. The comparison used static records.
+**Status:** Kuro-Pug v0.4 candidate, based on the v0.3.1 repair. See the [Japanese handoff and audit examples](evals/kuro-v04-smoke/README.md) for the candidate's outputs. In a [24-output comparison of v0.3.1](https://github.com/Blackpug-LLM48P/done-means-done/blob/aa05400eb20258a03e9ff655d59dfb1fbf1edcfe/evals/forward-v031-20261117/README.md), the main error counts tied across all three conditions. The median full response was 4,917 characters with the skill and 976.5 with a one-line instruction. The comparison used static records. A subsequent [16-run live study](evals/kuro-v04-live/README.md) compared actual work and recipient reports on two Japanese office tasks.
 
 ## The problem
 
@@ -40,7 +40,7 @@ After:
 
 ## Install
 
-Copy `skills/report-reality-check/` into your agent's skills directory. Copy the whole folder: the optional extended check needs `references/work-state-check.md`, and with SKILL.md alone it is skipped. For Claude Code, that is `.claude/skills/` in a project, or `~/.claude/skills/` for all projects.
+Copy `skills/report-reality-check/` into your agent's skills directory. Copy the whole folder: the optional extended check needs `references/work-state-check.md`, and with SKILL.md alone it is skipped. Codex discovers the project copy under `.agents/skills/report-reality-check/`. For Claude Code, that is `.claude/skills/` in a project, or `~/.claude/skills/` for all projects.
 
 ## What it is not
 

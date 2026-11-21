@@ -6,6 +6,7 @@ From the repository root:
 import contextlib
 import io
 import os
+from pathlib import Path
 import sys
 import tempfile
 import unittest
@@ -17,10 +18,14 @@ sys.path.insert(0, os.path.join(SKILL, "scripts"))
 import verify_quotes as vq  # noqa: E402
 
 TESTLOG_01 = os.path.join(ROOT, "evals", "testlog-01", "STRESS_CHECK_TESTLOG_01.txt")
+LIVE_CASES = Path(ROOT, "evals", "kuro-v04-live")
 FIXTURE_RECORDS = [
     TESTLOG_01,
     os.path.join(ROOT, "evals", "testlog-02-clean", "TESTLOG_02.txt"),
     *(os.path.join(ROOT, "evals", "kuro-v04-smoke", f"case-{case}.md") for case in "abc"),
+    *(p for p in sorted((LIVE_CASES / "cases").glob("*/task/**/*")) if p.is_file()),
+    LIVE_CASES / "supplement" / "fixtures" / "summary.txt",
+    LIVE_CASES / "ablation" / "frozen" / "cases.md",
 ]
 
 

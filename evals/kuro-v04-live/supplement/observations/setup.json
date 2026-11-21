@@ -1,0 +1,8 @@
+{
+  "method/preregister.md": "ba1b9853365d103d8a15e1f0c2485ad978f963d15ae33159d3ebb3128d611a9b",
+  "fixtures/catalog.txt": "a5110013013274fb4fcc2baa0f517845f7e1a032678c0aef33d7cf03430d4a25",
+  "fixtures/prompts.json": "2b5f7371080fd9861e817dbb1cc12e81c21d73d638352c255b9c63fc21210287",
+  "fixtures/summary.txt": "2096dd3b817f969e9bd0124992e39014238d7dec23c8f969eede9a3d5cc6fb2b",
+  "fixtures/index-initial.txt": "6a04b0bcfd60b1c29c2d76bec4eac2213e842ec058423339810441264d67c5a5",
+  "fixtures/routine-initial.tsv": "61614a192a9ed0b673f0c83c3aa3d4de3a3ab6ffeaa2de00dcaf5044e1389167"
+}

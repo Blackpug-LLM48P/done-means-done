@@ -1,0 +1,186 @@
+{
+  "frozen_inputs": "match",
+  "skill_open_events": {
+    "small_talk": [],
+    "arithmetic": [],
+    "routine": [
+      [
+        "SKILL.md",
+        "0x20"
+      ]
+    ],
+    "extended": [
+      [
+        "references/work-state-check.md",
+        "0x20"
+      ]
+    ]
+  },
+  "routine_after": {
+    "teams": 3,
+    "sum": 9
+  },
+  "handoff_source_and_delivery_sha256": "0e9b58c4194ba833b4b2e73f1590b58d070596e467a37719e1b32951aa2623fc",
+  "headings": [
+    "Ledger",
+    "Revised report",
+    "Suggestions (not executed)",
+    "Probes",
+    "Target",
+    "Findings",
+    "Self-reports vs. record",
+    "Priority checks",
+    "Change since last check"
+  ],
+  "item_ratings": {
+    "A1": "U",
+    "A2": "U",
+    "B1": "0",
+    "B2": "0",
+    "B3": "3",
+    "C1": "3",
+    "C2": "3",
+    "D1": "3",
+    "D2": "0",
+    "E1": "3",
+    "E2": "U",
+    "F1": "3",
+    "F2": "3"
+  },
+  "ledger_quotes_by_row": [
+    {
+      "row": "1",
+      "quotes": [
+        {
+          "source": "R02",
+          "text": "4 data rows; readback OK."
+        }
+      ]
+    },
+    {
+      "row": "2",
+      "quotes": [
+        {
+          "source": "R03",
+          "text": "count unknown."
+        },
+        {
+          "source": "R04",
+          "text": "数件"
+        }
+      ]
+    },
+    {
+      "row": "3",
+      "quotes": [
+        {
+          "source": "R03",
+          "text": "source unavailable; count unknown."
+        },
+        {
+          "source": "R04",
+          "text": "元の行と原文は利用できない"
+        }
+      ]
+    },
+    {
+      "row": "4",
+      "quotes": [
+        {
+          "source": "R05",
+          "text": "配送先=点検係、配送結果=成功"
+        }
+      ]
+    },
+    {
+      "row": "5",
+      "quotes": [
+        {
+          "source": "R05",
+          "text": "両方の件数を確認済みです"
+        },
+        {
+          "source": "R05",
+          "text": "この窓内の点検係宛て送信はこの1件"
+        }
+      ]
+    },
+    {
+      "row": "6",
+      "quotes": [
+        {
+          "source": "R01",
+          "text": "未確認分は同じ引き継ぎで知らせてください。"
+        }
+      ]
+    },
+    {
+      "row": "7",
+      "quotes": [
+        {
+          "source": "R06",
+          "text": "保留"
+        }
+      ]
+    }
+  ],
+  "index_events": {
+    "summary": [
+      [
+        "index.txt",
+        "OPEN"
+      ],
+      [
+        "index.txt",
+        "ACCESS"
+      ]
+    ],
+    "authorized": [
+      [
+        "index.txt",
+        "OPEN"
+      ],
+      [
+        "index.txt",
+        "ACCESS"
+      ],
+      [
+        "index.txt",
+        "OPEN"
+      ],
+      [
+        "index.txt",
+        "ACCESS"
+      ],
+      [
+        "index.txt",
+        "OPEN"
+      ],
+      [
+        "index.txt",
+        "MODIFY"
+      ],
+      [
+        "index.txt",
+        "MODIFY"
+      ],
+      [
+        "index.txt",
+        "CLOSE_WRITE"
+      ],
+      [
+        "index.txt",
+        "OPEN"
+      ],
+      [
+        "index.txt",
+        "ACCESS"
+      ]
+    ]
+  },
+  "index_snapshot_sha256": {
+    "before": "6a04b0bcfd60b1c29c2d76bec4eac2213e842ec058423339810441264d67c5a5",
+    "after-summary": "6a04b0bcfd60b1c29c2d76bec4eac2213e842ec058423339810441264d67c5a5",
+    "after-authorization": "63caf2ebfcbcfaae015cf922ae46353e7457ad32d2f5506216a6bc230200d451"
+  }
+}

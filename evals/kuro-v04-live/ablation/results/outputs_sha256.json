@@ -1,0 +1,9 @@
+{
+  "raw/full.md": "ccd831191d6b0fd868d2b0e872e172823fe3e8bba7acf6a1b210c2a686b034b4",
+  "raw/remove_attribution.md": "e7a75d55cbf58ebdafff093658fe7c1c1cc950e4b774457aad20a6a85d7aabab",
+  "raw/remove_draft_source_exclusion.md": "0e83081837adf7043d34bd8874d2329dbe074f1fbba44ca07c8a11e0a8d2fc1e",
+  "raw/remove_final_recheck.md": "acb4a2d7607127f5db4b3c4fafa61598a03eb7cbe3573667287563407ef51adf",
+  "results/blind_key.json": "c5419d02b4aeaae060bea84a09dfcc715fc190b9e167bbd81357f589da620d23",
+  "results/grades_blind.tsv": "ca2c3677f2f6ee9c5d4fe2724c27183558ec92fb6e2bb22a2bd5547caa98cc15",
+  "results/scores.tsv": "14c69b73e5b3086d161318baf3b658e988ce6e930967b84defbda4785405a211"
+}
