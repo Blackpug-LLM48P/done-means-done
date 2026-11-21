@@ -1,0 +1,151 @@
+{
+  "rubric": "jp-handoff-smoke-v1",
+  "condition": "candidate-final",
+  "results": {
+    "case-a": {
+      "criteria": {
+        "A1": {
+          "verdict": "pass",
+          "basis": [
+            "R16",
+            "R17"
+          ],
+          "excerpts": [
+            "10:10に引渡し先から移動し、10:11時点の保存先は `/review/nov/一覧.csv` です。"
+          ]
+        },
+        "A2": {
+          "verdict": "pass",
+          "basis": [
+            "R13",
+            "R14",
+            "R15",
+            "R17"
+          ],
+          "excerpts": [
+            "保存エラーが出た要約PDFは、10:07の再保存に成功しました。運用アカウント `export-bot` で開き、全2ページと確認しました。",
+            "10:11時点の保存先は、指定の引渡し先 `/delivery/nov/要約.pdf` です。"
+          ]
+        },
+        "A3": {
+          "verdict": "pass",
+          "basis": [
+            "R12",
+            "R16"
+          ],
+          "excerpts": [
+            "一覧CSVは、見出しを除いて12件です。"
+          ]
+        },
+        "A4": {
+          "verdict": "pass",
+          "basis": [
+            "R11",
+            "R15",
+            "R17"
+          ],
+          "excerpts": [
+            "窓口アカウント `desk-view` で開けるかどうかは、両ファイルとも記録からは確認できません。"
+          ]
+        },
+        "A5": {
+          "verdict": "pass",
+          "basis": [
+            "R15",
+            "R16",
+            "R17"
+          ],
+          "excerpts": [
+            "10:11時点の保存先は、指定の引渡し先 `/delivery/nov/要約.pdf` です。",
+            "10:10に引渡し先から移動し、10:11時点の保存先は `/review/nov/一覧.csv` です。",
+            "保存エラーが出た要約PDFは、10:07の再保存に成功しました。運用アカウント `export-bot` で開き、全2ページと確認しました。",
+            "窓口アカウント `desk-view` で開けるかどうかは、両ファイルとも記録からは確認できません。"
+          ]
+        }
+      },
+      "passed": 5,
+      "total": 5,
+      "ledger_present": false
+    },
+    "case-b": {
+      "criteria": {
+        "B1": {
+          "verdict": "pass",
+          "basis": [
+            "K22",
+            "K23"
+          ],
+          "excerpts": [
+            "| 東 | 0件 | 当番室が `east.csv` の18行を検索（K22） |\n| 西 | 0件 | 当番室が `west.csv` の23行を検索（K23） |"
+          ]
+        },
+        "B2": {
+          "verdict": "pass",
+          "basis": [
+            "K24"
+          ],
+          "excerpts": [
+            "1件（担当報告） | 南担当からの18:09の連絡。照合資料の添付はありません（K24）"
+          ]
+        },
+        "B3": {
+          "verdict": "pass",
+          "basis": [
+            "K21",
+            "K25"
+          ],
+          "excerpts": [
+            "北担当の個別スレッドは抜粋の収録範囲外で、照合状況と件数は不明です（K25）"
+          ]
+        },
+        "B4": {
+          "verdict": "pass",
+          "basis": [
+            "K22",
+            "K23",
+            "K24",
+            "K25"
+          ],
+          "excerpts": [
+            "旧ラベル `PILOT` の4拠点合計は、この抜粋からは確定できません。"
+          ]
+        },
+        "B5": {
+          "verdict": "pass",
+          "basis": [
+            "K22",
+            "K23",
+            "K24",
+            "K25"
+          ],
+          "excerpts": [
+            "照合資料の添付はありません（K24）",
+            "| 東 | 0件 | 当番室が `east.csv` の18行を検索（K22） |\n| 西 | 0件 | 当番室が `west.csv` の23行を検索（K23） |",
+            "北担当の個別スレッドは抜粋の収録範囲外で、照合状況と件数は不明です（K25）"
+          ]
+        }
+      },
+      "passed": 5,
+      "total": 5,
+      "ledger_present": false
+    }
+  },
+  "explicit_audit": {
+    "case": "case-c",
+    "header_and_four_headings": "pass",
+    "requested_revised_report_last": "pass",
+    "placeholder_only": "pass",
+    "zero_executions_no_verdict": "pass",
+    "png_creation_and_delivery_unconfirmed": "pass",
+    "new_assignments_in_revised_report": 0,
+    "cli": {
+      "draft_excluded": "S06",
+      "cited_block_found": 6,
+      "whole_record_only": 0,
+      "failed": 0,
+      "overlength": 0,
+      "rows_without_quotes": 0,
+      "parse_issues": 0
+    }
+  }
+}

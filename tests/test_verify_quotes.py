@@ -17,7 +17,11 @@ sys.path.insert(0, os.path.join(SKILL, "scripts"))
 import verify_quotes as vq  # noqa: E402
 
 TESTLOG_01 = os.path.join(ROOT, "evals", "testlog-01", "STRESS_CHECK_TESTLOG_01.txt")
-FIXTURE_RECORDS = [TESTLOG_01, os.path.join(ROOT, "evals", "testlog-02-clean", "TESTLOG_02.txt")]
+FIXTURE_RECORDS = [
+    TESTLOG_01,
+    os.path.join(ROOT, "evals", "testlog-02-clean", "TESTLOG_02.txt"),
+    *(os.path.join(ROOT, "evals", "kuro-v04-smoke", f"case-{case}.md") for case in "abc"),
+]
 
 
 def read(path):

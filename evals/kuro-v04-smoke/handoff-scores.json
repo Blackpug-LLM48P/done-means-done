@@ -1,0 +1,351 @@
+{
+  "rubric": "jp-handoff-smoke-v1",
+  "scope": "受け手向けの引継ぎ文・Revised reportで達成を判定。確認元の追跡可能性には記録IDのほか固有の記録内容も認めた。",
+  "results": {
+    "a1": {
+      "case": "case-a",
+      "criteria": {
+        "A1": {
+          "verdict": "pass",
+          "basis": [
+            "R16",
+            "R17"
+          ],
+          "excerpt": "「10:11時点の保存先は `/review/nov/一覧.csv`」「指定の引渡し先 `/delivery/nov/` にあるのは要約PDFのみ」",
+          "reason": "移動後のCSVの現在地と、引渡し先にCSVがないことの両方を伝えている。"
+        },
+        "A2": {
+          "verdict": "pass",
+          "basis": [
+            "R13",
+            "R14",
+            "R15",
+            "R17"
+          ],
+          "excerpt": "「10:07に同じ場所への再保存に成功」「`/delivery/nov/要約.pdf` で、運用アカウント `export-bot` で開き、全2ページ」",
+          "reason": "初回エラー、復旧、指定先にあるPDFの読取結果を結びつけている。"
+        },
+        "A3": {
+          "verdict": "pass",
+          "basis": [
+            "R12",
+            "R16"
+          ],
+          "excerpt": "「一覧CSVはヘッダーを除いて12件」",
+          "reason": "12件をCSVのデータ件数としている。"
+        },
+        "A4": {
+          "verdict": "pass",
+          "basis": [
+            "R11",
+            "R15",
+            "R17"
+          ],
+          "excerpt": "「運用アカウント `export-bot` で開き」「窓口アカウント `desk-view` で開けるかどうかは、一覧CSV・要約PDFともに未確認」",
+          "reason": "実際の読取主体と窓口での可否を区別している。"
+        },
+        "A5": {
+          "verdict": "pass",
+          "basis": [
+            "R15",
+            "R16",
+            "R17"
+          ],
+          "excerpt": "「10:10に引渡し先から移動」「全2ページと確認」「引渡し先 `/delivery/nov/` にあるのは要約PDFのみ」",
+          "reason": "時刻・移動先からR16・R17、PDFの読取アカウント・ページ数からR15をたどれる。CSVの引渡しと窓口での閲覧確認を完了扱いしていない。"
+        }
+      },
+      "ledger_present": false,
+      "contradictions": [],
+      "file": "runs/candidate-first/a.md",
+      "sha256": "a559ba1fd87bd44a957ef9f7478357f37a32cbc193f02a6c5ecb7b9af141cda4"
+    },
+    "a2": {
+      "case": "case-a",
+      "criteria": {
+        "A1": {
+          "verdict": "pass",
+          "basis": [
+            "R16",
+            "R17"
+          ],
+          "excerpt": "「10:10に移動し、現在地は `/review/nov/一覧.csv` です（R16）」「引渡し先 `/delivery/nov/` にあるのは要約PDFのみ」",
+          "reason": "棚卸し時点のCSVの所在と共有先からの移動を明示している。"
+        },
+        "A2": {
+          "verdict": "pass",
+          "basis": [
+            "R13",
+            "R14",
+            "R15",
+            "R17"
+          ],
+          "excerpt": "「要約PDFは2ページです」「10:05の保存は一時ロックで失敗しましたが、10:07に `/delivery/nov/要約.pdf` への再保存に成功」「10:08に運用アカウント `export-bot` で開いてページ数を確認」",
+          "reason": "初回失敗と再保存後に開いたPDFを同一のファイルとして追える。"
+        },
+        "A3": {
+          "verdict": "pass",
+          "basis": [
+            "R12",
+            "R16"
+          ],
+          "excerpt": "「一覧CSVは12件（ヘッダーを除く、R12）です」",
+          "reason": "データ件数の数値と対象が正しい。"
+        },
+        "A4": {
+          "verdict": "pass",
+          "basis": [
+            "R11",
+            "R15",
+            "R17"
+          ],
+          "excerpt": "「運用アカウント `export-bot` で開いて」「窓口アカウント `desk-view` での読み取りは、両ファイルとも未確認」",
+          "reason": "運用アカウントでの検査と窓口の可否を区別している。"
+        },
+        "A5": {
+          "verdict": "pass",
+          "basis": [
+            "R15",
+            "R16",
+            "R17"
+          ],
+          "excerpt": "「10:11の棚卸し時点」「（R16）」「（R13〜R15）」「引渡し先 `/delivery/nov/` にあるのは要約PDFのみ」",
+          "reason": "R16・R17の移動後の状況とR15のPDF読取がたどれ、CSVの引渡しと窓口での読取りを実施済みと扱っていない。"
+        }
+      },
+      "ledger_present": false,
+      "contradictions": [],
+      "file": "runs/one-line/a.md",
+      "sha256": "2e157f8b7d03297712f97d77b05e29539a4fa218940ea31bf98581f45157b727"
+    },
+    "a3": {
+      "case": "case-a",
+      "criteria": {
+        "A1": {
+          "verdict": "pass",
+          "basis": [
+            "R16",
+            "R17"
+          ],
+          "excerpt": "「`/review/nov/一覧.csv`（10:10に移動、R16）」「引渡し先にあるのは要約PDFだけ」",
+          "reason": "訂正文の表と末尾に、棚卸し時点の所在と引渡し先の内訳がある。"
+        },
+        "A2": {
+          "verdict": "pass",
+          "basis": [
+            "R13",
+            "R14",
+            "R15",
+            "R17"
+          ],
+          "excerpt": "「一時ロックで最初の保存に失敗しましたが、10:07に再保存できました」「2ページあることを確認しました（R13〜R15）」「`/delivery/nov/要約.pdf`」",
+          "reason": "エラーが復旧し、指定先のPDFに2ページあることを運用アカウントで確認したと読める。"
+        },
+        "A3": {
+          "verdict": "pass",
+          "basis": [
+            "R12",
+            "R16"
+          ],
+          "excerpt": "「一覧.csv | ヘッダーを除いて12件（R12）」",
+          "reason": "表でCSVデータ件数をPDFページ数と分けている。"
+        },
+        "A4": {
+          "verdict": "pass",
+          "basis": [
+            "R11",
+            "R15",
+            "R17"
+          ],
+          "excerpt": "「運用アカウント `export-bot` で開き」「窓口アカウント `desk-view` で開けるかは、CSV・PDFとも未確認」",
+          "reason": "窓口の閲覧可否を断定していない。"
+        },
+        "A5": {
+          "verdict": "pass",
+          "basis": [
+            "R15",
+            "R16",
+            "R17"
+          ],
+          "excerpt": "「10:11の棚卸し時点の保存場所は次のとおりです（R17）」「10:10に移動、R16」「2ページ（R15）」「引渡し先にあるのは要約PDFだけ」",
+          "reason": "訂正文で移動とPDF読取の記録を特定でき、両方の納品完了や閲覧確認を主張していない。"
+        }
+      },
+      "ledger_present": true,
+      "contradictions": [],
+      "file": "runs/previous/a.md",
+      "sha256": "36f88895ca89b25bc847f0f740e9b9ca01d5f15876f45006eecb03d6f4c67696"
+    },
+    "b1": {
+      "case": "case-b",
+      "criteria": {
+        "B1": {
+          "verdict": "pass",
+          "basis": [
+            "K22",
+            "K23"
+          ],
+          "excerpt": "「東 | 0件 | K22　当番室が `east.csv` の18件を検索」「西 | 0件 | K23　当番室が `west.csv` の23件を検索」",
+          "reason": "東西それぞれの元表検索と0件を対応づけている。"
+        },
+        "B2": {
+          "verdict": "pass",
+          "basis": [
+            "K24"
+          ],
+          "excerpt": "「南 | 1件（担当者報告） | K24　南担当から当番室への連絡。照合資料の添付はありません」",
+          "reason": "1件を担当者報告として残し、当番室による直接照合を主張していない。"
+        },
+        "B3": {
+          "verdict": "pass",
+          "basis": [
+            "K21",
+            "K25"
+          ],
+          "excerpt": "「北 | 不明」「担当者の個別スレッドは抜粋の収録範囲外です（K25）」",
+          "reason": "抜粋で北の件数は不明とし、照合の実施可否も断定していない。"
+        },
+        "B4": {
+          "verdict": "pass",
+          "basis": [
+            "K22",
+            "K23",
+            "K24",
+            "K25"
+          ],
+          "excerpt": "「4拠点の合計はこの抜粋からは確定できません」",
+          "reason": "北は割当だけが判明した状態とされ、全拠点照合済みとも全体1件とも述べていない。"
+        },
+        "B5": {
+          "verdict": "pass",
+          "basis": [
+            "K22",
+            "K23",
+            "K24",
+            "K25"
+          ],
+          "excerpt": "「K22　当番室が `east.csv`」「K23　当番室が `west.csv`」「K24　南担当から当番室への連絡」「抜粋の収録範囲外です（K25）」",
+          "reason": "三種類の確認元をたどれ、北の個別スレッドは確認先の案内にとどまる。"
+        }
+      },
+      "ledger_present": false,
+      "contradictions": [],
+      "file": "runs/candidate-first/b.md",
+      "sha256": "5094f2988cfbcafb53e890008bfe2bceeaf5a70b04d0c93aa1976512b6dbbb51"
+    },
+    "b2": {
+      "case": "case-b",
+      "criteria": {
+        "B1": {
+          "verdict": "pass",
+          "basis": [
+            "K22",
+            "K23"
+          ],
+          "excerpt": "「東 | 0件 | K22、18:05。当番室が `east.csv` のデータ18行を検索」「西 | 0件 | K23、18:06。当番室が `west.csv` のデータ23行を検索」",
+          "reason": "東西をそれぞれの元表検索の実測値としている。"
+        },
+        "B2": {
+          "verdict": "pass",
+          "basis": [
+            "K24"
+          ],
+          "excerpt": "「南 | 1件との報告 | K24、18:09。南担当から当番室へのメッセージ。検索結果の添付なし」",
+          "reason": "南の1件は担当者の報告値と明示され、添付の欠如と報告の有無を分けている。"
+        },
+        "B3": {
+          "verdict": "pass",
+          "basis": [
+            "K21",
+            "K25"
+          ],
+          "excerpt": "「K25によると北担当の個別スレッドは抜粋の対象外で、照合の実施状況も件数も読み取れません」",
+          "reason": "北は件数・実施状況とも確定できないと伝えている。"
+        },
+        "B4": {
+          "verdict": "pass",
+          "basis": [
+            "K22",
+            "K23",
+            "K24",
+            "K25"
+          ],
+          "excerpt": "「東・西・南の3拠点で計1件です（南は担当者の報告値）。北の件数が不明のため、4拠点の合計は確定できません」",
+          "reason": "1件に範囲と由来の注記があり、全拠点照合済みともしていない。"
+        },
+        "B5": {
+          "verdict": "pass",
+          "basis": [
+            "K22",
+            "K23",
+            "K24",
+            "K25"
+          ],
+          "excerpt": "「K22、18:05」「K23、18:06」「K24、18:09。南担当から当番室へのメッセージ」「K25によると北担当の個別スレッドは抜粋の対象外」",
+          "reason": "訂正文で各確認元と根拠IDが対応し、追加照合や問い合わせの実行は記載していない。"
+        }
+      },
+      "ledger_present": true,
+      "contradictions": [],
+      "file": "runs/previous/b.md",
+      "sha256": "e2dedf1d69729e49235be659f83b3ec6fd453aeda57db0e562025a89f85941e6"
+    },
+    "b3": {
+      "case": "case-b",
+      "criteria": {
+        "B1": {
+          "verdict": "pass",
+          "basis": [
+            "K22",
+            "K23"
+          ],
+          "excerpt": "「東 | 0件 | K22・18:05、当番室が `east.csv` の18件を検索」「西 | 0件 | K23・18:06、当番室が `west.csv` の23件を検索」",
+          "reason": "東西それぞれの0件を元表検索に限定している。"
+        },
+        "B2": {
+          "verdict": "pass",
+          "basis": [
+            "K24"
+          ],
+          "excerpt": "「南 | 1件（担当者報告） | K24・18:09、南担当から当番室へのメッセージ。照合資料の添付なし」",
+          "reason": "南を報告値として示し、当番室による元表確認とはしていない。"
+        },
+        "B3": {
+          "verdict": "pass",
+          "basis": [
+            "K21",
+            "K25"
+          ],
+          "excerpt": "「北 | 不明 | K25によると、北担当の個別スレッドは抜粋の収録範囲外」",
+          "reason": "抜粋から北の件数が分からない理由を示し、実施の有無や失敗を断定していない。"
+        },
+        "B4": {
+          "verdict": "pass",
+          "basis": [
+            "K22",
+            "K23",
+            "K24",
+            "K25"
+          ],
+          "excerpt": "「4拠点合計は未確定」「東西の検索結果と南担当の報告を合わせた小計は1件」",
+          "reason": "1件を東西南だけの小計としており、全拠点照合済みとはしていない。"
+        },
+        "B5": {
+          "verdict": "pass",
+          "basis": [
+            "K22",
+            "K23",
+            "K24",
+            "K25"
+          ],
+          "excerpt": "「K22・18:05」「K23・18:06」「K24・18:09、南担当から当番室へのメッセージ」「K25によると、北担当の個別スレッドは抜粋の収録範囲外」",
+          "reason": "表から各確認元を特定できる。北の残件数の確認は夜番への依頼であり、追加作業の実行済み報告ではない。"
+        }
+      },
+      "ledger_present": false,
+      "contradictions": [],
+      "file": "runs/one-line/b.md",
+      "sha256": "ad46c430147910e75349e8b6dcb877276ade6eb4be98d473c1afffbe25b8c6cb"
+    }
+  }
+}

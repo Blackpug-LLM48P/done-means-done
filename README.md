@@ -4,7 +4,7 @@
 
 An experimental agent skill that checks an AI agent's report against the session record **before** it says "done", then rewrites the report to match the evidence.
 
-**Status:** repair candidate (v0.3.1), not newly effect-tested. One small evaluation of the earlier version found no advantage on the main counters (see [evals/README.md](evals/README.md)). See [DESIGN.md](skills/report-reality-check/DESIGN.md) for the evaluation plan and kill criteria.
+**Status:** Kuro-Pug v0.4 candidate, based on the v0.3.1 repair. See the [Japanese handoff and audit examples](evals/kuro-v04-smoke/README.md) for the candidate's outputs. In a [24-output comparison of v0.3.1](https://github.com/Blackpug-LLM48P/done-means-done/blob/aa05400eb20258a03e9ff655d59dfb1fbf1edcfe/evals/forward-v031-20261117/README.md), the main error counts tied across all three conditions. The median full response was 4,917 characters with the skill and 976.5 with a one-line instruction. The comparison used static records.
 
 ## The problem
 
@@ -20,11 +20,15 @@ Agents often report more than they did:
 
 `report-reality-check` runs right before a completion claim or a handoff:
 
-1. **Extract** every claim in the draft report: quantity, state, verification, scope, hearsay, remaining work.
+1. **Read the request and the outgoing draft.** Identify the agreed deliverables, then extract the draft's claims about quantity, state, verification, scope, hearsay and remaining work. A requested item can disappear from both the draft and the work log.
 2. **Reconcile** each claim with the record — SUPPORTED, CONTRADICTED, UNVERIFIED, or OMITTED — with a short verbatim quote as evidence.
 3. **Rewrite** the report so it says only what the record supports.
 
 It instructs the evaluator not to redo the work. Read-only probes, such as listing files or `git status`, are allowed.
+
+For an ordinary delivery, send the corrected report in the recipient's language. For an explicit audit or a workflow that consumes the ledger, use the detailed format in [SKILL.md](skills/report-reality-check/SKILL.md). A filename, a worker's report and a successful read of the requested file support different claims.
+
+For example, if the user requested copy and a cover image, and only the copy has a readback, the delivery can say 「原稿は指定先で開けました。表紙画像の納品は記録から確認できません。」 A later successful readback of the cover at the agreed destination resolves that item.
 
 Before:
 
@@ -48,11 +52,13 @@ Copy `skills/report-reality-check/` into your agent's skills directory. Copy the
 
 The idea started as "AI Stress Check" (AI用ストレスチェック), a checklist loosely inspired by the Japanese Brief Job Stress Questionnaire (職業性ストレス簡易調査票). The original Japanese versions are in [`origin/`](origin/). Their 12-item work-state check survives here as an optional extended check.
 
+Two design references informed the check against the original request, [OpenAI Codex's completion audit](https://github.com/openai/codex/blob/0bfb8467da6ace1d0628f36fcda905084d3e0e96/codex-rs/ext/goal/templates/goals/continuation.md#L31-L40) and [GitHub Spec Kit's acceptance criteria inventory](https://github.com/github/spec-kit/blob/a4d571229e164e440f8950cac034607bae7b7518/templates/commands/converge.md#L133-L166). The skill runs without either project.
+
 ## Repository layout
 
 ```
 skills/report-reality-check/   the skill: SKILL.md, references/, scripts/, DESIGN.md
-evals/                         planted logs and answer keys (see evals/README.md); one pilot of the earlier version; no new effect test of these repairs
+evals/                         evaluation instructions, fixtures and versioned development checks
 tests/                         tests for scripts/verify_quotes.py
 origin/                        AI Stress Check v0.1–v0.2 (Japanese)
 ```

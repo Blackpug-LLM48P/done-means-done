@@ -1,6 +1,6 @@
 # report-reality-check — Design notes (v0.3 prototype)
 
-Status: prototype. One small evaluation (2026-11-17) found no added effect on the main metrics; see `evals/README.md`. A1 and A2 remain unresolved.
+These notes describe the original v0.3 design and evaluation plan. The current candidate's reporting contract is in [SKILL.md](SKILL.md). Results by version are indexed in [the evaluation notes](../../evals/README.md).
 Previous name: "AI Stress Check" (AI用ストレスチェック v0.1–v0.2, Japanese).
 
 ## 1. Background

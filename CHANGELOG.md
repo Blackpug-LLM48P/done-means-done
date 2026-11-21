@@ -2,6 +2,12 @@
 
 Versions are the prototype versions written in SKILL.md.
 
+## v0.4 — candidate, 2026-11-21
+
+- Reconcile the original request and its agreed revisions with the final message. Keep worker reports attributed and close a past failure when later evidence covers the same deliverable.
+- Return a concise delivery in the recipient's language for routine work. Retain the detailed evidence ledger for audits and its existing consumers.
+- Clarify how the quote checker handles record IDs and versions mentioned in prose. Cover both the frozen v0.3.1 false alarm and genuine source IDs that resemble versions.
+
 ## v0.3.1 — repair candidate, 2026-11-17
 
 Follow-up review of PR #3 at `3905cc7`:

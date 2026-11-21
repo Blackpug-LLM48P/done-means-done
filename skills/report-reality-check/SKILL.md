@@ -62,6 +62,8 @@ For the detailed format, begin with this exact header and keep the four section 
 
 Write the message the recipient can use in place of the draft.
 
+State outstanding work as its current status. Keep new assignments, requests to run checks and proposed next steps in Suggestions unless the user expressly requests an action plan in the handoff. The revised report itself must be usable when copied on its own.
+
 ### Suggestions (not executed)
 
 Include up to three relevant observations with their implications and a possible check within existing permissions.
