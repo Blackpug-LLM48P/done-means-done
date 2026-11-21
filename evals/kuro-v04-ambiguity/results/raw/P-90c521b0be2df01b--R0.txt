@@ -1,0 +1,11 @@
+{
+  "findings": [
+    {
+      "sentence_id": 2,
+      "quote": "写し取る工程で",
+      "reason": "原票では、転写と検査のうち投影機を使ったのは検査工程だけです。",
+      "checked_refs": ["2783a07d7b"],
+      "replacement": "検査する工程でのみ"
+    }
+  ]
+}

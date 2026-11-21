@@ -1,0 +1,130 @@
+{
+  "condition": "R0",
+  "dispatch_order": 74,
+  "meta": {
+    "apply_elapsed_ns": 317740,
+    "assistant_messages": 1,
+    "attempt_id": "999c2601-7cbd-461d-9534-19fa283eab4f",
+    "cli_finished_unix_ns": 1795238595461372788,
+    "cli_started_unix_ns": 1795238581074551760,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 14387,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795238595463873028,
+    "isolation": {
+      "empty_cwd": true,
+      "intake_private_dir_present_on_host": true,
+      "intake_private_path_hidden": true,
+      "positive_read": true,
+      "proc_root_aliases_checked": true,
+      "repository_read_denied": true,
+      "sample_key_read_denied": true,
+      "sandbox": "bubblewrap",
+      "study_read_denied": true,
+      "units_file_probed": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/raw/P-b427dd068286a25f--R0.txt",
+    "raw_sha256": "bd6be9069e83f90f97ea330c5daff8d4d9234eec44c62fa7daaaff3575d8ef00",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13225,
+        "output_tokens": 281,
+        "reasoning_output_tokens": 157,
+        "total_tokens": 13506
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13225,
+        "output_tokens": 281,
+        "reasoning_output_tokens": 157,
+        "total_tokens": 13506
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc8e-d418-7df3-a94d-6b4405251f38",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13225,
+      "output_tokens": 281,
+      "reasoning_output_tokens": 157
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13225,
+      "output_tokens": 281,
+      "reasoning_output_tokens": 157
+    }
+  },
+  "packet_sha256": "54128cd205cdc7747aa9795bc8f358bc26f24f827c36a70a8a6fc3b7c974667b",
+  "prompt_sha256": "b971237b2daa51d180d197d73986eb9520657ebc500a5bd56fabdb2499c4a441",
+  "raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"選定したのは11月6日\",\n      \"reason\": \"11月6日は事務局が講師を発表した日で、業務日誌には委員会が講師を選定した日付の記載はありません。\",\n      \"checked_refs\": [\"X5\"],\n      \"replacement\": \"選定し、事務局がその講師を発表したのは11月6日\"\n    }\n  ]\n}",
+  "trace": {
+    "as_of": "2026-11-16T17:00:00+09:00",
+    "case_id": "PH-269",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "X5"
+        ],
+        "end": 42,
+        "quote": "選定したのは11月6日",
+        "reason": "11月6日は事務局が講師を発表した日で、業務日誌には委員会が講師を選定した日付の記載はありません。",
+        "replacement": "選定し、事務局がその講師を発表したのは11月6日",
+        "sentence_id": 2,
+        "start": 31
+      }
+    ],
+    "original_body": "会場は楓ホールです。定員40人の講演会について、委員会が講師を選定したのは11月6日です。",
+    "packet_sha256": "54128cd205cdc7747aa9795bc8f358bc26f24f827c36a70a8a6fc3b7c974667b",
+    "proposed_body": "会場は楓ホールです。定員40人の講演会について、委員会が講師を選定し、事務局がその講師を発表したのは11月6日です。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"選定したのは11月6日\",\n      \"reason\": \"11月6日は事務局が講師を発表した日で、業務日誌には委員会が講師を選定した日付の記載はありません。\",\n      \"checked_refs\": [\"X5\"],\n      \"replacement\": \"選定し、事務局がその講師を発表したのは11月6日\"\n    }\n  ]\n}",
+    "revision": "r3",
+    "sentences": [
+      {
+        "end": 10,
+        "id": 1,
+        "start": 0,
+        "text": "会場は楓ホールです。"
+      },
+      {
+        "end": 45,
+        "id": 2,
+        "start": 10,
+        "text": "定員40人の講演会について、委員会が講師を選定したのは11月6日です。"
+      }
+    ],
+    "source_sha256": "57447438cd8d7ce477f9c397a434b1ec49dc413e068b05d849a4755811051490",
+    "status": "flagged"
+  },
+  "unit_id": "P-b427dd068286a25f"
+}

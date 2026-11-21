@@ -1,0 +1,269 @@
+{
+  "T-0524f50b3e71d473b87355a9d4db2830": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "委員会が講師を選定し、事務局がその講師を発表したのは11月6日",
+        "reason": "選定と発表の両方を11月6日の出来事としても読める。日誌が日付を明記するのは発表だけ。"
+      }
+    ]
+  },
+  "T-1afca5f4a6f9279b66c214d4981fc848": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      4
+    ],
+    "issues": [
+      {
+        "sentence_id": 4,
+        "quote": "副店長本人の氏名",
+        "reason": "記録の「自分」は、記入する副店長のほか、依頼した店長をも指し得る。"
+      }
+    ]
+  },
+  "T-244cfa37d3a5f5ed0c4f1755c6a0b508": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "図柄を写し取る工程で投影機を使いました",
+        "reason": "記録では投影機は検査に使われ、使用した工程は片方だけとされている。"
+      }
+    ]
+  },
+  "T-35831bf1d5215d1ed276316ee1e4a248": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-42bd74d311e0291c9c56bc1951c4c9fc": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-48ffa206e702a13dbca3fb310735dad0": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-55a6bf0b816f392678345f2e0c95780b": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      1
+    ],
+    "issues": [
+      {
+        "sentence_id": 1,
+        "quote": "別館でカメラに収めました",
+        "reason": "別館と確認できるのは展示台の組み立て場所。撮影場所の記載はない。"
+      }
+    ]
+  },
+  "T-5e617844c8987a3487bfb5ef135f7ada": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-6aef966c9c99fa6e5f92d97ffd4d0489": {
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-726a88f4d7c42abef63580c0c25b3c88": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-7d06851542315f3a7f3645b323b1007b": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      1
+    ],
+    "issues": [
+      {
+        "sentence_id": 1,
+        "quote": "別館で展示台を組み立てました",
+        "reason": "メモの「別館で」は撮影場所に掛けても読めるため、組み立て場所までは特定できない。"
+      }
+    ]
+  },
+  "T-7f88756d1535c248cc8ea8c48a6bb727": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "委員会が講師を選定したのは11月6日",
+        "reason": "日誌の「11月6日に」は事務局による発表にも掛かり、委員会による選定日とは確定できない。"
+      }
+    ]
+  },
+  "T-89aa16bd4e87b67d6ad218d558d452bc": {
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      1
+    ],
+    "issues": [
+      {
+        "sentence_id": 1,
+        "quote": "『つばめ宿』から受領した",
+        "reason": "依頼は「『つばめ宿』で借りた」としており、帽子を引き渡した相手が『つばめ宿』だとは確認できない。"
+      }
+    ]
+  },
+  "T-8c7d34f21cba05b333a988d26047f3b9": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-9244795537ecf436bd264ebbdb9125b2": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-993d93e9932a6d272f690bcaa7313d04": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-b350fb28ebec326574466306c301769a": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-bb60d25e90154f0e5ccd937adccc9097": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-c4d34db4e23954dde295e61855fb5075": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-cc17bc5022f28c8a2aaab44e6eedd1e9": {
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-df77a24f5a9d5edb77f2bb4b18645007": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      1
+    ],
+    "issues": [
+      {
+        "sentence_id": 1,
+        "quote": "別館で展示台を組み立てた職人の姿",
+        "reason": "本文では別館を組み立て場所と読める一方、メモの「別館で」は撮影場所にも掛かる。場所の対応を確定できないことが伝わらない。"
+      }
+    ]
+  },
+  "T-ea04777d91f1ea136b945f3c9adf5a86": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-f3d0fc2ea056b6d5e9b319031a2e6138": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-fe27c3f867317c54ac60c6182d994b74": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "委員会が講師を選定し、その講師を事務局が発表したのは11月6日",
+        "reason": "二つの行為を一続きにしており、選定も11月6日に行われたと読める。日誌でこの日付が確かなのは発表だけ。"
+      }
+    ]
+  }
+}

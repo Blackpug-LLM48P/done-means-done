@@ -1,0 +1,130 @@
+{
+  "condition": "R0",
+  "dispatch_order": 48,
+  "meta": {
+    "apply_elapsed_ns": 678546,
+    "assistant_messages": 1,
+    "attempt_id": "6d976ad0-f3f1-45be-89cd-d959ff10807b",
+    "cli_finished_unix_ns": 1795238520029227408,
+    "cli_started_unix_ns": 1795238505323944727,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 14705,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795238520032903069,
+    "isolation": {
+      "empty_cwd": true,
+      "intake_private_dir_present_on_host": true,
+      "intake_private_path_hidden": true,
+      "positive_read": true,
+      "proc_root_aliases_checked": true,
+      "repository_read_denied": true,
+      "sample_key_read_denied": true,
+      "sandbox": "bubblewrap",
+      "study_read_denied": true,
+      "units_file_probed": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/raw/P-e445f06d6c970951--R0.txt",
+    "raw_sha256": "ce62bd6aba3bee91e67bc4b5c4d711eee703540fb28ee2b7ac683686292f2a60",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13081,
+        "output_tokens": 320,
+        "reasoning_output_tokens": 195,
+        "total_tokens": 13401
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13081,
+        "output_tokens": 320,
+        "reasoning_output_tokens": 195,
+        "total_tokens": 13401
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc8d-abe6-7db2-af91-80cec30cdba7",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13081,
+      "output_tokens": 320,
+      "reasoning_output_tokens": 195
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13081,
+      "output_tokens": 320,
+      "reasoning_output_tokens": 195
+    }
+  },
+  "packet_sha256": "778b6cbc8b7f9cd076eefe8e98ee6ccb1a43190f80e6e72bb8507cdfb75e5dd1",
+  "prompt_sha256": "8d4dcb34edfa7838a681cc1a94cb1f9a6a3404bc2e4dfa7e038fac4a2408d148",
+  "raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"展示台を組み立てた職人の姿を別館で\",\n      \"reason\": \"取材メモが別館と明記しているのは展示台の組み立て場所です。職人を撮影した場所は記載されていません。\",\n      \"checked_refs\": [\"J7\"],\n      \"replacement\": \"別館で展示台を組み立てた職人の姿を\"\n    }\n  ]\n}",
+  "trace": {
+    "as_of": "2026-11-10T17:00:00+09:00",
+    "case_id": "QC-317",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "J7"
+        ],
+        "end": 26,
+        "quote": "展示台を組み立てた職人の姿を別館で",
+        "reason": "取材メモが別館と明記しているのは展示台の組み立て場所です。職人を撮影した場所は記載されていません。",
+        "replacement": "別館で展示台を組み立てた職人の姿を",
+        "sentence_id": 1,
+        "start": 9
+      }
+    ],
+    "original_body": "広報誌の春号用に、展示台を組み立てた職人の姿を別館でカメラに収めました。納品した写真は4点です。",
+    "packet_sha256": "778b6cbc8b7f9cd076eefe8e98ee6ccb1a43190f80e6e72bb8507cdfb75e5dd1",
+    "proposed_body": "広報誌の春号用に、別館で展示台を組み立てた職人の姿をカメラに収めました。納品した写真は4点です。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"展示台を組み立てた職人の姿を別館で\",\n      \"reason\": \"取材メモが別館と明記しているのは展示台の組み立て場所です。職人を撮影した場所は記載されていません。\",\n      \"checked_refs\": [\"J7\"],\n      \"replacement\": \"別館で展示台を組み立てた職人の姿を\"\n    }\n  ]\n}",
+    "revision": "r3",
+    "sentences": [
+      {
+        "end": 36,
+        "id": 1,
+        "start": 0,
+        "text": "広報誌の春号用に、展示台を組み立てた職人の姿を別館でカメラに収めました。"
+      },
+      {
+        "end": 48,
+        "id": 2,
+        "start": 36,
+        "text": "納品した写真は4点です。"
+      }
+    ],
+    "source_sha256": "f284f6a33ec98e07ad6cbfb871de5a96436a72e5b50fd6e47d78ffa53c781d8c",
+    "status": "flagged"
+  },
+  "unit_id": "P-e445f06d6c970951"
+}

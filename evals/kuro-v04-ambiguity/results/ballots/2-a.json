@@ -1,0 +1,244 @@
+{
+  "T-01089cb298ecddeb87ef8edb00905abd": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-1319fb78e3afbd267e97b1ef9a72d5ba": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-1c47e93e6b61dd3fe44d9f61e1539aa5": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-326f1850bc08da2328c081ecf764b5cf": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-3b1502be3c3971e786869f6f35b16dce": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-46d4fb9199e4b234a5a7219a9151e7fc": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      4
+    ],
+    "issues": [
+      {
+        "sentence_id": 4,
+        "quote": "店長本人の氏名",
+        "reason": "記録が指定するのは副店長本人の氏名です。"
+      }
+    ]
+  },
+  "T-4d0ff8abf14023176798c1be2340574b": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-5ade20e35f1aed6849e49e6a4784594b": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "図柄を検査する工程で投影機を使いました",
+        "reason": "記録では投影機を使ったのは転写だけで、検査には使っていません。"
+      }
+    ]
+  },
+  "T-671bca86cae091a181afb0e526475abd": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-71fef652163cdf1947a9ec8795990233": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-757f13124b575868dbbd8ff6d79ea775": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-7f3afb3dd4564692a8fc5891ee26746e": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      1
+    ],
+    "issues": [
+      {
+        "sentence_id": 1,
+        "quote": "別館で展示台を組み立てた職人の姿をカメラに収めました",
+        "reason": "別館で撮影したとも読めますが、記録で別館と確認できるのは展示台の組み立て場所です。"
+      }
+    ]
+  },
+  "T-8766221550af438000033b59fed7417f": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-8c5d472a04ebbc13cdc6a81f413079e5": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "事務局が講師名を公表したのは11月6日",
+        "reason": "11月6日は委員会が講師を選んだ日です。公表日を指定した記録はありません。"
+      }
+    ]
+  },
+  "T-90478662a4abc1b78c53072553a6ec55": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-9668dafb518fe5e8499a3c836e185f2d": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-b26730f9f39a7c29959428f0d2343ab2": {
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-badd1d41b1ae2ee72f60da6f5104ba61": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-bd814953033c6d59fc169b3409f92503": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-c5c5f14372f5acefe3d1ea87577da300": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-de040c81717d04a635433927c3084a5a": {
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-e77ed9971e17c14929d5188cb920bd94": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-f32ab609699a1ed55276a8101d2d332d": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "緑町公民館で変更を発表した",
+        "reason": "原文の「ここで」は変更案内を受け取った場所にも掛かります。委員会の発表場所まで特定できません。"
+      }
+    ]
+  },
+  "T-fcd43e99d9406bc7d18172d06101e33b": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "事務局が講師名を公表したのは11月6日",
+        "reason": "日誌の「11月6日」は講師の選定日とも公表日とも読めるため、公表日と特定できません。"
+      }
+    ]
+  }
+}

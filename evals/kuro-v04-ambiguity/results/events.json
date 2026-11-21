@@ -1,0 +1,4577 @@
+[
+  {
+    "unit_id": "A2948",
+    "condition": "R0",
+    "group": "diagnostic",
+    "family_id": "J7814",
+    "source_role": "diagnostic",
+    "body_role": "diagnostic",
+    "core": null,
+    "reference": null,
+    "reference_cited_on_target": null,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "e1afc64548316a8b5b8de1b7e3ce92518b648bb9b1b93eeedaff9e1179a533bf",
+    "packet_sha256": "d7f971fd0cb383aef05ee4db96513f5ba86fb26d1adab2fd589da315c37b8525",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": false,
+    "expected_sentences": [],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [
+        2
+      ],
+      "fn": [],
+      "tn": [
+        1,
+        3
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "fp",
+    "decision_correct": false,
+    "detection_pass": false,
+    "correction_pass": false,
+    "changed": true,
+    "unrelated_edited_sentences": [
+      2
+    ],
+    "clean_body_changed": true,
+    "candidate_bad_sentence_ids": [
+      2
+    ],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": [],
+    "blind_semantic_comparison": {
+      "expected_sentences": [
+        2
+      ],
+      "predicted_sentences": [
+        2
+      ],
+      "core_hit": null,
+      "sentence_confusion": {
+        "tp": [
+          2
+        ],
+        "fp": [],
+        "fn": [],
+        "tn": [
+          1,
+          3
+        ],
+        "unclassified_positive": [],
+        "unclassified_negative": []
+      },
+      "body_confusion": "tp",
+      "decision_correct": true,
+      "detection_pass": true,
+      "correction_pass": false,
+      "changed": true,
+      "unrelated_edited_sentences": [],
+      "clean_body_changed": false,
+      "candidate_bad_sentence_ids": [
+        2
+      ],
+      "missing_candidate_fact_indices": [],
+      "lost_fact_indices": []
+    }
+  },
+  {
+    "unit_id": "A2948",
+    "condition": "R1",
+    "group": "diagnostic",
+    "family_id": "J7814",
+    "source_role": "diagnostic",
+    "body_role": "diagnostic",
+    "core": null,
+    "reference": null,
+    "reference_cited_on_target": null,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "e1afc64548316a8b5b8de1b7e3ce92518b648bb9b1b93eeedaff9e1179a533bf",
+    "packet_sha256": "d7f971fd0cb383aef05ee4db96513f5ba86fb26d1adab2fd589da315c37b8525",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": false,
+    "expected_sentences": [],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [
+        2
+      ],
+      "fn": [],
+      "tn": [
+        1,
+        3
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "fp",
+    "decision_correct": false,
+    "detection_pass": false,
+    "correction_pass": false,
+    "changed": true,
+    "unrelated_edited_sentences": [
+      2
+    ],
+    "clean_body_changed": true,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": [],
+    "blind_semantic_comparison": {
+      "expected_sentences": [
+        2
+      ],
+      "predicted_sentences": [
+        2
+      ],
+      "core_hit": null,
+      "sentence_confusion": {
+        "tp": [
+          2
+        ],
+        "fp": [],
+        "fn": [],
+        "tn": [
+          1,
+          3
+        ],
+        "unclassified_positive": [],
+        "unclassified_negative": []
+      },
+      "body_confusion": "tp",
+      "decision_correct": true,
+      "detection_pass": true,
+      "correction_pass": true,
+      "changed": true,
+      "unrelated_edited_sentences": [],
+      "clean_body_changed": false,
+      "candidate_bad_sentence_ids": [],
+      "missing_candidate_fact_indices": [],
+      "lost_fact_indices": []
+    }
+  },
+  {
+    "unit_id": "H-01",
+    "condition": "R0",
+    "group": "historical",
+    "family_id": "T2K7F",
+    "source_role": "historical",
+    "body_role": "historical",
+    "core": null,
+    "reference": null,
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "5ee8deb88602337e254fc5b12468326949086abd05088cf3df3024d28bc6078f",
+    "packet_sha256": "2e1fe7e27710952ef00b94043f8ef94d020d1cd176155f734be9772f51b3483c",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "H-01",
+    "condition": "R1",
+    "group": "historical",
+    "family_id": "T2K7F",
+    "source_role": "historical",
+    "body_role": "historical",
+    "core": null,
+    "reference": null,
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "5ee8deb88602337e254fc5b12468326949086abd05088cf3df3024d28bc6078f",
+    "packet_sha256": "2e1fe7e27710952ef00b94043f8ef94d020d1cd176155f734be9772f51b3483c",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "H-02",
+    "condition": "R0",
+    "group": "historical",
+    "family_id": "T2K7F",
+    "source_role": "historical",
+    "body_role": "historical",
+    "core": "から",
+    "reference": null,
+    "reference_cited_on_target": null,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "5ee8deb88602337e254fc5b12468326949086abd05088cf3df3024d28bc6078f",
+    "packet_sha256": "41347611fdda9338cefce91df77beab84ca9bfb756e1345b7cf468d318d137ee",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_facts": [
+      true,
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      1
+    ],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        1
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "H-02",
+    "condition": "R1",
+    "group": "historical",
+    "family_id": "T2K7F",
+    "source_role": "historical",
+    "body_role": "historical",
+    "core": "から",
+    "reference": null,
+    "reference_cited_on_target": null,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "5ee8deb88602337e254fc5b12468326949086abd05088cf3df3024d28bc6078f",
+    "packet_sha256": "41347611fdda9338cefce91df77beab84ca9bfb756e1345b7cf468d318d137ee",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_facts": [
+      true,
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      1
+    ],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        1
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "H-03",
+    "condition": "R0",
+    "group": "historical",
+    "family_id": "T2K7F",
+    "source_role": "historical",
+    "body_role": "historical",
+    "core": null,
+    "reference": null,
+    "reference_cited_on_target": null,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "5ee8deb88602337e254fc5b12468326949086abd05088cf3df3024d28bc6078f",
+    "packet_sha256": "7392f17f6e69bad487b6b6af4b4cdb996deacc6e316b435474a59fa600a58054",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [
+        1
+      ],
+      "fn": [],
+      "tn": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "fp",
+    "decision_correct": false,
+    "detection_pass": false,
+    "correction_pass": false,
+    "changed": true,
+    "unrelated_edited_sentences": [
+      1
+    ],
+    "clean_body_changed": true,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "H-03",
+    "condition": "R1",
+    "group": "historical",
+    "family_id": "T2K7F",
+    "source_role": "historical",
+    "body_role": "historical",
+    "core": null,
+    "reference": null,
+    "reference_cited_on_target": null,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "5ee8deb88602337e254fc5b12468326949086abd05088cf3df3024d28bc6078f",
+    "packet_sha256": "7392f17f6e69bad487b6b6af4b4cdb996deacc6e316b435474a59fa600a58054",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [
+        1
+      ],
+      "fn": [],
+      "tn": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "fp",
+    "decision_correct": false,
+    "detection_pass": false,
+    "correction_pass": false,
+    "changed": true,
+    "unrelated_edited_sentences": [
+      1
+    ],
+    "clean_body_changed": true,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "H-04",
+    "condition": "R0",
+    "group": "historical",
+    "family_id": "T2K7F",
+    "source_role": "historical",
+    "body_role": "historical",
+    "core": "から",
+    "reference": null,
+    "reference_cited_on_target": null,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "5ee8deb88602337e254fc5b12468326949086abd05088cf3df3024d28bc6078f",
+    "packet_sha256": "a437cdec3caf671a8c8a3b95f7efa2cd2a0a150e029aa28bd14803f283ecc703",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_facts": [
+      true,
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      1
+    ],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        1
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "H-04",
+    "condition": "R1",
+    "group": "historical",
+    "family_id": "T2K7F",
+    "source_role": "historical",
+    "body_role": "historical",
+    "core": "から",
+    "reference": null,
+    "reference_cited_on_target": null,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "5ee8deb88602337e254fc5b12468326949086abd05088cf3df3024d28bc6078f",
+    "packet_sha256": "a437cdec3caf671a8c8a3b95f7efa2cd2a0a150e029aa28bd14803f283ecc703",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_facts": [
+      true,
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      1
+    ],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        1
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-0ad89fff0c785568",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "ambiguous",
+    "body_role": "a",
+    "core": "11月6日",
+    "reference": "X5",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "789c5783554e7e7441e5bdd5364d4b0c76e7c0579b97a0863f380491fd2ef358",
+    "packet_sha256": "048ab3b14ff74b72abefd9043425632ca3c6e44498dc317ba63d4e3f7b374884",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-0ad89fff0c785568",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "ambiguous",
+    "body_role": "a",
+    "core": "11月6日",
+    "reference": "X5",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "789c5783554e7e7441e5bdd5364d4b0c76e7c0579b97a0863f380491fd2ef358",
+    "packet_sha256": "048ab3b14ff74b72abefd9043425632ca3c6e44498dc317ba63d4e3f7b374884",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-0e9695e4492129d1",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "ambiguous",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "5b2fa1128817eb74a791064694d586b9e8742b2b1175ae83e8b284b75f1e921d",
+    "packet_sha256": "14b5241dcd54e05377fdd28e3699e9efbdf8d2abc54786fb890d8e64a1f0de01",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-0e9695e4492129d1",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "ambiguous",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "5b2fa1128817eb74a791064694d586b9e8742b2b1175ae83e8b284b75f1e921d",
+    "packet_sha256": "14b5241dcd54e05377fdd28e3699e9efbdf8d2abc54786fb890d8e64a1f0de01",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-1a55d0c7c3174ef8",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "ambiguous",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "X5",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "789c5783554e7e7441e5bdd5364d4b0c76e7c0579b97a0863f380491fd2ef358",
+    "packet_sha256": "b3510932233c79cf1bcee43a4838bc2d5f108ca864361d1532f351ecda1c5ff9",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-1a55d0c7c3174ef8",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "ambiguous",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "X5",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "789c5783554e7e7441e5bdd5364d4b0c76e7c0579b97a0863f380491fd2ef358",
+    "packet_sha256": "b3510932233c79cf1bcee43a4838bc2d5f108ca864361d1532f351ecda1c5ff9",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-1b6bd8f8a8630768",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "b",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "ac441b2396f9c5bec1445818e2751c49d34f034c3a2edd2e8b6b3645fea12dad",
+    "packet_sha256": "f1542930d632bb598c2fe51db0a8fff5ef21066d39dfa7482fa816a8e22f9595",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-1b6bd8f8a8630768",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "b",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "ac441b2396f9c5bec1445818e2751c49d34f034c3a2edd2e8b6b3645fea12dad",
+    "packet_sha256": "f1542930d632bb598c2fe51db0a8fff5ef21066d39dfa7482fa816a8e22f9595",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-226b9414d635fd33",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "b",
+    "body_role": "b",
+    "core": null,
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "4ead821750e893fcdcc4e7535afbaf423fbc32f1917406816f8a983cd16063b1",
+    "packet_sha256": "aac944603ccbb79a12456e2a39cf818b6167cf9f8532c4081ec767918082dc8e",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-226b9414d635fd33",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "b",
+    "body_role": "b",
+    "core": null,
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "4ead821750e893fcdcc4e7535afbaf423fbc32f1917406816f8a983cd16063b1",
+    "packet_sha256": "aac944603ccbb79a12456e2a39cf818b6167cf9f8532c4081ec767918082dc8e",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-2fd5c8dd1739176a",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "a",
+    "body_role": "a",
+    "core": null,
+    "reference": "J7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "f284f6a33ec98e07ad6cbfb871de5a96436a72e5b50fd6e47d78ffa53c781d8c",
+    "packet_sha256": "3d5352633ae91dba3bd0299fd9c8fc8e4a2ed772e8a1914ae118fd350a65f801",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-2fd5c8dd1739176a",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "a",
+    "body_role": "a",
+    "core": null,
+    "reference": "J7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "f284f6a33ec98e07ad6cbfb871de5a96436a72e5b50fd6e47d78ffa53c781d8c",
+    "packet_sha256": "3d5352633ae91dba3bd0299fd9c8fc8e4a2ed772e8a1914ae118fd350a65f801",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-32e139d7bbb76c5e",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "ambiguous",
+    "body_role": "b",
+    "core": "頼んだのは副店長本人の氏名",
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "5b2fa1128817eb74a791064694d586b9e8742b2b1175ae83e8b284b75f1e921d",
+    "packet_sha256": "65e888518c5c19d14de14433d8122ea8443b04bf3590ffddf87f8f14ddb12f5f",
+    "original_bad_by_blind": [
+      4
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      4
+    ],
+    "predicted_sentences": [
+      4
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        4
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-32e139d7bbb76c5e",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "ambiguous",
+    "body_role": "b",
+    "core": "頼んだのは副店長本人の氏名",
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "5b2fa1128817eb74a791064694d586b9e8742b2b1175ae83e8b284b75f1e921d",
+    "packet_sha256": "65e888518c5c19d14de14433d8122ea8443b04bf3590ffddf87f8f14ddb12f5f",
+    "original_bad_by_blind": [
+      4
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      4
+    ],
+    "predicted_sentences": [
+      4
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        4
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-3bfea86cf8f7aa3b",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "a",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "8514ae1db8572de64a1cf2474be2376bad45cd06a9fa2a3d8265f1ce8b2e6d49",
+    "packet_sha256": "f5d299f5569ac24d280876f44ded9527c2677bea516f5ee732b77553c82fe017",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-3bfea86cf8f7aa3b",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "a",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "8514ae1db8572de64a1cf2474be2376bad45cd06a9fa2a3d8265f1ce8b2e6d49",
+    "packet_sha256": "f5d299f5569ac24d280876f44ded9527c2677bea516f5ee732b77553c82fe017",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-54ae49307f71b192",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "a",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "387f162ecd1bd15a6b4c01d0dd459400648e7632904abe13f1e6c95cfc3cf024",
+    "packet_sha256": "ea444d86e188d1c92f0b742db6c3ca6f23422bd246d3000fd4f64b6ba6424241",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-54ae49307f71b192",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "a",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "387f162ecd1bd15a6b4c01d0dd459400648e7632904abe13f1e6c95cfc3cf024",
+    "packet_sha256": "ea444d86e188d1c92f0b742db6c3ca6f23422bd246d3000fd4f64b6ba6424241",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-59739b7c95950d48",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "ambiguous",
+    "body_role": "b",
+    "core": "検査する工程で投影機を使いました",
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "77e4fd0d76088c17c316a92e1643291124f7f1920eb656bb24366308e88097d4",
+    "packet_sha256": "86fa34fd3687a229b00f8b2fbc1e5710f8a94f0a4782fb432a4e8292cc10d079",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-59739b7c95950d48",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "ambiguous",
+    "body_role": "b",
+    "core": "検査する工程で投影機を使いました",
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "77e4fd0d76088c17c316a92e1643291124f7f1920eb656bb24366308e88097d4",
+    "packet_sha256": "86fa34fd3687a229b00f8b2fbc1e5710f8a94f0a4782fb432a4e8292cc10d079",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-5cb5f0e4d2c19f51",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "ambiguous",
+    "body_role": "b",
+    "core": "11月6日",
+    "reference": "X5",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "789c5783554e7e7441e5bdd5364d4b0c76e7c0579b97a0863f380491fd2ef358",
+    "packet_sha256": "f2c595d657b38d8381e431c27cfd1b0d1fca92540da7b3aa9fc91ac256747af4",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-5cb5f0e4d2c19f51",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "ambiguous",
+    "body_role": "b",
+    "core": "11月6日",
+    "reference": "X5",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "789c5783554e7e7441e5bdd5364d4b0c76e7c0579b97a0863f380491fd2ef358",
+    "packet_sha256": "f2c595d657b38d8381e431c27cfd1b0d1fca92540da7b3aa9fc91ac256747af4",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-6227aa98fb3a7052",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "ambiguous",
+    "body_role": "a",
+    "core": "別館",
+    "reference": "J7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "03222e56356627f6f5f5765683ccd1cbd55d8899382aeaa1039733e75b03648e",
+    "packet_sha256": "2236d3e2da6a31eab4ed469f03d4ef52d55cb39096c99cafc7f7fef7a07402f1",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      1
+    ],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": false,
+    "sentence_confusion": {
+      "tp": [
+        1
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": false,
+    "correction_pass": false,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [
+      1
+    ],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-6227aa98fb3a7052",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "ambiguous",
+    "body_role": "a",
+    "core": "別館",
+    "reference": "J7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "03222e56356627f6f5f5765683ccd1cbd55d8899382aeaa1039733e75b03648e",
+    "packet_sha256": "2236d3e2da6a31eab4ed469f03d4ef52d55cb39096c99cafc7f7fef7a07402f1",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      1
+    ],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        1
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-62a5f96f41374d48",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "b",
+    "body_role": "b",
+    "core": null,
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "ac441b2396f9c5bec1445818e2751c49d34f034c3a2edd2e8b6b3645fea12dad",
+    "packet_sha256": "adb8e185c3ab88b90af19a722090d270d7326b015a3c958d2788cea0044b4b4e",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-62a5f96f41374d48",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "b",
+    "body_role": "b",
+    "core": null,
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": null,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "ac441b2396f9c5bec1445818e2751c49d34f034c3a2edd2e8b6b3645fea12dad",
+    "packet_sha256": "adb8e185c3ab88b90af19a722090d270d7326b015a3c958d2788cea0044b4b4e",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [
+        1
+      ],
+      "fn": [],
+      "tn": [
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "fp",
+    "decision_correct": false,
+    "detection_pass": false,
+    "correction_pass": false,
+    "changed": true,
+    "unrelated_edited_sentences": [
+      1
+    ],
+    "clean_body_changed": true,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-673c0adf7376bb41",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "ambiguous",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "J7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "03222e56356627f6f5f5765683ccd1cbd55d8899382aeaa1039733e75b03648e",
+    "packet_sha256": "8914fe45e79424ea762dee2ae7d327fca73d1a431cb65907dd4812f6c7a8dda4",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-673c0adf7376bb41",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "ambiguous",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "J7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "03222e56356627f6f5f5765683ccd1cbd55d8899382aeaa1039733e75b03648e",
+    "packet_sha256": "8914fe45e79424ea762dee2ae7d327fca73d1a431cb65907dd4812f6c7a8dda4",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-6b9d006ada286bbe",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "a",
+    "body_role": "a",
+    "core": null,
+    "reference": "X5",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "2c26f3f073938d6fc56ec8bc057fc5f39c745741ccb3eb6bdc8c80fbdab95fde",
+    "packet_sha256": "24b59cd3aee7c66157cf8d77bdcefcd948ef31dfbc0e9dde31ffb93be86b33ac",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-6b9d006ada286bbe",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "a",
+    "body_role": "a",
+    "core": null,
+    "reference": "X5",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "2c26f3f073938d6fc56ec8bc057fc5f39c745741ccb3eb6bdc8c80fbdab95fde",
+    "packet_sha256": "24b59cd3aee7c66157cf8d77bdcefcd948ef31dfbc0e9dde31ffb93be86b33ac",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-6e3d2760dc34509e",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "b",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "J7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "2a4b5ca51e64823d3119b8e0d4a22d8383a21eea535872c711538c289baa7dcd",
+    "packet_sha256": "93742fe7fc47f1c0eaae8a931e47ff0fc14d0679c544a0df304688eb32fb6fd5",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-6e3d2760dc34509e",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "b",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "J7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "2a4b5ca51e64823d3119b8e0d4a22d8383a21eea535872c711538c289baa7dcd",
+    "packet_sha256": "93742fe7fc47f1c0eaae8a931e47ff0fc14d0679c544a0df304688eb32fb6fd5",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-7c3365bad1c6c4b5",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "a",
+    "body_role": "b",
+    "core": "検査する工程で投影機を使いました",
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "387f162ecd1bd15a6b4c01d0dd459400648e7632904abe13f1e6c95cfc3cf024",
+    "packet_sha256": "8bb9d031d7fbe878e240b962a8cdae05247fb3cae40ee8eca64ee484f04fdfea",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-7c3365bad1c6c4b5",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "a",
+    "body_role": "b",
+    "core": "検査する工程で投影機を使いました",
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "387f162ecd1bd15a6b4c01d0dd459400648e7632904abe13f1e6c95cfc3cf024",
+    "packet_sha256": "8bb9d031d7fbe878e240b962a8cdae05247fb3cae40ee8eca64ee484f04fdfea",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-7d60373fd1272e34",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "b",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "X5",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "57447438cd8d7ce477f9c397a434b1ec49dc413e068b05d849a4755811051490",
+    "packet_sha256": "dcc55e7811202e8897259fba41c19827c5870cc5d8b1674e3a804c9b7e5f376d",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-7d60373fd1272e34",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "b",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "X5",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "57447438cd8d7ce477f9c397a434b1ec49dc413e068b05d849a4755811051490",
+    "packet_sha256": "dcc55e7811202e8897259fba41c19827c5870cc5d8b1674e3a804c9b7e5f376d",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-7fae6881c4811602",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "a",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "X5",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "2c26f3f073938d6fc56ec8bc057fc5f39c745741ccb3eb6bdc8c80fbdab95fde",
+    "packet_sha256": "9e6a9362c6c32b4611bd24f79f9f1f0ca16b134ea22ccbab95f3e41ee7e7e1e0",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-7fae6881c4811602",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "a",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "X5",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "2c26f3f073938d6fc56ec8bc057fc5f39c745741ccb3eb6bdc8c80fbdab95fde",
+    "packet_sha256": "9e6a9362c6c32b4611bd24f79f9f1f0ca16b134ea22ccbab95f3e41ee7e7e1e0",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-81243443d3ec2482",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "b",
+    "body_role": "b",
+    "core": null,
+    "reference": "J7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "2a4b5ca51e64823d3119b8e0d4a22d8383a21eea535872c711538c289baa7dcd",
+    "packet_sha256": "4477d697b8600b26388da2ff9f10aecdce7ab8cebf24ffb8f6f2a6ec403fdb84",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-81243443d3ec2482",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "b",
+    "body_role": "b",
+    "core": null,
+    "reference": "J7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "2a4b5ca51e64823d3119b8e0d4a22d8383a21eea535872c711538c289baa7dcd",
+    "packet_sha256": "4477d697b8600b26388da2ff9f10aecdce7ab8cebf24ffb8f6f2a6ec403fdb84",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-8afe19164f7fae9a",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "b",
+    "body_role": "a",
+    "core": "頼んだのは店長本人の氏名",
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "4ead821750e893fcdcc4e7535afbaf423fbc32f1917406816f8a983cd16063b1",
+    "packet_sha256": "2b386b921f7b903e24459adf75ed64aa66e20af49cad09e81ea1efde52b51f8a",
+    "original_bad_by_blind": [
+      4
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      4
+    ],
+    "predicted_sentences": [
+      4
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        4
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-8afe19164f7fae9a",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "b",
+    "body_role": "a",
+    "core": "頼んだのは店長本人の氏名",
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "4ead821750e893fcdcc4e7535afbaf423fbc32f1917406816f8a983cd16063b1",
+    "packet_sha256": "2b386b921f7b903e24459adf75ed64aa66e20af49cad09e81ea1efde52b51f8a",
+    "original_bad_by_blind": [
+      4
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      4
+    ],
+    "predicted_sentences": [
+      4
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        4
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-90c521b0be2df01b",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "b",
+    "body_role": "a",
+    "core": "写し取る工程で投影機を使いました",
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "ac441b2396f9c5bec1445818e2751c49d34f034c3a2edd2e8b6b3645fea12dad",
+    "packet_sha256": "fc30ae6564409666f5ee27842fc24ea9f0ae001983d12a6cc689fb6664950bd4",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-90c521b0be2df01b",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "b",
+    "body_role": "a",
+    "core": "写し取る工程で投影機を使いました",
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "ac441b2396f9c5bec1445818e2751c49d34f034c3a2edd2e8b6b3645fea12dad",
+    "packet_sha256": "fc30ae6564409666f5ee27842fc24ea9f0ae001983d12a6cc689fb6664950bd4",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-932f9b860cddda0e",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "ambiguous",
+    "body_role": "b",
+    "core": "別館",
+    "reference": "J7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "03222e56356627f6f5f5765683ccd1cbd55d8899382aeaa1039733e75b03648e",
+    "packet_sha256": "db20a168396b661a681df2de477b33f70e96480a030052a0993496652dc12b1e",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      1
+    ],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        1
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": false,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [
+      1
+    ],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-932f9b860cddda0e",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "ambiguous",
+    "body_role": "b",
+    "core": "別館",
+    "reference": "J7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "03222e56356627f6f5f5765683ccd1cbd55d8899382aeaa1039733e75b03648e",
+    "packet_sha256": "db20a168396b661a681df2de477b33f70e96480a030052a0993496652dc12b1e",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      1
+    ],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        1
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-98b7ccf83661d429",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "ambiguous",
+    "body_role": "a",
+    "core": "写し取る工程で投影機を使いました",
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "77e4fd0d76088c17c316a92e1643291124f7f1920eb656bb24366308e88097d4",
+    "packet_sha256": "67f4259f8e69da31a0eedb5dd945ebbb049f224ff362a8c675ec2f032d91faa7",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-98b7ccf83661d429",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "ambiguous",
+    "body_role": "a",
+    "core": "写し取る工程で投影機を使いました",
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "77e4fd0d76088c17c316a92e1643291124f7f1920eb656bb24366308e88097d4",
+    "packet_sha256": "67f4259f8e69da31a0eedb5dd945ebbb049f224ff362a8c675ec2f032d91faa7",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-98d3bdbe0885ec78",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "a",
+    "body_role": "a",
+    "core": null,
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "387f162ecd1bd15a6b4c01d0dd459400648e7632904abe13f1e6c95cfc3cf024",
+    "packet_sha256": "df16f11eac0104970c2c7f9e64325a02ac08180d6abf3de58da3c96136ba5a35",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-98d3bdbe0885ec78",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "a",
+    "body_role": "a",
+    "core": null,
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "387f162ecd1bd15a6b4c01d0dd459400648e7632904abe13f1e6c95cfc3cf024",
+    "packet_sha256": "df16f11eac0104970c2c7f9e64325a02ac08180d6abf3de58da3c96136ba5a35",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-a484db69049ee704",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "b",
+    "body_role": "a",
+    "core": "別館",
+    "reference": "J7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "2a4b5ca51e64823d3119b8e0d4a22d8383a21eea535872c711538c289baa7dcd",
+    "packet_sha256": "00ed7d32c687868c840ebf04345c816dbfa2b38932646381717a3889c640aa78",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      1
+    ],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        1
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-a484db69049ee704",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "b",
+    "body_role": "a",
+    "core": "別館",
+    "reference": "J7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "2a4b5ca51e64823d3119b8e0d4a22d8383a21eea535872c711538c289baa7dcd",
+    "packet_sha256": "00ed7d32c687868c840ebf04345c816dbfa2b38932646381717a3889c640aa78",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      1
+    ],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        1
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-a65134e298934db4",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "ambiguous",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "77e4fd0d76088c17c316a92e1643291124f7f1920eb656bb24366308e88097d4",
+    "packet_sha256": "0a4a25da26bf5047c8bb9408be3f853e2abae3208946a8870ee9fa87a84da97a",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-a65134e298934db4",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "1a93d2a94d",
+    "source_role": "ambiguous",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "2783a07d7b",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "77e4fd0d76088c17c316a92e1643291124f7f1920eb656bb24366308e88097d4",
+    "packet_sha256": "0a4a25da26bf5047c8bb9408be3f853e2abae3208946a8870ee9fa87a84da97a",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-b427dd068286a25f",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "b",
+    "body_role": "a",
+    "core": "11月6日",
+    "reference": "X5",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "57447438cd8d7ce477f9c397a434b1ec49dc413e068b05d849a4755811051490",
+    "packet_sha256": "54128cd205cdc7747aa9795bc8f358bc26f24f827c36a70a8a6fc3b7c974667b",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": false,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [
+      2
+    ],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-b427dd068286a25f",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "b",
+    "body_role": "a",
+    "core": "11月6日",
+    "reference": "X5",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "57447438cd8d7ce477f9c397a434b1ec49dc413e068b05d849a4755811051490",
+    "packet_sha256": "54128cd205cdc7747aa9795bc8f358bc26f24f827c36a70a8a6fc3b7c974667b",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": false,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [
+      2
+    ],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-b9792e28c42f5c61",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "a",
+    "body_role": "b",
+    "core": "頼んだのは副店長本人の氏名",
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "8514ae1db8572de64a1cf2474be2376bad45cd06a9fa2a3d8265f1ce8b2e6d49",
+    "packet_sha256": "2b245932e80500b9334d24f5ad1c4f995b9c35014d4709a4772193b4ad25a949",
+    "original_bad_by_blind": [
+      4
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      4
+    ],
+    "predicted_sentences": [
+      4
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        4
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-b9792e28c42f5c61",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "a",
+    "body_role": "b",
+    "core": "頼んだのは副店長本人の氏名",
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "8514ae1db8572de64a1cf2474be2376bad45cd06a9fa2a3d8265f1ce8b2e6d49",
+    "packet_sha256": "2b245932e80500b9334d24f5ad1c4f995b9c35014d4709a4772193b4ad25a949",
+    "original_bad_by_blind": [
+      4
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      4
+    ],
+    "predicted_sentences": [
+      4
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        4
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-c5882257f7d96b5d",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "b",
+    "body_role": "b",
+    "core": null,
+    "reference": "X5",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "57447438cd8d7ce477f9c397a434b1ec49dc413e068b05d849a4755811051490",
+    "packet_sha256": "ab832d1e16a992ae13f3da0808beda5249c03f941af647b6d70eb0a688adff4b",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-c5882257f7d96b5d",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "b",
+    "body_role": "b",
+    "core": null,
+    "reference": "X5",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "57447438cd8d7ce477f9c397a434b1ec49dc413e068b05d849a4755811051490",
+    "packet_sha256": "ab832d1e16a992ae13f3da0808beda5249c03f941af647b6d70eb0a688adff4b",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-cc2d485c596aa003",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "ambiguous",
+    "body_role": "a",
+    "core": "頼んだのは店長本人の氏名",
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "5b2fa1128817eb74a791064694d586b9e8742b2b1175ae83e8b284b75f1e921d",
+    "packet_sha256": "453c0bc584897c2b554960815938eb42971a1a66276c33ed5120f177681d072b",
+    "original_bad_by_blind": [
+      4
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      4
+    ],
+    "predicted_sentences": [
+      4
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        4
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-cc2d485c596aa003",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "ambiguous",
+    "body_role": "a",
+    "core": "頼んだのは店長本人の氏名",
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "5b2fa1128817eb74a791064694d586b9e8742b2b1175ae83e8b284b75f1e921d",
+    "packet_sha256": "453c0bc584897c2b554960815938eb42971a1a66276c33ed5120f177681d072b",
+    "original_bad_by_blind": [
+      4
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      4
+    ],
+    "predicted_sentences": [
+      4
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        4
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-d14ae1bfa3d10d63",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "a",
+    "body_role": "a",
+    "core": null,
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "8514ae1db8572de64a1cf2474be2376bad45cd06a9fa2a3d8265f1ce8b2e6d49",
+    "packet_sha256": "afc7322137bcb45f11d755bf9f600c2534fb8539a7e5ad8dfb770a3ff3fa2c87",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-d14ae1bfa3d10d63",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "a",
+    "body_role": "a",
+    "core": null,
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "8514ae1db8572de64a1cf2474be2376bad45cd06a9fa2a3d8265f1ce8b2e6d49",
+    "packet_sha256": "afc7322137bcb45f11d755bf9f600c2534fb8539a7e5ad8dfb770a3ff3fa2c87",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-e445f06d6c970951",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "a",
+    "body_role": "b",
+    "core": "別館",
+    "reference": "J7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "f284f6a33ec98e07ad6cbfb871de5a96436a72e5b50fd6e47d78ffa53c781d8c",
+    "packet_sha256": "778b6cbc8b7f9cd076eefe8e98ee6ccb1a43190f80e6e72bb8507cdfb75e5dd1",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      1
+    ],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        1
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": false,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [
+      1
+    ],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-e445f06d6c970951",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "a",
+    "body_role": "b",
+    "core": "別館",
+    "reference": "J7",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "f284f6a33ec98e07ad6cbfb871de5a96436a72e5b50fd6e47d78ffa53c781d8c",
+    "packet_sha256": "778b6cbc8b7f9cd076eefe8e98ee6ccb1a43190f80e6e72bb8507cdfb75e5dd1",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      1
+    ],
+    "predicted_sentences": [
+      1
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        1
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-ef59bd27c61fe451",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "a",
+    "body_role": "b",
+    "core": "11月6日",
+    "reference": "X5",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "2c26f3f073938d6fc56ec8bc057fc5f39c745741ccb3eb6bdc8c80fbdab95fde",
+    "packet_sha256": "e751eec0b292413dbdea2812abd2a9d2782f5b040f301f4880ae4e7b62019f19",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-ef59bd27c61fe451",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "48c807188c",
+    "source_role": "a",
+    "body_role": "b",
+    "core": "11月6日",
+    "reference": "X5",
+    "reference_cited_on_target": true,
+    "status": "flagged",
+    "trace_status": "flagged",
+    "errors": [],
+    "source_sha256": "2c26f3f073938d6fc56ec8bc057fc5f39c745741ccb3eb6bdc8c80fbdab95fde",
+    "packet_sha256": "e751eec0b292413dbdea2812abd2a9d2782f5b040f301f4880ae4e7b62019f19",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [
+      2
+    ],
+    "predicted_sentences": [
+      2
+    ],
+    "core_hit": true,
+    "sentence_confusion": {
+      "tp": [
+        2
+      ],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tp",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": true,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-f53db5ac088895ba",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "b",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "4ead821750e893fcdcc4e7535afbaf423fbc32f1917406816f8a983cd16063b1",
+    "packet_sha256": "0d4eade317a38b644e14a7b88823da8091624c689d3cd97a0c62edbb2e864030",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-f53db5ac088895ba",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "cff57a57e1",
+    "source_role": "b",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "a7b6ea98d7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "4ead821750e893fcdcc4e7535afbaf423fbc32f1917406816f8a983cd16063b1",
+    "packet_sha256": "0d4eade317a38b644e14a7b88823da8091624c689d3cd97a0c62edbb2e864030",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-fea30a00e6baec87",
+    "condition": "R0",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "a",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "J7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "f284f6a33ec98e07ad6cbfb871de5a96436a72e5b50fd6e47d78ffa53c781d8c",
+    "packet_sha256": "a18ea82bc3b18e11e8614a074f5f80ce7be27847b0b4f1ec38cf3d9ab4dc8802",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  },
+  {
+    "unit_id": "P-fea30a00e6baec87",
+    "condition": "R1",
+    "group": "challenge",
+    "family_id": "8858d8e239",
+    "source_role": "a",
+    "body_role": "neutral",
+    "core": null,
+    "reference": "J7",
+    "reference_cited_on_target": null,
+    "status": "clear",
+    "trace_status": "clear",
+    "errors": [],
+    "source_sha256": "f284f6a33ec98e07ad6cbfb871de5a96436a72e5b50fd6e47d78ffa53c781d8c",
+    "packet_sha256": "a18ea82bc3b18e11e8614a074f5f80ce7be27847b0b4f1ec38cf3d9ab4dc8802",
+    "original_bad_by_blind": [],
+    "original_facts": [
+      true,
+      true
+    ],
+    "candidate_facts": [
+      true,
+      true
+    ],
+    "blind_original_agrees": true,
+    "expected_sentences": [],
+    "predicted_sentences": [],
+    "core_hit": null,
+    "sentence_confusion": {
+      "tp": [],
+      "fp": [],
+      "fn": [],
+      "tn": [
+        1,
+        2
+      ],
+      "unclassified_positive": [],
+      "unclassified_negative": []
+    },
+    "body_confusion": "tn",
+    "decision_correct": true,
+    "detection_pass": true,
+    "correction_pass": true,
+    "changed": false,
+    "unrelated_edited_sentences": [],
+    "clean_body_changed": false,
+    "candidate_bad_sentence_ids": [],
+    "missing_candidate_fact_indices": [],
+    "lost_fact_indices": []
+  }
+]

@@ -1,0 +1,1 @@
+{"findings":[{"sentence_id":1,"quote":"職人が","reason":"原票の「職人が」は「写し取った」にも「検査した」にも係り得るため、図柄を写し取ったのが職人だとは断定できません。","checked_refs":["2783a07d7b"],"replacement":""}]}

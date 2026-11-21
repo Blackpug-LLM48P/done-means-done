@@ -1,0 +1,130 @@
+{
+  "condition": "R1",
+  "dispatch_order": 32,
+  "meta": {
+    "apply_elapsed_ns": 298677,
+    "assistant_messages": 1,
+    "attempt_id": "8575c2ef-9829-4d99-829c-739d9469064f",
+    "cli_finished_unix_ns": 1795238486683254258,
+    "cli_started_unix_ns": 1795238463655098780,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 23028,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795238486685129875,
+    "isolation": {
+      "empty_cwd": true,
+      "intake_private_dir_present_on_host": true,
+      "intake_private_path_hidden": true,
+      "positive_read": true,
+      "proc_root_aliases_checked": true,
+      "repository_read_denied": true,
+      "sample_key_read_denied": true,
+      "sandbox": "bubblewrap",
+      "study_read_denied": true,
+      "units_file_probed": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/raw/P-5cb5f0e4d2c19f51--R1.txt",
+    "raw_sha256": "2f17cf5850d19a1ff81d91cf05edd7f854cad3fddad00ebefbf877b1b7d61bd8",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13476,
+        "output_tokens": 722,
+        "reasoning_output_tokens": 570,
+        "total_tokens": 14198
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13476,
+        "output_tokens": 722,
+        "reasoning_output_tokens": 570,
+        "total_tokens": 14198
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc8d-0a45-7f12-946b-c5173ca8665e",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13476,
+      "output_tokens": 722,
+      "reasoning_output_tokens": 570
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13476,
+      "output_tokens": 722,
+      "reasoning_output_tokens": 570
+    }
+  },
+  "packet_sha256": "f2c595d657b38d8381e431c27cfd1b0d1fca92540da7b3aa9fc91ac256747af4",
+  "prompt_sha256": "a5198491f7ca1967538679110f0fbe9dad3ff0bd954d19b1ea98c5781de520f6",
+  "raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"のは11月6日です\",\n      \"reason\": \"業務日誌の「11月6日に」は「委員会が選んだ」にも「事務局が発表した」にもかかり得るため、公表日を11月6日と断定できません。\",\n      \"checked_refs\": [\"X5\"],\n      \"replacement\": \"と業務日誌にあります。日誌の「11月6日」は、委員会による選定日とも、事務局による公表日とも読めます\"\n    }\n  ]\n}",
+  "trace": {
+    "as_of": "2026-11-16T17:00:00+09:00",
+    "case_id": "PH-269",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "X5"
+        ],
+        "end": 45,
+        "quote": "のは11月6日です",
+        "reason": "業務日誌の「11月6日に」は「委員会が選んだ」にも「事務局が発表した」にもかかり得るため、公表日を11月6日と断定できません。",
+        "replacement": "と業務日誌にあります。日誌の「11月6日」は、委員会による選定日とも、事務局による公表日とも読めます",
+        "sentence_id": 2,
+        "start": 36
+      }
+    ],
+    "original_body": "会場は楓ホールです。定員40人の講演会について、事務局が講師名を公表したのは11月6日です。",
+    "packet_sha256": "f2c595d657b38d8381e431c27cfd1b0d1fca92540da7b3aa9fc91ac256747af4",
+    "proposed_body": "会場は楓ホールです。定員40人の講演会について、事務局が講師名を公表したと業務日誌にあります。日誌の「11月6日」は、委員会による選定日とも、事務局による公表日とも読めます。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"のは11月6日です\",\n      \"reason\": \"業務日誌の「11月6日に」は「委員会が選んだ」にも「事務局が発表した」にもかかり得るため、公表日を11月6日と断定できません。\",\n      \"checked_refs\": [\"X5\"],\n      \"replacement\": \"と業務日誌にあります。日誌の「11月6日」は、委員会による選定日とも、事務局による公表日とも読めます\"\n    }\n  ]\n}",
+    "revision": "r3",
+    "sentences": [
+      {
+        "end": 10,
+        "id": 1,
+        "start": 0,
+        "text": "会場は楓ホールです。"
+      },
+      {
+        "end": 46,
+        "id": 2,
+        "start": 10,
+        "text": "定員40人の講演会について、事務局が講師名を公表したのは11月6日です。"
+      }
+    ],
+    "source_sha256": "789c5783554e7e7441e5bdd5364d4b0c76e7c0579b97a0863f380491fd2ef358",
+    "status": "flagged"
+  },
+  "unit_id": "P-5cb5f0e4d2c19f51"
+}

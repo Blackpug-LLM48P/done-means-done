@@ -1,0 +1,50 @@
+{
+  "disputes": {
+    "T-7f3afb3dd4564692a8fc5891ee26746e": {
+      "fact_indices_0based": [],
+      "sentence_ids": [
+        1
+      ]
+    },
+    "T-df77a24f5a9d5edb77f2bb4b18645007": {
+      "fact_indices_0based": [],
+      "sentence_ids": [
+        1
+      ]
+    }
+  },
+  "third": {
+    "T-7f3afb3dd4564692a8fc5891ee26746e": {
+      "bad_sentence_ids": [
+        1
+      ],
+      "facts": [
+        true,
+        true
+      ],
+      "issues": [
+        {
+          "quote": "別館で展示台を組み立てた職人の姿をカメラに収めました",
+          "reason": "「別館で」は「組み立てた」にも「カメラに収めました」にも掛かる。J7が別館と明記したのは組み立て場所だけで、職人を別館で撮影したという読みには裏付けがない。",
+          "sentence_id": 1
+        }
+      ]
+    },
+    "T-df77a24f5a9d5edb77f2bb4b18645007": {
+      "bad_sentence_ids": [
+        1
+      ],
+      "facts": [
+        true,
+        true
+      ],
+      "issues": [
+        {
+          "quote": "別館で展示台を組み立てた職人の姿をカメラに収めました",
+          "reason": "J7の「別館で」は「組み立てた」と「撮影した」のどちらにも掛かる。本文はメモの曖昧さを引き継いでおり、別館が組み立て場所、撮影場所のいずれであるかを個別に断定できない。",
+          "sentence_id": 1
+        }
+      ]
+    }
+  }
+}

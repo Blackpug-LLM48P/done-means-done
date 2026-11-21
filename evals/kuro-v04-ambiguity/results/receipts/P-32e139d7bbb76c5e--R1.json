@@ -1,0 +1,142 @@
+{
+  "condition": "R1",
+  "dispatch_order": 25,
+  "meta": {
+    "apply_elapsed_ns": 333853,
+    "assistant_messages": 1,
+    "attempt_id": "681131d2-8f0b-48ef-81ca-be9c1cb3881e",
+    "cli_finished_unix_ns": 1795238454642240085,
+    "cli_started_unix_ns": 1795238443519438678,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 11123,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795238454644516292,
+    "isolation": {
+      "empty_cwd": true,
+      "intake_private_dir_present_on_host": true,
+      "intake_private_path_hidden": true,
+      "positive_read": true,
+      "proc_root_aliases_checked": true,
+      "repository_read_denied": true,
+      "sample_key_read_denied": true,
+      "sandbox": "bubblewrap",
+      "study_read_denied": true,
+      "units_file_probed": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/raw/P-32e139d7bbb76c5e--R1.txt",
+    "raw_sha256": "407980e27a6df9053c8036adad06697e503e7794715d17aecb9dacda9c3d2950",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13488,
+        "output_tokens": 135,
+        "reasoning_output_tokens": 26,
+        "total_tokens": 13623
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13488,
+        "output_tokens": 135,
+        "reasoning_output_tokens": 26,
+        "total_tokens": 13623
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc8c-ba97-7173-ad1d-95abcd1eb556",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13488,
+      "output_tokens": 135,
+      "reasoning_output_tokens": 26
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13488,
+      "output_tokens": 135,
+      "reasoning_output_tokens": 26
+    }
+  },
+  "packet_sha256": "65e888518c5c19d14de14433d8122ea8443b04bf3590ffddf87f8f14ddb12f5f",
+  "prompt_sha256": "44afe9317361f82ee92b8dbfaec24b87463136e4b655bd2d27fd7e78edd6958b",
+  "raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 4,\n      \"quote\": \"副店長本人の\",\n      \"reason\": \"原票の「自分の氏名」は店長の氏名とも副店長の氏名とも読めるため、副店長本人の氏名とは断定できません。\",\n      \"checked_refs\": [\"a7b6ea98d7\"],\n      \"replacement\": \"一人分の\"\n    }\n  ]\n}",
+  "trace": {
+    "as_of": "2026-11-21T11:00:00+09:00",
+    "case_id": "6061363e4b",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "a7b6ea98d7"
+        ],
+        "end": 71,
+        "quote": "副店長本人の",
+        "reason": "原票の「自分の氏名」は店長の氏名とも副店長の氏名とも読めるため、副店長本人の氏名とは断定できません。",
+        "replacement": "一人分の",
+        "sentence_id": 4,
+        "start": 65
+      }
+    ],
+    "original_body": "会場は青葉会館の研修室Bです。申込締切は11月26日です。店長は副店長に、選書説明会の申込欄への記入を頼みました。記入を頼んだのは副店長本人の氏名です。",
+    "packet_sha256": "65e888518c5c19d14de14433d8122ea8443b04bf3590ffddf87f8f14ddb12f5f",
+    "proposed_body": "会場は青葉会館の研修室Bです。申込締切は11月26日です。店長は副店長に、選書説明会の申込欄への記入を頼みました。記入を頼んだのは一人分の氏名です。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 4,\n      \"quote\": \"副店長本人の\",\n      \"reason\": \"原票の「自分の氏名」は店長の氏名とも副店長の氏名とも読めるため、副店長本人の氏名とは断定できません。\",\n      \"checked_refs\": [\"a7b6ea98d7\"],\n      \"replacement\": \"一人分の\"\n    }\n  ]\n}",
+    "revision": "r1",
+    "sentences": [
+      {
+        "end": 15,
+        "id": 1,
+        "start": 0,
+        "text": "会場は青葉会館の研修室Bです。"
+      },
+      {
+        "end": 29,
+        "id": 2,
+        "start": 15,
+        "text": "申込締切は11月26日です。"
+      },
+      {
+        "end": 57,
+        "id": 3,
+        "start": 29,
+        "text": "店長は副店長に、選書説明会の申込欄への記入を頼みました。"
+      },
+      {
+        "end": 76,
+        "id": 4,
+        "start": 57,
+        "text": "記入を頼んだのは副店長本人の氏名です。"
+      }
+    ],
+    "source_sha256": "5b2fa1128817eb74a791064694d586b9e8742b2b1175ae83e8b284b75f1e921d",
+    "status": "flagged"
+  },
+  "unit_id": "P-32e139d7bbb76c5e"
+}

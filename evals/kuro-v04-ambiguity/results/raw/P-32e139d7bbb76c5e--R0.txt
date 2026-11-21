@@ -1,0 +1,1 @@
+{"findings":[{"sentence_id":4,"quote":"副店長本人","reason":"原票には「自分の氏名」とあり、依頼は一人分です。「自分」が副店長を指すとは明記されていません。","checked_refs":["a7b6ea98d7"],"replacement":"一人分"}]}

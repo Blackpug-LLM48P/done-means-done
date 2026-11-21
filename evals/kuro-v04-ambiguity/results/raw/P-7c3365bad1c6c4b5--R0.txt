@@ -1,0 +1,11 @@
+{
+  "findings": [
+    {
+      "sentence_id": 2,
+      "quote": "検査する",
+      "reason": "原票では、転写と検査のうち投影機を使ったのは転写の工程だけです。",
+      "checked_refs": ["2783a07d7b"],
+      "replacement": "写し取る"
+    }
+  ]
+}

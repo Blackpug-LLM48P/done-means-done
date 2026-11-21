@@ -1,0 +1,16 @@
+{
+  "sandbox": "bubblewrap",
+  "positive_read": true,
+  "empty_cwd": true,
+  "sample_key_read_denied": true,
+  "repository_read_denied": true,
+  "study_read_denied": true,
+  "intake_private_path_hidden": true,
+  "intake_private_dir_present_on_host": true,
+  "units_file_probed": true,
+  "proc_root_aliases_checked": true,
+  "cli_version": "codex-cli 0.172.0-alpha.2",
+  "model_calls": 0,
+  "model": "gpt-6.2-astra",
+  "effort": "ultra"
+}

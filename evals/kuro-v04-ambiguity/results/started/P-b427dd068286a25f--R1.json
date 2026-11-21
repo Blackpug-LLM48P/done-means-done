@@ -1,0 +1,9 @@
+{
+  "attempt_id": "1b750660-a068-48d5-bad0-60b1af5839bf",
+  "claimed_unix_ns": 1795238419319338558,
+  "condition": "R1",
+  "dispatch_order": 15,
+  "packet_sha256": "54128cd205cdc7747aa9795bc8f358bc26f24f827c36a70a8a6fc3b7c974667b",
+  "prompt_sha256": "93156fb0f2a1fc377735bb7cab5b00446ee20be84613c4066093cb051513c8f8",
+  "unit_id": "P-b427dd068286a25f"
+}

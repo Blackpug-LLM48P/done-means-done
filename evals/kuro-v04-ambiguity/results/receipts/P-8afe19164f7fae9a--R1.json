@@ -1,0 +1,142 @@
+{
+  "condition": "R1",
+  "dispatch_order": 5,
+  "meta": {
+    "apply_elapsed_ns": 198289,
+    "assistant_messages": 1,
+    "attempt_id": "2a42bd2f-c03a-4fb5-aa7b-99867d09d6f4",
+    "cli_finished_unix_ns": 1795238408796402109,
+    "cli_started_unix_ns": 1795238393343782507,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 15453,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795238408798682896,
+    "isolation": {
+      "empty_cwd": true,
+      "intake_private_dir_present_on_host": true,
+      "intake_private_path_hidden": true,
+      "positive_read": true,
+      "proc_root_aliases_checked": true,
+      "repository_read_denied": true,
+      "sample_key_read_denied": true,
+      "sandbox": "bubblewrap",
+      "study_read_denied": true,
+      "units_file_probed": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/raw/P-8afe19164f7fae9a--R1.txt",
+    "raw_sha256": "4707aa7e7263115e0d5ae9875b181dd208c0f1952065054de114fcb1f96f16f2",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13483,
+        "output_tokens": 115,
+        "reasoning_output_tokens": 38,
+        "total_tokens": 13598
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13483,
+        "output_tokens": 115,
+        "reasoning_output_tokens": 38,
+        "total_tokens": 13598
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc8b-f6c7-7ff3-ac13-0734f708d874",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13483,
+      "output_tokens": 115,
+      "reasoning_output_tokens": 38
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13483,
+      "output_tokens": 115,
+      "reasoning_output_tokens": 38
+    }
+  },
+  "packet_sha256": "2b386b921f7b903e24459adf75ed64aa66e20af49cad09e81ea1efde52b51f8a",
+  "prompt_sha256": "5e9cd16ac6d10ddc8ac34c8ae4da3bdad1ab767e10708d24c53f6005f29e7eac",
+  "raw": "{\"findings\":[{\"sentence_id\":4,\"quote\":\"店長\",\"reason\":\"原票は、店長が副店長に記入を頼んだ氏名を、副店長本人の氏名と明記している。\",\"checked_refs\":[\"a7b6ea98d7\"],\"replacement\":\"副店長\"}]}",
+  "trace": {
+    "as_of": "2026-11-21T11:00:00+09:00",
+    "case_id": "6061363e4b",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "a7b6ea98d7"
+        ],
+        "end": 67,
+        "quote": "店長",
+        "reason": "原票は、店長が副店長に記入を頼んだ氏名を、副店長本人の氏名と明記している。",
+        "replacement": "副店長",
+        "sentence_id": 4,
+        "start": 65
+      }
+    ],
+    "original_body": "会場は青葉会館の研修室Bです。申込締切は11月26日です。店長は副店長に、選書説明会の申込欄への記入を頼みました。記入を頼んだのは店長本人の氏名です。",
+    "packet_sha256": "2b386b921f7b903e24459adf75ed64aa66e20af49cad09e81ea1efde52b51f8a",
+    "proposed_body": "会場は青葉会館の研修室Bです。申込締切は11月26日です。店長は副店長に、選書説明会の申込欄への記入を頼みました。記入を頼んだのは副店長本人の氏名です。",
+    "raw_review": "{\"findings\":[{\"sentence_id\":4,\"quote\":\"店長\",\"reason\":\"原票は、店長が副店長に記入を頼んだ氏名を、副店長本人の氏名と明記している。\",\"checked_refs\":[\"a7b6ea98d7\"],\"replacement\":\"副店長\"}]}",
+    "revision": "r1",
+    "sentences": [
+      {
+        "end": 15,
+        "id": 1,
+        "start": 0,
+        "text": "会場は青葉会館の研修室Bです。"
+      },
+      {
+        "end": 29,
+        "id": 2,
+        "start": 15,
+        "text": "申込締切は11月26日です。"
+      },
+      {
+        "end": 57,
+        "id": 3,
+        "start": 29,
+        "text": "店長は副店長に、選書説明会の申込欄への記入を頼みました。"
+      },
+      {
+        "end": 75,
+        "id": 4,
+        "start": 57,
+        "text": "記入を頼んだのは店長本人の氏名です。"
+      }
+    ],
+    "source_sha256": "4ead821750e893fcdcc4e7535afbaf423fbc32f1917406816f8a983cd16063b1",
+    "status": "flagged"
+  },
+  "unit_id": "P-8afe19164f7fae9a"
+}
