@@ -1,0 +1,493 @@
+{
+  "A2948": {
+    "bad_sentence_ids": [],
+    "body_role": "diagnostic",
+    "core": null,
+    "facts": [
+      "案内番号は催-284",
+      "変更後の開演時刻は18時30分"
+    ],
+    "ref": null,
+    "source_role": "diagnostic"
+  },
+  "H-01": {
+    "bad_sentence_ids": [],
+    "body_role": "historical",
+    "core": null,
+    "facts": [
+      "帽子の受領点数は2点。",
+      "山高帽の個体番号はH-42。",
+      "麦わら帽の個体番号はH-43。"
+    ],
+    "ref": null,
+    "source_role": "historical"
+  },
+  "H-02": {
+    "bad_sentence_ids": [
+      1
+    ],
+    "body_role": "historical",
+    "core": "から",
+    "facts": [
+      "帽子の受領点数は2点。",
+      "山高帽の個体番号はH-42。",
+      "麦わら帽の個体番号はH-43。"
+    ],
+    "ref": null,
+    "source_role": "historical"
+  },
+  "H-03": {
+    "bad_sentence_ids": [],
+    "body_role": "historical",
+    "core": null,
+    "facts": [
+      "帽子の受領点数は2点。",
+      "山高帽の個体番号はH-42。",
+      "麦わら帽の個体番号はH-43。"
+    ],
+    "ref": null,
+    "source_role": "historical"
+  },
+  "H-04": {
+    "bad_sentence_ids": [
+      1
+    ],
+    "body_role": "historical",
+    "core": "から",
+    "facts": [
+      "帽子の受領点数は2点。",
+      "山高帽の個体番号はH-42。",
+      "麦わら帽の個体番号はH-43。"
+    ],
+    "ref": null,
+    "source_role": "historical"
+  },
+  "P-0ad89fff0c785568": {
+    "bad_sentence_ids": [
+      2
+    ],
+    "body_role": "a",
+    "core": "11月6日",
+    "facts": [
+      "会場は楓ホール",
+      "定員40人"
+    ],
+    "ref": "X5",
+    "source_role": "ambiguous"
+  },
+  "P-0e9695e4492129d1": {
+    "bad_sentence_ids": [],
+    "body_role": "neutral",
+    "core": null,
+    "facts": [
+      "会場は青葉会館の研修室B",
+      "申込締切は11月26日"
+    ],
+    "ref": "a7b6ea98d7",
+    "source_role": "ambiguous"
+  },
+  "P-1a55d0c7c3174ef8": {
+    "bad_sentence_ids": [],
+    "body_role": "neutral",
+    "core": null,
+    "facts": [
+      "会場は楓ホール",
+      "定員40人"
+    ],
+    "ref": "X5",
+    "source_role": "ambiguous"
+  },
+  "P-1b6bd8f8a8630768": {
+    "bad_sentence_ids": [],
+    "body_role": "neutral",
+    "core": null,
+    "facts": [
+      "型紙は6枚",
+      "保管場所は平棚の3段目"
+    ],
+    "ref": "2783a07d7b",
+    "source_role": "b"
+  },
+  "P-226b9414d635fd33": {
+    "bad_sentence_ids": [],
+    "body_role": "b",
+    "core": null,
+    "facts": [
+      "会場は青葉会館の研修室B",
+      "申込締切は11月26日"
+    ],
+    "ref": "a7b6ea98d7",
+    "source_role": "b"
+  },
+  "P-2fd5c8dd1739176a": {
+    "bad_sentence_ids": [],
+    "body_role": "a",
+    "core": null,
+    "facts": [
+      "広報誌の春号用",
+      "納品した写真は4点"
+    ],
+    "ref": "J7",
+    "source_role": "a"
+  },
+  "P-32e139d7bbb76c5e": {
+    "bad_sentence_ids": [
+      4
+    ],
+    "body_role": "b",
+    "core": "頼んだのは副店長本人の氏名",
+    "facts": [
+      "会場は青葉会館の研修室B",
+      "申込締切は11月26日"
+    ],
+    "ref": "a7b6ea98d7",
+    "source_role": "ambiguous"
+  },
+  "P-3bfea86cf8f7aa3b": {
+    "bad_sentence_ids": [],
+    "body_role": "neutral",
+    "core": null,
+    "facts": [
+      "会場は青葉会館の研修室B",
+      "申込締切は11月26日"
+    ],
+    "ref": "a7b6ea98d7",
+    "source_role": "a"
+  },
+  "P-54ae49307f71b192": {
+    "bad_sentence_ids": [],
+    "body_role": "neutral",
+    "core": null,
+    "facts": [
+      "型紙は6枚",
+      "保管場所は平棚の3段目"
+    ],
+    "ref": "2783a07d7b",
+    "source_role": "a"
+  },
+  "P-59739b7c95950d48": {
+    "bad_sentence_ids": [
+      2
+    ],
+    "body_role": "b",
+    "core": "検査する工程で投影機を使いました",
+    "facts": [
+      "型紙は6枚",
+      "保管場所は平棚の3段目"
+    ],
+    "ref": "2783a07d7b",
+    "source_role": "ambiguous"
+  },
+  "P-5cb5f0e4d2c19f51": {
+    "bad_sentence_ids": [
+      2
+    ],
+    "body_role": "b",
+    "core": "11月6日",
+    "facts": [
+      "会場は楓ホール",
+      "定員40人"
+    ],
+    "ref": "X5",
+    "source_role": "ambiguous"
+  },
+  "P-6227aa98fb3a7052": {
+    "bad_sentence_ids": [
+      1
+    ],
+    "body_role": "a",
+    "core": "別館",
+    "facts": [
+      "広報誌の春号用",
+      "納品した写真は4点"
+    ],
+    "ref": "J7",
+    "source_role": "ambiguous"
+  },
+  "P-62a5f96f41374d48": {
+    "bad_sentence_ids": [],
+    "body_role": "b",
+    "core": null,
+    "facts": [
+      "型紙は6枚",
+      "保管場所は平棚の3段目"
+    ],
+    "ref": "2783a07d7b",
+    "source_role": "b"
+  },
+  "P-673c0adf7376bb41": {
+    "bad_sentence_ids": [],
+    "body_role": "neutral",
+    "core": null,
+    "facts": [
+      "広報誌の春号用",
+      "納品した写真は4点"
+    ],
+    "ref": "J7",
+    "source_role": "ambiguous"
+  },
+  "P-6b9d006ada286bbe": {
+    "bad_sentence_ids": [],
+    "body_role": "a",
+    "core": null,
+    "facts": [
+      "会場は楓ホール",
+      "定員40人"
+    ],
+    "ref": "X5",
+    "source_role": "a"
+  },
+  "P-6e3d2760dc34509e": {
+    "bad_sentence_ids": [],
+    "body_role": "neutral",
+    "core": null,
+    "facts": [
+      "広報誌の春号用",
+      "納品した写真は4点"
+    ],
+    "ref": "J7",
+    "source_role": "b"
+  },
+  "P-7c3365bad1c6c4b5": {
+    "bad_sentence_ids": [
+      2
+    ],
+    "body_role": "b",
+    "core": "検査する工程で投影機を使いました",
+    "facts": [
+      "型紙は6枚",
+      "保管場所は平棚の3段目"
+    ],
+    "ref": "2783a07d7b",
+    "source_role": "a"
+  },
+  "P-7d60373fd1272e34": {
+    "bad_sentence_ids": [],
+    "body_role": "neutral",
+    "core": null,
+    "facts": [
+      "会場は楓ホール",
+      "定員40人"
+    ],
+    "ref": "X5",
+    "source_role": "b"
+  },
+  "P-7fae6881c4811602": {
+    "bad_sentence_ids": [],
+    "body_role": "neutral",
+    "core": null,
+    "facts": [
+      "会場は楓ホール",
+      "定員40人"
+    ],
+    "ref": "X5",
+    "source_role": "a"
+  },
+  "P-81243443d3ec2482": {
+    "bad_sentence_ids": [],
+    "body_role": "b",
+    "core": null,
+    "facts": [
+      "広報誌の春号用",
+      "納品した写真は4点"
+    ],
+    "ref": "J7",
+    "source_role": "b"
+  },
+  "P-8afe19164f7fae9a": {
+    "bad_sentence_ids": [
+      4
+    ],
+    "body_role": "a",
+    "core": "頼んだのは店長本人の氏名",
+    "facts": [
+      "会場は青葉会館の研修室B",
+      "申込締切は11月26日"
+    ],
+    "ref": "a7b6ea98d7",
+    "source_role": "b"
+  },
+  "P-90c521b0be2df01b": {
+    "bad_sentence_ids": [
+      2
+    ],
+    "body_role": "a",
+    "core": "写し取る工程で投影機を使いました",
+    "facts": [
+      "型紙は6枚",
+      "保管場所は平棚の3段目"
+    ],
+    "ref": "2783a07d7b",
+    "source_role": "b"
+  },
+  "P-932f9b860cddda0e": {
+    "bad_sentence_ids": [
+      1
+    ],
+    "body_role": "b",
+    "core": "別館",
+    "facts": [
+      "広報誌の春号用",
+      "納品した写真は4点"
+    ],
+    "ref": "J7",
+    "source_role": "ambiguous"
+  },
+  "P-98b7ccf83661d429": {
+    "bad_sentence_ids": [
+      2
+    ],
+    "body_role": "a",
+    "core": "写し取る工程で投影機を使いました",
+    "facts": [
+      "型紙は6枚",
+      "保管場所は平棚の3段目"
+    ],
+    "ref": "2783a07d7b",
+    "source_role": "ambiguous"
+  },
+  "P-98d3bdbe0885ec78": {
+    "bad_sentence_ids": [],
+    "body_role": "a",
+    "core": null,
+    "facts": [
+      "型紙は6枚",
+      "保管場所は平棚の3段目"
+    ],
+    "ref": "2783a07d7b",
+    "source_role": "a"
+  },
+  "P-a484db69049ee704": {
+    "bad_sentence_ids": [
+      1
+    ],
+    "body_role": "a",
+    "core": "別館",
+    "facts": [
+      "広報誌の春号用",
+      "納品した写真は4点"
+    ],
+    "ref": "J7",
+    "source_role": "b"
+  },
+  "P-a65134e298934db4": {
+    "bad_sentence_ids": [],
+    "body_role": "neutral",
+    "core": null,
+    "facts": [
+      "型紙は6枚",
+      "保管場所は平棚の3段目"
+    ],
+    "ref": "2783a07d7b",
+    "source_role": "ambiguous"
+  },
+  "P-b427dd068286a25f": {
+    "bad_sentence_ids": [
+      2
+    ],
+    "body_role": "a",
+    "core": "11月6日",
+    "facts": [
+      "会場は楓ホール",
+      "定員40人"
+    ],
+    "ref": "X5",
+    "source_role": "b"
+  },
+  "P-b9792e28c42f5c61": {
+    "bad_sentence_ids": [
+      4
+    ],
+    "body_role": "b",
+    "core": "頼んだのは副店長本人の氏名",
+    "facts": [
+      "会場は青葉会館の研修室B",
+      "申込締切は11月26日"
+    ],
+    "ref": "a7b6ea98d7",
+    "source_role": "a"
+  },
+  "P-c5882257f7d96b5d": {
+    "bad_sentence_ids": [],
+    "body_role": "b",
+    "core": null,
+    "facts": [
+      "会場は楓ホール",
+      "定員40人"
+    ],
+    "ref": "X5",
+    "source_role": "b"
+  },
+  "P-cc2d485c596aa003": {
+    "bad_sentence_ids": [
+      4
+    ],
+    "body_role": "a",
+    "core": "頼んだのは店長本人の氏名",
+    "facts": [
+      "会場は青葉会館の研修室B",
+      "申込締切は11月26日"
+    ],
+    "ref": "a7b6ea98d7",
+    "source_role": "ambiguous"
+  },
+  "P-d14ae1bfa3d10d63": {
+    "bad_sentence_ids": [],
+    "body_role": "a",
+    "core": null,
+    "facts": [
+      "会場は青葉会館の研修室B",
+      "申込締切は11月26日"
+    ],
+    "ref": "a7b6ea98d7",
+    "source_role": "a"
+  },
+  "P-e445f06d6c970951": {
+    "bad_sentence_ids": [
+      1
+    ],
+    "body_role": "b",
+    "core": "別館",
+    "facts": [
+      "広報誌の春号用",
+      "納品した写真は4点"
+    ],
+    "ref": "J7",
+    "source_role": "a"
+  },
+  "P-ef59bd27c61fe451": {
+    "bad_sentence_ids": [
+      2
+    ],
+    "body_role": "b",
+    "core": "11月6日",
+    "facts": [
+      "会場は楓ホール",
+      "定員40人"
+    ],
+    "ref": "X5",
+    "source_role": "a"
+  },
+  "P-f53db5ac088895ba": {
+    "bad_sentence_ids": [],
+    "body_role": "neutral",
+    "core": null,
+    "facts": [
+      "会場は青葉会館の研修室B",
+      "申込締切は11月26日"
+    ],
+    "ref": "a7b6ea98d7",
+    "source_role": "b"
+  },
+  "P-fea30a00e6baec87": {
+    "bad_sentence_ids": [],
+    "body_role": "neutral",
+    "core": null,
+    "facts": [
+      "広報誌の春号用",
+      "納品した写真は4点"
+    ],
+    "ref": "J7",
+    "source_role": "a"
+  }
+}

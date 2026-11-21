@@ -1,0 +1,277 @@
+{
+  "T-0a1e750d3fd60cf8cf6f7d4fe4d07726": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-1b9ec4ff399b276c38786815492ea37b": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-2a64498b227cd5a80f8aaf72e80d8ec0": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-3a2fb2b195dbb061bb70e3ae63b7eccb": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-464d5d4d95c64926371530175e3b87de": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "図柄を検査する工程で投影機を使いました",
+        "reason": "記録冒頭の「投影機で」は「写し取った」にも掛かる。使用先を検査と確定できない。"
+      }
+    ]
+  },
+  "T-4a247da898438f48f4629142936efbea": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-582924a1650faf0b8a5c157525bda081": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "図柄を写し取る工程で投影機を使いました",
+        "reason": "記録の「投影機で」を「検査した」に掛ける読みもあり、使用先が転写とは確定しない。"
+      }
+    ]
+  },
+  "T-64fa80617f5fbc1048a925ee8646d2a8": {
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-6bb9cd44c0f6e61e39f381dea439514a": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-72bd7e7e577400f912e4aa2d97cd60ba": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      1
+    ],
+    "issues": [
+      {
+        "sentence_id": 1,
+        "quote": "別館で展示台を組み上げています",
+        "reason": "記録に明記されているのは撮影場所であり、展示台の組み立て場所は分からない。"
+      }
+    ]
+  },
+  "T-7dbe5385956cc6f33264a40a85b7ef32": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      1
+    ],
+    "issues": [
+      {
+        "sentence_id": 1,
+        "quote": "別館で展示台を組み上げています",
+        "reason": "メモは「別館で」が撮影に掛かる読みも許すため、職人が別館で組み立てたとは確定できない。"
+      }
+    ]
+  },
+  "T-807bb4892c94b23e3cb04052c67e7fe0": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      4
+    ],
+    "issues": [
+      {
+        "sentence_id": 4,
+        "quote": "副店長本人の氏名",
+        "reason": "記録は依頼された氏名を「店長本人の氏名」と明記している。"
+      }
+    ]
+  },
+  "T-8c3f5efa03da98c9c3e3124f9d961e27": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "委員会が講師を選定したのは11月6日",
+        "reason": "日誌で11月6日とされているのは事務局の発表。委員会が講師を選んだ日は書かれていない。"
+      }
+    ]
+  },
+  "T-8ebef77185593903829b128316ea19a6": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-94d200b68cedc45e0b6145480aa8e8bb": {
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      1
+    ],
+    "issues": [
+      {
+        "sentence_id": 1,
+        "quote": "「つばめ宿」から受領した",
+        "reason": "依頼にある「『つばめ宿』で借りた」だけでは、つばめ宿が帽子の引き渡し元であることまでは確認できない。"
+      }
+    ]
+  },
+  "T-9eefaf4fe0e839ccc8c502378b71fa5a": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-baa9309358ed9fa92ad1b8f101aeac5f": {
+    "facts": [
+      true,
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-bbba5952b8db5d4a519684ad652c1374": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      4
+    ],
+    "issues": [
+      {
+        "sentence_id": 4,
+        "quote": "店長本人の氏名",
+        "reason": "依頼記録の「自分の氏名」は、記入する副店長の氏名とも読める。"
+      }
+    ]
+  },
+  "T-c5a42d75fdf1e7234234183d6ecbc2be": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-d80747f7846d5909d6ef73becff94ffc": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-e1057c512f28ecc407befb3520b85fed": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  },
+  "T-ef24ba8982222f8d2d908481988efc43": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      1
+    ],
+    "issues": [
+      {
+        "sentence_id": 1,
+        "quote": "別館でカメラに収めました",
+        "reason": "メモの「別館で」は組み立て場所を示すとも読めるため、撮影場所を別館と決められない。"
+      }
+    ]
+  },
+  "T-f50d5ecf1f4a7507c8f059d92d0c6efe": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [
+      2
+    ],
+    "issues": [
+      {
+        "sentence_id": 2,
+        "quote": "緑町公民館で受け取った",
+        "reason": "記録の「ここで」は委員会の発表場所を指す読みもあり、変更案内の受取場所までは定まらない。"
+      }
+    ]
+  },
+  "T-fe4ec102ed2777a196bc512b06978f4f": {
+    "facts": [
+      true,
+      true
+    ],
+    "bad_sentence_ids": [],
+    "issues": []
+  }
+}

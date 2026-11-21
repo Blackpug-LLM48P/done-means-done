@@ -1,0 +1,1007 @@
+{
+  "A2948": {
+    "R0": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "H-01": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  "H-02": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        1
+      ],
+      "facts": [
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  "H-03": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  "H-04": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        1
+      ],
+      "facts": [
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  "P-0ad89fff0c785568": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-0e9695e4492129d1": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-1a55d0c7c3174ef8": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-1b6bd8f8a8630768": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-226b9414d635fd33": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-2fd5c8dd1739176a": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-32e139d7bbb76c5e": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        4
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-3bfea86cf8f7aa3b": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-54ae49307f71b192": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-59739b7c95950d48": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-5cb5f0e4d2c19f51": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-6227aa98fb3a7052": {
+    "R0": {
+      "bad_sentence_ids": [
+        1
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        1
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-62a5f96f41374d48": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-673c0adf7376bb41": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-6b9d006ada286bbe": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-6e3d2760dc34509e": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-7c3365bad1c6c4b5": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-7d60373fd1272e34": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-7fae6881c4811602": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-81243443d3ec2482": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-8afe19164f7fae9a": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        4
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-90c521b0be2df01b": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-932f9b860cddda0e": {
+    "R0": {
+      "bad_sentence_ids": [
+        1
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        1
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-98b7ccf83661d429": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-98d3bdbe0885ec78": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-a484db69049ee704": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        1
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-a65134e298934db4": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-b427dd068286a25f": {
+    "R0": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-b9792e28c42f5c61": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        4
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-c5882257f7d96b5d": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-cc2d485c596aa003": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        4
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-d14ae1bfa3d10d63": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-e445f06d6c970951": {
+    "R0": {
+      "bad_sentence_ids": [
+        1
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        1
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-ef59bd27c61fe451": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-f53db5ac088895ba": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  },
+  "P-fea30a00e6baec87": {
+    "R0": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "R1": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    },
+    "original": {
+      "bad_sentence_ids": [],
+      "facts": [
+        true,
+        true
+      ]
+    }
+  }
+}

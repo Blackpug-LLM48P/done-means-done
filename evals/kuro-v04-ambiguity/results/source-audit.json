@@ -1,0 +1,259 @@
+{
+  "both_match_author": 12,
+  "reader_agreements": 12,
+  "source_count": 12,
+  "sources": {
+    "00ab0c86ac": {
+      "agree_with_author": [
+        true,
+        true
+      ],
+      "author": [
+        "117bb51b20",
+        "6a8e8fb6e7"
+      ],
+      "family": "8858d8e239",
+      "readers": [
+        [
+          "117bb51b20",
+          "6a8e8fb6e7"
+        ],
+        [
+          "117bb51b20",
+          "6a8e8fb6e7"
+        ]
+      ],
+      "source_role": "a"
+    },
+    "113dc2771d": {
+      "agree_with_author": [
+        true,
+        true
+      ],
+      "author": [
+        "117bb51b20",
+        "33f0d5c57e"
+      ],
+      "family": "8858d8e239",
+      "readers": [
+        [
+          "117bb51b20",
+          "33f0d5c57e"
+        ],
+        [
+          "117bb51b20",
+          "33f0d5c57e"
+        ]
+      ],
+      "source_role": "b"
+    },
+    "2d75f45352": {
+      "agree_with_author": [
+        true,
+        true
+      ],
+      "author": [
+        "117bb51b20"
+      ],
+      "family": "8858d8e239",
+      "readers": [
+        [
+          "117bb51b20"
+        ],
+        [
+          "117bb51b20"
+        ]
+      ],
+      "source_role": "ambiguous"
+    },
+    "34250e2f2f": {
+      "agree_with_author": [
+        true,
+        true
+      ],
+      "author": [
+        "4d0deb5309",
+        "94a9faad87"
+      ],
+      "family": "cff57a57e1",
+      "readers": [
+        [
+          "4d0deb5309",
+          "94a9faad87"
+        ],
+        [
+          "4d0deb5309",
+          "94a9faad87"
+        ]
+      ],
+      "source_role": "b"
+    },
+    "4705177d36": {
+      "agree_with_author": [
+        true,
+        true
+      ],
+      "author": [
+        "4ae6ead89c",
+        "ed06e4940e"
+      ],
+      "family": "48c807188c",
+      "readers": [
+        [
+          "4ae6ead89c",
+          "ed06e4940e"
+        ],
+        [
+          "4ae6ead89c",
+          "ed06e4940e"
+        ]
+      ],
+      "source_role": "a"
+    },
+    "7b25921fce": {
+      "agree_with_author": [
+        true,
+        true
+      ],
+      "author": [
+        "d4926017c1",
+        "ed06e4940e"
+      ],
+      "family": "48c807188c",
+      "readers": [
+        [
+          "d4926017c1",
+          "ed06e4940e"
+        ],
+        [
+          "d4926017c1",
+          "ed06e4940e"
+        ]
+      ],
+      "source_role": "b"
+    },
+    "7e91650710": {
+      "agree_with_author": [
+        true,
+        true
+      ],
+      "author": [
+        "c5ffa39987",
+        "d48b2f390e"
+      ],
+      "family": "1a93d2a94d",
+      "readers": [
+        [
+          "c5ffa39987",
+          "d48b2f390e"
+        ],
+        [
+          "c5ffa39987",
+          "d48b2f390e"
+        ]
+      ],
+      "source_role": "a"
+    },
+    "8988951bea": {
+      "agree_with_author": [
+        true,
+        true
+      ],
+      "author": [
+        "4d0deb5309",
+        "677e488dfc"
+      ],
+      "family": "cff57a57e1",
+      "readers": [
+        [
+          "4d0deb5309",
+          "677e488dfc"
+        ],
+        [
+          "4d0deb5309",
+          "677e488dfc"
+        ]
+      ],
+      "source_role": "a"
+    },
+    "94966e6aba": {
+      "agree_with_author": [
+        true,
+        true
+      ],
+      "author": [
+        "ed06e4940e"
+      ],
+      "family": "48c807188c",
+      "readers": [
+        [
+          "ed06e4940e"
+        ],
+        [
+          "ed06e4940e"
+        ]
+      ],
+      "source_role": "ambiguous"
+    },
+    "96fe12b758": {
+      "agree_with_author": [
+        true,
+        true
+      ],
+      "author": [
+        "20977c6490",
+        "c5ffa39987"
+      ],
+      "family": "1a93d2a94d",
+      "readers": [
+        [
+          "20977c6490",
+          "c5ffa39987"
+        ],
+        [
+          "20977c6490",
+          "c5ffa39987"
+        ]
+      ],
+      "source_role": "b"
+    },
+    "ac994ece3d": {
+      "agree_with_author": [
+        true,
+        true
+      ],
+      "author": [
+        "c5ffa39987"
+      ],
+      "family": "1a93d2a94d",
+      "readers": [
+        [
+          "c5ffa39987"
+        ],
+        [
+          "c5ffa39987"
+        ]
+      ],
+      "source_role": "ambiguous"
+    },
+    "d3606297ba": {
+      "agree_with_author": [
+        true,
+        true
+      ],
+      "author": [
+        "4d0deb5309"
+      ],
+      "family": "cff57a57e1",
+      "readers": [
+        [
+          "4d0deb5309"
+        ],
+        [
+          "4d0deb5309"
+        ]
+      ],
+      "source_role": "ambiguous"
+    }
+  }
+}
