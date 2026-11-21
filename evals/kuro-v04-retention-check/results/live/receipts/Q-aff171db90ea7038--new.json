@@ -1,0 +1,106 @@
+{
+  "arm": "new",
+  "cohort": "new",
+  "dispatch_order": 2,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "3067e98e-3ea1-41d9-84a6-f350af99ef8b",
+    "cli_finished_unix_ns": 1795250418454343909,
+    "cli_started_unix_ns": 1795250400088509015,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 18366,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795250418458453739,
+    "isolation": {
+      "empty_cwd": true,
+      "key_hidden": true,
+      "positive_read": true,
+      "previous_key_hidden": true,
+      "proc_root_checked": true,
+      "repository_hidden": true,
+      "sandbox": "bubblewrap",
+      "units_hidden": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/raw/Q-aff171db90ea7038--new.txt",
+    "raw_sha256": "234f48a2fb38ce4b2ec3553e61c6f502474e295fefb605f1312f09a7db4e8ef0",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12460,
+        "output_tokens": 148,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 12608
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12460,
+        "output_tokens": 148,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 12608
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fd43-2c31-7700-89ab-51b884d9967c",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12460,
+      "output_tokens": 148,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12460,
+      "output_tokens": 148,
+      "reasoning_output_tokens": 0
+    }
+  },
+  "packet_sha256": "851f948d7b3c4266ce6dd00f392370361db1b4e8aebfd462fd70b714e3fad9f6",
+  "prompt_sha256": "21d568745463c86adbe407514645247ab8c72732707ff0da68f8ea9bb3425ee9",
+  "r1_sha256": "378d30169e9640caf408d271c74b9ca0bd1c28ce2d04166b778c0c7d9d2713a2",
+  "raw": "{\n  \"verdict\": \"hold\",\n  \"rationale\": \"元の本文は6月12日と19日の両日とも午前と午後に開催すると断定しているが、E1で両日に設定されているのは午前の部だけで、午後の部の日程は調整中である。候補は午後の部の記述を修正し、事前申し込みと参加費も正確に保っているが、午前の部の確定日である6月12日と19日を落としている。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "run_id": "Q-aff171db90ea7038--new",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": null,
+    "original_body": "高松の見学会は6月12日と19日の両日、午前と午後に開かれる。参加には事前の申し込みが必要だ。参加費は1人300円だ。",
+    "outcome": "hold",
+    "prompt_sha256": "21d568745463c86adbe407514645247ab8c72732707ff0da68f8ea9bb3425ee9",
+    "rationale": "元の本文は6月12日と19日の両日とも午前と午後に開催すると断定しているが、E1で両日に設定されているのは午前の部だけで、午後の部の日程は調整中である。候補は午後の部の記述を修正し、事前申し込みと参加費も正確に保っているが、午前の部の確定日である6月12日と19日を落としている。",
+    "verdict": "hold"
+  },
+  "unit_id": "Q-aff171db90ea7038"
+}

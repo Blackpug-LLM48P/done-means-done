@@ -1,0 +1,106 @@
+{
+  "arm": "old",
+  "cohort": "new",
+  "dispatch_order": 13,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "9b0b3892-0fda-4d4b-aa44-753f002969d1",
+    "cli_finished_unix_ns": 1795250441556475166,
+    "cli_started_unix_ns": 1795250429822462927,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 11734,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795250441560460221,
+    "isolation": {
+      "empty_cwd": true,
+      "key_hidden": true,
+      "positive_read": true,
+      "previous_key_hidden": true,
+      "proc_root_checked": true,
+      "repository_hidden": true,
+      "sandbox": "bubblewrap",
+      "units_hidden": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/raw/Q-6699505380377aef--old.txt",
+    "raw_sha256": "9c3a05e45fe186f01a63026620eb8967261b8925a4d08983e9354e578cc00c5f",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12403,
+        "output_tokens": 156,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 12559
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 12403,
+        "output_tokens": 156,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 12559
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fd43-a01a-7240-85ee-1e851db680b4",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12403,
+      "output_tokens": 156,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 12403,
+      "output_tokens": 156,
+      "reasoning_output_tokens": 0
+    }
+  },
+  "packet_sha256": "7af54bfa4f23e4f7931ee7d7d9bff819c8cc1c8b062ecd17eae283182cbf55f1",
+  "prompt_sha256": "dfe6c2fda0c9034160f83b9cd0334103ba4b1e97ab6d3715ff6ebce41e22c572",
+  "r1_sha256": "b82acb8db908922f96bb0b703b385c17995b9dd9936a35c1a2e7696b7994b0c1",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"E1では小数第1位が判読できず、元の本文が断定する18.7キロの「7」には裏付けがない。候補の「18キロ台」は、判読できる「18.□ kg」が示す範囲を正確に伝えている。青い通い箱を使う指示と、配車表にある木曜午前10時の集荷時刻も、それぞれE2、E3の記載どおりに保たれている。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "run_id": "Q-6699505380377aef--old",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": "回収した端材の正味重量は18キロ台だった。梱包指示書では、端材の搬出に青い通い箱を使う。配車表に記載された集荷時刻は木曜の午前10時。",
+    "original_body": "回収した端材の正味重量は18.7キロだった。梱包指示書では、端材の搬出に青い通い箱を使う。配車表に記載された集荷時刻は木曜の午前10時。",
+    "outcome": "offer",
+    "prompt_sha256": "dfe6c2fda0c9034160f83b9cd0334103ba4b1e97ab6d3715ff6ebce41e22c572",
+    "rationale": "E1では小数第1位が判読できず、元の本文が断定する18.7キロの「7」には裏付けがない。候補の「18キロ台」は、判読できる「18.□ kg」が示す範囲を正確に伝えている。青い通い箱を使う指示と、配車表にある木曜午前10時の集荷時刻も、それぞれE2、E3の記載どおりに保たれている。",
+    "verdict": "approve"
+  },
+  "unit_id": "Q-6699505380377aef"
+}

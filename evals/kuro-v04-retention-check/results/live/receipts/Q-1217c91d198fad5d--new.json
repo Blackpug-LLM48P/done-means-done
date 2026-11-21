@@ -1,0 +1,106 @@
+{
+  "arm": "new",
+  "cohort": "known",
+  "dispatch_order": 11,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "66a1b842-ec86-436f-bff4-3c328ac04778",
+    "cli_finished_unix_ns": 1795250429811170379,
+    "cli_started_unix_ns": 1795250418523164217,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 11288,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795250429814277844,
+    "isolation": {
+      "empty_cwd": true,
+      "key_hidden": true,
+      "positive_read": true,
+      "previous_key_hidden": true,
+      "proc_root_checked": true,
+      "repository_hidden": true,
+      "sandbox": "bubblewrap",
+      "units_hidden": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/raw/Q-1217c91d198fad5d--new.txt",
+    "raw_sha256": "c462b925aaf422f6a2006e233fe2230ed86765132fecfb8605db9c51ef72f242",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 12515,
+        "output_tokens": 187,
+        "reasoning_output_tokens": 30,
+        "total_tokens": 12702
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 12515,
+        "output_tokens": 187,
+        "reasoning_output_tokens": 30,
+        "total_tokens": 12702
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fd43-740c-73e1-8f47-b791ff4612f3",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 12515,
+      "output_tokens": 187,
+      "reasoning_output_tokens": 30
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 12515,
+      "output_tokens": 187,
+      "reasoning_output_tokens": 30
+    }
+  },
+  "packet_sha256": "e1cf5011100a00905f74a5ff238204289af4e429163ec627288ca97a54837ccf",
+  "prompt_sha256": "803e8ddc3bec57a83c703799f0e9a4882650668e4e0124ae6879bef780724771",
+  "r1_sha256": "1f6d20570a08e2d3fcb3038ea686dcbd30907e5ed018caf28698aeee491f4fde",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"元の本文は監視員が午後十時に速報を送信したと断定している。E1では送信時刻欄は空欄で、午後十時は当直者が運転日誌に転記した時刻として記載されている。候補はこの点を正し、監視員が送った水位速報を当直者が転記したこと、対象が北側水門だったこと、記入欄が「水位観測」だったことを保っている。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "run_id": "Q-1217c91d198fad5d--new",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": "当直者が運転日誌に転記した水位速報は、監視員が送信したもので、日誌への転記時刻は午後十時と記されていた。速報の対象は北側水門だった。日誌の記入欄は「水位観測」だった。",
+    "original_body": "当直者が運転日誌に転記した水位速報は、監視員が午後十時に送信したものだった。速報の対象は北側水門だった。日誌の記入欄は「水位観測」だった。",
+    "outcome": "offer",
+    "prompt_sha256": "803e8ddc3bec57a83c703799f0e9a4882650668e4e0124ae6879bef780724771",
+    "rationale": "元の本文は監視員が午後十時に速報を送信したと断定している。E1では送信時刻欄は空欄で、午後十時は当直者が運転日誌に転記した時刻として記載されている。候補はこの点を正し、監視員が送った水位速報を当直者が転記したこと、対象が北側水門だったこと、記入欄が「水位観測」だったことを保っている。",
+    "verdict": "approve"
+  },
+  "unit_id": "Q-1217c91d198fad5d"
+}

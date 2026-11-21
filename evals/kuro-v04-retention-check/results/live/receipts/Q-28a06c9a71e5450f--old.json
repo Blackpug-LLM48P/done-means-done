@@ -1,0 +1,106 @@
+{
+  "arm": "old",
+  "cohort": "new",
+  "dispatch_order": 7,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "75020faf-8007-48fd-9137-56600bf9b179",
+    "cli_finished_unix_ns": 1795250429798125746,
+    "cli_started_unix_ns": 1795250418477227326,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 11321,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795250429799417783,
+    "isolation": {
+      "empty_cwd": true,
+      "key_hidden": true,
+      "positive_read": true,
+      "previous_key_hidden": true,
+      "proc_root_checked": true,
+      "repository_hidden": true,
+      "sandbox": "bubblewrap",
+      "units_hidden": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/raw/Q-28a06c9a71e5450f--old.txt",
+    "raw_sha256": "c3bf6c2709051e9107bbe21a9cfc7255ff4e16aed982afc836afc03d4a86a7d5",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 12402,
+        "output_tokens": 153,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 12555
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 12402,
+        "output_tokens": 153,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 12555
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fd43-73e5-7cc2-af6f-4817fa045bd1",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 12402,
+      "output_tokens": 153,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 12402,
+      "output_tokens": 153,
+      "reasoning_output_tokens": 0
+    }
+  },
+  "packet_sha256": "9c3961d76a24bcf884b5fdb503367b9e111ba106067cc5e7f3a441c73f360d51",
+  "prompt_sha256": "ac845bef7fcecfdc7390c0275a77933845b2ad11811b2a6d112f097f0c909024",
+  "r1_sha256": "8511003e932afc68d20531bf81a07ac8153b78c35f9690feaf87e9f814ba5094",
+  "raw": "{\n  \"verdict\": \"approve\",\n  \"rationale\": \"E1では広報係が展示写真の原版を受領したことは確認できるが、受領者の氏名欄は空欄で、元の本文が森さんを受領者と断定する根拠はない。候補は個人名の断定だけを除き、広報係への引き渡し、E2の返却期限「12月12日」、E3の指定クレジット「市史資料室所蔵」を正確に保っている。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "run_id": "Q-28a06c9a71e5450f--old",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": "展示写真の原版は広報係に引き渡された。貸出台帳に記載された原版の返却期限は12月12日。展示要項で指定されたクレジット表記は「市史資料室所蔵」。",
+    "original_body": "展示写真の原版を受け取ったのは広報係の森さんだ。貸出台帳に記載された原版の返却期限は12月12日。展示要項で指定されたクレジット表記は「市史資料室所蔵」。",
+    "outcome": "offer",
+    "prompt_sha256": "ac845bef7fcecfdc7390c0275a77933845b2ad11811b2a6d112f097f0c909024",
+    "rationale": "E1では広報係が展示写真の原版を受領したことは確認できるが、受領者の氏名欄は空欄で、元の本文が森さんを受領者と断定する根拠はない。候補は個人名の断定だけを除き、広報係への引き渡し、E2の返却期限「12月12日」、E3の指定クレジット「市史資料室所蔵」を正確に保っている。",
+    "verdict": "approve"
+  },
+  "unit_id": "Q-28a06c9a71e5450f"
+}

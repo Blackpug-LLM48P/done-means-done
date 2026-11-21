@@ -1,0 +1,106 @@
+{
+  "arm": "new",
+  "cohort": "new",
+  "dispatch_order": 1,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "7934bebd-4673-4186-949e-708721eab38d",
+    "cli_finished_unix_ns": 1795250418439012202,
+    "cli_started_unix_ns": 1795250400062319021,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 18377,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795250418441881212,
+    "isolation": {
+      "empty_cwd": true,
+      "key_hidden": true,
+      "positive_read": true,
+      "previous_key_hidden": true,
+      "proc_root_checked": true,
+      "repository_hidden": true,
+      "sandbox": "bubblewrap",
+      "units_hidden": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/raw/Q-18ed676459851b14--new.txt",
+    "raw_sha256": "a89a9468874df5091ec9f06c87d913815b7b4677e03fc381a6f0c88489ba1f7d",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 12506,
+        "output_tokens": 128,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 12634
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 12506,
+        "output_tokens": 128,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 12634
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fd43-2c0d-7013-a976-f3712e4111a9",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 12506,
+      "output_tokens": 128,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 12506,
+      "output_tokens": 128,
+      "reasoning_output_tokens": 0
+    }
+  },
+  "packet_sha256": "9c3961d76a24bcf884b5fdb503367b9e111ba106067cc5e7f3a441c73f360d51",
+  "prompt_sha256": "9aaf5951efb269db3b5ebeda64a6052010d12796d147d32188c1c9e3e94862f1",
+  "r1_sha256": "c40d45b878fe1feb19dbfacb87adf81e5ca2f5aab3a9a349012fd07fa8faf32c",
+  "raw": "{\n  \"verdict\": \"hold\",\n  \"rationale\": \"E1では受領者の氏名欄が空欄のため、元の本文で受領者を森さんと断定する根拠はない。候補は氏名の断定を解消したが、E1で確認できる受領部署「広報係」まで削っている。返却期限とクレジット表記はE2、E3と一致する。\",\n  \"checked_refs\": [\"E1\", \"E2\", \"E3\"]\n}",
+  "run_id": "Q-18ed676459851b14--new",
+  "stage": "verify",
+  "trace": {
+    "checked_refs": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "error": null,
+    "offered_body": null,
+    "original_body": "展示写真の原版を受け取ったのは広報係の森さんだ。貸出台帳に記載された原版の返却期限は12月12日。展示要項で指定されたクレジット表記は「市史資料室所蔵」。",
+    "outcome": "hold",
+    "prompt_sha256": "9aaf5951efb269db3b5ebeda64a6052010d12796d147d32188c1c9e3e94862f1",
+    "rationale": "E1では受領者の氏名欄が空欄のため、元の本文で受領者を森さんと断定する根拠はない。候補は氏名の断定を解消したが、E1で確認できる受領部署「広報係」まで削っている。返却期限とクレジット表記はE2、E3と一致する。",
+    "verdict": "hold"
+  },
+  "unit_id": "Q-18ed676459851b14"
+}
