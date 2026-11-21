@@ -1,0 +1,133 @@
+{
+  "dispatch_order": 3,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "5f86f609-8854-478d-aa03-fa44cd34a868",
+    "cli_finished_unix_ns": 1795246295653273323,
+    "cli_started_unix_ns": 1795246273294159310,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 22359,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795246295655284918,
+    "isolation": {
+      "current_key_hidden": true,
+      "empty_cwd": true,
+      "old_key_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repository_hidden": true,
+      "sandbox": "bubblewrap",
+      "units_hidden": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/review/raw/L-9e08e46e769a4191.txt",
+    "raw_sha256": "2ba863996732c45774e2f133e6bc9124c495ae995d210875ee8ef9799dc39248",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13389,
+        "output_tokens": 617,
+        "reasoning_output_tokens": 499,
+        "total_tokens": 14006
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13389,
+        "output_tokens": 617,
+        "reasoning_output_tokens": 499,
+        "total_tokens": 14006
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fd04-3422-7b93-a0ac-f6d80639825c",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13389,
+      "output_tokens": 617,
+      "reasoning_output_tokens": 499
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13389,
+      "output_tokens": 617,
+      "reasoning_output_tokens": 499
+    }
+  },
+  "packet_sha256": "b21b6f1b0c3bac26ca8c5cfb63d4fa9f498414046072e7c4c6c84a0fdb9ca8cb",
+  "prompt_sha256": "63ad732ab066d721ad0ddfee059299d1cfe8c608e5c25a482d934b916ba9b577",
+  "raw": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"原本で\",\n      \"reason\": \"E1の「物置で見つかった」は「航海日誌」にも「写し」にもかかり得る。物置から出たのは一点だが、それが原本だったとは特定できない。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"原本か写しのどちらか一点で\"\n    }\n  ]\n}",
+  "stage": "review",
+  "trace": {
+    "as_of": "2026-11-19T15:00:00+09:00",
+    "case_id": "J-e4b5ba789de9c0e9",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "E1"
+        ],
+        "end": 18,
+        "quote": "原本で",
+        "reason": "E1の「物置で見つかった」は「航海日誌」にも「写し」にもかかり得る。物置から出たのは一点だが、それが原本だったとは特定できない。",
+        "replacement": "原本か写しのどちらか一点で",
+        "sentence_id": 1,
+        "start": 15
+      }
+    ],
+    "original_body": "物置で見つかったのは航海日誌の原本で、資料館はその写しを受け取った。日誌を書いたのは船長の木島さんだった。資料館が写しを受け取ったのは六月八日だった。",
+    "packet_sha256": "b21b6f1b0c3bac26ca8c5cfb63d4fa9f498414046072e7c4c6c84a0fdb9ca8cb",
+    "proposed_body": "物置で見つかったのは航海日誌の原本か写しのどちらか一点で、資料館はその写しを受け取った。日誌を書いたのは船長の木島さんだった。資料館が写しを受け取ったのは六月八日だった。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 1,\n      \"quote\": \"原本で\",\n      \"reason\": \"E1の「物置で見つかった」は「航海日誌」にも「写し」にもかかり得る。物置から出たのは一点だが、それが原本だったとは特定できない。\",\n      \"checked_refs\": [\"E1\"],\n      \"replacement\": \"原本か写しのどちらか一点で\"\n    }\n  ]\n}",
+    "revision": "r1",
+    "sentences": [
+      {
+        "end": 34,
+        "id": 1,
+        "start": 0,
+        "text": "物置で見つかったのは航海日誌の原本で、資料館はその写しを受け取った。"
+      },
+      {
+        "end": 53,
+        "id": 2,
+        "start": 34,
+        "text": "日誌を書いたのは船長の木島さんだった。"
+      },
+      {
+        "end": 75,
+        "id": 3,
+        "start": 53,
+        "text": "資料館が写しを受け取ったのは六月八日だった。"
+      }
+    ],
+    "source_sha256": "d29e79fc2560be50c8432d2f2480ec22767465c0dcc3a42bae567f694030db21",
+    "status": "flagged"
+  },
+  "unit_id": "L-9e08e46e769a4191"
+}

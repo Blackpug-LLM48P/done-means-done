@@ -1,0 +1,9 @@
+{
+  "attempt_id": "3cf108d6-7245-4cb0-8763-3e6fbfb0f0c4",
+  "claimed_unix_ns": 1795246273297291780,
+  "dispatch_order": 1,
+  "packet_sha256": "6967c042693b0b2bcdab5c7230259217c6470e5fe0783ab0a34dd5dea75bd867",
+  "prompt_sha256": "b6e38a41bd0236946d8da94451ce924e3af0211fd4b8cd2e70e5e5e0b97217e9",
+  "stage": "review",
+  "unit_id": "L-de2abd0b92f92b9a"
+}

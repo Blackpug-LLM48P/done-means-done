@@ -1,0 +1,1 @@
+{"findings":[{"sentence_id":1,"quote":"原本","reason":"物置で見つかり、資料館が受け取ったのは航海日誌の写しである。原本は船主の家に保管されていた。","checked_refs":["E1"],"replacement":"写し"}]}

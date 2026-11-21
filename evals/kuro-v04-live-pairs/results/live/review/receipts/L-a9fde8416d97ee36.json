@@ -1,0 +1,133 @@
+{
+  "dispatch_order": 9,
+  "meta": {
+    "assistant_messages": 1,
+    "attempt_id": "6840fdf4-08d4-4e77-a28e-8ce7afa80566",
+    "cli_finished_unix_ns": 1795246301120623188,
+    "cli_started_unix_ns": 1795246289584733299,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "effort": "ultra",
+    "elapsed_ms": 11536,
+    "errors": [],
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795246301123325335,
+    "isolation": {
+      "current_key_hidden": true,
+      "empty_cwd": true,
+      "old_key_hidden": true,
+      "positive_read": true,
+      "proc_root_checked": true,
+      "repository_hidden": true,
+      "sandbox": "bubblewrap",
+      "units_hidden": true
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "model": "gpt-6.2-astra",
+    "raw_file": "results/live/review/raw/L-a9fde8416d97ee36.txt",
+    "raw_sha256": "2f8218da6c525d79edcd09f337b8befa2ee832c653e99e9acdb48f717b0f95fb",
+    "returncode": 0,
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13399,
+        "output_tokens": 217,
+        "reasoning_output_tokens": 139,
+        "total_tokens": 13616
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13399,
+        "output_tokens": 217,
+        "reasoning_output_tokens": 139,
+        "total_tokens": 13616
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fd04-73a3-72f0-ad23-e52e75fdb35a",
+    "status": "ok",
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13399,
+      "output_tokens": 217,
+      "reasoning_output_tokens": 139
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13399,
+      "output_tokens": 217,
+      "reasoning_output_tokens": 139
+    }
+  },
+  "packet_sha256": "02f463f838f1eec6e4922f67de9d6c57d65985a01934a81d745a4b8e7ba112f2",
+  "prompt_sha256": "c156cb1df26f74f71af5b73cc49f0931208008cbe111c6a00742ff88c653733e",
+  "raw": "{\"findings\":[{\"sentence_id\":1,\"quote\":\"原本\",\"reason\":\"物置で見つかり、資料館が受け取ったのは航海日誌の写しである。原本は船主の家に保管されていた。\",\"checked_refs\":[\"E1\"],\"replacement\":\"写し\"}]}",
+  "stage": "review",
+  "trace": {
+    "as_of": "2026-11-19T15:00:00+09:00",
+    "case_id": "J-e4b5ba789de9c0e9",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "E1"
+        ],
+        "end": 17,
+        "quote": "原本",
+        "reason": "物置で見つかり、資料館が受け取ったのは航海日誌の写しである。原本は船主の家に保管されていた。",
+        "replacement": "写し",
+        "sentence_id": 1,
+        "start": 15
+      }
+    ],
+    "original_body": "物置で見つかったのは航海日誌の原本で、資料館はその写しを受け取った。日誌を書いたのは船長の木島さんだった。資料館が写しを受け取ったのは六月八日だった。",
+    "packet_sha256": "02f463f838f1eec6e4922f67de9d6c57d65985a01934a81d745a4b8e7ba112f2",
+    "proposed_body": "物置で見つかったのは航海日誌の写しで、資料館はその写しを受け取った。日誌を書いたのは船長の木島さんだった。資料館が写しを受け取ったのは六月八日だった。",
+    "raw_review": "{\"findings\":[{\"sentence_id\":1,\"quote\":\"原本\",\"reason\":\"物置で見つかり、資料館が受け取ったのは航海日誌の写しである。原本は船主の家に保管されていた。\",\"checked_refs\":[\"E1\"],\"replacement\":\"写し\"}]}",
+    "revision": "r1",
+    "sentences": [
+      {
+        "end": 34,
+        "id": 1,
+        "start": 0,
+        "text": "物置で見つかったのは航海日誌の原本で、資料館はその写しを受け取った。"
+      },
+      {
+        "end": 53,
+        "id": 2,
+        "start": 34,
+        "text": "日誌を書いたのは船長の木島さんだった。"
+      },
+      {
+        "end": 75,
+        "id": 3,
+        "start": 53,
+        "text": "資料館が写しを受け取ったのは六月八日だった。"
+      }
+    ],
+    "source_sha256": "741953294286d4817425cc90c374aa6fb0d97c5dbc95538a653dc72232057785",
+    "status": "flagged"
+  },
+  "unit_id": "L-a9fde8416d97ee36"
+}
