@@ -1,0 +1,79 @@
+{
+  "body": "寄贈誌は18冊で、全冊を数えて受入報告の冊数と照合しました。寄贈申込書の署名欄は空欄で、受入報告は署名済みの申込書を待っています。閲覧用見本は、指定票と号数を照合した3冊すべてを指定棚「郷-06」に配架しました。配架後、棚札と3冊の現物を照合しました。",
+  "case_id": "J9460",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236719075956440,
+    "cli_started_unix_ns": 1795236693871280019,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 25205,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "66788d13ccc2158f4c40e2079f2420da20a56f7e88a28915c96559fe28ec1ef6",
+    "raw_file": "results/initial-raw/I06-1.txt",
+    "raw_sha256": "389d19e40b491553a142da522fdc76d0189c8b451291262819f000e61b4927b7",
+    "receiver_elapsed_ns": 194972,
+    "receiver_file": "results/paired/I06-1.json",
+    "receiver_finished_unix_ns": 1795236719078737815,
+    "receiver_sha256": "11316708785c6030eddff6b46227cd5c058d47aa75831aa270a27b80e799cdbb",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14592,
+        "input_tokens": 14725,
+        "output_tokens": 496,
+        "reasoning_output_tokens": 214,
+        "total_tokens": 15221
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14592,
+        "input_tokens": 14725,
+        "output_tokens": 496,
+        "reasoning_output_tokens": 214,
+        "total_tokens": 15221
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc72-07f3-7892-a351-dcb6ffc5d6c3",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14592,
+      "input_tokens": 14725,
+      "output_tokens": 496,
+      "reasoning_output_tokens": 214
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14592,
+      "input_tokens": 14725,
+      "output_tokens": 496,
+      "reasoning_output_tokens": 214
+    },
+    "wire_error": null
+  },
+  "job_id": "I06",
+  "mode": "independent",
+  "order": 1,
+  "unit_id": "I06-1"
+}

@@ -1,0 +1,79 @@
+{
+  "body": "9月4日15時時点で、緑町公民館の夕涼み朗読会について、実行委員会の変更案内と報告欄を照合しました。案内番号は「催-284」、変更後の開演時刻は18時30分です。訂正ポスターの版が変更案内と一致することを確認し、14時18分に緑町公民館の正面掲示板で掲出を確認しました。",
+  "case_id": "J7814",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236719072931463,
+    "cli_started_unix_ns": 1795236693849577581,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 25223,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "3ece8a280d5dfc9f7f164d9f0f0682f39e9ea44bc9087604d99628601a868e53",
+    "raw_file": "results/initial-raw/I05-1.txt",
+    "raw_sha256": "07492fa4c41438e8b0994baa34f17dc610de2a2810e1c9e3dd9fee376eb63e5d",
+    "receiver_elapsed_ns": 339507,
+    "receiver_file": "results/paired/I05-1.json",
+    "receiver_finished_unix_ns": 1795236719075270996,
+    "receiver_sha256": "a4bb4e535032c371a31abb8571497c06a6ef9510771177dc39e3278ca689b6c3",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14592,
+        "input_tokens": 14689,
+        "output_tokens": 587,
+        "reasoning_output_tokens": 303,
+        "total_tokens": 15276
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14592,
+        "input_tokens": 14689,
+        "output_tokens": 587,
+        "reasoning_output_tokens": 303,
+        "total_tokens": 15276
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc72-07d9-77d3-b56f-6c14c4b3cb6a",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14592,
+      "input_tokens": 14689,
+      "output_tokens": 587,
+      "reasoning_output_tokens": 303
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14592,
+      "input_tokens": 14689,
+      "output_tokens": 587,
+      "reasoning_output_tokens": 303
+    },
+    "wire_error": null
+  },
+  "job_id": "I05",
+  "mode": "independent",
+  "order": 1,
+  "unit_id": "I05-1"
+}

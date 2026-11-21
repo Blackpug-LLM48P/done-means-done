@@ -1,0 +1,269 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '対象機の札番号の確認': met per ['NH-327']",
+          "operation_state: '取り外し後の現場確認': pending per ['NH-619']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '障害受付番号の突合': met per ['NH-806']",
+          "report_state: '発券再開時刻の照合': met per ['NH-254']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '障害受付番号の突合': met per ['NH-806']",
+          "report_state: '発券再開時刻の照合': met per ['NH-254']",
+          "operation_state: '対象機の札番号の確認': met per ['NH-327']",
+          "operation_state: '取り外し後の現場確認': pending per ['NH-619']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-10-21T11:00:00+09:00",
+    "case_id": "J3026",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "植物園入口の券売機は10月21日9時46分に発券を再開しました。障害受付番号は「障-719」です。受付番号は保守窓口の受付票と、発券再開時刻は券売機のログと照合済みです。休止札の番号は撤去指示票と一致しました。10時41分の現場確認では札はまだ掛かっており、当番による取り外し待ちです。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-21T11:00:00+09:00",
+        "evidence_refs": [
+          "NH-619"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'対象機の札番号の確認': met per ['NH-327']",
+          "'取り外し後の現場確認': pending per ['NH-619']"
+        ],
+        "revision": "r4",
+        "scope": "券売機の休止札撤去",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-21T11:00:00+09:00",
+        "evidence_refs": [
+          "NH-806",
+          "NH-254"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'障害受付番号の突合': met per ['NH-806']",
+          "'発券再開時刻の照合': met per ['NH-254']"
+        ],
+        "revision": "r4",
+        "scope": "券売機の復旧報告",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "植物園入口の券売機は10月21日9時46分に発券を再開しました。障害受付番号は「障-719」です。受付番号は保守窓口の受付票と、発券再開時刻は券売機のログと照合済みです。休止札の番号は撤去指示票と一致しました。10時41分の現場確認では札はまだ掛かっており、当番による取り外し待ちです。",
+    "revision": "r4"
+  },
+  "B1": {
+    "action_keys": {
+      "archive_report": "[\"J3026\",\"r4\",[63928231200,\"\"],\"archive_report\",[\"券売機の復旧報告\"]]"
+    },
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '対象機の札番号の確認': met per ['NH-327']",
+          "operation_state: '取り外し後の現場確認': pending per ['NH-619']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '障害受付番号の突合': met per ['NH-806']",
+          "report_state: '発券再開時刻の照合': met per ['NH-254']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '障害受付番号の突合': met per ['NH-806']",
+          "report_state: '発券再開時刻の照合': met per ['NH-254']",
+          "operation_state: '対象機の札番号の確認': met per ['NH-327']",
+          "operation_state: '取り外し後の現場確認': pending per ['NH-619']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-10-21T11:00:00+09:00",
+    "case_id": "J3026",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "植物園入口の券売機は10月21日9時46分に発券を再開しました。障害受付番号は「障-719」です。受付番号は保守窓口の受付票と、発券再開時刻は券売機のログと照合済みです。休止札の番号は撤去指示票と一致しました。10時41分の現場確認では札はまだ掛かっており、当番による取り外し待ちです。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-21T11:00:00+09:00",
+        "evidence_refs": [
+          "NH-619"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'対象機の札番号の確認': met per ['NH-327']",
+          "'取り外し後の現場確認': pending per ['NH-619']"
+        ],
+        "revision": "r4",
+        "scope": "券売機の休止札撤去",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-21T11:00:00+09:00",
+        "evidence_refs": [
+          "NH-806",
+          "NH-254"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'障害受付番号の突合': met per ['NH-806']",
+          "'発券再開時刻の照合': met per ['NH-254']"
+        ],
+        "revision": "r4",
+        "scope": "券売機の復旧報告",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "植物園入口の券売機は10月21日9時46分に発券を再開しました。障害受付番号は「障-719」です。受付番号は保守窓口の受付票と、発券再開時刻は券売機のログと照合済みです。休止札の番号は撤去指示票と一致しました。10時41分の現場確認では札はまだ掛かっており、当番による取り外し待ちです。",
+    "newly_planned": [
+      "archive_report"
+    ],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "植物園入口の券売機は10月21日9時46分に発券を再開しました。障害受付番号は「障-719」です。受付番号は保守窓口の受付票と、発券再開時刻は券売機のログと照合済みです。休止札の番号は撤去指示票と一致しました。10時41分の現場確認では札はまだ掛かっており、当番による取り外し待ちです。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-21T11:00:00+09:00",
+        "evidence_refs": [
+          "NH-619"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'対象機の札番号の確認': met per ['NH-327']",
+          "'取り外し後の現場確認': pending per ['NH-619']"
+        ],
+        "revision": "r4",
+        "scope": "券売機の休止札撤去",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-21T11:00:00+09:00",
+        "evidence_refs": [
+          "NH-806",
+          "NH-254"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'障害受付番号の突合': met per ['NH-806']",
+          "'発券再開時刻の照合': met per ['NH-254']"
+        ],
+        "revision": "r4",
+        "scope": "券売機の復旧報告",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "original_response": {
+      "handoff": "植物園入口の券売機は10月21日9時46分に発券を再開しました。障害受付番号は「障-719」です。受付番号は保守窓口の受付票と、発券再開時刻は券売機のログと照合済みです。休止札の番号は撤去指示票と一致しました。10時41分の現場確認では札はまだ掛かっており、当番による取り外し待ちです。",
+      "operation_state": {
+        "as_of": "2026-10-21T11:00:00+09:00",
+        "evidence_refs": [
+          "NH-619"
+        ],
+        "revision": "r4",
+        "scope": "券売機の休止札撤去",
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-21T11:00:00+09:00",
+        "evidence_refs": [
+          "NH-806",
+          "NH-254"
+        ],
+        "revision": "r4",
+        "scope": "券売機の復旧報告",
+        "value": "complete"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": "r4"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "body": "2026年8月19日16時時点で、印刷見本の引き渡しは完了しています。見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。その場で安西さんの署名入り受領票を受け取りました。提出報告は未完了です。報告書の提出日欄は受領票の日付と一致しています。12時38分に添付欄を確認した時点では受領票の画像は未添付で、16時までに添付の完了は確認できていません。",
+  "case_id": "U7PY4",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236713302665733,
+    "cli_started_unix_ns": 1795236700725814190,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 12577,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "468e1ba766e23de83b98e2bcb95787bec677c176f04e9eb1015ec269facb4d2a",
+    "raw_file": "results/initial-raw/C02-2.txt",
+    "raw_sha256": "a9ff7604f717f3e08b920c0bb1bae926f2207131f37b01c0eae0d47e56bdfcdb",
+    "receiver_elapsed_ns": 255018,
+    "receiver_file": "results/paired/C02-2.json",
+    "receiver_finished_unix_ns": 1795236713304909091,
+    "receiver_sha256": "c2bd22f2d5d31f1d7d79df099b79cb0ccdf6e69073f8a2de2306679dad5e2dfc",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14592,
+        "input_tokens": 18490,
+        "output_tokens": 308,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 18798
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 24448,
+        "input_tokens": 33176,
+        "output_tokens": 955,
+        "reasoning_output_tokens": 356,
+        "total_tokens": 34131
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 2,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc71-bef2-7c61-89bc-94734bb51691",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14592,
+      "input_tokens": 18490,
+      "output_tokens": 308,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 24448,
+      "input_tokens": 33176,
+      "output_tokens": 955,
+      "reasoning_output_tokens": 356
+    },
+    "wire_error": null
+  },
+  "job_id": "C02",
+  "mode": "continuous",
+  "order": 2,
+  "unit_id": "C02-2"
+}

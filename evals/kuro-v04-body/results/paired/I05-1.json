@@ -1,0 +1,277 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '掲示する版の照合': met per ['KY-723']",
+          "operation_state: '正面掲示板への掲出確認': met per ['KY-491']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '案内番号の照合': met per ['KY-582']",
+          "report_state: '変更後の時刻の照合': met per ['KY-136']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '案内番号の照合': met per ['KY-582']",
+          "report_state: '変更後の時刻の照合': met per ['KY-136']",
+          "operation_state: '掲示する版の照合': met per ['KY-723']",
+          "operation_state: '正面掲示板への掲出確認': met per ['KY-491']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-09-04T15:00:00+09:00",
+    "case_id": "J7814",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "9月4日15時時点で、緑町公民館の夕涼み朗読会について、実行委員会の変更案内と報告欄を照合しました。案内番号は「催-284」、変更後の開演時刻は18時30分です。訂正ポスターの版が変更案内と一致することを確認し、14時18分に緑町公民館の正面掲示板で掲出を確認しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-09-04T15:00:00+09:00",
+        "evidence_refs": [
+          "KY-723",
+          "KY-491"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'掲示する版の照合': met per ['KY-723']",
+          "'正面掲示板への掲出確認': met per ['KY-491']"
+        ],
+        "revision": "r2",
+        "scope": "訂正ポスターの掲示",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-09-04T15:00:00+09:00",
+        "evidence_refs": [
+          "KY-582",
+          "KY-136"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'案内番号の照合': met per ['KY-582']",
+          "'変更後の時刻の照合': met per ['KY-136']"
+        ],
+        "revision": "r2",
+        "scope": "開演時刻の変更報告",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "9月4日15時時点で、緑町公民館の夕涼み朗読会について、実行委員会の変更案内と報告欄を照合しました。案内番号は「催-284」、変更後の開演時刻は18時30分です。訂正ポスターの版が変更案内と一致することを確認し、14時18分に緑町公民館の正面掲示板で掲出を確認しました。",
+    "revision": "r2"
+  },
+  "B1": {
+    "action_keys": {
+      "advance_operation": "[\"J7814\",\"r2\",[63924184800,\"\"],\"advance_operation\",[\"訂正ポスターの掲示\"]]",
+      "archive_report": "[\"J7814\",\"r2\",[63924184800,\"\"],\"archive_report\",[\"開演時刻の変更報告\"]]",
+      "close_case": "[\"J7814\",\"r2\",[63924184800,\"\"],\"close_case\",[\"開演時刻の変更報告\",\"訂正ポスターの掲示\"]]"
+    },
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '掲示する版の照合': met per ['KY-723']",
+          "operation_state: '正面掲示板への掲出確認': met per ['KY-491']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '案内番号の照合': met per ['KY-582']",
+          "report_state: '変更後の時刻の照合': met per ['KY-136']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '案内番号の照合': met per ['KY-582']",
+          "report_state: '変更後の時刻の照合': met per ['KY-136']",
+          "operation_state: '掲示する版の照合': met per ['KY-723']",
+          "operation_state: '正面掲示板への掲出確認': met per ['KY-491']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-09-04T15:00:00+09:00",
+    "case_id": "J7814",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "9月4日15時時点で、緑町公民館の夕涼み朗読会について、実行委員会の変更案内と報告欄を照合しました。案内番号は「催-284」、変更後の開演時刻は18時30分です。訂正ポスターの版が変更案内と一致することを確認し、14時18分に緑町公民館の正面掲示板で掲出を確認しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-09-04T15:00:00+09:00",
+        "evidence_refs": [
+          "KY-723",
+          "KY-491"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'掲示する版の照合': met per ['KY-723']",
+          "'正面掲示板への掲出確認': met per ['KY-491']"
+        ],
+        "revision": "r2",
+        "scope": "訂正ポスターの掲示",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-09-04T15:00:00+09:00",
+        "evidence_refs": [
+          "KY-582",
+          "KY-136"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'案内番号の照合': met per ['KY-582']",
+          "'変更後の時刻の照合': met per ['KY-136']"
+        ],
+        "revision": "r2",
+        "scope": "開演時刻の変更報告",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "9月4日15時時点で、緑町公民館の夕涼み朗読会について、実行委員会の変更案内と報告欄を照合しました。案内番号は「催-284」、変更後の開演時刻は18時30分です。訂正ポスターの版が変更案内と一致することを確認し、14時18分に緑町公民館の正面掲示板で掲出を確認しました。",
+    "newly_planned": [
+      "archive_report",
+      "advance_operation",
+      "close_case"
+    ],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "9月4日15時時点で、緑町公民館の夕涼み朗読会について、実行委員会の変更案内と報告欄を照合しました。案内番号は「催-284」、変更後の開演時刻は18時30分です。訂正ポスターの版が変更案内と一致することを確認し、14時18分に緑町公民館の正面掲示板で掲出を確認しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-09-04T15:00:00+09:00",
+        "evidence_refs": [
+          "KY-723",
+          "KY-491"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'掲示する版の照合': met per ['KY-723']",
+          "'正面掲示板への掲出確認': met per ['KY-491']"
+        ],
+        "revision": "r2",
+        "scope": "訂正ポスターの掲示",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-09-04T15:00:00+09:00",
+        "evidence_refs": [
+          "KY-582",
+          "KY-136"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'案内番号の照合': met per ['KY-582']",
+          "'変更後の時刻の照合': met per ['KY-136']"
+        ],
+        "revision": "r2",
+        "scope": "開演時刻の変更報告",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "original_response": {
+      "handoff": "9月4日15時時点で、緑町公民館の夕涼み朗読会について、実行委員会の変更案内と報告欄を照合しました。案内番号は「催-284」、変更後の開演時刻は18時30分です。訂正ポスターの版が変更案内と一致することを確認し、14時18分に緑町公民館の正面掲示板で掲出を確認しました。",
+      "operation_state": {
+        "as_of": "2026-09-04T15:00:00+09:00",
+        "evidence_refs": [
+          "KY-723",
+          "KY-491"
+        ],
+        "revision": "r2",
+        "scope": "訂正ポスターの掲示",
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-09-04T15:00:00+09:00",
+        "evidence_refs": [
+          "KY-582",
+          "KY-136"
+        ],
+        "revision": "r2",
+        "scope": "開演時刻の変更報告",
+        "value": "complete"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": "r2"
+  }
+}

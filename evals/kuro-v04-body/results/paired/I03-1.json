@@ -1,0 +1,261 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '到着部数の実数確認': met per ['GF-763']",
+          "operation_state: '声部別の仕分け確認': pending per ['GF-834']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '貸出元の照合': met per ['GF-318']",
+          "report_state: '返却日の登録確認': pending per ['GF-592']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '貸出元の照合': met per ['GF-318']",
+          "report_state: '返却日の登録確認': pending per ['GF-592']",
+          "operation_state: '到着部数の実数確認': met per ['GF-763']",
+          "operation_state: '声部別の仕分け確認': pending per ['GF-834']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-08-27T16:00:00+09:00",
+    "case_id": "UT6S1",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "8月27日16時時点で、貸出票と借入記録を照合し、合同練習用の楽譜の貸出元が朝凪合唱団であることを確認しました。借入記録の返却日欄は未入力です。今回届いた楽譜は現物を数えて合計12部でした。声部別の仕分けが残っています。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-27T16:00:00+09:00",
+        "evidence_refs": [
+          "GF-834"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'到着部数の実数確認': met per ['GF-763']",
+          "'声部別の仕分け確認': pending per ['GF-834']"
+        ],
+        "revision": "r2",
+        "scope": "楽譜の受け入れ",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-08-27T16:00:00+09:00",
+        "evidence_refs": [
+          "GF-592"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'貸出元の照合': met per ['GF-318']",
+          "'返却日の登録確認': pending per ['GF-592']"
+        ],
+        "revision": "r2",
+        "scope": "借入記録の整備",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "8月27日16時時点で、貸出票と借入記録を照合し、合同練習用の楽譜の貸出元が朝凪合唱団であることを確認しました。借入記録の返却日欄は未入力です。今回届いた楽譜は現物を数えて合計12部でした。声部別の仕分けが残っています。",
+    "revision": "r2"
+  },
+  "B1": {
+    "action_keys": {},
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '到着部数の実数確認': met per ['GF-763']",
+          "operation_state: '声部別の仕分け確認': pending per ['GF-834']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '貸出元の照合': met per ['GF-318']",
+          "report_state: '返却日の登録確認': pending per ['GF-592']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '貸出元の照合': met per ['GF-318']",
+          "report_state: '返却日の登録確認': pending per ['GF-592']",
+          "operation_state: '到着部数の実数確認': met per ['GF-763']",
+          "operation_state: '声部別の仕分け確認': pending per ['GF-834']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-08-27T16:00:00+09:00",
+    "case_id": "UT6S1",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "8月27日16時時点で、貸出票と借入記録を照合し、合同練習用の楽譜の貸出元が朝凪合唱団であることを確認しました。借入記録の返却日欄は未入力です。今回届いた楽譜は現物を数えて合計12部でした。声部別の仕分けが残っています。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-27T16:00:00+09:00",
+        "evidence_refs": [
+          "GF-834"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'到着部数の実数確認': met per ['GF-763']",
+          "'声部別の仕分け確認': pending per ['GF-834']"
+        ],
+        "revision": "r2",
+        "scope": "楽譜の受け入れ",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-08-27T16:00:00+09:00",
+        "evidence_refs": [
+          "GF-592"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'貸出元の照合': met per ['GF-318']",
+          "'返却日の登録確認': pending per ['GF-592']"
+        ],
+        "revision": "r2",
+        "scope": "借入記録の整備",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "8月27日16時時点で、貸出票と借入記録を照合し、合同練習用の楽譜の貸出元が朝凪合唱団であることを確認しました。借入記録の返却日欄は未入力です。今回届いた楽譜は現物を数えて合計12部でした。声部別の仕分けが残っています。",
+    "newly_planned": [],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "8月27日16時時点で、貸出票と借入記録を照合し、合同練習用の楽譜の貸出元が朝凪合唱団であることを確認しました。借入記録の返却日欄は未入力です。今回届いた楽譜は現物を数えて合計12部でした。声部別の仕分けが残っています。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-27T16:00:00+09:00",
+        "evidence_refs": [
+          "GF-834"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'到着部数の実数確認': met per ['GF-763']",
+          "'声部別の仕分け確認': pending per ['GF-834']"
+        ],
+        "revision": "r2",
+        "scope": "楽譜の受け入れ",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-08-27T16:00:00+09:00",
+        "evidence_refs": [
+          "GF-592"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'貸出元の照合': met per ['GF-318']",
+          "'返却日の登録確認': pending per ['GF-592']"
+        ],
+        "revision": "r2",
+        "scope": "借入記録の整備",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "original_response": {
+      "handoff": "8月27日16時時点で、貸出票と借入記録を照合し、合同練習用の楽譜の貸出元が朝凪合唱団であることを確認しました。借入記録の返却日欄は未入力です。今回届いた楽譜は現物を数えて合計12部でした。声部別の仕分けが残っています。",
+      "operation_state": {
+        "as_of": "2026-08-27T16:00:00+09:00",
+        "evidence_refs": [
+          "GF-834"
+        ],
+        "revision": "r2",
+        "scope": "楽譜の受け入れ",
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-08-27T16:00:00+09:00",
+        "evidence_refs": [
+          "GF-592"
+        ],
+        "revision": "r2",
+        "scope": "借入記録の整備",
+        "value": "open"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": "r2"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "body": "2026年8月27日16時時点で、合同練習用の楽譜は朝凪合唱団から借りたもので、今回届いたのは合計12部です。貸出票と借入記録で貸出元が一致しています。10時13分の確認時には借入記録の返却日欄が空欄で、登録は未確認です。届いた12部は現物を数えて確認しました。11時09分の確認時には声部別の仕分けが残っており、楽譜の受け入れは未完了です。",
+  "case_id": "UT6S1",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236742033543329,
+    "cli_started_unix_ns": 1795236728241338669,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 13792,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "5877a8c4fd8b0e37dd41a893ee29c28d6f7df0855d572dd78058005e920a22da",
+    "raw_file": "results/initial-raw/C02-4.txt",
+    "raw_sha256": "2f2c44b0af5e46214c91624efe8685e3e16eb29f7cb191dc35e7ea6e896ad62a",
+    "receiver_elapsed_ns": 228390,
+    "receiver_file": "results/paired/C02-4.json",
+    "receiver_finished_unix_ns": 1795236742036969539,
+    "receiver_sha256": "e3e3983841158776550c6c2d98392a015f222c05cc5d827d39589557687e4ba6",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 21888,
+        "input_tokens": 25501,
+        "output_tokens": 303,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 25804
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 64768,
+        "input_tokens": 80670,
+        "output_tokens": 1579,
+        "reasoning_output_tokens": 356,
+        "total_tokens": 82249
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 4,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc71-bef2-7c61-89bc-94734bb51691",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 21888,
+      "input_tokens": 25501,
+      "output_tokens": 303,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 64768,
+      "input_tokens": 80670,
+      "output_tokens": 1579,
+      "reasoning_output_tokens": 356
+    },
+    "wire_error": null
+  },
+  "job_id": "C02",
+  "mode": "continuous",
+  "order": 4,
+  "unit_id": "C02-4"
+}

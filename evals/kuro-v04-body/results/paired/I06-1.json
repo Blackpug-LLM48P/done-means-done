@@ -1,0 +1,269 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '見本の指定との照合': met per ['UF-674']",
+          "operation_state: '指定棚での現物確認': met per ['UF-942']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '受入冊数の照合': met per ['UF-519']",
+          "report_state: '寄贈申込書の署名確認': pending per ['UF-208']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '受入冊数の照合': met per ['UF-519']",
+          "report_state: '寄贈申込書の署名確認': pending per ['UF-208']",
+          "operation_state: '見本の指定との照合': met per ['UF-674']",
+          "operation_state: '指定棚での現物確認': met per ['UF-942']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-08-26T16:00:00+09:00",
+    "case_id": "J9460",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "寄贈誌は18冊で、全冊を数えて受入報告の冊数と照合しました。寄贈申込書の署名欄は空欄で、受入報告は署名済みの申込書を待っています。閲覧用見本は、指定票と号数を照合した3冊すべてを指定棚「郷-06」に配架しました。配架後、棚札と3冊の現物を照合しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-26T16:00:00+09:00",
+        "evidence_refs": [
+          "UF-674",
+          "UF-942"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'見本の指定との照合': met per ['UF-674']",
+          "'指定棚での現物確認': met per ['UF-942']"
+        ],
+        "revision": "r1",
+        "scope": "閲覧用見本の配架",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-08-26T16:00:00+09:00",
+        "evidence_refs": [
+          "UF-208"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'受入冊数の照合': met per ['UF-519']",
+          "'寄贈申込書の署名確認': pending per ['UF-208']"
+        ],
+        "revision": "r1",
+        "scope": "寄贈誌の受入報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "寄贈誌は18冊で、全冊を数えて受入報告の冊数と照合しました。寄贈申込書の署名欄は空欄で、受入報告は署名済みの申込書を待っています。閲覧用見本は、指定票と号数を照合した3冊すべてを指定棚「郷-06」に配架しました。配架後、棚札と3冊の現物を照合しました。",
+    "revision": "r1"
+  },
+  "B1": {
+    "action_keys": {
+      "advance_operation": "[\"J9460\",\"r1\",[63923410800,\"\"],\"advance_operation\",[\"閲覧用見本の配架\"]]"
+    },
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '見本の指定との照合': met per ['UF-674']",
+          "operation_state: '指定棚での現物確認': met per ['UF-942']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '受入冊数の照合': met per ['UF-519']",
+          "report_state: '寄贈申込書の署名確認': pending per ['UF-208']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '受入冊数の照合': met per ['UF-519']",
+          "report_state: '寄贈申込書の署名確認': pending per ['UF-208']",
+          "operation_state: '見本の指定との照合': met per ['UF-674']",
+          "operation_state: '指定棚での現物確認': met per ['UF-942']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-08-26T16:00:00+09:00",
+    "case_id": "J9460",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "寄贈誌は18冊で、全冊を数えて受入報告の冊数と照合しました。寄贈申込書の署名欄は空欄で、受入報告は署名済みの申込書を待っています。閲覧用見本は、指定票と号数を照合した3冊すべてを指定棚「郷-06」に配架しました。配架後、棚札と3冊の現物を照合しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-26T16:00:00+09:00",
+        "evidence_refs": [
+          "UF-674",
+          "UF-942"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'見本の指定との照合': met per ['UF-674']",
+          "'指定棚での現物確認': met per ['UF-942']"
+        ],
+        "revision": "r1",
+        "scope": "閲覧用見本の配架",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-08-26T16:00:00+09:00",
+        "evidence_refs": [
+          "UF-208"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'受入冊数の照合': met per ['UF-519']",
+          "'寄贈申込書の署名確認': pending per ['UF-208']"
+        ],
+        "revision": "r1",
+        "scope": "寄贈誌の受入報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "寄贈誌は18冊で、全冊を数えて受入報告の冊数と照合しました。寄贈申込書の署名欄は空欄で、受入報告は署名済みの申込書を待っています。閲覧用見本は、指定票と号数を照合した3冊すべてを指定棚「郷-06」に配架しました。配架後、棚札と3冊の現物を照合しました。",
+    "newly_planned": [
+      "advance_operation"
+    ],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "寄贈誌は18冊で、全冊を数えて受入報告の冊数と照合しました。寄贈申込書の署名欄は空欄で、受入報告は署名済みの申込書を待っています。閲覧用見本は、指定票と号数を照合した3冊すべてを指定棚「郷-06」に配架しました。配架後、棚札と3冊の現物を照合しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-26T16:00:00+09:00",
+        "evidence_refs": [
+          "UF-674",
+          "UF-942"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'見本の指定との照合': met per ['UF-674']",
+          "'指定棚での現物確認': met per ['UF-942']"
+        ],
+        "revision": "r1",
+        "scope": "閲覧用見本の配架",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-08-26T16:00:00+09:00",
+        "evidence_refs": [
+          "UF-208"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'受入冊数の照合': met per ['UF-519']",
+          "'寄贈申込書の署名確認': pending per ['UF-208']"
+        ],
+        "revision": "r1",
+        "scope": "寄贈誌の受入報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "original_response": {
+      "handoff": "寄贈誌は18冊で、全冊を数えて受入報告の冊数と照合しました。寄贈申込書の署名欄は空欄で、受入報告は署名済みの申込書を待っています。閲覧用見本は、指定票と号数を照合した3冊すべてを指定棚「郷-06」に配架しました。配架後、棚札と3冊の現物を照合しました。",
+      "operation_state": {
+        "as_of": "2026-08-26T16:00:00+09:00",
+        "evidence_refs": [
+          "UF-674",
+          "UF-942"
+        ],
+        "revision": "r1",
+        "scope": "閲覧用見本の配架",
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-08-26T16:00:00+09:00",
+        "evidence_refs": [
+          "UF-208"
+        ],
+        "revision": "r1",
+        "scope": "寄贈誌の受入報告",
+        "value": "open"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": "r1"
+  }
+}

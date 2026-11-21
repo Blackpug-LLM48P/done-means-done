@@ -1,0 +1,79 @@
+{
+  "body": "緑町公民館の夕涼み朗読会は、変更後の開演時刻が18時30分です。実行委員会の変更案内と報告欄で、案内番号「催-284」と開演時刻が一致することを確認し、変更報告は完了しました。変更案内の版記号と訂正ポスターの校了記号も一致しています。9月4日14時18分に、公民館の正面掲示板に訂正ポスターが掲出されていることを現地で確認しました。",
+  "case_id": "J7814",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236775288985820,
+    "cli_started_unix_ns": 1795236753710455196,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 21579,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "3ece8a280d5dfc9f7f164d9f0f0682f39e9ea44bc9087604d99628601a868e53",
+    "raw_file": "results/initial-raw/C01-3.txt",
+    "raw_sha256": "09c41e7f851d4fc8cd4c0dfef3a03714cb95ef071e0fed7b0b2fb017d205ed4c",
+    "receiver_elapsed_ns": 233348,
+    "receiver_file": "results/paired/C01-3.json",
+    "receiver_finished_unix_ns": 1795236775291655062,
+    "receiver_sha256": "872452b78a867e9e416ecc4cdb31943ae798c591cd5086b84dd48c39fa9c7dc4",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 18304,
+        "input_tokens": 21907,
+        "output_tokens": 304,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 22211
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 36224,
+        "input_tokens": 55057,
+        "output_tokens": 964,
+        "reasoning_output_tokens": 44,
+        "total_tokens": 56021
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 3,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc72-6a96-76e1-87df-c7b0471473f3",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 18304,
+      "input_tokens": 21907,
+      "output_tokens": 304,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 36224,
+      "input_tokens": 55057,
+      "output_tokens": 964,
+      "reasoning_output_tokens": 44
+    },
+    "wire_error": null
+  },
+  "job_id": "C01",
+  "mode": "continuous",
+  "order": 3,
+  "unit_id": "C01-3"
+}

@@ -1,0 +1,79 @@
+{
+  "body": "8月11日16時時点の引継ぎです。録音機の故障票が受付に届いたのは10時24分で、受領印と受付ログの時刻は一致しています。原本も当日の保管ファイルで確認でき、故障報告の整理は完了しました。予備機は機材室で音響係の古賀が受け取りました。接続試験は11時30分の点検時点で未実施で、16時時点では設置完了を確認できていません。",
+  "case_id": "UL58C",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236728233904324,
+    "cli_started_unix_ns": 1795236713308353357,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 14926,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "ca20dd83df8a6df4c1e2b818701f80c1ed673a5548d5afb3cf667a198ca482bb",
+    "raw_file": "results/initial-raw/I04-1.txt",
+    "raw_sha256": "e1d9a5db66cafae65c0b764dc267883299ba8159df919ff9e961274364dbbef9",
+    "receiver_elapsed_ns": 228136,
+    "receiver_file": "results/paired/I04-1.json",
+    "receiver_finished_unix_ns": 1795236728237515236,
+    "receiver_sha256": "508da67475effb981d102e194bb1b969e8afa6b6e0ee5d21d6aaa8e8132180f6",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14686,
+        "output_tokens": 452,
+        "reasoning_output_tokens": 158,
+        "total_tokens": 15138
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14686,
+        "output_tokens": 452,
+        "reasoning_output_tokens": 158,
+        "total_tokens": 15138
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc72-53db-77a3-9bcc-e22f3c4b26ec",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14686,
+      "output_tokens": 452,
+      "reasoning_output_tokens": 158
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14686,
+      "output_tokens": 452,
+      "reasoning_output_tokens": 158
+    },
+    "wire_error": null
+  },
+  "job_id": "I04",
+  "mode": "independent",
+  "order": 1,
+  "unit_id": "I04-1"
+}

@@ -1,0 +1,277 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '旧版の撤去確認': met per ['EN-527']",
+          "operation_state: '改訂版の掲示確認': met per ['EN-162']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '作成者欄の照合': met per ['EN-846']",
+          "report_state: '変更決裁書の添付確認': met per ['EN-309']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '作成者欄の照合': met per ['EN-846']",
+          "report_state: '変更決裁書の添付確認': met per ['EN-309']",
+          "operation_state: '旧版の撤去確認': met per ['EN-527']",
+          "operation_state: '改訂版の掲示確認': met per ['EN-162']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-08-03T16:00:00+09:00",
+    "case_id": "U3J9N",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "2026年8月3日16時時点で、本日の演目変更に関する会議記録の整備と演目表の差し替えは、どちらも完了しています。会議記録の作成者は進行係の池田で、作成者欄を当番表と照合しました。会議記録には、公演責任者の長尾が決裁者欄に署名した変更決裁書が添付されています。演目表を差し替えた場所は西玄関の掲示板です。旧版の撤去と改訂版の掲示を現地で確認しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-03T16:00:00+09:00",
+        "evidence_refs": [
+          "EN-527",
+          "EN-162"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'旧版の撤去確認': met per ['EN-527']",
+          "'改訂版の掲示確認': met per ['EN-162']"
+        ],
+        "revision": "r2",
+        "scope": "演目表の差し替え",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-08-03T16:00:00+09:00",
+        "evidence_refs": [
+          "EN-846",
+          "EN-309"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'作成者欄の照合': met per ['EN-846']",
+          "'変更決裁書の添付確認': met per ['EN-309']"
+        ],
+        "revision": "r2",
+        "scope": "会議記録の整備",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "2026年8月3日16時時点で、本日の演目変更に関する会議記録の整備と演目表の差し替えは、どちらも完了しています。会議記録の作成者は進行係の池田で、作成者欄を当番表と照合しました。会議記録には、公演責任者の長尾が決裁者欄に署名した変更決裁書が添付されています。演目表を差し替えた場所は西玄関の掲示板です。旧版の撤去と改訂版の掲示を現地で確認しました。",
+    "revision": "r2"
+  },
+  "B1": {
+    "action_keys": {
+      "advance_operation": "[\"U3J9N\",\"r2\",[63921423600,\"\"],\"advance_operation\",[\"演目表の差し替え\"]]",
+      "archive_report": "[\"U3J9N\",\"r2\",[63921423600,\"\"],\"archive_report\",[\"会議記録の整備\"]]",
+      "close_case": "[\"U3J9N\",\"r2\",[63921423600,\"\"],\"close_case\",[\"会議記録の整備\",\"演目表の差し替え\"]]"
+    },
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '旧版の撤去確認': met per ['EN-527']",
+          "operation_state: '改訂版の掲示確認': met per ['EN-162']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '作成者欄の照合': met per ['EN-846']",
+          "report_state: '変更決裁書の添付確認': met per ['EN-309']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '作成者欄の照合': met per ['EN-846']",
+          "report_state: '変更決裁書の添付確認': met per ['EN-309']",
+          "operation_state: '旧版の撤去確認': met per ['EN-527']",
+          "operation_state: '改訂版の掲示確認': met per ['EN-162']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-08-03T16:00:00+09:00",
+    "case_id": "U3J9N",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "2026年8月3日16時時点で、本日の演目変更に関する会議記録の整備と演目表の差し替えは、どちらも完了しています。会議記録の作成者は進行係の池田で、作成者欄を当番表と照合しました。会議記録には、公演責任者の長尾が決裁者欄に署名した変更決裁書が添付されています。演目表を差し替えた場所は西玄関の掲示板です。旧版の撤去と改訂版の掲示を現地で確認しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-03T16:00:00+09:00",
+        "evidence_refs": [
+          "EN-527",
+          "EN-162"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'旧版の撤去確認': met per ['EN-527']",
+          "'改訂版の掲示確認': met per ['EN-162']"
+        ],
+        "revision": "r2",
+        "scope": "演目表の差し替え",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-08-03T16:00:00+09:00",
+        "evidence_refs": [
+          "EN-846",
+          "EN-309"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'作成者欄の照合': met per ['EN-846']",
+          "'変更決裁書の添付確認': met per ['EN-309']"
+        ],
+        "revision": "r2",
+        "scope": "会議記録の整備",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "2026年8月3日16時時点で、本日の演目変更に関する会議記録の整備と演目表の差し替えは、どちらも完了しています。会議記録の作成者は進行係の池田で、作成者欄を当番表と照合しました。会議記録には、公演責任者の長尾が決裁者欄に署名した変更決裁書が添付されています。演目表を差し替えた場所は西玄関の掲示板です。旧版の撤去と改訂版の掲示を現地で確認しました。",
+    "newly_planned": [
+      "archive_report",
+      "advance_operation",
+      "close_case"
+    ],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "2026年8月3日16時時点で、本日の演目変更に関する会議記録の整備と演目表の差し替えは、どちらも完了しています。会議記録の作成者は進行係の池田で、作成者欄を当番表と照合しました。会議記録には、公演責任者の長尾が決裁者欄に署名した変更決裁書が添付されています。演目表を差し替えた場所は西玄関の掲示板です。旧版の撤去と改訂版の掲示を現地で確認しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-03T16:00:00+09:00",
+        "evidence_refs": [
+          "EN-527",
+          "EN-162"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'旧版の撤去確認': met per ['EN-527']",
+          "'改訂版の掲示確認': met per ['EN-162']"
+        ],
+        "revision": "r2",
+        "scope": "演目表の差し替え",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-08-03T16:00:00+09:00",
+        "evidence_refs": [
+          "EN-846",
+          "EN-309"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'作成者欄の照合': met per ['EN-846']",
+          "'変更決裁書の添付確認': met per ['EN-309']"
+        ],
+        "revision": "r2",
+        "scope": "会議記録の整備",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "original_response": {
+      "handoff": "2026年8月3日16時時点で、本日の演目変更に関する会議記録の整備と演目表の差し替えは、どちらも完了しています。会議記録の作成者は進行係の池田で、作成者欄を当番表と照合しました。会議記録には、公演責任者の長尾が決裁者欄に署名した変更決裁書が添付されています。演目表を差し替えた場所は西玄関の掲示板です。旧版の撤去と改訂版の掲示を現地で確認しました。",
+      "operation_state": {
+        "as_of": "2026-08-03T16:00:00+09:00",
+        "evidence_refs": [
+          "EN-527",
+          "EN-162"
+        ],
+        "revision": "r2",
+        "scope": "演目表の差し替え",
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-08-03T16:00:00+09:00",
+        "evidence_refs": [
+          "EN-846",
+          "EN-309"
+        ],
+        "revision": "r2",
+        "scope": "会議記録の整備",
+        "value": "complete"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": "r2"
+  }
+}
