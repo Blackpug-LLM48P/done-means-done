@@ -1,0 +1,580 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '到着外箱の検数': met per ['b8u5']",
+          "operation_state: '受領権限者の検収署名': met per ['b8u2']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '返送便名の登録': met per ['b8u1']",
+          "report_state: '明細書の確定': met per ['b8u3']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '返送便名の登録': met per ['b8u1']",
+          "report_state: '明細書の確定': met per ['b8u3']",
+          "operation_state: '到着外箱の検数': met per ['b8u5']",
+          "operation_state: '受領権限者の検収署名': met per ['b8u2']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-10-21T16:15:00+09:00",
+    "case_id": "F8D3",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "『夜番』のプリントは「青葉5便」で返送しました。返送明細書（第2版）にはこの便名を登録し、責任者が全行を確認して確定しました。寄託者の受付担当は、到着した外箱を2箱と確認しました。15時44分の時点で検収台帳の署名欄は空欄で、2026年10月21日16時までに参照できた記録では、受領権限者の検収署名は未確認です。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-21T16:15:00+09:00",
+        "evidence_refs": [
+          "b8u2",
+          "b8u5"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'到着外箱の検数': met per ['b8u5']",
+          "'受領権限者の検収署名': met per ['b8u2']"
+        ],
+        "revision": 2,
+        "scope": "寄託者側の受領",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-21T16:15:00+09:00",
+        "evidence_refs": [
+          "b8u1",
+          "b8u3"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'返送便名の登録': met per ['b8u1']",
+          "'明細書の確定': met per ['b8u3']"
+        ],
+        "revision": 2,
+        "scope": "返送明細書",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "『夜番』のプリントは「青葉5便」で返送しました。返送明細書（第2版）にはこの便名を登録し、責任者が全行を確認して確定しました。寄託者の受付担当は、到着した外箱を2箱と確認しました。15時44分の時点で検収台帳の署名欄は空欄で、2026年10月21日16時までに参照できた記録では、受領権限者の検収署名は未確認です。",
+    "revision": 2
+  },
+  "B1": {
+    "action_keys": {
+      "advance_operation": "[\"F8D3\",2,[63928250100,\"\"],\"advance_operation\",[\"寄託者側の受領\"]]",
+      "archive_report": "[\"F8D3\",2,[63928250100,\"\"],\"archive_report\",[\"返送明細書\"]]",
+      "close_case": "[\"F8D3\",2,[63928250100,\"\"],\"close_case\",[\"返送明細書\",\"寄託者側の受領\"]]"
+    },
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '到着外箱の検数': met per ['b8u5']",
+          "operation_state: '受領権限者の検収署名': met per ['b8u2']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '返送便名の登録': met per ['b8u1']",
+          "report_state: '明細書の確定': met per ['b8u3']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '返送便名の登録': met per ['b8u1']",
+          "report_state: '明細書の確定': met per ['b8u3']",
+          "operation_state: '到着外箱の検数': met per ['b8u5']",
+          "operation_state: '受領権限者の検収署名': met per ['b8u2']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-10-21T16:15:00+09:00",
+    "case_id": "F8D3",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "『夜番』のプリントは「青葉5便」で返送しました。返送明細書（第2版）にはこの便名を登録し、責任者が全行を確認して確定しました。寄託者の受付担当は、到着した外箱を2箱と確認しました。15時44分の時点で検収台帳の署名欄は空欄で、2026年10月21日16時までに参照できた記録では、受領権限者の検収署名は未確認です。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-21T16:15:00+09:00",
+        "evidence_refs": [
+          "b8u2",
+          "b8u5"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'到着外箱の検数': met per ['b8u5']",
+          "'受領権限者の検収署名': met per ['b8u2']"
+        ],
+        "revision": 2,
+        "scope": "寄託者側の受領",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-21T16:15:00+09:00",
+        "evidence_refs": [
+          "b8u1",
+          "b8u3"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'返送便名の登録': met per ['b8u1']",
+          "'明細書の確定': met per ['b8u3']"
+        ],
+        "revision": 2,
+        "scope": "返送明細書",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "『夜番』のプリントは「青葉5便」で返送しました。返送明細書（第2版）にはこの便名を登録し、責任者が全行を確認して確定しました。寄託者の受付担当は、到着した外箱を2箱と確認しました。15時44分の時点で検収台帳の署名欄は空欄で、2026年10月21日16時までに参照できた記録では、受領権限者の検収署名は未確認です。",
+    "newly_planned": [
+      "archive_report",
+      "advance_operation",
+      "close_case"
+    ],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "『夜番』のプリントは「青葉5便」で返送しました。返送明細書（第2版）にはこの便名を登録し、責任者が全行を確認して確定しました。寄託者の受付担当は、到着した外箱を2箱と確認しました。15時44分の時点で検収台帳の署名欄は空欄で、2026年10月21日16時までに参照できた記録では、受領権限者の検収署名は未確認です。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-21T16:15:00+09:00",
+        "evidence_refs": [
+          "b8u2",
+          "b8u5"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'到着外箱の検数': met per ['b8u5']",
+          "'受領権限者の検収署名': met per ['b8u2']"
+        ],
+        "revision": 2,
+        "scope": "寄託者側の受領",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-21T16:15:00+09:00",
+        "evidence_refs": [
+          "b8u1",
+          "b8u3"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'返送便名の登録': met per ['b8u1']",
+          "'明細書の確定': met per ['b8u3']"
+        ],
+        "revision": 2,
+        "scope": "返送明細書",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "original_response": {
+      "handoff": "『夜番』のプリントは「青葉5便」で返送しました。返送明細書（第2版）にはこの便名を登録し、責任者が全行を確認して確定しました。寄託者の受付担当は、到着した外箱を2箱と確認しました。15時44分の時点で検収台帳の署名欄は空欄で、2026年10月21日16時までに参照できた記録では、受領権限者の検収署名は未確認です。",
+      "operation_state": {
+        "as_of": "2026-10-21T16:15:00+09:00",
+        "evidence_refs": [
+          "b8u2",
+          "b8u5"
+        ],
+        "revision": 2,
+        "scope": "寄託者側の受領",
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-21T16:15:00+09:00",
+        "evidence_refs": [
+          "b8u1",
+          "b8u3"
+        ],
+        "revision": 2,
+        "scope": "返送明細書",
+        "value": "complete"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": 2
+  },
+  "delta": [
+    {
+      "op": "replace",
+      "path": [
+        "as_of"
+      ],
+      "target": "case",
+      "value": "2026-10-21T16:15:00+09:00"
+    },
+    {
+      "op": "replace",
+      "path": [
+        "report_state",
+        "as_of"
+      ],
+      "target": "inner",
+      "value": "2026-10-21T16:15:00+09:00"
+    },
+    {
+      "op": "replace",
+      "path": [
+        "operation_state",
+        "as_of"
+      ],
+      "target": "inner",
+      "value": "2026-10-21T16:15:00+09:00"
+    },
+    {
+      "op": "replace",
+      "path": [
+        "operation_state",
+        "value"
+      ],
+      "target": "inner",
+      "value": "complete"
+    },
+    {
+      "op": "replace",
+      "path": [
+        "operation_state",
+        "evidence_refs"
+      ],
+      "target": "inner",
+      "value": [
+        "b8u2",
+        "b8u5"
+      ]
+    }
+  ],
+  "historical_origin": {
+    "raw_row": {
+      "F8D3": {
+        "handoff": "『夜番』のプリントは「青葉5便」で返送しました。返送明細書（第2版）にはこの便名を登録し、責任者が全行を確認して確定しました。寄託者の受付担当は、到着した外箱を2箱と確認しました。15時44分の時点で検収台帳の署名欄は空欄で、2026年10月21日16時までに参照できた記録では、受領権限者の検収署名は未確認です。",
+        "operation_state": {
+          "as_of": "2026-10-21T16:00:00+09:00",
+          "evidence_refs": [
+            "b8u4"
+          ],
+          "revision": 2,
+          "scope": "寄託者側の受領",
+          "value": "open"
+        },
+        "report_state": {
+          "as_of": "2026-10-21T16:00:00+09:00",
+          "evidence_refs": [
+            "b8u1",
+            "b8u3"
+          ],
+          "revision": 2,
+          "scope": "返送明細書",
+          "value": "complete"
+        }
+      }
+    },
+    "source": "evals/kuro-v04-receiver/results/raw/B-i04-1.json"
+  },
+  "id": "F32",
+  "incoming_envelope": {
+    "F8D3": {
+      "handoff": "『夜番』のプリントは「青葉5便」で返送しました。返送明細書（第2版）にはこの便名を登録し、責任者が全行を確認して確定しました。寄託者の受付担当は、到着した外箱を2箱と確認しました。15時44分の時点で検収台帳の署名欄は空欄で、2026年10月21日16時までに参照できた記録では、受領権限者の検収署名は未確認です。",
+      "operation_state": {
+        "as_of": "2026-10-21T16:15:00+09:00",
+        "evidence_refs": [
+          "b8u2",
+          "b8u5"
+        ],
+        "revision": 2,
+        "scope": "寄託者側の受領",
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-21T16:15:00+09:00",
+        "evidence_refs": [
+          "b8u1",
+          "b8u3"
+        ],
+        "revision": 2,
+        "scope": "返送明細書",
+        "value": "complete"
+      }
+    }
+  },
+  "original_envelope": {
+    "F8D3": {
+      "handoff": "『夜番』のプリントは「青葉5便」で返送しました。返送明細書（第2版）にはこの便名を登録し、責任者が全行を確認して確定しました。寄託者の受付担当は、到着した外箱を2箱と確認しました。15時44分の時点で検収台帳の署名欄は空欄で、2026年10月21日16時までに参照できた記録では、受領権限者の検収署名は未確認です。",
+      "operation_state": {
+        "as_of": "2026-10-21T16:00:00+09:00",
+        "evidence_refs": [
+          "b8u4"
+        ],
+        "revision": 2,
+        "scope": "寄託者側の受領",
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-21T16:00:00+09:00",
+        "evidence_refs": [
+          "b8u1",
+          "b8u3"
+        ],
+        "revision": 2,
+        "scope": "返送明細書",
+        "value": "complete"
+      }
+    }
+  },
+  "original_source": {
+    "as_of": "2026-10-21T16:00:00+09:00",
+    "case_id": "F8D3",
+    "draft": "寄託者の受付に荷物が届いたため、受領確認も済んだ。明細書は前版のまま。",
+    "records": [
+      {
+        "at": "2026-10-21T09:43:00+09:00",
+        "available_at": "2026-10-21T09:43:00+09:00",
+        "case_id": "F8D3",
+        "check": "返送便名の登録",
+        "ref": "b8u1",
+        "result": "met",
+        "revision": 2,
+        "scope": "report",
+        "source": "direct",
+        "text": "返送明細の輸送欄に便名「青葉5便」を登録。"
+      },
+      {
+        "at": "2026-10-21T15:55:00+09:00",
+        "available_at": "2026-10-21T16:12:00+09:00",
+        "case_id": "F8D3",
+        "check": "受領権限者の検収署名",
+        "ref": "b8u2",
+        "result": "met",
+        "revision": 2,
+        "scope": "operation",
+        "source": "direct",
+        "text": "権限者の署名済み検収票を受信した。"
+      },
+      {
+        "at": "2026-10-21T10:14:00+09:00",
+        "available_at": "2026-10-21T10:14:00+09:00",
+        "case_id": "F8D3",
+        "check": "明細書の確定",
+        "ref": "b8u3",
+        "result": "met",
+        "revision": 2,
+        "scope": "report",
+        "source": "direct",
+        "text": "責任者が全行を確認し、返送明細書の現行版を確定した。"
+      },
+      {
+        "at": "2026-10-21T15:44:00+09:00",
+        "available_at": "2026-10-21T15:44:00+09:00",
+        "case_id": "F8D3",
+        "check": "受領権限者の検収署名",
+        "ref": "b8u4",
+        "result": "pending",
+        "revision": 2,
+        "scope": "operation",
+        "source": "direct",
+        "text": "寄託者の検収台帳で署名欄は空欄、検収待ち。"
+      },
+      {
+        "at": "2026-10-21T15:38:00+09:00",
+        "available_at": "2026-10-21T15:38:00+09:00",
+        "case_id": "F8D3",
+        "check": "到着外箱の検数",
+        "ref": "b8u5",
+        "result": "met",
+        "revision": 2,
+        "scope": "operation",
+        "source": "direct",
+        "text": "寄託者の受付担当が到着した外箱2箱を現物で数えた。"
+      }
+    ],
+    "request": "映像資料館から寄託者へ返送する『夜番』のプリントについて、返送明細書と寄託者側の受領がどこまで進んだか知らせてください。発送に使った便名と、到着した外箱の数を添えてください。",
+    "revision": 2,
+    "scopes": {
+      "operation": {
+        "checks": [
+          "到着外箱の検数",
+          "受領権限者の検収署名"
+        ],
+        "name": "寄託者側の受領"
+      },
+      "report": {
+        "checks": [
+          "返送便名の登録",
+          "明細書の確定"
+        ],
+        "name": "返送明細書"
+      }
+    }
+  },
+  "reader_condition": "ok",
+  "receipt": 1,
+  "source": {
+    "as_of": "2026-10-21T16:15:00+09:00",
+    "case_id": "F8D3",
+    "draft": "寄託者の受付に荷物が届いたため、受領確認も済んだ。明細書は前版のまま。",
+    "records": [
+      {
+        "at": "2026-10-21T09:43:00+09:00",
+        "available_at": "2026-10-21T09:43:00+09:00",
+        "case_id": "F8D3",
+        "check": "返送便名の登録",
+        "ref": "b8u1",
+        "result": "met",
+        "revision": 2,
+        "scope": "report",
+        "source": "direct",
+        "text": "返送明細の輸送欄に便名「青葉5便」を登録。"
+      },
+      {
+        "at": "2026-10-21T15:55:00+09:00",
+        "available_at": "2026-10-21T16:12:00+09:00",
+        "case_id": "F8D3",
+        "check": "受領権限者の検収署名",
+        "ref": "b8u2",
+        "result": "met",
+        "revision": 2,
+        "scope": "operation",
+        "source": "direct",
+        "text": "権限者の署名済み検収票を受信した。"
+      },
+      {
+        "at": "2026-10-21T10:14:00+09:00",
+        "available_at": "2026-10-21T10:14:00+09:00",
+        "case_id": "F8D3",
+        "check": "明細書の確定",
+        "ref": "b8u3",
+        "result": "met",
+        "revision": 2,
+        "scope": "report",
+        "source": "direct",
+        "text": "責任者が全行を確認し、返送明細書の現行版を確定した。"
+      },
+      {
+        "at": "2026-10-21T15:44:00+09:00",
+        "available_at": "2026-10-21T15:44:00+09:00",
+        "case_id": "F8D3",
+        "check": "受領権限者の検収署名",
+        "ref": "b8u4",
+        "result": "pending",
+        "revision": 2,
+        "scope": "operation",
+        "source": "direct",
+        "text": "寄託者の検収台帳で署名欄は空欄、検収待ち。"
+      },
+      {
+        "at": "2026-10-21T15:38:00+09:00",
+        "available_at": "2026-10-21T15:38:00+09:00",
+        "case_id": "F8D3",
+        "check": "到着外箱の検数",
+        "ref": "b8u5",
+        "result": "met",
+        "revision": 2,
+        "scope": "operation",
+        "source": "direct",
+        "text": "寄託者の受付担当が到着した外箱2箱を現物で数えた。"
+      }
+    ],
+    "request": "映像資料館から寄託者へ返送する『夜番』のプリントについて、返送明細書と寄託者側の受領がどこまで進んだか知らせてください。発送に使った便名と、到着した外箱の数を添えてください。",
+    "revision": 2,
+    "scopes": {
+      "operation": {
+        "checks": [
+          "到着外箱の検数",
+          "受領権限者の検収署名"
+        ],
+        "name": "寄託者側の受領"
+      },
+      "report": {
+        "checks": [
+          "返送便名の登録",
+          "明細書の確定"
+        ],
+        "name": "返送明細書"
+      }
+    }
+  },
+  "source_reads": [],
+  "timing_ns": {
+    "additional_including_ledger_open_close": 316197,
+    "baseline": 115856
+  }
+}

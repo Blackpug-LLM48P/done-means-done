@@ -1,0 +1,667 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: value 'open' differs from current evidence ('complete')",
+          "operation_state: '箱札と棚指定票の照合': met per ['AM-819']",
+          "operation_state: '現物の着棚確認': met per ['AM-362']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '貸出票番号の転記照合': met per ['AM-641']",
+          "report_state: '受領時写真の添付確認': pending per ['AM-504']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '貸出票番号の転記照合': met per ['AM-641']",
+          "report_state: '受領時写真の添付確認': pending per ['AM-504']",
+          "operation_state: value 'open' differs from current evidence ('complete')",
+          "operation_state: '箱札と棚指定票の照合': met per ['AM-819']",
+          "operation_state: '現物の着棚確認': met per ['AM-362']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-09-17T15:00:00+09:00",
+    "case_id": "T6M2Q",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "『潮路』の衣装借入について、貸出票番号「貸V-183」は原本と受領報告で一致しています。別の衣装の写真が添付されていたため、その写真は取り外されました。撮影班から再添付の連絡はありましたが、9月17日15時時点では正しい受領時写真の添付を直接確認できておらず、受領報告は未完了です。受入箱は箱札と棚指定票を照合して東庫C-4に配架し、14時06分に現物と棚札を確認済みです。"
+      },
+      "operation_state": {
+        "as_of": "2026-09-17T15:00:00+09:00",
+        "evidence_refs": [
+          "AM-819",
+          "AM-362"
+        ],
+        "evidence_valid": false,
+        "reasons": [
+          "value 'open' differs from current evidence ('complete')",
+          "'箱札と棚指定票の照合': met per ['AM-819']",
+          "'現物の着棚確認': met per ['AM-362']"
+        ],
+        "revision": "r3",
+        "scope": "受入箱の配架",
+        "valid": false,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-09-17T15:00:00+09:00",
+        "evidence_refs": [
+          "AM-504"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'貸出票番号の転記照合': met per ['AM-641']",
+          "'受領時写真の添付確認': pending per ['AM-504']"
+        ],
+        "revision": "r3",
+        "scope": "衣装借入の受領報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "『潮路』の衣装借入について、貸出票番号「貸V-183」は原本と受領報告で一致しています。別の衣装の写真が添付されていたため、その写真は取り外されました。撮影班から再添付の連絡はありましたが、9月17日15時時点では正しい受領時写真の添付を直接確認できておらず、受領報告は未完了です。受入箱は箱札と棚指定票を照合して東庫C-4に配架し、14時06分に現物と棚札を確認済みです。",
+    "revision": "r3"
+  },
+  "B1": {
+    "action_keys": {
+      "advance_operation": "[\"T6M2Q\",\"r3\",[63925308000,\"\"],\"advance_operation\",[\"受入箱の配架\"]]"
+    },
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '箱札と棚指定票の照合': met per ['AM-819']",
+          "operation_state: '現物の着棚確認': met per ['AM-362']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '貸出票番号の転記照合': met per ['AM-641']",
+          "report_state: '受領時写真の添付確認': pending per ['AM-504']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '貸出票番号の転記照合': met per ['AM-641']",
+          "report_state: '受領時写真の添付確認': pending per ['AM-504']",
+          "operation_state: '箱札と棚指定票の照合': met per ['AM-819']",
+          "operation_state: '現物の着棚確認': met per ['AM-362']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-09-17T15:00:00+09:00",
+    "case_id": "T6M2Q",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "『潮路』の衣装借入について、貸出票番号「貸V-183」は原本と受領報告で一致しています。別の衣装の写真が添付されていたため、その写真は取り外されました。撮影班から再添付の連絡はありましたが、9月17日15時時点では正しい受領時写真の添付を直接確認できておらず、受領報告は未完了です。受入箱は箱札と棚指定票を照合して東庫C-4に配架し、14時06分に現物と棚札を確認済みです。"
+      },
+      "operation_state": {
+        "as_of": "2026-09-17T15:00:00+09:00",
+        "evidence_refs": [
+          "AM-819",
+          "AM-362"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'箱札と棚指定票の照合': met per ['AM-819']",
+          "'現物の着棚確認': met per ['AM-362']"
+        ],
+        "revision": "r3",
+        "scope": "受入箱の配架",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-09-17T15:00:00+09:00",
+        "evidence_refs": [
+          "AM-504"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'貸出票番号の転記照合': met per ['AM-641']",
+          "'受領時写真の添付確認': pending per ['AM-504']"
+        ],
+        "revision": "r3",
+        "scope": "衣装借入の受領報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "『潮路』の衣装借入について、貸出票番号「貸V-183」は原本と受領報告で一致しています。別の衣装の写真が添付されていたため、その写真は取り外されました。撮影班から再添付の連絡はありましたが、9月17日15時時点では正しい受領時写真の添付を直接確認できておらず、受領報告は未完了です。受入箱は箱札と棚指定票を照合して東庫C-4に配架し、14時06分に現物と棚札を確認済みです。",
+    "newly_planned": [
+      "advance_operation"
+    ],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "『潮路』の衣装借入について、貸出票番号「貸V-183」は原本と受領報告で一致しています。別の衣装の写真が添付されていたため、その写真は取り外されました。撮影班から再添付の連絡はありましたが、9月17日15時時点では正しい受領時写真の添付を直接確認できておらず、受領報告は未完了です。受入箱は箱札と棚指定票を照合して東庫C-4に配架し、14時06分に現物と棚札を確認済みです。"
+      },
+      "operation_state": {
+        "as_of": "2026-09-17T15:00:00+09:00",
+        "evidence_refs": [
+          "AM-819",
+          "AM-362"
+        ],
+        "evidence_valid": false,
+        "reasons": [
+          "value 'open' differs from current evidence ('complete')",
+          "'箱札と棚指定票の照合': met per ['AM-819']",
+          "'現物の着棚確認': met per ['AM-362']"
+        ],
+        "revision": "r3",
+        "scope": "受入箱の配架",
+        "valid": false,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-09-17T15:00:00+09:00",
+        "evidence_refs": [
+          "AM-504"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'貸出票番号の転記照合': met per ['AM-641']",
+          "'受領時写真の添付確認': pending per ['AM-504']"
+        ],
+        "revision": "r3",
+        "scope": "衣装借入の受領報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "original_response": {
+      "handoff": "『潮路』の衣装借入について、貸出票番号「貸V-183」は原本と受領報告で一致しています。別の衣装の写真が添付されていたため、その写真は取り外されました。撮影班から再添付の連絡はありましたが、9月17日15時時点では正しい受領時写真の添付を直接確認できておらず、受領報告は未完了です。受入箱は箱札と棚指定票を照合して東庫C-4に配架し、14時06分に現物と棚札を確認済みです。",
+      "operation_state": {
+        "as_of": "2026-09-17T15:00:00+09:00",
+        "evidence_refs": [
+          "AM-819",
+          "AM-362"
+        ],
+        "revision": "r3",
+        "scope": "受入箱の配架",
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-09-17T15:00:00+09:00",
+        "evidence_refs": [
+          "AM-504"
+        ],
+        "revision": "r3",
+        "scope": "衣装借入の受領報告",
+        "value": "open"
+      }
+    },
+    "reconciliation": {
+      "attempts": 1,
+      "fields": {
+        "operation_state": {
+          "conflicting_checks": [],
+          "correction": "same_cutoff_state",
+          "detected": true,
+          "missing_checks": [],
+          "outcome": "verified_complete",
+          "pending_checks": [],
+          "reason": "original state or references failed source verification",
+          "source_value": "complete",
+          "triggered": true,
+          "witnesses": [
+            "AM-819",
+            "AM-362"
+          ]
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": "r3"
+  },
+  "delta": [
+    {
+      "op": "replace",
+      "path": [
+        "operation_state",
+        "value"
+      ],
+      "target": "inner",
+      "value": "open"
+    }
+  ],
+  "historical_origin": {
+    "raw_row": {
+      "T6M2Q": {
+        "handoff": "『潮路』の衣装借入について、貸出票番号「貸V-183」は原本と受領報告で一致しています。別の衣装の写真が添付されていたため、その写真は取り外されました。撮影班から再添付の連絡はありましたが、9月17日15時時点では正しい受領時写真の添付を直接確認できておらず、受領報告は未完了です。受入箱は箱札と棚指定票を照合して東庫C-4に配架し、14時06分に現物と棚札を確認済みです。",
+        "operation_state": {
+          "as_of": "2026-09-17T15:00:00+09:00",
+          "evidence_refs": [
+            "AM-819",
+            "AM-362"
+          ],
+          "revision": "r3",
+          "scope": "受入箱の配架",
+          "value": "complete"
+        },
+        "report_state": {
+          "as_of": "2026-09-17T15:00:00+09:00",
+          "evidence_refs": [
+            "AM-504"
+          ],
+          "revision": "r3",
+          "scope": "衣装借入の受領報告",
+          "value": "open"
+        }
+      }
+    },
+    "source": "evals/kuro-v04-receiver/results/raw/B-i07-1.json"
+  },
+  "id": "F01",
+  "incoming_envelope": {
+    "T6M2Q": {
+      "handoff": "『潮路』の衣装借入について、貸出票番号「貸V-183」は原本と受領報告で一致しています。別の衣装の写真が添付されていたため、その写真は取り外されました。撮影班から再添付の連絡はありましたが、9月17日15時時点では正しい受領時写真の添付を直接確認できておらず、受領報告は未完了です。受入箱は箱札と棚指定票を照合して東庫C-4に配架し、14時06分に現物と棚札を確認済みです。",
+      "operation_state": {
+        "as_of": "2026-09-17T15:00:00+09:00",
+        "evidence_refs": [
+          "AM-819",
+          "AM-362"
+        ],
+        "revision": "r3",
+        "scope": "受入箱の配架",
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-09-17T15:00:00+09:00",
+        "evidence_refs": [
+          "AM-504"
+        ],
+        "revision": "r3",
+        "scope": "衣装借入の受領報告",
+        "value": "open"
+      }
+    }
+  },
+  "original_envelope": {
+    "T6M2Q": {
+      "handoff": "『潮路』の衣装借入について、貸出票番号「貸V-183」は原本と受領報告で一致しています。別の衣装の写真が添付されていたため、その写真は取り外されました。撮影班から再添付の連絡はありましたが、9月17日15時時点では正しい受領時写真の添付を直接確認できておらず、受領報告は未完了です。受入箱は箱札と棚指定票を照合して東庫C-4に配架し、14時06分に現物と棚札を確認済みです。",
+      "operation_state": {
+        "as_of": "2026-09-17T15:00:00+09:00",
+        "evidence_refs": [
+          "AM-819",
+          "AM-362"
+        ],
+        "revision": "r3",
+        "scope": "受入箱の配架",
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-09-17T15:00:00+09:00",
+        "evidence_refs": [
+          "AM-504"
+        ],
+        "revision": "r3",
+        "scope": "衣装借入の受領報告",
+        "value": "open"
+      }
+    }
+  },
+  "original_source": {
+    "as_of": "2026-09-17T15:00:00+09:00",
+    "case_id": "T6M2Q",
+    "draft": "昨日の下書きには配架先の候補として西庫B-2と書かれている。",
+    "records": [
+      {
+        "at": "2026-09-17T13:12:00+09:00",
+        "available_at": "2026-09-17T13:12:00+09:00",
+        "case_id": "T6M2Q",
+        "check": "貸出票番号の転記照合",
+        "ref": "AM-641",
+        "result": "met",
+        "revision": "r3",
+        "scope": "report",
+        "source": "direct",
+        "text": "貸出票の原本と受領報告を突合。転記された番号は貸V-183。"
+      },
+      {
+        "at": "2026-09-17T13:38:00+09:00",
+        "available_at": "2026-09-17T13:38:00+09:00",
+        "case_id": "T6M2Q",
+        "check": "受領時写真の添付確認",
+        "ref": "AM-275",
+        "result": "met",
+        "revision": "r3",
+        "scope": "report",
+        "source": "direct",
+        "text": "受領時写真が添付欄にあることを確認した。"
+      },
+      {
+        "at": "2026-09-17T13:44:00+09:00",
+        "available_at": "2026-09-17T13:44:00+09:00",
+        "case_id": "T6M2Q",
+        "check": "箱札と棚指定票の照合",
+        "ref": "AM-819",
+        "result": "met",
+        "revision": "r3",
+        "scope": "operation",
+        "source": "direct",
+        "text": "『潮路』の箱札を読み、最新の棚指定票と照合した。"
+      },
+      {
+        "at": "2026-09-17T14:06:00+09:00",
+        "available_at": "2026-09-17T14:06:00+09:00",
+        "case_id": "T6M2Q",
+        "check": "現物の着棚確認",
+        "ref": "AM-362",
+        "result": "met",
+        "revision": "r3",
+        "scope": "operation",
+        "source": "direct",
+        "text": "箱を配架。現物と棚札をその場で確認した。実際の配架先は東庫C-4。"
+      },
+      {
+        "at": "2026-09-17T14:24:00+09:00",
+        "available_at": "2026-09-17T14:24:00+09:00",
+        "case_id": "T6M2Q",
+        "check": "受領時写真の添付確認",
+        "ref": "AM-504",
+        "result": "pending",
+        "revision": "r3",
+        "scope": "report",
+        "source": "direct",
+        "text": "添付写真が別の衣装と判明して外した。添付欄は空で、正しい写真を待っている。"
+      },
+      {
+        "at": "2026-09-17T14:46:00+09:00",
+        "available_at": "2026-09-17T14:46:00+09:00",
+        "case_id": "T6M2Q",
+        "check": "受領時写真の添付確認",
+        "ref": "AM-953",
+        "result": "met",
+        "revision": "r3",
+        "scope": "report",
+        "source": "reported",
+        "text": "撮影班から、新しい写真を添付し直したと電話があった。"
+      }
+    ],
+    "request": "『潮路』の衣装借入について、受領報告と箱の配架の進み具合を引き継いでください。本文に貸出票番号と実際の配架先を明記してください。",
+    "revision": "r3",
+    "scopes": {
+      "operation": {
+        "checks": [
+          "箱札と棚指定票の照合",
+          "現物の着棚確認"
+        ],
+        "name": "受入箱の配架"
+      },
+      "report": {
+        "checks": [
+          "貸出票番号の転記照合",
+          "受領時写真の添付確認"
+        ],
+        "name": "衣装借入の受領報告"
+      }
+    }
+  },
+  "reader_condition": "ok",
+  "receipt": 1,
+  "source": {
+    "as_of": "2026-09-17T15:00:00+09:00",
+    "case_id": "T6M2Q",
+    "draft": "昨日の下書きには配架先の候補として西庫B-2と書かれている。",
+    "records": [
+      {
+        "at": "2026-09-17T13:12:00+09:00",
+        "available_at": "2026-09-17T13:12:00+09:00",
+        "case_id": "T6M2Q",
+        "check": "貸出票番号の転記照合",
+        "ref": "AM-641",
+        "result": "met",
+        "revision": "r3",
+        "scope": "report",
+        "source": "direct",
+        "text": "貸出票の原本と受領報告を突合。転記された番号は貸V-183。"
+      },
+      {
+        "at": "2026-09-17T13:38:00+09:00",
+        "available_at": "2026-09-17T13:38:00+09:00",
+        "case_id": "T6M2Q",
+        "check": "受領時写真の添付確認",
+        "ref": "AM-275",
+        "result": "met",
+        "revision": "r3",
+        "scope": "report",
+        "source": "direct",
+        "text": "受領時写真が添付欄にあることを確認した。"
+      },
+      {
+        "at": "2026-09-17T13:44:00+09:00",
+        "available_at": "2026-09-17T13:44:00+09:00",
+        "case_id": "T6M2Q",
+        "check": "箱札と棚指定票の照合",
+        "ref": "AM-819",
+        "result": "met",
+        "revision": "r3",
+        "scope": "operation",
+        "source": "direct",
+        "text": "『潮路』の箱札を読み、最新の棚指定票と照合した。"
+      },
+      {
+        "at": "2026-09-17T14:06:00+09:00",
+        "available_at": "2026-09-17T14:06:00+09:00",
+        "case_id": "T6M2Q",
+        "check": "現物の着棚確認",
+        "ref": "AM-362",
+        "result": "met",
+        "revision": "r3",
+        "scope": "operation",
+        "source": "direct",
+        "text": "箱を配架。現物と棚札をその場で確認した。実際の配架先は東庫C-4。"
+      },
+      {
+        "at": "2026-09-17T14:24:00+09:00",
+        "available_at": "2026-09-17T14:24:00+09:00",
+        "case_id": "T6M2Q",
+        "check": "受領時写真の添付確認",
+        "ref": "AM-504",
+        "result": "pending",
+        "revision": "r3",
+        "scope": "report",
+        "source": "direct",
+        "text": "添付写真が別の衣装と判明して外した。添付欄は空で、正しい写真を待っている。"
+      },
+      {
+        "at": "2026-09-17T14:46:00+09:00",
+        "available_at": "2026-09-17T14:46:00+09:00",
+        "case_id": "T6M2Q",
+        "check": "受領時写真の添付確認",
+        "ref": "AM-953",
+        "result": "met",
+        "revision": "r3",
+        "scope": "report",
+        "source": "reported",
+        "text": "撮影班から、新しい写真を添付し直したと電話があった。"
+      }
+    ],
+    "request": "『潮路』の衣装借入について、受領報告と箱の配架の進み具合を引き継いでください。本文に貸出票番号と実際の配架先を明記してください。",
+    "revision": "r3",
+    "scopes": {
+      "operation": {
+        "checks": [
+          "箱札と棚指定票の照合",
+          "現物の着棚確認"
+        ],
+        "name": "受入箱の配架"
+      },
+      "report": {
+        "checks": [
+          "貸出票番号の転記照合",
+          "受領時写真の添付確認"
+        ],
+        "name": "衣装借入の受領報告"
+      }
+    }
+  },
+  "source_reads": [
+    {
+      "received_source": {
+        "as_of": "2026-09-17T15:00:00+09:00",
+        "case_id": "T6M2Q",
+        "draft": "昨日の下書きには配架先の候補として西庫B-2と書かれている。",
+        "records": [
+          {
+            "at": "2026-09-17T13:12:00+09:00",
+            "available_at": "2026-09-17T13:12:00+09:00",
+            "case_id": "T6M2Q",
+            "check": "貸出票番号の転記照合",
+            "ref": "AM-641",
+            "result": "met",
+            "revision": "r3",
+            "scope": "report",
+            "source": "direct",
+            "text": "貸出票の原本と受領報告を突合。転記された番号は貸V-183。"
+          },
+          {
+            "at": "2026-09-17T13:38:00+09:00",
+            "available_at": "2026-09-17T13:38:00+09:00",
+            "case_id": "T6M2Q",
+            "check": "受領時写真の添付確認",
+            "ref": "AM-275",
+            "result": "met",
+            "revision": "r3",
+            "scope": "report",
+            "source": "direct",
+            "text": "受領時写真が添付欄にあることを確認した。"
+          },
+          {
+            "at": "2026-09-17T13:44:00+09:00",
+            "available_at": "2026-09-17T13:44:00+09:00",
+            "case_id": "T6M2Q",
+            "check": "箱札と棚指定票の照合",
+            "ref": "AM-819",
+            "result": "met",
+            "revision": "r3",
+            "scope": "operation",
+            "source": "direct",
+            "text": "『潮路』の箱札を読み、最新の棚指定票と照合した。"
+          },
+          {
+            "at": "2026-09-17T14:06:00+09:00",
+            "available_at": "2026-09-17T14:06:00+09:00",
+            "case_id": "T6M2Q",
+            "check": "現物の着棚確認",
+            "ref": "AM-362",
+            "result": "met",
+            "revision": "r3",
+            "scope": "operation",
+            "source": "direct",
+            "text": "箱を配架。現物と棚札をその場で確認した。実際の配架先は東庫C-4。"
+          },
+          {
+            "at": "2026-09-17T14:24:00+09:00",
+            "available_at": "2026-09-17T14:24:00+09:00",
+            "case_id": "T6M2Q",
+            "check": "受領時写真の添付確認",
+            "ref": "AM-504",
+            "result": "pending",
+            "revision": "r3",
+            "scope": "report",
+            "source": "direct",
+            "text": "添付写真が別の衣装と判明して外した。添付欄は空で、正しい写真を待っている。"
+          },
+          {
+            "at": "2026-09-17T14:46:00+09:00",
+            "available_at": "2026-09-17T14:46:00+09:00",
+            "case_id": "T6M2Q",
+            "check": "受領時写真の添付確認",
+            "ref": "AM-953",
+            "result": "met",
+            "revision": "r3",
+            "scope": "report",
+            "source": "reported",
+            "text": "撮影班から、新しい写真を添付し直したと電話があった。"
+          }
+        ],
+        "request": "『潮路』の衣装借入について、受領報告と箱の配架の進み具合を引き継いでください。本文に貸出票番号と実際の配架先を明記してください。",
+        "revision": "r3",
+        "scopes": {
+          "operation": {
+            "checks": [
+              "箱札と棚指定票の照合",
+              "現物の着棚確認"
+            ],
+            "name": "受入箱の配架"
+          },
+          "report": {
+            "checks": [
+              "貸出票番号の転記照合",
+              "受領時写真の添付確認"
+            ],
+            "name": "衣装借入の受領報告"
+          }
+        }
+      }
+    }
+  ],
+  "timing_ns": {
+    "additional_including_ledger_open_close": 1081524,
+    "baseline": 135917
+  }
+}

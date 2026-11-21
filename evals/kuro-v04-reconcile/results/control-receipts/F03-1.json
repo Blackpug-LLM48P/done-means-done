@@ -1,0 +1,663 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '収納段への敷布設置': no current positive reference cited",
+          "operation_state: value 'complete' differs from current evidence ('open')",
+          "operation_state: '収納段への敷布設置': met per ['AM-234']",
+          "operation_state: '外套の収納段への移載': pending per ['AM-461']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '損傷位置の記載照合': met per ['AM-680']",
+          "report_state: '検品者の署名確認': pending per ['AM-903']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '損傷位置の記載照合': met per ['AM-680']",
+          "report_state: '検品者の署名確認': pending per ['AM-903']",
+          "operation_state: '収納段への敷布設置': no current positive reference cited",
+          "operation_state: value 'complete' differs from current evidence ('open')",
+          "operation_state: '収納段への敷布設置': met per ['AM-234']",
+          "operation_state: '外套の収納段への移載': pending per ['AM-461']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-10-09T17:00:00+09:00",
+    "case_id": "T8B4N",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月9日17時時点の申し送りです。借入外套『蛍坂』のほつれは左襟の裏にあり、受領時状態報告書の記載と一致しました。15時12分の確認では検品者の署名欄は空欄で、署名確認は未了です。平置き用の収納段には未晒し木綿を敷き、しわを伸ばしました。16時10分の確認では外套は検品台にあり、収納段への移載は未了です。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-09T17:00:00+09:00",
+        "evidence_refs": [
+          "AM-461"
+        ],
+        "evidence_valid": false,
+        "reasons": [
+          "'収納段への敷布設置': no current positive reference cited",
+          "value 'complete' differs from current evidence ('open')",
+          "'収納段への敷布設置': met per ['AM-234']",
+          "'外套の収納段への移載': pending per ['AM-461']"
+        ],
+        "revision": "r2",
+        "scope": "外套の平置き収納",
+        "valid": false,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-09T17:00:00+09:00",
+        "evidence_refs": [
+          "AM-903"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'損傷位置の記載照合': met per ['AM-680']",
+          "'検品者の署名確認': pending per ['AM-903']"
+        ],
+        "revision": "r2",
+        "scope": "借入外套の受領時状態報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "10月9日17時時点の申し送りです。借入外套『蛍坂』のほつれは左襟の裏にあり、受領時状態報告書の記載と一致しました。15時12分の確認では検品者の署名欄は空欄で、署名確認は未了です。平置き用の収納段には未晒し木綿を敷き、しわを伸ばしました。16時10分の確認では外套は検品台にあり、収納段への移載は未了です。",
+    "revision": "r2"
+  },
+  "B1": {
+    "action_keys": {},
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '収納段への敷布設置': met per ['AM-234']",
+          "operation_state: '外套の収納段への移載': pending per ['AM-461']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '損傷位置の記載照合': met per ['AM-680']",
+          "report_state: '検品者の署名確認': pending per ['AM-903']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '損傷位置の記載照合': met per ['AM-680']",
+          "report_state: '検品者の署名確認': pending per ['AM-903']",
+          "operation_state: '収納段への敷布設置': met per ['AM-234']",
+          "operation_state: '外套の収納段への移載': pending per ['AM-461']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-10-09T17:00:00+09:00",
+    "case_id": "T8B4N",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月9日17時時点の申し送りです。借入外套『蛍坂』のほつれは左襟の裏にあり、受領時状態報告書の記載と一致しました。15時12分の確認では検品者の署名欄は空欄で、署名確認は未了です。平置き用の収納段には未晒し木綿を敷き、しわを伸ばしました。16時10分の確認では外套は検品台にあり、収納段への移載は未了です。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-09T17:00:00+09:00",
+        "evidence_refs": [
+          "AM-234",
+          "AM-461"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'収納段への敷布設置': met per ['AM-234']",
+          "'外套の収納段への移載': pending per ['AM-461']"
+        ],
+        "revision": "r2",
+        "scope": "外套の平置き収納",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-09T17:00:00+09:00",
+        "evidence_refs": [
+          "AM-903"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'損傷位置の記載照合': met per ['AM-680']",
+          "'検品者の署名確認': pending per ['AM-903']"
+        ],
+        "revision": "r2",
+        "scope": "借入外套の受領時状態報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "10月9日17時時点の申し送りです。借入外套『蛍坂』のほつれは左襟の裏にあり、受領時状態報告書の記載と一致しました。15時12分の確認では検品者の署名欄は空欄で、署名確認は未了です。平置き用の収納段には未晒し木綿を敷き、しわを伸ばしました。16時10分の確認では外套は検品台にあり、収納段への移載は未了です。",
+    "newly_planned": [],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "10月9日17時時点の申し送りです。借入外套『蛍坂』のほつれは左襟の裏にあり、受領時状態報告書の記載と一致しました。15時12分の確認では検品者の署名欄は空欄で、署名確認は未了です。平置き用の収納段には未晒し木綿を敷き、しわを伸ばしました。16時10分の確認では外套は検品台にあり、収納段への移載は未了です。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-09T17:00:00+09:00",
+        "evidence_refs": [
+          "AM-461"
+        ],
+        "evidence_valid": false,
+        "reasons": [
+          "'収納段への敷布設置': no current positive reference cited",
+          "value 'complete' differs from current evidence ('open')",
+          "'収納段への敷布設置': met per ['AM-234']",
+          "'外套の収納段への移載': pending per ['AM-461']"
+        ],
+        "revision": "r2",
+        "scope": "外套の平置き収納",
+        "valid": false,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-09T17:00:00+09:00",
+        "evidence_refs": [
+          "AM-903"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'損傷位置の記載照合': met per ['AM-680']",
+          "'検品者の署名確認': pending per ['AM-903']"
+        ],
+        "revision": "r2",
+        "scope": "借入外套の受領時状態報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "original_response": {
+      "handoff": "10月9日17時時点の申し送りです。借入外套『蛍坂』のほつれは左襟の裏にあり、受領時状態報告書の記載と一致しました。15時12分の確認では検品者の署名欄は空欄で、署名確認は未了です。平置き用の収納段には未晒し木綿を敷き、しわを伸ばしました。16時10分の確認では外套は検品台にあり、収納段への移載は未了です。",
+      "operation_state": {
+        "as_of": "2026-10-09T17:00:00+09:00",
+        "evidence_refs": [
+          "AM-461"
+        ],
+        "revision": "r2",
+        "scope": "外套の平置き収納",
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-09T17:00:00+09:00",
+        "evidence_refs": [
+          "AM-903"
+        ],
+        "revision": "r2",
+        "scope": "借入外套の受領時状態報告",
+        "value": "open"
+      }
+    },
+    "reconciliation": {
+      "attempts": 1,
+      "fields": {
+        "operation_state": {
+          "conflicting_checks": [],
+          "correction": "same_cutoff_state",
+          "detected": true,
+          "missing_checks": [],
+          "outcome": "verified_open",
+          "pending_checks": [
+            "外套の収納段への移載"
+          ],
+          "reason": "original state or references failed source verification",
+          "source_value": "open",
+          "triggered": true,
+          "witnesses": [
+            "AM-234",
+            "AM-461"
+          ]
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": "r2"
+  },
+  "delta": [
+    {
+      "op": "replace",
+      "path": [
+        "operation_state",
+        "value"
+      ],
+      "target": "inner",
+      "value": "complete"
+    }
+  ],
+  "historical_origin": {
+    "raw_row": {
+      "T8B4N": {
+        "handoff": "10月9日17時時点の申し送りです。借入外套『蛍坂』のほつれは左襟の裏にあり、受領時状態報告書の記載と一致しました。15時12分の確認では検品者の署名欄は空欄で、署名確認は未了です。平置き用の収納段には未晒し木綿を敷き、しわを伸ばしました。16時10分の確認では外套は検品台にあり、収納段への移載は未了です。",
+        "operation_state": {
+          "as_of": "2026-10-09T17:00:00+09:00",
+          "evidence_refs": [
+            "AM-461"
+          ],
+          "revision": "r2",
+          "scope": "外套の平置き収納",
+          "value": "open"
+        },
+        "report_state": {
+          "as_of": "2026-10-09T17:00:00+09:00",
+          "evidence_refs": [
+            "AM-903"
+          ],
+          "revision": "r2",
+          "scope": "借入外套の受領時状態報告",
+          "value": "open"
+        }
+      }
+    },
+    "source": "evals/kuro-v04-receiver/results/raw/B-i08-1.json"
+  },
+  "id": "F03",
+  "incoming_envelope": {
+    "T8B4N": {
+      "handoff": "10月9日17時時点の申し送りです。借入外套『蛍坂』のほつれは左襟の裏にあり、受領時状態報告書の記載と一致しました。15時12分の確認では検品者の署名欄は空欄で、署名確認は未了です。平置き用の収納段には未晒し木綿を敷き、しわを伸ばしました。16時10分の確認では外套は検品台にあり、収納段への移載は未了です。",
+      "operation_state": {
+        "as_of": "2026-10-09T17:00:00+09:00",
+        "evidence_refs": [
+          "AM-461"
+        ],
+        "revision": "r2",
+        "scope": "外套の平置き収納",
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-09T17:00:00+09:00",
+        "evidence_refs": [
+          "AM-903"
+        ],
+        "revision": "r2",
+        "scope": "借入外套の受領時状態報告",
+        "value": "open"
+      }
+    }
+  },
+  "original_envelope": {
+    "T8B4N": {
+      "handoff": "10月9日17時時点の申し送りです。借入外套『蛍坂』のほつれは左襟の裏にあり、受領時状態報告書の記載と一致しました。15時12分の確認では検品者の署名欄は空欄で、署名確認は未了です。平置き用の収納段には未晒し木綿を敷き、しわを伸ばしました。16時10分の確認では外套は検品台にあり、収納段への移載は未了です。",
+      "operation_state": {
+        "as_of": "2026-10-09T17:00:00+09:00",
+        "evidence_refs": [
+          "AM-461"
+        ],
+        "revision": "r2",
+        "scope": "外套の平置き収納",
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-10-09T17:00:00+09:00",
+        "evidence_refs": [
+          "AM-903"
+        ],
+        "revision": "r2",
+        "scope": "借入外套の受領時状態報告",
+        "value": "open"
+      }
+    }
+  },
+  "original_source": {
+    "as_of": "2026-10-09T17:00:00+09:00",
+    "case_id": "T8B4N",
+    "draft": "巡回用の走り書きでは外套を掛けて保管する予定になっていた。",
+    "records": [
+      {
+        "at": "2026-10-09T14:16:00+09:00",
+        "available_at": "2026-10-09T14:16:00+09:00",
+        "case_id": "T8B4N",
+        "check": "損傷位置の記載照合",
+        "ref": "AM-680",
+        "result": "met",
+        "revision": "r2",
+        "scope": "report",
+        "source": "direct",
+        "text": "現物と報告書を突合した。ほつれは左襟の裏にあり、位置は記載と一致した。"
+      },
+      {
+        "at": "2026-10-09T15:12:00+09:00",
+        "available_at": "2026-10-09T15:12:00+09:00",
+        "case_id": "T8B4N",
+        "check": "検品者の署名確認",
+        "ref": "AM-903",
+        "result": "pending",
+        "revision": "r2",
+        "scope": "report",
+        "source": "direct",
+        "text": "当該報告書の検品者署名欄は空欄だった。"
+      },
+      {
+        "at": "2026-10-09T15:35:00+09:00",
+        "available_at": "2026-10-09T15:35:00+09:00",
+        "case_id": "T8B4N",
+        "check": "収納段への敷布設置",
+        "ref": "AM-234",
+        "result": "met",
+        "revision": "r2",
+        "scope": "operation",
+        "source": "direct",
+        "text": "収納段に未晒し木綿を敷き、しわを伸ばした。"
+      },
+      {
+        "at": "2026-10-09T16:10:00+09:00",
+        "available_at": "2026-10-09T16:10:00+09:00",
+        "case_id": "T8B4N",
+        "check": "外套の収納段への移載",
+        "ref": "AM-461",
+        "result": "pending",
+        "revision": "r2",
+        "scope": "operation",
+        "source": "direct",
+        "text": "現物は検品台にある。収納段への移載はまだ行っていない。"
+      },
+      {
+        "at": "2026-10-09T16:31:00+09:00",
+        "available_at": "2026-10-09T16:31:00+09:00",
+        "case_id": "T5R9D",
+        "check": "外套の収納段への移載",
+        "ref": "AM-795",
+        "result": "met",
+        "revision": "r2",
+        "scope": "operation",
+        "source": "direct",
+        "text": "別の借入外套を検品台から指定の収納段へ移した。"
+      },
+      {
+        "at": "2026-10-09T16:48:00+09:00",
+        "available_at": "2026-10-09T17:14:00+09:00",
+        "case_id": "T8B4N",
+        "check": "検品者の署名確認",
+        "ref": "AM-157",
+        "result": "met",
+        "revision": "r2",
+        "scope": "report",
+        "source": "direct",
+        "text": "検品者が署名した現行の報告書を確認した。回線復旧後に受信。"
+      }
+    ],
+    "request": "『蛍坂』の状態報告と外套の平置き収納について、次の当番へ申し送りを作成してください。実見した傷みの位置と収納用に敷いた布の種類を書いてください。",
+    "revision": "r2",
+    "scopes": {
+      "operation": {
+        "checks": [
+          "収納段への敷布設置",
+          "外套の収納段への移載"
+        ],
+        "name": "外套の平置き収納"
+      },
+      "report": {
+        "checks": [
+          "損傷位置の記載照合",
+          "検品者の署名確認"
+        ],
+        "name": "借入外套の受領時状態報告"
+      }
+    }
+  },
+  "reader_condition": "ok",
+  "receipt": 1,
+  "source": {
+    "as_of": "2026-10-09T17:00:00+09:00",
+    "case_id": "T8B4N",
+    "draft": "巡回用の走り書きでは外套を掛けて保管する予定になっていた。",
+    "records": [
+      {
+        "at": "2026-10-09T14:16:00+09:00",
+        "available_at": "2026-10-09T14:16:00+09:00",
+        "case_id": "T8B4N",
+        "check": "損傷位置の記載照合",
+        "ref": "AM-680",
+        "result": "met",
+        "revision": "r2",
+        "scope": "report",
+        "source": "direct",
+        "text": "現物と報告書を突合した。ほつれは左襟の裏にあり、位置は記載と一致した。"
+      },
+      {
+        "at": "2026-10-09T15:12:00+09:00",
+        "available_at": "2026-10-09T15:12:00+09:00",
+        "case_id": "T8B4N",
+        "check": "検品者の署名確認",
+        "ref": "AM-903",
+        "result": "pending",
+        "revision": "r2",
+        "scope": "report",
+        "source": "direct",
+        "text": "当該報告書の検品者署名欄は空欄だった。"
+      },
+      {
+        "at": "2026-10-09T15:35:00+09:00",
+        "available_at": "2026-10-09T15:35:00+09:00",
+        "case_id": "T8B4N",
+        "check": "収納段への敷布設置",
+        "ref": "AM-234",
+        "result": "met",
+        "revision": "r2",
+        "scope": "operation",
+        "source": "direct",
+        "text": "収納段に未晒し木綿を敷き、しわを伸ばした。"
+      },
+      {
+        "at": "2026-10-09T16:10:00+09:00",
+        "available_at": "2026-10-09T16:10:00+09:00",
+        "case_id": "T8B4N",
+        "check": "外套の収納段への移載",
+        "ref": "AM-461",
+        "result": "pending",
+        "revision": "r2",
+        "scope": "operation",
+        "source": "direct",
+        "text": "現物は検品台にある。収納段への移載はまだ行っていない。"
+      },
+      {
+        "at": "2026-10-09T16:31:00+09:00",
+        "available_at": "2026-10-09T16:31:00+09:00",
+        "case_id": "T5R9D",
+        "check": "外套の収納段への移載",
+        "ref": "AM-795",
+        "result": "met",
+        "revision": "r2",
+        "scope": "operation",
+        "source": "direct",
+        "text": "別の借入外套を検品台から指定の収納段へ移した。"
+      },
+      {
+        "at": "2026-10-09T16:48:00+09:00",
+        "available_at": "2026-10-09T17:14:00+09:00",
+        "case_id": "T8B4N",
+        "check": "検品者の署名確認",
+        "ref": "AM-157",
+        "result": "met",
+        "revision": "r2",
+        "scope": "report",
+        "source": "direct",
+        "text": "検品者が署名した現行の報告書を確認した。回線復旧後に受信。"
+      }
+    ],
+    "request": "『蛍坂』の状態報告と外套の平置き収納について、次の当番へ申し送りを作成してください。実見した傷みの位置と収納用に敷いた布の種類を書いてください。",
+    "revision": "r2",
+    "scopes": {
+      "operation": {
+        "checks": [
+          "収納段への敷布設置",
+          "外套の収納段への移載"
+        ],
+        "name": "外套の平置き収納"
+      },
+      "report": {
+        "checks": [
+          "損傷位置の記載照合",
+          "検品者の署名確認"
+        ],
+        "name": "借入外套の受領時状態報告"
+      }
+    }
+  },
+  "source_reads": [
+    {
+      "received_source": {
+        "as_of": "2026-10-09T17:00:00+09:00",
+        "case_id": "T8B4N",
+        "draft": "巡回用の走り書きでは外套を掛けて保管する予定になっていた。",
+        "records": [
+          {
+            "at": "2026-10-09T14:16:00+09:00",
+            "available_at": "2026-10-09T14:16:00+09:00",
+            "case_id": "T8B4N",
+            "check": "損傷位置の記載照合",
+            "ref": "AM-680",
+            "result": "met",
+            "revision": "r2",
+            "scope": "report",
+            "source": "direct",
+            "text": "現物と報告書を突合した。ほつれは左襟の裏にあり、位置は記載と一致した。"
+          },
+          {
+            "at": "2026-10-09T15:12:00+09:00",
+            "available_at": "2026-10-09T15:12:00+09:00",
+            "case_id": "T8B4N",
+            "check": "検品者の署名確認",
+            "ref": "AM-903",
+            "result": "pending",
+            "revision": "r2",
+            "scope": "report",
+            "source": "direct",
+            "text": "当該報告書の検品者署名欄は空欄だった。"
+          },
+          {
+            "at": "2026-10-09T15:35:00+09:00",
+            "available_at": "2026-10-09T15:35:00+09:00",
+            "case_id": "T8B4N",
+            "check": "収納段への敷布設置",
+            "ref": "AM-234",
+            "result": "met",
+            "revision": "r2",
+            "scope": "operation",
+            "source": "direct",
+            "text": "収納段に未晒し木綿を敷き、しわを伸ばした。"
+          },
+          {
+            "at": "2026-10-09T16:10:00+09:00",
+            "available_at": "2026-10-09T16:10:00+09:00",
+            "case_id": "T8B4N",
+            "check": "外套の収納段への移載",
+            "ref": "AM-461",
+            "result": "pending",
+            "revision": "r2",
+            "scope": "operation",
+            "source": "direct",
+            "text": "現物は検品台にある。収納段への移載はまだ行っていない。"
+          },
+          {
+            "at": "2026-10-09T16:31:00+09:00",
+            "available_at": "2026-10-09T16:31:00+09:00",
+            "case_id": "T5R9D",
+            "check": "外套の収納段への移載",
+            "ref": "AM-795",
+            "result": "met",
+            "revision": "r2",
+            "scope": "operation",
+            "source": "direct",
+            "text": "別の借入外套を検品台から指定の収納段へ移した。"
+          },
+          {
+            "at": "2026-10-09T16:48:00+09:00",
+            "available_at": "2026-10-09T17:14:00+09:00",
+            "case_id": "T8B4N",
+            "check": "検品者の署名確認",
+            "ref": "AM-157",
+            "result": "met",
+            "revision": "r2",
+            "scope": "report",
+            "source": "direct",
+            "text": "検品者が署名した現行の報告書を確認した。回線復旧後に受信。"
+          }
+        ],
+        "request": "『蛍坂』の状態報告と外套の平置き収納について、次の当番へ申し送りを作成してください。実見した傷みの位置と収納用に敷いた布の種類を書いてください。",
+        "revision": "r2",
+        "scopes": {
+          "operation": {
+            "checks": [
+              "収納段への敷布設置",
+              "外套の収納段への移載"
+            ],
+            "name": "外套の平置き収納"
+          },
+          "report": {
+            "checks": [
+              "損傷位置の記載照合",
+              "検品者の署名確認"
+            ],
+            "name": "借入外套の受領時状態報告"
+          }
+        }
+      }
+    }
+  ],
+  "timing_ns": {
+    "additional_including_ledger_open_close": 555324,
+    "baseline": 224865
+  }
+}

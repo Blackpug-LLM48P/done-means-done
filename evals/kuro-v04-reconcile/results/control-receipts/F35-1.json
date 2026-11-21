@@ -1,0 +1,568 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '搬入巻数の照合': met per ['b2m3']",
+          "operation_state: '庫内担当の受領署名': met per ['b2m5']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: scope None differs from '移送報告書'",
+          "report_state: '温度履歴の添付': met per ['b2m4']",
+          "report_state: '報告書の登録': met per ['b2m2']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: scope None differs from '移送報告書'",
+          "report_state: '温度履歴の添付': met per ['b2m4']",
+          "report_state: '報告書の登録': met per ['b2m2']",
+          "operation_state: '搬入巻数の照合': met per ['b2m3']",
+          "operation_state: '庫内担当の受領署名': met per ['b2m5']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-10-14T16:00:00+09:00",
+    "case_id": "F2V9",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "2026年10月14日16時時点で、『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合と引き渡しを完了しました。庫内担当は受領票に署名し、保管棚を「雪-12」と記入しました。移送報告書の第5版には校正済み温度計の記録を添付し、台帳への登録を完了しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-14T16:00:00+09:00",
+        "evidence_refs": [
+          "b2m3",
+          "b2m5"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'搬入巻数の照合': met per ['b2m3']",
+          "'庫内担当の受領署名': met per ['b2m5']"
+        ],
+        "revision": 5,
+        "scope": "本館低温庫への引き渡し",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-14T16:00:00+09:00",
+        "evidence_refs": [
+          "b2m4",
+          "b2m2"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "scope None differs from '移送報告書'",
+          "'温度履歴の添付': met per ['b2m4']",
+          "'報告書の登録': met per ['b2m2']"
+        ],
+        "revision": 5,
+        "scope": null,
+        "valid": false,
+        "value": "complete"
+      }
+    },
+    "handoff": "2026年10月14日16時時点で、『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合と引き渡しを完了しました。庫内担当は受領票に署名し、保管棚を「雪-12」と記入しました。移送報告書の第5版には校正済み温度計の記録を添付し、台帳への登録を完了しました。",
+    "revision": 5
+  },
+  "B1": {
+    "action_keys": {
+      "advance_operation": "[\"F2V9\",5,[63927644400,\"\"],\"advance_operation\",[\"本館低温庫への引き渡し\"]]"
+    },
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '搬入巻数の照合': met per ['b2m3']",
+          "operation_state: '庫内担当の受領署名': met per ['b2m5']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: scope None differs from '移送報告書'",
+          "report_state: '温度履歴の添付': met per ['b2m4']",
+          "report_state: '報告書の登録': met per ['b2m2']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: scope None differs from '移送報告書'",
+          "report_state: '温度履歴の添付': met per ['b2m4']",
+          "report_state: '報告書の登録': met per ['b2m2']",
+          "operation_state: '搬入巻数の照合': met per ['b2m3']",
+          "operation_state: '庫内担当の受領署名': met per ['b2m5']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-10-14T16:00:00+09:00",
+    "case_id": "F2V9",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "2026年10月14日16時時点で、『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合と引き渡しを完了しました。庫内担当は受領票に署名し、保管棚を「雪-12」と記入しました。移送報告書の第5版には校正済み温度計の記録を添付し、台帳への登録を完了しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-14T16:00:00+09:00",
+        "evidence_refs": [
+          "b2m3",
+          "b2m5"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'搬入巻数の照合': met per ['b2m3']",
+          "'庫内担当の受領署名': met per ['b2m5']"
+        ],
+        "revision": 5,
+        "scope": "本館低温庫への引き渡し",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-14T16:00:00+09:00",
+        "evidence_refs": [
+          "b2m4",
+          "b2m2"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "scope None differs from '移送報告書'",
+          "'温度履歴の添付': met per ['b2m4']",
+          "'報告書の登録': met per ['b2m2']"
+        ],
+        "revision": 5,
+        "scope": null,
+        "valid": false,
+        "value": "complete"
+      }
+    },
+    "handoff": "2026年10月14日16時時点で、『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合と引き渡しを完了しました。庫内担当は受領票に署名し、保管棚を「雪-12」と記入しました。移送報告書の第5版には校正済み温度計の記録を添付し、台帳への登録を完了しました。",
+    "newly_planned": [
+      "advance_operation"
+    ],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "2026年10月14日16時時点で、『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合と引き渡しを完了しました。庫内担当は受領票に署名し、保管棚を「雪-12」と記入しました。移送報告書の第5版には校正済み温度計の記録を添付し、台帳への登録を完了しました。"
+      },
+      "operation_state": {
+        "as_of": "2026-10-14T16:00:00+09:00",
+        "evidence_refs": [
+          "b2m3",
+          "b2m5"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'搬入巻数の照合': met per ['b2m3']",
+          "'庫内担当の受領署名': met per ['b2m5']"
+        ],
+        "revision": 5,
+        "scope": "本館低温庫への引き渡し",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-14T16:00:00+09:00",
+        "evidence_refs": [
+          "b2m4",
+          "b2m2"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "scope None differs from '移送報告書'",
+          "'温度履歴の添付': met per ['b2m4']",
+          "'報告書の登録': met per ['b2m2']"
+        ],
+        "revision": 5,
+        "scope": null,
+        "valid": false,
+        "value": "complete"
+      }
+    },
+    "original_response": {
+      "handoff": "2026年10月14日16時時点で、『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合と引き渡しを完了しました。庫内担当は受領票に署名し、保管棚を「雪-12」と記入しました。移送報告書の第5版には校正済み温度計の記録を添付し、台帳への登録を完了しました。",
+      "operation_state": {
+        "as_of": "2026-10-14T16:00:00+09:00",
+        "evidence_refs": [
+          "b2m3",
+          "b2m5"
+        ],
+        "revision": 5,
+        "scope": "本館低温庫への引き渡し",
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-14T16:00:00+09:00",
+        "evidence_refs": [
+          "b2m4",
+          "b2m2"
+        ],
+        "revision": 5,
+        "value": "complete"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": true,
+          "outcome": "binding_rejected",
+          "reason": "submitted target differs from the trusted scope",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": 5
+  },
+  "delta": [
+    {
+      "op": "remove",
+      "path": [
+        "report_state",
+        "scope"
+      ],
+      "target": "inner"
+    }
+  ],
+  "historical_origin": {
+    "raw_row": {
+      "F2V9": {
+        "handoff": "2026年10月14日16時時点で、『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合と引き渡しを完了しました。庫内担当は受領票に署名し、保管棚を「雪-12」と記入しました。移送報告書の第5版には校正済み温度計の記録を添付し、台帳への登録を完了しました。",
+        "operation_state": {
+          "as_of": "2026-10-14T16:00:00+09:00",
+          "evidence_refs": [
+            "b2m3",
+            "b2m5"
+          ],
+          "revision": 5,
+          "scope": "本館低温庫への引き渡し",
+          "value": "complete"
+        },
+        "report_state": {
+          "as_of": "2026-10-14T16:00:00+09:00",
+          "evidence_refs": [
+            "b2m4",
+            "b2m2"
+          ],
+          "revision": 5,
+          "scope": "移送報告書",
+          "value": "complete"
+        }
+      }
+    },
+    "source": "evals/kuro-v04-receiver/results/raw/B-i01-1.json"
+  },
+  "id": "F35",
+  "incoming_envelope": {
+    "F2V9": {
+      "handoff": "2026年10月14日16時時点で、『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合と引き渡しを完了しました。庫内担当は受領票に署名し、保管棚を「雪-12」と記入しました。移送報告書の第5版には校正済み温度計の記録を添付し、台帳への登録を完了しました。",
+      "operation_state": {
+        "as_of": "2026-10-14T16:00:00+09:00",
+        "evidence_refs": [
+          "b2m3",
+          "b2m5"
+        ],
+        "revision": 5,
+        "scope": "本館低温庫への引き渡し",
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-14T16:00:00+09:00",
+        "evidence_refs": [
+          "b2m4",
+          "b2m2"
+        ],
+        "revision": 5,
+        "value": "complete"
+      }
+    }
+  },
+  "original_envelope": {
+    "F2V9": {
+      "handoff": "2026年10月14日16時時点で、『岬の学校』の16mmプリント全4巻を本館低温庫に搬入し、現物照合と引き渡しを完了しました。庫内担当は受領票に署名し、保管棚を「雪-12」と記入しました。移送報告書の第5版には校正済み温度計の記録を添付し、台帳への登録を完了しました。",
+      "operation_state": {
+        "as_of": "2026-10-14T16:00:00+09:00",
+        "evidence_refs": [
+          "b2m3",
+          "b2m5"
+        ],
+        "revision": 5,
+        "scope": "本館低温庫への引き渡し",
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-10-14T16:00:00+09:00",
+        "evidence_refs": [
+          "b2m4",
+          "b2m2"
+        ],
+        "revision": 5,
+        "scope": "移送報告書",
+        "value": "complete"
+      }
+    }
+  },
+  "original_source": {
+    "as_of": "2026-10-14T16:00:00+09:00",
+    "case_id": "F2V9",
+    "draft": "庫内担当はまだ受領しておらず、報告書の登録も保留する。",
+    "records": [
+      {
+        "at": "2026-10-14T13:54:00+09:00",
+        "available_at": "2026-10-14T13:54:00+09:00",
+        "case_id": "F2V9",
+        "check": "庫内担当の受領署名",
+        "ref": "b2m1",
+        "result": "pending",
+        "revision": 5,
+        "scope": "operation",
+        "source": "direct",
+        "text": "冷却待機室に到着。受領票の署名欄は空欄。"
+      },
+      {
+        "at": "2026-10-14T14:58:00+09:00",
+        "available_at": "2026-10-14T14:58:00+09:00",
+        "case_id": "F2V9",
+        "check": "報告書の登録",
+        "ref": "b2m2",
+        "result": "met",
+        "revision": 5,
+        "scope": "report",
+        "source": "direct",
+        "text": "登録台帳に移送報告書の現行版が収載された。"
+      },
+      {
+        "at": "2026-10-14T14:05:00+09:00",
+        "available_at": "2026-10-14T14:05:00+09:00",
+        "case_id": "F2V9",
+        "check": "搬入巻数の照合",
+        "ref": "b2m3",
+        "result": "met",
+        "revision": 5,
+        "scope": "operation",
+        "source": "direct",
+        "text": "搬入時の現物照合で全4巻が揃った。"
+      },
+      {
+        "at": "2026-10-14T13:49:00+09:00",
+        "available_at": "2026-10-14T13:49:00+09:00",
+        "case_id": "F2V9",
+        "check": "温度履歴の添付",
+        "ref": "b2m4",
+        "result": "met",
+        "revision": 5,
+        "scope": "report",
+        "source": "direct",
+        "text": "担当者が校正済み温度計の記録を報告書に添付した。"
+      },
+      {
+        "at": "2026-10-14T14:31:00+09:00",
+        "available_at": "2026-10-14T14:31:00+09:00",
+        "case_id": "F2V9",
+        "check": "庫内担当の受領署名",
+        "ref": "b2m5",
+        "result": "met",
+        "revision": 5,
+        "scope": "operation",
+        "source": "direct",
+        "text": "庫内担当が受領票に署名し、保管棚「雪-12」を記した。"
+      },
+      {
+        "at": "2026-10-14T15:18:00+09:00",
+        "available_at": "2026-10-14T15:18:00+09:00",
+        "case_id": "F6H1",
+        "check": "搬入巻数の照合",
+        "ref": "b2m6",
+        "result": "pending",
+        "revision": 5,
+        "scope": "operation",
+        "source": "direct",
+        "text": "この便は第4巻が未着のため数量照合を保留。"
+      }
+    ],
+    "request": "分館から本館低温庫に戻す『岬の学校』の16mmプリントについて、移送報告書と庫内担当への引き渡しを判定してください。搬入した巻数と、庫内担当が受領票に記した保管棚を教えてください。",
+    "revision": 5,
+    "scopes": {
+      "operation": {
+        "checks": [
+          "搬入巻数の照合",
+          "庫内担当の受領署名"
+        ],
+        "name": "本館低温庫への引き渡し"
+      },
+      "report": {
+        "checks": [
+          "温度履歴の添付",
+          "報告書の登録"
+        ],
+        "name": "移送報告書"
+      }
+    }
+  },
+  "reader_condition": "ok",
+  "receipt": 1,
+  "source": {
+    "as_of": "2026-10-14T16:00:00+09:00",
+    "case_id": "F2V9",
+    "draft": "庫内担当はまだ受領しておらず、報告書の登録も保留する。",
+    "records": [
+      {
+        "at": "2026-10-14T13:54:00+09:00",
+        "available_at": "2026-10-14T13:54:00+09:00",
+        "case_id": "F2V9",
+        "check": "庫内担当の受領署名",
+        "ref": "b2m1",
+        "result": "pending",
+        "revision": 5,
+        "scope": "operation",
+        "source": "direct",
+        "text": "冷却待機室に到着。受領票の署名欄は空欄。"
+      },
+      {
+        "at": "2026-10-14T14:58:00+09:00",
+        "available_at": "2026-10-14T14:58:00+09:00",
+        "case_id": "F2V9",
+        "check": "報告書の登録",
+        "ref": "b2m2",
+        "result": "met",
+        "revision": 5,
+        "scope": "report",
+        "source": "direct",
+        "text": "登録台帳に移送報告書の現行版が収載された。"
+      },
+      {
+        "at": "2026-10-14T14:05:00+09:00",
+        "available_at": "2026-10-14T14:05:00+09:00",
+        "case_id": "F2V9",
+        "check": "搬入巻数の照合",
+        "ref": "b2m3",
+        "result": "met",
+        "revision": 5,
+        "scope": "operation",
+        "source": "direct",
+        "text": "搬入時の現物照合で全4巻が揃った。"
+      },
+      {
+        "at": "2026-10-14T13:49:00+09:00",
+        "available_at": "2026-10-14T13:49:00+09:00",
+        "case_id": "F2V9",
+        "check": "温度履歴の添付",
+        "ref": "b2m4",
+        "result": "met",
+        "revision": 5,
+        "scope": "report",
+        "source": "direct",
+        "text": "担当者が校正済み温度計の記録を報告書に添付した。"
+      },
+      {
+        "at": "2026-10-14T14:31:00+09:00",
+        "available_at": "2026-10-14T14:31:00+09:00",
+        "case_id": "F2V9",
+        "check": "庫内担当の受領署名",
+        "ref": "b2m5",
+        "result": "met",
+        "revision": 5,
+        "scope": "operation",
+        "source": "direct",
+        "text": "庫内担当が受領票に署名し、保管棚「雪-12」を記した。"
+      },
+      {
+        "at": "2026-10-14T15:18:00+09:00",
+        "available_at": "2026-10-14T15:18:00+09:00",
+        "case_id": "F6H1",
+        "check": "搬入巻数の照合",
+        "ref": "b2m6",
+        "result": "pending",
+        "revision": 5,
+        "scope": "operation",
+        "source": "direct",
+        "text": "この便は第4巻が未着のため数量照合を保留。"
+      }
+    ],
+    "request": "分館から本館低温庫に戻す『岬の学校』の16mmプリントについて、移送報告書と庫内担当への引き渡しを判定してください。搬入した巻数と、庫内担当が受領票に記した保管棚を教えてください。",
+    "revision": 5,
+    "scopes": {
+      "operation": {
+        "checks": [
+          "搬入巻数の照合",
+          "庫内担当の受領署名"
+        ],
+        "name": "本館低温庫への引き渡し"
+      },
+      "report": {
+        "checks": [
+          "温度履歴の添付",
+          "報告書の登録"
+        ],
+        "name": "移送報告書"
+      }
+    }
+  },
+  "source_reads": [],
+  "timing_ns": {
+    "additional_including_ledger_open_close": 563071,
+    "baseline": 135916
+  }
+}
