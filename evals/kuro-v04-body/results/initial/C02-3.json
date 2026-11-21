@@ -1,0 +1,79 @@
+{
+  "body": "2026年8月3日16時時点で、本日の演目変更に関する会議記録の整備と演目表の差し替えは、どちらも完了しています。会議記録の作成者は進行係の池田で、作成者欄を当番表と照合しました。会議記録には、公演責任者の長尾が決裁者欄に署名した変更決裁書が添付されています。演目表を差し替えた場所は西玄関の掲示板です。旧版の撤去と改訂版の掲示を現地で確認しました。",
+  "case_id": "U3J9N",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236728236634889,
+    "cli_started_unix_ns": 1795236713305542581,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 14931,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "369a3a3bb09ad30e61fdc4107915d7acc34feedcdd25e009cbdf62b8d87cd08b",
+    "raw_file": "results/initial-raw/C02-3.txt",
+    "raw_sha256": "4a1e98c57eb4f721a2cecaface598b2f988d62d448fbe9a2b36ebd380a541a33",
+    "receiver_elapsed_ns": 272351,
+    "receiver_file": "results/paired/C02-3.json",
+    "receiver_finished_unix_ns": 1795236728240216345,
+    "receiver_sha256": "141062f8fe4b45ad24278c40d00ea2da048cf1b6bdec13d86cfe98318d5c1a81",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 18432,
+        "input_tokens": 21993,
+        "output_tokens": 321,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 22314
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 42880,
+        "input_tokens": 55169,
+        "output_tokens": 1276,
+        "reasoning_output_tokens": 356,
+        "total_tokens": 56445
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 3,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc71-bef2-7c61-89bc-94734bb51691",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 18432,
+      "input_tokens": 21993,
+      "output_tokens": 321,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 42880,
+      "input_tokens": 55169,
+      "output_tokens": 1276,
+      "reasoning_output_tokens": 356
+    },
+    "wire_error": null
+  },
+  "job_id": "C02",
+  "mode": "continuous",
+  "order": 3,
+  "unit_id": "C02-3"
+}

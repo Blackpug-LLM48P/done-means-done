@@ -1,0 +1,182 @@
+{
+  "cases": {
+    "J1658": {
+      "facts": [
+        "納品明細番号は明-562",
+        "先着分の荷受場到着時刻は15時28分"
+      ],
+      "operation": "open",
+      "report": "open"
+    },
+    "J3026": {
+      "facts": [
+        "障害受付番号は障-719",
+        "発券再開時刻は9時46分"
+      ],
+      "operation": "open",
+      "report": "complete"
+    },
+    "J7814": {
+      "facts": [
+        "案内番号は催-284",
+        "変更後の開演時刻は18時30分"
+      ],
+      "operation": "complete",
+      "report": "complete"
+    },
+    "J9460": {
+      "facts": [
+        "寄贈誌の受入冊数は18冊",
+        "見本の配架先は郷-06"
+      ],
+      "operation": "complete",
+      "report": "open"
+    },
+    "U3J9N": {
+      "facts": [
+        "会議記録を作成したのは池田。",
+        "演目表を差し替えた場所は西玄関。"
+      ],
+      "operation": "complete",
+      "report": "complete"
+    },
+    "U7PY4": {
+      "facts": [
+        "見本は印刷会社の窓口に持参した。",
+        "印刷会社で見本を受け取ったのは安西。"
+      ],
+      "operation": "complete",
+      "report": "open"
+    },
+    "UL58C": {
+      "facts": [
+        "受付が故障票を受け取った時刻は10時24分。",
+        "予備機の受取人は音響係の古賀。"
+      ],
+      "operation": "open",
+      "report": "complete"
+    },
+    "UT6S1": {
+      "facts": [
+        "楽譜を借りた相手は朝凪合唱団。",
+        "今回到着した楽譜は合計12部。"
+      ],
+      "operation": "open",
+      "report": "open"
+    }
+  },
+  "controls": {
+    "A1864": {
+      "bad_sentence_ids": [
+        3
+      ],
+      "case_id": "J1658",
+      "reason": "製本所が伝えたのは積載の可能性であり、便を確定したとの連絡は記録されていない。",
+      "unsupported_core": "載せることが決まった"
+    },
+    "A2948": {
+      "bad_sentence_ids": [],
+      "case_id": "J7814",
+      "reason": "委員会が発表した場所が公民館で、案内番号と時刻は報告欄と一致し、ポスターの掲出も現認済み。",
+      "unsupported_core": ""
+    },
+    "A4183": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "case_id": "J3026",
+      "reason": "ログから読み取れるのは再起動と発券再開の順序で、再起動の効果で復旧したという因果関係までは確認されていない。",
+      "unsupported_core": "再起動によって発券が再開"
+    },
+    "A5417": {
+      "bad_sentence_ids": [],
+      "case_id": "J9460",
+      "reason": "18冊の受入と署名待ちが記録され、カバーの現認範囲は見本の3冊。郷-06で配架後の現物も照合している。",
+      "unsupported_core": ""
+    },
+    "A6351": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "case_id": "J7814",
+      "reason": "公民館は発表場所であり、変更を発表した主体として原記録にあるのは朗読会実行委員会。",
+      "unsupported_core": "緑町公民館が変更を発表"
+    },
+    "A7692": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "case_id": "J9460",
+      "reason": "冊数を数えた対象は18冊だが、カバーが掛かっていると確認した対象は見本の3冊だけ。",
+      "unsupported_core": "全18冊で確認済み"
+    },
+    "A8079": {
+      "bad_sentence_ids": [],
+      "case_id": "J3026",
+      "reason": "受付番号と再開時刻の照合が済み、ログは再起動と再開の前後関係を示す。札は現場で残っているのを確認した。",
+      "unsupported_core": ""
+    },
+    "A9526": {
+      "bad_sentence_ids": [],
+      "case_id": "J1658",
+      "reason": "番号と到着時刻の記録があり、受領印も会場内での引き渡しも未了。製本所から届いたのは翌朝の便に載せられる可能性についての連絡。",
+      "unsupported_core": ""
+    },
+    "B5YKP": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "case_id": "U7PY4",
+      "reason": "安西は色校正に着手したいと前日に書いただけで、当日に立ち会った記録が確認したのは見本の受け渡しまで。",
+      "unsupported_core": "その場で色校正を始め"
+    },
+    "B6W2R": {
+      "bad_sentence_ids": [],
+      "case_id": "UL58C",
+      "reason": "故障票の受領印と機材室での立ち会いが、時刻と受取人をそれぞれ裏づける。故障報告の整理は完了し、予備機は試験待ち。",
+      "unsupported_core": ""
+    },
+    "B8D2F": {
+      "bad_sentence_ids": [
+        1
+      ],
+      "case_id": "U3J9N",
+      "reason": "池田は記録を作成した人で、決裁書に署名しているのは長尾。昨日の案を決裁の実績にはできない。",
+      "unsupported_core": "池田が演目変更を決裁"
+    },
+    "B9QC4": {
+      "bad_sentence_ids": [
+        2
+      ],
+      "case_id": "UT6S1",
+      "reason": "今回実際に数えたのは到着した楽譜の部数。12人は先月の利用人数で、今回の人数は記録から決められない。",
+      "unsupported_core": "今回使う団員も12人"
+    },
+    "BF3L8": {
+      "bad_sentence_ids": [],
+      "case_id": "UT6S1",
+      "reason": "貸出票と現物を数えた記録で団体名と到着部数が確認できる。返却日は空欄で、声部ごとの仕分けも残っている。",
+      "unsupported_core": ""
+    },
+    "BG4NV": {
+      "bad_sentence_ids": [],
+      "case_id": "U3J9N",
+      "reason": "作成者欄と西玄関での掲示確認が本文の二つの事実に対応し、双方の確認項目がそろっている。",
+      "unsupported_core": ""
+    },
+    "BJ19A": {
+      "bad_sentence_ids": [],
+      "case_id": "U7PY4",
+      "reason": "実際の持参と安西の署名を確認できる。引き渡しは完了し、提出報告には画像がまだ付いていない。",
+      "unsupported_core": ""
+    },
+    "BM7HX": {
+      "bad_sentence_ids": [
+        1
+      ],
+      "case_id": "UL58C",
+      "reason": "10時24分は故障票の受領時刻。機材が止まった時刻を確定する記録はない。",
+      "unsupported_core": "録音機の停止も同時刻"
+    }
+  }
+}

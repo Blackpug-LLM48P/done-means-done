@@ -1,0 +1,79 @@
+{
+  "body": "植物園入口の券売機は10月21日9時46分に発券を再開しました。障害受付番号は「障-719」です。受付番号は保守窓口の受付票と、発券再開時刻は券売機のログと照合済みです。休止札の番号は撤去指示票と一致しました。10時41分の現場確認では札はまだ掛かっており、当番による取り外し待ちです。",
+  "case_id": "J3026",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236693820504732,
+    "cli_started_unix_ns": 1795236675097980899,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 18723,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "61f082138e796d5fc31758512e636ce690fb5ff21767dba893f532d439776b2c",
+    "raw_file": "results/initial-raw/I02-1.txt",
+    "raw_sha256": "115c9e323691bf0e7d624e768a0f3207caa1b777672ceee28a0d7a343bd75e62",
+    "receiver_elapsed_ns": 263962,
+    "receiver_file": "results/paired/I02-1.json",
+    "receiver_finished_unix_ns": 1795236693822805920,
+    "receiver_sha256": "4d96f1b6d16d352dea6249cb06ce15ac202c390f31c05a53231a6810ffafbbaf",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14698,
+        "output_tokens": 617,
+        "reasoning_output_tokens": 335,
+        "total_tokens": 15315
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 14698,
+        "output_tokens": 617,
+        "reasoning_output_tokens": 335,
+        "total_tokens": 15315
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc71-bece-79b2-9492-3f2c4a539690",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14698,
+      "output_tokens": 617,
+      "reasoning_output_tokens": 335
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 14698,
+      "output_tokens": 617,
+      "reasoning_output_tokens": 335
+    },
+    "wire_error": null
+  },
+  "job_id": "I02",
+  "mode": "independent",
+  "order": 1,
+  "unit_id": "I02-1"
+}

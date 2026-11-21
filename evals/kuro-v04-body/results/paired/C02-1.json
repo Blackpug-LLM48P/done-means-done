@@ -1,0 +1,269 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '予備機の受け渡し確認': met per ['RK-658']",
+          "operation_state: '接続試験の完了確認': pending per ['RK-914']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '受領時刻の照合': met per ['RK-705']",
+          "report_state: '故障票の保管確認': met per ['RK-321']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '受領時刻の照合': met per ['RK-705']",
+          "report_state: '故障票の保管確認': met per ['RK-321']",
+          "operation_state: '予備機の受け渡し確認': met per ['RK-658']",
+          "operation_state: '接続試験の完了確認': pending per ['RK-914']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-08-11T16:00:00+09:00",
+    "case_id": "UL58C",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "2026年8月11日、録音機の故障票は10時24分に受付に届きました。受領印と受付ログの時刻が一致し、原本も当日の保管ファイルで確認できたため、故障報告の整理は完了しています。予備機は機材室で音響係の古賀が受け取りました。11時30分の設置台点検時には接続試験は未実施で、16時時点では試験の完了を確認できていません。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-11T16:00:00+09:00",
+        "evidence_refs": [
+          "RK-914"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'予備機の受け渡し確認': met per ['RK-658']",
+          "'接続試験の完了確認': pending per ['RK-914']"
+        ],
+        "revision": "r1",
+        "scope": "予備機の設置",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-08-11T16:00:00+09:00",
+        "evidence_refs": [
+          "RK-705",
+          "RK-321"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'受領時刻の照合': met per ['RK-705']",
+          "'故障票の保管確認': met per ['RK-321']"
+        ],
+        "revision": "r1",
+        "scope": "故障報告の整理",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "2026年8月11日、録音機の故障票は10時24分に受付に届きました。受領印と受付ログの時刻が一致し、原本も当日の保管ファイルで確認できたため、故障報告の整理は完了しています。予備機は機材室で音響係の古賀が受け取りました。11時30分の設置台点検時には接続試験は未実施で、16時時点では試験の完了を確認できていません。",
+    "revision": "r1"
+  },
+  "B1": {
+    "action_keys": {
+      "archive_report": "[\"UL58C\",\"r1\",[63922114800,\"\"],\"archive_report\",[\"故障報告の整理\"]]"
+    },
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '予備機の受け渡し確認': met per ['RK-658']",
+          "operation_state: '接続試験の完了確認': pending per ['RK-914']"
+        ]
+      },
+      "archive_report": {
+        "decision": "plan",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '受領時刻の照合': met per ['RK-705']",
+          "report_state: '故障票の保管確認': met per ['RK-321']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '受領時刻の照合': met per ['RK-705']",
+          "report_state: '故障票の保管確認': met per ['RK-321']",
+          "operation_state: '予備機の受け渡し確認': met per ['RK-658']",
+          "operation_state: '接続試験の完了確認': pending per ['RK-914']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-08-11T16:00:00+09:00",
+    "case_id": "UL58C",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "2026年8月11日、録音機の故障票は10時24分に受付に届きました。受領印と受付ログの時刻が一致し、原本も当日の保管ファイルで確認できたため、故障報告の整理は完了しています。予備機は機材室で音響係の古賀が受け取りました。11時30分の設置台点検時には接続試験は未実施で、16時時点では試験の完了を確認できていません。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-11T16:00:00+09:00",
+        "evidence_refs": [
+          "RK-914"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'予備機の受け渡し確認': met per ['RK-658']",
+          "'接続試験の完了確認': pending per ['RK-914']"
+        ],
+        "revision": "r1",
+        "scope": "予備機の設置",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-08-11T16:00:00+09:00",
+        "evidence_refs": [
+          "RK-705",
+          "RK-321"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'受領時刻の照合': met per ['RK-705']",
+          "'故障票の保管確認': met per ['RK-321']"
+        ],
+        "revision": "r1",
+        "scope": "故障報告の整理",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "handoff": "2026年8月11日、録音機の故障票は10時24分に受付に届きました。受領印と受付ログの時刻が一致し、原本も当日の保管ファイルで確認できたため、故障報告の整理は完了しています。予備機は機材室で音響係の古賀が受け取りました。11時30分の設置台点検時には接続試験は未実施で、16時時点では試験の完了を確認できていません。",
+    "newly_planned": [
+      "archive_report"
+    ],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "2026年8月11日、録音機の故障票は10時24分に受付に届きました。受領印と受付ログの時刻が一致し、原本も当日の保管ファイルで確認できたため、故障報告の整理は完了しています。予備機は機材室で音響係の古賀が受け取りました。11時30分の設置台点検時には接続試験は未実施で、16時時点では試験の完了を確認できていません。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-11T16:00:00+09:00",
+        "evidence_refs": [
+          "RK-914"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'予備機の受け渡し確認': met per ['RK-658']",
+          "'接続試験の完了確認': pending per ['RK-914']"
+        ],
+        "revision": "r1",
+        "scope": "予備機の設置",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-08-11T16:00:00+09:00",
+        "evidence_refs": [
+          "RK-705",
+          "RK-321"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'受領時刻の照合': met per ['RK-705']",
+          "'故障票の保管確認': met per ['RK-321']"
+        ],
+        "revision": "r1",
+        "scope": "故障報告の整理",
+        "valid": true,
+        "value": "complete"
+      }
+    },
+    "original_response": {
+      "handoff": "2026年8月11日、録音機の故障票は10時24分に受付に届きました。受領印と受付ログの時刻が一致し、原本も当日の保管ファイルで確認できたため、故障報告の整理は完了しています。予備機は機材室で音響係の古賀が受け取りました。11時30分の設置台点検時には接続試験は未実施で、16時時点では試験の完了を確認できていません。",
+      "operation_state": {
+        "as_of": "2026-08-11T16:00:00+09:00",
+        "evidence_refs": [
+          "RK-914"
+        ],
+        "revision": "r1",
+        "scope": "予備機の設置",
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-08-11T16:00:00+09:00",
+        "evidence_refs": [
+          "RK-705",
+          "RK-321"
+        ],
+        "revision": "r1",
+        "scope": "故障報告の整理",
+        "value": "complete"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": "r1"
+  }
+}

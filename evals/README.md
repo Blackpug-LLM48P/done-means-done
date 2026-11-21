@@ -35,6 +35,8 @@ The [caller and receiver dry run](kuro-v04-receiver/README.md) compares a single
 
 The [same-cutoff reconciliation study](kuro-v04-reconcile/README.md) sends each fixed response through both receivers. It measures when a held operation returns to the dry-run plan, including the two M3V7 regressions, and when a repeated delivery produces zero new plans.
 
+The [Japanese handoff body review study](kuro-v04-body/README.md) tests whether a second reader can locate and repair unsupported claims. It includes the original and proposed text, two blind votes per distinct text, and the one disagreement with the preregistered key.
+
 ## Fixtures
 
 | Fixture | Record | Keys | What it tests |

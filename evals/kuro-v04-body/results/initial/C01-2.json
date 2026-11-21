@@ -1,0 +1,79 @@
+{
+  "body": "11月6日17時時点で、講演会の配布冊子の先着分は、荷受記録によると15時28分に荷受場に到着しました。製本所の納品明細と報告欄の番号は「明-562」で一致しています。先着分の受領控えは未押印のため、納品報告は未完了です。先着分を積んだ台車の札は搬入証と照合済みです。16時39分の確認時には台車は会場の手前で待機しており、会場内での引き渡しは未完了です。",
+  "case_id": "J1658",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236753707082666,
+    "cli_started_unix_ns": 1795236736354787669,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 17352,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "0985c1e2c3a6bfde4fe080517ad44251250df54229d7580b0696ab1b06927503",
+    "raw_file": "results/initial-raw/C01-2.txt",
+    "raw_sha256": "50770d5748b762222991b10cad1eb82d2d12a4df39d7ae12c4318cf60a9615dd",
+    "receiver_elapsed_ns": 456735,
+    "receiver_file": "results/paired/C01-2.json",
+    "receiver_finished_unix_ns": 1795236753709714016,
+    "receiver_sha256": "e216b5abdd3ca4a05ebb10a22a8a20744d8f0e6bed6913b5e581a85fde22c65a",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14592,
+        "input_tokens": 18425,
+        "output_tokens": 317,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 18742
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 17920,
+        "input_tokens": 33150,
+        "output_tokens": 660,
+        "reasoning_output_tokens": 44,
+        "total_tokens": 33810
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 2,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc72-6a96-76e1-87df-c7b0471473f3",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14592,
+      "input_tokens": 18425,
+      "output_tokens": 317,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 17920,
+      "input_tokens": 33150,
+      "output_tokens": 660,
+      "reasoning_output_tokens": 44
+    },
+    "wire_error": null
+  },
+  "job_id": "C01",
+  "mode": "continuous",
+  "order": 2,
+  "unit_id": "C01-2"
+}

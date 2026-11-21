@@ -1,0 +1,124 @@
+{
+  "body": "障害受付番号は障-719で、発券再開時刻は9時46分です。再起動によって発券が再開したことをログで確認しています。復旧報告の照合は完了し、入口の券売機にはまだ休止札が掛かっています。",
+  "case_id": "J3026",
+  "category": "control",
+  "initial": null,
+  "job_id": "A4183",
+  "mode": "fixed",
+  "order": 1,
+  "review": {
+    "apply_elapsed_ns": 282739,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236872304479457,
+    "cli_started_unix_ns": 1795236860435962229,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 11869,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236872307703432,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "6166e0392d8c34073044d33b6c6992a60ff639f42ee8740d019d5afba4277851",
+    "prompt_sha256": "c8058ddc2fc47028861348ca27f80f9d2f19a26aab87a203209d8f0ccd07942f",
+    "raw_file": "results/review-raw/A4183.txt",
+    "raw_sha256": "db5bb3dfe2e8e8582de9aacbbf3d7a3323b4258c9c194de12121718a9203c734",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13393,
+        "output_tokens": 157,
+        "reasoning_output_tokens": 42,
+        "total_tokens": 13550
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13393,
+        "output_tokens": 157,
+        "reasoning_output_tokens": 42,
+        "total_tokens": 13550
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc74-92a7-7673-8111-e505ec0ab649",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13393,
+      "output_tokens": 157,
+      "reasoning_output_tokens": 42
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13393,
+      "output_tokens": 157,
+      "reasoning_output_tokens": 42
+    }
+  },
+  "source_sha256": "3dd73453588a5e02050ef3e4b52e9be18a554858d31fb8dd7f59fbbbc7c8f1eb",
+  "trace": {
+    "as_of": "2026-10-21T11:00:00+09:00",
+    "case_id": "J3026",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "NH-254"
+        ],
+        "end": 36,
+        "quote": "再起動によって",
+        "reason": "ログで確認できるのは再起動と発券再開の時刻と順序までで、再起動が発券再開の原因だったとは確認できません。",
+        "replacement": "9時41分の再起動後、9時46分に",
+        "sentence_id": 2,
+        "start": 29
+      }
+    ],
+    "original_body": "障害受付番号は障-719で、発券再開時刻は9時46分です。再起動によって発券が再開したことをログで確認しています。復旧報告の照合は完了し、入口の券売機にはまだ休止札が掛かっています。",
+    "packet_sha256": "6166e0392d8c34073044d33b6c6992a60ff639f42ee8740d019d5afba4277851",
+    "proposed_body": "障害受付番号は障-719で、発券再開時刻は9時46分です。9時41分の再起動後、9時46分に発券が再開したことをログで確認しています。復旧報告の照合は完了し、入口の券売機にはまだ休止札が掛かっています。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"再起動によって\",\n      \"reason\": \"ログで確認できるのは再起動と発券再開の時刻と順序までで、再起動が発券再開の原因だったとは確認できません。\",\n      \"checked_refs\": [\"NH-254\"],\n      \"replacement\": \"9時41分の再起動後、9時46分に\"\n    }\n  ]\n}",
+    "revision": "r4",
+    "sentences": [
+      {
+        "end": 29,
+        "id": 1,
+        "start": 0,
+        "text": "障害受付番号は障-719で、発券再開時刻は9時46分です。"
+      },
+      {
+        "end": 57,
+        "id": 2,
+        "start": 29,
+        "text": "再起動によって発券が再開したことをログで確認しています。"
+      },
+      {
+        "end": 91,
+        "id": 3,
+        "start": 57,
+        "text": "復旧報告の照合は完了し、入口の券売機にはまだ休止札が掛かっています。"
+      }
+    ],
+    "source_sha256": "3e6798f5ad8855f8dded9cab5fea403306f98b3d16aa4821487a4e12b39f95b4",
+    "status": "flagged"
+  },
+  "unit_id": "A4183"
+}

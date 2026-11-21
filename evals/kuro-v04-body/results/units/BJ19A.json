@@ -1,0 +1,118 @@
+{
+  "body": "見本は印刷会社の窓口に持ち込みました。見本を受け取ったのは安西です。見本の引き渡しは完了しています。提出報告には受領票の画像を添付する作業が残っています。",
+  "case_id": "U7PY4",
+  "category": "control",
+  "initial": null,
+  "job_id": "BJ19A",
+  "mode": "fixed",
+  "order": 1,
+  "review": {
+    "apply_elapsed_ns": 268163,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236884333531872,
+    "cli_started_unix_ns": 1795236878469624806,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 5864,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236884342639983,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "f6b56f2ade1a5a176ce242489b5bd5b32796d095b8bfe20c88671130a81200f8",
+    "prompt_sha256": "7465870fa3360b157b5036f23dcac95c52eacac72ce68286da714583f13a9a9c",
+    "raw_file": "results/review-raw/BJ19A.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13380,
+        "output_tokens": 21,
+        "reasoning_output_tokens": 10,
+        "total_tokens": 13401
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13380,
+        "output_tokens": 21,
+        "reasoning_output_tokens": 10,
+        "total_tokens": 13401
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc74-d913-7500-8423-7bc2194679c4",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13380,
+      "output_tokens": 21,
+      "reasoning_output_tokens": 10
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13380,
+      "output_tokens": 21,
+      "reasoning_output_tokens": 10
+    }
+  },
+  "source_sha256": "f364516ea19b60e34143d2ed00fce1f7f83508ae7f9408f4a87e153ff249ba88",
+  "trace": {
+    "as_of": "2026-08-19T16:00:00+09:00",
+    "case_id": "U7PY4",
+    "errors": [],
+    "findings": [],
+    "original_body": "見本は印刷会社の窓口に持ち込みました。見本を受け取ったのは安西です。見本の引き渡しは完了しています。提出報告には受領票の画像を添付する作業が残っています。",
+    "packet_sha256": "f6b56f2ade1a5a176ce242489b5bd5b32796d095b8bfe20c88671130a81200f8",
+    "proposed_body": "見本は印刷会社の窓口に持ち込みました。見本を受け取ったのは安西です。見本の引き渡しは完了しています。提出報告には受領票の画像を添付する作業が残っています。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "r3",
+    "sentences": [
+      {
+        "end": 19,
+        "id": 1,
+        "start": 0,
+        "text": "見本は印刷会社の窓口に持ち込みました。"
+      },
+      {
+        "end": 34,
+        "id": 2,
+        "start": 19,
+        "text": "見本を受け取ったのは安西です。"
+      },
+      {
+        "end": 50,
+        "id": 3,
+        "start": 34,
+        "text": "見本の引き渡しは完了しています。"
+      },
+      {
+        "end": 77,
+        "id": 4,
+        "start": 50,
+        "text": "提出報告には受領票の画像を添付する作業が残っています。"
+      }
+    ],
+    "source_sha256": "871088df114a20bfa39dd711587e1e8270e6fc4242165fecfc98b4a04b5e207e",
+    "status": "clear"
+  },
+  "unit_id": "BJ19A"
+}

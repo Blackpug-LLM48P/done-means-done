@@ -1,0 +1,79 @@
+{
+  "body": "8月3日16時時点で、会議記録の整備と演目表の差し替えは完了しています。会議記録の作成者は進行係の池田で、作成者欄を当番表と照合済みです。会議記録には、決裁者である公演責任者の長尾が署名した変更決裁書が添付されています。演目表の差し替え場所は西玄関の掲示板で、旧版の撤去と改訂版の掲示を現地で確認済みです。",
+  "case_id": "U3J9N",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236693848874550,
+    "cli_started_unix_ns": 1795236675104228438,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 18745,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "369a3a3bb09ad30e61fdc4107915d7acc34feedcdd25e009cbdf62b8d87cd08b",
+    "raw_file": "results/initial-raw/I08-1.txt",
+    "raw_sha256": "6209d2aa69918752bfdabfbb6b7036308ad6df345899df79c6758b6ff43d4bec",
+    "receiver_elapsed_ns": 239249,
+    "receiver_file": "results/paired/I08-1.json",
+    "receiver_finished_unix_ns": 1795236693851796715,
+    "receiver_sha256": "62b09f1f46cc9eaad85dc05138a5e60882e147597af13c624e5703d3eb0f2df1",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 14719,
+        "output_tokens": 482,
+        "reasoning_output_tokens": 170,
+        "total_tokens": 15201
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 14719,
+        "output_tokens": 482,
+        "reasoning_output_tokens": 170,
+        "total_tokens": 15201
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc71-bec9-7df0-9382-18aabcafd6e8",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 14719,
+      "output_tokens": 482,
+      "reasoning_output_tokens": 170
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 14719,
+      "output_tokens": 482,
+      "reasoning_output_tokens": 170
+    },
+    "wire_error": null
+  },
+  "job_id": "I08",
+  "mode": "independent",
+  "order": 1,
+  "unit_id": "I08-1"
+}

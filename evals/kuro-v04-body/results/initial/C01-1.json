@@ -1,0 +1,79 @@
+{
+  "body": "8月26日16時時点で、寄贈誌は18冊すべてを数え、受入報告の冊数と一致することを確認しました。寄贈申込書の署名欄は空欄で、受入報告は署名済みの申込書を待っている段階です。閲覧用見本は配架済みです。指定された3冊の号数を指定票と照合し、配架後に指定棚「郷-06」の棚札と3冊の現物を確認しました。",
+  "case_id": "J9460",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236736350614636,
+    "cli_started_unix_ns": 1795236719126628051,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 17224,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "66788d13ccc2158f4c40e2079f2420da20a56f7e88a28915c96559fe28ec1ef6",
+    "raw_file": "results/initial-raw/C01-1.txt",
+    "raw_sha256": "1ad4e63e1c0d9efc6f196153e1a0be0012c5d75f6e007a2c74ceecb0739eefaa",
+    "receiver_elapsed_ns": 203754,
+    "receiver_file": "results/paired/C01-1.json",
+    "receiver_finished_unix_ns": 1795236736353423991,
+    "receiver_sha256": "9573d1a8715bdbbcca682ed8f04dfbb6309f300d187a9a05c946ee5093ce0316",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14725,
+        "output_tokens": 343,
+        "reasoning_output_tokens": 44,
+        "total_tokens": 15068
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 14725,
+        "output_tokens": 343,
+        "reasoning_output_tokens": 44,
+        "total_tokens": 15068
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc72-6a96-76e1-87df-c7b0471473f3",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14725,
+      "output_tokens": 343,
+      "reasoning_output_tokens": 44
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 14725,
+      "output_tokens": 343,
+      "reasoning_output_tokens": 44
+    },
+    "wire_error": null
+  },
+  "job_id": "C01",
+  "mode": "continuous",
+  "order": 1,
+  "unit_id": "C01-1"
+}

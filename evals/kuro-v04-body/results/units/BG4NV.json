@@ -1,0 +1,112 @@
+{
+  "body": "会議記録を作成したのは池田です。演目表を差し替えたのは西玄関です。会議記録の整備と演目表の差し替えはどちらも完了しています。",
+  "case_id": "U3J9N",
+  "category": "control",
+  "initial": null,
+  "job_id": "BG4NV",
+  "mode": "fixed",
+  "order": 1,
+  "review": {
+    "apply_elapsed_ns": 243254,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236842892064961,
+    "cli_started_unix_ns": 1795236833301200833,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 9591,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236842894920819,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "23365a52552f4b55513849435795c7a77e9c5fbef10abd65be20da8afa0a2054",
+    "prompt_sha256": "6eee5c1414df64bd4d82c17fb5894070f8ceb463e036daf13ac3678631b827a2",
+    "raw_file": "results/review-raw/BG4NV.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13379,
+        "output_tokens": 30,
+        "reasoning_output_tokens": 19,
+        "total_tokens": 13409
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13379,
+        "output_tokens": 30,
+        "reasoning_output_tokens": 19,
+        "total_tokens": 13409
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc74-28c2-7bf3-baec-193277764dbe",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13379,
+      "output_tokens": 30,
+      "reasoning_output_tokens": 19
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13379,
+      "output_tokens": 30,
+      "reasoning_output_tokens": 19
+    }
+  },
+  "source_sha256": "ea4272994b662b685a2d83b444b2ceb5d52e98d9ebe378c0c0b253012e093d51",
+  "trace": {
+    "as_of": "2026-08-03T16:00:00+09:00",
+    "case_id": "U3J9N",
+    "errors": [],
+    "findings": [],
+    "original_body": "会議記録を作成したのは池田です。演目表を差し替えたのは西玄関です。会議記録の整備と演目表の差し替えはどちらも完了しています。",
+    "packet_sha256": "23365a52552f4b55513849435795c7a77e9c5fbef10abd65be20da8afa0a2054",
+    "proposed_body": "会議記録を作成したのは池田です。演目表を差し替えたのは西玄関です。会議記録の整備と演目表の差し替えはどちらも完了しています。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "r2",
+    "sentences": [
+      {
+        "end": 16,
+        "id": 1,
+        "start": 0,
+        "text": "会議記録を作成したのは池田です。"
+      },
+      {
+        "end": 33,
+        "id": 2,
+        "start": 16,
+        "text": "演目表を差し替えたのは西玄関です。"
+      },
+      {
+        "end": 62,
+        "id": 3,
+        "start": 33,
+        "text": "会議記録の整備と演目表の差し替えはどちらも完了しています。"
+      }
+    ],
+    "source_sha256": "97d5d439ea27ee3307e1c73e635a9797c28609190d77dc0d289a40cb184668f3",
+    "status": "clear"
+  },
+  "unit_id": "BG4NV"
+}

@@ -1,0 +1,193 @@
+{
+  "body": "2026年8月27日16時時点で、合同練習用の楽譜は朝凪合唱団から借りたもので、今回届いたのは合計12部です。貸出票と借入記録で貸出元が一致しています。10時13分の確認時には借入記録の返却日欄が空欄で、登録は未確認です。届いた12部は現物を数えて確認しました。11時09分の確認時には声部別の仕分けが残っており、楽譜の受け入れは未完了です。",
+  "case_id": "UT6S1",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236742033543329,
+    "cli_started_unix_ns": 1795236728241338669,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 13792,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "5877a8c4fd8b0e37dd41a893ee29c28d6f7df0855d572dd78058005e920a22da",
+    "raw_file": "results/initial-raw/C02-4.txt",
+    "raw_sha256": "2f2c44b0af5e46214c91624efe8685e3e16eb29f7cb191dc35e7ea6e896ad62a",
+    "receiver_elapsed_ns": 228390,
+    "receiver_file": "results/paired/C02-4.json",
+    "receiver_finished_unix_ns": 1795236742036969539,
+    "receiver_sha256": "e3e3983841158776550c6c2d98392a015f222c05cc5d827d39589557687e4ba6",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 21888,
+        "input_tokens": 25501,
+        "output_tokens": 303,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 25804
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 64768,
+        "input_tokens": 80670,
+        "output_tokens": 1579,
+        "reasoning_output_tokens": 356,
+        "total_tokens": 82249
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 4,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc71-bef2-7c61-89bc-94734bb51691",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 21888,
+      "input_tokens": 25501,
+      "output_tokens": 303,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 64768,
+      "input_tokens": 80670,
+      "output_tokens": 1579,
+      "reasoning_output_tokens": 356
+    },
+    "wire_error": null
+  },
+  "job_id": "C02",
+  "mode": "continuous",
+  "order": 4,
+  "review": {
+    "apply_elapsed_ns": 303746,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236813603815824,
+    "cli_started_unix_ns": 1795236789852557830,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 23751,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236813606863207,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "19ea15de15d3df8b63e1eb5518fac8fea46a906c8ecdcdff75c621971d454675",
+    "prompt_sha256": "0874975c5a9264e8de89582485ff47c236016f280614edee23ad52508b76eab7",
+    "raw_file": "results/review-raw/C02-4.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 13568,
+        "input_tokens": 13604,
+        "output_tokens": 319,
+        "reasoning_output_tokens": 308,
+        "total_tokens": 13923
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 13568,
+        "input_tokens": 13604,
+        "output_tokens": 319,
+        "reasoning_output_tokens": 308,
+        "total_tokens": 13923
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc73-7f00-7b23-af98-18342f73dc86",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 13568,
+      "input_tokens": 13604,
+      "output_tokens": 319,
+      "reasoning_output_tokens": 308
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 13568,
+      "input_tokens": 13604,
+      "output_tokens": 319,
+      "reasoning_output_tokens": 308
+    }
+  },
+  "source_sha256": "f5147b4073b6500b769c00363a95a8dbf9397740965a32873c4fd27fc4d42b6e",
+  "trace": {
+    "as_of": "2026-08-27T16:00:00+09:00",
+    "case_id": "UT6S1",
+    "errors": [],
+    "findings": [],
+    "original_body": "2026年8月27日16時時点で、合同練習用の楽譜は朝凪合唱団から借りたもので、今回届いたのは合計12部です。貸出票と借入記録で貸出元が一致しています。10時13分の確認時には借入記録の返却日欄が空欄で、登録は未確認です。届いた12部は現物を数えて確認しました。11時09分の確認時には声部別の仕分けが残っており、楽譜の受け入れは未完了です。",
+    "packet_sha256": "19ea15de15d3df8b63e1eb5518fac8fea46a906c8ecdcdff75c621971d454675",
+    "proposed_body": "2026年8月27日16時時点で、合同練習用の楽譜は朝凪合唱団から借りたもので、今回届いたのは合計12部です。貸出票と借入記録で貸出元が一致しています。10時13分の確認時には借入記録の返却日欄が空欄で、登録は未確認です。届いた12部は現物を数えて確認しました。11時09分の確認時には声部別の仕分けが残っており、楽譜の受け入れは未完了です。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "r2",
+    "sentences": [
+      {
+        "end": 55,
+        "id": 1,
+        "start": 0,
+        "text": "2026年8月27日16時時点で、合同練習用の楽譜は朝凪合唱団から借りたもので、今回届いたのは合計12部です。"
+      },
+      {
+        "end": 76,
+        "id": 2,
+        "start": 55,
+        "text": "貸出票と借入記録で貸出元が一致しています。"
+      },
+      {
+        "end": 111,
+        "id": 3,
+        "start": 76,
+        "text": "10時13分の確認時には借入記録の返却日欄が空欄で、登録は未確認です。"
+      },
+      {
+        "end": 131,
+        "id": 4,
+        "start": 111,
+        "text": "届いた12部は現物を数えて確認しました。"
+      },
+      {
+        "end": 171,
+        "id": 5,
+        "start": 131,
+        "text": "11時09分の確認時には声部別の仕分けが残っており、楽譜の受け入れは未完了です。"
+      }
+    ],
+    "source_sha256": "7c3a31337d60e1b05e7458e61b3c8fe9300d949dcda5ac46929a91a8a1c137b9",
+    "status": "clear"
+  },
+  "unit_id": "C02-4"
+}

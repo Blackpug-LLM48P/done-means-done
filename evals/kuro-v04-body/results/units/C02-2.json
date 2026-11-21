@@ -1,0 +1,199 @@
+{
+  "body": "2026年8月19日16時時点で、印刷見本の引き渡しは完了しています。見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。その場で安西さんの署名入り受領票を受け取りました。提出報告は未完了です。報告書の提出日欄は受領票の日付と一致しています。12時38分に添付欄を確認した時点では受領票の画像は未添付で、16時までに添付の完了は確認できていません。",
+  "case_id": "U7PY4",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236713302665733,
+    "cli_started_unix_ns": 1795236700725814190,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 12577,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "468e1ba766e23de83b98e2bcb95787bec677c176f04e9eb1015ec269facb4d2a",
+    "raw_file": "results/initial-raw/C02-2.txt",
+    "raw_sha256": "a9ff7604f717f3e08b920c0bb1bae926f2207131f37b01c0eae0d47e56bdfcdb",
+    "receiver_elapsed_ns": 255018,
+    "receiver_file": "results/paired/C02-2.json",
+    "receiver_finished_unix_ns": 1795236713304909091,
+    "receiver_sha256": "c2bd22f2d5d31f1d7d79df099b79cb0ccdf6e69073f8a2de2306679dad5e2dfc",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 14592,
+        "input_tokens": 18490,
+        "output_tokens": 308,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 18798
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 24448,
+        "input_tokens": 33176,
+        "output_tokens": 955,
+        "reasoning_output_tokens": 356,
+        "total_tokens": 34131
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 2,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc71-bef2-7c61-89bc-94734bb51691",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 14592,
+      "input_tokens": 18490,
+      "output_tokens": 308,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 24448,
+      "input_tokens": 33176,
+      "output_tokens": 955,
+      "reasoning_output_tokens": 356
+    },
+    "wire_error": null
+  },
+  "job_id": "C02",
+  "mode": "continuous",
+  "order": 2,
+  "review": {
+    "apply_elapsed_ns": 1020487,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236818072486308,
+    "cli_started_unix_ns": 1795236789851155206,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 28221,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236818077854592,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "7a90905b876950a13ce890b21a67de3557bac2e19a35801a391ff90f60c6d3fd",
+    "prompt_sha256": "b76182e2356a2b4d5624e10e03d6561f12c005c5bbc2b05719603e00b0bf6524",
+    "raw_file": "results/review-raw/C02-2.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13599,
+        "output_tokens": 911,
+        "reasoning_output_tokens": 900,
+        "total_tokens": 14510
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13599,
+        "output_tokens": 911,
+        "reasoning_output_tokens": 900,
+        "total_tokens": 14510
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc73-7ef7-7e33-a4b0-4ec9d556a1eb",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13599,
+      "output_tokens": 911,
+      "reasoning_output_tokens": 900
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13599,
+      "output_tokens": 911,
+      "reasoning_output_tokens": 900
+    }
+  },
+  "source_sha256": "f364516ea19b60e34143d2ed00fce1f7f83508ae7f9408f4a87e153ff249ba88",
+  "trace": {
+    "as_of": "2026-08-19T16:00:00+09:00",
+    "case_id": "U7PY4",
+    "errors": [],
+    "findings": [],
+    "original_body": "2026年8月19日16時時点で、印刷見本の引き渡しは完了しています。見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。その場で安西さんの署名入り受領票を受け取りました。提出報告は未完了です。報告書の提出日欄は受領票の日付と一致しています。12時38分に添付欄を確認した時点では受領票の画像は未添付で、16時までに添付の完了は確認できていません。",
+    "packet_sha256": "7a90905b876950a13ce890b21a67de3557bac2e19a35801a391ff90f60c6d3fd",
+    "proposed_body": "2026年8月19日16時時点で、印刷見本の引き渡しは完了しています。見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。その場で安西さんの署名入り受領票を受け取りました。提出報告は未完了です。報告書の提出日欄は受領票の日付と一致しています。12時38分に添付欄を確認した時点では受領票の画像は未添付で、16時までに添付の完了は確認できていません。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "r3",
+    "sentences": [
+      {
+        "end": 35,
+        "id": 1,
+        "start": 0,
+        "text": "2026年8月19日16時時点で、印刷見本の引き渡しは完了しています。"
+      },
+      {
+        "end": 64,
+        "id": 2,
+        "start": 35,
+        "text": "見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。"
+      },
+      {
+        "end": 89,
+        "id": 3,
+        "start": 64,
+        "text": "その場で安西さんの署名入り受領票を受け取りました。"
+      },
+      {
+        "end": 100,
+        "id": 4,
+        "start": 89,
+        "text": "提出報告は未完了です。"
+      },
+      {
+        "end": 124,
+        "id": 5,
+        "start": 100,
+        "text": "報告書の提出日欄は受領票の日付と一致しています。"
+      },
+      {
+        "end": 177,
+        "id": 6,
+        "start": 124,
+        "text": "12時38分に添付欄を確認した時点では受領票の画像は未添付で、16時までに添付の完了は確認できていません。"
+      }
+    ],
+    "source_sha256": "871088df114a20bfa39dd711587e1e8270e6fc4242165fecfc98b4a04b5e207e",
+    "status": "clear"
+  },
+  "unit_id": "C02-2"
+}

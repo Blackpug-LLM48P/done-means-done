@@ -1,0 +1,118 @@
+{
+  "body": "楽譜の借入先は朝凪合唱団です。今回届いた楽譜は全部で12部です。借入記録には返却日の入力が残っています。受け入れ作業では声部ごとの仕分けを待っています。",
+  "case_id": "UT6S1",
+  "category": "control",
+  "initial": null,
+  "job_id": "BF3L8",
+  "mode": "fixed",
+  "order": 1,
+  "review": {
+    "apply_elapsed_ns": 559531,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236884328678067,
+    "cli_started_unix_ns": 1795236878411088073,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 5918,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236884332123889,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "53d5d0e7b7649e74cabb8ce1f5649fa7d4522894210c3e86e2d4eefe367cd293",
+    "prompt_sha256": "671e224512493c65d62c103c049288167c9f8d358ef6d2e137b0296f44a8e33c",
+    "raw_file": "results/review-raw/BF3L8.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13413,
+        "output_tokens": 22,
+        "reasoning_output_tokens": 11,
+        "total_tokens": 13435
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13413,
+        "output_tokens": 22,
+        "reasoning_output_tokens": 11,
+        "total_tokens": 13435
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc74-d8ce-7540-80e7-8f95d7e042d8",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13413,
+      "output_tokens": 22,
+      "reasoning_output_tokens": 11
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13413,
+      "output_tokens": 22,
+      "reasoning_output_tokens": 11
+    }
+  },
+  "source_sha256": "f5147b4073b6500b769c00363a95a8dbf9397740965a32873c4fd27fc4d42b6e",
+  "trace": {
+    "as_of": "2026-08-27T16:00:00+09:00",
+    "case_id": "UT6S1",
+    "errors": [],
+    "findings": [],
+    "original_body": "楽譜の借入先は朝凪合唱団です。今回届いた楽譜は全部で12部です。借入記録には返却日の入力が残っています。受け入れ作業では声部ごとの仕分けを待っています。",
+    "packet_sha256": "53d5d0e7b7649e74cabb8ce1f5649fa7d4522894210c3e86e2d4eefe367cd293",
+    "proposed_body": "楽譜の借入先は朝凪合唱団です。今回届いた楽譜は全部で12部です。借入記録には返却日の入力が残っています。受け入れ作業では声部ごとの仕分けを待っています。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "r2",
+    "sentences": [
+      {
+        "end": 15,
+        "id": 1,
+        "start": 0,
+        "text": "楽譜の借入先は朝凪合唱団です。"
+      },
+      {
+        "end": 32,
+        "id": 2,
+        "start": 15,
+        "text": "今回届いた楽譜は全部で12部です。"
+      },
+      {
+        "end": 52,
+        "id": 3,
+        "start": 32,
+        "text": "借入記録には返却日の入力が残っています。"
+      },
+      {
+        "end": 76,
+        "id": 4,
+        "start": 52,
+        "text": "受け入れ作業では声部ごとの仕分けを待っています。"
+      }
+    ],
+    "source_sha256": "7c3a31337d60e1b05e7458e61b3c8fe9300d949dcda5ac46929a91a8a1c137b9",
+    "status": "clear"
+  },
+  "unit_id": "BF3L8"
+}

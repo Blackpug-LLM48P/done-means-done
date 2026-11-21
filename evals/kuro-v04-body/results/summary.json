@@ -1,0 +1,913 @@
+{
+  "decisions": {
+    "candidate_quality": "fail",
+    "detection": "hold",
+    "unattended_correction": "hold"
+  },
+  "failures": {
+    "correction": [
+      "A2948"
+    ],
+    "detection": [
+      "A2948"
+    ]
+  },
+  "groups": {
+    "continuous": {
+      "accepted_findings": 0,
+      "accepted_with_nonempty_checked_refs": 0,
+      "bad_bodies_repaired": 0,
+      "bad_originals": 0,
+      "candidate_issue_origins": {},
+      "changed_bodies": 0,
+      "changed_bodies_meeting_correction_gate": 0,
+      "clean_bodies_changed": 0,
+      "clean_originals": 8,
+      "control_key_differs_from_blind_original": 0,
+      "correction_result_pass": true,
+      "cost": {
+        "billing_amount": null,
+        "initial": {
+          "calls": 8,
+          "elapsed_ms": {
+            "max": 25623,
+            "median": 16077.5,
+            "min": 12577,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 137566
+          },
+          "sessions": 2,
+          "tokens": {
+            "cache_write_input_tokens": {
+              "max": 0,
+              "median": 0.0,
+              "min": 0,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 0
+            },
+            "cached_input_tokens": {
+              "max": 21888,
+              "median": 16448.0,
+              "min": 3328,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 122880
+            },
+            "input_tokens": {
+              "max": 25501,
+              "median": 20198.5,
+              "min": 14686,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 161112
+            },
+            "output_tokens": {
+              "max": 647,
+              "median": 312.5,
+              "min": 288,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 2831
+            },
+            "reasoning_output_tokens": {
+              "max": 356,
+              "median": 0.0,
+              "min": 0,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 400
+            },
+            "total_tokens": {
+              "max": 25804,
+              "median": 20504.5,
+              "min": 15068,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 163943
+            }
+          },
+          "wall_ms": 114681.495441
+        },
+        "local_validation_ns": {
+          "max": 1020487,
+          "median": 301563.5,
+          "min": 217144,
+          "missing_turns": 0,
+          "observed_turns": 8,
+          "sum": 3145631
+        },
+        "review": {
+          "calls": 8,
+          "elapsed_ms": {
+            "max": 28221,
+            "median": 10017.5,
+            "min": 4961,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 106535
+          },
+          "sessions": 8,
+          "tokens": {
+            "cache_write_input_tokens": {
+              "max": 0,
+              "median": 0.0,
+              "min": 0,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 0
+            },
+            "cached_input_tokens": {
+              "max": 13568,
+              "median": 9856.0,
+              "min": 0,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 72704
+            },
+            "input_tokens": {
+              "max": 13801,
+              "median": 13579.0,
+              "min": 13512,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 108779
+            },
+            "output_tokens": {
+              "max": 911,
+              "median": 56.0,
+              "min": 22,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 1626
+            },
+            "reasoning_output_tokens": {
+              "max": 900,
+              "median": 45.0,
+              "min": 11,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 1538
+            },
+            "total_tokens": {
+              "max": 14510,
+              "median": 13632.0,
+              "min": 13549,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 110405
+            }
+          },
+          "wall_ms": 43402.102904
+        }
+      },
+      "detection_pass": true,
+      "diagnostic_core": {
+        "designated": 0,
+        "overlapping": 0
+      },
+      "invalid_reviews": 0,
+      "pass_through_unreviewed_baseline": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 37,
+        "tp": 0
+      },
+      "precision": {
+        "correct": 0,
+        "flagged": 0
+      },
+      "recall": {
+        "detected": 0,
+        "expected": 0
+      },
+      "required_facts": {
+        "candidate": 16,
+        "lost_from_correct": 0,
+        "original": 16,
+        "possible": 16
+      },
+      "sentences": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 37,
+        "tp": 0
+      },
+      "status": {
+        "clear": 8
+      },
+      "units": 8,
+      "unsupported_candidates_blind": 0,
+      "unsupported_originals_blind": 0,
+      "valid_clean_originals_cleared": 8
+    },
+    "control": {
+      "accepted_findings": 9,
+      "accepted_with_nonempty_checked_refs": 9,
+      "bad_bodies_repaired": 8,
+      "bad_originals": 8,
+      "candidate_issue_origins": {},
+      "changed_bodies": 9,
+      "changed_bodies_meeting_correction_gate": 8,
+      "clean_bodies_changed": 1,
+      "clean_originals": 8,
+      "control_key_differs_from_blind_original": 1,
+      "correction_result_pass": false,
+      "cost": {
+        "billing_amount": null,
+        "initial": {
+          "calls": 0,
+          "elapsed_ms": {
+            "max": null,
+            "median": null,
+            "min": null,
+            "missing_turns": 0,
+            "observed_turns": 0,
+            "sum": null
+          },
+          "sessions": 0,
+          "tokens": {
+            "cache_write_input_tokens": {
+              "max": null,
+              "median": null,
+              "min": null,
+              "missing_turns": 0,
+              "observed_turns": 0,
+              "sum": null
+            },
+            "cached_input_tokens": {
+              "max": null,
+              "median": null,
+              "min": null,
+              "missing_turns": 0,
+              "observed_turns": 0,
+              "sum": null
+            },
+            "input_tokens": {
+              "max": null,
+              "median": null,
+              "min": null,
+              "missing_turns": 0,
+              "observed_turns": 0,
+              "sum": null
+            },
+            "output_tokens": {
+              "max": null,
+              "median": null,
+              "min": null,
+              "missing_turns": 0,
+              "observed_turns": 0,
+              "sum": null
+            },
+            "reasoning_output_tokens": {
+              "max": null,
+              "median": null,
+              "min": null,
+              "missing_turns": 0,
+              "observed_turns": 0,
+              "sum": null
+            },
+            "total_tokens": {
+              "max": null,
+              "median": null,
+              "min": null,
+              "missing_turns": 0,
+              "observed_turns": 0,
+              "sum": null
+            }
+          },
+          "wall_ms": null
+        },
+        "local_validation_ns": {
+          "max": 565491,
+          "median": 275694.5,
+          "min": 221960,
+          "missing_turns": 0,
+          "observed_turns": 16,
+          "sum": 5188644
+        },
+        "review": {
+          "calls": 16,
+          "elapsed_ms": {
+            "max": 17985,
+            "median": 9847.5,
+            "min": 5864,
+            "missing_turns": 0,
+            "observed_turns": 16,
+            "sum": 166206
+          },
+          "sessions": 16,
+          "tokens": {
+            "cache_write_input_tokens": {
+              "max": 0,
+              "median": 0.0,
+              "min": 0,
+              "missing_turns": 0,
+              "observed_turns": 16,
+              "sum": 0
+            },
+            "cached_input_tokens": {
+              "max": 9856,
+              "median": 9856.0,
+              "min": 0,
+              "missing_turns": 0,
+              "observed_turns": 16,
+              "sum": 111744
+            },
+            "input_tokens": {
+              "max": 13609,
+              "median": 13396.0,
+              "min": 13376,
+              "missing_turns": 0,
+              "observed_turns": 16,
+              "sum": 214766
+            },
+            "output_tokens": {
+              "max": 567,
+              "median": 125.5,
+              "min": 21,
+              "missing_turns": 0,
+              "observed_turns": 16,
+              "sum": 2645
+            },
+            "reasoning_output_tokens": {
+              "max": 456,
+              "median": 35.0,
+              "min": 0,
+              "missing_turns": 0,
+              "observed_turns": 16,
+              "sum": 1566
+            },
+            "total_tokens": {
+              "max": 13967,
+              "median": 13564.0,
+              "min": 13401,
+              "missing_turns": 0,
+              "observed_turns": 16,
+              "sum": 217411
+            }
+          },
+          "wall_ms": 61174.233575
+        }
+      },
+      "detection_pass": false,
+      "diagnostic_core": {
+        "designated": 8,
+        "overlapping": 8
+      },
+      "invalid_reviews": 0,
+      "pass_through_unreviewed_baseline": {
+        "fn": 8,
+        "fp": 0,
+        "tn": 46,
+        "tp": 0
+      },
+      "precision": {
+        "correct": 8,
+        "flagged": 9
+      },
+      "recall": {
+        "detected": 8,
+        "expected": 8
+      },
+      "required_facts": {
+        "candidate": 32,
+        "lost_from_correct": 0,
+        "original": 32,
+        "possible": 32
+      },
+      "sentences": {
+        "fn": 0,
+        "fp": 1,
+        "tn": 45,
+        "tp": 8
+      },
+      "status": {
+        "clear": 7,
+        "flagged": 9
+      },
+      "units": 16,
+      "unsupported_candidates_blind": 0,
+      "unsupported_originals_blind": 9,
+      "valid_clean_originals_cleared": 7
+    },
+    "historical": {
+      "accepted_findings": 2,
+      "accepted_with_nonempty_checked_refs": 2,
+      "bad_bodies_repaired": 2,
+      "bad_originals": 2,
+      "candidate_issue_origins": {},
+      "changed_bodies": 2,
+      "changed_bodies_meeting_correction_gate": 2,
+      "clean_bodies_changed": 0,
+      "clean_originals": 2,
+      "control_key_differs_from_blind_original": 0,
+      "correction_result_pass": true,
+      "cost": {
+        "billing_amount": null,
+        "initial": {
+          "calls": 0,
+          "elapsed_ms": {
+            "max": null,
+            "median": null,
+            "min": null,
+            "missing_turns": 0,
+            "observed_turns": 0,
+            "sum": null
+          },
+          "sessions": 0,
+          "tokens": {
+            "cache_write_input_tokens": {
+              "max": null,
+              "median": null,
+              "min": null,
+              "missing_turns": 0,
+              "observed_turns": 0,
+              "sum": null
+            },
+            "cached_input_tokens": {
+              "max": null,
+              "median": null,
+              "min": null,
+              "missing_turns": 0,
+              "observed_turns": 0,
+              "sum": null
+            },
+            "input_tokens": {
+              "max": null,
+              "median": null,
+              "min": null,
+              "missing_turns": 0,
+              "observed_turns": 0,
+              "sum": null
+            },
+            "output_tokens": {
+              "max": null,
+              "median": null,
+              "min": null,
+              "missing_turns": 0,
+              "observed_turns": 0,
+              "sum": null
+            },
+            "reasoning_output_tokens": {
+              "max": null,
+              "median": null,
+              "min": null,
+              "missing_turns": 0,
+              "observed_turns": 0,
+              "sum": null
+            },
+            "total_tokens": {
+              "max": null,
+              "median": null,
+              "min": null,
+              "missing_turns": 0,
+              "observed_turns": 0,
+              "sum": null
+            }
+          },
+          "wall_ms": null
+        },
+        "local_validation_ns": {
+          "max": 416930,
+          "median": 303265.5,
+          "min": 275249,
+          "missing_turns": 0,
+          "observed_turns": 4,
+          "sum": 1298710
+        },
+        "review": {
+          "calls": 4,
+          "elapsed_ms": {
+            "max": 19804,
+            "median": 17631.5,
+            "min": 10108,
+            "missing_turns": 0,
+            "observed_turns": 4,
+            "sum": 65175
+          },
+          "sessions": 4,
+          "tokens": {
+            "cache_write_input_tokens": {
+              "max": 0,
+              "median": 0.0,
+              "min": 0,
+              "missing_turns": 0,
+              "observed_turns": 4,
+              "sum": 0
+            },
+            "cached_input_tokens": {
+              "max": 9856,
+              "median": 9856.0,
+              "min": 9856,
+              "missing_turns": 0,
+              "observed_turns": 4,
+              "sum": 39424
+            },
+            "input_tokens": {
+              "max": 13757,
+              "median": 13718.0,
+              "min": 13694,
+              "missing_turns": 0,
+              "observed_turns": 4,
+              "sum": 54887
+            },
+            "output_tokens": {
+              "max": 626,
+              "median": 399.0,
+              "min": 55,
+              "missing_turns": 0,
+              "observed_turns": 4,
+              "sum": 1479
+            },
+            "reasoning_output_tokens": {
+              "max": 488,
+              "median": 331.5,
+              "min": 44,
+              "missing_turns": 0,
+              "observed_turns": 4,
+              "sum": 1195
+            },
+            "total_tokens": {
+              "max": 14383,
+              "median": 14104.0,
+              "min": 13775,
+              "missing_turns": 0,
+              "observed_turns": 4,
+              "sum": 56366
+            }
+          },
+          "wall_ms": 68380.288019
+        }
+      },
+      "detection_pass": true,
+      "diagnostic_core": {
+        "designated": 2,
+        "overlapping": 2
+      },
+      "invalid_reviews": 0,
+      "pass_through_unreviewed_baseline": {
+        "fn": 2,
+        "fp": 0,
+        "tn": 19,
+        "tp": 0
+      },
+      "precision": {
+        "correct": 2,
+        "flagged": 2
+      },
+      "recall": {
+        "detected": 2,
+        "expected": 2
+      },
+      "required_facts": {
+        "candidate": 12,
+        "lost_from_correct": 0,
+        "original": 12,
+        "possible": 12
+      },
+      "sentences": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 19,
+        "tp": 2
+      },
+      "status": {
+        "clear": 2,
+        "flagged": 2
+      },
+      "units": 4,
+      "unsupported_candidates_blind": 0,
+      "unsupported_originals_blind": 2,
+      "valid_clean_originals_cleared": 2
+    },
+    "independent": {
+      "accepted_findings": 0,
+      "accepted_with_nonempty_checked_refs": 0,
+      "bad_bodies_repaired": 0,
+      "bad_originals": 0,
+      "candidate_issue_origins": {},
+      "changed_bodies": 0,
+      "changed_bodies_meeting_correction_gate": 0,
+      "clean_bodies_changed": 0,
+      "clean_originals": 8,
+      "control_key_differs_from_blind_original": 0,
+      "correction_result_pass": true,
+      "cost": {
+        "billing_amount": null,
+        "initial": {
+          "calls": 8,
+          "elapsed_ms": {
+            "max": 25223,
+            "median": 18734.0,
+            "min": 14926,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 158106
+          },
+          "sessions": 8,
+          "tokens": {
+            "cache_write_input_tokens": {
+              "max": 0,
+              "median": 0.0,
+              "min": 0,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 0
+            },
+            "cached_input_tokens": {
+              "max": 14592,
+              "median": 9856.0,
+              "min": 0,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 58752
+            },
+            "input_tokens": {
+              "max": 14881,
+              "median": 14704.5,
+              "min": 14681,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 117790
+            },
+            "output_tokens": {
+              "max": 622,
+              "median": 489.0,
+              "min": 390,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 4096
+            },
+            "reasoning_output_tokens": {
+              "max": 335,
+              "median": 193.0,
+              "min": 132,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 1752
+            },
+            "total_tokens": {
+              "max": 15503,
+              "median": 15211.0,
+              "min": 15101,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 121886
+            }
+          },
+          "wall_ms": 61248.712234
+        },
+        "local_validation_ns": {
+          "max": 477131,
+          "median": 282299.5,
+          "min": 213983,
+          "missing_turns": 0,
+          "observed_turns": 8,
+          "sum": 2357244
+        },
+        "review": {
+          "calls": 8,
+          "elapsed_ms": {
+            "max": 19624,
+            "median": 9195.0,
+            "min": 4966,
+            "missing_turns": 0,
+            "observed_turns": 8,
+            "sum": 75892
+          },
+          "sessions": 8,
+          "tokens": {
+            "cache_write_input_tokens": {
+              "max": 0,
+              "median": 0.0,
+              "min": 0,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 0
+            },
+            "cached_input_tokens": {
+              "max": 9856,
+              "median": 9856.0,
+              "min": 0,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 59136
+            },
+            "input_tokens": {
+              "max": 13964,
+              "median": 13533.0,
+              "min": 13476,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 108612
+            },
+            "output_tokens": {
+              "max": 515,
+              "median": 42.0,
+              "min": 21,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 799
+            },
+            "reasoning_output_tokens": {
+              "max": 504,
+              "median": 31.0,
+              "min": 10,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 711
+            },
+            "total_tokens": {
+              "max": 14479,
+              "median": 13561.5,
+              "min": 13538,
+              "missing_turns": 0,
+              "observed_turns": 8,
+              "sum": 109411
+            }
+          },
+          "wall_ms": 43197.418405
+        }
+      },
+      "detection_pass": true,
+      "diagnostic_core": {
+        "designated": 0,
+        "overlapping": 0
+      },
+      "invalid_reviews": 0,
+      "pass_through_unreviewed_baseline": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 38,
+        "tp": 0
+      },
+      "precision": {
+        "correct": 0,
+        "flagged": 0
+      },
+      "recall": {
+        "detected": 0,
+        "expected": 0
+      },
+      "required_facts": {
+        "candidate": 16,
+        "lost_from_correct": 0,
+        "original": 16,
+        "possible": 16
+      },
+      "sentences": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 38,
+        "tp": 0
+      },
+      "status": {
+        "clear": 8
+      },
+      "units": 8,
+      "unsupported_candidates_blind": 0,
+      "unsupported_originals_blind": 0,
+      "valid_clean_originals_cleared": 8
+    }
+  },
+  "total_cost": {
+    "billing_amount": null,
+    "initial": {
+      "calls": 16,
+      "elapsed_ms": {
+        "max": 25623,
+        "median": 18024.5,
+        "min": 12577,
+        "missing_turns": 0,
+        "observed_turns": 16,
+        "sum": 295672
+      },
+      "sessions": 10,
+      "tokens": {
+        "cache_write_input_tokens": {
+          "max": 0,
+          "median": 0.0,
+          "min": 0,
+          "missing_turns": 0,
+          "observed_turns": 16,
+          "sum": 0
+        },
+        "cached_input_tokens": {
+          "max": 21888,
+          "median": 12224.0,
+          "min": 0,
+          "missing_turns": 0,
+          "observed_turns": 16,
+          "sum": 181632
+        },
+        "input_tokens": {
+          "max": 25501,
+          "median": 14725.0,
+          "min": 14681,
+          "missing_turns": 0,
+          "observed_turns": 16,
+          "sum": 278902
+        },
+        "output_tokens": {
+          "max": 647,
+          "median": 420.0,
+          "min": 288,
+          "missing_turns": 0,
+          "observed_turns": 16,
+          "sum": 6927
+        },
+        "reasoning_output_tokens": {
+          "max": 356,
+          "median": 145.0,
+          "min": 0,
+          "missing_turns": 0,
+          "observed_turns": 16,
+          "sum": 2152
+        },
+        "total_tokens": {
+          "max": 25804,
+          "median": 15324.0,
+          "min": 15068,
+          "missing_turns": 0,
+          "observed_turns": 16,
+          "sum": 285829
+        }
+      },
+      "wall_ms": 114682.348721
+    },
+    "local_validation_ns": {
+      "max": 1020487,
+      "median": 283892.5,
+      "min": 213983,
+      "missing_turns": 0,
+      "observed_turns": 36,
+      "sum": 11990229
+    },
+    "review": {
+      "calls": 36,
+      "elapsed_ms": {
+        "max": 28221,
+        "median": 9891.5,
+        "min": 4961,
+        "missing_turns": 0,
+        "observed_turns": 36,
+        "sum": 413808
+      },
+      "sessions": 36,
+      "tokens": {
+        "cache_write_input_tokens": {
+          "max": 0,
+          "median": 0.0,
+          "min": 0,
+          "missing_turns": 0,
+          "observed_turns": 36,
+          "sum": 0
+        },
+        "cached_input_tokens": {
+          "max": 13568,
+          "median": 9856.0,
+          "min": 0,
+          "missing_turns": 0,
+          "observed_turns": 36,
+          "sum": 283008
+        },
+        "input_tokens": {
+          "max": 13964,
+          "median": 13518.5,
+          "min": 13376,
+          "missing_turns": 0,
+          "observed_turns": 36,
+          "sum": 487044
+        },
+        "output_tokens": {
+          "max": 911,
+          "median": 61.5,
+          "min": 21,
+          "missing_turns": 0,
+          "observed_turns": 36,
+          "sum": 6549
+        },
+        "reasoning_output_tokens": {
+          "max": 900,
+          "median": 43.0,
+          "min": 0,
+          "missing_turns": 0,
+          "observed_turns": 36,
+          "sum": 5010
+        },
+        "total_tokens": {
+          "max": 14510,
+          "median": 13596.5,
+          "min": 13401,
+          "missing_turns": 0,
+          "observed_turns": 36,
+          "sum": 493593
+        }
+      },
+      "wall_ms": 111830.916076
+    }
+  },
+  "wall_ms": 226583.141574
+}

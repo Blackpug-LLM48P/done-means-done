@@ -1,0 +1,2047 @@
+[
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-736735dbf0168201436c67cb",
+    "candidate_issues": [],
+    "case_id": "UL58C",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "continuous",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-a5969d0915d60fd9027095df",
+    "original_session": "01a1fc71-bef2-7c61-89bc-94734bb51691",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/C02-1.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc73-7eff-7372-93a1-4f058176e0a0",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "C02-1",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-5a199f272dedbf992a1b6821",
+    "candidate_issues": [],
+    "case_id": "U7PY4",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "continuous",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-284681499fed1fddeec5da47",
+    "original_session": "01a1fc71-bef2-7c61-89bc-94734bb51691",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/C02-2.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc73-7ef7-7e33-a4b0-4ec9d556a1eb",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "C02-2",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-f2caa881167de345f32b9754",
+    "candidate_issues": [],
+    "case_id": "U3J9N",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "continuous",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-34850cb723a00e3e89300409",
+    "original_session": "01a1fc71-bef2-7c61-89bc-94734bb51691",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/C02-3.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc73-7efa-7460-8450-2a210018c5b8",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "C02-3",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-fead77acfa0678fcb69d8ad6",
+    "candidate_issues": [],
+    "case_id": "UT6S1",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "continuous",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-c2b57b4860e9c6dd03021f21",
+    "original_session": "01a1fc71-bef2-7c61-89bc-94734bb51691",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/C02-4.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc73-7f00-7b23-af98-18342f73dc86",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "C02-4",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-4106f6221e079655fa3f809f",
+    "candidate_issues": [],
+    "case_id": "J3026",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "independent",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-3ed6b9c3fa8b0e420adf30e0",
+    "original_session": "01a1fc71-bece-79b2-9492-3f2c4a539690",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/I02-1.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc73-a524-7252-bfb7-575204eab866",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "I02-1",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-3f5633e2d2a2db42a131aa02",
+    "candidate_issues": [],
+    "case_id": "UT6S1",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "independent",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-ee5db8dd9009c840a1c3ee16",
+    "original_session": "01a1fc71-beec-7341-81c6-92cb645f938e",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/I03-1.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc73-a52b-7ec2-9e8f-d66ad4828d25",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "I03-1",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-dec725f03f1f66dc09afec9c",
+    "candidate_issues": [],
+    "case_id": "U3J9N",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "independent",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-29cb31884034666a4478b0a7",
+    "original_session": "01a1fc71-bec9-7df0-9382-18aabcafd6e8",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/I08-1.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc73-c93f-7243-903d-4a00a15ba23d",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "I08-1",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-92ad118380f5ca0d473c5ccc",
+    "candidate_issues": [],
+    "case_id": "J7814",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "independent",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-c1ba7462b65407129e3f5102",
+    "original_session": "01a1fc72-07d9-77d3-b56f-6c14c4b3cb6a",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/I05-1.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc73-c9a1-7a22-a1ce-71d39fa9d5e1",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "I05-1",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-dbdc47a8ee1095f099608ed7",
+    "candidate_issues": [],
+    "case_id": "J9460",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "independent",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-747d88c164eac6cc34607f85",
+    "original_session": "01a1fc72-07f3-7892-a351-dcb6ffc5d6c3",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/I06-1.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc73-dbbe-7503-9b40-d700d98ac979",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "I06-1",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-eefe34d6f83937385c4faf19",
+    "candidate_issues": [],
+    "case_id": "U7PY4",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "independent",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-871aa6d7356939c7fe8c90f9",
+    "original_session": "01a1fc72-0813-7502-9b87-318100ded0ba",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/I07-1.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc73-eda7-7562-8a2c-cba9776bb2f0",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "I07-1",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-e52aedc9e215e7e9758249c3",
+    "candidate_issues": [],
+    "case_id": "UL58C",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "independent",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-2c0a089ce3818e4cae9f2850",
+    "original_session": "01a1fc72-53db-77a3-9bcc-e22f3c4b26ec",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/I04-1.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc73-ed87-7c72-b536-1d6255103773",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "I04-1",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-4e288db2c6af858f7402a038",
+    "candidate_issues": [],
+    "case_id": "J9460",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "continuous",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-f3356c2ec00e168573f57708",
+    "original_session": "01a1fc72-6a96-76e1-87df-c7b0471473f3",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/C01-1.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc73-edaa-76b0-ad1e-76d8b9c86597",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "C01-1",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-31d4cd9b0144885e7369b41a",
+    "candidate_issues": [],
+    "case_id": "J1658",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "continuous",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-7187ac8d072165f83fa341d5",
+    "original_session": "01a1fc72-6a96-76e1-87df-c7b0471473f3",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/C01-2.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc74-0162-7f10-b7d9-544b7f4815e8",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "C01-2",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-8829be880e18993102f1f5c2",
+    "candidate_issues": [],
+    "case_id": "J7814",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "continuous",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-9031827b997e5359d5eed94a",
+    "original_session": "01a1fc72-6a96-76e1-87df-c7b0471473f3",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/C01-3.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc74-0157-75e1-9be2-3cca79332e87",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "C01-3",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-affaca0b6b02c71a90100f4a",
+    "candidate_issues": [],
+    "case_id": "J3026",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "continuous",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-3ae61216549d5415a4978aa1",
+    "original_session": "01a1fc72-6a96-76e1-87df-c7b0471473f3",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/C01-4.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc74-01e5-7a73-98af-3578f7077754",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "C01-4",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-d45aa7e91ac24e7c5b077d01",
+    "candidate_issues": [],
+    "case_id": "J1658",
+    "category": "natural",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": null,
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "independent",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-bba1c4e2b251ac515087673c",
+    "original_session": "01a1fc72-6a96-7ad1-91ee-f7c30b933f46",
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/I01-1.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc74-014b-7692-9bb5-b63f570c9077",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "I01-1",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 1,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": true,
+    "candidate_grade_label": "V-4c70a601808b14acac2825bd",
+    "candidate_issues": [],
+    "case_id": "T2K7F",
+    "category": "historical",
+    "checked_refs": [
+      [
+        "AM-524"
+      ]
+    ],
+    "clean_body_changed": false,
+    "core_hit": true,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tp": [
+        1
+      ]
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "から",
+    "expected_positive": true,
+    "expected_sentences": [
+      1
+    ],
+    "facts_candidate": [
+      true,
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_grade_label": "V-b9f434058f03218d927e5dce",
+    "original_session": null,
+    "predicted_sentences": [
+      1
+    ],
+    "proposed_edit_success": true,
+    "receipt": "results/units/H-04.json",
+    "referenced_findings": 1,
+    "review_session": "01a1fc74-28ae-72b0-8bba-a9aa5ae1d6e5",
+    "status": "flagged",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "H-04",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 1,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": true,
+    "candidate_grade_label": "V-ba70a5cc94b4d6ebc8e0c011",
+    "candidate_issues": [],
+    "case_id": "UT6S1",
+    "category": "control",
+    "checked_refs": [
+      [
+        "GF-763"
+      ]
+    ],
+    "clean_body_changed": false,
+    "core_hit": true,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        3,
+        4
+      ],
+      "tp": [
+        2
+      ]
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "今回使う団員も12人",
+    "expected_positive": true,
+    "expected_sentences": [
+      2
+    ],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_grade_label": "V-66234b0f566cde5d1d76e84f",
+    "original_session": null,
+    "predicted_sentences": [
+      2
+    ],
+    "proposed_edit_success": true,
+    "receipt": "results/units/B9QC4.json",
+    "referenced_findings": 1,
+    "review_session": "01a1fc74-28a4-7493-82ee-51df39ba5090",
+    "status": "flagged",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "B9QC4",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-b82ae33fc1eb17798f8873ae",
+    "candidate_issues": [],
+    "case_id": "U3J9N",
+    "category": "control",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "",
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-a00df94f29489a4d817a7868",
+    "original_session": null,
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/BG4NV.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc74-28c2-7bf3-baec-193277764dbe",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "BG4NV",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 1,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": true,
+    "candidate_grade_label": "V-10bfd74a4ab0c53c84007670",
+    "candidate_issues": [],
+    "case_id": "J1658",
+    "category": "control",
+    "checked_refs": [
+      [
+        "RE-154"
+      ]
+    ],
+    "clean_body_changed": false,
+    "core_hit": true,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2
+      ],
+      "tp": [
+        3
+      ]
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "載せることが決まった",
+    "expected_positive": true,
+    "expected_sentences": [
+      3
+    ],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [
+      3
+    ],
+    "original_grade_label": "V-ca6da3686d176b3828ebcc4a",
+    "original_session": null,
+    "predicted_sentences": [
+      3
+    ],
+    "proposed_edit_success": true,
+    "receipt": "results/units/A1864.json",
+    "referenced_findings": 1,
+    "review_session": "01a1fc74-4e49-7433-9bb2-536fa4403685",
+    "status": "flagged",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "A1864",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-6f6d167b91cde85083252fd6",
+    "candidate_issues": [],
+    "case_id": "UL58C",
+    "category": "control",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "",
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-cc09c6345d724691dd1d3cb7",
+    "original_session": null,
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/B6W2R.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc74-4e76-7e41-aa08-51b9c7af9ca0",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "B6W2R",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 1,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": true,
+    "candidate_grade_label": "V-3982225027885165d9053532",
+    "candidate_issues": [],
+    "case_id": "J7814",
+    "category": "control",
+    "checked_refs": [
+      [
+        "KY-582"
+      ]
+    ],
+    "clean_body_changed": false,
+    "core_hit": true,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        3
+      ],
+      "tp": [
+        2
+      ]
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "緑町公民館が変更を発表",
+    "expected_positive": true,
+    "expected_sentences": [
+      2
+    ],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_grade_label": "V-6005ec35663b3918d6a76184",
+    "original_session": null,
+    "predicted_sentences": [
+      2
+    ],
+    "proposed_edit_success": true,
+    "receipt": "results/units/A6351.json",
+    "referenced_findings": 1,
+    "review_session": "01a1fc74-4eb3-7a31-a8e4-92e3695b8d9e",
+    "status": "flagged",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "A6351",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 1,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": true,
+    "candidate_grade_label": "V-21075463d7fd8216d868e514",
+    "candidate_issues": [],
+    "case_id": "J9460",
+    "category": "control",
+    "checked_refs": [
+      [
+        "UF-519",
+        "UF-674"
+      ]
+    ],
+    "clean_body_changed": false,
+    "core_hit": true,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        3
+      ],
+      "tp": [
+        2
+      ]
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "全18冊で確認済み",
+    "expected_positive": true,
+    "expected_sentences": [
+      2
+    ],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_grade_label": "V-afb4dcb8d3a0092e83afaaab",
+    "original_session": null,
+    "predicted_sentences": [
+      2
+    ],
+    "proposed_edit_success": true,
+    "receipt": "results/units/A7692.json",
+    "referenced_findings": 1,
+    "review_session": "01a1fc74-7615-7bd2-9b74-15d9d8be34c4",
+    "status": "flagged",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "A7692",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-905ed956c86f467dc0830def",
+    "candidate_issues": [],
+    "case_id": "J3026",
+    "category": "control",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "",
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-6c1974bbebc4763215546d1e",
+    "original_session": null,
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/A8079.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc74-7649-7843-b38a-fa793632fdf4",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "A8079",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 1,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": true,
+    "candidate_grade_label": "V-82b3e89c0aea2b879664df8f",
+    "candidate_issues": [],
+    "case_id": "U3J9N",
+    "category": "control",
+    "checked_refs": [
+      [
+        "EN-846",
+        "EN-309"
+      ]
+    ],
+    "clean_body_changed": false,
+    "core_hit": true,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        2,
+        3
+      ],
+      "tp": [
+        1
+      ]
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "池田が演目変更を決裁",
+    "expected_positive": true,
+    "expected_sentences": [
+      1
+    ],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_grade_label": "V-323ff9832779fb416e9b91b5",
+    "original_session": null,
+    "predicted_sentences": [
+      1
+    ],
+    "proposed_edit_success": true,
+    "receipt": "results/units/B8D2F.json",
+    "referenced_findings": 1,
+    "review_session": "01a1fc74-7660-7d80-82bd-e9f1515b620a",
+    "status": "flagged",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "B8D2F",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 1,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": true,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": true,
+    "candidate_grade_label": "V-84cad697af306ce78d0811a4",
+    "candidate_issues": [],
+    "case_id": "J7814",
+    "category": "control",
+    "checked_refs": [
+      [
+        "KY-582"
+      ]
+    ],
+    "clean_body_changed": true,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [
+        2
+      ],
+      "tn": [
+        1,
+        3
+      ],
+      "tp": []
+    },
+    "detection_success": false,
+    "errors": [],
+    "expected_core": "",
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_grade_label": "V-0ad3c3ef4b8c7ce153992c4a",
+    "original_session": null,
+    "predicted_sentences": [
+      2
+    ],
+    "proposed_edit_success": false,
+    "receipt": "results/units/A2948.json",
+    "referenced_findings": 1,
+    "review_session": "01a1fc74-9259-79f1-a80c-e5791f82e9dd",
+    "status": "flagged",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "A2948",
+    "unrelated_edited_sentences": [
+      2
+    ]
+  },
+  {
+    "accepted_findings": 1,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": true,
+    "candidate_grade_label": "V-3f1f3ca449f5996dbedfac34",
+    "candidate_issues": [],
+    "case_id": "T2K7F",
+    "category": "historical",
+    "checked_refs": [
+      [
+        "AM-524"
+      ]
+    ],
+    "clean_body_changed": false,
+    "core_hit": true,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "tp": [
+        1
+      ]
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "から",
+    "expected_positive": true,
+    "expected_sentences": [
+      1
+    ],
+    "facts_candidate": [
+      true,
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_grade_label": "V-8cf8a070b84f8b2910ceeea7",
+    "original_session": null,
+    "predicted_sentences": [
+      1
+    ],
+    "proposed_edit_success": true,
+    "receipt": "results/units/H-02.json",
+    "referenced_findings": 1,
+    "review_session": "01a1fc74-928d-79e1-afd1-ec3bdb54347c",
+    "status": "flagged",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "H-02",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 1,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": true,
+    "candidate_grade_label": "V-669c93f752486003ba1a90cc",
+    "candidate_issues": [],
+    "case_id": "J3026",
+    "category": "control",
+    "checked_refs": [
+      [
+        "NH-254"
+      ]
+    ],
+    "clean_body_changed": false,
+    "core_hit": true,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        3
+      ],
+      "tp": [
+        2
+      ]
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "再起動によって発券が再開",
+    "expected_positive": true,
+    "expected_sentences": [
+      2
+    ],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_grade_label": "V-97c5c348d64798e686c4ce7b",
+    "original_session": null,
+    "predicted_sentences": [
+      2
+    ],
+    "proposed_edit_success": true,
+    "receipt": "results/units/A4183.json",
+    "referenced_findings": 1,
+    "review_session": "01a1fc74-92a7-7673-8111-e505ec0ab649",
+    "status": "flagged",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "A4183",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 1,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": true,
+    "candidate_grade_label": "V-d44fa17dd16fa06046cfab92",
+    "candidate_issues": [],
+    "case_id": "U7PY4",
+    "category": "control",
+    "checked_refs": [
+      [
+        "MI-576"
+      ]
+    ],
+    "clean_body_changed": false,
+    "core_hit": true,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        3,
+        4
+      ],
+      "tp": [
+        2
+      ]
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "その場で色校正を始め",
+    "expected_positive": true,
+    "expected_sentences": [
+      2
+    ],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [
+      2
+    ],
+    "original_grade_label": "V-cea314b72f823f579364e205",
+    "original_session": null,
+    "predicted_sentences": [
+      2
+    ],
+    "proposed_edit_success": true,
+    "receipt": "results/units/B5YKP.json",
+    "referenced_findings": 1,
+    "review_session": "01a1fc74-ace1-7e01-9295-2cd4e69b4e6d",
+    "status": "flagged",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "B5YKP",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-0d6592763d49ac64c66fc925",
+    "candidate_issues": [],
+    "case_id": "J1658",
+    "category": "control",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "",
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-91e7cce01944f308f0f2fde8",
+    "original_session": null,
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/A9526.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc74-c10b-7ef3-a5e4-64a9b8f3f11f",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "A9526",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-6d018c2a545bd8709290bc99",
+    "candidate_issues": [],
+    "case_id": "UT6S1",
+    "category": "control",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "",
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-eb37ca76c125fc0517229140",
+    "original_session": null,
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/BF3L8.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc74-d8ce-7540-80e7-8f95d7e042d8",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "BF3L8",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-afacc3cc69851303eb6f7b70",
+    "candidate_issues": [],
+    "case_id": "J9460",
+    "category": "control",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "",
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-51891894226607ea484248ba",
+    "original_session": null,
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/A5417.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc74-d8fd-7bd3-8ac4-c6949250edfa",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "A5417",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-a24553ce4cbd90c2eae8cd2b",
+    "candidate_issues": [],
+    "case_id": "U7PY4",
+    "category": "control",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "",
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-cd13a4b990339f9031089d8e",
+    "original_session": null,
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/BJ19A.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc74-d913-7500-8423-7bc2194679c4",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "BJ19A",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-4f65da0e5bb62c314f96601e",
+    "candidate_issues": [],
+    "case_id": "T2K7F",
+    "category": "historical",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "",
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-17bacd49604825b624af9a4e",
+    "original_session": null,
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/H-01.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc74-f021-7613-bffc-6736b7c399ff",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "H-01",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 1,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": true,
+    "candidate_grade_label": "V-bd3c64f1dee3dfc72e0b08fe",
+    "candidate_issues": [],
+    "case_id": "UL58C",
+    "category": "control",
+    "checked_refs": [
+      [
+        "RK-705"
+      ]
+    ],
+    "clean_body_changed": false,
+    "core_hit": true,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        2,
+        3,
+        4
+      ],
+      "tp": [
+        1
+      ]
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "録音機の停止も同時刻",
+    "expected_positive": true,
+    "expected_sentences": [
+      1
+    ],
+    "facts_candidate": [
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [
+      1
+    ],
+    "original_grade_label": "V-6b4ff0fc113df9d0dcd3e266",
+    "original_session": null,
+    "predicted_sentences": [
+      1
+    ],
+    "proposed_edit_success": true,
+    "receipt": "results/units/BM7HX.json",
+    "referenced_findings": 1,
+    "review_session": "01a1fc74-f026-7ad3-b798-008f3aae9dd4",
+    "status": "flagged",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "BM7HX",
+    "unrelated_edited_sentences": []
+  },
+  {
+    "accepted_findings": 0,
+    "all_accepted_refs_in_packet": true,
+    "author_vs_blind_original_disagreement": false,
+    "candidate_bad_by_blind": [],
+    "candidate_changed": false,
+    "candidate_grade_label": "V-5e0a2d0afb5bd3062cef7b93",
+    "candidate_issues": [],
+    "case_id": "T2K7F",
+    "category": "historical",
+    "checked_refs": [],
+    "clean_body_changed": false,
+    "core_hit": null,
+    "detection": {
+      "fn": [],
+      "fp": [],
+      "tn": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tp": []
+    },
+    "detection_success": true,
+    "errors": [],
+    "expected_core": "",
+    "expected_positive": false,
+    "expected_sentences": [],
+    "facts_candidate": [
+      true,
+      true,
+      true
+    ],
+    "facts_original": [
+      true,
+      true,
+      true
+    ],
+    "invalid_fallback": false,
+    "lost_fact_indices": [],
+    "mode": "fixed",
+    "original_bad_by_blind": [],
+    "original_grade_label": "V-a88b8bb7ed0a516dc72134de",
+    "original_session": null,
+    "predicted_sentences": [],
+    "proposed_edit_success": true,
+    "receipt": "results/units/H-03.json",
+    "referenced_findings": 0,
+    "review_session": "01a1fc74-f029-70f2-ba2d-d7f5842a81d2",
+    "status": "clear",
+    "unchanged_expected_bad_sentences": [],
+    "unit_id": "H-03",
+    "unrelated_edited_sentences": []
+  }
+]

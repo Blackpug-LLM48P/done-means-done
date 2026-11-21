@@ -1,0 +1,261 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '搬入証と台車札の照合': met per ['RE-862']",
+          "operation_state: '会場内での引き渡し確認': pending per ['RE-538']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '納品明細番号の照合': met per ['RE-418']",
+          "report_state: '先着分の受領印確認': pending per ['RE-295']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '納品明細番号の照合': met per ['RE-418']",
+          "report_state: '先着分の受領印確認': pending per ['RE-295']",
+          "operation_state: '搬入証と台車札の照合': met per ['RE-862']",
+          "operation_state: '会場内での引き渡し確認': pending per ['RE-538']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-11-06T17:00:00+09:00",
+    "case_id": "J1658",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "11月6日17時時点で、講演会の配布冊子の先着分は、荷受記録によると15時28分に荷受場に到着しました。製本所の納品明細と報告欄の番号は「明-562」で一致しています。先着分の受領控えは未押印のため、納品報告は未完了です。先着分を積んだ台車の札は搬入証と照合済みです。16時39分の確認時には台車は会場の手前で待機しており、会場内での引き渡しは未完了です。"
+      },
+      "operation_state": {
+        "as_of": "2026-11-06T17:00:00+09:00",
+        "evidence_refs": [
+          "RE-538"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'搬入証と台車札の照合': met per ['RE-862']",
+          "'会場内での引き渡し確認': pending per ['RE-538']"
+        ],
+        "revision": "r3",
+        "scope": "先着分の会場搬入",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-11-06T17:00:00+09:00",
+        "evidence_refs": [
+          "RE-295"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'納品明細番号の照合': met per ['RE-418']",
+          "'先着分の受領印確認': pending per ['RE-295']"
+        ],
+        "revision": "r3",
+        "scope": "配布冊子の納品報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "11月6日17時時点で、講演会の配布冊子の先着分は、荷受記録によると15時28分に荷受場に到着しました。製本所の納品明細と報告欄の番号は「明-562」で一致しています。先着分の受領控えは未押印のため、納品報告は未完了です。先着分を積んだ台車の札は搬入証と照合済みです。16時39分の確認時には台車は会場の手前で待機しており、会場内での引き渡しは未完了です。",
+    "revision": "r3"
+  },
+  "B1": {
+    "action_keys": {},
+    "actions": {
+      "advance_operation": {
+        "decision": "hold",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '搬入証と台車札の照合': met per ['RE-862']",
+          "operation_state: '会場内での引き渡し確認': pending per ['RE-538']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '納品明細番号の照合': met per ['RE-418']",
+          "report_state: '先着分の受領印確認': pending per ['RE-295']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '納品明細番号の照合': met per ['RE-418']",
+          "report_state: '先着分の受領印確認': pending per ['RE-295']",
+          "operation_state: '搬入証と台車札の照合': met per ['RE-862']",
+          "operation_state: '会場内での引き渡し確認': pending per ['RE-538']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-11-06T17:00:00+09:00",
+    "case_id": "J1658",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "11月6日17時時点で、講演会の配布冊子の先着分は、荷受記録によると15時28分に荷受場に到着しました。製本所の納品明細と報告欄の番号は「明-562」で一致しています。先着分の受領控えは未押印のため、納品報告は未完了です。先着分を積んだ台車の札は搬入証と照合済みです。16時39分の確認時には台車は会場の手前で待機しており、会場内での引き渡しは未完了です。"
+      },
+      "operation_state": {
+        "as_of": "2026-11-06T17:00:00+09:00",
+        "evidence_refs": [
+          "RE-538"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'搬入証と台車札の照合': met per ['RE-862']",
+          "'会場内での引き渡し確認': pending per ['RE-538']"
+        ],
+        "revision": "r3",
+        "scope": "先着分の会場搬入",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-11-06T17:00:00+09:00",
+        "evidence_refs": [
+          "RE-295"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'納品明細番号の照合': met per ['RE-418']",
+          "'先着分の受領印確認': pending per ['RE-295']"
+        ],
+        "revision": "r3",
+        "scope": "配布冊子の納品報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "11月6日17時時点で、講演会の配布冊子の先着分は、荷受記録によると15時28分に荷受場に到着しました。製本所の納品明細と報告欄の番号は「明-562」で一致しています。先着分の受領控えは未押印のため、納品報告は未完了です。先着分を積んだ台車の札は搬入証と照合済みです。16時39分の確認時には台車は会場の手前で待機しており、会場内での引き渡しは未完了です。",
+    "newly_planned": [],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "11月6日17時時点で、講演会の配布冊子の先着分は、荷受記録によると15時28分に荷受場に到着しました。製本所の納品明細と報告欄の番号は「明-562」で一致しています。先着分の受領控えは未押印のため、納品報告は未完了です。先着分を積んだ台車の札は搬入証と照合済みです。16時39分の確認時には台車は会場の手前で待機しており、会場内での引き渡しは未完了です。"
+      },
+      "operation_state": {
+        "as_of": "2026-11-06T17:00:00+09:00",
+        "evidence_refs": [
+          "RE-538"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'搬入証と台車札の照合': met per ['RE-862']",
+          "'会場内での引き渡し確認': pending per ['RE-538']"
+        ],
+        "revision": "r3",
+        "scope": "先着分の会場搬入",
+        "valid": true,
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-11-06T17:00:00+09:00",
+        "evidence_refs": [
+          "RE-295"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'納品明細番号の照合': met per ['RE-418']",
+          "'先着分の受領印確認': pending per ['RE-295']"
+        ],
+        "revision": "r3",
+        "scope": "配布冊子の納品報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "original_response": {
+      "handoff": "11月6日17時時点で、講演会の配布冊子の先着分は、荷受記録によると15時28分に荷受場に到着しました。製本所の納品明細と報告欄の番号は「明-562」で一致しています。先着分の受領控えは未押印のため、納品報告は未完了です。先着分を積んだ台車の札は搬入証と照合済みです。16時39分の確認時には台車は会場の手前で待機しており、会場内での引き渡しは未完了です。",
+      "operation_state": {
+        "as_of": "2026-11-06T17:00:00+09:00",
+        "evidence_refs": [
+          "RE-538"
+        ],
+        "revision": "r3",
+        "scope": "先着分の会場搬入",
+        "value": "open"
+      },
+      "report_state": {
+        "as_of": "2026-11-06T17:00:00+09:00",
+        "evidence_refs": [
+          "RE-295"
+        ],
+        "revision": "r3",
+        "scope": "配布冊子の納品報告",
+        "value": "open"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": "r3"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "body": "寄贈誌の受入冊数は18冊で、受入報告は申込書の署名待ちです。青い保護カバーは閲覧用見本の3冊で確認済みです。見本は郷-06に配架し、現物も確認しました。",
+  "case_id": "J9460",
+  "category": "control",
+  "initial": null,
+  "job_id": "A5417",
+  "mode": "fixed",
+  "order": 1,
+  "review": {
+    "apply_elapsed_ns": 280163,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236884334022700,
+    "cli_started_unix_ns": 1795236878462460246,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 5872,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236884345790762,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "8644d52aeface29b937323e3583ca7c8224ee70d72ff83d2157801e7fec3b658",
+    "prompt_sha256": "500139c7332fa27f8c6d113cf1a48c7074a6855a104d899d526795080f7061c3",
+    "raw_file": "results/review-raw/A5417.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13408,
+        "output_tokens": 22,
+        "reasoning_output_tokens": 11,
+        "total_tokens": 13430
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 13408,
+        "output_tokens": 22,
+        "reasoning_output_tokens": 11,
+        "total_tokens": 13430
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc74-d8fd-7bd3-8ac4-c6949250edfa",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13408,
+      "output_tokens": 22,
+      "reasoning_output_tokens": 11
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 13408,
+      "output_tokens": 22,
+      "reasoning_output_tokens": 11
+    }
+  },
+  "source_sha256": "0e1e007ff9a7f07a95400c5768ad6afc1d757fee463077f3bc012d39cdd549fe",
+  "trace": {
+    "as_of": "2026-08-26T16:00:00+09:00",
+    "case_id": "J9460",
+    "errors": [],
+    "findings": [],
+    "original_body": "寄贈誌の受入冊数は18冊で、受入報告は申込書の署名待ちです。青い保護カバーは閲覧用見本の3冊で確認済みです。見本は郷-06に配架し、現物も確認しました。",
+    "packet_sha256": "8644d52aeface29b937323e3583ca7c8224ee70d72ff83d2157801e7fec3b658",
+    "proposed_body": "寄贈誌の受入冊数は18冊で、受入報告は申込書の署名待ちです。青い保護カバーは閲覧用見本の3冊で確認済みです。見本は郷-06に配架し、現物も確認しました。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "r1",
+    "sentences": [
+      {
+        "end": 30,
+        "id": 1,
+        "start": 0,
+        "text": "寄贈誌の受入冊数は18冊で、受入報告は申込書の署名待ちです。"
+      },
+      {
+        "end": 54,
+        "id": 2,
+        "start": 30,
+        "text": "青い保護カバーは閲覧用見本の3冊で確認済みです。"
+      },
+      {
+        "end": 76,
+        "id": 3,
+        "start": 54,
+        "text": "見本は郷-06に配架し、現物も確認しました。"
+      }
+    ],
+    "source_sha256": "568836f44a5b29b201858493585703bc71eb72a217086e245592833b7d729ca2",
+    "status": "clear"
+  },
+  "unit_id": "A5417"
+}

@@ -1,0 +1,130 @@
+{
+  "body": "見本は印刷会社の窓口に持ち込みました。安西が見本を受け取り、その場で色校正を始めました。見本の引き渡しは完了しています。提出報告には受領票の画像を添付する作業が残っています。",
+  "case_id": "U7PY4",
+  "category": "control",
+  "initial": null,
+  "job_id": "B5YKP",
+  "mode": "fixed",
+  "order": 1,
+  "review": {
+    "apply_elapsed_ns": 221960,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236884381329539,
+    "cli_started_unix_ns": 1795236867157197006,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 17224,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236884384494918,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "c8b61fea531348353a23b733570a2e29ced91fb3bb84522f74fd93890f1e8eb8",
+    "prompt_sha256": "1d2af4d82d41d56265bb4c0637783eb2f492fab1e3ca69b10a0521ff62480f82",
+    "raw_file": "results/review-raw/B5YKP.txt",
+    "raw_sha256": "20bf8426ad819f57cd5d30137de8cc5fefd8b5dde5c136cbe6230f54692724fc",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 13394,
+        "output_tokens": 409,
+        "reasoning_output_tokens": 274,
+        "total_tokens": 13803
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 3328,
+        "input_tokens": 13394,
+        "output_tokens": 409,
+        "reasoning_output_tokens": 274,
+        "total_tokens": 13803
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc74-ace1-7e01-9295-2cd4e69b4e6d",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 13394,
+      "output_tokens": 409,
+      "reasoning_output_tokens": 274
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 3328,
+      "input_tokens": 13394,
+      "output_tokens": 409,
+      "reasoning_output_tokens": 274
+    }
+  },
+  "source_sha256": "f364516ea19b60e34143d2ed00fce1f7f83508ae7f9408f4a87e153ff249ba88",
+  "trace": {
+    "as_of": "2026-08-19T16:00:00+09:00",
+    "case_id": "U7PY4",
+    "errors": [],
+    "findings": [
+      {
+        "checked_refs": [
+          "MI-576"
+        ],
+        "end": 43,
+        "quote": "色校正を始めました",
+        "reason": "原票で確認できるのは、安西が見本を受け取り、その場で署名入りの受領票が渡されたことまでです。安西が色校正を始めたという記録はありません。",
+        "replacement": "引き渡し側が安西本人の署名入りの受領票を受け取りました",
+        "sentence_id": 2,
+        "start": 34
+      }
+    ],
+    "original_body": "見本は印刷会社の窓口に持ち込みました。安西が見本を受け取り、その場で色校正を始めました。見本の引き渡しは完了しています。提出報告には受領票の画像を添付する作業が残っています。",
+    "packet_sha256": "c8b61fea531348353a23b733570a2e29ced91fb3bb84522f74fd93890f1e8eb8",
+    "proposed_body": "見本は印刷会社の窓口に持ち込みました。安西が見本を受け取り、その場で引き渡し側が安西本人の署名入りの受領票を受け取りました。見本の引き渡しは完了しています。提出報告には受領票の画像を添付する作業が残っています。",
+    "raw_review": "{\n  \"findings\": [\n    {\n      \"sentence_id\": 2,\n      \"quote\": \"色校正を始めました\",\n      \"reason\": \"原票で確認できるのは、安西が見本を受け取り、その場で署名入りの受領票が渡されたことまでです。安西が色校正を始めたという記録はありません。\",\n      \"checked_refs\": [\"MI-576\"],\n      \"replacement\": \"引き渡し側が安西本人の署名入りの受領票を受け取りました\"\n    }\n  ]\n}",
+    "revision": "r3",
+    "sentences": [
+      {
+        "end": 19,
+        "id": 1,
+        "start": 0,
+        "text": "見本は印刷会社の窓口に持ち込みました。"
+      },
+      {
+        "end": 44,
+        "id": 2,
+        "start": 19,
+        "text": "安西が見本を受け取り、その場で色校正を始めました。"
+      },
+      {
+        "end": 60,
+        "id": 3,
+        "start": 44,
+        "text": "見本の引き渡しは完了しています。"
+      },
+      {
+        "end": 87,
+        "id": 4,
+        "start": 60,
+        "text": "提出報告には受領票の画像を添付する作業が残っています。"
+      }
+    ],
+    "source_sha256": "871088df114a20bfa39dd711587e1e8270e6fc4242165fecfc98b4a04b5e207e",
+    "status": "flagged"
+  },
+  "unit_id": "B5YKP"
+}

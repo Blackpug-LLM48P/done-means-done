@@ -1,0 +1,193 @@
+{
+  "body": "2026年8月3日16時時点で、本日の演目変更に関する会議記録の整備と演目表の差し替えは、どちらも完了しています。会議記録の作成者は進行係の池田で、作成者欄を当番表と照合しました。会議記録には、公演責任者の長尾が決裁者欄に署名した変更決裁書が添付されています。演目表を差し替えた場所は西玄関の掲示板です。旧版の撤去と改訂版の掲示を現地で確認しました。",
+  "case_id": "U3J9N",
+  "category": "natural",
+  "initial": {
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236728236634889,
+    "cli_started_unix_ns": 1795236713305542581,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 14931,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "prompt_sha256": "369a3a3bb09ad30e61fdc4107915d7acc34feedcdd25e009cbdf62b8d87cd08b",
+    "raw_file": "results/initial-raw/C02-3.txt",
+    "raw_sha256": "4a1e98c57eb4f721a2cecaface598b2f988d62d448fbe9a2b36ebd380a541a33",
+    "receiver_elapsed_ns": 272351,
+    "receiver_file": "results/paired/C02-3.json",
+    "receiver_finished_unix_ns": 1795236728240216345,
+    "receiver_sha256": "141062f8fe4b45ad24278c40d00ea2da048cf1b6bdec13d86cfe98318d5c1a81",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 18432,
+        "input_tokens": 21993,
+        "output_tokens": 321,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 22314
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 42880,
+        "input_tokens": 55169,
+        "output_tokens": 1276,
+        "reasoning_output_tokens": 356,
+        "total_tokens": 56445
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 3,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc71-bef2-7c61-89bc-94734bb51691",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 18432,
+      "input_tokens": 21993,
+      "output_tokens": 321,
+      "reasoning_output_tokens": 0
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 42880,
+      "input_tokens": 55169,
+      "output_tokens": 1276,
+      "reasoning_output_tokens": 356
+    },
+    "wire_error": null
+  },
+  "job_id": "C02",
+  "mode": "continuous",
+  "order": 3,
+  "review": {
+    "apply_elapsed_ns": 217144,
+    "assistant_messages": 1,
+    "cli_finished_unix_ns": 1795236799618976630,
+    "cli_started_unix_ns": 1795236789845819680,
+    "cli_version": "codex-cli 0.172.0-alpha.2",
+    "cost": null,
+    "elapsed_ms": 9773,
+    "events": {
+      "item.completed": 2,
+      "thread.started": 1,
+      "turn.completed": 1,
+      "turn.started": 1
+    },
+    "finished_unix_ns": 1795236799622515603,
+    "item_events": {
+      "agent_message": 1,
+      "error": 1
+    },
+    "packet_sha256": "836262be24bdf53eabf9fada913562441c3d835eb58b5de8db84046d98c20f3c",
+    "prompt_sha256": "f475bf99d9db1542ed9e5b6413ec372862ebea486715886bdce7f626352c643e",
+    "raw_file": "results/review-raw/C02-3.txt",
+    "raw_sha256": "9d0f2143c61cfbb6c0cf0425ce8b447811a32d48ec37333ba8b3700218631b36",
+    "rollout": {
+      "last_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13627,
+        "output_tokens": 22,
+        "reasoning_output_tokens": 11,
+        "total_tokens": 13649
+      },
+      "session_source": "exec",
+      "token_count_events": 1,
+      "total_token_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9856,
+        "input_tokens": 13627,
+        "output_tokens": 22,
+        "reasoning_output_tokens": 11,
+        "total_tokens": 13649
+      },
+      "turn_context": {
+        "effort": "ultra",
+        "model": "gpt-6.2-astra"
+      },
+      "turn_context_count": 1,
+      "usage_delta_matches_last": true
+    },
+    "sandbox": "bubblewrap",
+    "session_id": "01a1fc73-7efa-7460-8450-2a210018c5b8",
+    "spawn_retries": [],
+    "unexpected_events": [],
+    "usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13627,
+      "output_tokens": 22,
+      "reasoning_output_tokens": 11
+    },
+    "usage_event": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 9856,
+      "input_tokens": 13627,
+      "output_tokens": 22,
+      "reasoning_output_tokens": 11
+    }
+  },
+  "source_sha256": "ea4272994b662b685a2d83b444b2ceb5d52e98d9ebe378c0c0b253012e093d51",
+  "trace": {
+    "as_of": "2026-08-03T16:00:00+09:00",
+    "case_id": "U3J9N",
+    "errors": [],
+    "findings": [],
+    "original_body": "2026年8月3日16時時点で、本日の演目変更に関する会議記録の整備と演目表の差し替えは、どちらも完了しています。会議記録の作成者は進行係の池田で、作成者欄を当番表と照合しました。会議記録には、公演責任者の長尾が決裁者欄に署名した変更決裁書が添付されています。演目表を差し替えた場所は西玄関の掲示板です。旧版の撤去と改訂版の掲示を現地で確認しました。",
+    "packet_sha256": "836262be24bdf53eabf9fada913562441c3d835eb58b5de8db84046d98c20f3c",
+    "proposed_body": "2026年8月3日16時時点で、本日の演目変更に関する会議記録の整備と演目表の差し替えは、どちらも完了しています。会議記録の作成者は進行係の池田で、作成者欄を当番表と照合しました。会議記録には、公演責任者の長尾が決裁者欄に署名した変更決裁書が添付されています。演目表を差し替えた場所は西玄関の掲示板です。旧版の撤去と改訂版の掲示を現地で確認しました。",
+    "raw_review": "{\"findings\":[]}",
+    "revision": "r2",
+    "sentences": [
+      {
+        "end": 57,
+        "id": 1,
+        "start": 0,
+        "text": "2026年8月3日16時時点で、本日の演目変更に関する会議記録の整備と演目表の差し替えは、どちらも完了しています。"
+      },
+      {
+        "end": 90,
+        "id": 2,
+        "start": 57,
+        "text": "会議記録の作成者は進行係の池田で、作成者欄を当番表と照合しました。"
+      },
+      {
+        "end": 130,
+        "id": 3,
+        "start": 90,
+        "text": "会議記録には、公演責任者の長尾が決裁者欄に署名した変更決裁書が添付されています。"
+      },
+      {
+        "end": 152,
+        "id": 4,
+        "start": 130,
+        "text": "演目表を差し替えた場所は西玄関の掲示板です。"
+      },
+      {
+        "end": 175,
+        "id": 5,
+        "start": 152,
+        "text": "旧版の撤去と改訂版の掲示を現地で確認しました。"
+      }
+    ],
+    "source_sha256": "97d5d439ea27ee3307e1c73e635a9797c28609190d77dc0d289a40cb184668f3",
+    "status": "clear"
+  },
+  "unit_id": "C02-3"
+}

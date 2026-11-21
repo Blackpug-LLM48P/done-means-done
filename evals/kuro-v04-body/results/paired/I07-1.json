@@ -1,0 +1,269 @@
+{
+  "B0": {
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '現物の受け渡し確認': met per ['MI-431']",
+          "operation_state: '先方受取人の確認': met per ['MI-576']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '提出日欄の照合': met per ['MI-264']",
+          "report_state: '受領票画像の添付確認': pending per ['MI-890']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '提出日欄の照合': met per ['MI-264']",
+          "report_state: '受領票画像の添付確認': pending per ['MI-890']",
+          "operation_state: '現物の受け渡し確認': met per ['MI-431']",
+          "operation_state: '先方受取人の確認': met per ['MI-576']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "arm": "B",
+    "as_of": "2026-08-19T16:00:00+09:00",
+    "case_id": "U7PY4",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "8月19日16時時点で、印刷見本の引き渡しは完了しています。見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。その場で安西さん本人の署名入り受領票を受け取りました。報告書の提出日欄は受領票の日付と一致しています。受領票の画像が未添付のため、提出報告は未完了です。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-19T16:00:00+09:00",
+        "evidence_refs": [
+          "MI-431",
+          "MI-576"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'現物の受け渡し確認': met per ['MI-431']",
+          "'先方受取人の確認': met per ['MI-576']"
+        ],
+        "revision": "r3",
+        "scope": "印刷見本の引き渡し",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-08-19T16:00:00+09:00",
+        "evidence_refs": [
+          "MI-890"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'提出日欄の照合': met per ['MI-264']",
+          "'受領票画像の添付確認': pending per ['MI-890']"
+        ],
+        "revision": "r3",
+        "scope": "印刷見本の提出報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "8月19日16時時点で、印刷見本の引き渡しは完了しています。見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。その場で安西さん本人の署名入り受領票を受け取りました。報告書の提出日欄は受領票の日付と一致しています。受領票の画像が未添付のため、提出報告は未完了です。",
+    "revision": "r3"
+  },
+  "B1": {
+    "action_keys": {
+      "advance_operation": "[\"U7PY4\",\"r3\",[63922806000,\"\"],\"advance_operation\",[\"印刷見本の引き渡し\"]]"
+    },
+    "actions": {
+      "advance_operation": {
+        "decision": "plan",
+        "depends_on": [
+          "operation_state"
+        ],
+        "reasons": [
+          "operation_state: '現物の受け渡し確認': met per ['MI-431']",
+          "operation_state: '先方受取人の確認': met per ['MI-576']"
+        ]
+      },
+      "archive_report": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '提出日欄の照合': met per ['MI-264']",
+          "report_state: '受領票画像の添付確認': pending per ['MI-890']",
+          "handoff: text present"
+        ]
+      },
+      "close_case": {
+        "decision": "hold",
+        "depends_on": [
+          "report_state",
+          "operation_state",
+          "handoff"
+        ],
+        "reasons": [
+          "report_state: '提出日欄の照合': met per ['MI-264']",
+          "report_state: '受領票画像の添付確認': pending per ['MI-890']",
+          "operation_state: '現物の受け渡し確認': met per ['MI-431']",
+          "operation_state: '先方受取人の確認': met per ['MI-576']",
+          "handoff: text present"
+        ]
+      }
+    },
+    "already_planned": [],
+    "arm": "B1",
+    "as_of": "2026-08-19T16:00:00+09:00",
+    "case_id": "U7PY4",
+    "dry_run": true,
+    "fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "8月19日16時時点で、印刷見本の引き渡しは完了しています。見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。その場で安西さん本人の署名入り受領票を受け取りました。報告書の提出日欄は受領票の日付と一致しています。受領票の画像が未添付のため、提出報告は未完了です。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-19T16:00:00+09:00",
+        "evidence_refs": [
+          "MI-431",
+          "MI-576"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'現物の受け渡し確認': met per ['MI-431']",
+          "'先方受取人の確認': met per ['MI-576']"
+        ],
+        "revision": "r3",
+        "scope": "印刷見本の引き渡し",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-08-19T16:00:00+09:00",
+        "evidence_refs": [
+          "MI-890"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'提出日欄の照合': met per ['MI-264']",
+          "'受領票画像の添付確認': pending per ['MI-890']"
+        ],
+        "revision": "r3",
+        "scope": "印刷見本の提出報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "handoff": "8月19日16時時点で、印刷見本の引き渡しは完了しています。見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。その場で安西さん本人の署名入り受領票を受け取りました。報告書の提出日欄は受領票の日付と一致しています。受領票の画像が未添付のため、提出報告は未完了です。",
+    "newly_planned": [
+      "advance_operation"
+    ],
+    "original_fields": {
+      "handoff": {
+        "reasons": [
+          "text present"
+        ],
+        "valid": true,
+        "value": "8月19日16時時点で、印刷見本の引き渡しは完了しています。見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。その場で安西さん本人の署名入り受領票を受け取りました。報告書の提出日欄は受領票の日付と一致しています。受領票の画像が未添付のため、提出報告は未完了です。"
+      },
+      "operation_state": {
+        "as_of": "2026-08-19T16:00:00+09:00",
+        "evidence_refs": [
+          "MI-431",
+          "MI-576"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'現物の受け渡し確認': met per ['MI-431']",
+          "'先方受取人の確認': met per ['MI-576']"
+        ],
+        "revision": "r3",
+        "scope": "印刷見本の引き渡し",
+        "valid": true,
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-08-19T16:00:00+09:00",
+        "evidence_refs": [
+          "MI-890"
+        ],
+        "evidence_valid": true,
+        "reasons": [
+          "'提出日欄の照合': met per ['MI-264']",
+          "'受領票画像の添付確認': pending per ['MI-890']"
+        ],
+        "revision": "r3",
+        "scope": "印刷見本の提出報告",
+        "valid": true,
+        "value": "open"
+      }
+    },
+    "original_response": {
+      "handoff": "8月19日16時時点で、印刷見本の引き渡しは完了しています。見本は印刷会社の窓口に直接持参し、安西さんに手渡しました。その場で安西さん本人の署名入り受領票を受け取りました。報告書の提出日欄は受領票の日付と一致しています。受領票の画像が未添付のため、提出報告は未完了です。",
+      "operation_state": {
+        "as_of": "2026-08-19T16:00:00+09:00",
+        "evidence_refs": [
+          "MI-431",
+          "MI-576"
+        ],
+        "revision": "r3",
+        "scope": "印刷見本の引き渡し",
+        "value": "complete"
+      },
+      "report_state": {
+        "as_of": "2026-08-19T16:00:00+09:00",
+        "evidence_refs": [
+          "MI-890"
+        ],
+        "revision": "r3",
+        "scope": "印刷見本の提出報告",
+        "value": "open"
+      }
+    },
+    "reconciliation": {
+      "attempts": 0,
+      "fields": {
+        "operation_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        },
+        "report_state": {
+          "correction": null,
+          "detected": false,
+          "outcome": "unchanged",
+          "reason": "initial verification passed",
+          "source_value": null,
+          "triggered": false,
+          "witnesses": []
+        }
+      },
+      "model_calls": 0
+    },
+    "revision": "r3"
+  }
+}
