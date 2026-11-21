@@ -1,11 +1,11 @@
 """Verify the incomplete first wave without substituting a CLI rollout for a transport receipt."""
 import uuid
 
-from live import STUDY, apply, digest, encode, jobs_for, read, require, stage_dir
+from live import STUDY, apply, digest, encode, jobs_for, read, require
 
 
 def main():
-    folder = stage_dir("review")
+    folder = STUDY / "results/interrupted-wave/review"
     jobs, contexts = jobs_for("review")
     require((folder / "dispatch.json").read_bytes() == encode(jobs), "dispatch differs")
     jobs = {job["unit_id"]: job for job in jobs}
