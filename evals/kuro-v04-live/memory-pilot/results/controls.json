@@ -1,0 +1,39 @@
+[
+  {
+    "batch": "Flint",
+    "revision": 4,
+    "action": "stage",
+    "observed": {
+      "status": "executed",
+      "artifact": "ready/Flint-4",
+      "content": "local current batch Flint-4\n"
+    }
+  },
+  {
+    "batch": "Iris",
+    "revision": 1,
+    "action": "stage",
+    "observed": {
+      "status": "refused",
+      "reason": "missing_pass_receipt"
+    }
+  },
+  {
+    "batch": "Iris",
+    "revision": 1,
+    "action": "queue_check",
+    "observed": {
+      "status": "refused",
+      "reason": "input_status_mismatch"
+    }
+  },
+  {
+    "batch": "Sorrel",
+    "revision": 2,
+    "action": "stage",
+    "observed": {
+      "status": "refused",
+      "reason": "current_revision_required"
+    }
+  }
+]

@@ -1,0 +1,3 @@
+職場内で利用できる任意の手順書。必要だと判断した場合は、対応するファイルを開いて使える。
+- report-reality-check — Check a completion report or handoff against the user's request and the session record. Use before a completion claim, a handoff, or context compaction, and when asked to audit an earlier report. Skip casual conversation and single-step answers that make no claim about work performed. Path: live-study/supplement/work/catalog/report-reality-check/SKILL.md
+- 文案の宛名表 — 取引先向けの書状で宛名を決めるときの参照先。今回の案件は社内用。

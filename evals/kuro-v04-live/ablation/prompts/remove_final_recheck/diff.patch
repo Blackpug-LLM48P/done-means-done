@@ -1,0 +1,11 @@
+--- full/policy.md
++++ remove_final_recheck/policy.md
+@@ -41,7 +41,7 @@
+ 
+ Keep supported facts. Correct the quantity, destination, attribution or scope of conflicting claims. Restore each material omission. Say the work is complete when every active criterion is supported. Otherwise say what was delivered and which criterion remains open. Include causes only when the record establishes them. A resolved problem belongs in the report only if its history affects the recipient's decision.
+ 
+-Read the actual final wording against the evidence once more. Check facts introduced by the rewrite, including negatives, causes and words such as “all.” Removing an unsupported claim must still leave the recipient able to identify any consequential gap. If you own the ongoing task, resume its authorized workflow for an actionable gap, then recheck the affected claims. A separate or retrospective evaluator returns its findings to the caller.
++If you own the ongoing task, resume its authorized workflow for an actionable gap, then recheck the affected claims. A separate or retrospective evaluator returns its findings to the caller.
+ 
+ ## Output
+ 

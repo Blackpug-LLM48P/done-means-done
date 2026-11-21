@@ -1,0 +1,28 @@
+--- full/policy.md
++++ remove_draft_source_exclusion/policy.md
+@@ -35,7 +35,7 @@
+ 
+ Distinguish a request, an attempt, a success signal, a saved artifact, a readback, a verification and a delivery. Use the source that establishes the stage claimed. An agent's message can support attribution to that agent. A claim of independent confirmation needs a corresponding observation. Evaluate negative claims and explanations with the same care as positive ones.
+ 
+-For a ledger entry, put a searchable verbatim quote in double quotation marks or 「」 and give its record ID, timestamp or path. Use fewer than 15 whitespace-delimited words. For quotes containing Japanese or Chinese characters, also use fewer than 40 characters including spaces. The draft identifies the claim under review. Cite the original record for its outcome. If the outcome is unknown, point to the visible requirement or limits of the inspected record and state what remains unknown. If evidence was lost, describe the gap without inventing a quotation.
++For a ledger entry, put a searchable verbatim quote in double quotation marks or 「」 and give its record ID, timestamp or path. Use fewer than 15 whitespace-delimited words. For quotes containing Japanese or Chinese characters, also use fewer than 40 characters including spaces. If the outcome is unknown, point to the visible requirement or limits of the inspected record and state what remains unknown. If evidence was lost, describe the gap without inventing a quotation.
+ 
+ ## Rewrite and check the outgoing message
+ 
+@@ -74,13 +74,13 @@
+ 
+ ## Optional resources
+ 
+-If `scripts/verify_quotes.py` is installed and the ledger and record already exist as files, use it to check quote placement, citation IDs and length. To exclude the draft as its own source when records have block IDs, run this read-only check from the skill folder.
++If `scripts/verify_quotes.py` is installed and the ledger and record already exist as files, use it to check quote placement, citation IDs and length. Run this read-only check from the skill folder.
+ 
+ ```sh
+-python3 scripts/verify_quotes.py --draft DRAFT_ID LEDGER.md RECORD_FILE
++python3 scripts/verify_quotes.py LEDGER.md RECORD_FILE
+ ```
+ 
+-Omit `--draft DRAFT_ID` if there is no identified draft block. With no citation ID beside a quote, the tool checks only for its occurrence, subject to the draft exclusion. Use `--help` for supported syntax. Report the counts and coverage the tool printed. The meaning of each quotation, the coverage of the ledger and the accuracy of the revised report still require reading the evidence.
++With no citation ID beside a quote, the tool checks only for its occurrence. Use `--help` for supported syntax. Report the counts and coverage the tool printed. The meaning of each quotation, the coverage of the ledger and the accuracy of the revised report still require reading the evidence.
+ 
+ For a requested extended work-state check, read `references/work-state-check.md` and append its findings after the detailed report. If that file is unavailable, say so and skip the extension. The core check works with `SKILL.md` alone.
+ 

@@ -9,11 +9,11 @@ One run, 2026-11-17: GPT-6 family, conditions (a), (b), (d), one run each on bot
 - On the main metrics, all three conditions tied: 0 of 5 false claims and 0 of 3 omissions survived on TESTLOG_01, and there were 0 false alarms on TESTLOG_02. **The skill (d) did not beat the one-line instruction (b).**
 - One difference outside the main metrics: (a) and (b) presented a worker's statement about the glossary as confirmed; (d) kept it as hearsay. One case, one run.
 - (d) had an advantage that run should not have had: the worked example in SKILL.md at that time was nearly the same case as TESTLOG_01. It still tied.
-- What this shows: with this model and these two logs, there was no difference on those main counters. It does not show whether a difference would appear with harder logs, other models, or a live task. Condition (c), which the kill criterion in DESIGN.md is written for, has not been run.
+- What this shows: with this model and these two logs, there was no difference on those main counters. It does not show whether a difference would appear with harder logs, other models, or a live task. This pilot did not run condition (c). See the later [v0.4 working-agent study](kuro-v04-live/README.md) for its first live comparison.
 
 The scorer's objections to the keys were accepted; both keys are now at revision 3. The run above was scored against revision 1.
 
-The repair-only candidate excludes the three post-pilot behavior rules; they are preserved in [the deferred proposal](proposals/post-pilot-rules.md). No new effect measurement or revision-3 rescoring of the six frozen outputs is claimed here.
+The repair-only candidate excludes the three post-pilot behavior rules; they are preserved in [the deferred proposal](proposals/post-pilot-rules.md). The six frozen outputs were later [rescored against revision 3](kuro-v04-live/historical/README.md).
 
 ## v0.3.1 forward comparison
 
@@ -22,6 +22,8 @@ The [frozen forward study](https://github.com/Blackpug-LLM48P/done-means-done/bl
 ## v0.4 development checks
 
 The [Japanese handoff and audit checks](kuro-v04-smoke/README.md) include the requests, records, outputs and scoring criteria. Cases A and B compare recipient-facing responses. Case C exercises the detailed audit with a missing deliverable, a placeholder file and a test runner that executed zero cases.
+
+The [Japanese working-agent comparison](kuro-v04-live/README.md) includes 16 live runs, both task-author checkers, the actual delivered files and independent report grading. Its [protocol](kuro-v04-live/PROTOCOL.md) distinguishes the live one-line control from the original separate reviewer.
 
 ## Fixtures
 

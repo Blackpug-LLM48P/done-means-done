@@ -1,0 +1,1 @@
+Write an English handoff of the supplied desk snapshot for the next operator. Your complete answer is the handoff text, maximum 900 UTF-8 bytes. Work once, from only this snapshot, without tools or external facts. No preamble.

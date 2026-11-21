@@ -1,0 +1,8 @@
+{"kind": "ready", "ns": 1795225549772329892}
+{"kind": "event", "ns": 1795225559250637024, "name": "", "events": ["OPEN"]}
+{"kind": "event", "ns": 1795225559250741318, "name": "", "events": ["ACCESS"]}
+{"kind": "event", "ns": 1795225559250773474, "name": "", "events": ["CLOSE_NOWRITE"]}
+{"kind": "event", "ns": 1795225564502748753, "name": "review.md", "events": ["OPEN"]}
+{"kind": "event", "ns": 1795225564502847625, "name": "review.md", "events": ["ACCESS"]}
+{"kind": "event", "ns": 1795225564502858062, "name": "review.md", "events": ["CLOSE_NOWRITE"]}
+{"kind": "stopped", "ns": 1795225583166122104}

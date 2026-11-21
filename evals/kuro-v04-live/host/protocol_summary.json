@@ -1,0 +1,15 @@
+{
+  "cli": "codex-cli 0.172.0-alpha.2",
+  "source": "codex app-server generate-json-schema --out <temporary directory>",
+  "request_methods_checked": {
+    "thread/start": true,
+    "turn/start": true,
+    "thread/compact/start": true
+  },
+  "notification_methods_checked": {
+    "thread/compacted": true,
+    "thread/tokenUsage/updated": true,
+    "turn/completed": true
+  },
+  "serviceTierForTurn_description": "Override the service tier only when this request starts a new turn. Use \"default\" for standard speed. Omitted or null inherits the thread's tier. Does not change the thread's tier or a turn being steered."
+}

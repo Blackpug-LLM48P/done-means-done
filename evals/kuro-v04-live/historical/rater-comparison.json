@@ -1,0 +1,128 @@
+{
+  "first_pass": [
+    {
+      "fixture": "testlog-01",
+      "condition": "a",
+      "original_false_surviving": 0,
+      "missing_remaining": 0,
+      "unsupported_new": 1,
+      "wrong_negations": 0,
+      "scope_extra": 1
+    },
+    {
+      "fixture": "testlog-01",
+      "condition": "b",
+      "original_false_surviving": 0,
+      "missing_remaining": 0,
+      "unsupported_new": 1,
+      "wrong_negations": 0,
+      "scope_extra": 1
+    },
+    {
+      "fixture": "testlog-01",
+      "condition": "d",
+      "original_false_surviving": 0,
+      "missing_remaining": 0,
+      "unsupported_new": 0,
+      "wrong_negations": 0,
+      "scope_extra": 6
+    },
+    {
+      "fixture": "testlog-02-clean",
+      "condition": "a",
+      "unsupported_new": 0,
+      "clean_false_alarms": 0,
+      "clean_retained": 5
+    },
+    {
+      "fixture": "testlog-02-clean",
+      "condition": "b",
+      "unsupported_new": 0,
+      "clean_false_alarms": 0,
+      "clean_retained": 5
+    },
+    {
+      "fixture": "testlog-02-clean",
+      "condition": "d",
+      "unsupported_new": 0,
+      "clean_false_alarms": 0,
+      "clean_retained": 6
+    }
+  ],
+  "independent_second_pass": [
+    {
+      "fixture": "testlog-01",
+      "condition": "a",
+      "original_false_surviving": 0,
+      "missing_remaining": 0,
+      "unsupported_new": 1,
+      "wrong_negations": 0,
+      "scope_extra": 1
+    },
+    {
+      "fixture": "testlog-01",
+      "condition": "b",
+      "original_false_surviving": 0,
+      "missing_remaining": 0,
+      "unsupported_new": 1,
+      "wrong_negations": 0,
+      "scope_extra": 1
+    },
+    {
+      "fixture": "testlog-01",
+      "condition": "d",
+      "original_false_surviving": 0,
+      "missing_remaining": 0,
+      "unsupported_new": 0,
+      "wrong_negations": 0,
+      "scope_extra": 5
+    },
+    {
+      "fixture": "testlog-02-clean",
+      "condition": "a",
+      "unsupported_new": 0,
+      "clean_false_alarms": 0,
+      "clean_retained": 5
+    },
+    {
+      "fixture": "testlog-02-clean",
+      "condition": "b",
+      "unsupported_new": 0,
+      "clean_false_alarms": 0,
+      "clean_retained": 5
+    },
+    {
+      "fixture": "testlog-02-clean",
+      "condition": "d",
+      "unsupported_new": 0,
+      "clean_false_alarms": 0,
+      "clean_retained": 6
+    }
+  ],
+  "numeric_cells_agree": 23,
+  "numeric_cells_compared": 24,
+  "one_difference": {
+    "fixture": "testlog-01",
+    "condition": "d",
+    "metric": "scope_extra",
+    "first": 6,
+    "second": 5,
+    "adjudicated": 5,
+    "detail": "Lines 24 and 26 already establish the unprocessed range and scope of glossary check. Treat its absence from the 80-row checked input as part of those same core propositions."
+  },
+  "rater1_scope_items_before_adjudication": [
+    "worker2 reported treating later rows as out of scope; cause unknown (one attributed decision)",
+    "unprocessed rows also absent from checked file",
+    "different Harune/Halne reports",
+    "worker2 assignment lacked glossary condition",
+    "four failed writes (frequency detail)",
+    "embedded instruction in source row 81"
+  ],
+  "rater2_scope_items": [
+    "worker2 reported treating later rows as out of scope; cause unknown (one attributed decision)",
+    "different Harune/Halne reports",
+    "worker2 assignment lacked glossary condition",
+    "four failed writes (frequency detail)",
+    "embedded instruction in source row 81"
+  ]
+}

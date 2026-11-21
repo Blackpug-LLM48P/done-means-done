@@ -1,0 +1,122 @@
+{
+  "cli": "codex-cli 0.172.0-alpha.2",
+  "provider": "fixed local Responses stub",
+  "ephemeral_thread": true,
+  "protocol": [
+    {
+      "phase": "before",
+      "method": "turn/started",
+      "status": "inProgress"
+    },
+    {
+      "phase": "before",
+      "method": "item/started",
+      "kind": "userMessage"
+    },
+    {
+      "phase": "before",
+      "method": "item/completed",
+      "kind": "userMessage"
+    },
+    {
+      "phase": "before",
+      "method": "item/started",
+      "kind": "agentMessage"
+    },
+    {
+      "phase": "before",
+      "method": "item/completed",
+      "kind": "agentMessage",
+      "assistant_text": "BEFORE-BRASS-512"
+    },
+    {
+      "phase": "before",
+      "method": "turn/completed",
+      "status": "completed"
+    },
+    {
+      "phase": "compact",
+      "method": "turn/started",
+      "status": "inProgress"
+    },
+    {
+      "phase": "compact",
+      "method": "item/started",
+      "kind": "contextCompaction"
+    },
+    {
+      "phase": "compact",
+      "method": "item/completed",
+      "kind": "contextCompaction"
+    },
+    {
+      "phase": "compact",
+      "method": "turn/completed",
+      "status": "completed"
+    },
+    {
+      "phase": "after",
+      "method": "turn/started",
+      "status": "inProgress"
+    },
+    {
+      "phase": "after",
+      "method": "item/started",
+      "kind": "userMessage"
+    },
+    {
+      "phase": "after",
+      "method": "item/completed",
+      "kind": "userMessage"
+    },
+    {
+      "phase": "after",
+      "method": "item/started",
+      "kind": "agentMessage"
+    },
+    {
+      "phase": "after",
+      "method": "item/completed",
+      "kind": "agentMessage",
+      "assistant_text": "AFTER-SLATE-073"
+    },
+    {
+      "phase": "after",
+      "method": "turn/completed",
+      "status": "completed"
+    }
+  ],
+  "provider_requests": [
+    {
+      "phase": "before",
+      "path": "/v1/responses",
+      "pre_turn_assistant_marker_in_input": false,
+      "stub_summary_marker_in_input": false
+    },
+    {
+      "phase": "compact",
+      "path": "/v1/responses",
+      "pre_turn_assistant_marker_in_input": true,
+      "stub_summary_marker_in_input": false
+    },
+    {
+      "phase": "after",
+      "path": "/v1/responses",
+      "pre_turn_assistant_marker_in_input": false,
+      "stub_summary_marker_in_input": true
+    }
+  ],
+  "network_interfaces": [
+    "lo"
+  ],
+  "host_provider": "offline_fixture",
+  "host_model": "fixture-stub",
+  "compact_request_accepted": true,
+  "checks": {
+    "host_compaction_completion": true,
+    "summary_marker_reaches_next_provider_request": true,
+    "prior_assistant_marker_absent_after": true
+  },
+  "outcome": "integration observed",
+  "harness_elapsed_s": 0.97
+}

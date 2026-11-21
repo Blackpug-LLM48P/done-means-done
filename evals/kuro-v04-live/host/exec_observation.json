@@ -1,0 +1,8 @@
+{
+  "exit": 1,
+  "events": [],
+  "diagnostics": [
+    "Error: failed to initialize in-process app-server client: Read-only file system (os error 30)"
+  ],
+  "elapsed_s": 6.15
+}

@@ -1,0 +1,2 @@
+1b9698270e78c366d9a8c6de587c3b91da1b863a22c840186cad9c57518933c6  work/catalog/report-reality-check/SKILL.md
+5f7a12690b7cc7962ae9cc28768d88efbbe2b936ccfded4b5ce83642228dce63  work/catalog/report-reality-check/references/work-state-check.md

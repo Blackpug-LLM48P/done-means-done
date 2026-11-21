@@ -1,0 +1,5 @@
+{
+  "Sorrel":{"revision":3,"passed":["lid"],"seal_state":"queued","basis":"T04","all_pass_receipts":0,"action":"queue_check"},
+  "Flint":{"revision":4,"passed":["lid","seal"],"seal_state":"pass","basis":"T08","all_pass_receipts":1,"action":"stage"},
+  "Iris":{"revision":1,"passed":["lid"],"seal_state":"blocked","basis":"T09","all_pass_receipts":0,"action":"request_input"}
+}

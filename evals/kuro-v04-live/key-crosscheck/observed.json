@@ -1,0 +1,36 @@
+{
+  "alpha": {
+    "when_empty": {
+      "allocations": false,
+      "pickup": false,
+      "hold": false
+    },
+    "independent_tables": {
+      "allocations": true,
+      "pickup": true,
+      "hold": true
+    },
+    "corrupted_field_detected_by": {
+      "allocations.csv": "allocations",
+      "pickup.csv": "pickup",
+      "hold.csv": "hold"
+    }
+  },
+  "beta": {
+    "when_empty": {
+      "スタッフ枠を含む確定会場別進行表": false,
+      "来場者向け時刻表": false,
+      "予告チラシ取下げ一覧": false
+    },
+    "independent_tables": {
+      "スタッフ枠を含む確定会場別進行表": true,
+      "来場者向け時刻表": true,
+      "予告チラシ取下げ一覧": true
+    },
+    "corrupted_field_detected_by": {
+      "schedule.csv": "スタッフ枠を含む確定会場別進行表",
+      "public.csv": "来場者向け時刻表",
+      "withdrawals.csv": "予告チラシ取下げ一覧"
+    }
+  }
+}

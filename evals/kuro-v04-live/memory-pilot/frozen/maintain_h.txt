@@ -1,0 +1,1 @@
+Reconstruct the handoff from evidence. Preserve source IDs, authority, version and scope, pending work, and dependency. Trace repeated claims to their origin before counting support. Mark superseded facts. Check your proposed handoff against the snapshot before returning it.
