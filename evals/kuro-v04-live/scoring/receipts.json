@@ -1,0 +1,306 @@
+[
+  {
+    "run": "K17",
+    "packet": "975327a7",
+    "case": "alpha",
+    "arm": "one",
+    "artifacts": {
+      "allocations": true,
+      "pickup": true,
+      "hold": true
+    },
+    "chars": 219,
+    "sha256": {
+      "REPORT.md": "44818524cec4286388ce3281a53690cf74adfb1aecd08b1c4ad6db0c5cca50a1",
+      "delivery/allocations.csv": "b60ecbf86404a36d990a2892d5a7ca1e2d47d980b07dd2e8add83a03b25d6e09",
+      "delivery/hold.csv": "c913649d143743d37291d546a5bed11d7c8a91f69bd8a1d22c00140650c91794",
+      "delivery/pickup.csv": "da83c36089151a9a18e01936b59aa90ef9280216c71666d277b1f3c76ebcee25"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "P58",
+    "packet": "0fc2d5df",
+    "case": "alpha",
+    "arm": "one",
+    "artifacts": {
+      "allocations": true,
+      "pickup": true,
+      "hold": true
+    },
+    "chars": 240,
+    "sha256": {
+      "REPORT.md": "a4de713114edc5661fe8ecdd42372a8d5e93603487e32ce9bd7ca5ee5b0ce787",
+      "delivery/allocations.csv": "b60ecbf86404a36d990a2892d5a7ca1e2d47d980b07dd2e8add83a03b25d6e09",
+      "delivery/hold.csv": "c913649d143743d37291d546a5bed11d7c8a91f69bd8a1d22c00140650c91794",
+      "delivery/pickup.csv": "da83c36089151a9a18e01936b59aa90ef9280216c71666d277b1f3c76ebcee25"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "M43",
+    "packet": "2faa996e",
+    "case": "alpha",
+    "arm": "candidate",
+    "artifacts": {
+      "allocations": true,
+      "pickup": true,
+      "hold": true
+    },
+    "chars": 238,
+    "sha256": {
+      "REPORT.md": "a59cbd437a0b8234bb315cfdf286d24328d6f091a12238a491568ed8076e137d",
+      "delivery/allocations.csv": "b60ecbf86404a36d990a2892d5a7ca1e2d47d980b07dd2e8add83a03b25d6e09",
+      "delivery/hold.csv": "c913649d143743d37291d546a5bed11d7c8a91f69bd8a1d22c00140650c91794",
+      "delivery/pickup.csv": "da83c36089151a9a18e01936b59aa90ef9280216c71666d277b1f3c76ebcee25"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "J26",
+    "packet": "0da0510e",
+    "case": "alpha",
+    "arm": "candidate",
+    "artifacts": {
+      "allocations": true,
+      "pickup": true,
+      "hold": true
+    },
+    "chars": 217,
+    "sha256": {
+      "REPORT.md": "88cdd343abd36ab4bd22434e3c5b79801032fae5b2975270252794679d745d88",
+      "delivery/allocations.csv": "b60ecbf86404a36d990a2892d5a7ca1e2d47d980b07dd2e8add83a03b25d6e09",
+      "delivery/hold.csv": "c913649d143743d37291d546a5bed11d7c8a91f69bd8a1d22c00140650c91794",
+      "delivery/pickup.csv": "da83c36089151a9a18e01936b59aa90ef9280216c71666d277b1f3c76ebcee25"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "V72",
+    "packet": "cf362697",
+    "case": "alpha",
+    "arm": "one+",
+    "artifacts": {
+      "allocations": true,
+      "pickup": true,
+      "hold": true
+    },
+    "chars": 245,
+    "sha256": {
+      "REPORT.md": "f9c0fa47162d0bbad4afeed8681ba1b48504a2146042217bfee3e0c26928d1e2",
+      "delivery/allocations.csv": "b60ecbf86404a36d990a2892d5a7ca1e2d47d980b07dd2e8add83a03b25d6e09",
+      "delivery/hold.csv": "c913649d143743d37291d546a5bed11d7c8a91f69bd8a1d22c00140650c91794",
+      "delivery/pickup.csv": "da83c36089151a9a18e01936b59aa90ef9280216c71666d277b1f3c76ebcee25"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "H39",
+    "packet": "023876b8",
+    "case": "alpha",
+    "arm": "candidate+",
+    "artifacts": {
+      "allocations": true,
+      "pickup": true,
+      "hold": true
+    },
+    "chars": 203,
+    "sha256": {
+      "REPORT.md": "5cdc8799911b0d8aa7c199101c672b96da5ed0a128085275003befce5d4a1a29",
+      "delivery/allocations.csv": "e79e0657f20bd38e3c4f86f5cbafb40ac95b88051c9fd6441ee9720a46e39abc",
+      "delivery/hold.csv": "7e0dc12dfdb637e8586e5f03506bba8fa4dc71b4da7bfd996b40f0008b503c68",
+      "delivery/pickup.csv": "bed04e38b5be0de6d9ceebf0bbba0d42284376e5cbcc4abec3ae814347311b1c"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "F82",
+    "packet": "ce38cf6b",
+    "case": "alpha",
+    "arm": "previous",
+    "artifacts": {
+      "allocations": true,
+      "pickup": true,
+      "hold": true
+    },
+    "chars": 128,
+    "sha256": {
+      "REPORT.md": "55b14916679f5b2652529e3af59e83a55d0c797159d4038d89b2a1dcfa69a03d",
+      "delivery/allocations.csv": "b60ecbf86404a36d990a2892d5a7ca1e2d47d980b07dd2e8add83a03b25d6e09",
+      "delivery/hold.csv": "c913649d143743d37291d546a5bed11d7c8a91f69bd8a1d22c00140650c91794",
+      "delivery/pickup.csv": "da83c36089151a9a18e01936b59aa90ef9280216c71666d277b1f3c76ebcee25"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "Q53",
+    "packet": "13181353",
+    "case": "alpha",
+    "arm": "none",
+    "artifacts": {
+      "allocations": true,
+      "pickup": true,
+      "hold": true
+    },
+    "chars": 224,
+    "sha256": {
+      "REPORT.md": "2ed5b2fdd65bc4260b4b160d7819d4419dacb540052b3898fd6fe51ebc9f7ba3",
+      "delivery/allocations.csv": "e79e0657f20bd38e3c4f86f5cbafb40ac95b88051c9fd6441ee9720a46e39abc",
+      "delivery/hold.csv": "7e0dc12dfdb637e8586e5f03506bba8fa4dc71b4da7bfd996b40f0008b503c68",
+      "delivery/pickup.csv": "bed04e38b5be0de6d9ceebf0bbba0d42284376e5cbcc4abec3ae814347311b1c"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "T62",
+    "packet": "10ebcad3",
+    "case": "beta",
+    "arm": "one",
+    "artifacts": {
+      "スタッフ枠を含む確定会場別進行表": true,
+      "来場者向け時刻表": true,
+      "予告チラシ取下げ一覧": true
+    },
+    "chars": 236,
+    "sha256": {
+      "REPORT.md": "088cb81d2ebd1faa0f2324b0bca2ffaf4e0c31ab783456df3bd2aa6884a91888",
+      "delivery/public.csv": "a0032a11ed86477ac7d324167f536ec021ab1337c080beb170ab1bf712671ee3",
+      "delivery/schedule.csv": "11882a82bafd7c87684cbcb4445231df62191f4ab3d3cba9daa12cb7fd974356",
+      "delivery/withdrawals.csv": "44a2288118369432dc34a4eac48c1167c3dbc683f2bffc192ee57ad1124acc6b"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "B31",
+    "packet": "0abd391e",
+    "case": "beta",
+    "arm": "one",
+    "artifacts": {
+      "スタッフ枠を含む確定会場別進行表": true,
+      "来場者向け時刻表": true,
+      "予告チラシ取下げ一覧": true
+    },
+    "chars": 266,
+    "sha256": {
+      "REPORT.md": "fcd7ff60a5c5ef3dd4098249dbf2894fe97533c79eae234cd31c1714a582e835",
+      "delivery/public.csv": "a0032a11ed86477ac7d324167f536ec021ab1337c080beb170ab1bf712671ee3",
+      "delivery/schedule.csv": "11882a82bafd7c87684cbcb4445231df62191f4ab3d3cba9daa12cb7fd974356",
+      "delivery/withdrawals.csv": "44a2288118369432dc34a4eac48c1167c3dbc683f2bffc192ee57ad1124acc6b"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "W54",
+    "packet": "155883d5",
+    "case": "beta",
+    "arm": "candidate",
+    "artifacts": {
+      "スタッフ枠を含む確定会場別進行表": true,
+      "来場者向け時刻表": true,
+      "予告チラシ取下げ一覧": true
+    },
+    "chars": 264,
+    "sha256": {
+      "REPORT.md": "959892130ebd04033fb3626d2574180789f0b0934aebe95af14b466781dc03d6",
+      "delivery/public.csv": "a0032a11ed86477ac7d324167f536ec021ab1337c080beb170ab1bf712671ee3",
+      "delivery/schedule.csv": "11882a82bafd7c87684cbcb4445231df62191f4ab3d3cba9daa12cb7fd974356",
+      "delivery/withdrawals.csv": "44a2288118369432dc34a4eac48c1167c3dbc683f2bffc192ee57ad1124acc6b"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "N87",
+    "packet": "fef1cff5",
+    "case": "beta",
+    "arm": "candidate",
+    "artifacts": {
+      "スタッフ枠を含む確定会場別進行表": true,
+      "来場者向け時刻表": true,
+      "予告チラシ取下げ一覧": true
+    },
+    "chars": 231,
+    "sha256": {
+      "REPORT.md": "636e3565a9d9f744ad8b2000ebb16397ec9bfae2b792ac0856ab67041afd73e9",
+      "delivery/public.csv": "f24b87d87246866e59f7e0dd48177a0f6ca3be08cd3cb132d82caf2dcc1a07fb",
+      "delivery/schedule.csv": "a12a1e8da1473f9c5592ff4b6671e48374ca562ef0ebd7a56bb67e1d0de74697",
+      "delivery/withdrawals.csv": "c4b33bf13f90d4d40547ec22debc35b8aa4002b0338550aec78995c08b90ebac"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "G46",
+    "packet": "4dd070ac",
+    "case": "beta",
+    "arm": "one+",
+    "artifacts": {
+      "スタッフ枠を含む確定会場別進行表": true,
+      "来場者向け時刻表": true,
+      "予告チラシ取下げ一覧": true
+    },
+    "chars": 238,
+    "sha256": {
+      "REPORT.md": "966c23794a1d639381325c640089720b6b30dfe17566ac9562d2835a8a4f1db4",
+      "delivery/public.csv": "a0032a11ed86477ac7d324167f536ec021ab1337c080beb170ab1bf712671ee3",
+      "delivery/schedule.csv": "11882a82bafd7c87684cbcb4445231df62191f4ab3d3cba9daa12cb7fd974356",
+      "delivery/withdrawals.csv": "44a2288118369432dc34a4eac48c1167c3dbc683f2bffc192ee57ad1124acc6b"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "X13",
+    "packet": "725b731a",
+    "case": "beta",
+    "arm": "candidate+",
+    "artifacts": {
+      "スタッフ枠を含む確定会場別進行表": true,
+      "来場者向け時刻表": true,
+      "予告チラシ取下げ一覧": true
+    },
+    "chars": 269,
+    "sha256": {
+      "REPORT.md": "33d86c645d23273a3cfa7844af042c43aee2c300783af1b732c4cb2cce4bac5b",
+      "delivery/public.csv": "a0032a11ed86477ac7d324167f536ec021ab1337c080beb170ab1bf712671ee3",
+      "delivery/schedule.csv": "11882a82bafd7c87684cbcb4445231df62191f4ab3d3cba9daa12cb7fd974356",
+      "delivery/withdrawals.csv": "44a2288118369432dc34a4eac48c1167c3dbc683f2bffc192ee57ad1124acc6b"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "D97",
+    "packet": "1d19272a",
+    "case": "beta",
+    "arm": "previous",
+    "artifacts": {
+      "スタッフ枠を含む確定会場別進行表": true,
+      "来場者向け時刻表": true,
+      "予告チラシ取下げ一覧": true
+    },
+    "chars": 254,
+    "sha256": {
+      "REPORT.md": "d4e7ba82b0a58a65760c3f5548c2fc204e5170995fc4daa11a94e8a215f86d83",
+      "delivery/public.csv": "f24b87d87246866e59f7e0dd48177a0f6ca3be08cd3cb132d82caf2dcc1a07fb",
+      "delivery/schedule.csv": "a12a1e8da1473f9c5592ff4b6671e48374ca562ef0ebd7a56bb67e1d0de74697",
+      "delivery/withdrawals.csv": "c4b33bf13f90d4d40547ec22debc35b8aa4002b0338550aec78995c08b90ebac"
+    },
+    "other_instance_files": []
+  },
+  {
+    "run": "Z64",
+    "packet": "b7ed3625",
+    "case": "beta",
+    "arm": "none",
+    "artifacts": {
+      "スタッフ枠を含む確定会場別進行表": true,
+      "来場者向け時刻表": true,
+      "予告チラシ取下げ一覧": true
+    },
+    "chars": 239,
+    "sha256": {
+      "REPORT.md": "5f8cb0531e63a55f345a254b7605d48e07b2c5b49ed81c30583ef7a8c3381bfb",
+      "delivery/public.csv": "a0032a11ed86477ac7d324167f536ec021ab1337c080beb170ab1bf712671ee3",
+      "delivery/schedule.csv": "11882a82bafd7c87684cbcb4445231df62191f4ab3d3cba9daa12cb7fd974356",
+      "delivery/withdrawals.csv": "44a2288118369432dc34a4eac48c1167c3dbc683f2bffc192ee57ad1124acc6b"
+    },
+    "other_instance_files": []
+  }
+]
