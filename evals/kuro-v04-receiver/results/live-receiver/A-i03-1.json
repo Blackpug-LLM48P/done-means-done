@@ -1,0 +1,57 @@
+{
+  "actions": {
+    "advance_operation": {
+      "decision": "hold",
+      "depends_on": [
+        "state"
+      ],
+      "reasons": [
+        "state: caller returned 'open'"
+      ]
+    },
+    "archive_report": {
+      "decision": "hold",
+      "depends_on": [
+        "state",
+        "handoff"
+      ],
+      "reasons": [
+        "state: caller returned 'open'",
+        "handoff: text present"
+      ]
+    },
+    "close_case": {
+      "decision": "hold",
+      "depends_on": [
+        "state",
+        "handoff"
+      ],
+      "reasons": [
+        "state: caller returned 'open'",
+        "handoff: text present"
+      ]
+    }
+  },
+  "arm": "A",
+  "as_of": "2026-10-07T16:00:00+09:00",
+  "case_id": "F7K4",
+  "dry_run": true,
+  "fields": {
+    "handoff": {
+      "reasons": [
+        "text present"
+      ],
+      "valid": true,
+      "value": "10月7日16時現在、『凪の港』の35mmプリントは運送会社への引き渡しが完了しています。輸送箱はK-24で、封印済みです。運転手は15時17分に集荷伝票の受領欄に署名しました。搬出点検票は必須項目の入力と登録番号の採番が済んでいます。第3版の保存版PDFは14時40分時点で決裁待ちでした。15時42分に事務室から承認されたらしいとの電話がありましたが、承認ログで電子署名を確認できるのは第2版のみで、第3版の承認は未確認です。"
+    },
+    "state": {
+      "reasons": [
+        "caller returned 'open'"
+      ],
+      "valid": true,
+      "value": "open"
+    }
+  },
+  "handoff": "10月7日16時現在、『凪の港』の35mmプリントは運送会社への引き渡しが完了しています。輸送箱はK-24で、封印済みです。運転手は15時17分に集荷伝票の受領欄に署名しました。搬出点検票は必須項目の入力と登録番号の採番が済んでいます。第3版の保存版PDFは14時40分時点で決裁待ちでした。15時42分に事務室から承認されたらしいとの電話がありましたが、承認ログで電子署名を確認できるのは第2版のみで、第3版の承認は未確認です。",
+  "revision": 3
+}

@@ -1,0 +1,57 @@
+{
+  "actions": {
+    "advance_operation": {
+      "decision": "hold",
+      "depends_on": [
+        "state"
+      ],
+      "reasons": [
+        "state: caller returned 'open'"
+      ]
+    },
+    "archive_report": {
+      "decision": "hold",
+      "depends_on": [
+        "state",
+        "handoff"
+      ],
+      "reasons": [
+        "state: caller returned 'open'",
+        "handoff: text present"
+      ]
+    },
+    "close_case": {
+      "decision": "hold",
+      "depends_on": [
+        "state",
+        "handoff"
+      ],
+      "reasons": [
+        "state: caller returned 'open'",
+        "handoff: text present"
+      ]
+    }
+  },
+  "arm": "A",
+  "as_of": "2026-10-14T16:00:00+09:00",
+  "case_id": "T2K7F",
+  "dry_run": true,
+  "fields": {
+    "handoff": {
+      "reasons": [
+        "text present"
+      ],
+      "valid": true,
+      "value": "10月14日16時時点で、『つばめ宿』から受領した帽子は計2点です。現物を割当票と照合し、山高帽の個体番号はH-42、麦わら帽はH-43と確認しました。受領報告書には署名入りの借用明細の写しが添付されています。山高帽の個体札は取り付け済みです。麦わら帽は取り付け箇所の確認待ちで、個体札は未装着です。"
+    },
+    "state": {
+      "reasons": [
+        "caller returned 'open'"
+      ],
+      "valid": true,
+      "value": "open"
+    }
+  },
+  "handoff": "10月14日16時時点で、『つばめ宿』から受領した帽子は計2点です。現物を割当票と照合し、山高帽の個体番号はH-42、麦わら帽はH-43と確認しました。受領報告書には署名入りの借用明細の写しが添付されています。山高帽の個体札は取り付け済みです。麦わら帽は取り付け箇所の確認待ちで、個体札は未装着です。",
+  "revision": "r6"
+}

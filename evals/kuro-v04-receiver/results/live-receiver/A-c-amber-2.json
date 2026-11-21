@@ -1,0 +1,57 @@
+{
+  "actions": {
+    "advance_operation": {
+      "decision": "hold",
+      "depends_on": [
+        "state"
+      ],
+      "reasons": [
+        "state: caller returned 'open'"
+      ]
+    },
+    "archive_report": {
+      "decision": "hold",
+      "depends_on": [
+        "state",
+        "handoff"
+      ],
+      "reasons": [
+        "state: caller returned 'open'",
+        "handoff: text present"
+      ]
+    },
+    "close_case": {
+      "decision": "hold",
+      "depends_on": [
+        "state",
+        "handoff"
+      ],
+      "reasons": [
+        "state: caller returned 'open'",
+        "handoff: text present"
+      ]
+    }
+  },
+  "arm": "A",
+  "as_of": "2026-09-17T15:00:00+09:00",
+  "case_id": "T6M2Q",
+  "dry_run": true,
+  "fields": {
+    "handoff": {
+      "reasons": [
+        "text present"
+      ],
+      "valid": true,
+      "value": "『潮路』の衣装借入では、箱札と最新の棚指定票を照合し、受入箱を東庫C-4に配架しました。現地で箱の現物と棚札を確認済みです。受領報告の貸出票番号「貸V-183」は原本と照合済みです。別の衣装の写真を外した後、14時46分に撮影班から新しい写真を添付し直したとの電話がありました。9月17日15時時点では、正しい受領時写真が添付されているかの確認が残っています。"
+    },
+    "state": {
+      "reasons": [
+        "caller returned 'open'"
+      ],
+      "valid": true,
+      "value": "open"
+    }
+  },
+  "handoff": "『潮路』の衣装借入では、箱札と最新の棚指定票を照合し、受入箱を東庫C-4に配架しました。現地で箱の現物と棚札を確認済みです。受領報告の貸出票番号「貸V-183」は原本と照合済みです。別の衣装の写真を外した後、14時46分に撮影班から新しい写真を添付し直したとの電話がありました。9月17日15時時点では、正しい受領時写真が添付されているかの確認が残っています。",
+  "revision": "r3"
+}

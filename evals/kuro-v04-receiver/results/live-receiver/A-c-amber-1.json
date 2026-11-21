@@ -1,0 +1,57 @@
+{
+  "actions": {
+    "advance_operation": {
+      "decision": "plan",
+      "depends_on": [
+        "state"
+      ],
+      "reasons": [
+        "state: caller returned 'complete'"
+      ]
+    },
+    "archive_report": {
+      "decision": "plan",
+      "depends_on": [
+        "state",
+        "handoff"
+      ],
+      "reasons": [
+        "state: caller returned 'complete'",
+        "handoff: text present"
+      ]
+    },
+    "close_case": {
+      "decision": "plan",
+      "depends_on": [
+        "state",
+        "handoff"
+      ],
+      "reasons": [
+        "state: caller returned 'complete'",
+        "handoff: text present"
+      ]
+    }
+  },
+  "arm": "A",
+  "as_of": "2026-10-02T12:30:00+09:00",
+  "case_id": "T3Z8H",
+  "dry_run": true,
+  "fields": {
+    "handoff": {
+      "reasons": [
+        "text present"
+      ],
+      "valid": true,
+      "value": "『月の庭』（r5）の受領明細報告と上着の採寸は完了しました。受領明細の貸主欄を署名済みの貸出票と照合し、貸主が銀笛座であることを確認しました。担当者は受領明細を読み合わせ、確認印を押しました。上着の実測値は、袖丈が肩先から袖口まで57 cm、着丈が背中心で72 cmです。"
+    },
+    "state": {
+      "reasons": [
+        "caller returned 'complete'"
+      ],
+      "valid": true,
+      "value": "complete"
+    }
+  },
+  "handoff": "『月の庭』（r5）の受領明細報告と上着の採寸は完了しました。受領明細の貸主欄を署名済みの貸出票と照合し、貸主が銀笛座であることを確認しました。担当者は受領明細を読み合わせ、確認印を押しました。上着の実測値は、袖丈が肩先から袖口まで57 cm、着丈が背中心で72 cmです。",
+  "revision": "r5"
+}

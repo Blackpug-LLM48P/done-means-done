@@ -1,0 +1,86 @@
+{
+  "actions": {
+    "advance_operation": {
+      "decision": "hold",
+      "depends_on": [
+        "operation_state"
+      ],
+      "reasons": [
+        "operation_state: '収納段への敷布設置': met per ['AM-234']",
+        "operation_state: '外套の収納段への移載': pending per ['AM-461']"
+      ]
+    },
+    "archive_report": {
+      "decision": "hold",
+      "depends_on": [
+        "report_state",
+        "handoff"
+      ],
+      "reasons": [
+        "report_state: '損傷位置の記載照合': met per ['AM-680']",
+        "report_state: '検品者の署名確認': pending per ['AM-903']",
+        "handoff: text present"
+      ]
+    },
+    "close_case": {
+      "decision": "hold",
+      "depends_on": [
+        "report_state",
+        "operation_state",
+        "handoff"
+      ],
+      "reasons": [
+        "report_state: '損傷位置の記載照合': met per ['AM-680']",
+        "report_state: '検品者の署名確認': pending per ['AM-903']",
+        "operation_state: '収納段への敷布設置': met per ['AM-234']",
+        "operation_state: '外套の収納段への移載': pending per ['AM-461']",
+        "handoff: text present"
+      ]
+    }
+  },
+  "arm": "B",
+  "as_of": "2026-10-09T17:00:00+09:00",
+  "case_id": "T8B4N",
+  "dry_run": true,
+  "fields": {
+    "handoff": {
+      "reasons": [
+        "text present"
+      ],
+      "valid": true,
+      "value": "10月9日17時時点の申し送りです。借入外套『蛍坂』のほつれは左襟の裏にあり、受領時状態報告書の記載と一致しました。15時12分の確認では検品者の署名欄は空欄で、署名確認は未了です。平置き用の収納段には未晒し木綿を敷き、しわを伸ばしました。16時10分の確認では外套は検品台にあり、収納段への移載は未了です。"
+    },
+    "operation_state": {
+      "as_of": "2026-10-09T17:00:00+09:00",
+      "evidence_refs": [
+        "AM-461"
+      ],
+      "evidence_valid": true,
+      "reasons": [
+        "'収納段への敷布設置': met per ['AM-234']",
+        "'外套の収納段への移載': pending per ['AM-461']"
+      ],
+      "revision": "r2",
+      "scope": "外套の平置き収納",
+      "valid": true,
+      "value": "open"
+    },
+    "report_state": {
+      "as_of": "2026-10-09T17:00:00+09:00",
+      "evidence_refs": [
+        "AM-903"
+      ],
+      "evidence_valid": true,
+      "reasons": [
+        "'損傷位置の記載照合': met per ['AM-680']",
+        "'検品者の署名確認': pending per ['AM-903']"
+      ],
+      "revision": "r2",
+      "scope": "借入外套の受領時状態報告",
+      "valid": true,
+      "value": "open"
+    }
+  },
+  "handoff": "10月9日17時時点の申し送りです。借入外套『蛍坂』のほつれは左襟の裏にあり、受領時状態報告書の記載と一致しました。15時12分の確認では検品者の署名欄は空欄で、署名確認は未了です。平置き用の収納段には未晒し木綿を敷き、しわを伸ばしました。16時10分の確認では外套は検品台にあり、収納段への移載は未了です。",
+  "revision": "r2"
+}

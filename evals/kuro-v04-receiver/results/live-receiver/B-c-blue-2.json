@@ -1,0 +1,87 @@
+{
+  "actions": {
+    "advance_operation": {
+      "decision": "hold",
+      "depends_on": [
+        "operation_state"
+      ],
+      "reasons": [
+        "operation_state: '到着外箱の検数': met per ['b8u5']",
+        "operation_state: '受領権限者の検収署名': pending per ['b8u4']"
+      ]
+    },
+    "archive_report": {
+      "decision": "plan",
+      "depends_on": [
+        "report_state",
+        "handoff"
+      ],
+      "reasons": [
+        "report_state: '返送便名の登録': met per ['b8u1']",
+        "report_state: '明細書の確定': met per ['b8u3']",
+        "handoff: text present"
+      ]
+    },
+    "close_case": {
+      "decision": "hold",
+      "depends_on": [
+        "report_state",
+        "operation_state",
+        "handoff"
+      ],
+      "reasons": [
+        "report_state: '返送便名の登録': met per ['b8u1']",
+        "report_state: '明細書の確定': met per ['b8u3']",
+        "operation_state: '到着外箱の検数': met per ['b8u5']",
+        "operation_state: '受領権限者の検収署名': pending per ['b8u4']",
+        "handoff: text present"
+      ]
+    }
+  },
+  "arm": "B",
+  "as_of": "2026-10-21T16:00:00+09:00",
+  "case_id": "F8D3",
+  "dry_run": true,
+  "fields": {
+    "handoff": {
+      "reasons": [
+        "text present"
+      ],
+      "valid": true,
+      "value": "2026年10月21日16時時点で、『夜番』のプリントの返送明細書（第2版）は確定済みです。返送には「青葉5便」を使用し、責任者が10時14分に明細書を確定しました。寄託者の受付担当は15時38分に到着した外箱2箱を現物で確認しました。15時44分の確認では検収台帳の署名欄は空欄で、16時時点の記録では受領権限者の検収署名は未確認です。"
+    },
+    "operation_state": {
+      "as_of": "2026-10-21T16:00:00+09:00",
+      "evidence_refs": [
+        "b8u4"
+      ],
+      "evidence_valid": true,
+      "reasons": [
+        "'到着外箱の検数': met per ['b8u5']",
+        "'受領権限者の検収署名': pending per ['b8u4']"
+      ],
+      "revision": 2,
+      "scope": "寄託者側の受領",
+      "valid": true,
+      "value": "open"
+    },
+    "report_state": {
+      "as_of": "2026-10-21T16:00:00+09:00",
+      "evidence_refs": [
+        "b8u1",
+        "b8u3"
+      ],
+      "evidence_valid": true,
+      "reasons": [
+        "'返送便名の登録': met per ['b8u1']",
+        "'明細書の確定': met per ['b8u3']"
+      ],
+      "revision": 2,
+      "scope": "返送明細書",
+      "valid": true,
+      "value": "complete"
+    }
+  },
+  "handoff": "2026年10月21日16時時点で、『夜番』のプリントの返送明細書（第2版）は確定済みです。返送には「青葉5便」を使用し、責任者が10時14分に明細書を確定しました。寄託者の受付担当は15時38分に到着した外箱2箱を現物で確認しました。15時44分の確認では検収台帳の署名欄は空欄で、16時時点の記録では受領権限者の検収署名は未確認です。",
+  "revision": 2
+}

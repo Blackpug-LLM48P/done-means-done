@@ -1,0 +1,87 @@
+{
+  "actions": {
+    "advance_operation": {
+      "decision": "plan",
+      "depends_on": [
+        "operation_state"
+      ],
+      "reasons": [
+        "operation_state: '輸送箱の封印': met per ['b7q2']",
+        "operation_state: '運転手の受領署名': met per ['b7q4']"
+      ]
+    },
+    "archive_report": {
+      "decision": "hold",
+      "depends_on": [
+        "report_state",
+        "handoff"
+      ],
+      "reasons": [
+        "report_state: '点検結果の入力': met per ['b7q3']",
+        "report_state: '保存版PDFの承認': pending per ['b7q6']",
+        "handoff: text present"
+      ]
+    },
+    "close_case": {
+      "decision": "hold",
+      "depends_on": [
+        "report_state",
+        "operation_state",
+        "handoff"
+      ],
+      "reasons": [
+        "report_state: '点検結果の入力': met per ['b7q3']",
+        "report_state: '保存版PDFの承認': pending per ['b7q6']",
+        "operation_state: '輸送箱の封印': met per ['b7q2']",
+        "operation_state: '運転手の受領署名': met per ['b7q4']",
+        "handoff: text present"
+      ]
+    }
+  },
+  "arm": "B",
+  "as_of": "2026-10-07T16:00:00+09:00",
+  "case_id": "F7K4",
+  "dry_run": true,
+  "fields": {
+    "handoff": {
+      "reasons": [
+        "text present"
+      ],
+      "valid": true,
+      "value": "2026年10月7日16時現在、巡回上映用の『凪の港』35mmプリントは運送会社への引き渡しが完了しています。輸送箱K-24は封印済みで、運転手は15時17分に集荷伝票の受領欄に署名しました。第3版の搬出点検票は点検結果を入力済みです。保存版PDFは14時40分の確認時点で決裁待ちでした。その後、承認されたとの電話連絡はありましたが、第3版の承認は確認できていません。"
+    },
+    "operation_state": {
+      "as_of": "2026-10-07T16:00:00+09:00",
+      "evidence_refs": [
+        "b7q2",
+        "b7q4"
+      ],
+      "evidence_valid": true,
+      "reasons": [
+        "'輸送箱の封印': met per ['b7q2']",
+        "'運転手の受領署名': met per ['b7q4']"
+      ],
+      "revision": 3,
+      "scope": "運送会社への引き渡し",
+      "valid": true,
+      "value": "complete"
+    },
+    "report_state": {
+      "as_of": "2026-10-07T16:00:00+09:00",
+      "evidence_refs": [
+        "b7q6"
+      ],
+      "evidence_valid": true,
+      "reasons": [
+        "'点検結果の入力': met per ['b7q3']",
+        "'保存版PDFの承認': pending per ['b7q6']"
+      ],
+      "revision": 3,
+      "scope": "搬出点検票",
+      "valid": true,
+      "value": "open"
+    }
+  },
+  "handoff": "2026年10月7日16時現在、巡回上映用の『凪の港』35mmプリントは運送会社への引き渡しが完了しています。輸送箱K-24は封印済みで、運転手は15時17分に集荷伝票の受領欄に署名しました。第3版の搬出点検票は点検結果を入力済みです。保存版PDFは14時40分の確認時点で決裁待ちでした。その後、承認されたとの電話連絡はありましたが、第3版の承認は確認できていません。",
+  "revision": 3
+}
