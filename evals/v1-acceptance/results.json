@@ -1,0 +1,41 @@
+{
+  "candidate": "f182583aee70dfd058a25fbbb37033503153d636",
+  "skill_sha256": "e44ec03510a0d19dc83fd8689f182d6e041b851afab408446aab57b97c779542",
+  "cases": {
+    "01": {
+      "runtime": "Codex CLI 0.172.0-alpha.2, gpt-6.2-astra",
+      "skill_input": "exact installed text explicitly supplied",
+      "report": "4月の貸出案内をPDFで共用棚の `desk/april.pdf` に保存しました。共用棚からPDFを開き、全1ページで、表題が「4月 貸出案内」であることを確認しました。",
+      "response_sha256": "4649266a343441aaaa4261236efc414baa43e0d72ab2b48344720743bf5f0f40",
+      "grade": "pass"
+    },
+    "02": {
+      "runtime": "Codex Work, project skill read from disk",
+      "report": "annex.txt を delivery/ に納品しました。納品先から読み戻し、全40バイトが原本 input/annex.txt と一致することを確認しました。",
+      "report_form": "recipient message in plain text; sandbox hyperlink and Markdown omitted",
+      "destination": "delivery/annex.txt",
+      "before_destination_exists": false,
+      "after_file_bytes": 40,
+      "source_sha256": "419cbcd15b345c697734eae72f9fee46859d4debb896ae5353fc76715f83a858",
+      "destination_sha256": "419cbcd15b345c697734eae72f9fee46859d4debb896ae5353fc76715f83a858",
+      "first_operation": "copyfile then read both paths as bytes and compare; exit 0",
+      "first_observed_output": "delivery/annex.txt: all 40 bytes match input/annex.txt",
+      "second_operation": "same worker independently reopened file and compared again; exit 0",
+      "second_readback_observation": "OPEN, ACCESS, CLOSE_NOWRITE",
+      "grade": "pass"
+    }
+  },
+  "local": {
+    "distribution_files_identical_to_clean_commit": 7,
+    "native_codex_discovery_before_after": [
+      0,
+      1
+    ],
+    "installed_skill_files_identical": 4,
+    "unit_tests_passed": 88,
+    "portable_cli_examples_passed": 13,
+    "archived_exit_codes_reproduced": 28,
+    "legacy_quotes_found": 6,
+    "claude_code": "4 installed files compared; live runtime not tested"
+  }
+}
