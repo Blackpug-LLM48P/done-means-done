@@ -45,7 +45,7 @@ Read the actual final wording against the evidence once more. Check facts introd
 
 ## Output
 
-When the user wants a completion message or a handoff, including a draft checked against supplied records and rewritten for sending, return the revised message in the requested language and format. Give the result, a usable deliverable or location when applicable, the scope of any material checks and current gaps. Include record IDs if the recipient wants to trace a finding. Keep working notes internal. For example, if the only evidence is a worker's save report, a Japanese handoff can say 「担当は保存済みと報告しています。指定先にあるかは、この記録からは確認できません。」
+When the user wants a completion message or a handoff, including a draft checked against supplied records and rewritten for sending, return the revised message in the requested language and format. Give the result, a usable deliverable or location when applicable, the scope of any material checks and current gaps. Include record IDs if the recipient wants to trace a finding. Keep working notes internal. For example, if the only evidence is a worker's save report, the handoff can say, “The person handling the file reports saving the file. The record does not confirm its location.”
 
 Use the detailed format when the requested deliverable is an audit, an evidence ledger or an extended work-state check, or when an existing workflow expects this format.
 
