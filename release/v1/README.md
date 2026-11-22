@@ -8,7 +8,8 @@
 | G2 評価計画の事前登録 | 完了 | [案件・モデル・採否基準](evaluation/PROTOCOL.md)、[GPTの隔離ダミー](evaluation/ISOLATION.md)、[独立検算](evaluation/input-crosscheck.json) |
 | G3 未見の実作業、原記録の固定 | 完了（32/32提出） | [事前固定](https://github.com/Blackpug-LLM48P/done-means-done/commit/1ef97af3e3e2e8d1056464e086137e784690c4fb)、[GPT 16枠](evaluation/gpt-wave-summary.json)、[Opus 16枠](evaluation/opus-wave-summary.json) |
 | G4 独立採点・人による読解 | 進行中 | [実納品の機械採点](evaluation/delivery-summary.json)。[報告の独立採点・裁定完了](evaluation/REPORT_SCORING.md)。実読解0/32 |
-| G5〜G8 採否・RC・回帰・配布 | 未着手 | [事前登録の採否基準](evaluation/PROTOCOL.md) |
+| G5 採否 | 保留 | 人による読解の実測待ち。[事前登録の採否基準](evaluation/PROTOCOL.md) |
+| G6〜G8 RC・回帰・配布 | 未着手 | G5の判定後に配布対象を決める |
 
 **本線8工程のうち完了3、残り5。** 8案件それぞれについて一行指示（B）とDMD全文（C）をGPT・Opusで1回ずつ実行。32枠すべてで、本人の2ターン目の最終報告を受領した。B1の受信側、R1の候補確認、別枠X1はこの比較の対象外。
 
