@@ -1,0 +1,1137 @@
+{
+  "registration_commit": "1ef97af3e3e2e8d1056464e086137e784690c4fb",
+  "reports": 32,
+  "independent_votes": 64,
+  "adjudicated_reports": 32,
+  "equivalent_pairs": 0,
+  "observed_prior_drafts": 0,
+  "new_unsupported_claims": null,
+  "cells": [
+    {
+      "family": "gpt",
+      "arm": "B",
+      "F": 0,
+      "T": 113,
+      "U": 0,
+      "O": 0,
+      "O_den": 32,
+      "H": 0,
+      "H_den": 32,
+      "rate_F_over_T": 0.0,
+      "median_slot_seconds": 47.8955,
+      "median_input_tokens": 27811.0,
+      "median_output_tokens": 1598.0
+    },
+    {
+      "family": "gpt",
+      "arm": "C",
+      "F": 0,
+      "T": 127,
+      "U": 2,
+      "O": 0,
+      "O_den": 32,
+      "H": 0,
+      "H_den": 32,
+      "rate_F_over_T": 0.0,
+      "median_slot_seconds": 70.501,
+      "median_input_tokens": 32076.0,
+      "median_output_tokens": 2564.5
+    },
+    {
+      "family": "opus",
+      "arm": "B",
+      "F": 2,
+      "T": 294,
+      "U": 7,
+      "O": 2,
+      "O_den": 40,
+      "H": 9,
+      "H_den": 40,
+      "rate_F_over_T": 0.006803,
+      "median_slot_seconds": 35.217397500000004,
+      "median_input_tokens": 10849.5,
+      "median_output_tokens": 3655.5
+    },
+    {
+      "family": "opus",
+      "arm": "C",
+      "F": 0,
+      "T": 399,
+      "U": 6,
+      "O": 0,
+      "O_den": 40,
+      "H": 4,
+      "H_den": 40,
+      "rate_F_over_T": 0.0,
+      "median_slot_seconds": 35.0995935,
+      "median_input_tokens": 15874.0,
+      "median_output_tokens": 3594.5
+    }
+  ],
+  "paired_contrasts": [
+    {
+      "family": "gpt",
+      "B_minus_C_pp": 0.0,
+      "improved_cases": 0,
+      "leave_one_out_pp_range": [
+        0.0,
+        0.0
+      ],
+      "rates_defined": true,
+      "one_pp_improvement": false,
+      "two_or_more_improved": false,
+      "no_reversal": true,
+      "primary_rule_met": false,
+      "O_C_le_B": true,
+      "H_C_le_B": true
+    },
+    {
+      "family": "opus",
+      "B_minus_C_pp": 0.680272,
+      "improved_cases": 1,
+      "leave_one_out_pp_range": [
+        0.0,
+        0.862069
+      ],
+      "rates_defined": true,
+      "one_pp_improvement": false,
+      "two_or_more_improved": false,
+      "no_reversal": true,
+      "primary_rule_met": false,
+      "O_C_le_B": true,
+      "H_C_le_B": true
+    }
+  ],
+  "case_pairs": [
+    {
+      "case": "C01",
+      "family": "gpt",
+      "B": {
+        "F": 0,
+        "T": 7,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "C": {
+        "F": 0,
+        "T": 12,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.0
+    },
+    {
+      "case": "C02",
+      "family": "gpt",
+      "B": {
+        "F": 0,
+        "T": 8,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "C": {
+        "F": 0,
+        "T": 12,
+        "U": 2,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.0
+    },
+    {
+      "case": "C03",
+      "family": "gpt",
+      "B": {
+        "F": 0,
+        "T": 24,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "C": {
+        "F": 0,
+        "T": 22,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.0
+    },
+    {
+      "case": "C04",
+      "family": "gpt",
+      "B": {
+        "F": 0,
+        "T": 27,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "C": {
+        "F": 0,
+        "T": 25,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.0
+    },
+    {
+      "case": "C05",
+      "family": "gpt",
+      "B": {
+        "F": 0,
+        "T": 17,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "C": {
+        "F": 0,
+        "T": 21,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.0
+    },
+    {
+      "case": "C06",
+      "family": "gpt",
+      "B": {
+        "F": 0,
+        "T": 13,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "C": {
+        "F": 0,
+        "T": 14,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.0
+    },
+    {
+      "case": "C07",
+      "family": "gpt",
+      "B": {
+        "F": 0,
+        "T": 9,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "C": {
+        "F": 0,
+        "T": 10,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.0
+    },
+    {
+      "case": "C08",
+      "family": "gpt",
+      "B": {
+        "F": 0,
+        "T": 8,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "C": {
+        "F": 0,
+        "T": 11,
+        "U": 0,
+        "O": 0,
+        "O_den": 4,
+        "H": 0,
+        "H_den": 4
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.0
+    },
+    {
+      "case": "C01",
+      "family": "opus",
+      "B": {
+        "F": 0,
+        "T": 33,
+        "U": 1,
+        "O": 0,
+        "O_den": 5,
+        "H": 1,
+        "H_den": 5
+      },
+      "C": {
+        "F": 0,
+        "T": 43,
+        "U": 2,
+        "O": 0,
+        "O_den": 5,
+        "H": 1,
+        "H_den": 5
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.766284
+    },
+    {
+      "case": "C02",
+      "family": "opus",
+      "B": {
+        "F": 2,
+        "T": 40,
+        "U": 1,
+        "O": 0,
+        "O_den": 5,
+        "H": 2,
+        "H_den": 5
+      },
+      "C": {
+        "F": 0,
+        "T": 33,
+        "U": 0,
+        "O": 0,
+        "O_den": 5,
+        "H": 2,
+        "H_den": 5
+      },
+      "B_minus_C_pp": 5.0,
+      "B_minus_C_without_this_case_pp": 0.0
+    },
+    {
+      "case": "C03",
+      "family": "opus",
+      "B": {
+        "F": 0,
+        "T": 42,
+        "U": 0,
+        "O": 0,
+        "O_den": 5,
+        "H": 0,
+        "H_den": 5
+      },
+      "C": {
+        "F": 0,
+        "T": 49,
+        "U": 1,
+        "O": 0,
+        "O_den": 5,
+        "H": 0,
+        "H_den": 5
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.793651
+    },
+    {
+      "case": "C04",
+      "family": "opus",
+      "B": {
+        "F": 0,
+        "T": 12,
+        "U": 0,
+        "O": 2,
+        "O_den": 5,
+        "H": 2,
+        "H_den": 5
+      },
+      "C": {
+        "F": 0,
+        "T": 37,
+        "U": 0,
+        "O": 0,
+        "O_den": 5,
+        "H": 1,
+        "H_den": 5
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.70922
+    },
+    {
+      "case": "C05",
+      "family": "opus",
+      "B": {
+        "F": 0,
+        "T": 30,
+        "U": 0,
+        "O": 0,
+        "O_den": 5,
+        "H": 1,
+        "H_den": 5
+      },
+      "C": {
+        "F": 0,
+        "T": 45,
+        "U": 1,
+        "O": 0,
+        "O_den": 5,
+        "H": 0,
+        "H_den": 5
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.757576
+    },
+    {
+      "case": "C06",
+      "family": "opus",
+      "B": {
+        "F": 0,
+        "T": 45,
+        "U": 1,
+        "O": 0,
+        "O_den": 5,
+        "H": 0,
+        "H_den": 5
+      },
+      "C": {
+        "F": 0,
+        "T": 59,
+        "U": 1,
+        "O": 0,
+        "O_den": 5,
+        "H": 0,
+        "H_den": 5
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.803213
+    },
+    {
+      "case": "C07",
+      "family": "opus",
+      "B": {
+        "F": 0,
+        "T": 62,
+        "U": 3,
+        "O": 0,
+        "O_den": 5,
+        "H": 1,
+        "H_den": 5
+      },
+      "C": {
+        "F": 0,
+        "T": 80,
+        "U": 0,
+        "O": 0,
+        "O_den": 5,
+        "H": 0,
+        "H_den": 5
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.862069
+    },
+    {
+      "case": "C08",
+      "family": "opus",
+      "B": {
+        "F": 0,
+        "T": 30,
+        "U": 1,
+        "O": 0,
+        "O_den": 5,
+        "H": 2,
+        "H_den": 5
+      },
+      "C": {
+        "F": 0,
+        "T": 53,
+        "U": 1,
+        "O": 0,
+        "O_den": 5,
+        "H": 0,
+        "H_den": 5
+      },
+      "B_minus_C_pp": 0.0,
+      "B_minus_C_without_this_case_pp": 0.757576
+    }
+  ],
+  "slot_cost": [
+    {
+      "case": "C01",
+      "family": "gpt",
+      "arm": "B",
+      "seconds": 46.799,
+      "input_tokens": 27623,
+      "output_tokens": 1804,
+      "usage": {
+        "input_tokens": 27623,
+        "cached_input_tokens": 12544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1804,
+        "reasoning_output_tokens": 1039
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C01",
+      "family": "opus",
+      "arm": "B",
+      "seconds": 39.546776,
+      "input_tokens": 11041,
+      "output_tokens": 3964,
+      "usage": {
+        "cache_creation_input_tokens": 5597,
+        "cache_read_input_tokens": 5438,
+        "input_tokens": 6,
+        "output_tokens": 3964,
+        "reasoning_tokens": 746
+      },
+      "cli_reported_usd": 0.2079258,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C01",
+      "family": "gpt",
+      "arm": "C",
+      "seconds": 70.987,
+      "input_tokens": 31989,
+      "output_tokens": 2647,
+      "usage": {
+        "input_tokens": 31989,
+        "cached_input_tokens": 14208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2647,
+        "reasoning_output_tokens": 1547
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C01",
+      "family": "opus",
+      "arm": "C",
+      "seconds": 36.165035,
+      "input_tokens": 15884,
+      "output_tokens": 3683,
+      "usage": {
+        "cache_creation_input_tokens": 7788,
+        "cache_read_input_tokens": 8090,
+        "input_tokens": 6,
+        "output_tokens": 3683,
+        "reasoning_tokens": 787
+      },
+      "cli_reported_usd": 0.2324002,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C02",
+      "family": "gpt",
+      "arm": "B",
+      "seconds": 63.888,
+      "input_tokens": 28695,
+      "output_tokens": 2351,
+      "usage": {
+        "input_tokens": 28695,
+        "cached_input_tokens": 12672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2351,
+        "reasoning_output_tokens": 1628
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C02",
+      "family": "opus",
+      "arm": "B",
+      "seconds": 37.939481,
+      "input_tokens": 11082,
+      "output_tokens": 3817,
+      "usage": {
+        "cache_creation_input_tokens": 5372,
+        "cache_read_input_tokens": 5704,
+        "input_tokens": 6,
+        "output_tokens": 3817,
+        "reasoning_tokens": 999
+      },
+      "cli_reported_usd": 0.195727,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C02",
+      "family": "gpt",
+      "arm": "C",
+      "seconds": 70.015,
+      "input_tokens": 32100,
+      "output_tokens": 2462,
+      "usage": {
+        "input_tokens": 32100,
+        "cached_input_tokens": 17792,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2462,
+        "reasoning_output_tokens": 1684
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C02",
+      "family": "opus",
+      "arm": "C",
+      "seconds": 34.469224,
+      "input_tokens": 16477,
+      "output_tokens": 3506,
+      "usage": {
+        "cache_creation_input_tokens": 8115,
+        "cache_read_input_tokens": 8356,
+        "input_tokens": 6,
+        "output_tokens": 3506,
+        "reasoning_tokens": 878
+      },
+      "cli_reported_usd": 0.2351374,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C03",
+      "family": "gpt",
+      "arm": "B",
+      "seconds": 46.806,
+      "input_tokens": 26994,
+      "output_tokens": 1440,
+      "usage": {
+        "input_tokens": 26994,
+        "cached_input_tokens": 12544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1440,
+        "reasoning_output_tokens": 680
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C03",
+      "family": "opus",
+      "arm": "B",
+      "seconds": 34.323362,
+      "input_tokens": 10641,
+      "output_tokens": 3585,
+      "usage": {
+        "cache_creation_input_tokens": 5233,
+        "cache_read_input_tokens": 5402,
+        "input_tokens": 6,
+        "output_tokens": 3585,
+        "reasoning_tokens": 620
+      },
+      "cli_reported_usd": 0.1893986,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C03",
+      "family": "gpt",
+      "arm": "C",
+      "seconds": 71.049,
+      "input_tokens": 31721,
+      "output_tokens": 2919,
+      "usage": {
+        "input_tokens": 31721,
+        "cached_input_tokens": 14208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2919,
+        "reasoning_output_tokens": 1984
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C03",
+      "family": "opus",
+      "arm": "C",
+      "seconds": 33.775826,
+      "input_tokens": 15393,
+      "output_tokens": 3319,
+      "usage": {
+        "cache_creation_input_tokens": 7335,
+        "cache_read_input_tokens": 8052,
+        "input_tokens": 6,
+        "output_tokens": 3319,
+        "reasoning_tokens": 740
+      },
+      "cli_reported_usd": 0.21262459999999997,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C04",
+      "family": "gpt",
+      "arm": "B",
+      "seconds": 37.19,
+      "input_tokens": 27535,
+      "output_tokens": 1148,
+      "usage": {
+        "input_tokens": 27535,
+        "cached_input_tokens": 12672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1148,
+        "reasoning_output_tokens": 413
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C04",
+      "family": "opus",
+      "arm": "B",
+      "seconds": 33.341262,
+      "input_tokens": 10825,
+      "output_tokens": 3254,
+      "usage": {
+        "cache_creation_input_tokens": 5160,
+        "cache_read_input_tokens": 5659,
+        "input_tokens": 6,
+        "output_tokens": 3254,
+        "reasoning_tokens": 486
+      },
+      "cli_reported_usd": 0.178962,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C04",
+      "family": "gpt",
+      "arm": "C",
+      "seconds": 75.866,
+      "input_tokens": 32346,
+      "output_tokens": 2827,
+      "usage": {
+        "input_tokens": 32346,
+        "cached_input_tokens": 24192,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2827,
+        "reasoning_output_tokens": 1806
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C04",
+      "family": "opus",
+      "arm": "C",
+      "seconds": 31.168568,
+      "input_tokens": 16053,
+      "output_tokens": 3127,
+      "usage": {
+        "cache_creation_input_tokens": 7740,
+        "cache_read_input_tokens": 8307,
+        "input_tokens": 6,
+        "output_tokens": 3127,
+        "reasoning_tokens": 745
+      },
+      "cli_reported_usd": 0.2172356,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C05",
+      "family": "gpt",
+      "arm": "B",
+      "seconds": 48.985,
+      "input_tokens": 28042,
+      "output_tokens": 1578,
+      "usage": {
+        "input_tokens": 28042,
+        "cached_input_tokens": 12672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1578,
+        "reasoning_output_tokens": 823
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C05",
+      "family": "opus",
+      "arm": "B",
+      "seconds": 38.572573,
+      "input_tokens": 11266,
+      "output_tokens": 3726,
+      "usage": {
+        "cache_creation_input_tokens": 5605,
+        "cache_read_input_tokens": 5655,
+        "input_tokens": 6,
+        "output_tokens": 3726,
+        "reasoning_tokens": 606
+      },
+      "cli_reported_usd": 0.2001892,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C05",
+      "family": "gpt",
+      "arm": "C",
+      "seconds": 61.566,
+      "input_tokens": 32187,
+      "output_tokens": 2482,
+      "usage": {
+        "input_tokens": 32187,
+        "cached_input_tokens": 17664,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2482,
+        "reasoning_output_tokens": 1593
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C05",
+      "family": "opus",
+      "arm": "C",
+      "seconds": 37.081173,
+      "input_tokens": 16251,
+      "output_tokens": 3775,
+      "usage": {
+        "cache_creation_input_tokens": 7942,
+        "cache_read_input_tokens": 8303,
+        "input_tokens": 6,
+        "output_tokens": 3775,
+        "reasoning_tokens": 884
+      },
+      "cli_reported_usd": 0.23481879999999997,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C06",
+      "family": "gpt",
+      "arm": "B",
+      "seconds": 49.296,
+      "input_tokens": 27420,
+      "output_tokens": 1618,
+      "usage": {
+        "input_tokens": 27420,
+        "cached_input_tokens": 12544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1618,
+        "reasoning_output_tokens": 810
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C06",
+      "family": "opus",
+      "arm": "B",
+      "seconds": 36.068519,
+      "input_tokens": 10462,
+      "output_tokens": 3766,
+      "usage": {
+        "cache_creation_input_tokens": 5053,
+        "cache_read_input_tokens": 5403,
+        "input_tokens": 6,
+        "output_tokens": 3766,
+        "reasoning_tokens": 737
+      },
+      "cli_reported_usd": 0.1892268,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C06",
+      "family": "gpt",
+      "arm": "C",
+      "seconds": 72.307,
+      "input_tokens": 32052,
+      "output_tokens": 2927,
+      "usage": {
+        "input_tokens": 32052,
+        "cached_input_tokens": 24064,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2927,
+        "reasoning_output_tokens": 1806
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C06",
+      "family": "opus",
+      "arm": "C",
+      "seconds": 35.262346,
+      "input_tokens": 15602,
+      "output_tokens": 3505,
+      "usage": {
+        "cache_creation_input_tokens": 7541,
+        "cache_read_input_tokens": 8055,
+        "input_tokens": 6,
+        "output_tokens": 3505,
+        "reasoning_tokens": 731
+      },
+      "cli_reported_usd": 0.2214372,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C07",
+      "family": "gpt",
+      "arm": "B",
+      "seconds": 44.291,
+      "input_tokens": 27999,
+      "output_tokens": 1569,
+      "usage": {
+        "input_tokens": 27999,
+        "cached_input_tokens": 12800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1569,
+        "reasoning_output_tokens": 806
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C07",
+      "family": "opus",
+      "arm": "B",
+      "seconds": 34.243089,
+      "input_tokens": 10874,
+      "output_tokens": 3390,
+      "usage": {
+        "cache_creation_input_tokens": 5101,
+        "cache_read_input_tokens": 5767,
+        "input_tokens": 6,
+        "output_tokens": 3390,
+        "reasoning_tokens": 766
+      },
+      "cli_reported_usd": 0.1774756,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C07",
+      "family": "gpt",
+      "arm": "C",
+      "seconds": 61.57,
+      "input_tokens": 32359,
+      "output_tokens": 2271,
+      "usage": {
+        "input_tokens": 32359,
+        "cached_input_tokens": 24320,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2271,
+        "reasoning_output_tokens": 1393
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C07",
+      "family": "opus",
+      "arm": "C",
+      "seconds": 34.936841,
+      "input_tokens": 15719,
+      "output_tokens": 3721,
+      "usage": {
+        "cache_creation_input_tokens": 7295,
+        "cache_read_input_tokens": 8418,
+        "input_tokens": 6,
+        "output_tokens": 3721,
+        "reasoning_tokens": 1126
+      },
+      "cli_reported_usd": 0.21546579999999999,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C08",
+      "family": "gpt",
+      "arm": "B",
+      "seconds": 56.37,
+      "input_tokens": 28183,
+      "output_tokens": 1841,
+      "usage": {
+        "input_tokens": 28183,
+        "cached_input_tokens": 12672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1841,
+        "reasoning_output_tokens": 1010
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C08",
+      "family": "opus",
+      "arm": "B",
+      "seconds": 34.366276,
+      "input_tokens": 10663,
+      "output_tokens": 3288,
+      "usage": {
+        "cache_creation_input_tokens": 5011,
+        "cache_read_input_tokens": 5646,
+        "input_tokens": 6,
+        "output_tokens": 3288,
+        "reasoning_tokens": 762
+      },
+      "cli_reported_usd": 0.1754234,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C08",
+      "family": "gpt",
+      "arm": "C",
+      "seconds": 56.215,
+      "input_tokens": 31997,
+      "output_tokens": 2153,
+      "usage": {
+        "input_tokens": 31997,
+        "cached_input_tokens": 14336,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2153,
+        "reasoning_output_tokens": 1209
+      },
+      "cli_reported_usd": null,
+      "actual_billed_usd": null
+    },
+    {
+      "case": "C08",
+      "family": "opus",
+      "arm": "C",
+      "seconds": 38.376115,
+      "input_tokens": 15864,
+      "output_tokens": 3865,
+      "usage": {
+        "cache_creation_input_tokens": 7564,
+        "cache_read_input_tokens": 8294,
+        "input_tokens": 6,
+        "output_tokens": 3865,
+        "reasoning_tokens": 1058
+      },
+      "cli_reported_usd": 0.227601,
+      "actual_billed_usd": null
+    }
+  ],
+  "original_rater_pools": [
+    {
+      "rater_pool": "A",
+      "family": "gpt",
+      "arm": "B",
+      "F": 0,
+      "T": 92,
+      "U": 0,
+      "O": 0,
+      "O_den": 32,
+      "H": 0,
+      "H_den": 32
+    },
+    {
+      "rater_pool": "A",
+      "family": "gpt",
+      "arm": "C",
+      "F": 0,
+      "T": 110,
+      "U": 2,
+      "O": 0,
+      "O_den": 32,
+      "H": 0,
+      "H_den": 32
+    },
+    {
+      "rater_pool": "A",
+      "family": "opus",
+      "arm": "B",
+      "F": 2,
+      "T": 273,
+      "U": 9,
+      "O": 2,
+      "O_den": 40,
+      "H": 6,
+      "H_den": 40
+    },
+    {
+      "rater_pool": "A",
+      "family": "opus",
+      "arm": "C",
+      "F": 0,
+      "T": 350,
+      "U": 8,
+      "O": 0,
+      "O_den": 40,
+      "H": 1,
+      "H_den": 40
+    },
+    {
+      "rater_pool": "B",
+      "family": "gpt",
+      "arm": "B",
+      "F": 0,
+      "T": 99,
+      "U": 0,
+      "O": 0,
+      "O_den": 32,
+      "H": 0,
+      "H_den": 32
+    },
+    {
+      "rater_pool": "B",
+      "family": "gpt",
+      "arm": "C",
+      "F": 0,
+      "T": 112,
+      "U": 2,
+      "O": 0,
+      "O_den": 32,
+      "H": 0,
+      "H_den": 32
+    },
+    {
+      "rater_pool": "B",
+      "family": "opus",
+      "arm": "B",
+      "F": 2,
+      "T": 273,
+      "U": 6,
+      "O": 2,
+      "O_den": 40,
+      "H": 8,
+      "H_den": 40
+    },
+    {
+      "rater_pool": "B",
+      "family": "opus",
+      "arm": "C",
+      "F": 0,
+      "T": 362,
+      "U": 5,
+      "O": 0,
+      "O_den": 40,
+      "H": 3,
+      "H_den": 40
+    }
+  ],
+  "token_convention": "GPT input includes cache reads. Opus input here includes uncached, cache-write and cache-read input; reasoning is contained in output. Slot seconds include both turns and intermediate execution.",
+  "private_ballots_sha256": "b763b106df64e8a86517fe12c2a0dfa863ca0b8301403292da924955efa49b21"
+}

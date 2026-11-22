@@ -7,7 +7,7 @@
 | G1 本体と配布範囲 | 完了 | [配布候補7ファイル、通常引き継ぎと既存監査の互換範囲](SCOPE.md) |
 | G2 評価計画の事前登録 | 完了 | [案件・モデル・採否基準](evaluation/PROTOCOL.md)、[GPTの隔離ダミー](evaluation/ISOLATION.md)、[独立検算](evaluation/input-crosscheck.json) |
 | G3 未見の実作業、原記録の固定 | 完了（32/32提出） | [事前固定](https://github.com/Blackpug-LLM48P/done-means-done/commit/1ef97af3e3e2e8d1056464e086137e784690c4fb)、[GPT 16枠](evaluation/gpt-wave-summary.json)、[Opus 16枠](evaluation/opus-wave-summary.json) |
-| G4 独立採点・人による読解 | 進行中 | [実納品の機械採点](evaluation/delivery-summary.json)。独立採点と読解用の匿名資料を準備 |
+| G4 独立採点・人による読解 | 進行中 | [実納品の機械採点](evaluation/delivery-summary.json)。[報告の独立採点・裁定完了](evaluation/REPORT_SCORING.md)。実読解0/32 |
 | G5〜G8 採否・RC・回帰・配布 | 未着手 | [事前登録の採否基準](evaluation/PROTOCOL.md) |
 
 **本線8工程のうち完了3、残り5。** 8案件それぞれについて一行指示（B）とDMD全文（C）をGPT・Opusで1回ずつ実行。32枠すべてで、本人の2ターン目の最終報告を受領した。B1の受信側、R1の候補確認、別枠X1はこの比較の対象外。
@@ -35,7 +35,7 @@
 
 ## 次の工程
 
-報告が納品状況と業務上の保留を正しく伝えたかは、匿名化した32報告を2者が独立採点する（計64票、必要な案件は裁定）。人による読解は4人×8報告で、各人には各案件を1回だけ提示する。機械採点完了時点で独立票0/64、読解0/32。DMD全文と一行指示の採否は未判定。
+32報告の独立64票と必要な裁定を記録した。[報告の採点表](evaluation/REPORT_SCORING.md) ／ [系列・条件・案件別の集計](evaluation/report-scores.json)。残るG4の工程は日本語読者4人×8報告の読解。現時点では実測0/32。G5の採否は保留。
 
 | 運営側で保管するファイル | SHA-256 |
 | --- | --- |
