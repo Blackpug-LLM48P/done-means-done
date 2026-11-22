@@ -1,0 +1,56 @@
+{
+  "registration_commit": "1ef97af3e3e2e8d1056464e086137e784690c4fb",
+  "grader_sha256": "978c6c49b021efad32d5e8301922bdc6c74bbe684b8ea5b6d95bc42d4c30868a",
+  "verified_input_packets": 8,
+  "verified_preregistered_keys": 8,
+  "cases": 8,
+  "submitted_reports": 32,
+  "cells": [
+    {
+      "provider": "gpt",
+      "arm": "B",
+      "slots": 8,
+      "fully_correct": 8,
+      "matched": 53,
+      "missing": 0,
+      "wrong": 0,
+      "unexpected": 0,
+      "required_files": 53
+    },
+    {
+      "provider": "gpt",
+      "arm": "C",
+      "slots": 8,
+      "fully_correct": 8,
+      "matched": 53,
+      "missing": 0,
+      "wrong": 0,
+      "unexpected": 0,
+      "required_files": 53
+    },
+    {
+      "provider": "opus",
+      "arm": "B",
+      "slots": 8,
+      "fully_correct": 0,
+      "matched": 0,
+      "missing": 53,
+      "wrong": 0,
+      "unexpected": 0,
+      "required_files": 53
+    },
+    {
+      "provider": "opus",
+      "arm": "C",
+      "slots": 8,
+      "fully_correct": 0,
+      "matched": 0,
+      "missing": 53,
+      "wrong": 0,
+      "unexpected": 0,
+      "required_files": 53
+    }
+  ],
+  "independent_report_ballots_at_intake": 0,
+  "human_reader_observations_at_intake": 0
+}

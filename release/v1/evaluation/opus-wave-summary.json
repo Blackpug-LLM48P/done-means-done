@@ -1,0 +1,358 @@
+{
+  "actual_billed_usd": null,
+  "archive_sha256": "9ca20ba9607cd46163abbae2625ff9d29551f0b2e468da6af35a54f68f605f35",
+  "assignment_sha256": "286ffd12333d4c73a27d16c4ca2929370fa7877bfc9862d5bb9cf597eab3672c",
+  "cli_reported_cost_usd": 3.311049,
+  "commitments_sha256": "622fb4e1c86fd9fc84d39d931616c7cb4d9ff8f2c0b1f8cc27c7bbb2688ee361",
+  "counts": {
+    "complete_final_reports": 16,
+    "distinct_result_event_ids": 32,
+    "interrupted": 0,
+    "observed_turns": 32,
+    "registered": 16,
+    "separate_worker_sessions": 16,
+    "submitted": 16,
+    "syntax_errors": 16,
+    "timeouts": 0,
+    "tool_events": 0,
+    "unstarted": 0,
+    "verified_status_file_hashes": 192,
+    "worker_deliveries": 0
+  },
+  "handoff_sha256": "f63249d55dba34dfcefd294d9ad8a05295ce0d35fedb0ffdfa8700412ec3d382",
+  "host_config_sha256": "0937a17d1c4e907692063b214087423ba3d8427c3723dd9eaca7b4dd643b23a8",
+  "mcp_servers": [],
+  "model": "claude-opus-5-5",
+  "official_cli_version": "2.1.330",
+  "prose_outside_code_fences": {
+    "after_only": 2,
+    "before_and_after": 12,
+    "before_only": 2
+  },
+  "protocol_checks": {
+    "all_case_condition_inputs_match_pinned_prompts_and_expected_arm": true,
+    "all_delivery_directories_exist_and_are_empty": true,
+    "all_execution_receipts_match_submitted_input_and_delivery": true,
+    "all_first_and_second_stream_assistant_bytes_equal_returned_originals": true,
+    "all_host_stream_hashes_match_turn_metadata": true,
+    "all_network_namespaces_differ": true,
+    "all_original_outputs_equal_extracted_and_executed_source": true,
+    "all_returned_inputs_match_fixed_packets": true,
+    "all_second_prompts_exactly_rebuilt_from_failure_receipts": true,
+    "all_worker_model_host_inference_and_tools_consistent": true,
+    "chronological_order_and_time_limit_checked_against_registered_order": true,
+    "counts_include_no_dummy_trials": true,
+    "each_slot_single_session_new_across_slots": true
+  },
+  "provider": "Opus",
+  "schema": "dmd-g3-opus-intake-v1",
+  "slot_elapsed_seconds": {
+    "maximum": 39.546776,
+    "median": 35.0995935,
+    "minimum": 31.168568,
+    "sum": 569.636466
+  },
+  "slots": [
+    {
+      "cli_reported_cost_usd": 0.2324002,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 1,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "91365413b6ba9c18f07ab3c0ce3f786caa2bbcd181d8e51ab7ae9ece27ac24c9",
+      "slot_seconds": 36.165035,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 7788,
+        "cache_read_input_tokens": 8090,
+        "input_tokens": 6,
+        "output_tokens": 3683,
+        "reasoning_tokens": 787
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.2079258,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 2,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "7c5c7b4b080b3dcf999e582b8fdd517c1dbbc83c89287f2f2aae45fee6920bd3",
+      "slot_seconds": 39.546776,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 5597,
+        "cache_read_input_tokens": 5438,
+        "input_tokens": 6,
+        "output_tokens": 3964,
+        "reasoning_tokens": 746
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.195727,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 3,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "7faa3a0e3dea7d7b25c039de0df82b8827af58e001f7a46559b18264c1ad9233",
+      "slot_seconds": 37.939481,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 5372,
+        "cache_read_input_tokens": 5704,
+        "input_tokens": 6,
+        "output_tokens": 3817,
+        "reasoning_tokens": 999
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.2351374,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 4,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "30f7d1a903b1a2fc84fe9a93ceb63cc108a561ef7f7db9797df91d35bd9e1a48",
+      "slot_seconds": 34.469224,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 8115,
+        "cache_read_input_tokens": 8356,
+        "input_tokens": 6,
+        "output_tokens": 3506,
+        "reasoning_tokens": 878
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.21262459999999997,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 5,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "f04b2a729ba56ab1f5cd9585b6dcdda641c08c40c24f3cf637d6aa18d5a3deb8",
+      "slot_seconds": 33.775826,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 7335,
+        "cache_read_input_tokens": 8052,
+        "input_tokens": 6,
+        "output_tokens": 3319,
+        "reasoning_tokens": 740
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.1893986,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 6,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "3b41ca2e0b6f0148df352f9d46a7941494047a5ffc3b142f9e4d325f9382ea08",
+      "slot_seconds": 34.323362,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 5233,
+        "cache_read_input_tokens": 5402,
+        "input_tokens": 6,
+        "output_tokens": 3585,
+        "reasoning_tokens": 620
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.178962,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 7,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "e0acceb69623026f01e242fbaf6295f6ee48092e518fafd596ac7bfa1a8d1980",
+      "slot_seconds": 33.341262,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 5160,
+        "cache_read_input_tokens": 5659,
+        "input_tokens": 6,
+        "output_tokens": 3254,
+        "reasoning_tokens": 486
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.2172356,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 8,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "cd0abb659fda4059ce785271ea95a84c9871d72deab844296926336d1cf343ed",
+      "slot_seconds": 31.168568,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 7740,
+        "cache_read_input_tokens": 8307,
+        "input_tokens": 6,
+        "output_tokens": 3127,
+        "reasoning_tokens": 745
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.23481879999999997,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 9,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "15ec58b84d5f89fa87c2676f357e4e9ffda157985473ffdfe5f3759726875277",
+      "slot_seconds": 37.081173,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 7942,
+        "cache_read_input_tokens": 8303,
+        "input_tokens": 6,
+        "output_tokens": 3775,
+        "reasoning_tokens": 884
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.2001892,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 10,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "c7a4f91f8a5cb41d23f2a95411e9765e3be0be9d2c41cd5af1a060f29101cb44",
+      "slot_seconds": 38.572573,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 5605,
+        "cache_read_input_tokens": 5655,
+        "input_tokens": 6,
+        "output_tokens": 3726,
+        "reasoning_tokens": 606
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.1892268,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 11,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "8b1dc199d60bbe6c131ff46ff1bd1e6d8a4463d2dac0369f214cc8dd205a7aff",
+      "slot_seconds": 36.068519,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 5053,
+        "cache_read_input_tokens": 5403,
+        "input_tokens": 6,
+        "output_tokens": 3766,
+        "reasoning_tokens": 737
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.2214372,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 12,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "8a15dce8b515443dff63f3fd864d62f0268d3eb73c355e64f2cf0d7845a37795",
+      "slot_seconds": 35.262346,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 7541,
+        "cache_read_input_tokens": 8055,
+        "input_tokens": 6,
+        "output_tokens": 3505,
+        "reasoning_tokens": 731
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.21546579999999999,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 13,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "dc400ec6a666bbd0bbfc2b5972af86aa879ce885ca89655b7fcee233313e6e77",
+      "slot_seconds": 34.936841,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 7295,
+        "cache_read_input_tokens": 8418,
+        "input_tokens": 6,
+        "output_tokens": 3721,
+        "reasoning_tokens": 1126
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.1774756,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 14,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "cf9bac14a81c46530fb8d81d06b739544ae3e628eb0d91dbacf49df6b2bb7b91",
+      "slot_seconds": 34.243089,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 5101,
+        "cache_read_input_tokens": 5767,
+        "input_tokens": 6,
+        "output_tokens": 3390,
+        "reasoning_tokens": 766
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.1754234,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 15,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "59f563235aee85b64cad6c71504f99f2832e8f7f2a33ec2b2c4a2d8d02375e53",
+      "slot_seconds": 34.366276,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 5011,
+        "cache_read_input_tokens": 5646,
+        "input_tokens": 6,
+        "output_tokens": 3288,
+        "reasoning_tokens": 762
+      }
+    },
+    {
+      "cli_reported_cost_usd": 0.227601,
+      "delivery_files": 0,
+      "exit_code": 1,
+      "ordinal": 16,
+      "python_error": "SyntaxError",
+      "slot_manifest_sha256": "8b8c2849ec401f0992411db5c159480cf161e0dfae62773f5df236626c52441c",
+      "slot_seconds": 38.376115,
+      "state": "submitted",
+      "turns": 2,
+      "usage": {
+        "cache_creation_input_tokens": 7564,
+        "cache_read_input_tokens": 8294,
+        "input_tokens": 6,
+        "output_tokens": 3865,
+        "reasoning_tokens": 1058
+      }
+    }
+  ],
+  "source_commit": "1ef97af3e3e2e8d1056464e086137e784690c4fb",
+  "span_utc": {
+    "first_turn_started": "2026-11-22T03:52:33.373975+00:00",
+    "last_turn_ended": "2026-11-22T04:02:19.357991+00:00"
+  },
+  "tools": [],
+  "usage_observed": {
+    "cache_creation_input_tokens": 103452,
+    "cache_read_input_tokens": 110549,
+    "input_tokens": 96,
+    "output_tokens": 57291,
+    "reasoning_tokens": 12671
+  }
+}
