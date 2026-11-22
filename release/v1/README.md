@@ -7,11 +7,11 @@
 | G1 本体と配布範囲 | 完了 | [配布候補7ファイル、通常引き継ぎと既存監査の互換範囲](SCOPE.md) |
 | G2 評価計画の事前登録 | 完了 | [案件・モデル・採否基準](evaluation/PROTOCOL.md)、[GPTの隔離ダミー](evaluation/ISOLATION.md)、[独立検算](evaluation/input-crosscheck.json) |
 | G3 未見の実作業、原記録の固定 | 完了（32/32提出） | [事前固定](https://github.com/Blackpug-LLM48P/done-means-done/commit/1ef97af3e3e2e8d1056464e086137e784690c4fb)、[GPT 16枠](evaluation/gpt-wave-summary.json)、[Opus 16枠](evaluation/opus-wave-summary.json) |
-| G4 独立採点・人による読解 | 進行中 | [実納品の機械採点](evaluation/delivery-summary.json)。[報告の独立採点・裁定完了](evaluation/REPORT_SCORING.md)。実読解0/32 |
-| G5 採否 | 保留 | 人による読解の実測待ち。[事前登録の採否基準](evaluation/PROTOCOL.md) |
-| G6〜G8 RC・回帰・配布 | 未着手 | G5の判定後に配布対象を決める |
+| G4 納品・報告の評価 | 終了 | [実納品の照合](evaluation/delivery-summary.json)、[独立採点・裁定](evaluation/REPORT_SCORING.md)。人による読解は未実施で終了し、運営判断には[報告と原票の照合](evaluation/RELEASE_DECISION.md)を使用 |
+| G5 採否 | 終了（現候補の配布見送り） | [配布判断と根拠](evaluation/RELEASE_DECISION.md) |
+| G6〜G8 RC・回帰・配布 | 対象外 | G5で現候補の配布を見送ったため |
 
-**本線8工程のうち完了3、残り5。** 8案件それぞれについて一行指示（B）とDMD全文（C）をGPT・Opusで1回ずつ実行。32枠すべてで、本人の2ターン目の最終報告を受領した。B1の受信側、R1の候補確認、別枠X1はこの比較の対象外。
+**本線8工程のうち5工程を終え、配布に進む場合の3工程は対象外。v1.0の発行は見送り。** 8案件それぞれについて一行指示（B）とDMD全文（C）をGPT・Opusで1回ずつ実行。32枠すべてで、本人の2ターン目の最終報告を受領した。B1の受信側、R1の候補確認、別枠X1はこの比較の対象外。
 
 ## 登録と原記録
 
@@ -34,9 +34,9 @@
 | Opus・一行 B | 8/8 | 0/53 | 53 | 0 |
 | Opus・全文 C | 8/8 | 0/53 | 53 | 0 |
 
-## 次の工程
+## 現候補の配布判断
 
-32報告の独立64票と必要な裁定を記録した。[報告の採点表](evaluation/REPORT_SCORING.md) ／ [系列・条件・案件別の集計](evaluation/report-scores.json)。残るG4の工程は日本語読者4人×8報告の読解。現時点では実測0/32。G5の採否は保留。
+全文版は両系列で登録済みの改善幅に届かなかった。一行版の印刷見本案件では、受け手に渡る文章から業務上の保留2品目を特定できなかった。11月22日、運営はこの候補の配布を見送った。予定していた読者試験は0/32報告で終了した。[文書照合と配布判断](evaluation/RELEASE_DECISION.md) ／ [報告の採点表](evaluation/REPORT_SCORING.md) ／ [系列・条件・案件別の集計](evaluation/report-scores.json)
 
 | 運営側で保管するファイル | SHA-256 |
 | --- | --- |
