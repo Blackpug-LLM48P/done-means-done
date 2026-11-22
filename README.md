@@ -20,11 +20,11 @@ For Claude Code, the corresponding project directory is `.claude/skills/`. When 
 
 Give the agent access to the request, the relevant work record and its draft. You can ask it to check the outgoing message in the recipient's language.
 
-> report-reality-check で納品報告を確認してください。依頼された成果物を指定先で開けるか、残っている作業は何かを照合してください。
+> Use `report-reality-check` to review my handoff. Which deliverables can the recipient open at the agreed location? What still needs to be done?
 
 Suppose someone asked for a manuscript and a cover image. The manuscript opens at the agreed destination. The record shows only that someone requested the cover. The recipient can use this handoff.
 
-> 原稿は指定先で開けました。表紙画像は制作担当に依頼済みです。納品先に届いたかは未確認です。
+> I opened the manuscript at the agreed location. The cover has been requested. I haven’t confirmed whether it has arrived.
 
 If the agent owns the work and can check the destination, it checks before handing off. A retrospective reviewer can describe the gap using the supplied record.
 
