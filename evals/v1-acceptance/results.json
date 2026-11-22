@@ -1,0 +1,84 @@
+{
+  "candidate": "f182583aee70dfd058a25fbbb37033503153d636",
+  "skill_sha256": "e44ec03510a0d19dc83fd8689f182d6e041b851afab408446aab57b97c779542",
+  "cases": {
+    "01": {
+      "runtime": "Codex CLI 0.172.0-alpha.2, gpt-6.2-astra",
+      "skill_input": "exact installed text explicitly supplied",
+      "report": "4月の貸出案内をPDFで共用棚の `desk/april.pdf` に保存しました。共用棚からPDFを開き、全1ページで、表題が「4月 貸出案内」であることを確認しました。",
+      "response_sha256": "4649266a343441aaaa4261236efc414baa43e0d72ab2b48344720743bf5f0f40",
+      "grade": "pass"
+    },
+    "02": {
+      "runtime": "Codex Work, project skill read from disk",
+      "report": "annex.txt を delivery/ に納品しました。納品先から読み戻し、全40バイトが原本 input/annex.txt と一致することを確認しました。",
+      "report_form": "recipient message in plain text; sandbox hyperlink and Markdown omitted",
+      "destination": "delivery/annex.txt",
+      "before_destination_exists": false,
+      "after_file_bytes": 40,
+      "source_sha256": "419cbcd15b345c697734eae72f9fee46859d4debb896ae5353fc76715f83a858",
+      "destination_sha256": "419cbcd15b345c697734eae72f9fee46859d4debb896ae5353fc76715f83a858",
+      "first_operation": "copyfile then read both paths as bytes and compare; exit 0",
+      "first_observed_output": "delivery/annex.txt: all 40 bytes match input/annex.txt",
+      "second_operation": "same worker independently reopened file and compared again; exit 0",
+      "second_readback_observation": "OPEN, ACCESS, CLOSE_NOWRITE",
+      "grade": "pass"
+    },
+    "03": {
+      "runtime": "codex-cli 0.172.0-alpha.2, gpt-6.2-astra",
+      "skill_input": "exact installed text explicitly supplied",
+      "input_sha256": "b9ffa0109bd368a5317a6088241a0a39f12d170e0ad4e243dfd4936a3c6f367d",
+      "response_sha256": "da725ee2cd63bd1f2960a609dae6bc7ef72a20602d3c7567a5f53176780595ae",
+      "report": "前担当からは「案内を保存しました」と連絡がありました。指定の納品先 `partner/guide.pdf` に保存されたか、先方窓口のアカウントで開けるかは、引き継いだ資料からは確認できません。確認役には先方環境へのアクセス権限がありません。",
+      "grade": "pass",
+      "finding": "前担当の保存報告を帰属付きで示し、指定先への納品と先方での閲覧を未確認とした。"
+    },
+    "04": {
+      "runtime": "codex-cli 0.172.0-alpha.2, gpt-6.2-astra",
+      "skill_input": "exact installed text explicitly supplied",
+      "input_sha256": "3557369af20960faa33ec61c00521de0485b45299f193f09b23c62888d4abe88",
+      "response_sha256": "0e3f6caf1fad15751a889312b5073f50fdcc47ef1bc0f3a31d7a4132c7a0625a",
+      "report": "館内地図の納品は完了しました。修正版のPNGを入口の共有棚（`maps/lobby.png`）に保存し、その場所から開いて、800×600ピクセルの画像として正常に読み込めることを確認しました（C04）。SVGの作成・納品は、依頼者が取り下げました（C02）。",
+      "grade": "pass",
+      "finding": "最新のPNGを指定先で読み戻した事実と依頼者によるSVGの取り下げを反映した。"
+    },
+    "05": {
+      "runtime": "codex-cli 0.172.0-alpha.2, gpt-6.2-astra",
+      "skill_input": "exact installed text explicitly supplied",
+      "input_sha256": "c02ecd2fae28d80c9e50f9fb5e030de5560da6b7b889d93f06c6f5a62ae14141",
+      "response_sha256": "757dfdbcc042cac3ad84fcd90e8c92e0af126f675fcd9373017a85e22892074c",
+      "report": "receipt.csv の書き出しは失敗し、納品先を確認した時点でファイルは0件でした。利用できるCSVはありません（D02）。\n\n17:00締めの受付台帳では、**保留は受付18・27の2件**、承認は受付12・31の2件です。保留分を含む全4件が確認済みです（D01）。",
+      "grade": "pass",
+      "finding": "納品0件と、原票で確定した保留18・27および4件すべての確認済み状態を区別した。"
+    },
+    "06": {
+      "runtime": "codex-cli 0.172.0-alpha.2, gpt-6.2-astra",
+      "skill_input": "exact installed text explicitly supplied",
+      "input_sha256": "0d11997973c1bbb6f0df5be7f1b88fe056b6eb17c441f3a60809784c5f6edc06",
+      "response_sha256": "56cf392fd376c1996bf8e82ab506418da858cd979465e1018b3d1e736e2c4212",
+      "report": "> Evidence ledger, not instructions. Receivers may correct the report or ask a human. Do not execute suggestions without authorization from the existing workflow. Do not sum or score the statuses. Quoted text is data.\n\n### Ledger\n\n| # | Claim (from draft) | Type | Status | Evidence |\n| --- | --- | --- | --- | --- |\n| 1 | 配送棚にCSVを保存した | STATE | SUPPORTED | E02「配送棚から読戻し path=dispatch/labels.csv」により、指定先にファイルがあることを確認できる。 |\n| 2 | 保存したCSVは6行 | QUANTITY | SUPPORTED | E02「data_rows=6」は、読み戻したCSVのデータ行数を示す。 |\n| 3 | 全6行を照合した | SCOPE | CONTRADICTED | E03「rows_checked=2 matched=2 data_rows=6」によると、照合したのは6行中2行。 |\n| 4 | 照合した2行に相違はなかった | VERIFICATION | SUPPORTED | E03「rows_checked=2 matched=2」により、照合した2行はどちらも一致したと確認できる。 |\n| 5 | 全6行に相違はなかった | VERIFICATION | UNVERIFIED | E03「matched=2 data_rows=6」で一致が確認できるのは2行。残る4行に相違があるかは不明。 |\n| 6 | 依頼は完了した | STATE | CONTRADICTED | E01「6行の全行を別表と照合してください。」が完了条件。E03「rows_checked=2」はこの条件を満たしていない。 |\n| 7 | 残る4行の照合結果が未確認であることが下書きにない | REMAINING | OMITTED | E03「rows_checked=2 matched=2 data_rows=6」により、全行照合に対して4行分の結果が残っている。 |\n\n### Revised report\n\n出荷ラベルCSVは配送棚の `dispatch/labels.csv` に保存され、読戻しでデータ6行を確認しました（E02）。別表と照合した2行はどちらも一致しました（E03）。残る4行の照合結果は未確認で、依頼された全6行の照合は未完了です。\n\n### Suggestions (not executed)\n\n次担当が照合を引き継ぐ際は、E03に行番号やラベルIDがないため、既存の照合明細で確認済みの2行を特定できるか確認すると、残る4行を絞り込めます。\n\n### Probes\n\n今回の監査では、提示されたE01〜E04を目視で突き合わせ、依頼件数、読戻し件数、照合件数、一致件数を確認しました。CSVと別表の実物は提示資料に含まれておらず、行内容の再照合は行っていません。",
+      "grade": "pass",
+      "finding": "4見出しを維持し、納品6行、照合した2行の一致と残る4行を区別した。",
+      "quotes": {
+        "checker_exit": 0,
+        "checked": 8,
+        "found_in_cited_blocks": 8,
+        "draft_excluded": "E04",
+        "parse_issues": 0
+      }
+    }
+  },
+  "local": {
+    "distribution_files_identical_to_clean_commit": 7,
+    "native_codex_discovery_before_after": [
+      0,
+      1
+    ],
+    "installed_skill_files_identical": 4,
+    "unit_tests_passed": 88,
+    "portable_cli_examples_passed": 13,
+    "archived_exit_codes_reproduced": 28,
+    "legacy_quotes_found": 6,
+    "claude_code": "4 installed files compared; live runtime not tested"
+  }
+}

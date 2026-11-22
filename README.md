@@ -1,62 +1,48 @@
-# done-means-done
+# Done Means Done
 
-> Your agent says it's done. Make it show the receipts.
+An agent uses `report-reality-check` before it says a job is finished. It compares the original request, the work record and the message it is about to send. When work remains within the agent's existing authorization, it returns to the task and checks the result. When another person needs to take over, it tells them what they can use and what is still open.
 
-An experimental agent skill that checks an AI agent's report against the session record **before** it says "done", then rewrites the report to match the evidence.
-
-**Status:** prototype (v0.3). The effect has not been measured yet. See [DESIGN.md](skills/report-reality-check/DESIGN.md) for the evaluation plan and kill criteria.
-
-## The problem
-
-Agents often report more than they did:
-
-- "All 120 rows translated" — 80 were.
-- "Tests pass" — they never ran, or only lint did.
-- "Saved to /shared/out/" — the write failed and the file went to /tmp.
-- A worker's "2 inconsistencies" becomes "many typos" in the summary.
-- Failures and leftover work quietly disappear from the final report.
-
-## What the skill does
-
-`report-reality-check` runs right before a completion claim or a handoff:
-
-1. **Extract** every claim in the draft report: quantity, state, verification, scope, hearsay, remaining work.
-2. **Reconcile** each claim with the record — SUPPORTED, CONTRADICTED, UNVERIFIED, or OMITTED — with a short verbatim quote as evidence.
-3. **Rewrite** the report so it says only what the record supports.
-
-It never redoes the work. Read-only probes, such as listing files or `git status`, are allowed.
-
-Before:
-
-> Done. All 120 rows translated, glossary check passed, saved to /shared/out/.
-
-After:
-
-> Not complete. 80 of 120 rows translated. Glossary check covered rows 1–60 only. Saved to /tmp/ because /shared/out/ returned PermissionError. Rows 81–120 were not processed; cause not confirmed.
+**v1.0** · [Skill instructions](skills/report-reality-check/SKILL.md) · [Changelog](CHANGELOG.md) · [MIT license](LICENSE)
 
 ## Install
 
-Copy `skills/report-reality-check/` into your agent's skills directory. Copy the whole folder: the optional extended check needs `references/work-state-check.md`, and with SKILL.md alone it is skipped. For Claude Code, that is `.claude/skills/` in a project, or `~/.claude/skills/` for all projects.
+Extract the release or check out its source. From that directory, copy the entire skill folder into your project. For a new Codex project installation, replace the path in this example with your project path.
 
-## What it is not
-
-- Not a measure of AI emotion, fatigue, or "stress".
-- Not a check of content quality. A wrong translation that ran successfully still looks like a success.
-- Not proven. A one-line instruction might work just as well; the evaluation plan tests exactly that.
-
-## Origin
-
-The idea started as "AI Stress Check" (AI用ストレスチェック), a checklist loosely inspired by the Japanese Brief Job Stress Questionnaire (職業性ストレス簡易調査票). The original Japanese versions are in [`origin/`](origin/). Their 12-item work-state check survives here as an optional extended check.
-
-## Repository layout
-
-```
-skills/report-reality-check/   the skill: SKILL.md, references/, scripts/, DESIGN.md
-evals/                         planted logs and answer keys (see evals/README.md); nothing measured yet
-tests/                         tests for scripts/verify_quotes.py
-origin/                        AI Stress Check v0.1–v0.2 (Japanese)
+```sh
+project="/path/to/your/project"
+mkdir -p "$project/.agents/skills"
+cp -R skills/report-reality-check "$project/.agents/skills/"
 ```
 
-## License
+For Claude Code, the corresponding project directory is `.claude/skills/`. When updating an existing installation, replace the installed skill folder with the release copy. Keep the included `references/` and `scripts/` directories alongside `SKILL.md`.
 
-MIT
+## Use it on an actual handoff
+
+Give the agent access to the request, the relevant work record and its draft. You can ask it to check the outgoing message in the recipient's language.
+
+> report-reality-check で納品報告を確認してください。依頼された成果物を指定先で開けるか、残っている作業は何かを照合してください。
+
+Suppose someone asked for a manuscript and a cover image. The manuscript opens at the agreed destination. The record shows only that someone requested the cover. The recipient can use this handoff.
+
+> 原稿は指定先で開けました。表紙画像は制作担当に依頼済みです。納品先に届いたかは未確認です。
+
+If the agent owns the work and can check the destination, it checks before handing off. A retrospective reviewer can describe the gap using the supplied record.
+
+## Request a detailed audit
+
+Ask for an **evidence ledger** to see individual claims, their status and a short quotation with its source. The audit keeps its existing header and four headings, `Ledger`, `Revised report`, `Suggestions (not executed)` and `Probes`. Routine use returns the revised handoff. Existing integrations that consume the ledger should explicitly request the audit. You can request an extended audit to include the bundled [work-state check](skills/report-reality-check/references/work-state-check.md).
+
+When the ledger and original records are saved as files, the optional Python 3 checker verifies quoted text and source IDs. Supply the draft's block ID to exclude it as evidence. The output gives separate counts for quotes found in cited blocks and by whole-record search.
+
+```sh
+python3 skills/report-reality-check/scripts/verify_quotes.py --help
+python3 skills/report-reality-check/scripts/verify_quotes.py --draft L23 ledger.md record.txt
+```
+
+Replace the example filenames and block ID with your own. Judging whether a quote supports the claim, and whether the report omits a deliverable, still requires reading the evidence.
+
+## Evaluation and history
+
+A paired v0.4 evaluation collected 32 final reports from GPT and Opus. Both series fell short of the pre-registered improvement threshold over a one-line instruction. Readers were not recruited, so reading speed and human accuracy were not measured. [Scoring and counts](https://github.com/Blackpug-LLM48P/done-means-done/blob/1fc803b0925feb8524162bed60b7a392b3c4bd7c/release/v1/evaluation/REPORT_SCORING.md) · [Decision for the v0.4 candidate](https://github.com/Blackpug-LLM48P/done-means-done/blob/1fc803b0925feb8524162bed60b7a392b3c4bd7c/release/v1/evaluation/RELEASE_DECISION.md).
+
+Run the quote-checker regression tests from a repository checkout with `python3 -m unittest discover -s tests`. The [original design notes](skills/report-reality-check/DESIGN.md) trace the project from its Japanese work-state checklist to evidence-based completion reporting.
