@@ -1,7 +1,7 @@
 # Extended work-state check (12 items + 1 experimental)
 
-Use this for handoffs and audits. It inherits the Hard rules in SKILL.md.
-Successor to AI Stress Check v0.2 (Japanese). Item wording is kept close to v0.2 so results stay comparable.
+Use this when the request or receiving workflow calls for the extended work-state check. Follow the read-only rules in [SKILL.md](../SKILL.md).
+Successor to AI Stress Check v0.2 (Japanese). Item wording is kept close to v0.2 for historical traceability; changed scales and versions are not directly comparable.
 
 Changes from v0.2:
 - B3 is new and experimental.
